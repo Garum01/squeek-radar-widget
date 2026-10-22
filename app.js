@@ -230,7 +230,7 @@ function render() {
   $('project-count').textContent = String(state.projects.filter(namedProject).length);
   // Describes how often the list is republished, not how fast a project is found.
   const shown = projects.length;
-  $('embed-count').textContent = 'Squeek Radar · ' + shown + (shown === 1 ? ' project' : ' projects') + ' · list republished every 5 min';
+  $('embed-count').textContent = 'Squeek Radar · ' + shown + (shown === 1 ? ' project' : ' projects') + ' · list republished every hour';
   $('message').hidden = projects.length > 0;
   if (projects.length) return;
   $('message').textContent = embedMode ? 'New ecosystem projects will appear here as they are identified.' :
