@@ -5,6 +5,8 @@
       "category": "vault",
       "contracts": [],
       "description_en": "The developer describes an automated vault combining Squeekchain mining, hourly long/short strategies and compounding. A testnet has been announced; the contract and live operation have not been independently confirmed.",
+      "description_origin": "source",
+      "ecosystem_status": "confirmed",
       "evidence": [
         {
           "kind": "team_mention",
@@ -13,6 +15,8 @@
       ],
       "first_seen": "2026-10-22T01:57:35.644718+00:00",
       "id": "733c1084f8c689d3",
+      "identity_status": "resolved",
+      "lifecycle_stage": "testnet_announced",
       "links": {
         "announcement": "https://x.com/CelerityCodes/status/2112654209430827034",
         "website": "https://quad.cx"

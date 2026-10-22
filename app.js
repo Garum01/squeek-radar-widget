@@ -10,6 +10,7 @@ const state = {projects: [], filter: 'all', query: '', category: 'all', updated:
 let refreshing = false;
 
 const stageLabels = {
+  unknown: 'Stage not confirmed',
   research: 'Early signal · under review',
   development: 'In development',
   testnet_announced: 'Testnet announced by the developer',
@@ -18,6 +19,7 @@ const stageLabels = {
 };
 // Short stage names for the tag next to a project's name.
 const stageTags = {
+  unknown: 'Stage not confirmed',
   research: 'Early signal', development: 'In development', testnet_announced: 'Testnet announced',
   launch_announced: 'Launch announced', live_confirmed: 'Live'
 };
@@ -26,8 +28,9 @@ const linkLabels = {
   telegram: ['➤', 'Telegram'], github: ['⌘', 'GitHub'], docs: ['▤', 'Docs'], explorer: ['⌕', 'Explorer']
 };
 const sourceLabels = {
-  deployment: 'Official deployment record', announcement: 'Known project announcement',
-  x: 'Team posts & quotes', github: 'Public GitHub discovery', onchain: 'On-chain discovery',
+  deployment: 'Official deployment record',
+  x: 'Team posts, quotes & conversations', github: 'Public GitHub discovery', onchain: 'On-chain discovery',
+  linkage: 'Website / contract linkage', agent: 'AI candidate review',
   websites: 'Project websites', maintenance: 'Data maintenance'
 };
 
@@ -91,10 +94,11 @@ function chainEvidence(project) {
 }
 
 function namedProject(project) {
-  return project.stage !== 'research' || Boolean(project.links?.website);
+  return ['development', 'testnet_announced', 'launch_announced', 'live_confirmed'].includes(project.stage) || Boolean(project.links?.website);
 }
 
 function evidenceLabel(project) {
+  if (project.publication_origin === 'owner_approved') return 'Owner-reviewed listing · see sources';
   if (chainEvidence(project)) return 'On-chain evidence found';
   if (teamEvidence(project)) return 'Mentioned by the team · see source';
   return 'Public-source candidate · under review';
@@ -192,6 +196,7 @@ function card(project) {
   top.append(projectLogo(project), info);
   const description = project.description_en || 'A new ecosystem signal. More information is being gathered.';
   article.append(top, el('p', 'description', description));
+  if (project.description_origin === 'ai') article.append(el('p', 'evidence-note', 'AI-generated summary · verify with the linked sources.'));
   const meta = el('div', 'card-meta');
   meta.append(el('span', 'evidence-tag', evidenceLabel(project)), el('span', 'first-seen', 'FOUND ' + date(project.first_seen).toUpperCase()));
   article.append(meta, projectDetails(project));
@@ -253,7 +258,8 @@ function renderSources(sources) {
 function renderCoverage(data) {
   renderSources(data.sources);
   const relevant = data.sources.filter(s => !['maintenance', 'websites'].includes(s.name));
-  const limited = !relevant.length || relevant.some(s => s.status !== 'ok');
+  const limited = !relevant.length || relevant.some(s => s.status !== 'ok' ||
+    (s.name === 'x' && /recent_window_only|pending|bounded_history|cursor_stalled|unavailable/.test(s.detail || '')));
   $('coverage-label').textContent = limited ? 'Limited source coverage' : 'Sources checked';
   $('coverage-dot').classList.toggle('good', !limited);
   $('last-scan').textContent = data.last_scan ? 'Last cycle ' + new Date(data.last_scan).toLocaleTimeString('en-GB', {hour: '2-digit', minute: '2-digit'}) + ' · your local time' : 'First scan in progress';
