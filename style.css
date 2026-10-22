@@ -8,3 +8,8 @@ body.dark{--bg:#171d18;--paper:#1d251e;--ink:#e8ebdf;--muted:#a1aa9a;--line:#364
 @media(prefers-reduced-motion:no-preference){.project-link,.tab{transition:background .15s,border-color .15s}}
 .embed .masthead,.embed .intro,.embed .directory-bar,.embed .controls,.embed footer,.embed .sources{display:none}.embed .page-shell{padding:12px;max-width:none}.embed main{padding:0}.embed .project{box-shadow:none}
 .tabs{flex-wrap:wrap;flex-shrink:1}.project h2{overflow-wrap:anywhere}
+
+/* Moni may keep iframe height fixed. Scroll inside the widget even when the
+   iframe has scrolling=no; the content observer can still report natural height. */
+html.embed-document,.embed-document body{height:100%;overflow:hidden}
+.embed .page-shell{height:100vh;overflow-y:auto;overscroll-behavior:contain;scrollbar-gutter:stable}
