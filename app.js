@@ -16,8 +16,13 @@ const stageLabels = {
   launch_announced: 'Launch announced by the developer',
   live_confirmed: 'Live activity confirmed'
 };
+// Short stage names for the tag next to a project's name.
+const stageTags = {
+  research: 'Early signal', development: 'In development', testnet_announced: 'Testnet announced',
+  launch_announced: 'Launch announced', live_confirmed: 'Live'
+};
 const linkLabels = {
-  x: ['𝕏', 'X'], announcement: ['↗', 'Announcement'], website: ['◎', 'Website'],
+  x: ['𝕏', 'X'], announcement: ['𝕏', 'Announcement'], website: ['◎', 'Website'],
   telegram: ['➤', 'Telegram'], github: ['⌘', 'GitHub'], docs: ['▤', 'Docs'], explorer: ['⌕', 'Explorer']
 };
 const sourceLabels = {
@@ -182,6 +187,7 @@ function card(project) {
   const info = el('div', 'project-info');
   const nameRow = el('div', 'name-row');
   nameRow.append(el('h2', '', project.name), el('span', 'category', (project.category || 'other').replaceAll('_', ' ')));
+  if (stageTags[project.stage]) nameRow.append(el('span', 'category stage', stageTags[project.stage]));
   info.append(nameRow, projectLinks(project));
   top.append(projectLogo(project), info);
   const description = project.description_en || 'A new ecosystem signal. More information is being gathered.';
@@ -222,6 +228,9 @@ function render() {
     if (open.has(article.id)) article.querySelector('details').open = true;
   }
   $('project-count').textContent = String(state.projects.filter(namedProject).length);
+  // Describes how often the list is republished, not how fast a project is found.
+  const shown = projects.length;
+  $('embed-count').textContent = 'Squeek Radar · ' + shown + (shown === 1 ? ' project' : ' projects') + ' · list republished every 5 min';
   $('message').hidden = projects.length > 0;
   if (projects.length) return;
   $('message').textContent = embedMode ? 'New ecosystem projects will appear here as they are identified.' :
@@ -298,7 +307,10 @@ function bindControls() {
     $('sources').hidden = !open;
     $('source-toggle').setAttribute('aria-expanded', String(open));
   });
-  try {document.body.classList.toggle('dark', localStorage.getItem('radar-theme') === 'dark');} catch {}
+  // The Moni widget is always light; the catalog's saved theme must not leak into it.
+  if (!embedMode) {
+    try {document.body.classList.toggle('dark', localStorage.getItem('radar-theme') === 'dark');} catch {}
+  }
   $('theme').addEventListener('click', () => {
     const dark = document.body.classList.toggle('dark');
     try {localStorage.setItem('radar-theme', dark ? 'dark' : 'light');} catch {}
