@@ -1,4 +1,36 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Squeek Radar</title>
-<style>body{margin:0;background:#fff;color:#14151a;font:15px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}main{max-width:720px;margin:0 auto;padding:40px 20px}p{color:#68707b}</style></head>
-<body><main><h1>Squeek Radar</h1><p>Projects building on Squeekchain. The first build of this widget is being prepared.</p></main></body></html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="An evidence-led directory of projects building with Squeekchain.">
+  <meta name="color-scheme" content="light dark">
+  <title>Squeek Radar — Ecosystem directory</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css?v=3">
+  <script src="./app.js?v=3" defer></script>
+</head>
+<body class="embed" data-public-feed="projects.json">
+  <div class="page-shell">
+    <header class="masthead">
+      <a class="brand" href="./" aria-label="Squeek Radar home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>Squeek Radar<span class="beta">EARLY ACCESS</span></a>
+      <button id="theme" class="theme" type="button" aria-label="Switch color theme">◐ <span>Theme</span></button>
+    </header>
+    <main>
+      <section class="intro" aria-labelledby="headline">
+        <div><p class="eyebrow"><span class="tiny-cross">✳</span> THE SQUEEKCHAIN ECOSYSTEM</p><h1 id="headline">Small world.<br><em>New possibilities.</em></h1><p class="intro-copy">Discover what’s being built around Squeekchain.<br>Projects, useful links, and the evidence behind each find.</p></div>
+        <aside class="scan-panel"><div class="radar-graphic" aria-hidden="true"><span></span><i></i><b></b></div><p class="scan-title"><span class="status-dot" id="coverage-dot"></span><span id="coverage-label">Checking sources</span></p><p id="last-scan">Loading the latest observations…</p><button id="source-toggle" class="text-button" aria-expanded="false" aria-controls="sources">Source coverage <span>↗</span></button></aside>
+      </section>
+      <section id="sources" class="sources" hidden aria-label="Source coverage"></section>
+      <div class="directory-bar"><div><span class="section-label">THE DIRECTORY</span><span id="project-count" class="count">—</span></div><p>Independent discovery. Sources included.</p></div>
+      <section class="controls" aria-label="Filter projects">
+        <div class="tabs" role="group" aria-label="Evidence filters"><button type="button" class="tab selected" data-filter="all" aria-pressed="true">Projects</button><button type="button" class="tab" data-filter="team" aria-pressed="false">Team mentions</button><button type="button" class="tab" data-filter="early" aria-pressed="false">Early signals</button><button type="button" class="tab" data-filter="chain" aria-pressed="false">On-chain</button></div>
+        <div class="search-wrap"><label for="search" class="sr-only">Search projects</label><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Find a project…" autocomplete="off"><label for="category" class="sr-only">Project category</label><select id="category"><option value="all">All categories</option><option value="vault">Vaults</option><option value="game">Games</option><option value="nft">NFTs</option><option value="tools">Tools</option><option value="infrastructure">Infrastructure</option><option value="token">Tokens</option><option value="other">Other</option></select></div>
+      </section>
+      <div id="message" class="message" role="status" aria-live="polite">Finding our bearings…</div>
+      <section id="projects" class="projects" aria-label="Discovered projects"></section>
+      <footer><span class="footer-brand">✳ Squeek Radar</span><p>A growing map, not a seal of approval.<br>Mentions and integration evidence are shown separately.</p><span class="footer-note">BUILT AROUND A LITTLE HAMSTER.</span></footer>
+    </main>
+  </div>
+</body>
+</html>
