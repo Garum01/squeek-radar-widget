@@ -49,6 +49,32 @@
       "logo": "logos/b538bd4ded35e6d85154ad96a302521ab03aa245ebaa8f1ad562215cddeb148e.png",
       "name": "quadConnect",
       "stage": "testnet_announced"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "A real hamster. One hour. Bet IMD on the wheel, watch the live cam, and take a guess at the jackpot. Hamster Hour on Ethereum.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "x_profile",
+          "url": "https://x.com/hamsterhourgame"
+        }
+      ],
+      "first_seen": "2026-10-23T19:28:51.093916+00:00",
+      "id": "82c3c3c9cd2c39a7",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://hamsterhour.fun",
+        "x": "https://x.com/hamsterhourgame"
+      },
+      "logo": "logos/e23a1cb4daf73400c9f7751cf4dbaf9c116d200fad2649463448e67bd1c9fceb.jpg",
+      "name": "Hamster Hour · Bet on the hamster.",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
     }
   ],
   "public": true,
