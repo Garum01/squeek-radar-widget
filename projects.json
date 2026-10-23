@@ -1,6 +1,30 @@
 {
   "projects": [
     {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
+      "description_origin": "placeholder",
+      "ecosystem_status": "claimed",
+      "evidence": [
+        {
+          "kind": "x_profile",
+          "url": "https://x.com/pillheadddd/status/2112975065688256816"
+        }
+      ],
+      "first_seen": "2026-10-23T12:44:31.145131+00:00",
+      "id": "155d9b34cea277ee",
+      "identity_status": "unresolved",
+      "lifecycle_stage": "testnet_announced",
+      "links": {
+        "x": "https://x.com/wheelpadfun"
+      },
+      "name": "WheelPad",
+      "publication_origin": "owner_approved",
+      "stage": "testnet_announced"
+    },
+    {
       "builder": "CelerityCodes",
       "category": "vault",
       "contracts": [],
