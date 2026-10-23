@@ -197,6 +197,7 @@ function card(project) {
   const description = project.description_en || 'A new ecosystem signal. More information is being gathered.';
   article.append(top, el('p', 'description', description));
   if (project.description_origin === 'ai') article.append(el('p', 'evidence-note', 'AI-generated summary · verify with the linked sources.'));
+  if (project.description_origin === 'x_profile') article.append(el('p', 'evidence-note', 'From the project\'s own X profile · not independently verified.'));
   const meta = el('div', 'card-meta');
   meta.append(el('span', 'evidence-tag', evidenceLabel(project)), el('span', 'first-seen', 'FOUND ' + date(project.first_seen).toUpperCase()));
   article.append(meta, projectDetails(project));
