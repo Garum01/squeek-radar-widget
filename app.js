@@ -129,14 +129,16 @@ function projectLinks(project) {
   const container = el('div', 'links');
   container.setAttribute('aria-label', 'Project links');
   const links = normalizedLinks(project);
-  for (const kind of ['x', 'website', 'announcement', 'telegram', 'github', 'docs', 'explorer']) {
+  // X links (profile or announcement post) come first and show only the X mark.
+  for (const kind of ['x', 'announcement', 'website', 'telegram', 'github', 'docs', 'explorer']) {
     const [icon, label] = linkLabels[kind];
     const a = external(links[kind], 'project-link');
     if (!a) continue;
     a.append(el('span', 'link-icon', icon));
-    if (kind !== 'x') a.append(el('span', '', label));
+    if (kind !== 'x' && kind !== 'announcement') a.append(el('span', '', label));
     a.append(el('span', 'arrow', '↗'));
     a.setAttribute('aria-label', label + ' for ' + project.name + ' (opens in a new tab)');
+    a.title = kind === 'announcement' ? 'Announcement on X' : label;
     container.append(a);
   }
   return container;
