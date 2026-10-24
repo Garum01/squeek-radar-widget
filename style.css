@@ -16,8 +16,12 @@ h1{font:700 52px/1.05 var(--sans);letter-spacing:-.035em;color:var(--ink);margin
 .directory-bar{display:flex;align-items:center;justify-content:space-between;padding:16px 0;border-top:1px solid var(--line)}.count{margin-left:10px;font:600 11px var(--mono);background:var(--soft);color:var(--accent);padding:3px 7px}.directory-bar p{font-size:11px;color:var(--muted);margin:0}
 .controls{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:0 0 20px}.tabs{display:inline-flex;flex-wrap:wrap;border:1px solid var(--line)}.tab{border:0;border-right:1px solid var(--line);background:#fff;color:var(--body);font:600 12px/1.2 var(--sans);padding:9px 13px}.tab:last-child{border-right:0}.tab.selected{background:var(--soft);color:var(--accent);box-shadow:inset 0 -2px 0 var(--accent)}
 .search-wrap{display:flex;align-items:center;gap:9px}.search-wrap>span{font-size:21px;color:var(--muted)}input,select{background:#fff;border:1px solid var(--line);color:var(--ink);font-size:12px;padding:8px 9px}input{width:180px}select{max-width:150px}input::placeholder{color:var(--faint)}
-.projects{display:grid;gap:10px}
-.project{background:var(--paper);border:1px solid var(--line);padding:16px 18px 0;overflow:hidden}
+.projects{display:grid;gap:10px;grid-template-columns:minmax(0,1fr)}
+.project{background:var(--paper);border:1px solid var(--line);padding:16px 18px 0;overflow:hidden;display:flex;flex-direction:column}
+/* Two cards per row where there is room; one column on phones. Closed cards in a row share a height so their
+   footers line up; once a card's details are open, each card keeps its own height (no stretched blank card). */
+@media(min-width:640px){.projects{grid-template-columns:repeat(2,minmax(0,1fr))}.project .description{flex:1 0 auto}.projects:has(details[open]){align-items:start}}
+@media(min-width:640px) and (max-width:1099px){.projects .details-grid{grid-template-columns:1fr}}
 .project-top{display:flex;align-items:center;gap:14px}
 .logo{width:56px;height:56px;background:var(--soft);display:flex;align-items:center;justify-content:center;font:700 22px/1 var(--sans);text-transform:uppercase;flex-shrink:0;color:var(--accent);border:1px solid var(--line);overflow:hidden}.logo img{width:100%;height:100%;object-fit:contain;background:#fff}
 .project-info{min-width:0;flex:1}.name-row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
