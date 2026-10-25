@@ -79,6 +79,31 @@
       "name": "Hamster Hour",
       "publication_origin": "owner_approved",
       "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
+      "description_origin": "placeholder",
+      "ecosystem_status": "claimed",
+      "evidence": [
+        {
+          "kind": "x_profile",
+          "url": "https://x.com/hyperkrypt/status/2114343813292687625"
+        }
+      ],
+      "first_seen": "2026-10-25T13:16:39.889069+00:00",
+      "id": "dfaa761d2a4f6a82",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://lnk.bio",
+        "x": "https://x.com/hyperkrypt"
+      },
+      "name": "🌱𝗕𝗼𝘀𝘀𝗛𝘆𝗽𝗲𝗿",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
     }
   ],
   "public": true,
