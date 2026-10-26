@@ -25,8 +25,9 @@ const stageTags = {
 };
 const linkLabels = {
   x: ['𝕏', 'X'], announcement: ['𝕏', 'Announcement'], website: ['◎', 'Website'],
-  telegram: ['➤', 'Telegram'], github: ['⌘', 'GitHub'], docs: ['▤', 'Docs'], explorer: ['⌕', 'Explorer']
+  telegram: ['➤', 'Telegram'], github: ['⌘', 'Code'], docs: ['▤', 'Docs'], explorer: ['⌕', 'Explorer']
 };
+const categoryLabels = {game: 'Games', vault: 'Vaults', nft: 'NFTs', tools: 'Tools', infrastructure: 'Infrastructure', token: 'Tokens', other: 'Other'};
 const sourceLabels = {
   deployment: 'Official deployment record',
   x: 'Team posts, quotes & conversations', github: 'Public GitHub discovery', onchain: 'On-chain discovery',
@@ -90,7 +91,7 @@ function teamEvidence(project) {
 }
 
 function chainEvidence(project) {
-  return (project.evidence || []).some(e => e.kind.startsWith('onchain') || e.kind === 'contract_interaction');
+  return (project.evidence || []).some(e => String(e.kind || '').startsWith('onchain') || e.kind === 'contract_interaction');
 }
 
 function namedProject(project) {
@@ -129,13 +130,11 @@ function projectLinks(project) {
   const container = el('div', 'links');
   container.setAttribute('aria-label', 'Project links');
   const links = normalizedLinks(project);
-  // X links (profile or announcement post) come first and show only the X mark.
-  for (const kind of ['x', 'announcement', 'website', 'telegram', 'github', 'docs', 'explorer']) {
-    const [icon, label] = linkLabels[kind];
+  for (const kind of ['website', 'x', 'announcement', 'github', 'docs', 'telegram', 'explorer']) {
+    const [, label] = linkLabels[kind];
     const a = external(links[kind], 'project-link');
     if (!a) continue;
-    a.append(el('span', 'link-icon', icon));
-    if (kind !== 'x' && kind !== 'announcement') a.append(el('span', '', label));
+    a.append(el('span', '', label));
     a.append(el('span', 'arrow', '↗'));
     a.setAttribute('aria-label', label + ' for ' + project.name + ' (opens in a new tab)');
     a.title = kind === 'announcement' ? 'Announcement on X' : label;
@@ -146,22 +145,25 @@ function projectLinks(project) {
 
 function projectFacts(project) {
   const facts = el('div');
-  paragraph(facts, 'Project stage', stageLabels[project.stage] || 'Stage not confirmed');
+  paragraph(facts, 'Listing', evidenceLabel(project));
+  const identity = {resolved: 'Identifiers resolved by the existing evidence.', conflict: 'Identifiers conflict; review is needed.'};
+  const connection = {confirmed: 'Integration evidence found; see the linked sources.', claimed: 'The project claims a connection; independent confirmation is still limited.'};
+  paragraph(facts, 'Project identity', identity[project.identity_status] || 'Not independently confirmed.');
+  paragraph(facts, 'Squeekchain connection', connection[project.ecosystem_status] || 'Not independently confirmed.');
+  paragraph(facts, 'Project stage', stageLabels[project.lifecycle_stage || project.stage] || 'Stage not confirmed');
   if (project.builder) {
     paragraph(facts, 'Announcement author / builder', '@' + project.builder + ' · personal account, not necessarily a project account');
   }
   paragraph(facts, 'First observed', date(project.first_seen, true));
-  // Public artifacts omit operational timestamps; do not present that as a failed check.
-  if (!embedMode) paragraph(facts, 'Last website check', project.last_checked ? date(project.last_checked, true) : 'Not yet confirmed');
   const contracts = (project.contracts || []).map(c => c.address + ' · chain ' + c.chain_id).join('\n');
-  paragraph(facts, 'Contracts', contracts || 'No project contract independently confirmed.');
+  paragraph(facts, 'Contract references', contracts || 'No project contract independently confirmed.');
   if (project.review_required) paragraph(facts, 'Identity review', 'Some identifiers conflict. This project needs a closer look.');
   return facts;
 }
 
 function projectEvidence(project) {
   const evidence = el('div');
-  evidence.append(el('p', 'details-label', 'Why it is here'));
+  evidence.append(el('p', 'details-label', 'Linked public sources'));
   const list = el('ul', 'evidence-list');
   for (const source of project.evidence || []) {
     const label = source.kind === 'team_mention' ? 'Team post / quoted announcement ↗' : source.kind === 'github' ? 'Repository evidence ↗' : 'View source ↗';
@@ -171,13 +173,14 @@ function projectEvidence(project) {
     li.append(el('p', 'evidence-note', source.note || 'Public-source observation.'));
     list.append(li);
   }
+  if (!list.children.length) list.append(el('li', 'evidence-note', 'No independent source included yet.'));
   evidence.append(list, el('p', 'evidence-note', 'A mention is not an endorsement. Source evidence does not establish that a project is safe.'));
   return evidence;
 }
 
 function projectDetails(project) {
   const details = el('details');
-  details.append(el('summary', '', 'Details & sources'));
+  details.append(el('summary', '', 'What we checked'));
   const body = el('div', 'details-body');
   const grid = el('div', 'details-grid');
   grid.append(projectFacts(project), projectEvidence(project));
@@ -192,17 +195,17 @@ function card(project) {
   const top = el('div', 'project-top');
   const info = el('div', 'project-info');
   const nameRow = el('div', 'name-row');
-  nameRow.append(el('h2', '', project.name), el('span', 'category', (project.category || 'other').replaceAll('_', ' ')));
-  if (stageTags[project.stage]) nameRow.append(el('span', 'category stage', stageTags[project.stage]));
-  info.append(nameRow, projectLinks(project));
-  top.append(projectLogo(project), info);
+  nameRow.append(el('h2', '', project.name || 'Unnamed candidate'));
+  const stage = el('span', 'stage-tag', stageTags[project.stage] || 'Stage not confirmed');
+  stage.classList.toggle('confirmed', project.stage === 'live_confirmed');
+  nameRow.append(stage);
   const description = project.description_en || 'A new ecosystem signal. More information is being gathered.';
-  article.append(top, el('p', 'description', description));
+  info.append(nameRow, el('p', 'description', description), projectLinks(project));
+  top.append(projectLogo(project), info);
+  article.append(top);
   if (project.description_origin === 'ai') article.append(el('p', 'evidence-note', 'AI-generated summary · verify with the linked sources.'));
   if (project.description_origin === 'x_profile') article.append(el('p', 'evidence-note', 'From the project\'s own X profile · not independently verified.'));
-  const meta = el('div', 'card-meta');
-  meta.append(el('span', 'evidence-tag', evidenceLabel(project)), el('span', 'first-seen', 'FOUND ' + date(project.first_seen).toUpperCase()));
-  article.append(meta, projectDetails(project));
+  article.append(projectDetails(project));
   return article;
 }
 
@@ -219,7 +222,7 @@ function matchesFilter(project) {
 function visibleProjects() {
   const query = state.query.toLowerCase();
   return state.projects.filter(project => {
-    const category = state.category === 'all' || project.category === state.category;
+    const category = state.category === 'all' || (project.category || 'other') === state.category;
     const text = [project.name, project.description_en, project.builder, project.category].filter(Boolean).join(' ').toLowerCase();
     return matchesFilter(project) && category && (!query || text.includes(query));
   }).sort((a, b) => Number(teamEvidence(b)) - Number(teamEvidence(a)) ||
@@ -227,7 +230,38 @@ function visibleProjects() {
     String(b.first_seen).localeCompare(String(a.first_seen)));
 }
 
+function renderCategoryChips() {
+  const container = $('category-chips');
+  const focused = document.activeElement?.closest('#category-chips button')?.dataset.category;
+  const base = state.projects.filter(matchesFilter);
+  const counts = new Map();
+  for (const project of base) {
+    const key = String(project.category || 'other');
+    counts.set(key, (counts.get(key) || 0) + 1);
+  }
+  if (state.category !== 'all' && !counts.has(state.category)) state.category = 'all';
+  const order = Object.keys(categoryLabels);
+  const categories = [...counts.keys()].sort((a, b) => {
+    const left = order.indexOf(a), right = order.indexOf(b);
+    return (left < 0 ? order.length : left) - (right < 0 ? order.length : right) || a.localeCompare(b);
+  });
+  const buttons = [['all', 'All', base.length], ...categories.map(key => [key, categoryLabels[key] || key.replaceAll('_', ' '), counts.get(key)])]
+    .map(([key, label, count]) => {
+      const button = el('button', 'category-chip');
+      button.type = 'button';
+      button.dataset.category = key;
+      button.classList.toggle('selected', state.category === key);
+      button.setAttribute('aria-pressed', String(state.category === key));
+      button.append(el('span', '', label), el('span', 'chip-count', String(count)));
+      button.addEventListener('click', () => {state.category = key; $('category').value = key; render();});
+      return button;
+    });
+  container.replaceChildren(...buttons);
+  if (focused !== undefined) buttons.find(button => button.dataset.category === focused)?.focus();
+}
+
 function render() {
+  renderCategoryChips();
   const projects = visibleProjects();
   const list = $('projects');
   const open = new Set([...list.querySelectorAll('article')].filter(a => a.querySelector('details[open]')).map(a => a.id));
@@ -238,7 +272,9 @@ function render() {
   $('project-count').textContent = String(state.projects.filter(namedProject).length);
   // Describes how often the list is republished, not how fast a project is found.
   const shown = projects.length;
-  $('embed-count').textContent = 'Squeek Radar · ' + shown + (shown === 1 ? ' project' : ' projects') + ' · list republished every hour';
+  $('embed-count').textContent = shown + (shown === 1 ? ' project' : ' projects') + ' · list republished every hour';
+  const timestamp = typeof state.updated === 'string' && !Number.isNaN(new Date(state.updated).getTime());
+  $('published-at').textContent = timestamp ? 'FEED UPDATED ' + date(state.updated, true).toUpperCase() : 'AUTO-UPDATING DIRECTORY';
   $('message').hidden = projects.length > 0;
   if (projects.length) return;
   $('message').textContent = embedMode ? 'New ecosystem projects will appear here as they are identified.' :
@@ -283,14 +319,15 @@ async function refresh() {
     const data = await response.json();
     if (!Array.isArray(data.projects) || (!data.public && !Array.isArray(data.sources))) throw new Error('invalid');
     state.projects = data.projects;
+    // Public exports deliberately omit operational timestamps; do not invent a checked date.
+    state.updated = data.generated_at || null;
     render();
     if (!data.public) renderCoverage(data);
-    state.updated = data.generated_at || new Date().toISOString();
     state.loadedAt = Date.now();
   } catch {
     $('coverage-label').textContent = 'Update unavailable';
     $('coverage-dot').classList.remove('good');
-    $('last-scan').textContent = state.updated ? 'Showing the last loaded observations' : 'Please try again shortly';
+    $('last-scan').textContent = state.projects.length ? 'Showing the last loaded observations' : 'Please try again shortly';
     if (!state.projects.length) {
       $('message').hidden = false;
       $('message').textContent = 'The directory is temporarily unavailable. Please try again shortly.';
@@ -320,9 +357,16 @@ function bindControls() {
   if (!embedMode) {
     try {document.body.classList.toggle('dark', localStorage.getItem('radar-theme') === 'dark');} catch {}
   }
+  const themeLabel = () => {
+    const dark = document.body.classList.contains('dark');
+    $('theme').setAttribute('aria-label', dark ? 'Switch to light theme' : 'Switch to dark theme');
+    $('theme').setAttribute('aria-pressed', String(dark));
+  };
+  themeLabel();
   $('theme').addEventListener('click', () => {
     const dark = document.body.classList.toggle('dark');
     try {localStorage.setItem('radar-theme', dark ? 'dark' : 'light');} catch {}
+    themeLabel();
   });
 }
 

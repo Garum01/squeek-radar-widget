@@ -7,31 +7,37 @@
   <meta name="color-scheme" content="light dark">
   <title>Squeek Radar — Ecosystem directory</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./style.css?v=10">
-  <script src="./app.js?v=10" defer></script>
+  <link rel="stylesheet" href="./style.css?v=11">
+  <script src="./app.js?v=11" defer></script>
 </head>
 <body class="embed" data-public-feed="projects.json">
   <div class="page-shell">
     <header class="masthead">
-      <a class="brand" href="./" aria-label="Squeek Radar home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>Squeek Radar<span class="beta">EARLY ACCESS</span></a>
+      <a class="brand" href="./" aria-label="Squeek Radar home"><span class="brand-mark" aria-hidden="true">✳</span>Squeek Radar</a>
       <button id="theme" class="theme" type="button" aria-label="Switch color theme">◐ <span>Theme</span></button>
     </header>
     <main>
-      <header class="embed-head" aria-labelledby="embed-title"><p class="kick">Squeekchain · ecosystem radar</p><h2 id="embed-title">Who is building on Squeekchain</h2><p class="sub">Projects found in team posts, public GitHub code and onchain activity. A listing is not an endorsement; sources are linked on every card.</p></header>
-      <section class="intro" aria-labelledby="headline">
-        <div><p class="eyebrow"><span class="tiny-cross">✳</span> THE SQUEEKCHAIN ECOSYSTEM</p><h1 id="headline">Small world.<br><em>New possibilities.</em></h1><p class="intro-copy">Discover what’s being built around Squeekchain.<br>Projects, useful links, and the evidence behind each find.</p></div>
-        <aside class="scan-panel"><div class="radar-graphic" aria-hidden="true"><span></span><i></i><b></b></div><p class="scan-title"><span class="status-dot" id="coverage-dot"></span><span id="coverage-label">Checking sources</span></p><p id="last-scan">Loading the latest observations…</p><button id="source-toggle" class="text-button" aria-expanded="false" aria-controls="sources">Source coverage <span>↗</span></button></aside>
-      </section>
+      <header class="embed-head" aria-labelledby="headline">
+        <div class="intro-meta"><p class="eyebrow">THE SQUEEKCHAIN ECOSYSTEM</p><p id="published-at" class="published-at">AUTO-UPDATING DIRECTORY</p></div>
+        <h1 id="headline">Built around the wheel</h1>
+        <p class="intro-copy">Projects and experiments built around Squeekchain.</p>
+      </header>
+      <div class="source-info">
+        <p class="scan-title"><span class="status-dot" id="coverage-dot"></span><span id="coverage-label">Checking sources</span></p>
+        <p id="last-scan">Loading the latest observations…</p>
+        <button id="source-toggle" class="text-button" aria-expanded="false" aria-controls="sources">Source coverage <span>+</span></button>
+      </div>
       <section id="sources" class="sources" hidden aria-label="Source coverage"></section>
-      <div class="directory-bar"><div><span class="section-label">THE DIRECTORY</span><span id="project-count" class="count">—</span></div><p>Independent discovery. Sources included.</p></div>
+      <div class="directory-bar sr-only"><span>THE DIRECTORY</span><span id="project-count">—</span></div>
+      <section id="category-chips" class="category-chips" role="group" aria-label="Project categories"></section>
       <section class="controls" aria-label="Filter projects">
         <div class="tabs" role="group" aria-label="Evidence filters"><button type="button" class="tab selected" data-filter="all" aria-pressed="true">Projects</button><button type="button" class="tab" data-filter="team" aria-pressed="false">Team mentions</button><button type="button" class="tab" data-filter="early" aria-pressed="false">Early signals</button><button type="button" class="tab" data-filter="chain" aria-pressed="false">On-chain</button></div>
-        <div class="search-wrap"><label for="search" class="sr-only">Search projects</label><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Find a project…" autocomplete="off"><label for="category" class="sr-only">Project category</label><select id="category"><option value="all">All categories</option><option value="vault">Vaults</option><option value="game">Games</option><option value="nft">NFTs</option><option value="tools">Tools</option><option value="infrastructure">Infrastructure</option><option value="token">Tokens</option><option value="other">Other</option></select></div>
+        <div class="search-wrap"><label for="search" class="sr-only">Search projects</label><input id="search" type="search" placeholder="Find a project…" autocomplete="off"><label for="category" class="sr-only">Project category</label><select id="category" hidden><option value="all">All categories</option><option value="vault">Vaults</option><option value="game">Games</option><option value="nft">NFTs</option><option value="tools">Tools</option><option value="infrastructure">Infrastructure</option><option value="token">Tokens</option><option value="other">Other</option></select></div>
       </section>
-      <div id="message" class="message" role="status" aria-live="polite">Finding our bearings…</div>
+      <div id="message" class="message" role="status" aria-live="polite">Loading the directory…</div>
       <section id="projects" class="projects" aria-label="Discovered projects"></section>
-      <div class="embed-foot"><span id="embed-count" class="embed-count">Squeek Radar</span><span class="mr"><svg class="eye" viewBox="0 0 64 64" aria-hidden="true"><path d="M10 32c6.3-7.4 13.8-11.2 22-11.2S47.7 24.6 54 32c-6.3 7.4-13.8 11.2-22 11.2S16.3 39.4 10 32Z" fill="none" stroke="#6C42EB" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round"/><circle cx="32" cy="32" r="9" fill="none" stroke="#6C42EB" stroke-width="3"/></svg><b>moni</b><i>research</i></span></div>
-      <footer><span class="footer-brand">✳ Squeek Radar</span><p>A growing map, not a seal of approval.<br>Mentions and integration evidence are shown separately.</p><span class="footer-note">BUILT AROUND A LITTLE HAMSTER.</span></footer>
+      <div class="embed-foot"><span id="embed-count" class="embed-count">An automatically updated directory</span><span class="footer-brand">Squeek Radar</span></div>
+      <footer><span class="footer-brand">Squeek Radar</span><p>Independent discovery. Sources included.<br>A listing is not an endorsement.</p></footer>
     </main>
   </div>
 </body>
