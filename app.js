@@ -10,6 +10,7 @@ const state = {projects: [], filter: 'all', query: '', category: 'all', updated:
 let refreshing = false;
 
 const stageLabels = {
+  announced: 'Project announced; release not independently confirmed',
   unknown: 'Stage not confirmed',
   research: 'Early signal · under review',
   development: 'In development',
@@ -19,6 +20,7 @@ const stageLabels = {
 };
 // Short stage names for the tag next to a project's name.
 const stageTags = {
+  announced: 'Announced',
   unknown: 'Stage not confirmed',
   research: 'Early signal', development: 'In development', testnet_announced: 'Testnet announced',
   launch_announced: 'Launch announced', live_confirmed: 'Live'
@@ -27,7 +29,7 @@ const linkLabels = {
   x: ['𝕏', 'X'], announcement: ['𝕏', 'Announcement'], website: ['◎', 'Website'],
   telegram: ['➤', 'Telegram'], github: ['⌘', 'Code'], docs: ['▤', 'Docs'], explorer: ['⌕', 'Explorer']
 };
-const categoryLabels = {game: 'Games', vault: 'Vaults', nft: 'NFTs', tools: 'Tools', infrastructure: 'Infrastructure', token: 'Tokens', other: 'Other'};
+const categoryLabels = {defi: 'DeFi', dex: 'DEXs', game: 'Games', launchpad: 'Launchpads', nft: 'NFT', memecoin: 'Memecoins', tools: 'Tools', infrastructure: 'Infrastructure', token: 'Tokens', other: 'Other'};
 const sourceLabels = {
   deployment: 'Official deployment record',
   x: 'Team posts, quotes & conversations', github: 'Public GitHub discovery', onchain: 'On-chain discovery',
@@ -95,7 +97,7 @@ function chainEvidence(project) {
 }
 
 function namedProject(project) {
-  return ['development', 'testnet_announced', 'launch_announced', 'live_confirmed'].includes(project.stage) || Boolean(project.links?.website);
+  return ['announced', 'development', 'testnet_announced', 'launch_announced', 'live_confirmed'].includes(project.stage) || Boolean(project.links?.website);
 }
 
 function evidenceLabel(project) {
@@ -107,6 +109,7 @@ function evidenceLabel(project) {
 
 function projectLogo(project) {
   const logo = el('div', 'logo');
+  if (project.publication_origin === 'owner_curated') logo.classList.add('curated');
   const initial = (project.name || '?').charAt(0).toLowerCase();
   if (!/^\/?logos\/[a-f0-9]{64}\.(png|jpg|webp)$/.test(project.logo || '')) {
     logo.textContent = initial;
@@ -115,7 +118,7 @@ function projectLogo(project) {
   }
   const img = el('img');
   img.src = project.logo;
-  img.alt = project.name + ' logo';
+  img.alt = project.name + (project.publication_origin === 'owner_curated' ? ' announcement artwork' : ' logo');
   img.loading = 'lazy';
   img.addEventListener('error', () => {img.remove(); logo.textContent = initial;});
   logo.append(img);
@@ -141,7 +144,8 @@ function projectLinks(project) {
 
 // The optional AI guide contains text and references to this record's own sources.
 function aiReadingGuide(project) {
-  const story = project.checked_text;
+  const curated = project.publication_origin === 'owner_curated' && project.curated_text;
+  const story = curated || project.checked_text;
   if (story?.version !== 1 || !Array.isArray(story.paragraphs) || !story.paragraphs.length || story.paragraphs.length > 2) return null;
   const allowed = new Set([...Object.values(normalizedLinks(project)), ...(project.evidence || []).map(e => e.url)].map(safeURL).filter(Boolean));
   const copy = el('div', 'verification-copy');
@@ -163,6 +167,7 @@ function aiReadingGuide(project) {
     copy.append(p);
   }
   if (!citations) return null;
+  copy.dataset.origin = curated ? 'curated' : 'ai';
   return copy;
 }
 
@@ -204,6 +209,7 @@ function projectDetails(project) {
     sources.replaceChildren('We don’t have an independent public source to point to yet.');
   }
   if (!generated) copy.append(sources);
+  if (!generated || generated.dataset.origin !== 'curated') {
   const identity = {resolved: 'The identifiers line up in the sources we have.',
     conflict: 'Some identifiers don’t line up yet, so this one needs another look.'};
   const connection = {confirmed: 'There’s evidence of a Squeekchain connection in the links above.',
@@ -219,8 +225,10 @@ function projectDetails(project) {
     'We haven’t independently confirmed a project contract from this record.';
   copy.append(el('p', '', context));
   if (project.review_required) copy.append(el('p', '', 'The record is flagged for an additional identity review.'));
+  }
   body.append(copy);
-  if (generated) body.append(el('p', 'evidence-note', 'AI-written from the linked public record · not a new verification.'));
+  if (generated && generated.dataset.origin === 'curated') body.append(el('p', 'evidence-note', 'Manually added from the linked public announcement.'));
+  if (generated && generated.dataset.origin === 'ai') body.append(el('p', 'evidence-note', 'AI-written from the linked public record · not a new verification.'));
   body.append(el('p', 'evidence-note', 'A mention is not an endorsement. Source evidence does not establish that a project is safe.'));
   details.append(body);
   return details;
@@ -262,9 +270,7 @@ function visibleProjects() {
     const category = state.category === 'all' || (project.category || 'other') === state.category;
     const text = [project.name, project.description_en, project.builder, project.category].filter(Boolean).join(' ').toLowerCase();
     return matchesFilter(project) && category && (!query || text.includes(query));
-  }).sort((a, b) => Number(teamEvidence(b)) - Number(teamEvidence(a)) ||
-    Number(Boolean(b.links?.website)) - Number(Boolean(a.links?.website)) ||
-    String(b.first_seen).localeCompare(String(a.first_seen)));
+  }).sort((a, b) => (Date.parse(b.first_seen) || 0) - (Date.parse(a.first_seen) || 0) || String(a.id).localeCompare(String(b.id)));
 }
 
 function renderCategoryChips() {

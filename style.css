@@ -155,3 +155,5 @@ html.embed-document,.embed-document body {height:100%;overflow:hidden}
   .proposal-steps {grid-template-columns:1fr;gap:16px}
   .build-vault {padding:16px}
 }
+
+.logo.curated img {object-fit:cover}

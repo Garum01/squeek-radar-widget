@@ -2,7 +2,7 @@
   "projects": [
     {
       "builder": null,
-      "category": "tools",
+      "category": "memecoin",
       "contracts": [],
       "description_en": "Memecoins mined by a real hamster. Supply unlocks only as @Squeektoshi runs on @SqueekChain. Live on Sepolia testnet.",
       "description_origin": "x_profile",
@@ -27,7 +27,7 @@
     },
     {
       "builder": "CelerityCodes",
-      "category": "vault",
+      "category": "defi",
       "contracts": [],
       "description_en": "The developer describes an automated vault combining Squeekchain mining, hourly long/short strategies and compounding. A testnet has been announced; the contract and live operation have not been independently confirmed.",
       "description_origin": "source",
@@ -56,7 +56,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
       "contracts": [],
       "description_en": "A real hamster. One hour. Bet IMD on the wheel, watch the live cam, and take a guess at the jackpot. Hamster Hour on Ethereum.",
       "description_origin": "website",
@@ -79,6 +79,52 @@
       "name": "Hamster Hour",
       "publication_origin": "owner_approved",
       "stage": "unknown"
+    },
+    {
+      "category": "game",
+      "contracts": [],
+      "curated_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Pillhead described the multiplayer extraction game in "
+            },
+            {
+              "text": "the 18 Oct announcement",
+              "url": "https://x.com/pillheadddd/status/2111848910368972864"
+            },
+            {
+              "text": ". We haven’t independently verified a playable release or a deployed game contract."
+            }
+          ],
+          [
+            {
+              "text": "The link to Squeekchain is the wheel-controlled portal: the hamster’s running sets the window for escape."
+            }
+          ]
+        ],
+        "version": 1
+      },
+      "description_en": "Enter, grab loot, get out. The hamster keeps the portal open. If he stops, anyone still inside dies.",
+      "description_origin": "owner_curated",
+      "ecosystem_status": "claimed",
+      "evidence": [
+        {
+          "kind": "team_mention",
+          "url": "https://x.com/pillheadddd/status/2111848910368972864"
+        }
+      ],
+      "first_seen": "2026-10-27",
+      "id": "curated-exsqueektion",
+      "identity_status": "unresolved",
+      "lifecycle_stage": "announced",
+      "links": {
+        "announcement": "https://x.com/pillheadddd/status/2111848910368972864"
+      },
+      "logo": "logos/1726962241744245bcde8c8fd4e2ccd1bb636e7abec60ee1967ee9619e31b645.jpg",
+      "name": "Exsqueektion",
+      "publication_origin": "owner_curated",
+      "stage": "announced"
     }
   ],
   "public": true,
