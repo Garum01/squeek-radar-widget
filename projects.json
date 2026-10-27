@@ -1,32 +1,6 @@
 {
   "projects": [
     {
-      "builder": "pillheadddd",
-      "category": "tools",
-      "contracts": [],
-      "description_en": "A swarm in the sky, building its way to a community owned billion dollar meme.",
-      "description_origin": "website",
-      "ecosystem_status": "confirmed",
-      "evidence": [
-        {
-          "kind": "team_mention",
-          "url": "https://x.com/pillheadddd/status/2115159914062454892"
-        }
-      ],
-      "first_seen": "2026-10-27T19:22:15.349990+00:00",
-      "id": "03e7bc5788fad242",
-      "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
-      "links": {
-        "announcement": "https://x.com/pillheadddd/status/2115159914062454892",
-        "docs": "https://imd.fun/docs/",
-        "website": "https://imd.fun"
-      },
-      "logo": "logos/acdce76b6321d31021baf39f722b7abccb48b60ed6636e89f7cb2b79b30353d8.png",
-      "name": "IMD",
-      "stage": "unknown"
-    },
-    {
       "builder": null,
       "category": "memecoin",
       "checked_text": {
