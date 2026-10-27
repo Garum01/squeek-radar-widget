@@ -112,6 +112,25 @@
       "stage": "unknown"
     },
     {
+      "builder": null,
+      "category": "nft",
+      "contracts": [],
+      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
+      "description_origin": "placeholder",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-10-27T05:51:12.866509+00:00",
+      "id": "c6a9651f4ba6680c",
+      "identity_status": "unresolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "x": "https://x.com/sqkstr"
+      },
+      "name": "sqkstr",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
       "category": "game",
       "contracts": [],
       "curated_text": {
