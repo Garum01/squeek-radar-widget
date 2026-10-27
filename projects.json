@@ -136,8 +136,8 @@
       "builder": null,
       "category": "nft",
       "contracts": [],
-      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
-      "description_origin": "placeholder",
+      "description_en": "A permissionless vault where NFTs merge and share mining power across levels.",
+      "description_origin": "ai",
       "ecosystem_status": "weak",
       "evidence": [],
       "first_seen": "2026-10-27T05:51:12.866509+00:00",
@@ -197,6 +197,26 @@
       "name": "Exsqueektion",
       "publication_origin": "owner_curated",
       "stage": "announced"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
+      "description_origin": "placeholder",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-10-27T16:14:42.765267+00:00",
+      "id": "e2a9fedfc4dc8bf8",
+      "identity_status": "unresolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "x": "https://x.com/nutshellmarkets"
+      },
+      "logo": "logos/a986415c22efe925415b95de8393570707ca395fcb891d3017e5bd0fe1243cf1.jpg",
+      "name": "NutshellMarkets",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
     }
   ],
   "public": true,
