@@ -3,6 +3,49 @@
     {
       "builder": null,
       "category": "memecoin",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "WheelPad describes itself as a project where memecoins are mined by a real hamster on SqueekChain "
+            },
+            {
+              "text": "the public profile",
+              "url": "https://x.com/wheelpadfun"
+            },
+            {
+              "text": ". This unique premise suggests a playful approach to digital asset creation, focusing on the animal's physical activity as the primary driver for the process "
+            },
+            {
+              "text": "the project website",
+              "url": "https://wheelpad.fun"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To understand how this works, you can explore the details provided in the public profile "
+            },
+            {
+              "text": "the public profile",
+              "url": "https://x.com/wheelpadfun"
+            },
+            {
+              "text": ". It offers a direct look at the concept and the specific chain involved. For more context on the hamster's role, the project website provides additional information about the setup "
+            },
+            {
+              "text": "the project website",
+              "url": "https://wheelpad.fun"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Memecoins mined by a real hamster on SqueekChain. Sepolia testnet: free test tokens, no real money.",
       "description_origin": "website",
@@ -29,6 +72,42 @@
     {
       "builder": "CelerityCodes",
       "category": "defi",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "The developer describes quadConnect as an automated vault. It combines Squeekchain mining with hourly long and short strategies, while also handling compounding "
+            },
+            {
+              "text": "the project website",
+              "url": "https://quad.cx"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To see how these pieces fit together, you can follow the details in "
+            },
+            {
+              "text": "a team post",
+              "url": "https://x.com/pillheadddd/status/2112707335022166376"
+            },
+            {
+              "text": " or check "
+            },
+            {
+              "text": "the announcement",
+              "url": "https://x.com/CelerityCodes/status/2112654209430827034"
+            },
+            {
+              "text": " for the full context."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "The developer describes an automated vault combining Squeekchain mining, hourly long/short strategies and compounding. A testnet has been announced; the contract and live operation have not been independently confirmed.",
       "description_origin": "source",
@@ -202,8 +281,8 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
-      "description_origin": "placeholder",
+      "description_en": "Building a treasury designed to grow @squeekchain.",
+      "description_origin": "x_profile",
       "ecosystem_status": "weak",
       "evidence": [],
       "first_seen": "2026-10-27T16:14:42.765267+00:00",
