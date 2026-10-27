@@ -6,12 +6,12 @@ const selectedProject = viewParams.get('project');
 const publicFeed = document.body.dataset.publicFeed;
 const embedMode = Boolean(publicFeed) || location.pathname === '/embed' || viewParams.get('embed') === '1';
 const refreshInterval = 60000;
-const state = {projects: [], filter: 'all', query: '', category: 'all', updated: null, loadedAt: 0};
+const state = {projects: [], filter: 'all', query: '', category: 'all', sort: 'newest', updated: null, loadedAt: 0};
 let refreshing = false;
 
 const stageLabels = {
   announced: 'Project announced; release not independently confirmed',
-  unknown: 'Stage not confirmed',
+  unknown: 'Squeekchain testnet; this project’s deployment has not been independently confirmed',
   research: 'Early signal · under review',
   development: 'In development',
   testnet_announced: 'Testnet announced by the developer',
@@ -21,7 +21,7 @@ const stageLabels = {
 // Short stage names for the tag next to a project's name.
 const stageTags = {
   announced: 'Announced',
-  unknown: 'Stage not confirmed',
+  unknown: 'Testnet',
   research: 'Early signal', development: 'In development', testnet_announced: 'Testnet announced',
   launch_announced: 'Launch announced', live_confirmed: 'Live'
 };
@@ -125,13 +125,38 @@ function projectLogo(project) {
   return logo;
 }
 
+function projectDocsURL(project) {
+  const docs = safeURL(project.links?.docs);
+  if (!docs) return null;
+  const host = new URL(docs).hostname.toLowerCase();
+  // Network reference material is not the individual project's documentation.
+  if (host === 'squeekchain.com' || host.endsWith('.squeekchain.com')) return null;
+  const site = safeURL(project.links?.website);
+  if (site) {
+    const own = new URL(site).hostname.toLowerCase().replace(/^www\./, '');
+    if (host === own || host.endsWith('.' + own)) return docs;
+  }
+  const repoURL = safeURL(project.links?.github);
+  if (repoURL) {
+    const repo = new URL(repoURL);
+    const parts = repo.pathname.split('/').filter(Boolean).slice(0, 2);
+    const target = new URL(docs);
+    if (repo.hostname === 'github.com' && parts.length === 2) {
+      const prefix = '/' + parts.join('/');
+      if (host === 'github.com' && (target.pathname === prefix || target.pathname.startsWith(prefix + '/'))) return docs;
+      if (host === parts[0].toLowerCase() + '.github.io' && (target.pathname === '/' + parts[1] || target.pathname.startsWith('/' + parts[1] + '/'))) return docs;
+    }
+  }
+  return null; // Ambiguous external documents stay in What we checked.
+}
+
 function projectLinks(project) {
   const container = el('div', 'links');
   container.setAttribute('aria-label', 'Project links');
   const links = normalizedLinks(project);
-  for (const kind of ['website', 'x', 'announcement', 'github', 'docs', 'telegram', 'explorer']) {
+  for (const kind of ['website', 'x', 'announcement', 'github', 'docs', 'telegram']) {
     const [, label] = linkLabels[kind];
-    const a = external(links[kind], 'project-link');
+    const a = external(kind === 'docs' ? projectDocsURL(project) : links[kind], 'project-link');
     if (!a) continue;
     a.append(el('span', '', label));
     a.append(el('span', 'arrow', '↗'));
@@ -193,7 +218,7 @@ function projectDetails(project) {
     references.push(external(url, '', labels[source.kind] || 'a linked public observation'));
   }
   for (const [kind, label] of [['website', 'the linked website'], ['github', 'the linked code repository'],
-    ['announcement', 'the linked announcement'], ['x', 'the linked X profile'], ['docs', 'the linked documentation'], ['explorer', 'the linked explorer record']]) {
+    ['announcement', 'the linked announcement'], ['x', 'the linked X profile'], ['docs', projectDocsURL(project) ? 'the project documentation' : 'a documentation reference'], ['explorer', 'the linked explorer record']]) {
     const url = safeURL(links[kind]);
     if (!url || seen.has(url)) continue;
     seen.add(url);
@@ -209,6 +234,11 @@ function projectDetails(project) {
     sources.replaceChildren('We don’t have an independent public source to point to yet.');
   }
   if (!generated) copy.append(sources);
+  else if (safeURL(links.explorer) && ![...copy.querySelectorAll('a')].some(a => a.href === safeURL(links.explorer))) {
+    const reference = el('p');
+    reference.append('There’s also ', external(links.explorer, '', 'an explorer reference'), '. A link alone does not verify deployment, usage or safety.');
+    copy.append(reference);
+  }
   if (!generated || generated.dataset.origin !== 'curated') {
   const identity = {resolved: 'The identifiers line up in the sources we have.',
     conflict: 'Some identifiers don’t line up yet, so this one needs another look.'};
@@ -216,7 +246,7 @@ function projectDetails(project) {
     claimed: 'The project says it connects to Squeekchain; we still have limited independent evidence for that.'};
   copy.append(el('p', '', (identity[project.identity_status] || 'We haven’t pinned down the project’s identity from this record alone.') + ' ' +
     (connection[project.ecosystem_status] || 'These sources don’t yet establish a Squeekchain integration.')));
-  const stage = stageLabels[project.lifecycle_stage || project.stage] || 'Stage not confirmed';
+  const stage = stageLabels[project.lifecycle_stage || project.stage] || stageLabels.unknown;
   let context = 'Where things stand: ' + stage.charAt(0).toLowerCase() + stage.slice(1) + '. ';
   if (project.builder) context += 'The announcement comes from @' + project.builder + ', which may be a builder’s personal account. ';
   if (project.first_seen) context += 'We first picked it up on ' + date(project.first_seen, true) + '. ';
@@ -241,7 +271,8 @@ function card(project) {
   const info = el('div', 'project-info');
   const nameRow = el('div', 'name-row');
   nameRow.append(el('h2', '', project.name || 'Unnamed candidate'));
-  const stage = el('span', 'stage-tag', stageTags[project.stage] || 'Stage not confirmed');
+  const stage = el('span', 'stage-tag', stageTags[project.stage] || 'Testnet');
+  if (!stageTags[project.stage] || project.stage === 'unknown') stage.title = 'Squeekchain testnet · project deployment not independently confirmed';
   stage.classList.toggle('confirmed', project.stage === 'live_confirmed');
   nameRow.append(stage);
   const description = project.description_en || 'A new ecosystem signal. More information is being gathered.';
@@ -270,7 +301,12 @@ function visibleProjects() {
     const category = state.category === 'all' || (project.category || 'other') === state.category;
     const text = [project.name, project.description_en, project.builder, project.category].filter(Boolean).join(' ').toLowerCase();
     return matchesFilter(project) && category && (!query || text.includes(query));
-  }).sort((a, b) => (Date.parse(b.first_seen) || 0) - (Date.parse(a.first_seen) || 0) || String(a.id).localeCompare(String(b.id)));
+  }).sort((a, b) => {
+    const left = Date.parse(a.first_seen), right = Date.parse(b.first_seen);
+    if (!Number.isFinite(left) && Number.isFinite(right)) return 1;
+    if (Number.isFinite(left) && !Number.isFinite(right)) return -1;
+    return (Number.isFinite(left) && Number.isFinite(right) ? (state.sort === 'newest' ? right - left : left - right) : 0) || String(a.id).localeCompare(String(b.id));
+  });
 }
 
 function renderCategoryChips() {
@@ -304,6 +340,12 @@ function renderCategoryChips() {
 }
 
 function render() {
+  const nextSort = state.sort === 'newest' ? 'Show oldest discoveries first' : 'Show newest discoveries first';
+  $('sort-toggle').setAttribute('aria-label', nextSort);
+  $('sort-toggle').setAttribute('aria-pressed', String(state.sort === 'oldest'));
+  $('sort-toggle').title = nextSort;
+  $('sort-toggle').firstElementChild.textContent = state.sort === 'newest' ? '↓' : '↑';
+  $('sort-hint').textContent = nextSort;
   renderCategoryChips();
   const projects = visibleProjects();
   const list = $('projects');
@@ -380,6 +422,7 @@ async function refresh() {
 }
 
 function bindControls() {
+  $('sort-toggle').addEventListener('click', () => {state.sort = state.sort === 'newest' ? 'oldest' : 'newest'; render();});
   $('search').addEventListener('input', event => {state.query = event.target.value; render();});
   $('category').addEventListener('change', event => {state.category = event.target.value; render();});
   document.querySelectorAll('[data-filter]').forEach(button => button.addEventListener('click', () => {

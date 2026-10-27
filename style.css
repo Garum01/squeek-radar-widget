@@ -157,3 +157,12 @@ html.embed-document,.embed-document body {height:100%;overflow:hidden}
 }
 
 .logo.curated img {object-fit:cover}
+
+/* Discovery-date order: current direction on the button, next action in the hint. */
+.directory-tools {display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.directory-tools .category-chips {flex:1;min-width:0}
+.sort-control {position:relative;flex:none}
+.sort-toggle {width:38px;height:38px;display:grid;place-items:center;border:1px solid var(--line);background:var(--paper);color:var(--accent);font:600 22px/1 var(--mono)}
+.sort-toggle:hover {border-color:var(--accent);background:var(--soft)}
+.sort-hint {position:absolute;right:0;top:calc(100% + 7px);z-index:5;width:max-content;max-width:190px;padding:7px 9px;background:var(--ink);color:var(--bg);font:12px/1.4 var(--sans);box-shadow:0 3px 12px #0002;pointer-events:none;opacity:0;visibility:hidden;transition:opacity .12s}
+.sort-toggle:hover + .sort-hint,.sort-toggle:focus-visible + .sort-hint {opacity:1;visibility:visible}
