@@ -81,6 +81,37 @@
       "stage": "unknown"
     },
     {
+      "builder": null,
+      "category": "game",
+      "contracts": [
+        {
+          "address": "0xc0402e84499d3970640f4a996e5ce2ebd51618c7",
+          "chain_id": 11155111
+        }
+      ],
+      "description_en": "The website describes: Bet on the hamster-powered blockchain Will Squeektoshi mine enough blocks? Stake $SQK on YES or NO. The winners split the pool, and every result is settled onchain with no oracle.",
+      "description_origin": "website",
+      "ecosystem_status": "confirmed",
+      "evidence": [
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0xc0402e84499d3970640f4a996e5ce2ebd51618c7"
+        }
+      ],
+      "first_seen": "2026-10-27T04:35:34.132091+00:00",
+      "id": "acd4a8ee520ea78f",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "docs": "https://docs.squeekchain.com",
+        "explorer": "https://eth-sepolia.blockscout.com/address/0xc0402e84499d3970640f4a996e5ce2ebd51618c7",
+        "website": "https://squeekbet.xyz"
+      },
+      "name": "SqueekBet",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
       "category": "game",
       "contracts": [],
       "curated_text": {
