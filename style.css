@@ -161,9 +161,9 @@ html.embed-document,.embed-document body {height:100%;overflow:hidden}
 /* Discovery-date order: current direction on the button, next action in the hint. */
 .directory-tools {display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
 .directory-tools .category-chips {flex:1;min-width:0}
-.sort-control {position:relative;flex:none;margin-top:8px}
-.sort-toggle {position:relative;width:18px;height:22px;padding:0;display:grid;place-items:center;border:0;background:transparent;color:var(--accent);font:500 11px/1 var(--mono)}
+.sort-control {position:relative;flex:none;margin-top:5px}
+.sort-toggle {position:relative;width:26px;height:28px;padding:0;display:grid;place-items:center;border:1px solid var(--accent-line);background:var(--soft);color:var(--accent);font:500 15px/1 var(--mono)}
 .sort-toggle::before {content:"";position:absolute;inset:-7px}
-.sort-toggle:hover {color:var(--ink)}
+.sort-toggle:hover {border-color:var(--accent);color:var(--accent)}
 .sort-hint {position:absolute;right:0;top:calc(100% + 7px);z-index:5;width:max-content;max-width:190px;padding:7px 9px;background:var(--ink);color:var(--bg);font:12px/1.4 var(--sans);box-shadow:0 3px 12px #0002;pointer-events:none;opacity:0;visibility:hidden;transition:opacity .12s}
 .sort-toggle:hover + .sort-hint,.sort-toggle:focus-visible + .sort-hint {opacity:1;visibility:visible}
