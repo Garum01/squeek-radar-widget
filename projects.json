@@ -163,6 +163,35 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Dashboard aims to display every Squeek on Squeekchain, highlighting owners, merges, and level and power leaderboards "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-dashboard.fun"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "You can follow the source trail by visiting the project website to see these specific details about the ecosystem "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-dashboard.fun"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Every Squeek on Squeekchain: owners, merges, level and power leaderboards.",
       "description_origin": "website",
@@ -183,6 +212,42 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "SqueekBet is a playful prediction market where users wager on whether a hamster-powered blockchain will mine enough blocks. As described on "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekbet.xyz"
+            },
+            {
+              "text": ", participants stake $SQK on YES or NO, with winners splitting the pool and results settled onchain without an oracle."
+            }
+          ],
+          [
+            {
+              "text": "To understand how this works, start with "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekbet.xyz"
+            },
+            {
+              "text": " for the core concept. Then, explore "
+            },
+            {
+              "text": "the documentation",
+              "url": "https://docs.squeekchain.com"
+            },
+            {
+              "text": " to see the specific mechanics of the betting process and how the onchain settlement functions in practice."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [
         {
           "address": "0xc0402e84499d3970640f4a996e5ce2ebd51618c7",
