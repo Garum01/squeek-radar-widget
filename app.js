@@ -155,6 +155,7 @@ function projectLinks(project) {
   container.setAttribute('aria-label', 'Project links');
   const links = normalizedLinks(project);
   for (const kind of ['website', 'x', 'announcement', 'github', 'docs', 'telegram']) {
+    if (kind === 'announcement' && links.x) continue;
     const [, label] = linkLabels[kind];
     const a = external(kind === 'docs' ? projectDocsURL(project) : links[kind], 'project-link');
     if (!a) continue;
@@ -272,6 +273,7 @@ function card(project) {
   const nameRow = el('div', 'name-row');
   nameRow.append(el('h2', '', project.name || 'Unnamed candidate'));
   const stage = el('span', 'stage-tag', stageTags[project.stage] || 'Testnet');
+  if (project.id === '34d98d6c0dd3f8d8') stage.textContent = 'Mainnet contract & Testnet';
   if (!stageTags[project.stage] || project.stage === 'unknown') stage.title = 'Squeekchain testnet · project deployment not independently confirmed';
   stage.classList.toggle('confirmed', project.stage === 'live_confirmed');
   nameRow.append(stage);
@@ -279,8 +281,6 @@ function card(project) {
   info.append(nameRow, el('p', 'description', description), projectLinks(project));
   top.append(projectLogo(project), info);
   article.append(top);
-  if (project.description_origin === 'ai') article.append(el('p', 'evidence-note', 'AI-generated summary · verify with the linked sources.'));
-  if (project.description_origin === 'x_profile') article.append(el('p', 'evidence-note', 'From the project\'s own X profile · not independently verified.'));
   article.append(projectDetails(project));
   return article;
 }
