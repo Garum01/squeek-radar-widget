@@ -105,10 +105,6 @@ function evidenceLabel(project) {
   return 'Public-source candidate · under review';
 }
 
-function paragraph(parent, label, value) {
-  parent.append(el('p', 'details-label', label), el('p', 'details-value', value));
-}
-
 function projectLogo(project) {
   const logo = el('div', 'logo');
   const initial = (project.name || '?').charAt(0).toLowerCase();
@@ -143,48 +139,59 @@ function projectLinks(project) {
   return container;
 }
 
-function projectFacts(project) {
-  const facts = el('div');
-  paragraph(facts, 'Listing', evidenceLabel(project));
-  const identity = {resolved: 'Identifiers resolved by the existing evidence.', conflict: 'Identifiers conflict; review is needed.'};
-  const connection = {confirmed: 'Integration evidence found; see the linked sources.', claimed: 'The project claims a connection; independent confirmation is still limited.'};
-  paragraph(facts, 'Project identity', identity[project.identity_status] || 'Not independently confirmed.');
-  paragraph(facts, 'Squeekchain connection', connection[project.ecosystem_status] || 'Not independently confirmed.');
-  paragraph(facts, 'Project stage', stageLabels[project.lifecycle_stage || project.stage] || 'Stage not confirmed');
-  if (project.builder) {
-    paragraph(facts, 'Announcement author / builder', '@' + project.builder + ' · personal account, not necessarily a project account');
-  }
-  paragraph(facts, 'First observed', date(project.first_seen, true));
-  const contracts = (project.contracts || []).map(c => c.address + ' · chain ' + c.chain_id).join('\n');
-  paragraph(facts, 'Contract references', contracts || 'No project contract independently confirmed.');
-  if (project.review_required) paragraph(facts, 'Identity review', 'Some identifiers conflict. This project needs a closer look.');
-  return facts;
-}
-
-function projectEvidence(project) {
-  const evidence = el('div');
-  evidence.append(el('p', 'details-label', 'Linked public sources'));
-  const list = el('ul', 'evidence-list');
-  for (const source of project.evidence || []) {
-    const label = source.kind === 'team_mention' ? 'Team post / quoted announcement ↗' : source.kind === 'github' ? 'Repository evidence ↗' : 'View source ↗';
-    const li = el('li');
-    const a = external(source.url, '', label);
-    if (a) li.append(a);
-    li.append(el('p', 'evidence-note', source.note || 'Public-source observation.'));
-    list.append(li);
-  }
-  if (!list.children.length) list.append(el('li', 'evidence-note', 'No independent source included yet.'));
-  evidence.append(list, el('p', 'evidence-note', 'A mention is not an endorsement. Source evidence does not establish that a project is safe.'));
-  return evidence;
-}
-
+// Explain only the public record. Linked observations are not safety or usage proofs.
 function projectDetails(project) {
   const details = el('details');
   details.append(el('summary', '', 'What we checked'));
   const body = el('div', 'details-body');
-  const grid = el('div', 'details-grid');
-  grid.append(projectFacts(project), projectEvidence(project));
-  body.append(grid);
+  const copy = el('div', 'verification-copy');
+  const links = normalizedLinks(project);
+  const sources = el('p');
+  sources.append('This record brings together ');
+  const seen = new Set();
+  const references = [];
+  const labels = {team_mention: 'a public team post', github: 'a public repository reference',
+    x_profile: 'the project’s public profile', onchain: 'an on-chain reference',
+    contract_interaction: 'a contract interaction reference', website: 'a website reference'};
+  for (const source of project.evidence || []) {
+    const url = safeURL(source.url);
+    if (!url || seen.has(url)) continue;
+    seen.add(url);
+    references.push(external(url, '', labels[source.kind] || 'a linked public observation'));
+  }
+  for (const [kind, label] of [['website', 'the linked website'], ['github', 'the linked code repository'],
+    ['announcement', 'the linked announcement'], ['x', 'the linked X profile'], ['docs', 'the linked documentation'], ['explorer', 'the linked explorer record']]) {
+    const url = safeURL(links[kind]);
+    if (!url || seen.has(url)) continue;
+    seen.add(url);
+    references.push(external(url, '', label));
+  }
+  if (references.length) {
+    references.forEach((reference, index) => {
+      if (index) sources.append(index === references.length - 1 ? ' and ' : ', ');
+      sources.append(reference);
+    });
+    sources.append('. These are source references, not proof of a working product.');
+  } else {
+    sources.replaceChildren('No independent public source is included in this record yet.');
+  }
+  copy.append(sources);
+  const identity = {resolved: 'The available evidence resolves the project’s identifiers.',
+    conflict: 'Some project identifiers conflict and need further review.'};
+  const connection = {confirmed: 'The record includes evidence of a Squeekchain connection; the linked sources show its scope.',
+    claimed: 'The Squeekchain connection is a project claim; independent confirmation is limited.'};
+  copy.append(el('p', '', (identity[project.identity_status] || 'The project’s identity has not been independently confirmed by this record.') + ' ' +
+    (connection[project.ecosystem_status] || 'A Squeekchain integration has not been independently confirmed by this record.')));
+  const stage = stageLabels[project.lifecycle_stage || project.stage] || 'Stage not confirmed';
+  let context = stage + '. ';
+  if (project.builder) context += 'The recorded announcement author or builder is @' + project.builder + '; this may be a personal account rather than a project account. ';
+  if (project.first_seen) context += 'First observed on ' + date(project.first_seen, true) + '. ';
+  const contracts = project.contracts || [];
+  context += contracts.length ? 'Contract references in the record: ' + contracts.map(c => c.address + ' (chain ' + c.chain_id + ')').join('; ') + '. A reference alone does not confirm deployment, activity or safety.' :
+    'No independently confirmed project contract is included in this record.';
+  copy.append(el('p', '', context));
+  if (project.review_required) copy.append(el('p', '', 'The record is flagged for an additional identity review.'));
+  body.append(copy, el('p', 'evidence-note', 'A mention is not an endorsement. Source evidence does not establish that a project is safe.'));
   details.append(body);
   return details;
 }
@@ -245,7 +252,7 @@ function renderCategoryChips() {
     const left = order.indexOf(a), right = order.indexOf(b);
     return (left < 0 ? order.length : left) - (right < 0 ? order.length : right) || a.localeCompare(b);
   });
-  const buttons = [['all', 'All', base.length], ...categories.map(key => [key, categoryLabels[key] || key.replaceAll('_', ' '), counts.get(key)])]
+  const buttons = [['all', 'ALL', base.length], ...categories.map(key => [key, categoryLabels[key] || key.replaceAll('_', ' '), counts.get(key)])]
     .map(([key, label, count]) => {
       const button = el('button', 'category-chip');
       button.type = 'button';
@@ -270,9 +277,8 @@ function render() {
     if (open.has(article.id)) article.querySelector('details').open = true;
   }
   $('project-count').textContent = String(state.projects.filter(namedProject).length);
-  // Describes how often the list is republished, not how fast a project is found.
   const shown = projects.length;
-  $('embed-count').textContent = shown + (shown === 1 ? ' project' : ' projects') + ' · list republished every hour';
+  $('embed-count').textContent = shown + (shown === 1 ? ' project' : ' projects');
   const timestamp = typeof state.updated === 'string' && !Number.isNaN(new Date(state.updated).getTime());
   $('published-at').textContent = timestamp ? 'FEED UPDATED ' + date(state.updated, true).toUpperCase() : 'AUTO-UPDATING DIRECTORY';
   $('message').hidden = projects.length > 0;

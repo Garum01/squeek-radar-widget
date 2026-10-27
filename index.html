@@ -7,8 +7,8 @@
   <meta name="color-scheme" content="light dark">
   <title>Squeek Radar — Ecosystem directory</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./style.css?v=11">
-  <script src="./app.js?v=11" defer></script>
+  <link rel="stylesheet" href="./style.css?v=12">
+  <script src="./app.js?v=12" defer></script>
 </head>
 <body class="embed" data-public-feed="projects.json">
   <div class="page-shell">
@@ -19,8 +19,8 @@
     <main>
       <header class="embed-head" aria-labelledby="headline">
         <div class="intro-meta"><p class="eyebrow">THE SQUEEKCHAIN ECOSYSTEM</p><p id="published-at" class="published-at">AUTO-UPDATING DIRECTORY</p></div>
-        <h1 id="headline">Built around the wheel</h1>
-        <p class="intro-copy">Projects and experiments built around Squeekchain.</p>
+        <h1 id="headline">Who is building on Squeekchain</h1>
+        <p class="intro-copy">Projects and experiments built around Hamster chain.</p>
       </header>
       <div class="source-info">
         <p class="scan-title"><span class="status-dot" id="coverage-dot"></span><span id="coverage-label">Checking sources</span></p>
@@ -36,7 +36,23 @@
       </section>
       <div id="message" class="message" role="status" aria-live="polite">Loading the directory…</div>
       <section id="projects" class="projects" aria-label="Discovered projects"></section>
-      <div class="embed-foot"><span id="embed-count" class="embed-count">An automatically updated directory</span><span class="footer-brand">Squeek Radar</span></div>
+      <aside class="build-vault" aria-labelledby="vault-title">
+        <p class="eyebrow">ON THE DRAWING BOARD</p>
+        <h2 id="vault-title">SQK ↔ IMD Build Vault</h2>
+        <p>A proposed way to support builders and use a share of app fees to buy and burn SQK.</p>
+        <details>
+          <summary>How it could work</summary>
+          <div class="proposal-body">
+            <div class="proposal-steps">
+              <p><strong>01 / BACK</strong>SQK holders would pledge tokens to support a project.</p>
+              <p><strong>02 / BUILD</strong>Vested bonds would bring in IMD to fund the builders.</p>
+              <p><strong>03 / RECYCLE</strong>App fees would pay builders, buy and burn SQK, and replenish the IMD vault.</p>
+            </div>
+            <p>The <a href="https://x.com/pillheadddd/status/2112969134762074600" target="_blank" rel="noopener noreferrer">original proposal</a> describes a possible funding model. A deployed vault, funded projects and fee-driven burns have not been independently verified here.</p>
+          </div>
+        </details>
+      </aside>
+      <div class="embed-foot"><span id="embed-count" class="embed-count">An automatically updated directory</span><span class="mr" aria-label="Moni Research"><svg class="eye" viewBox="0 0 64 64" aria-hidden="true"><path d="M10 32c6.3-7.4 13.8-11.2 22-11.2S47.7 24.6 54 32c-6.3 7.4-13.8 11.2-22 11.2S16.3 39.4 10 32Z" fill="none" stroke="#6C42EB" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round"/><circle cx="32" cy="32" r="9" fill="none" stroke="#6C42EB" stroke-width="3"/></svg><b>moni</b><i>research</i></span></div>
       <footer><span class="footer-brand">Squeek Radar</span><p>Independent discovery. Sources included.<br>A listing is not an endorsement.</p></footer>
     </main>
   </div>
