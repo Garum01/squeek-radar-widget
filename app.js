@@ -139,15 +139,43 @@ function projectLinks(project) {
   return container;
 }
 
+// The optional AI guide contains text and references to this record's own sources.
+function aiReadingGuide(project) {
+  const story = project.checked_text;
+  if (story?.version !== 1 || !Array.isArray(story.paragraphs) || !story.paragraphs.length || story.paragraphs.length > 2) return null;
+  const allowed = new Set([...Object.values(normalizedLinks(project)), ...(project.evidence || []).map(e => e.url)].map(safeURL).filter(Boolean));
+  const copy = el('div', 'verification-copy');
+  let length = 0, citations = 0;
+  for (const pieces of story.paragraphs) {
+    if (!Array.isArray(pieces) || !pieces.length || pieces.length > 20) return null;
+    const p = el('p');
+    for (const piece of pieces) {
+      if (!piece || typeof piece.text !== 'string') return null;
+      length += piece.text.length;
+      if (length > 950) return null;
+      if (piece.url !== undefined) {
+        const url = safeURL(piece.url);
+        if (!url || !allowed.has(url)) return null;
+        p.append(external(url, '', piece.text));
+        citations++;
+      } else p.append(document.createTextNode(piece.text));
+    }
+    copy.append(p);
+  }
+  if (!citations) return null;
+  return copy;
+}
+
 // Explain only the public record. Linked observations are not safety or usage proofs.
 function projectDetails(project) {
   const details = el('details');
   details.append(el('summary', '', 'What we checked'));
   const body = el('div', 'details-body');
-  const copy = el('div', 'verification-copy');
+  const generated = aiReadingGuide(project);
+  const copy = generated || el('div', 'verification-copy');
   const links = normalizedLinks(project);
   const sources = el('p');
-  sources.append('This record brings together ');
+  sources.append('Here’s the trail so far: ');
   const seen = new Set();
   const references = [];
   const labels = {team_mention: 'a public team post', github: 'a public repository reference',
@@ -171,27 +199,29 @@ function projectDetails(project) {
       if (index) sources.append(index === references.length - 1 ? ' and ' : ', ');
       sources.append(reference);
     });
-    sources.append('. These are source references, not proof of a working product.');
+    sources.append('. They give us a starting point, but don’t show the whole picture.');
   } else {
-    sources.replaceChildren('No independent public source is included in this record yet.');
+    sources.replaceChildren('We don’t have an independent public source to point to yet.');
   }
-  copy.append(sources);
-  const identity = {resolved: 'The available evidence resolves the project’s identifiers.',
-    conflict: 'Some project identifiers conflict and need further review.'};
-  const connection = {confirmed: 'The record includes evidence of a Squeekchain connection; the linked sources show its scope.',
-    claimed: 'The Squeekchain connection is a project claim; independent confirmation is limited.'};
-  copy.append(el('p', '', (identity[project.identity_status] || 'The project’s identity has not been independently confirmed by this record.') + ' ' +
-    (connection[project.ecosystem_status] || 'A Squeekchain integration has not been independently confirmed by this record.')));
+  if (!generated) copy.append(sources);
+  const identity = {resolved: 'The identifiers line up in the sources we have.',
+    conflict: 'Some identifiers don’t line up yet, so this one needs another look.'};
+  const connection = {confirmed: 'There’s evidence of a Squeekchain connection in the links above.',
+    claimed: 'The project says it connects to Squeekchain; we still have limited independent evidence for that.'};
+  copy.append(el('p', '', (identity[project.identity_status] || 'We haven’t pinned down the project’s identity from this record alone.') + ' ' +
+    (connection[project.ecosystem_status] || 'These sources don’t yet establish a Squeekchain integration.')));
   const stage = stageLabels[project.lifecycle_stage || project.stage] || 'Stage not confirmed';
-  let context = stage + '. ';
-  if (project.builder) context += 'The recorded announcement author or builder is @' + project.builder + '; this may be a personal account rather than a project account. ';
-  if (project.first_seen) context += 'First observed on ' + date(project.first_seen, true) + '. ';
+  let context = 'Where things stand: ' + stage.charAt(0).toLowerCase() + stage.slice(1) + '. ';
+  if (project.builder) context += 'The announcement comes from @' + project.builder + ', which may be a builder’s personal account. ';
+  if (project.first_seen) context += 'We first picked it up on ' + date(project.first_seen, true) + '. ';
   const contracts = project.contracts || [];
-  context += contracts.length ? 'Contract references in the record: ' + contracts.map(c => c.address + ' (chain ' + c.chain_id + ')').join('; ') + '. A reference alone does not confirm deployment, activity or safety.' :
-    'No independently confirmed project contract is included in this record.';
+  context += contracts.length ? 'There’s a contract reference here: ' + contracts.map(c => c.address + ' (chain ' + c.chain_id + ')').join('; ') + '. That alone doesn’t tell us whether it’s deployed, active or safe.' :
+    'We haven’t independently confirmed a project contract from this record.';
   copy.append(el('p', '', context));
   if (project.review_required) copy.append(el('p', '', 'The record is flagged for an additional identity review.'));
-  body.append(copy, el('p', 'evidence-note', 'A mention is not an endorsement. Source evidence does not establish that a project is safe.'));
+  body.append(copy);
+  if (generated) body.append(el('p', 'evidence-note', 'AI-written from the linked public record · not a new verification.'));
+  body.append(el('p', 'evidence-note', 'A mention is not an endorsement. Source evidence does not establish that a project is safe.'));
   details.append(body);
   return details;
 }
