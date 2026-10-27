@@ -4,8 +4,8 @@
       "builder": null,
       "category": "memecoin",
       "contracts": [],
-      "description_en": "Memecoins mined by a real hamster. Supply unlocks only as @Squeektoshi runs on @SqueekChain. Live on Sepolia testnet.",
-      "description_origin": "x_profile",
+      "description_en": "Memecoins mined by a real hamster on SqueekChain. Sepolia testnet: free test tokens, no real money.",
+      "description_origin": "website",
       "ecosystem_status": "claimed",
       "evidence": [
         {
@@ -15,7 +15,7 @@
       ],
       "first_seen": "2026-10-23T12:44:31.145131+00:00",
       "id": "155d9b34cea277ee",
-      "identity_status": "unresolved",
+      "identity_status": "resolved",
       "lifecycle_stage": "testnet_announced",
       "links": {
         "website": "https://wheelpad.fun",
@@ -147,6 +147,7 @@
       "links": {
         "x": "https://x.com/sqkstr"
       },
+      "logo": "logos/d1dd9e4fca9ac7b1b43dbe415a15a5494dc9131324b9b101588be51c1c37f9ec.jpg",
       "name": "sqkstr",
       "publication_origin": "owner_approved",
       "stage": "unknown"
