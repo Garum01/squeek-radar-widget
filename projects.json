@@ -477,7 +477,12 @@
       "description_en": "Building a treasury designed to grow @squeekchain.",
       "description_origin": "x_profile",
       "ecosystem_status": "weak",
-      "evidence": [],
+      "evidence": [
+        {
+          "kind": "ai_hint",
+          "url": "https://x.com/pillheadddd/status/2115513298699329819"
+        }
+      ],
       "first_seen": "2026-10-27T16:14:42.765267+00:00",
       "id": "e2a9fedfc4dc8bf8",
       "identity_status": "unresolved",
