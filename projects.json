@@ -413,6 +413,27 @@
     },
     {
       "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "The Squeekchain whitepaper, made playable. Unofficial.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-10-28T01:09:08.749867+00:00",
+      "id": "db0463f9621fb23c",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://wheelpaper.vercel.app",
+        "x": "https://x.com/0xmeto_"
+      },
+      "logo": "logos/51402b2d4d8fc90f555a42d1b7f2fa76fbf3ea8e1d1f3b92f00e7399f0e4eada.png",
+      "name": "The Wheelpaper",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
       "category": "defi",
       "contracts": [],
       "description_en": "Building a treasury designed to grow @squeekchain.",
