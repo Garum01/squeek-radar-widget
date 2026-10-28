@@ -473,6 +473,30 @@
     {
       "builder": null,
       "category": "defi",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "NutshellMarkets is building a treasury designed to grow Squeekchain, as stated in "
+            },
+            {
+              "text": "the project profile",
+              "url": "https://x.com/nutshellmarkets"
+            },
+            {
+              "text": ". This purpose frames the initiative's core intent. To understand the specifics, you can explore "
+            },
+            {
+              "text": "a public source",
+              "url": "https://x.com/pillheadddd/status/2115513298699329819"
+            },
+            {
+              "text": " for more context on how this treasury aims to support the ecosystem's development."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Building a treasury designed to grow @squeekchain.",
       "description_origin": "x_profile",
