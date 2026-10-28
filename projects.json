@@ -414,6 +414,42 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "The Wheelpaper aims to make the Squeekchain whitepaper playable, according to its description. It is explicitly noted as an unofficial project. You can learn more about this goal on "
+            },
+            {
+              "text": "the project website",
+              "url": "https://wheelpaper.vercel.app"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To follow the source trail, start with "
+            },
+            {
+              "text": "the project website",
+              "url": "https://wheelpaper.vercel.app"
+            },
+            {
+              "text": " for the main details. You might also check "
+            },
+            {
+              "text": "the project profile",
+              "url": "https://x.com/0xmeto_"
+            },
+            {
+              "text": " for additional context. These sources help you understand the project's scope and background."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "The Squeekchain whitepaper, made playable. Unofficial.",
       "description_origin": "website",
