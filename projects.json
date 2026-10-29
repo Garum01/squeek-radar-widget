@@ -333,26 +333,19 @@
               "url": "https://squeekbet.xyz"
             },
             {
-              "text": ", participants stake $SQK on YES or NO, with winners splitting the pool and results settled onchain without an oracle."
+              "text": ", participants stake $SQK on YES or NO, with winners splitting the pool and every result settled onchain without an oracle."
             }
           ],
           [
             {
-              "text": "To understand how this works, start with "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekbet.xyz"
-            },
-            {
-              "text": " for the core concept. Then, explore "
+              "text": "To understand how this works, you can explore the mechanics in "
             },
             {
               "text": "the documentation",
               "url": "https://docs.squeekchain.com"
             },
             {
-              "text": " to see the specific mechanics of the betting process and how the onchain settlement functions in practice."
+              "text": ". It offers a clear path to see how bets are placed and resolved, helping you follow the source trail from the initial concept to the final onchain settlement."
             }
           ]
         ],
@@ -361,6 +354,10 @@
       "contracts": [
         {
           "address": "0xc0402e84499d3970640f4a996e5ce2ebd51618c7",
+          "chain_id": 11155111
+        },
+        {
+          "address": "0x980b4424c007caf7a1f3670b48c8eaef7ebc3d44",
           "chain_id": 11155111
         }
       ],
@@ -371,6 +368,10 @@
         {
           "kind": "site_contract_link",
           "url": "https://eth-sepolia.blockscout.com/address/0xc0402e84499d3970640f4a996e5ce2ebd51618c7"
+        },
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0x980b4424c007caf7a1f3670b48c8eaef7ebc3d44"
         }
       ],
       "first_seen": "2026-10-27T04:35:34.132091+00:00",
