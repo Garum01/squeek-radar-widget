@@ -2,7 +2,7 @@
   "projects": [
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
       "contracts": [],
       "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
       "description_origin": "placeholder",
@@ -90,7 +90,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
       "contracts": [],
       "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
       "description_origin": "placeholder",
@@ -245,7 +245,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
       "contracts": [],
       "description_en": "Call Squeektoshi's night on the wheel. Distance, peak window and Squeek blocks, for points or a Sepolia test pot.",
       "description_origin": "website",
