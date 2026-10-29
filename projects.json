@@ -89,54 +89,6 @@
       "stage": "testnet_announced"
     },
     {
-      "builder": null,
-      "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Out is a game of nerve where you ride Squeektoshi's wheel and must bail before he stops. It runs on Squeekchain, a hamster-powered blockchain, as described on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekchain-chicken-production.up.railway.app"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To understand the mechanics, you can explore the details provided on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekchain-chicken-production.up.railway.app"
-            },
-            {
-              "text": ". This source offers the primary context for how the game functions within its unique ecosystem."
-            }
-          ]
-        ],
-        "version": 1
-      },
-      "contracts": [],
-      "description_en": "Ride Squeektoshi's wheel and bail before he stops. A game of nerve on Squeekchain, the hamster-powered blockchain.",
-      "description_origin": "website",
-      "ecosystem_status": "claimed",
-      "evidence": [],
-      "first_seen": "2026-10-29T00:12:35.291534+00:00",
-      "id": "2109e7351207ad54",
-      "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
-      "links": {
-        "website": "https://squeekchain-chicken-production.up.railway.app"
-      },
-      "name": "Squeek Out",
-      "publication_origin": "owner_approved",
-      "stage": "unknown"
-    },
-    {
       "builder": "theidmfun",
       "category": "dex",
       "checked_text": {
@@ -250,6 +202,7 @@
       "links": {
         "website": "https://squeekout.fun"
       },
+      "logo": "logos/20a95a4b1417aafaade018db4e4764bd53934317374df16ce9da223826909207.svg",
       "name": "Squeek Out",
       "publication_origin": "owner_approved",
       "stage": "unknown"
@@ -321,6 +274,32 @@
       "stage": "testnet_announced"
     },
     {
+      "builder": "squeekchain",
+      "category": "game",
+      "contracts": [],
+      "description_en": "Loot a beautiful, murderous garden. Get out before the hamster-powered portal collapses. A solo extraction game.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "team_mention",
+          "url": "https://x.com/squeekchain/status/2115912610826653723"
+        }
+      ],
+      "first_seen": "2026-10-29T21:11:24.375090+00:00",
+      "id": "79634a19c84cd390",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "announcement": "https://x.com/squeekchain/status/2115912610826653723",
+        "website": "https://squeek.win"
+      },
+      "logo": "logos/07e4e2d12ec09162a4112088c44c391d3ed905a4116b470a1674f89b48bd4c40.svg",
+      "name": "Exsqueektion",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
       "builder": null,
       "category": "game",
       "contracts": [],
@@ -336,6 +315,7 @@
         "docs": "https://docs.squeekchain.com/",
         "website": "https://squeekpicks.xyz"
       },
+      "logo": "logos/457bbf8e4c7e51be5f66da2cf8c7dc414c488aaa882e22f4d701d4e570da1fa8.svg",
       "name": "Squeek Picks",
       "publication_origin": "owner_approved",
       "stage": "unknown"

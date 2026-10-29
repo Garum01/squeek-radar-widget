@@ -111,7 +111,7 @@ function projectLogo(project) {
   const logo = el('div', 'logo');
   if (project.publication_origin === 'owner_curated') logo.classList.add('curated');
   const initial = (project.name || '?').charAt(0).toLowerCase();
-  if (!/^\/?logos\/[a-f0-9]{64}\.(png|jpg|webp)$/.test(project.logo || '')) {
+  if (!/^\/?logos\/[a-f0-9]{64}\.(png|jpg|webp|svg)$/.test(project.logo || '')) {
     logo.textContent = initial;
     logo.setAttribute('aria-label', 'No confirmed project logo yet');
     return logo;
