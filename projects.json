@@ -90,7 +90,7 @@
     },
     {
       "builder": "theidmfun",
-      "category": "dex",
+      "category": "other",
       "checked_text": {
         "paragraphs": [
           [
@@ -276,6 +276,35 @@
     {
       "builder": "squeekchain",
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Exsqueektion is a solo extraction game where you loot a beautiful, murderous garden. The goal is to get out before the hamster-powered portal collapses, as described in "
+            },
+            {
+              "text": "a team post",
+              "url": "https://x.com/squeekchain/status/2115912610826653723"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "You can explore the full details on "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek.win"
+            },
+            {
+              "text": ". It offers a clear look at the game's mechanics and setting, helping you understand exactly what to expect from this unique experience."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Loot a beautiful, murderous garden. Get out before the hamster-powered portal collapses. A solo extraction game.",
       "description_origin": "website",
@@ -465,7 +494,7 @@
     },
     {
       "builder": null,
-      "category": "nft",
+      "category": "defi",
       "contracts": [],
       "description_en": "A permissionless vault where NFTs merge and share mining power across levels.",
       "description_origin": "ai",
@@ -484,52 +513,6 @@
       "stage": "unknown"
     },
     {
-      "category": "game",
-      "contracts": [],
-      "curated_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Pillhead described the multiplayer extraction game in "
-            },
-            {
-              "text": "the 18 Oct announcement",
-              "url": "https://x.com/pillheadddd/status/2111848910368972864"
-            },
-            {
-              "text": ". We haven’t independently verified a playable release or a deployed game contract."
-            }
-          ],
-          [
-            {
-              "text": "The link to Squeekchain is the wheel-controlled portal: the hamster’s running sets the window for escape."
-            }
-          ]
-        ],
-        "version": 1
-      },
-      "description_en": "Enter, grab loot, get out. The hamster keeps the portal open. If he stops, anyone still inside dies.",
-      "description_origin": "owner_curated",
-      "ecosystem_status": "claimed",
-      "evidence": [
-        {
-          "kind": "team_mention",
-          "url": "https://x.com/pillheadddd/status/2111848910368972864"
-        }
-      ],
-      "first_seen": "2026-10-27",
-      "id": "curated-exsqueektion",
-      "identity_status": "unresolved",
-      "lifecycle_stage": "announced",
-      "links": {
-        "announcement": "https://x.com/pillheadddd/status/2111848910368972864"
-      },
-      "logo": "logos/1726962241744245bcde8c8fd4e2ccd1bb636e7abec60ee1967ee9619e31b645.jpg",
-      "name": "Exsqueektion",
-      "publication_origin": "owner_curated",
-      "stage": "announced"
-    },
-    {
       "builder": null,
       "builder_links": [
         {
@@ -538,7 +521,7 @@
           "url": "https://x.com/0xmeto_"
         }
       ],
-      "category": "other",
+      "category": "tools",
       "checked_text": {
         "paragraphs": [
           [
