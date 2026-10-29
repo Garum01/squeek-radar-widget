@@ -2,6 +2,25 @@
   "projects": [
     {
       "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
+      "description_origin": "placeholder",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-10-29T09:22:51.335569+00:00",
+      "id": "0d6840bbf26a4b3a",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://squeek.fun"
+      },
+      "name": "squeek.fun",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
       "category": "memecoin",
       "checked_text": {
         "paragraphs": [
