@@ -70,6 +70,25 @@
       "stage": "testnet_announced"
     },
     {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
+      "description_origin": "placeholder",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-10-29T00:12:35.291534+00:00",
+      "id": "2109e7351207ad54",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://squeekchain-chicken-production.up.railway.app"
+      },
+      "name": "Squeekchain Chicken",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
       "builder": "theidmfun",
       "category": "tools",
       "checked_text": {
