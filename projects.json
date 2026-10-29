@@ -474,38 +474,32 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "builder_links": [
+        {
+          "label": "@0xmeto_",
+          "source": "https://wheelpaper.vercel.app",
+          "url": "https://x.com/0xmeto_"
+        }
+      ],
+      "category": "other",
       "checked_text": {
         "paragraphs": [
           [
             {
-              "text": "The Wheelpaper aims to make the Squeekchain whitepaper playable, according to its description. It is explicitly noted as an unofficial project. You can learn more about this goal on "
+              "text": "The Wheelpaper aims to make the Squeekchain whitepaper playable, as described on the project website. It is an unofficial effort to turn that technical document into an interactive experience. "
             },
             {
               "text": "the project website",
               "url": "https://wheelpaper.vercel.app"
-            },
-            {
-              "text": "."
             }
           ],
           [
             {
-              "text": "To follow the source trail, start with "
+              "text": "To understand this approach, you can explore the details provided on the project website. This source offers the primary context for how the whitepaper was adapted into a playable format. "
             },
             {
               "text": "the project website",
               "url": "https://wheelpaper.vercel.app"
-            },
-            {
-              "text": " for the main details. You might also check "
-            },
-            {
-              "text": "the project profile",
-              "url": "https://x.com/0xmeto_"
-            },
-            {
-              "text": " for additional context. These sources help you understand the project's scope and background."
             }
           ]
         ],
@@ -521,8 +515,7 @@
       "identity_status": "resolved",
       "lifecycle_stage": "unknown",
       "links": {
-        "website": "https://wheelpaper.vercel.app",
-        "x": "https://x.com/0xmeto_"
+        "website": "https://wheelpaper.vercel.app"
       },
       "logo": "logos/51402b2d4d8fc90f555a42d1b7f2fa76fbf3ea8e1d1f3b92f00e7399f0e4eada.png",
       "name": "The Wheelpaper",

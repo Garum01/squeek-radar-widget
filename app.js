@@ -257,6 +257,13 @@ function projectDetails(project) {
   copy.append(el('p', '', context));
   if (project.review_required) copy.append(el('p', '', 'The record is flagged for an additional identity review.'));
   }
+  for (const builder of (Array.isArray(project.builder_links) ? project.builder_links : []).slice(0, 3)) {
+    const url = safeURL(builder.url);
+    if (!url || !/^https:\/\/(?:www\.)?(?:x|twitter)\.com\/[A-Za-z0-9_]{1,15}\/?$/.test(url)) continue;
+    const credit = el('p');
+    credit.append('The site credits ', external(url, '', builder.label || 'its builder'), ' as its builder.');
+    copy.append(credit);
+  }
   body.append(copy);
   if (generated && generated.dataset.origin === 'curated') body.append(el('p', 'evidence-note', 'Manually added from the linked public announcement.'));
   if (generated && generated.dataset.origin === 'ai') body.append(el('p', 'evidence-note', 'AI-written from the linked public record · not a new verification.'));
