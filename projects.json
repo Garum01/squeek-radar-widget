@@ -91,10 +91,39 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Out is a game of nerve where you ride Squeektoshi's wheel and must bail before he stops. It runs on Squeekchain, a hamster-powered blockchain, as described on "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekchain-chicken-production.up.railway.app"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To understand the mechanics, you can explore the details provided on "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekchain-chicken-production.up.railway.app"
+            },
+            {
+              "text": ". This source offers the primary context for how the game functions within its unique ecosystem."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
-      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
-      "description_origin": "placeholder",
-      "ecosystem_status": "weak",
+      "description_en": "Ride Squeektoshi's wheel and bail before he stops. A game of nerve on Squeekchain, the hamster-powered blockchain.",
+      "description_origin": "website",
+      "ecosystem_status": "claimed",
       "evidence": [],
       "first_seen": "2026-10-29T00:12:35.291534+00:00",
       "id": "2109e7351207ad54",
@@ -103,7 +132,7 @@
       "links": {
         "website": "https://squeekchain-chicken-production.up.railway.app"
       },
-      "name": "Squeekchain Chicken",
+      "name": "Squeek Out",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -175,6 +204,54 @@
       },
       "logo": "logos/2f1f37b99853c5b08cb1d42033a39b399ebfcba41a53190d28b795aa19742589.jpg",
       "name": "Intelligent Dance Market",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Out is a game of nerve where you ride Squeektoshi's wheel and must bail before he stops. It runs on Squeekchain, a hamster-powered blockchain, as described on "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekout.fun"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To understand how this works, you can explore the details provided on "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekout.fun"
+            },
+            {
+              "text": ". It offers a clear look at the mechanics and the unique setting of this interactive experience."
+            }
+          ]
+        ],
+        "version": 1
+      },
+      "contracts": [],
+      "description_en": "Ride Squeektoshi's wheel and bail before he stops. A game of nerve on Squeekchain, the hamster-powered blockchain.",
+      "description_origin": "website",
+      "ecosystem_status": "claimed",
+      "evidence": [],
+      "first_seen": "2026-10-29T18:10:17.435285+00:00",
+      "id": "508ebed43b30d173",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://squeekout.fun"
+      },
+      "name": "Squeek Out",
+      "publication_origin": "owner_approved",
       "stage": "unknown"
     },
     {
