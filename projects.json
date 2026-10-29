@@ -226,6 +226,26 @@
     },
     {
       "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "Call Squeektoshi's night on the wheel. Distance, peak window and Squeek blocks, for points or a Sepolia test pot.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-10-29T01:18:38.590709+00:00",
+      "id": "818182a7692c5e39",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "docs": "https://docs.squeekchain.com/",
+        "website": "https://squeekpicks.xyz"
+      },
+      "name": "Squeek Picks",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
       "category": "game",
       "contracts": [],
       "description_en": "A real hamster. One hour. Bet IMD on the wheel, watch the live cam, and take a guess at the jackpot. Hamster Hour on Ethereum.",
