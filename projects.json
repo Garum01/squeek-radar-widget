@@ -208,6 +208,44 @@
       "stage": "unknown"
     },
     {
+      "builder": null,
+      "category": "other",
+      "contracts": [
+        {
+          "address": "0x531497ddc70d634342020b1111c8b1a92873e669",
+          "chain_id": 11155111
+        }
+      ],
+      "description_en": "An on-chain ecosystem candidate observed interacting with, or holding assets from, Squeekchain. Its project identity and purpose have not yet been confirmed.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x5b4e615655500af1cbd07b1cb3121d3e70d5eaba8d4fc3122725ffa8b7e15cec"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x65acb8b1fd4e29191e8792209b46b126f60c4cad2bbb5630f76bcbfebb5bf771"
+        },
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0x531497ddc70d634342020b1111c8b1a92873e669"
+        }
+      ],
+      "first_seen": "2026-10-29T23:13:23.546307+00:00",
+      "id": "673e966542c15efd",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "explorer": "https://eth-sepolia.blockscout.com/address/0x531497ddc70d634342020b1111c8b1a92873e669",
+        "website": "https://squeek-nft.vercel.app"
+      },
+      "name": "Squeek Block NFT",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
       "builder": "CelerityCodes",
       "category": "defi",
       "checked_text": {
@@ -274,37 +312,8 @@
       "stage": "testnet_announced"
     },
     {
-      "builder": "squeekchain",
+      "builder": "pillheadddd",
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Exsqueektion is a solo extraction game where you loot a beautiful, murderous garden. The goal is to get out before the hamster-powered portal collapses, as described in "
-            },
-            {
-              "text": "a team post",
-              "url": "https://x.com/squeekchain/status/2115912610826653723"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "You can explore the full details on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek.win"
-            },
-            {
-              "text": ". It offers a clear look at the game's mechanics and setting, helping you understand exactly what to expect from this unique experience."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Loot a beautiful, murderous garden. Get out before the hamster-powered portal collapses. A solo extraction game.",
       "description_origin": "website",
@@ -313,6 +322,10 @@
         {
           "kind": "team_mention",
           "url": "https://x.com/squeekchain/status/2115912610826653723"
+        },
+        {
+          "kind": "team_mention",
+          "url": "https://x.com/pillheadddd/status/2115954399587815913"
         }
       ],
       "first_seen": "2026-10-29T21:11:24.375090+00:00",
