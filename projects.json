@@ -271,6 +271,49 @@
     {
       "builder": "CelerityCodes",
       "category": "defi",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "The developer describes quadConnect as an automated vault combining Squeekchain mining, hourly long/short strategies, and compounding "
+            },
+            {
+              "text": "the project website",
+              "url": "https://quad.cx"
+            },
+            {
+              "text": ". This setup aims to streamline these specific activities into a single, managed process for participants."
+            }
+          ],
+          [
+            {
+              "text": "To understand how this works, you can start with "
+            },
+            {
+              "text": "a team post",
+              "url": "https://x.com/pillheadddd/status/2112707335022166376"
+            },
+            {
+              "text": " for context. Then, check "
+            },
+            {
+              "text": "the public profile",
+              "url": "https://x.com/quadconnects"
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "a public source",
+              "url": "https://x.com/pillheadddd/status/2116225828606324808"
+            },
+            {
+              "text": " to see the details laid out clearly."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "The developer describes an automated vault combining Squeekchain mining, hourly long/short strategies and compounding. A testnet has been announced; the contract and live operation have not been independently confirmed.",
       "description_origin": "source",
