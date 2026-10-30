@@ -312,7 +312,7 @@
       "stage": "testnet_announced"
     },
     {
-      "builder": "pillheadddd",
+      "builder": "nonfuncional",
       "category": "game",
       "contracts": [],
       "description_en": "Loot a beautiful, murderous garden. Get out before the hamster-powered portal collapses. A solo extraction game.",
@@ -326,6 +326,10 @@
         {
           "kind": "team_mention",
           "url": "https://x.com/pillheadddd/status/2115954399587815913"
+        },
+        {
+          "kind": "team_mention",
+          "url": "https://x.com/pillheadddd/status/2115960907637375395"
         }
       ],
       "first_seen": "2026-10-29T21:11:24.375090+00:00",
@@ -502,6 +506,25 @@
         "website": "https://squeekbet.xyz"
       },
       "name": "SqueekBet",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
+      "description_origin": "placeholder",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-10-30T00:37:44.784688+00:00",
+      "id": "b488cfb493ec95cb",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://hamster-atlas.vercel.app"
+      },
+      "name": "Hamster Atlas",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
