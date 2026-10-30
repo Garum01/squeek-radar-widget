@@ -271,42 +271,6 @@
     {
       "builder": "CelerityCodes",
       "category": "defi",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "The developer describes quadConnect as an automated vault. It combines Squeekchain mining with hourly long and short strategies, plus compounding, according to "
-            },
-            {
-              "text": "the project website",
-              "url": "https://quad.cx"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To see how this works, you can follow the details in "
-            },
-            {
-              "text": "a team post",
-              "url": "https://x.com/pillheadddd/status/2112707335022166376"
-            },
-            {
-              "text": " or check "
-            },
-            {
-              "text": "the announcement",
-              "url": "https://x.com/CelerityCodes/status/2112654209430827034"
-            },
-            {
-              "text": " for more context on the setup."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "The developer describes an automated vault combining Squeekchain mining, hourly long/short strategies and compounding. A testnet has been announced; the contract and live operation have not been independently confirmed.",
       "description_origin": "source",
@@ -319,6 +283,14 @@
         {
           "kind": "ai_hint",
           "url": "https://x.com/pillheadddd/status/2112707335022166376"
+        },
+        {
+          "kind": "x_profile",
+          "url": "https://x.com/quadconnects"
+        },
+        {
+          "kind": "ai_hint",
+          "url": "https://x.com/pillheadddd/status/2116225828606324808"
         }
       ],
       "first_seen": "2026-10-22T01:57:35.644718+00:00",
@@ -330,7 +302,7 @@
         "website": "https://quad.cx",
         "x": "https://x.com/quadconnects"
       },
-      "logo": "logos/b538bd4ded35e6d85154ad96a302521ab03aa245ebaa8f1ad562215cddeb148e.png",
+      "logo": "logos/b908ba6b33f3e08bd93fcf4e7ee9103f6b3162cc29e58c5ba624e528438f9a1d.jpg",
       "name": "quadConnect",
       "stage": "testnet_announced"
     },
@@ -722,6 +694,37 @@
     {
       "builder": null,
       "category": "defi",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "NutshellMarkets is building a treasury designed to grow Squeekchain, as stated in "
+            },
+            {
+              "text": "the project profile",
+              "url": "https://x.com/nutshellmarkets"
+            },
+            {
+              "text": ". This description outlines the core intent behind the initiative. To understand the details, you can follow the trail in "
+            },
+            {
+              "text": "a public source",
+              "url": "https://x.com/pillheadddd/status/2115513298699329819"
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "a public source",
+              "url": "https://x.com/pillheadddd/status/2116201262010241204"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Building a treasury designed to grow @squeekchain.",
       "description_origin": "x_profile",
