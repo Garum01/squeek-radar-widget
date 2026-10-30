@@ -390,16 +390,63 @@
       "stage": "unknown"
     },
     {
-      "builder": null,
+      "builder": "hamsterhourgame",
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Hamster Hour is a playful Ethereum project where you bet on a real hamster running on a wheel. As described in "
+            },
+            {
+              "text": "the public profile",
+              "url": "https://x.com/hamsterhourgame"
+            },
+            {
+              "text": ", you watch the live cam and guess the jackpot outcome. It’s a simple, lighthearted way to engage with the ecosystem."
+            }
+          ],
+          [
+            {
+              "text": "To understand the details, start with "
+            },
+            {
+              "text": "the project website",
+              "url": "https://hamsterhour.fun"
+            },
+            {
+              "text": " for general info. Then check "
+            },
+            {
+              "text": "the announcement",
+              "url": "https://x.com/hamsterhourgame/status/2116181078650331524"
+            },
+            {
+              "text": " for specific rules. "
+            },
+            {
+              "text": "A team post",
+              "url": "https://x.com/pillheadddd/status/2116210686665859099"
+            },
+            {
+              "text": " might offer extra context on how the game works."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A real hamster. One hour. Bet IMD on the wheel, watch the live cam, and take a guess at the jackpot. Hamster Hour on Ethereum.",
       "description_origin": "website",
-      "ecosystem_status": "weak",
+      "ecosystem_status": "confirmed",
       "evidence": [
         {
           "kind": "x_profile",
           "url": "https://x.com/hamsterhourgame"
+        },
+        {
+          "kind": "team_mention",
+          "url": "https://x.com/pillheadddd/status/2116210686665859099"
         }
       ],
       "first_seen": "2026-10-23T19:28:51.093916+00:00",
@@ -407,6 +454,7 @@
       "identity_status": "resolved",
       "lifecycle_stage": "unknown",
       "links": {
+        "announcement": "https://x.com/hamsterhourgame/status/2116181078650331524",
         "website": "https://hamsterhour.fun",
         "x": "https://x.com/hamsterhourgame"
       },
@@ -461,6 +509,56 @@
       },
       "logo": "logos/5450d5403c3d2ba8091f7a98b95840fbe62ac353ae5e93d6d89f3579aad63dad.png",
       "name": "Squeek Dashboard",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "SqueekFi is described as a lightweight, read-only dashboard for Squeekchain's public Sepolia data "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekfi.vercel.app"
+            },
+            {
+              "text": ". It focuses on displaying this specific information without additional features. To understand how it works, you can explore the provided materials. The documentation offers a clear path to see the details behind the dashboard "
+            },
+            {
+              "text": "the documentation",
+              "url": "https://docs.squeekchain.com/developers/api/"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
+      "contracts": [],
+      "description_en": "According to its README, a lightweight, read-only dashboard for Squeekchain's public Sepolia data.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/tommycuong1904/squeekfi"
+        }
+      ],
+      "first_seen": "2026-10-30T13:10:22.112900+00:00",
+      "id": "abed8276549b7152",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "docs": "https://docs.squeekchain.com/developers/api/",
+        "github": "https://github.com/tommycuong1904/squeekfi",
+        "website": "https://squeekfi.vercel.app"
+      },
+      "name": "SqueekFi",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -624,30 +722,6 @@
     {
       "builder": null,
       "category": "defi",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "NutshellMarkets is building a treasury designed to grow Squeekchain, as stated in "
-            },
-            {
-              "text": "the project profile",
-              "url": "https://x.com/nutshellmarkets"
-            },
-            {
-              "text": ". This purpose frames the initiative's core intent. To understand the specifics, you can explore "
-            },
-            {
-              "text": "a public source",
-              "url": "https://x.com/pillheadddd/status/2115513298699329819"
-            },
-            {
-              "text": " for more context on how this treasury aims to support the ecosystem's development."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Building a treasury designed to grow @squeekchain.",
       "description_origin": "x_profile",
@@ -656,6 +730,10 @@
         {
           "kind": "ai_hint",
           "url": "https://x.com/pillheadddd/status/2115513298699329819"
+        },
+        {
+          "kind": "ai_hint",
+          "url": "https://x.com/pillheadddd/status/2116201262010241204"
         }
       ],
       "first_seen": "2026-10-27T16:14:42.765267+00:00",
