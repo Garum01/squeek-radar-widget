@@ -89,6 +89,25 @@
       "stage": "testnet_announced"
     },
     {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "A free, read-only frontend dashboard for the Squeekchain network that displays live onchain analytics, NFT levels, hamster power, and yield compounding.",
+      "description_origin": "ai",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-10-30T12:09:27.656586+00:00",
+      "id": "30a70a1c2131f4f1",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://squeek-pulse-studio.vercel.app"
+      },
+      "name": "SqueekLeveler & WheelPulse v2.5 Studio",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
       "builder": "theidmfun",
       "category": "other",
       "checked_text": {
