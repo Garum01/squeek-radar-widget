@@ -534,28 +534,33 @@
         "paragraphs": [
           [
             {
-              "text": "SqueekFi is described as a lightweight, read-only dashboard for Squeekchain's public Sepolia data "
+              "text": "SqueekFi is described as a read-only console for Squeekchain's public Sepolia data, specifically designed for Hamster-to-Holder interactions "
             },
             {
               "text": "the project website",
               "url": "https://squeekfi.vercel.app"
             },
             {
-              "text": ". It focuses on displaying this specific information without additional features. To understand how it works, you can explore the provided materials. The documentation offers a clear path to see the details behind the dashboard "
+              "text": ". It focuses on displaying this information without altering it, serving as a straightforward interface for users interested in that specific dataset."
+            }
+          ],
+          [
+            {
+              "text": "To understand how it works, you can explore the provided materials. The documentation offers a clear path to see the data structure, while the public source provides additional context "
             },
             {
               "text": "the documentation",
               "url": "https://docs.squeekchain.com/developers/api/"
             },
             {
-              "text": "."
+              "text": ". Reading these sections helps you follow the logic behind the console's design and its interaction with the public data."
             }
           ]
         ],
         "version": 1
       },
       "contracts": [],
-      "description_en": "According to its README, a lightweight, read-only dashboard for Squeekchain's public Sepolia data.",
+      "description_en": "According to its README, a read-only Hamster-to-Holder Console for Squeekchain's public Sepolia data.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
