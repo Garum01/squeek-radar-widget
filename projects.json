@@ -231,6 +231,10 @@
         {
           "kind": "site_contract_link",
           "url": "https://eth-sepolia.blockscout.com/address/0x531497ddc70d634342020b1111c8b1a92873e669"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x90ed270f32a50babf10a05373ba29c987b23da94895081bf80a4a93ca8f630a7"
         }
       ],
       "first_seen": "2026-10-29T23:13:23.546307+00:00",
