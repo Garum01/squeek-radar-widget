@@ -41,6 +41,47 @@
     },
     {
       "builder": null,
+      "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek powers a community road trip, inviting you to watch the settled wheel distance. You can explore 64 destinations and vote for the next stop on Sepolia, as described on "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-s-first-road-trip-choose.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To follow this journey, start by checking the current wheel status. Then, browse the available destinations to see where the community might head next. This simple trail helps you understand how the trip progresses step by step."
+            }
+          ]
+        ],
+        "version": 1
+      },
+      "contracts": [],
+      "description_en": "Squeek powers a community road trip. Watch the settled wheel distance, explore 64 destinations and vote for the next stop on Sepolia.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-10-31T21:12:19.212488+00:00",
+      "id": "0e27ad2ba2ed1c36",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://squeek-s-first-road-trip-choose.imd.site"
+      },
+      "name": "Squeek’s First Road Trip",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
       "category": "memecoin",
       "checked_text": {
         "paragraphs": [
@@ -585,6 +626,35 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "The Last Wheel describes a frozen city kept alive by a real hamster on Squeekchain, where every turn of his wheel heats the town "
+            },
+            {
+              "text": "the project website",
+              "url": "https://thelastwheel.app"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "You can follow this concept by checking the project profile for more context "
+            },
+            {
+              "text": "the project profile",
+              "url": "https://x.com/squeekchain"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A frozen city kept alive by a real hamster on Squeekchain. Every turn of his wheel heats the town.",
       "description_origin": "website",
@@ -777,7 +847,64 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
+      "contracts": [],
+      "description_en": "Live WHEELY9000 hamster wheel telemetry from Squeekchain on Ethereum Sepolia, with a wake siren, a 6-pocket raid mini-game and a keeper console that sends real Sepolia transactions.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-10-31T21:12:19.217573+00:00",
+      "id": "8a88be894dedf00d",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://squeek-wake-raid-wheely9000-sire.imd.site",
+        "x": "https://x.com/squeekchain"
+      },
+      "logo": "logos/a851e19e59d821c4e3c37312465771f23e273b04a0f192819a23b6c78a399b99.svg",
+      "name": "Squeek Wake & Raid",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "other",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Spin Art is a project where a real hamster mines Squeekchain by running on a wheel. Each night, this activity results in the creation of a unique spin-art card, as described on "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekwheel.xyz"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To understand how this works, you can explore the details provided in "
+            },
+            {
+              "text": "the project profile",
+              "url": "https://x.com/squeekchain"
+            },
+            {
+              "text": " and examine the implementation in "
+            },
+            {
+              "text": "the code repository",
+              "url": "https://github.com/Rooaraak/squeek-wheel-watch/blob/main/art.js"
+            },
+            {
+              "text": ". These sources offer a clear trail for anyone curious about the mechanics behind the hamster's nightly artistic output."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Every night the real hamster that mines Squeekchain paints a spin-art card with his wheel. Watch tonight's card fill live, replay every night, paint along with him and put it on your stream.",
       "description_origin": "website",
@@ -1049,6 +1176,26 @@
       },
       "logo": "logos/a986415c22efe925415b95de8393570707ca395fcb891d3017e5bd0fe1243cf1.jpg",
       "name": "NutshellMarkets",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "defi",
+      "contracts": [],
+      "description_en": "Borrow SQK against Squeek NFTs on Sepolia. The collateral keeps mining on Squeekchain and its rewards pay the loan down.",
+      "description_origin": "website",
+      "ecosystem_status": "claimed",
+      "evidence": [],
+      "first_seen": "2026-10-31T21:12:19.203861+00:00",
+      "id": "ee38834c456b7c98",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://burrow-squeek.vercel.app"
+      },
+      "logo": "logos/d40b9c2ea4946be6147a8054e989fdcd161587ffb636aa18e5a2fafacc90e1b9.svg",
+      "name": "Burrow",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
