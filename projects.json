@@ -4,6 +4,26 @@
       "builder": null,
       "category": "game",
       "contracts": [],
+      "description_en": "An independent, play-money prediction market on a hamster’s daily wheel distance.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-10-31T01:07:42.807034+00:00",
+      "id": "0c1f29be3bdbaae6",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://wheel-market.46.225.133.160.sslip.io"
+      },
+      "logo": "logos/3657d88c522e510bd774feaf045b3f26f398db597e2a1077fffb8bf3708c9364.svg",
+      "name": "Wheel Markets",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [],
       "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
       "description_origin": "placeholder",
       "ecosystem_status": "weak",
