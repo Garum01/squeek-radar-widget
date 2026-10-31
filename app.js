@@ -125,6 +125,14 @@ function projectLogo(project) {
   return logo;
 }
 
+function isNetworkDocumentation(value) {
+  const url = safeURL(value);
+  if (!url) return false;
+  const parsed = new URL(url), host = parsed.hostname.toLowerCase().replace(/\.$/, '');
+  return host === 'docs.squeekchain.com' || host.endsWith('.docs.squeekchain.com') ||
+    (['squeekchain.com', 'www.squeekchain.com'].includes(host) && /^\/(docs|documentation|developers)(\/|$)/.test(parsed.pathname));
+}
+
 function projectDocsURL(project) {
   const docs = safeURL(project.links?.docs);
   if (!docs) return null;
@@ -173,7 +181,7 @@ function aiReadingGuide(project) {
   const curated = project.publication_origin === 'owner_curated' && project.curated_text;
   const story = curated || project.checked_text;
   if (story?.version !== 1 || !Array.isArray(story.paragraphs) || !story.paragraphs.length || story.paragraphs.length > 2) return null;
-  const allowed = new Set([...Object.values(normalizedLinks(project)), ...(project.evidence || []).map(e => e.url)].map(safeURL).filter(Boolean));
+  const allowed = new Set([...Object.values(normalizedLinks(project)), ...(project.evidence || []).map(e => e.url)].map(safeURL).filter(url => url && !isNetworkDocumentation(url)));
   const copy = el('div', 'verification-copy');
   let length = 0, citations = 0;
   for (const pieces of story.paragraphs) {
@@ -214,14 +222,14 @@ function projectDetails(project) {
     contract_interaction: 'a contract interaction reference', website: 'a website reference'};
   for (const source of project.evidence || []) {
     const url = safeURL(source.url);
-    if (!url || seen.has(url)) continue;
+    if (!url || isNetworkDocumentation(url) || seen.has(url)) continue;
     seen.add(url);
     references.push(external(url, '', labels[source.kind] || 'a linked public observation'));
   }
   for (const [kind, label] of [['website', 'the linked website'], ['github', 'the linked code repository'],
     ['announcement', 'the linked announcement'], ['x', 'the linked X profile'], ['docs', projectDocsURL(project) ? 'the project documentation' : 'a documentation reference'], ['explorer', 'the linked explorer record']]) {
     const url = safeURL(links[kind]);
-    if (!url || seen.has(url)) continue;
+    if (!url || isNetworkDocumentation(url) || seen.has(url)) continue;
     seen.add(url);
     references.push(external(url, '', label));
   }

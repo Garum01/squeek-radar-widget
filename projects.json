@@ -396,7 +396,6 @@
       "identity_status": "resolved",
       "lifecycle_stage": "unknown",
       "links": {
-        "docs": "https://docs.squeekchain.com/",
         "website": "https://squeekpicks.xyz"
       },
       "logo": "logos/457bbf8e4c7e51be5f66da2cf8c7dc414c488aaa882e22f4d701d4e570da1fa8.svg",
@@ -530,35 +529,6 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "SqueekFi is described as a read-only console for Squeekchain's public Sepolia data, specifically designed for Hamster-to-Holder interactions "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekfi.vercel.app"
-            },
-            {
-              "text": ". It focuses on displaying this information without altering it, serving as a straightforward interface for users interested in that specific dataset."
-            }
-          ],
-          [
-            {
-              "text": "To understand how it works, you can explore the provided materials. The documentation offers a clear path to see the data structure, while the public source provides additional context "
-            },
-            {
-              "text": "the documentation",
-              "url": "https://docs.squeekchain.com/developers/api/"
-            },
-            {
-              "text": ". Reading these sections helps you follow the logic behind the console's design and its interaction with the public data."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "According to its README, a read-only Hamster-to-Holder Console for Squeekchain's public Sepolia data.",
       "description_origin": "readme",
@@ -574,7 +544,6 @@
       "identity_status": "resolved",
       "lifecycle_stage": "unknown",
       "links": {
-        "docs": "https://docs.squeekchain.com/developers/api/",
         "github": "https://github.com/tommycuong1904/squeekfi",
         "website": "https://squeekfi.vercel.app"
       },
@@ -585,35 +554,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "SqueekBet is a playful prediction market where users wager on whether a hamster-powered blockchain will mine enough blocks. As described on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekbet.xyz"
-            },
-            {
-              "text": ", participants stake $SQK on YES or NO, with winners splitting the pool and every result settled onchain without an oracle."
-            }
-          ],
-          [
-            {
-              "text": "To understand how this works, you can explore the mechanics in "
-            },
-            {
-              "text": "the documentation",
-              "url": "https://docs.squeekchain.com"
-            },
-            {
-              "text": ". It offers a clear path to see how bets are placed and resolved, helping you follow the source trail from the initial concept to the final onchain settlement."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [
         {
           "address": "0xc0402e84499d3970640f4a996e5ce2ebd51618c7",
@@ -642,7 +582,6 @@
       "identity_status": "resolved",
       "lifecycle_stage": "unknown",
       "links": {
-        "docs": "https://docs.squeekchain.com",
         "explorer": "https://eth-sepolia.blockscout.com/address/0xc0402e84499d3970640f4a996e5ce2ebd51618c7",
         "website": "https://squeekbet.xyz"
       },
