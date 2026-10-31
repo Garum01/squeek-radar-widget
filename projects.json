@@ -406,6 +406,35 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Picks is designed to call Squeektoshi's night on the wheel, tracking distance, peak windows, and Squeek blocks for points or a Sepolia test pot "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekpicks.xyz"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "You can follow the source trail by checking the project website for details or exploring the code repository to see how these elements are implemented "
+            },
+            {
+              "text": "the code repository",
+              "url": "https://github.com/Identity-md/research/blob/main/jobs/06d98304-78a4-4089-815a-2be96ef1f7c5/files/AUDIT.md"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Call Squeektoshi's night on the wheel. Distance, peak window and Squeek blocks, for points or a Sepolia test pot.",
       "description_origin": "website",
@@ -416,6 +445,7 @@
       "identity_status": "resolved",
       "lifecycle_stage": "unknown",
       "links": {
+        "github": "https://github.com/Identity-md/research/blob/main/jobs/06d98304-78a4-4089-815a-2be96ef1f7c5/files/AUDIT.md",
         "website": "https://squeekpicks.xyz"
       },
       "logo": "logos/457bbf8e4c7e51be5f66da2cf8c7dc414c488aaa882e22f4d701d4e570da1fa8.svg",
