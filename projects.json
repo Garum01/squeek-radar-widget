@@ -273,6 +273,67 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "label": "@defsnotneo",
+          "source": "https://squeekrun.vercel.app",
+          "url": "https://x.com/defsnotneo"
+        }
+      ],
+      "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "According to its README, this is a free-to-play browser platformer and mining-colony game inspired by Squeekchain. It combines classic platforming mechanics with colony management elements, all accessible directly in your web browser without any cost."
+            }
+          ],
+          [
+            {
+              "text": "To understand the project better, you can explore the details provided in "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/NeoPortia/squeekrun"
+            },
+            {
+              "text": " or visit "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekrun.vercel.app"
+            },
+            {
+              "text": ". These sources offer the foundational information about the game's design and inspiration, helping you see what makes this particular take on the genre unique."
+            }
+          ]
+        ],
+        "version": 1
+      },
+      "contracts": [],
+      "description_en": "According to its README, a free-to-play browser platformer and mining-colony game inspired by Squeekchain.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/NeoPortia/squeekrun"
+        }
+      ],
+      "first_seen": "2026-10-30T16:57:28.121789+00:00",
+      "id": "582b57634efd5c78",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "github": "https://github.com/NeoPortia/squeekrun",
+        "website": "https://squeekrun.vercel.app"
+      },
+      "name": "🐹 SqueekRun: Crystal Caverns",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
       "category": "other",
       "contracts": [
         {
