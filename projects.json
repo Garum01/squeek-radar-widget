@@ -248,6 +248,31 @@
     },
     {
       "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "According to its README, a prediction game on the Squeekchain hamster wheel. Every 10 minutes the wheel's work is counted and settled onchain by SqueekCore. You bet Sepolia ETH on whether a future round's work lands over or under a line, and the contract pays winners from the certified number. Nobody can settle it by hand, and there is no admi…",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/ekervo/wheel-odds"
+        }
+      ],
+      "first_seen": "2026-10-31T15:56:06.329113+00:00",
+      "id": "557bcdb9f17ea33f",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "github": "https://github.com/ekervo/wheel-odds",
+        "website": "https://wheel-odds.vercel.app"
+      },
+      "name": "Wheel Odds",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
       "category": "other",
       "contracts": [
         {
@@ -285,6 +310,33 @@
         "website": "https://squeek-nft.vercel.app"
       },
       "name": "Squeek Block NFT",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "According to its README, **Live from the wheel.** A community dashboard for [Squeekchain](https://squeekchain.com) — the proof-of-work toychain on Ethereum powered by Squeektoshi, a real hamster running in the WHEELY9000.",
+      "description_origin": "readme",
+      "ecosystem_status": "claimed",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/h0xva/squeekchain-dashboard"
+        }
+      ],
+      "first_seen": "2026-10-30T07:22:04.899893+00:00",
+      "id": "68817065462f8ecf",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "docs": "https://github.com/h0xva/squeekchain-dashboard/blob/HEAD/docs/live.png",
+        "github": "https://github.com/h0xva/squeekchain-dashboard",
+        "website": "https://squeekchain-dashboard.vercel.app",
+        "x": "https://x.com/squeekchain"
+      },
+      "name": "Squeekchain community dashboard",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -621,6 +673,10 @@
         {
           "kind": "site_contract_link",
           "url": "https://eth-sepolia.blockscout.com/address/0xc0402e84499d3970640f4a996e5ce2ebd51618c7"
+        },
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0x980b4424c007caf7a1f3670b48c8eaef7ebc3d44"
         },
         {
           "kind": "site_contract_link",
