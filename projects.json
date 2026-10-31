@@ -112,6 +112,28 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
+      "description_en": "Alerts and one-click claims for Squeekchain Squeek holders.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-10-31T21:12:19.318290+00:00",
+      "id": "161118c8ef978dbf",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "github": "https://github.com/olric3015/squeektoshi-status#install-2-minutes",
+        "website": "https://squeek-keeper.imd.site",
+        "x": "https://x.com/squeektoshi"
+      },
+      "logo": "logos/22770565c1ef6d0262a896375fcf990ed0996832f7d2f78b7aecc83608b87cac.png",
+      "name": "Squeek Keeper",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
       "description_en": "A free, read-only frontend dashboard for the Squeekchain network that displays live onchain analytics, NFT levels, hamster power, and yield compounding.",
       "description_origin": "ai",
       "ecosystem_status": "weak",
@@ -422,6 +444,26 @@
       "stage": "unknown"
     },
     {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "WheelCam is a free set of transparent OBS browser-source overlays for Squeektoshi's wheel stream: a corner bug, lower third, ticker, rpm gauge, run card and alerts, driven by live wheel data.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-10-31T21:12:19.404104+00:00",
+      "id": "7038028ab90e3893",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://wheelcam-obs-overlays-for-a-hams.imd.site"
+      },
+      "logo": "logos/7fb5d95d33f886b9b493b58f8c3670ffceaf9ce76528fe8aa8bc9c0ebc38bac3.svg",
+      "name": "WheelCam: put the wheel on air",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
       "builder": "CelerityCodes",
       "category": "defi",
       "checked_text": {
@@ -503,7 +545,7 @@
       "stage": "testnet_announced"
     },
     {
-      "builder": "nonfuncional",
+      "builder": "pillheadddd",
       "category": "game",
       "contracts": [],
       "description_en": "Loot a beautiful, murderous garden. Get out before the hamster-powered portal collapses. A solo extraction game.",
@@ -521,6 +563,10 @@
         {
           "kind": "team_mention",
           "url": "https://x.com/pillheadddd/status/2115960907637375395"
+        },
+        {
+          "kind": "team_mention",
+          "url": "https://x.com/pillheadddd/status/2116648244092543401"
         }
       ],
       "first_seen": "2026-10-29T21:11:24.375090+00:00",
@@ -533,6 +579,26 @@
       },
       "logo": "logos/07e4e2d12ec09162a4112088c44c391d3ed905a4116b470a1674f89b48bd4c40.svg",
       "name": "Exsqueektion",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "A frozen city kept alive by a real hamster on Squeekchain. Every turn of his wheel heats the town.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-10-31T21:12:19.307802+00:00",
+      "id": "811683d53f330087",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://thelastwheel.app",
+        "x": "https://x.com/squeekchain"
+      },
+      "name": "The Last Wheel",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -713,6 +779,47 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
+      "description_en": "Every night the real hamster that mines Squeekchain paints a spin-art card with his wheel. Watch tonight's card fill live, replay every night, paint along with him and put it on your stream.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-10-31T21:12:19.106513+00:00",
+      "id": "8bb0f98c06a6d7e8",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "github": "https://github.com/Rooaraak/squeek-wheel-watch/blob/main/art.js",
+        "website": "https://squeekwheel.xyz",
+        "x": "https://x.com/squeekchain"
+      },
+      "name": "Squeek Spin Art",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "Plant a tiny pixel garden powered by Squeektoshi's real wheel work. Grow, harvest and collect golden crops on Squeekchain. No wallet or gas.",
+      "description_origin": "website",
+      "ecosystem_status": "claimed",
+      "evidence": [],
+      "first_seen": "2026-10-31T21:12:19.222151+00:00",
+      "id": "a5a278ce9e54c6ba",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://squeek-sprouts-a-little-garden-p.imd.site"
+      },
+      "logo": "logos/0542d5444c023dae07ee2afffa53a7b558b0bc92c7755b787deb422241cedb90.svg",
+      "name": "Squeek Sprouts",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
       "description_en": "According to its README, a read-only Hamster-to-Holder Console for Squeekchain's public Sepolia data.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
@@ -792,6 +899,26 @@
         "website": "https://hamster-atlas.vercel.app"
       },
       "name": "Hamster Atlas",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "Broadcast graphics for Squeektoshi's wheel stream: transparent OBS browser-source overlays driven by live wheel telemetry and settled Squeekchain data.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-10-31T21:12:19.322493+00:00",
+      "id": "b5d2c1af2488cb6f",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://wheelcam.online"
+      },
+      "logo": "logos/7fb5d95d33f886b9b493b58f8c3670ffceaf9ce76528fe8aa8bc9c0ebc38bac3.svg",
+      "name": "WheelCam",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -922,6 +1049,47 @@
       },
       "logo": "logos/a986415c22efe925415b95de8393570707ca395fcb891d3017e5bd0fe1243cf1.jpg",
       "name": "NutshellMarkets",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "A quiet little window into Squeektoshi’s day. Follow the runs, rests and wheel passes behind Squeekchain, the hamster-powered proof-of-work chain on Sepolia.",
+      "description_origin": "website",
+      "ecosystem_status": "claimed",
+      "evidence": [],
+      "first_seen": "2026-10-31T21:12:19.303458+00:00",
+      "id": "ef2623a74e3427fc",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://squeektoshi-diary.imd.site",
+        "x": "https://x.com/xiligeweb3"
+      },
+      "logo": "logos/ae42a05373e6d903036ab35f4243ddf72ef0d0064c6af50071ea01607d50115b.svg",
+      "name": "Squeektoshi’s Diary",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "The non-custodial Squeek workbench on Sepolia. Inspect live holders, crank checkpoints, batch-claim SQK, and carefully merge Squeeks.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-10-31T21:12:19.112974+00:00",
+      "id": "f6b5518a22b817ac",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://squeek-dome-sepolia-workbench.imd.site"
+      },
+      "logo": "logos/a60b342e8cc0a63d1175fbf31affa0c34d1da4239219b4bfc5f366ccb142ba4f.svg",
+      "name": "Squeek Dome",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     }
