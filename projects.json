@@ -128,6 +128,26 @@
       "stage": "unknown"
     },
     {
+      "builder": null,
+      "category": "nft",
+      "contracts": [],
+      "description_en": "Permissionless experiments with SQUEEK",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-10-31T21:12:19.020960+00:00",
+      "id": "340d5e78056bc292",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://squeekstr.netlify.app"
+      },
+      "logo": "logos/f6cb930d71a3f6f385806a0b63adce82e95f2aff3b9a8918e905ca6413ac366b.png",
+      "name": "SQUEEKSTR",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
       "builder": "theidmfun",
       "category": "other",
       "checked_text": {
