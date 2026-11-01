@@ -41,7 +41,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
       "checked_text": {
         "paragraphs": [
           [
@@ -926,6 +926,35 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Sprouts lets you plant a tiny pixel garden powered by Squeektoshi's real wheel work. You can grow, harvest, and collect golden crops on Squeekchain without needing a wallet or gas, as described on "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-sprouts-a-little-garden-p.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To see how this works, check out "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-sprouts-a-little-garden-p.imd.site"
+            },
+            {
+              "text": ". It explains the simple steps for tending your garden and collecting your crops, giving you a clear look at the experience."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Plant a tiny pixel garden powered by Squeektoshi's real wheel work. Grow, harvest and collect golden crops on Squeekchain. No wallet or gas.",
       "description_origin": "website",
@@ -1182,6 +1211,35 @@
     {
       "builder": null,
       "category": "defi",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Burrow lets you borrow SQK against Squeek NFTs on Sepolia. The collateral keeps mining on Squeekchain, and its rewards pay the loan down "
+            },
+            {
+              "text": "the project website",
+              "url": "https://burrow-squeek.vercel.app"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To see how this works, check the project website. It explains the borrowing process and how the NFT rewards settle the debt "
+            },
+            {
+              "text": "the project website",
+              "url": "https://burrow-squeek.vercel.app"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Borrow SQK against Squeek NFTs on Sepolia. The collateral keeps mining on Squeekchain and its rewards pay the loan down.",
       "description_origin": "website",
@@ -1202,6 +1260,42 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeektoshi’s Diary offers a quiet window into the hamster’s daily rhythm. It tracks the runs, rests, and wheel passes that power Squeekchain, a hamster-driven proof-of-work system on Sepolia "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeektoshi-diary.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "You can follow this trail by checking the project website for the latest diary entries "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeektoshi-diary.imd.site"
+            },
+            {
+              "text": ". The project profile also provides context about the hamster-powered chain "
+            },
+            {
+              "text": "the project profile",
+              "url": "https://x.com/xiligeweb3"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A quiet little window into Squeektoshi’s day. Follow the runs, rests and wheel passes behind Squeekchain, the hamster-powered proof-of-work chain on Sepolia.",
       "description_origin": "website",
@@ -1223,6 +1317,35 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Dome is described as a non-custodial workbench for Squeek, currently operating on the Sepolia network "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-dome-sepolia-workbench.imd.site"
+            },
+            {
+              "text": ". It appears to be a tool for interacting with this specific ecosystem without holding your keys elsewhere."
+            }
+          ],
+          [
+            {
+              "text": "To understand how it works, you can explore the details provided on the project website "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-dome-sepolia-workbench.imd.site"
+            },
+            {
+              "text": ". This source offers the primary context for the tool's current setup and intended use within the Sepolia environment."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "The non-custodial Squeek workbench on Sepolia. Inspect live holders, crank checkpoints, batch-claim SQK, and carefully merge Squeeks.",
       "description_origin": "website",
