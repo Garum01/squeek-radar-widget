@@ -528,6 +528,60 @@
         "paragraphs": [
           [
             {
+              "text": "Hamster Derby is a prediction game centered on simulated hamster-wheel races. According to its README, each round features four hamsters where you pick one and stake funds. Winners split the whole pot, and if a round cannot be settled, everyone is refunded. The project has no owner and charges no fee "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekchain-hamster-derby.vercel.app"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To understand how this works, you can follow the details provided in the public documentation. The project website offers a clear overview of the mechanics, including the refund policy and the absence of ownership. Reading these sources helps clarify the simple structure of the game "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/ekervo/Squeekchain-Hamster-Derby"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
+      "contracts": [],
+      "description_en": "According to its README, a prediction game on simulated hamster-wheel races. Each round has four hamsters: pick one, stake funds, and winners split the whole pot. If a round cannot be settled, everyone is refunded. There is no owner and no fee. Bets are placed in USDC on Arc Testnet and in ETH on Ethereum Sepolia and Base Sepolia, with test fu…",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/ekervo/Squeekchain-Hamster-Derby"
+        }
+      ],
+      "first_seen": "2026-10-31T06:05:24.051472+00:00",
+      "id": "5b854a58453bd8a4",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "github": "https://github.com/ekervo/Squeekchain-Hamster-Derby",
+        "website": "https://squeekchain-hamster-derby.vercel.app"
+      },
+      "name": "Hamster Derby",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
               "text": "Race Squeektoshi is a rhythm arcade game for Squeekchain where you race a real hamster. The project description highlights chasing recorded ghosts, saving stamina, and predicting wheel rounds, all without needing a wallet "
             },
             {
