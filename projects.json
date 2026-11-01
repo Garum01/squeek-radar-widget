@@ -83,9 +83,38 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Appraiser is a read-only buyer’s tool designed to help you compare up to three Squeeks on Squeekchain on Sepolia. It focuses on specific metrics like power, asking price, staking share, and merge potential, giving you a clear view of these digital assets without any trading actions "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-appraiser-know-your-next.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To follow the source trail, start by visiting the project website. There, you can explore how the tool presents these comparisons and understand the specific data points it highlights for each Squeek you choose to examine "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-appraiser-know-your-next.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
-      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
-      "description_origin": "placeholder",
+      "description_en": "Compare up to three Squeeks by power, asking price, staking share and merge potential. A read-only buyer’s tool for Squeekchain on Sepolia.",
+      "description_origin": "website",
       "ecosystem_status": "weak",
       "evidence": [],
       "first_seen": "2026-11-01T02:29:08.757189+00:00",
@@ -95,7 +124,8 @@
       "links": {
         "website": "https://squeek-appraiser-know-your-next.imd.site"
       },
-      "name": "squeek-appraiser-know-your-next.imd.site",
+      "logo": "logos/c462223eca1184f3036d0081cc62415055192a369103c8f9c6f9889a90a63aa7.svg",
+      "name": "Squeek Appraiser",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -436,10 +466,39 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Race Squeektoshi is a rhythm arcade game for Squeekchain where you race a real hamster. The project description highlights chasing recorded ghosts, saving stamina, and predicting wheel rounds, all without needing a wallet "
+            },
+            {
+              "text": "the project website",
+              "url": "https://race-squeektoshi-tiny-paws-big-r.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To understand how this works, you can explore the details on the project website. It offers a clear look at the gameplay mechanics and the specific features mentioned in the description, helping you see exactly what the experience involves "
+            },
+            {
+              "text": "the project website",
+              "url": "https://race-squeektoshi-tiny-paws-big-r.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
-      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
-      "description_origin": "placeholder",
+      "description_en": "Race a real hamster in a rhythm arcade game for Squeekchain. Chase recorded ghosts, save your stamina, and predict the next wheel round. No wallet needed.",
+      "description_origin": "website",
       "ecosystem_status": "weak",
       "evidence": [],
       "first_seen": "2026-11-01T02:29:08.768428+00:00",
@@ -449,7 +508,8 @@
       "links": {
         "website": "https://race-squeektoshi-tiny-paws-big-r.imd.site"
       },
-      "name": "race-squeektoshi-tiny-paws-big-r.imd.site",
+      "logo": "logos/1810b0bc6f9af4c5e4343434c809815e9b5882bf12f3590cd6e053399f9c6c4c.svg",
+      "name": "Race Squeektoshi",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -736,7 +796,7 @@
         "paragraphs": [
           [
             {
-              "text": "Squeek Picks is designed to call Squeektoshi's night on the wheel, tracking distance, peak windows, and Squeek blocks for points or a Sepolia test pot "
+              "text": "Squeek Picks organizes research from the IdentityMD worker network, grouping reports, supporting files, and provenance by job "
             },
             {
               "text": "the project website",
@@ -748,7 +808,7 @@
           ],
           [
             {
-              "text": "You can follow the source trail by checking the project website for details or exploring the code repository to see how these elements are implemented "
+              "text": "You can explore the structure and contents directly in the code repository to see how these items are arranged "
             },
             {
               "text": "the code repository",
@@ -762,8 +822,8 @@
         "version": 1
       },
       "contracts": [],
-      "description_en": "Call Squeektoshi's night on the wheel. Distance, peak window and Squeek blocks, for points or a Sepolia test pot.",
-      "description_origin": "website",
+      "description_en": "According to its README, research produced by the IdentityMD worker network, with reports, supporting files and provenance grouped by job.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [],
       "first_seen": "2026-10-29T01:18:38.590709+00:00",
