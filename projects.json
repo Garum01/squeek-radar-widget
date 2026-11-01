@@ -1163,6 +1163,54 @@
     },
     {
       "builder": null,
+      "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Pulse is an independent, read-only tool designed to help you explore SqueekChain community analytics. It focuses on tracking wheel activity, settled blocks, SQK issuance, and Squeek ownership specifically on the Sepolia network "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekpulse.xyz"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To follow the data trail, you can start by checking the project website. This source provides the context for the metrics mentioned, allowing you to see how the community interacts with the chain in a straightforward, observational way "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekpulse.xyz"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
+      "contracts": [],
+      "description_en": "Squeek Pulse — independent, read-only SqueekChain community analytics. Explore wheel activity, settled blocks, SQK issuance and Squeek ownership on Sepolia.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-11-01T15:33:23.203805+00:00",
+      "id": "985b4e66047709ca",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://squeekpulse.xyz"
+      },
+      "name": "🐹 Squeek Pulse",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
       "category": "game",
       "checked_text": {
         "paragraphs": [
