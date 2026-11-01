@@ -459,6 +459,25 @@
     },
     {
       "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "A free-to-play idle game where players earn and upgrade a wheel, with leaderboard access and no wallet required.",
+      "description_origin": "ai",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-11-01T01:17:34.781666+00:00",
+      "id": "6800976b083aa1af",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://squeekden.art"
+      },
+      "name": "Squeek Den",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
       "category": "tools",
       "contracts": [],
       "description_en": "According to its README, **Live from the wheel.** A community dashboard for [Squeekchain](https://squeekchain.com) — the proof-of-work toychain on Ethereum powered by Squeektoshi, a real hamster running in the WHEELY9000.",
@@ -1254,6 +1273,54 @@
       },
       "logo": "logos/d40b9c2ea4946be6147a8054e989fdcd161587ffb636aa18e5a2fafacc90e1b9.svg",
       "name": "Burrow",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "launchpad",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "SqueekPad is described as a launchpad powered by a hamster wheel, where Squeek holders buy first and phases open with settled blocks. It is noted as an unofficial project built on Squeekchain "
+            },
+            {
+              "text": "the project profile",
+              "url": "https://x.com/squeekpad"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To understand how this works, you can review the details provided in the project profile. This source outlines the specific mechanics of the launchpad and its relationship to the underlying chain "
+            },
+            {
+              "text": "the project profile",
+              "url": "https://x.com/squeekpad"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
+      "contracts": [],
+      "description_en": "The launchpad powered by a hamster wheel. Squeek holders buy first, phases open with settled blocks. Unofficial, built on Squeekchain. Sepolia testnet.",
+      "description_origin": "x_profile",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-11-01T00:50:35.195426+00:00",
+      "id": "ee7c07991aa5a0c0",
+      "identity_status": "unresolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "x": "https://x.com/squeekpad"
+      },
+      "name": "SqueekPad",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
