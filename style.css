@@ -167,3 +167,6 @@ html.embed-document,.embed-document body {height:100%;overflow:hidden}
 .sort-toggle:hover {border-color:var(--accent);color:var(--accent)}
 .sort-hint {position:absolute;right:0;top:calc(100% + 7px);z-index:5;width:max-content;max-width:190px;padding:7px 9px;background:var(--ink);color:var(--bg);font:12px/1.4 var(--sans);box-shadow:0 3px 12px #0002;pointer-events:none;opacity:0;visibility:hidden;transition:opacity .12s}
 .sort-toggle:hover + .sort-hint,.sort-toggle:focus-visible + .sort-hint {opacity:1;visibility:visible}
+
+.showcase-badge {display:inline-flex;max-width:100%;margin:7px 0 0;padding:3px 7px;border:1px solid var(--line);background:var(--soft);color:var(--accent);font:600 10px/1.5 var(--mono);text-decoration:none;white-space:normal}
+.showcase-source {font-size:inherit}

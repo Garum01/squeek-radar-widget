@@ -863,7 +863,14 @@
       "logo": "logos/07e4e2d12ec09162a4112088c44c391d3ed905a4116b470a1674f89b48bd4c40.svg",
       "name": "Exsqueektion",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "unknown",
+      "verified_by_squeek": {
+        "last_checked": "2026-11-01T21:20:56.638376+00:00",
+        "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
+        "stale": false,
+        "verified_at": "2026-10-29T18:51:42.010000+00:00",
+        "version": 1
+      }
     },
     {
       "builder": null,
@@ -1085,7 +1092,14 @@
       "logo": "logos/5450d5403c3d2ba8091f7a98b95840fbe62ac353ae5e93d6d89f3579aad63dad.png",
       "name": "Squeek Dashboard",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "unknown",
+      "verified_by_squeek": {
+        "last_checked": "2026-11-01T21:20:56.638376+00:00",
+        "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
+        "stale": false,
+        "verified_at": "2026-10-29T21:41:31.306000+00:00",
+        "version": 1
+      }
     },
     {
       "builder": null,
@@ -1327,7 +1341,14 @@
       },
       "name": "SqueekBet",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "unknown",
+      "verified_by_squeek": {
+        "last_checked": "2026-11-01T21:20:56.638376+00:00",
+        "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
+        "stale": false,
+        "verified_at": "2026-10-29T20:44:51.266000+00:00",
+        "version": 1
+      }
     },
     {
       "builder": null,

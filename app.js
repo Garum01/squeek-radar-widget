@@ -34,7 +34,7 @@ const sourceLabels = {
   deployment: 'Official deployment record',
   x: 'Team posts, quotes & conversations', github: 'Public GitHub discovery', onchain: 'On-chain discovery',
   linkage: 'Website / contract linkage', agent: 'AI candidate review',
-  websites: 'Project websites', maintenance: 'Data maintenance'
+  websites: 'Project websites', showcase: 'Squeekchain Genesis board', maintenance: 'Data maintenance'
 };
 
 if (embedMode) {
@@ -205,6 +205,21 @@ function aiReadingGuide(project) {
   return copy;
 }
 
+// A listing is a source fact, separate from genre, integration or safety.
+function showcaseInfo(project) {
+  const info = project.verified_by_squeek;
+  if (!info || info.version !== 1 || typeof info.stale !== 'boolean') return null;
+  const url = safeURL(info.source_url);
+  if (!url || !/^https:\/\/squeekchain\.com\/genesis\/(?:code|i\/[A-Za-z0-9_-]{1,64})\/?$/.test(url)) return null;
+  if (!Number.isFinite(Date.parse(info.verified_at)) || !Number.isFinite(Date.parse(info.last_checked))) return null;
+  return {...info, source_url: url};
+}
+
+function showcaseTitle(info) {
+  const text = "Listed on Squeekchain’s Genesis board after team review; not a security audit.";
+  return text + (info.stale ? ' Last checked ' + date(info.last_checked, true) + '; the listing awaits a fresh confirmation.' : '');
+}
+
 // Explain only the public record. Linked observations are not safety or usage proofs.
 function projectDetails(project) {
   const details = el('details');
@@ -272,6 +287,14 @@ function projectDetails(project) {
     credit.append('The site credits ', external(url, '', builder.label || 'its builder'), ' as its builder.');
     copy.append(credit);
   }
+  const verified = showcaseInfo(project);
+  if (verified) {
+    const source = el('p', 'showcase-source');
+    source.append('This project was listed on ', external(verified.source_url, '', 'Squeekchain’s Genesis board'),
+      ' (verified ' + date(verified.verified_at, true) + ').');
+    source.title = showcaseTitle(verified);
+    copy.append(source);
+  }
   body.append(copy);
   if (generated && generated.dataset.origin === 'curated') body.append(el('p', 'evidence-note', 'Manually added from the linked public announcement.'));
   if (generated && generated.dataset.origin === 'ai') body.append(el('p', 'evidence-note', 'AI-written from the linked public record · not a new verification.'));
@@ -293,7 +316,14 @@ function card(project) {
   stage.classList.toggle('confirmed', project.stage === 'live_confirmed');
   nameRow.append(stage);
   const description = project.description_en || 'A new ecosystem signal. More information is being gathered.';
-  info.append(nameRow, el('p', 'description', description), projectLinks(project));
+  info.append(nameRow);
+  const verified = showcaseInfo(project);
+  if (verified) {
+    const badge = external(verified.source_url, 'showcase-badge', 'Verified by Squeek');
+    badge.title = showcaseTitle(verified);
+    info.append(badge);
+  }
+  info.append(el('p', 'description', description), projectLinks(project));
   top.append(projectLogo(project), info);
   article.append(top);
   article.append(projectDetails(project));
@@ -313,7 +343,7 @@ function matchesFilter(project) {
 function visibleProjects() {
   const query = state.query.toLowerCase();
   return state.projects.filter(project => {
-    const category = state.category === 'all' || (project.category || 'other') === state.category;
+    const category = state.category === 'all' || (state.category === '__squeek_verified' ? Boolean(showcaseInfo(project)) : (project.category || 'other') === state.category);
     const text = [project.name, project.description_en, project.builder, project.category].filter(Boolean).join(' ').toLowerCase();
     return matchesFilter(project) && category && (!query || text.includes(query));
   }).sort((a, b) => {
@@ -333,13 +363,17 @@ function renderCategoryChips() {
     const key = String(project.category || 'other');
     counts.set(key, (counts.get(key) || 0) + 1);
   }
-  if (state.category !== 'all' && !counts.has(state.category)) state.category = 'all';
+  const verifiedCount = base.filter(project => showcaseInfo(project)).length;
+  if (state.category === '__squeek_verified' ? !verifiedCount : state.category !== 'all' && !counts.has(state.category)) {
+    state.category = 'all';
+    $('category').value = 'all';
+  }
   const order = Object.keys(categoryLabels);
   const categories = [...counts.keys()].sort((a, b) => {
     const left = order.indexOf(a), right = order.indexOf(b);
     return (left < 0 ? order.length : left) - (right < 0 ? order.length : right) || a.localeCompare(b);
   });
-  const buttons = [['all', 'ALL', base.length], ...categories.map(key => [key, categoryLabels[key] || key.replaceAll('_', ' '), counts.get(key)])]
+  const buttons = [['all', 'ALL', base.length], ...(verifiedCount ? [['__squeek_verified', 'Verified by Squeek', verifiedCount]] : []), ...categories.map(key => [key, categoryLabels[key] || key.replaceAll('_', ' '), counts.get(key)])]
     .map(([key, label, count]) => {
       const button = el('button', 'category-chip');
       button.type = 'button';
