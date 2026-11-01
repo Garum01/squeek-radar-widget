@@ -1386,6 +1386,25 @@
     },
     {
       "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
+      "description_origin": "placeholder",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-11-01T16:45:39.777411+00:00",
+      "id": "d26fc132e0fc6825",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://squeekscope-squeekchain-command.imd.site"
+      },
+      "name": "SqueekScope",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
       "builder_links": [
         {
           "label": "@0xmeto_",
