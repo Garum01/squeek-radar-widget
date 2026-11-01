@@ -2,6 +2,26 @@
   "projects": [
     {
       "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "Follow Squeekchain’s live block height, real-world work, SQK supply, and recent settlements. An independent community dashboard.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-11-01T05:23:34.755543+00:00",
+      "id": "08dc852fca63d035",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://squeekchain-network-dashboard.imd.site"
+      },
+      "logo": "logos/11e9a8108f8702bcfc7e7d847d20ad2cc09a0b9cae17c77f0e3661053bdba939.svg",
+      "name": "Squeekchain • Network dashboard",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
       "category": "game",
       "contracts": [],
       "description_en": "An independent, play-money prediction market on a hamster’s daily wheel distance.",
@@ -288,7 +308,8 @@
       "identity_status": "resolved",
       "lifecycle_stage": "unknown",
       "links": {
-        "website": "https://squeekstr.netlify.app"
+        "website": "https://squeekstr.netlify.app",
+        "x": "https://x.com/sqkstr"
       },
       "logo": "logos/f6cb930d71a3f6f385806a0b63adce82e95f2aff3b9a8918e905ca6413ac366b.png",
       "name": "SQUEEKSTR",
@@ -1374,6 +1395,35 @@
     {
       "builder": null,
       "category": "defi",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Burrow lets you borrow SQK against Squeek NFTs on Sepolia. The collateral keeps mining on Squeekchain, and its rewards pay the loan down "
+            },
+            {
+              "text": "the project website",
+              "url": "https://burrow-squeek.vercel.app"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To see how this works, check the project website. It explains the borrowing process and how the mining rewards apply to your balance "
+            },
+            {
+              "text": "the project website",
+              "url": "https://burrow-squeek.vercel.app"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Borrow SQK against Squeek NFTs on Sepolia. The collateral keeps mining on Squeekchain and its rewards pay the loan down.",
       "description_origin": "website",
