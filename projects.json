@@ -592,18 +592,28 @@
       "stage": "unknown"
     },
     {
-      "builder": null,
+      "builder": "KazzYuzaNFT",
       "category": "game",
       "contracts": [],
-      "description_en": "A free-to-play idle game where players earn and upgrade a wheel, with leaderboard access and no wallet required.",
+      "description_en": "An idle game where Squeektoshi runs a wheel to generate Watts, allowing players to upgrade, raid others, and decorate their den.",
       "description_origin": "ai",
-      "ecosystem_status": "weak",
-      "evidence": [],
+      "ecosystem_status": "confirmed",
+      "evidence": [
+        {
+          "kind": "team_mention",
+          "url": "https://x.com/pillheadddd/status/2116810511912182108"
+        },
+        {
+          "kind": "ai_hint",
+          "url": "https://x.com/pillheadddd/status/2116810511912182108"
+        }
+      ],
       "first_seen": "2026-11-01T01:17:34.781666+00:00",
       "id": "6800976b083aa1af",
       "identity_status": "resolved",
       "lifecycle_stage": "unknown",
       "links": {
+        "announcement": "https://x.com/KazzYuzaNFT/status/2116609853762469911",
         "website": "https://squeekden.art"
       },
       "name": "Squeek Den",
