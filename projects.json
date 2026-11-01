@@ -1374,39 +1374,10 @@
     {
       "builder": null,
       "category": "defi",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Burrow lets you borrow SQK against Squeek NFTs on Sepolia. The collateral keeps mining on Squeekchain, and its rewards pay the loan down "
-            },
-            {
-              "text": "the project website",
-              "url": "https://burrow-squeek.vercel.app"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To see how this works, check the project website. It explains the borrowing process and how the NFT rewards settle the debt "
-            },
-            {
-              "text": "the project website",
-              "url": "https://burrow-squeek.vercel.app"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Borrow SQK against Squeek NFTs on Sepolia. The collateral keeps mining on Squeekchain and its rewards pay the loan down.",
       "description_origin": "website",
-      "ecosystem_status": "claimed",
+      "ecosystem_status": "weak",
       "evidence": [],
       "first_seen": "2026-10-31T21:12:19.203861+00:00",
       "id": "ee38834c456b7c98",
