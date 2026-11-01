@@ -201,9 +201,45 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Keeper is a Chrome extension designed to monitor your Squeeks and notify you when action is required, as described in "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-keeper.imd.site"
+            },
+            {
+              "text": ". It aims to simplify tracking by pinging you directly about pending tasks."
+            }
+          ],
+          [
+            {
+              "text": "To understand how it works, you can explore the technical details in "
+            },
+            {
+              "text": "the code repository",
+              "url": "https://github.com/olric3015/squeektoshi-status#install-2-minutes"
+            },
+            {
+              "text": " or review the overview on "
+            },
+            {
+              "text": "the project profile",
+              "url": "https://x.com/squeektoshi"
+            },
+            {
+              "text": ". These sources provide the context needed to follow the project's development trail."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
-      "description_en": "Alerts and one-click claims for Squeekchain Squeek holders.",
-      "description_origin": "website",
+      "description_en": "According to its README, **A Chrome extension that watches your Squeeks for you and pings you when there's something to do.**",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [],
       "first_seen": "2026-10-31T21:12:19.318290+00:00",
@@ -990,7 +1026,7 @@
         "paragraphs": [
           [
             {
-              "text": "Squeek Spin Art is a project where a real hamster mines Squeekchain by running on a wheel. Each night, this activity results in the creation of a unique spin-art card, as described on "
+              "text": "According to its README, every night the real hamster that mines Squeekchain paints a spin-art card with his wheel. This simple description sets the stage for the project's unique daily activity. You can find this core purpose outlined on "
             },
             {
               "text": "the project website",
@@ -1002,29 +1038,29 @@
           ],
           [
             {
-              "text": "To understand how this works, you can explore the details provided in "
+              "text": "To follow the trail, start with "
             },
             {
               "text": "the project profile",
               "url": "https://x.com/squeekchain"
             },
             {
-              "text": " and examine the implementation in "
+              "text": " for context. Then, check "
             },
             {
               "text": "the code repository",
               "url": "https://github.com/Rooaraak/squeek-wheel-watch/blob/main/art.js"
             },
             {
-              "text": ". These sources offer a clear trail for anyone curious about the mechanics behind the hamster's nightly artistic output."
+              "text": " to see how the nightly painting process is implemented. These sources help you understand the mechanics behind the hamster's artistic output."
             }
           ]
         ],
         "version": 1
       },
       "contracts": [],
-      "description_en": "Every night the real hamster that mines Squeekchain paints a spin-art card with his wheel. Watch tonight's card fill live, replay every night, paint along with him and put it on your stream.",
-      "description_origin": "website",
+      "description_en": "According to its README, every night the real hamster that mines [Squeekchain](https://squeekchain.com) paints a spin-art card with his wheel.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [],
       "first_seen": "2026-10-31T21:12:19.106513+00:00",
