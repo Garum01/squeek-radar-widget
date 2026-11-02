@@ -3,6 +3,35 @@
     {
       "builder": null,
       "category": "other",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "This project aims to answer a specific question: how long a closed Squeekchain round waits before being certified onchain, as described in its README "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekchain-settlement-latency.identitymd.eth.limo/"
+            },
+            {
+              "text": ". It focuses on measuring this settlement latency within the Sepolia environment."
+            }
+          ],
+          [
+            {
+              "text": "To follow the trail, you can start by reviewing the core details provided in "
+            },
+            {
+              "text": "the documentation",
+              "url": "https://github.com/0xMingXiu/squeekchain-settlement-latency/blob/HEAD/docs/dashboard.png"
+            },
+            {
+              "text": ". This helps clarify the context behind the latency measurements and the specific conditions being tracked for the Squeek Settlement Latency Tracker."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "According to its README, **How long does a closed Squeekchain round wait before it is certified onchain?**",
       "description_origin": "readme",
@@ -15,7 +44,7 @@
       ],
       "first_seen": "2026-10-28T21:01:40.233035+00:00",
       "id": "016daa5f0a1e83fe",
-      "identity_status": "unresolved",
+      "identity_status": "resolved",
       "lifecycle_stage": "unknown",
       "links": {
         "docs": "https://github.com/0xMingXiu/squeekchain-settlement-latency/blob/HEAD/docs/dashboard.png",
@@ -443,7 +472,7 @@
       "contracts": [],
       "description_en": "According to its README, source for two separate Netlify sites. Neither is part of mfbrat.com.",
       "description_origin": "readme",
-      "ecosystem_status": "weak",
+      "ecosystem_status": "claimed",
       "evidence": [
         {
           "kind": "github_mention",
@@ -452,7 +481,7 @@
       ],
       "first_seen": "2026-10-29T21:31:52.511814+00:00",
       "id": "4c741c1caca119a7",
-      "identity_status": "unresolved",
+      "identity_status": "resolved",
       "lifecycle_stage": "unknown",
       "links": {
         "github": "https://github.com/mfBRAT/squeektoshi-live",
