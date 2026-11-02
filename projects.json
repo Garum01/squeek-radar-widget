@@ -1902,6 +1902,61 @@
     },
     {
       "builder": null,
+      "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "The project provides smart contracts for Squeeky Market, an independent community prediction market focused on Squeektoshi’s daily wheel distance "
+            },
+            {
+              "text": "the project website",
+              "url": "https://hamster.squeekymarket.trade"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "You can explore the technical details by reviewing the public documentation "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/Czyzuu/squeeky-market-contracts"
+            },
+            {
+              "text": ". This guide helps you understand how the contracts function within that specific ecosystem."
+            }
+          ]
+        ],
+        "version": 1
+      },
+      "contracts": [],
+      "description_en": "According to its README, smart contracts for [Squeeky Market](https://hamster.squeekymarket.trade), an independent community prediction market on Squeektoshi’s daily wheel distance.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/Czyzuu/squeeky-market-contracts"
+        }
+      ],
+      "first_seen": "2026-11-02T15:10:59.275201+00:00",
+      "id": "e3da2f0dd417d55b",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "github": "https://github.com/Czyzuu/squeeky-market-contracts",
+        "website": "https://hamster.squeekymarket.trade"
+      },
+      "logo": "logos/3657d88c522e510bd774feaf045b3f26f398db597e2a1077fffb8bf3708c9364.svg",
+      "name": "Squeeky Market — Solidity contracts",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
       "category": "defi",
       "checked_text": {
         "paragraphs": [
