@@ -872,6 +872,55 @@
     },
     {
       "builder": null,
+      "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Hatchery is a local hamster hatchery demo that uses real wheel data. According to "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-hatchery-hatch-a-hamster.imd.site"
+            },
+            {
+              "text": ", you aim a lamp, incubate for sixty active seconds, and save your hamster. It’s a playful way to interact with the system."
+            }
+          ],
+          [
+            {
+              "text": "To follow along, check "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-hatchery-hatch-a-hamster.imd.site"
+            },
+            {
+              "text": " for details on how the wheel data works. It helps you understand the simple steps involved in this little digital experiment."
+            }
+          ]
+        ],
+        "version": 1
+      },
+      "contracts": [],
+      "description_en": "A local hamster hatchery demo using real wheel data. Aim the lamp, incubate for 60 active seconds, and save your hamster. NFT minting is not live yet.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-11-02T07:16:50.486928+00:00",
+      "id": "6d64bbb75b75fd3f",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://squeek-hatchery-hatch-a-hamster.imd.site"
+      },
+      "logo": "logos/af9538a9f9d2b0640fb0b94971d11b8860df394a3ead48b4c645f6216a2b96e9.svg",
+      "name": "Squeek Hatchery",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
       "category": "tools",
       "contracts": [],
       "description_en": "WheelCam is a free set of transparent OBS browser-source overlays for Squeektoshi's wheel stream: a corner bug, lower third, ticker, rpm gauge, run card and alerts, driven by live wheel data.",
@@ -1623,6 +1672,55 @@
         "website": "https://squeekscope-squeekchain-command.imd.site"
       },
       "name": "SqueekScope",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek & Glide is a handmade 2D flying game powered by real Squeekchain hamster activity. You tap to fly, dodge cardboard obstacles, and collect Golden Seeds for double points, as described on "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-glide-ban-lai-hamster-tao.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To see how this works, you can explore the details provided on "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-glide-ban-lai-hamster-tao.imd.site"
+            },
+            {
+              "text": ". It offers a clear look at the game’s mechanics and the hamster activity that drives it, helping you understand the experience before you dive in."
+            }
+          ]
+        ],
+        "version": 1
+      },
+      "contracts": [],
+      "description_en": "A handmade 2D flying game powered by real Squeekchain hamster activity. Tap to fly, dodge cardboard obstacles, and collect Golden Seeds for double points.",
+      "description_origin": "website",
+      "ecosystem_status": "claimed",
+      "evidence": [],
+      "first_seen": "2026-11-02T07:16:50.436278+00:00",
+      "id": "d65c5b4545f0c8af",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://squeek-glide-ban-lai-hamster-tao.imd.site"
+      },
+      "logo": "logos/39866cf4e5abe88f27e3a24e7eaa7570411a4d63f9e927dc5bd54f1577143131.svg",
+      "name": "Squeek & Glide",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
