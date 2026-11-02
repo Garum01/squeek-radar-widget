@@ -29,6 +29,8 @@ const linkLabels = {
   x: ['𝕏', 'X'], announcement: ['𝕏', 'Announcement'], website: ['◎', 'Website'],
   telegram: ['➤', 'Telegram'], github: ['⌘', 'Code'], docs: ['▤', 'Docs'], explorer: ['⌕', 'Explorer']
 };
+// Singular category names for the badge on a project's card.
+const categoryTags = {defi: 'DeFi', dex: 'DEX', game: 'Game', launchpad: 'Launchpad', nft: 'NFT', memecoin: 'Memecoin', tools: 'Tools', infrastructure: 'Infrastructure', token: 'Token', other: 'Other'};
 const categoryLabels = {defi: 'DeFi', dex: 'DEXs', game: 'Games', launchpad: 'Launchpads', nft: 'NFT', memecoin: 'Memecoins', tools: 'Tools', infrastructure: 'Infrastructure', token: 'Tokens', other: 'Other'};
 const sourceLabels = {
   deployment: 'Official deployment record',
@@ -350,12 +352,18 @@ function card(project) {
   stage.classList.toggle('confirmed', project.stage === 'live_confirmed');
   nameRow.append(stage);
   info.append(nameRow);
+  const badges = el('div', 'badges');
+  const key = String(project.category || 'other');
+  const category = el('span', 'category-badge', categoryTags[key] || key.replaceAll('_', ' '));
+  category.title = 'Category: ' + (categoryLabels[key] || key.replaceAll('_', ' '));
+  badges.append(category);
   const verified = showcaseInfo(project);
   if (verified) {
     const badge = el('span', 'showcase-badge', 'Verified by Squeek');
     badge.title = showcaseTitle(verified);
-    info.append(badge);
+    badges.append(badge);
   }
+  info.append(badges);
   info.append(projectDescription(project), projectLinks(project));
   top.append(projectLogo(project), info);
   article.append(top);
