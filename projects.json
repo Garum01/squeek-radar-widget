@@ -1244,6 +1244,32 @@
     },
     {
       "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "According to its README, **Race, Predict & Play with Squeektoshi's Real-World Wheel Activity**",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/nhattung99/squeek-race"
+        }
+      ],
+      "first_seen": "2026-11-01T10:23:27.432993+00:00",
+      "id": "872af929d4628915",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "docs": "https://github.com/nhattung99/squeek-race/blob/HEAD/docs/RESEARCH.md",
+        "github": "https://github.com/nhattung99/squeek-race",
+        "website": "https://squeek-race.vercel.app"
+      },
+      "name": "SqueekRace Arena",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
       "category": "tools",
       "checked_text": {
         "paragraphs": [
@@ -1629,6 +1655,7 @@
       "identity_status": "unresolved",
       "lifecycle_stage": "unknown",
       "links": {
+        "website": "https://sqkstr.xyz/",
         "x": "https://x.com/sqkstr"
       },
       "logo": "logos/d1dd9e4fca9ac7b1b43dbe415a15a5494dc9131324b9b101588be51c1c37f9ec.jpg",
