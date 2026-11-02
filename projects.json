@@ -2,7 +2,7 @@
   "projects": [
     {
       "builder": null,
-      "category": "tools",
+      "category": "other",
       "contracts": [],
       "description_en": "According to its README, **How long does a closed Squeekchain round wait before it is certified onchain?**",
       "description_origin": "readme",
@@ -414,7 +414,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
       "contracts": [],
       "description_en": "According to its README, 把 Squeekchain 的链上算力变成一场实时仓鼠赛跑的单页应用。",
       "description_origin": "readme",
@@ -601,6 +601,28 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "This project serves as a read-only tracker for SqueekCore settlement latency on Sepolia. It monitors batches, gaps, unsettled rounds, and alerts at one finalized block, as described on "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekchain-settlement-latency.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "You can follow the source trail by checking the provided link. It offers a clear view of the settlement metrics, helping you understand the current state of the network without needing to dig deeper yourself."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Read-only tracker for SqueekCore settlement latency on Sepolia: batches, gaps, unsettled rounds and alerts at one finalized block.",
       "description_origin": "website",
@@ -1577,6 +1599,13 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "label": "@0xmeto_",
+          "source": "https://wheelpaper.online/",
+          "url": "https://x.com/0xmeto_"
+        }
+      ],
       "category": "tools",
       "contracts": [],
       "description_en": "The Squeekchain whitepaper, made playable. Unofficial.",
@@ -1588,8 +1617,7 @@
       "identity_status": "resolved",
       "lifecycle_stage": "unknown",
       "links": {
-        "website": "https://wheelpaper.online/",
-        "x": "https://x.com/0xmeto_"
+        "website": "https://wheelpaper.online/"
       },
       "logo": "logos/51402b2d4d8fc90f555a42d1b7f2fa76fbf3ea8e1d1f3b92f00e7399f0e4eada.png",
       "name": "The Wheelpaper",
