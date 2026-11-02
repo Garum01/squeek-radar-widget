@@ -333,6 +333,49 @@
     },
     {
       "builder": null,
+      "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Life is an unofficial fan game, NFT collection, and community token centered on Squeektoshi, the hamster who mines Squeektoshi. The project invites you to vote on art and earn a whitelist spot. "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek.life"
+            }
+          ],
+          [
+            {
+              "text": "To understand how this works, start by visiting the project website. It outlines the specific mechanics for voting and earning access. Reading this source helps you see exactly what the community is building around the character. "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek.life"
+            }
+          ]
+        ],
+        "version": 1
+      },
+      "contracts": [],
+      "description_en": "Squeek Life: an unofficial fan game, NFT collection and community token around Squeektoshi, the hamster who mines Squeekchain. Vote the art, earn the whitelist. In design, nothing deployed.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-11-02T14:02:16.428653+00:00",
+      "id": "1a407d185b925143",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://squeek.life"
+      },
+      "logo": "logos/ba7494c91914f351734c98dd54dedaed9255e2a714bad1e77e7c855c1f66914f.png",
+      "name": "SQK LIFE",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
       "category": "tools",
       "contracts": [],
       "description_en": "A free, read-only frontend dashboard for the Squeekchain network that displays live onchain analytics, NFT levels, hamster power, and yield compounding.",
