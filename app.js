@@ -158,11 +158,36 @@ function projectDocsURL(project) {
   return null; // Ambiguous external documents stay in What we checked.
 }
 
+// README excerpts keep their Markdown. Links render only to the record's own sources
+// or the network site; any other target keeps its text, and emphasis markers are dropped.
+function projectDescription(project) {
+  const p = el('p', 'description');
+  const text = project.description_en || 'A new ecosystem signal. More information is being gathered.';
+  const allowed = new Set([...Object.values(normalizedLinks(project)), 'https://squeekchain.com/'].map(safeURL).filter(Boolean));
+  const plain = value => value.replace(/\*\*|__/g, '');
+  const pattern = /\[([^\]\n]{1,120})\]\((https:\/\/[^\s)]{1,300})\)|https:\/\/[^\s)<>\]]{1,300}/g;
+  let last = 0;
+  for (const match of text.matchAll(pattern)) {
+    p.append(plain(text.slice(last, match.index)));
+    let [whole, label, target] = match, tail = '';
+    if (!target) {
+      tail = whole.match(/[.,;:!?]*$/)[0];
+      target = label = whole.slice(0, whole.length - tail.length);
+    }
+    const url = safeURL(target);
+    p.append(url && allowed.has(url) ? external(url, '', plain(label)) : plain(label), tail);
+    last = match.index + whole.length;
+  }
+  p.append(plain(text.slice(last)));
+  return p;
+}
+
+// Code repositories are listed under What we checked, not in the card's link row.
 function projectLinks(project) {
   const container = el('div', 'links');
   container.setAttribute('aria-label', 'Project links');
   const links = normalizedLinks(project);
-  for (const kind of ['website', 'x', 'announcement', 'github', 'docs', 'telegram']) {
+  for (const kind of ['website', 'x', 'announcement', 'docs', 'telegram']) {
     if (kind === 'announcement' && links.x) continue;
     const [, label] = linkLabels[kind];
     const a = external(kind === 'docs' ? projectDocsURL(project) : links[kind], 'project-link');
@@ -258,10 +283,19 @@ function projectDetails(project) {
     sources.replaceChildren('We don’t have an independent public source to point to yet.');
   }
   if (!generated) copy.append(sources);
-  else if (safeURL(links.explorer) && ![...copy.querySelectorAll('a')].some(a => a.href === safeURL(links.explorer))) {
-    const reference = el('p');
-    reference.append('There’s also ', external(links.explorer, '', 'an explorer reference'), '. A link alone does not verify deployment, usage or safety.');
-    copy.append(reference);
+  else {
+    const cited = url => [...copy.querySelectorAll('a')].some(a => a.href === url);
+    const repo = safeURL(links.github);
+    if (repo && !cited(repo)) {
+      const reference = el('p');
+      reference.append('The code is in ', external(repo, '', 'a public repository'), '. Published code alone does not verify deployment, usage or safety.');
+      copy.append(reference);
+    }
+    if (safeURL(links.explorer) && !cited(safeURL(links.explorer))) {
+      const reference = el('p');
+      reference.append('There’s also ', external(links.explorer, '', 'an explorer reference'), '. A link alone does not verify deployment, usage or safety.');
+      copy.append(reference);
+    }
   }
   if (!generated || generated.dataset.origin !== 'curated') {
   const identity = {resolved: 'The identifiers line up in the sources we have.',
@@ -315,7 +349,6 @@ function card(project) {
   if (!stageTags[project.stage] || project.stage === 'unknown') stage.title = 'Squeekchain testnet · project deployment not independently confirmed';
   stage.classList.toggle('confirmed', project.stage === 'live_confirmed');
   nameRow.append(stage);
-  const description = project.description_en || 'A new ecosystem signal. More information is being gathered.';
   info.append(nameRow);
   const verified = showcaseInfo(project);
   if (verified) {
@@ -323,7 +356,7 @@ function card(project) {
     badge.title = showcaseTitle(verified);
     info.append(badge);
   }
-  info.append(el('p', 'description', description), projectLinks(project));
+  info.append(projectDescription(project), projectLinks(project));
   top.append(projectLogo(project), info);
   article.append(top);
   article.append(projectDetails(project));
