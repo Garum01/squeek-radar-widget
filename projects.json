@@ -62,7 +62,12 @@
       "description_en": "Follow Squeekchain’s live block height, real-world work, SQK supply, and recent settlements. An independent community dashboard.",
       "description_origin": "website",
       "ecosystem_status": "weak",
-      "evidence": [],
+      "evidence": [
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/db4f1a72-0409-4c8d-8544-8bcfb9f48cb2"
+        }
+      ],
       "first_seen": "2026-11-01T05:23:34.755543+00:00",
       "id": "08dc852fca63d035",
       "identity_status": "resolved",
@@ -117,33 +122,16 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek powers a community road trip, inviting you to watch the settled wheel distance. You can explore 64 destinations and vote for the next stop on Sepolia, as described on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-s-first-road-trip-choose.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow this journey, start by checking the current wheel status. Then, browse the available destinations to see where the community might head next. This simple trail helps you understand how the trip progresses step by step."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Squeek powers a community road trip. Watch the settled wheel distance, explore 64 destinations and vote for the next stop on Sepolia.",
       "description_origin": "website",
       "ecosystem_status": "weak",
-      "evidence": [],
+      "evidence": [
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/7741c8ed-cc73-44a9-b65d-634f6990807f"
+        }
+      ],
       "first_seen": "2026-10-31T21:12:19.212488+00:00",
       "id": "0e27ad2ba2ed1c36",
       "identity_status": "resolved",
@@ -158,40 +146,16 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Appraiser is a read-only buyer’s tool designed to help you compare up to three Squeeks on Squeekchain on Sepolia. It focuses on specific metrics like power, asking price, staking share, and merge potential, giving you a clear view of these digital assets without any trading actions "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-appraiser-know-your-next.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow the source trail, start by visiting the project website. There, you can explore how the tool presents these comparisons and understand the specific data points it highlights for each Squeek you choose to examine "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-appraiser-know-your-next.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Compare up to three Squeeks by power, asking price, staking share and merge potential. A read-only buyer’s tool for Squeekchain on Sepolia.",
       "description_origin": "website",
       "ecosystem_status": "weak",
-      "evidence": [],
+      "evidence": [
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/c7f6bd0e-fe1a-4381-906c-b72d09539ed2"
+        }
+      ],
       "first_seen": "2026-11-01T02:29:08.757189+00:00",
       "id": "11b1540c5c769b32",
       "identity_status": "resolved",
@@ -290,47 +254,16 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Keeper is a Chrome extension designed to monitor your Squeeks and notify you when action is required, as described in "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-keeper.imd.site"
-            },
-            {
-              "text": ". It aims to simplify tracking by pinging you directly about pending tasks."
-            }
-          ],
-          [
-            {
-              "text": "To understand how it works, you can explore the technical details in "
-            },
-            {
-              "text": "the code repository",
-              "url": "https://github.com/olric3015/squeektoshi-status#install-2-minutes"
-            },
-            {
-              "text": " or review the overview on "
-            },
-            {
-              "text": "the project profile",
-              "url": "https://x.com/squeektoshi"
-            },
-            {
-              "text": ". These sources provide the context needed to follow the project's development trail."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "According to its README, **A Chrome extension that watches your Squeeks for you and pings you when there's something to do.**",
       "description_origin": "readme",
       "ecosystem_status": "weak",
-      "evidence": [],
+      "evidence": [
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/a7e1d34f-388b-404f-9c42-a1a33bc399c5"
+        }
+      ],
       "first_seen": "2026-10-31T21:12:19.318290+00:00",
       "id": "161118c8ef978dbf",
       "identity_status": "resolved",
@@ -509,11 +442,15 @@
         {
           "kind": "github_mention",
           "url": "https://github.com/identity-md-launches/launch-2648-squeek-race-squeekchain"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/83b95b87-c188-4755-bf5a-dc1cb83d5c31"
         }
       ],
       "first_seen": "2026-10-28T19:46:15.300031+00:00",
       "id": "484084c14bdb95e5",
-      "identity_status": "unresolved",
+      "identity_status": "resolved",
       "lifecycle_stage": "unknown",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2648-squeek-race-squeekchain",
@@ -609,6 +546,10 @@
         {
           "kind": "site_contract_link",
           "url": "https://eth-sepolia.blockscout.com/address/0x980b4424c007caf7a1f3670b48c8eaef7ebc3d44"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/bdd322cf-213a-4539-bd37-8a826ba2260e"
         }
       ],
       "first_seen": "2026-10-30T08:19:43.177778+00:00",
@@ -712,33 +653,16 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "This project serves as a read-only tracker for SqueekCore settlement latency on Sepolia. It monitors batches, gaps, unsettled rounds, and alerts at one finalized block, as described on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekchain-settlement-latency.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "You can follow the source trail by checking the provided link. It offers a clear view of the settlement metrics, helping you understand the current state of the network without needing to dig deeper yourself."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Read-only tracker for SqueekCore settlement latency on Sepolia: batches, gaps, unsettled rounds and alerts at one finalized block.",
       "description_origin": "website",
       "ecosystem_status": "weak",
-      "evidence": [],
+      "evidence": [
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/7a90e58f-17b7-45b7-9c8c-41dde4df40ce"
+        }
+      ],
       "first_seen": "2026-10-30T00:37:44.789117+00:00",
       "id": "59de99f421090789",
       "identity_status": "resolved",
@@ -808,40 +732,16 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Race Squeektoshi is a rhythm arcade game for Squeekchain where you race a real hamster. The project description highlights chasing recorded ghosts, saving stamina, and predicting wheel rounds, all without needing a wallet "
-            },
-            {
-              "text": "the project website",
-              "url": "https://race-squeektoshi-tiny-paws-big-r.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To understand how this works, you can explore the details on the project website. It offers a clear look at the gameplay mechanics and the specific features mentioned in the description, helping you see exactly what the experience involves "
-            },
-            {
-              "text": "the project website",
-              "url": "https://race-squeektoshi-tiny-paws-big-r.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Race a real hamster in a rhythm arcade game for Squeekchain. Chase recorded ghosts, save your stamina, and predict the next wheel round. No wallet needed.",
       "description_origin": "website",
       "ecosystem_status": "weak",
-      "evidence": [],
+      "evidence": [
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/1dc37146-c532-47b9-a57d-2f8d4024fccc"
+        }
+      ],
       "first_seen": "2026-11-01T02:29:08.768428+00:00",
       "id": "6654b51023a23b98",
       "identity_status": "resolved",
@@ -955,40 +855,16 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Hatchery is a local hamster hatchery demo that uses real wheel data. According to "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-hatchery-hatch-a-hamster.imd.site"
-            },
-            {
-              "text": ", you aim a lamp, incubate for sixty active seconds, and save your hamster. It’s a playful way to interact with the system."
-            }
-          ],
-          [
-            {
-              "text": "To follow along, check "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-hatchery-hatch-a-hamster.imd.site"
-            },
-            {
-              "text": " for details on how the wheel data works. It helps you understand the simple steps involved in this little digital experiment."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A local hamster hatchery demo using real wheel data. Aim the lamp, incubate for 60 active seconds, and save your hamster. NFT minting is not live yet.",
       "description_origin": "website",
       "ecosystem_status": "weak",
-      "evidence": [],
+      "evidence": [
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/7d8f9737-cdea-4827-beb8-55366c621303"
+        }
+      ],
       "first_seen": "2026-11-02T07:16:50.486928+00:00",
       "id": "6d64bbb75b75fd3f",
       "identity_status": "resolved",
@@ -1502,7 +1378,12 @@
       "description_en": "Live WHEELY9000 hamster wheel telemetry from Squeekchain on Ethereum Sepolia, with a wake siren, a 6-pocket raid mini-game and a keeper console that sends real Sepolia transactions.",
       "description_origin": "website",
       "ecosystem_status": "weak",
-      "evidence": [],
+      "evidence": [
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/bd8c2371-b6e4-4279-96e5-a2ecccc8aaa2"
+        }
+      ],
       "first_seen": "2026-10-31T21:12:19.217573+00:00",
       "id": "8a88be894dedf00d",
       "identity_status": "resolved",
@@ -1757,40 +1638,16 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Sprouts lets you plant a tiny pixel garden powered by Squeektoshi's real wheel work. You can grow, harvest, and collect golden crops on Squeekchain without needing a wallet or gas, as described on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-sprouts-a-little-garden-p.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To see how this works, check out "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-sprouts-a-little-garden-p.imd.site"
-            },
-            {
-              "text": ". It explains the simple steps for tending your garden and collecting your crops, giving you a clear look at the experience."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Plant a tiny pixel garden powered by Squeektoshi's real wheel work. Grow, harvest and collect golden crops on Squeekchain. No wallet or gas.",
       "description_origin": "website",
       "ecosystem_status": "claimed",
-      "evidence": [],
+      "evidence": [
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/4181c929-08b1-4f0c-9a05-892db1676534"
+        }
+      ],
       "first_seen": "2026-10-31T21:12:19.222151+00:00",
       "id": "a5a278ce9e54c6ba",
       "identity_status": "resolved",
@@ -1920,6 +1777,35 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
+      "description_en": "According to its README, 把 Squeekchain 的链上 work 变成一座夜班锻造工坊：区块是钢锭，转速驱动砂轮和锻锤，结算是出炉记录。页面页脚署名 **@Despite_zmw**。",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-2672-squeek-forge-squeekchain"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/dab90e53-f806-4724-b4a5-03f63d1db048"
+        }
+      ],
+      "first_seen": "2026-10-29T22:17:33.192222+00:00",
+      "id": "bf59d3bc79f7a775",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-2672-squeek-forge-squeekchain",
+        "website": "https://squeek-forge.imd.site"
+      },
+      "name": "Squeek Forge",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
       "description_en": "A public repository referencing Squeekchain. Its purpose and deployment status still need confirmation.",
       "description_origin": "source",
       "ecosystem_status": "claimed",
@@ -1964,41 +1850,17 @@
     },
     {
       "builder": null,
-      "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Garden is a cozy hamster garden where you plant seeds and watch them grow. According to "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-garden-a-little-garden-po.imd.site"
-            },
-            {
-              "text": ", it grows with real settled Squeekchain rounds on Sepolia, letting you collect your harvest."
-            }
-          ],
-          [
-            {
-              "text": "To follow the trail, start by visiting "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-garden-a-little-garden-po.imd.site"
-            },
-            {
-              "text": ". It explains how the garden works and shows the settled rounds that drive the growth. Reading it helps you understand the simple process of planting and harvesting."
-            }
-          ]
-        ],
-        "version": 1
-      },
+      "category": "game",
       "contracts": [],
       "description_en": "Plant a little happiness. A cozy hamster garden that grows with real settled Squeekchain rounds on Sepolia. Plant seeds, watch them grow, and collect your harvest.",
       "description_origin": "website",
       "ecosystem_status": "weak",
-      "evidence": [],
+      "evidence": [
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/f8093178-7c90-4389-993c-ade15e5ba12c"
+        }
+      ],
       "first_seen": "2026-11-02T17:59:54.952462+00:00",
       "id": "cd69dec184b32427",
       "identity_status": "resolved",
@@ -2038,7 +1900,12 @@
       "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
       "description_origin": "placeholder",
       "ecosystem_status": "weak",
-      "evidence": [],
+      "evidence": [
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/9fd8ca28-7449-45ea-a1c4-fd631311365d"
+        }
+      ],
       "first_seen": "2026-11-01T16:45:39.777411+00:00",
       "id": "d26fc132e0fc6825",
       "identity_status": "resolved",
@@ -2053,40 +1920,16 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek & Glide is a handmade 2D flying game powered by real Squeekchain hamster activity. You tap to fly, dodge cardboard obstacles, and collect Golden Seeds for double points, as described on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-glide-ban-lai-hamster-tao.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To see how this works, you can explore the details provided on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-glide-ban-lai-hamster-tao.imd.site"
-            },
-            {
-              "text": ". It offers a clear look at the game’s mechanics and the hamster activity that drives it, helping you understand the experience before you dive in."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A handmade 2D flying game powered by real Squeekchain hamster activity. Tap to fly, dodge cardboard obstacles, and collect Golden Seeds for double points.",
       "description_origin": "website",
       "ecosystem_status": "claimed",
-      "evidence": [],
+      "evidence": [
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/62cf98f5-431b-4373-ab28-f0e9151ee033"
+        }
+      ],
       "first_seen": "2026-11-02T07:16:50.436278+00:00",
       "id": "d65c5b4545f0c8af",
       "identity_status": "resolved",
@@ -2313,40 +2156,16 @@
     {
       "builder": null,
       "category": "defi",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Burrow lets you borrow SQK against Squeek NFTs on Sepolia. The collateral keeps mining on Squeekchain, and its rewards pay the loan down "
-            },
-            {
-              "text": "the project website",
-              "url": "https://burrow-squeek.vercel.app"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To see how this works, check the project website. It explains the borrowing process and how the mining rewards apply to your balance "
-            },
-            {
-              "text": "the project website",
-              "url": "https://burrow-squeek.vercel.app"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Borrow SQK against Squeek NFTs on Sepolia. The collateral keeps mining on Squeekchain and its rewards pay the loan down.",
       "description_origin": "website",
       "ecosystem_status": "weak",
-      "evidence": [],
+      "evidence": [
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/3ef13605-c77f-4fa0-84d5-5a3a85070224"
+        }
+      ],
       "first_seen": "2026-10-31T21:12:19.203861+00:00",
       "id": "ee38834c456b7c98",
       "identity_status": "resolved",
@@ -2362,6 +2181,35 @@
     {
       "builder": null,
       "category": "launchpad",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "SqueekPad is described as an unofficial Sepolia launchpad built on Squeekchain. According to the project description, Squeek holders get first access to buy, with a 0% tax and LP burned "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekpad.xyz"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To understand the specifics, you can review the details provided in the project profile "
+            },
+            {
+              "text": "the project profile",
+              "url": "https://x.com/squeekpad"
+            },
+            {
+              "text": ". This source offers further context on how the launchpad operates within the Squeekchain ecosystem."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Unofficial Sepolia launchpad built on Squeekchain. Fair bonding-curve launches whose phases unlock with settled Squeek blocks. Squeek holders buy first, 0% tax, LP burned.",
       "description_origin": "website",
@@ -2383,47 +2231,16 @@
     {
       "builder": null,
       "category": "infrastructure",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeektoshi’s Diary offers a quiet window into the hamster’s daily rhythm. It tracks the runs, rests, and wheel passes that power Squeekchain, a hamster-driven proof-of-work system on Sepolia "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeektoshi-diary.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "You can follow this trail by checking the project website for the latest diary entries "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeektoshi-diary.imd.site"
-            },
-            {
-              "text": ". The project profile also provides context about the hamster-powered chain "
-            },
-            {
-              "text": "the project profile",
-              "url": "https://x.com/xiligeweb3"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A quiet little window into Squeektoshi’s day. Follow the runs, rests and wheel passes behind Squeekchain, the hamster-powered proof-of-work chain on Sepolia.",
       "description_origin": "website",
       "ecosystem_status": "claimed",
-      "evidence": [],
+      "evidence": [
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/da00a738-bce2-4ae8-9013-e682631d69fe"
+        }
+      ],
       "first_seen": "2026-10-31T21:12:19.303458+00:00",
       "id": "ef2623a74e3427fc",
       "identity_status": "resolved",
@@ -2440,45 +2257,22 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Dome is described as a non-custodial workbench for Squeek, currently operating on the Sepolia network "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-dome-sepolia-workbench.imd.site"
-            },
-            {
-              "text": ". It appears to be a tool for interacting with this specific ecosystem without holding your keys elsewhere."
-            }
-          ],
-          [
-            {
-              "text": "To understand how it works, you can explore the details provided on the project website "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-dome-sepolia-workbench.imd.site"
-            },
-            {
-              "text": ". This source offers the primary context for the tool's current setup and intended use within the Sepolia environment."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "The non-custodial Squeek workbench on Sepolia. Inspect live holders, crank checkpoints, batch-claim SQK, and carefully merge Squeeks.",
       "description_origin": "website",
       "ecosystem_status": "weak",
-      "evidence": [],
+      "evidence": [
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/e2295ca4-45c2-40a3-b0ed-75cfa1aa4874"
+        }
+      ],
       "first_seen": "2026-10-31T21:12:19.112974+00:00",
       "id": "f6b5518a22b817ac",
       "identity_status": "resolved",
       "lifecycle_stage": "unknown",
       "links": {
+        "github": "https://github.com/identity-md-launches/launch-2767-squeek-dome-imd",
         "website": "https://squeek-dome-sepolia-workbench.imd.site"
       },
       "logo": "logos/a60b342e8cc0a63d1175fbf31affa0c34d1da4239219b4bfc5f366ccb142ba4f.svg",
@@ -2489,40 +2283,16 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "SQUEEKFOREST: SEEDKEEPER invites you to become a Seedkeeper, planting and shading a living pixel forest. According to "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekforest-seedkeeper-a-moonli.imd.site"
-            },
-            {
-              "text": ", these puzzles are rooted in settled Squeekchain blocks, offering a free community game with offline practice options."
-            }
-          ],
-          [
-            {
-              "text": "You can follow the source trail by visiting "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekforest-seedkeeper-a-moonli.imd.site"
-            },
-            {
-              "text": ". It provides the details on how the game works and how you can start your own pixel forest adventure."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Become a Seedkeeper. Plant, shade and illuminate a living pixel forest in puzzles rooted in settled Squeekchain blocks. Free community game with offline practice.",
       "description_origin": "website",
       "ecosystem_status": "weak",
-      "evidence": [],
+      "evidence": [
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/646f85c3-1c0d-4426-b4f0-8fcd1af6eaa8"
+        }
+      ],
       "first_seen": "2026-11-02T00:31:25.664824+00:00",
       "id": "f8415e2dc4622ec8",
       "identity_status": "resolved",
