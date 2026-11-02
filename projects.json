@@ -4,6 +4,32 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
+      "description_en": "According to its README, **How long does a closed Squeekchain round wait before it is certified onchain?**",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/0xMingXiu/squeekchain-settlement-latency"
+        }
+      ],
+      "first_seen": "2026-10-28T21:01:40.233035+00:00",
+      "id": "016daa5f0a1e83fe",
+      "identity_status": "unresolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "docs": "https://github.com/0xMingXiu/squeekchain-settlement-latency/blob/HEAD/docs/dashboard.png",
+        "github": "https://github.com/0xMingXiu/squeekchain-settlement-latency",
+        "website": "https://squeekchain-settlement-latency.identitymd.eth.limo/"
+      },
+      "name": "Squeek Settlement Latency Tracker (Sepolia)",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
       "description_en": "Follow Squeekchain’s live block height, real-world work, SQK supply, and recent settlements. An independent community dashboard.",
       "description_origin": "website",
       "ecosystem_status": "weak",
@@ -388,6 +414,57 @@
     },
     {
       "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "According to its README, 把 Squeekchain 的链上算力变成一场实时仓鼠赛跑的单页应用。",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-2648-squeek-race-squeekchain"
+        }
+      ],
+      "first_seen": "2026-10-28T19:46:15.300031+00:00",
+      "id": "484084c14bdb95e5",
+      "identity_status": "unresolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-2648-squeek-race-squeekchain",
+        "website": "https://squeek-race-squeekchain.identitymd.eth.limo/"
+      },
+      "name": "Squeek Race",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "other",
+      "contracts": [],
+      "description_en": "According to its README, source for two separate Netlify sites. Neither is part of mfbrat.com.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/mfBRAT/squeektoshi-live"
+        }
+      ],
+      "first_seen": "2026-10-29T21:31:52.511814+00:00",
+      "id": "4c741c1caca119a7",
+      "identity_status": "unresolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "github": "https://github.com/mfBRAT/squeektoshi-live",
+        "website": "https://squeek.mfbrat.com/"
+      },
+      "logo": "logos/59791254fef130b5330d7b7cf72a9c70d55cff17444a684a2f53f3b0583b1be3.svg",
+      "name": "squeektoshi-live",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
       "category": "game",
       "checked_text": {
         "paragraphs": [
@@ -518,6 +595,26 @@
         "website": "https://squeekrun.vercel.app"
       },
       "name": "🐹 SqueekRun: Crystal Caverns",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "Read-only tracker for SqueekCore settlement latency on Sepolia: batches, gaps, unsettled rounds and alerts at one finalized block.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-10-30T00:37:44.789117+00:00",
+      "id": "59de99f421090789",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://squeekchain-settlement-latency.imd.site"
+      },
+      "logo": "logos/7dae29d119cd10974c36bcb3de7e60f74527573a9f6010cd244b8569806f3b2e.svg",
+      "name": "Squeekchain settlement latency",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -1229,6 +1326,32 @@
     },
     {
       "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "According to its README, **Live:** https://squeek-power-planner.duckdns.org/",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/Ceyz/squeek-power-planner"
+        }
+      ],
+      "first_seen": "2026-10-29T04:35:30.178961+00:00",
+      "id": "9aa1637574885b2f",
+      "identity_status": "unresolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "docs": "https://github.com/Ceyz/squeek-power-planner/blob/HEAD/docs/MODEL.md",
+        "github": "https://github.com/Ceyz/squeek-power-planner",
+        "website": "https://squeek-power-planner.duckdns.org/"
+      },
+      "name": "Squeek Power Planner 🐹",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
       "category": "game",
       "checked_text": {
         "paragraphs": [
@@ -1329,6 +1452,10 @@
         {
           "kind": "site_contract_link",
           "url": "https://eth-sepolia.blockscout.com/address/0x980b4424c007caf7a1f3670b48c8eaef7ebc3d44"
+        },
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0x980b4424c007caf7a1f3670b48c8eaef7ebc3d44"
         }
       ],
       "first_seen": "2026-10-27T04:35:34.132091+00:00",
@@ -1417,6 +1544,26 @@
       "description_origin": "placeholder",
       "ecosystem_status": "weak",
       "evidence": [],
+      "first_seen": "2026-11-02T03:56:01.844911+00:00",
+      "id": "d23c01b43ba6ea76",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://squeek-nft.identitymd.eth.limo/"
+      },
+      "logo": "logos/40a4496b7d6721bc8a3b57bc2365d573f909231179d6c5ac7a79c4d3c9d51f24.svg",
+      "name": "Squeek 起名屋",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
+      "description_origin": "placeholder",
+      "ecosystem_status": "weak",
+      "evidence": [],
       "first_seen": "2026-11-01T16:45:39.777411+00:00",
       "id": "d26fc132e0fc6825",
       "identity_status": "resolved",
@@ -1430,37 +1577,7 @@
     },
     {
       "builder": null,
-      "builder_links": [
-        {
-          "label": "@0xmeto_",
-          "source": "https://wheelpaper.vercel.app",
-          "url": "https://x.com/0xmeto_"
-        }
-      ],
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "The Wheelpaper aims to make the Squeekchain whitepaper playable, as described on the project website. It is an unofficial effort to turn that technical document into an interactive experience. "
-            },
-            {
-              "text": "the project website",
-              "url": "https://wheelpaper.vercel.app"
-            }
-          ],
-          [
-            {
-              "text": "To understand this approach, you can explore the details provided on the project website. This source offers the primary context for how the whitepaper was adapted into a playable format. "
-            },
-            {
-              "text": "the project website",
-              "url": "https://wheelpaper.vercel.app"
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "The Squeekchain whitepaper, made playable. Unofficial.",
       "description_origin": "website",
@@ -1471,7 +1588,8 @@
       "identity_status": "resolved",
       "lifecycle_stage": "unknown",
       "links": {
-        "website": "https://wheelpaper.vercel.app"
+        "website": "https://wheelpaper.online/",
+        "x": "https://x.com/0xmeto_"
       },
       "logo": "logos/51402b2d4d8fc90f555a42d1b7f2fa76fbf3ea8e1d1f3b92f00e7399f0e4eada.png",
       "name": "The Wheelpaper",
