@@ -1480,6 +1480,25 @@
     },
     {
       "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
+      "description_origin": "placeholder",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-11-02T02:35:47.727135+00:00",
+      "id": "e0cdb0fdae439f75",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://squeek.pametnozavarovan.si/"
+      },
+      "name": "Hamster Track",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
       "category": "defi",
       "checked_text": {
         "paragraphs": [

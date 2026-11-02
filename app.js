@@ -319,7 +319,7 @@ function card(project) {
   info.append(nameRow);
   const verified = showcaseInfo(project);
   if (verified) {
-    const badge = external(verified.source_url, 'showcase-badge', 'Verified by Squeek');
+    const badge = el('span', 'showcase-badge', 'Verified by Squeek');
     badge.title = showcaseTitle(verified);
     info.append(badge);
   }
