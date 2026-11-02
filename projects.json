@@ -1439,7 +1439,7 @@
       ],
       "first_seen": "2026-10-29T04:35:30.178961+00:00",
       "id": "9aa1637574885b2f",
-      "identity_status": "unresolved",
+      "identity_status": "resolved",
       "lifecycle_stage": "unknown",
       "links": {
         "docs": "https://github.com/Ceyz/squeek-power-planner/blob/HEAD/docs/MODEL.md",
