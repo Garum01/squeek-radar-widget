@@ -2,7 +2,7 @@
   "projects": [
     {
       "builder": null,
-      "category": "other",
+      "category": "tools",
       "contracts": [],
       "description_en": "How long does a closed Squeekchain round wait before it is certified onchain?",
       "description_origin": "readme",
@@ -488,35 +488,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeektoshi’s wheel powers a string of numbered bulbs, creating a simple visual setup for the project. The core idea is to bet test SQK on how many lights he manages to turn on before falling asleep "
-            },
-            {
-              "text": "the project website",
-              "url": "https://keepthelightson.xyz"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow the details, you can check the project website for the specific rules and context behind this sleepy experiment. It offers a direct look at how the wheel and bulbs interact in this unique scenario "
-            },
-            {
-              "text": "the project website",
-              "url": "https://keepthelightson.xyz"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Squeektoshi's wheel powers a string of numbered bulbs. Bet test SQK on how many he lights before he falls asleep.",
       "description_origin": "website",
@@ -639,37 +610,6 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Keeper is a Chrome extension designed to watch your Squeeks and ping you when action is needed, as described in its README "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-keeper.imd.site"
-            },
-            {
-              "text": ". To understand how it works, you can explore the technical details in "
-            },
-            {
-              "text": "the code repository",
-              "url": "https://github.com/olric3015/squeektoshi-status#install-2-minutes"
-            },
-            {
-              "text": " or review the overview on "
-            },
-            {
-              "text": "the project profile",
-              "url": "https://x.com/squeektoshi"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A Chrome extension that watches your Squeeks for you and pings you when there's something to do.",
       "description_origin": "readme",
@@ -925,7 +865,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "Non-custodial, fee-free peer-to-peer market for Squeeks (Squeekchain's ERC-721) priced in SQK, built so holders of a lone Squeek at a level can find a merge partner. This repository holds the contract stage of SqueekMatch: the Solidity source, its tests, the ABI export and this document. The website is a later stage.",
+      "description_en": "Non-custodial, fee-free peer-to-peer market for Squeeks (Squeekchain's ERC-721) priced in SQK, built so holders of a lone Squeek at a level can find a merge partner. This repository contains the deployed contract source, its tests and ABI, the React website in web/, and the ready-to-serve static export in dist/.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -1674,7 +1614,7 @@
     },
     {
       "builder": null,
-      "category": "other",
+      "category": "tools",
       "contracts": [],
       "description_en": "Source for two separate Netlify sites. Neither is part of mfbrat.com.",
       "description_origin": "readme",
@@ -2558,49 +2498,6 @@
     {
       "builder": null,
       "category": "defi",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Hamster Mining Reserve lets you pool Squeekchain Squeeks to reach high mining levels that are too expensive for one person, aiming for roughly double the mining power. This is an IMD and Squeekchain build "
-            },
-            {
-              "text": "the project website",
-              "url": "https://hamstermining.energy"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To see how this works, start with "
-            },
-            {
-              "text": "the project website",
-              "url": "https://hamstermining.energy"
-            },
-            {
-              "text": " for the main overview. You can then check "
-            },
-            {
-              "text": "a public source",
-              "url": "https://eth-sepolia.blockscout.com/address/0x18a974ec34e748574c83ae8140ef7faa3904bc24"
-            },
-            {
-              "text": " and "
-            },
-            {
-              "text": "a public source",
-              "url": "https://eth-sepolia.blockscout.com/address/0x980b4424c007caf7a1f3670b48c8eaef7ebc3d44"
-            },
-            {
-              "text": " for more details on the mechanics and community aspects."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [
         {
           "address": "0x18a974ec34e748574c83ae8140ef7faa3904bc24",
@@ -2683,7 +2580,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
+      "description_en": "English summary. Squeek Merge Preview is a static, non-custodial pre-merge desk for Squeek holders on Sepolia. Pick a survivor and a donor, compare Day 0 / +7d / +30d with every row tagged Certain, Scenario or Unknown, save local snapshots (compare 3 side by side, export JSON, copy a summary, downloa…",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -3650,6 +3547,35 @@
     {
       "builder": null,
       "category": "other",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Wheelprints aims to help you create original prints from recorded Squeektoshi activity, as described on "
+            },
+            {
+              "text": "the project website",
+              "url": "https://wheelprints-sepolia.pages.dev"
+            },
+            {
+              "text": ". It is currently a free art beta."
+            }
+          ],
+          [
+            {
+              "text": "You can explore three studies, choose a form and palette, and replay the drawing to keep the art. "
+            },
+            {
+              "text": "A public source",
+              "url": "https://eth-sepolia.blockscout.com/address/0x980b4424c007caf7a1f3670b48c8eaef7ebc3d44"
+            },
+            {
+              "text": " offers more details on this process."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Make an original print from recorded Squeektoshi activity. Explore three studies, choose a form and palette, replay the drawing, and keep the art. Free art beta.",
       "description_origin": "website",
@@ -3704,6 +3630,42 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeekchain Analytics aims to provide an independent dashboard for the hamster-powered Squeekchain ecosystem on Ethereum Sepolia, as described in "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekchain-analytics-small-paws.imd.site"
+            },
+            {
+              "text": ". It focuses on delivering real work through small paws, offering a clear view of this specific environment."
+            }
+          ],
+          [
+            {
+              "text": "To follow the details, you can start with "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/Volha1213/squeekchain-analytics"
+            },
+            {
+              "text": " for general context. Then, "
+            },
+            {
+              "text": "the documentation",
+              "url": "https://github.com/Volha1213/squeekchain-analytics/blob/HEAD/docs/screenshots/overview-dark.jpg"
+            },
+            {
+              "text": " offers deeper insights into how the analytics function within this unique setup, helping you understand the data flow."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Small paws. Real work. An independent analytics dashboard for the hamster-powered Squeekchain ecosystem on Ethereum Sepolia.",
       "description_origin": "readme",
@@ -4050,8 +4012,8 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "Find a partner for your single Squeek. Plan merges and trade peer to peer with no market fee. An unofficial Squeekchain tool on Sepolia.",
-      "description_origin": "source",
+      "description_en": "Non-custodial, fee-free peer-to-peer market for Squeeks (Squeekchain's ERC-721) priced in SQK, built so holders of a lone Squeek at a level can find a merge partner. This repository holds the contract stage of SqueekMatch: the Solidity source, its tests, the ABI export and this document. The website is a later stage.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -4080,7 +4042,7 @@
         "website": "https://squeekmatch-find-your-merge-part.imd.site"
       },
       "logo": "logos/6af086df9e08ee2e8572f5359e9786fe886a94ec152b2831680e2459cfc5db0b.svg",
-      "name": "launch-2897-workflow-contract-stage-context",
+      "name": "SqueekMatchEscrow",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -4495,8 +4457,8 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "Follow Squeekchain on Sepolia: the current mining round, SQK mined, live Squeek NFTs, and public contract addresses. A read-only view of a hamster-powered economy.",
-      "description_origin": "source",
+      "description_en": "A small, static, read-only dashboard for Squeekchain on Ethereum Sepolia. The finished export is in dist/, alongside the React/TypeScript source and exact npm lockfile.",
+      "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
         {
@@ -4517,7 +4479,7 @@
         "website": "https://squeek-pulse.imd.site"
       },
       "logo": "logos/f6bbf2af7051b3a9fdf877c7294f0144362bdf7539e1f669119106710cb072be.svg",
-      "name": "launch-2901-build-small-static-web",
+      "name": "Squeekchain dashboard",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
