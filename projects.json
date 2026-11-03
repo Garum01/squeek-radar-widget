@@ -727,7 +727,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "Live Squeekchain state on Sepolia: Squeek block height, progress inside the current block, settled round, difficulty and pause status, read from SqueekCore every 15 seconds.",
+      "description_en": "A single-page, read-only dashboard for the hamster-powered Squeekchain. It reads the SqueekCore proxy on Sepolia  every 15 seconds and shows",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -1822,6 +1822,35 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Out is a game of nerve where you ride Squeektoshi's wheel and must bail before he stops. It runs on Squeekchain, described as a hamster-powered blockchain. You can learn more about this playful concept directly from "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekout.fun"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To understand the mechanics, start by visiting "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekout.fun"
+            },
+            {
+              "text": ". It offers the primary details about the game and its unique setting. Reading this source will help you follow the trail of how this specific experience works within its ecosystem."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Ride Squeektoshi's wheel and bail before he stops. A game of nerve on Squeekchain, the hamster-powered blockchain.",
       "description_origin": "website",
@@ -2120,35 +2149,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Hamster Derby is a prediction game centered on simulated hamster-wheel races. According to its README, each round features four hamsters where you pick one and stake funds. Winners split the whole pot, and if a round cannot be settled, everyone is refunded. The project has no owner and charges no fee "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekchain-hamster-derby.vercel.app"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To understand how this works, you can follow the details provided in the public documentation. The project website offers a clear overview of the mechanics, including the refund policy and the absence of ownership. Reading these sources helps clarify the simple structure of the game "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/ekervo/Squeekchain-Hamster-Derby"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A prediction game on simulated hamster-wheel races. Each round has four hamsters: pick one, stake funds, and winners split the whole pot. If a round cannot be settled, everyone is refunded. There is no owner and no fee. Bets are placed in USDC on Arc Testnet and in ETH on Ethereum Sepolia and Base Sepolia, with test fu…",
       "description_origin": "readme",
@@ -2586,49 +2586,6 @@
     {
       "builder": "CelerityCodes",
       "category": "defi",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "The developer describes quadConnect as an automated vault combining Squeekchain mining, hourly long/short strategies, and compounding "
-            },
-            {
-              "text": "the project website",
-              "url": "https://quad.cx"
-            },
-            {
-              "text": ". This setup aims to streamline these specific activities into a single, managed process for participants."
-            }
-          ],
-          [
-            {
-              "text": "To understand how this works, you can start with "
-            },
-            {
-              "text": "a team post",
-              "url": "https://x.com/pillheadddd/status/2112707335022166376"
-            },
-            {
-              "text": " for context. Then, check "
-            },
-            {
-              "text": "the public profile",
-              "url": "https://x.com/quadconnects"
-            },
-            {
-              "text": " and "
-            },
-            {
-              "text": "a public source",
-              "url": "https://x.com/pillheadddd/status/2116225828606324808"
-            },
-            {
-              "text": " to see the details laid out clearly."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "The developer describes an automated vault combining Squeekchain mining, hourly long/short strategies and compounding. A testnet has been announced; the contract and live operation have not been independently confirmed.",
       "description_origin": "source",
@@ -2756,35 +2713,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "According to its README, this project lets you feed, touch, and grow with Pip. It preserves the existing lavender 3D companion, five growth appearances, browser saves, and care features. It also adds read-only monitoring for specific networks and introduces twelve procedural gestures "
-            },
-            {
-              "text": "the project website",
-              "url": "https://pip-squeekchain-hamster-com-576c.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow the details, start with the documentation for the core mechanics. You can then check the public sources for the specific monitoring additions and gesture implementations. This trail helps you understand how the new features integrate with the original companion experience "
-            },
-            {
-              "text": "the documentation",
-              "url": "https://github.com/identity-md-launches/launch-2777-reference-source-https-github-com-tungwe/blob/HEAD/docs/UPSTREAM_README.md"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Feed, touch, turn and grow with Pip. This upgrade preserves the existing lavender 3D companion, five growth appearances, browser saves, care/play/memories, English default, Traditional Chinese and free on-device AI. It adds read-only IMD/Ethereum and Squeekchain/Sepolia monitoring, twelve procedural gestures, reward-fr…",
       "description_origin": "readme",
@@ -2797,6 +2725,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/042fe32c-3588-4206-a6fd-c1bfd18b521c"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/edf1766e-6293-4979-bdb9-f50b6c9d72e8"
         }
       ],
       "first_seen": "2026-10-31T11:23:26.251920+00:00",
@@ -3033,35 +2965,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Picks organizes research from the IdentityMD worker network, grouping reports, supporting files, and provenance by job "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekpicks.xyz"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "You can explore the structure and contents directly in the code repository to see how these items are arranged "
-            },
-            {
-              "text": "the code repository",
-              "url": "https://github.com/Identity-md/research/blob/main/jobs/06d98304-78a4-4089-815a-2be96ef1f7c5/files/AUDIT.md"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Research produced by the IdentityMD worker network, with reports, supporting files and provenance grouped by job.",
       "description_origin": "readme",
@@ -3785,7 +3688,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "A responsive, free prediction game for Squeektoshi’s next 24-hour running distance. This repository includes the finished static website in dist/, React/TypeScript source, and a working shared SQLite score service. Wallets prove ownership with a signed message; there are no token approvals, transactions, entr…",
+      "description_en": "A responsive, free prediction game for Squeektoshi’s next 24-hour running distance. This repository includes the finished static website in dist/, React/TypeScript source, and a working shared SQLite score service. Wallets prove ownership with a signed message; there are no token approvals, transactions, entry costs or…",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -4846,7 +4749,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
       "contracts": [],
       "description_en": "Race a ghost of Squeektoshi's real recorded runs. You spin an on-screen wheel with your mouse, trackpad, finger or the arrow keys. A ghost replays one of his real runs passage by passage. Your passages are counted with the WHEELY9000's published counting rules, and his real Squeek blocks pop at the exact passages that…",
       "description_origin": "readme",
@@ -5416,8 +5319,8 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "The non-custodial Squeek workbench on Sepolia. Inspect live holders, crank checkpoints, batch-claim SQK, and carefully merge Squeeks.",
-      "description_origin": "website",
+      "description_en": "A one-page, non-custodial Squeek holder and Keeper workbench on Sepolia / 0xaa36a7. Testnet Squeeks, SQK, and ETH have no monetary value. The finished static website is in dist/.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
