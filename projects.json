@@ -792,6 +792,35 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "PolyHamster is a playful project where you can join prediction markets using only play points, with no real money involved. It centers on the nights of Squeektoshi, a hamster mining on Squeekchain, as described in "
+            },
+            {
+              "text": "the project website",
+              "url": "https://polyhamster-prediction-markets-o.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To understand how it works, you can follow the trail to see how markets resolve automatically from the public API. Checking "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2745-fix-two-content-check-advisories"
+            },
+            {
+              "text": " helps clarify these mechanics and the specific data points used for resolution."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "According to its README, prediction markets (play points only, no real money) on the nights of **Squeektoshi**, the hamster mining [Squeekchain](https://squeekchain.com). Every market resolves automatically from the public API `api.squeekchain.com`.",
       "description_origin": "readme",
@@ -925,6 +954,42 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Survival is a guest-first English prediction game where you beat Robo-Squeek to keep the wheel alive. It features deterministic virtual races, a device-local weekly raid, learning AI, and printable wheel art, with no token rewards "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-survival-beat-robo-squeek.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To understand how it works, start with the public source for an overview "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/e16f29ab-97a5-4a7f-9b02-e495e4b96721"
+            },
+            {
+              "text": ". Then, explore the code repository to see the implementation details "
+            },
+            {
+              "text": "the code repository",
+              "url": "https://github.com/identity-md-launches/launch-2853-squeek-survival-deliver-hosted"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "According to its README, **Beat Robo-Squeek. Keep the wheel alive.** A guest-first English prediction game with deterministic virtual races, a device-local weekly raid, learning AI and printable wheel art. No token rewards.",
       "description_origin": "readme",
@@ -1030,6 +1095,49 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Wheel Rhythm is a small, static rhythm game powered by Squeekchain's real hamster wheel. According to its README, it uses HTML, CSS, and vanilla JavaScript, with no runtime libraries, backend, account, wallet, or tracking. All artwork is original and bundled locally "
+            },
+            {
+              "text": "the project website",
+              "url": "https://wheel-rhythm-tiny-paws-big-rhyth.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To follow the source trail, you can start with the project website "
+            },
+            {
+              "text": "the project website",
+              "url": "https://wheel-rhythm-tiny-paws-big-rhyth.imd.site"
+            },
+            {
+              "text": " for the main description. Other public sources "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2784-build-small-browser-rhythm"
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/15fab8fd-0958-42ef-ac45-1a72fa689eeb"
+            },
+            {
+              "text": " may offer additional context on how the game connects to the wheel data."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "According to its README, a small, static rhythm game powered by Squeekchain's real hamster wheel. HTML, CSS and vanilla JavaScript; no runtime libraries, backend, account, wallet or tracking. All artwork is original and bundled locally.",
       "description_origin": "readme",
@@ -3946,7 +4054,12 @@
     {
       "builder": null,
       "category": "game",
-      "contracts": [],
+      "contracts": [
+        {
+          "address": "0x7b323e55617e7f7a7a41e5172d70ad25f462c329",
+          "chain_id": 11155111
+        }
+      ],
       "description_en": "A public repository referencing Squeekchain. Repository description: Build SQUEEK ARENA, a complete, original Web3 hamster racing and betting game for the SqueekChain community. Create a finished, playable website with exactly THREE animated hamster racers: BROWN, WHITE and GOLDEN. 1. NETWORK AND TOKEN Ethereum Sepolia testnet only. Chain ID: 11155111. Real test token: Squeek (SQK). Token address: 0x6872bfa5ccc3e...",
       "description_origin": "source",
       "ecosystem_status": "weak",
@@ -3958,6 +4071,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/bce2e76c-0b7a-4e58-a69a-85c9063a2481"
+        },
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0x7b323e55617e7f7a7a41e5172d70ad25f462c329"
         }
       ],
       "first_seen": "2026-11-02T05:03:44.193289+00:00",
@@ -3965,6 +4082,7 @@
       "identity_status": "resolved",
       "lifecycle_stage": "unknown",
       "links": {
+        "explorer": "https://eth-sepolia.blockscout.com/address/0x7b323e55617e7f7a7a41e5172d70ad25f462c329",
         "github": "https://github.com/identity-md-launches/launch-2862-build-squeek-arena-complete",
         "website": "https://squeek-arena-hamster-races-on-se.imd.site"
       },
