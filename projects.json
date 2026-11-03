@@ -2986,6 +2986,35 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Picks is a research initiative from the IdentityMD worker network. It organizes reports, supporting files, and provenance data into distinct groups based on specific jobs "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekpicks.xyz"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To follow the trail, start with the project website for an overview of the available reports. You can then explore the code repository to see how these research outputs are structured and maintained "
+            },
+            {
+              "text": "the code repository",
+              "url": "https://github.com/Identity-md/research/blob/main/jobs/06d98304-78a4-4089-815a-2be96ef1f7c5/files/AUDIT.md"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Research produced by the IdentityMD worker network, with reports, supporting files and provenance grouped by job.",
       "description_origin": "readme",
@@ -3279,42 +3308,6 @@
     {
       "builder": null,
       "category": "other",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "According to its README, every night the real hamster that mines Squeekchain paints a spin-art card with his wheel. This simple description sets the stage for the project's unique daily activity. You can find this core purpose outlined on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekwheel.xyz"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow the trail, start with "
-            },
-            {
-              "text": "the project profile",
-              "url": "https://x.com/squeekchain"
-            },
-            {
-              "text": " for context. Then, check "
-            },
-            {
-              "text": "the code repository",
-              "url": "https://github.com/Rooaraak/squeek-wheel-watch/blob/main/art.js"
-            },
-            {
-              "text": " to see how the nightly painting process is implemented. These sources help you understand the mechanics behind the hamster's artistic output."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Every night the real hamster that mines Squeekchain paints a spin-art card with his wheel.",
       "description_origin": "readme",
@@ -3335,9 +3328,9 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
       "contracts": [],
-      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
+      "description_en": "An original, playable hamster strategy game for the SqueekChain ecosystem. The export is in dist/. Serve that directory with any static web host; asset paths are relative and navigation uses URL hashes, so it also works under a gateway subpath. Publishing is handled by the assignment’s hosting plane.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -3518,7 +3511,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "Browser puzzle games with a Squeekchain twist. Number Slide now has real on-chain play on Ethereum Sepolia, a test network: a player starts a session with one transaction, plays every move in the browser, and submits the whole move list in a second transaction. The NumberSlideSessions contrac…",
+      "description_en": "Browser puzzle games with a Squeekchain twist. Number Slide now has real on-chain play on Ethereum Sepolia, a test network: a player starts a session with one transaction, plays every move in the browser, and submits the whole move list in a second transaction. The NumberSlideSessions contract replays…",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -3547,35 +3540,6 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Pulse is an independent, read-only tool designed to help you explore SqueekChain community analytics. It focuses on tracking wheel activity, settled blocks, SQK issuance, and Squeek ownership specifically on the Sepolia network "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekpulse.xyz"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow the data trail, you can start by checking the project website. This source provides the context for the metrics mentioned, allowing you to see how the community interacts with the chain in a straightforward, observational way "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekpulse.xyz"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Squeek Pulse — independent, read-only SqueekChain community analytics. Explore wheel activity, settled blocks, SQK issuance and Squeek ownership on Sepolia.",
       "description_origin": "website",
@@ -4800,7 +4764,7 @@
     },
     {
       "builder": null,
-      "category": "nft",
+      "category": "tools",
       "contracts": [
         {
           "address": "0x264730e600808321053729bf3445ffb611c67221",
@@ -5262,16 +5226,35 @@
     {
       "builder": null,
       "category": "launchpad",
-      "contracts": [],
+      "contracts": [
+        {
+          "address": "0xcc434ba5b59918535057290b1ecb29594603c273",
+          "chain_id": 11155111
+        }
+      ],
       "description_en": "Unofficial Sepolia launchpad built on Squeekchain. Fair bonding-curve launches whose phases unlock with settled Squeek blocks. Squeek holders buy first, 0% tax, LP burned.",
       "description_origin": "website",
-      "ecosystem_status": "claimed",
-      "evidence": [],
+      "ecosystem_status": "confirmed",
+      "evidence": [
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x0ea4aa3810e1a2f51a5694e05c514db68196ab24fefad9363bf6c7782c84b5e7"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x3432aa2cecd93c923993fc55ca3f3a7b67c2bbb3d8c2e8ace22e07ecdd436be0"
+        },
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0xcc434ba5b59918535057290b1ecb29594603c273"
+        }
+      ],
       "first_seen": "2026-11-01T00:50:35.195426+00:00",
       "id": "ee7c07991aa5a0c0",
       "identity_status": "resolved",
       "lifecycle_stage": "launch_announced",
       "links": {
+        "explorer": "https://eth-sepolia.blockscout.com/address/0xcc434ba5b59918535057290b1ecb29594603c273",
         "website": "https://squeekpad.xyz",
         "x": "https://x.com/squeekpad"
       },
