@@ -33,7 +33,7 @@
         "version": 1
       },
       "contracts": [],
-      "description_en": "According to its README, **How long does a closed Squeekchain round wait before it is certified onchain?**",
+      "description_en": "How long does a closed Squeekchain round wait before it is certified onchain?",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -52,7 +52,7 @@
         "website": "https://squeekchain-settlement-latency.identitymd.eth.limo/"
       },
       "logo": "logos/7dae29d119cd10974c36bcb3de7e60f74527573a9f6010cd244b8569806f3b2e.svg",
-      "name": "Squeek Settlement Latency Tracker (Sepolia)",
+      "name": "Squeek Settlement Latency Tracker",
       "publication_origin": "owner_approved",
       "stage": "unknown",
       "verified_by_squeek": {
@@ -96,7 +96,7 @@
         "version": 1
       },
       "contracts": [],
-      "description_en": "According to its README, a complete single-player pixel-art mining roguelite built with Vite, React, TypeScript, and the original asset pack. Play Pip, fill your cheeks, survive the deep, and return your treasure to the surface. The real Squeekchain wheel powers the basket; Practice uses an offline simulation.",
+      "description_en": "A complete single-player pixel-art mining roguelite built with Vite, React, TypeScript, and the original asset pack. Play Pip, fill your cheeks, survive the deep, and return your treasure to the surface. The real Squeekchain wheel powers the basket; Practice uses an offline simulation.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -126,7 +126,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, 用真实 Squeekchain 结算记录生成每日三阶段合成挑战。交付指定等级的仓鼠可以腾出空间、获得补给分；继续合成可能失去任务材料。**游戏不挖真实区块、不生成 SQK。**",
+      "description_en": "A three-minute merge game built from real Squeekchain settlements, with a verified leaderboard and Sepolia score pinning.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -148,7 +148,7 @@
         "website": "https://squeek-supply-station.imd.site"
       },
       "logo": "logos/797cdfcf518304c51a9d430466c076fb9fc68619d988ad5af94928e45699ecfc.svg",
-      "name": "Squeek Supply Station · 轮次补给站",
+      "name": "Squeek Supply Station",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -192,7 +192,7 @@
         "version": 1
       },
       "contracts": [],
-      "description_en": "According to its README, a free ERC-721 companion collection for Sepolia, with a static React mint site and original SVG hamster artwork. The page follows real Squeekchain measurements, offers resting, active and energetic style previews, and reads actual minted companions from the collection.",
+      "description_en": "A free ERC-721 companion collection for Sepolia, with a static React mint site and original SVG hamster artwork. The page follows real Squeekchain measurements, offers resting, active and energetic style previews, and reads actual minted companions from the collection.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -222,7 +222,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "According to its README, a free Squeekchain arcade powered by a real hamster. Aim a collector around the wheel, catch gold seeds and dodge blue glitches as the pace increases.",
+      "description_en": "A free Squeekchain arcade powered by a real hamster. Aim a collector around the wheel, catch gold seeds and dodge blue glitches as the pace increases.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -251,7 +251,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, a tiny pixel hamster for x.com, living in sync with Squeektoshi's real wheel on Squeekchain, a proof-of-work toychain on Ethereum Sepolia. The static website includes a playable demo and Chrome/Firefox extension downloads. EN and VI are available in the site header and the pal's Settings.",
+      "description_en": "A tiny pixel hamster for x.com, living in sync with Squeektoshi's real wheel on Squeekchain, a proof-of-work toychain on Ethereum Sepolia. The static website includes a playable demo and Chrome/Firefox extension downloads. EN and VI are available in the site header and the pal's Settings.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -306,7 +306,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, a browser virtual pet. Your pixel hamster runs and naps in sync with Squeektoshi, the real hamster whose wheel powers Squeekchain (a proof-of-work toychain on Ethereum Sepolia).",
+      "description_en": "A browser virtual pet. Your pixel hamster runs and naps in sync with Squeektoshi, the real hamster whose wheel powers Squeekchain (a proof-of-work toychain on Ethereum Sepolia).",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -410,7 +410,7 @@
         "version": 1
       },
       "contracts": [],
-      "description_en": "According to its README, a static, wallet-connected marketplace for Squeekchain’s Squeeks on **Sepolia only (11155111)**. Browse real DotGrid NFTs, inspect the whole mining position, find owned Squeeks, and trade with signed Seaport 1.6 orders. Test assets have no monetary value.",
+      "description_en": "A static, wallet-connected marketplace for Squeekchain’s Squeeks on Sepolia only. Browse real DotGrid NFTs, inspect the whole mining position, find owned Squeeks, and trade with signed Seaport 1.6 orders. Test assets have no monetary value.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -639,7 +639,7 @@
         "version": 1
       },
       "contracts": [],
-      "description_en": "According to its README, a static stream companion for Squeektoshi on Squeekchain’s Ethereum Sepolia testnet. Plain HTML, CSS and JavaScript; Vite builds the export. No backend, API key, relay or WalletConnect project ID is required.",
+      "description_en": "A static stream companion for Squeektoshi on Squeekchain’s Ethereum Sepolia testnet. Plain HTML, CSS and JavaScript; Vite builds the export. No backend, API key, relay or WalletConnect project ID is required.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -736,7 +736,7 @@
         "version": 1
       },
       "contracts": [],
-      "description_en": "According to its README, **A Chrome extension that watches your Squeeks for you and pings you when there's something to do.**",
+      "description_en": "A Chrome extension that watches your Squeeks for you and pings you when there's something to do.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -763,7 +763,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, visit: **[https://squeekdashboard.online/](https://squeekdashboard.online/)**",
+      "description_en": "Live Squeekchain state on Sepolia: Squeek block height, progress inside the current block, settled round, difficulty and pause status, read from SqueekCore every 15 seconds.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -822,7 +822,7 @@
         "version": 1
       },
       "contracts": [],
-      "description_en": "According to its README, prediction markets (play points only, no real money) on the nights of **Squeektoshi**, the hamster mining [Squeekchain](https://squeekchain.com). Every market resolves automatically from the public API `api.squeekchain.com`.",
+      "description_en": "Prediction markets (play points only, no real money) on the nights of Squeektoshi, the hamster mining Squeekchain. Every market resolves automatically from the public API api.squeekchain.com.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -843,7 +843,7 @@
         "github": "https://github.com/identity-md-launches/launch-2745-fix-two-content-check-advisories",
         "website": "https://polyhamster-prediction-markets-o.imd.site"
       },
-      "name": "PolyHamster 🐹",
+      "name": "PolyHamster",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -894,7 +894,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, a single-page, Sepolia-only transaction workbench for Squeekchain. Built with React, TypeScript, Vite, wagmi, viem and TanStack Query. The finished static website is in [`dist/`](dist/index.html); it is included with source and `package-lock.json`.",
+      "description_en": "A single-page, Sepolia-only transaction workbench for Squeekchain. Built with React, TypeScript, Vite, wagmi, viem and TanStack Query. The finished static website is in dist/; it is included with source and package-lock.json.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -917,6 +917,36 @@
       },
       "logo": "logos/5633fd7bd1f34ba8e55ddd243e892d0a29c2fa203fe25f49c7393b2ef6c1b63e.svg",
       "name": "Squeek Tx Lab",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "One real hamster. Three dungeon bosses. Build an on-chain Squeek squad, fight a live wheel-powered raid, and explore the Sepolia tester terminal.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-2904-build-single-page-interactive-web"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/43f642ea-fdc7-4a83-9ab4-60e5ff469f8c"
+        }
+      ],
+      "first_seen": "2026-11-03T03:20:38.261947+00:00",
+      "id": "20d57858aa15781c",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-2904-build-single-page-interactive-web",
+        "website": "https://squeek-raid-wheel-powered-boss-d.imd.site"
+      },
+      "logo": "logos/98876e408ab07ea0f79db00e7cfacee5fabd71f72662cd2c8acd0554759ddbab.svg",
+      "name": "launch-2904-build-single-page-interactive-web",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -953,7 +983,7 @@
         "version": 1
       },
       "contracts": [],
-      "description_en": "A public repository referencing Squeekchain. Repository description: Build a polished, fun, fully playable single-page game called \"Squeek Arena\" for Squeekchain (Sepolia). Concept: A competitive mini-game where the outcome is influenced by the real hamster's recent on-chain activity. This is a real product with gameplay, not a dashboard or thin API wrapper. Core Gameplay: - Player connects wallet (optional but r...",
+      "description_en": "A 35-second rhythm game powered by a real hamster. Time your boosts, chase your personal best, and let Squeektoshi's settled Squeekchain activity power your score.",
       "description_origin": "source",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -975,7 +1005,7 @@
         "website": "https://squeek-arena-tiny-paws-massive-s.imd.site"
       },
       "logo": "logos/4e3b7c9daac6129be40a122fc4cbf707f494dcd0ae0c601f7bb69c69ffda3b7b.svg",
-      "name": "launch-2903-build-polished-fun-fully",
+      "name": "Squeek Arena",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -1012,7 +1042,7 @@
         "version": 1
       },
       "contracts": [],
-      "description_en": "According to its README, non-custodial, fee-free peer-to-peer market for Squeeks (Squeekchain's ERC-721) priced in SQK, built so holders of a lone Squeek at a level can find a merge partner. This repository holds the contract stage of SqueekMatch: the Solidity source, its tests, the ABI export and this document. The website is a later stage.",
+      "description_en": "Non-custodial, fee-free peer-to-peer market for Squeeks (Squeekchain's ERC-721) priced in SQK, built so holders of a lone Squeek at a level can find a merge partner. This repository holds the contract stage of SqueekMatch: the Solidity source, its tests, the ABI export and this document. The website is a later stage.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -1049,6 +1079,35 @@
         }
       ],
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Hamster Tower is a turn-based tower climb where every round of real work by the Squeekchain hamster counts as a floor, according to "
+            },
+            {
+              "text": "the project website",
+              "url": "https://hamstertower.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "You can follow the source trail by visiting "
+            },
+            {
+              "text": "the project website",
+              "url": "https://hamstertower.site"
+            },
+            {
+              "text": " to see how this climbing mechanic is described in detail."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A turn-based tower climb where every round of real work by the Squeekchain hamster is a floor.",
       "description_origin": "website",
@@ -1070,7 +1129,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, static mirror of the [published Squeek Holder Bot site](https://squeek-holder-bot.chainn.workers.dev/), rebuilt from [upstream master `ad869b5`](https://github.com/DinhTienhz/squeek-holder-bot/commit/ad869b547c3b123df946c060dd5c07711134bc4a). The published HTML and that revision matched when fetched on 2026-11-02. The…",
+      "description_en": "Static mirror of the published Squeek Holder Bot site, rebuilt from upstream master ad869b5. The published HTML and that revision matched when fetched on 2026-11-02. The…",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -1137,7 +1196,7 @@
         "version": 1
       },
       "contracts": [],
-      "description_en": "According to its README, **Beat Robo-Squeek. Keep the wheel alive.** A guest-first English prediction game with deterministic virtual races, a device-local weekly raid, learning AI and printable wheel art. No token rewards.",
+      "description_en": "Beat Robo-Squeek. Keep the wheel alive. A guest-first English prediction game with deterministic virtual races, a device-local weekly raid, learning AI and printable wheel art. No token rewards.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -1167,7 +1226,7 @@
           "chain_id": 11155111
         }
       ],
-      "description_en": "According to its README, your bags. his legs.",
+      "description_en": "Your bags. his legs.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -1214,7 +1273,7 @@
       "links": {
         "website": "https://squeek-pulse-studio.vercel.app"
       },
-      "name": "SqueekLeveler & WheelPulse v2.5 Studio",
+      "name": "SqueekLeveler & WheelPulse Studio",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -1251,7 +1310,7 @@
         "version": 1
       },
       "contracts": [],
-      "description_en": "According to its README, a single-page prediction game for the real Squeekchain hamster wheel. Pick the **next** 10-minute round’s work band, stake free SP, build a streak, or challenge a second wallet. Duels and scores belong to a disclosed local league in this browser.",
+      "description_en": "A single-page prediction game for the real Squeekchain hamster wheel. Pick the next 10-minute round’s work band, stake free SP, build a streak, or challenge a second wallet. Duels and scores belong to a disclosed local league in this browser.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -1324,7 +1383,7 @@
         "version": 1
       },
       "contracts": [],
-      "description_en": "According to its README, a small, static rhythm game powered by Squeekchain's real hamster wheel. HTML, CSS and vanilla JavaScript; no runtime libraries, backend, account, wallet or tracking. All artwork is original and bundled locally.",
+      "description_en": "A small, static rhythm game powered by Squeekchain's real hamster wheel. HTML, CSS and vanilla JavaScript; no runtime libraries, backend, account, wallet or tracking. All artwork is original and bundled locally.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -1374,37 +1433,6 @@
     {
       "builder": "theidmfun",
       "category": "other",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Intelligent Dance Market is a Uniswap v4 hook where on-chain state acts as a 16-step drum machine, turning every trade into a note "
-            },
-            {
-              "text": "the project website",
-              "url": "https://theidm.fun"
-            },
-            {
-              "text": ". This design frames market activity as a rhythmic sequence rather than a standard ledger entry. To understand how this works, you can follow the source trail starting with "
-            },
-            {
-              "text": "the announcement",
-              "url": "https://x.com/theidmfun/status/2115155784929812559"
-            },
-            {
-              "text": " and then reviewing "
-            },
-            {
-              "text": "the documentation",
-              "url": "https://theidm.fun/docs"
-            },
-            {
-              "text": " for technical details."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Intelligent Dance Market ($IDM): a Uniswap v4 hook whose on-chain state is a 16-step drum machine. Every trade is a note.",
       "description_origin": "website",
@@ -1445,7 +1473,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, a computer clocked by a hamster. Community project for [Squeekchain](https://squeekchain.com). Not affiliated with the Squeekchain team.",
+      "description_en": "A computer clocked by a hamster. Community project for Squeekchain. Not affiliated with the Squeekchain team.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -1475,8 +1503,8 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "A public repository referencing Squeekchain. Repository description: {\"objective\":\"Build a clean public website for the Squeekchain Genesis Buildooooor badge for wallet 0x9a2ecf2e6af1ce1072f100e3328094016989f5b5. Audience: Squeekchain community. Purpose: a community dashboard that reads live public Squeekchain APIs so it can be submitted at https://squeekchain.com/genesis/code as an IMD project and earn The Build...",
-      "description_origin": "source",
+      "description_en": "A community dashboard for Squeekchain, built as a Genesis project for The Buildooooor badge. Contributor wallet:. The badge requires Squeekchain team approval.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -1497,7 +1525,7 @@
         "website": "https://wheelwatch-squeekchain-community.imd.site"
       },
       "logo": "logos/1828ca4052bd2a5a23ae5ffec2ed72a2ee77082c6ab4975235fd539552876955.svg",
-      "name": "launch-2878-objective-build-clean-public-website",
+      "name": "Wheelwatch",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -1541,7 +1569,7 @@
         "version": 1
       },
       "contracts": [],
-      "description_en": "According to its README, a pixel pastel Sepolia game: mint a free HAM, train, and challenge another owner. **Independent testnet demo only.** No official Squeek mining rights, SQK yield, sensors, insurance, or transferable points.",
+      "description_en": "A pixel pastel Sepolia game: mint a free HAM, train, and challenge another owner. Independent testnet demo only. No official Squeek mining rights, SQK yield, sensors, insurance, or transferable points.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -1567,7 +1595,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, a single-page, wallet-connected companion for Squeekchain on **Sepolia (11155111)**. The finished static site is in `dist/`; source is in `src/`. No backend, API key, relay, or WalletConnect project ID is required.",
+      "description_en": "A single-page, wallet-connected companion for Squeekchain on Sepolia. The finished static site is in dist/; source is in src/. No backend, API key, relay, or WalletConnect project ID is required.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -1633,7 +1661,7 @@
         "version": 1
       },
       "contracts": [],
-      "description_en": "According to its README, tiny paws. Big beats. A free, playable two-lane rhythm arcade with original hamster-in-wheel artwork, three acts, sunflower notes, FEVER, and local personal bests.",
+      "description_en": "Tiny paws. Big beats. A free, playable two-lane rhythm arcade with original hamster-in-wheel artwork, three acts, sunflower notes, FEVER, and local personal bests.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -1663,7 +1691,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "According to its README, 把 Squeekchain 的链上算力变成一场实时仓鼠赛跑的单页应用。",
+      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -1735,7 +1763,7 @@
         "version": 1
       },
       "contracts": [],
-      "description_en": "According to its README, a silly browser runner for a hamster with terrible fashion sense. Put a pressure cooker on its head, hand it a toilet plunger, and try to survive the wheel.",
+      "description_en": "A silly browser runner for a hamster with terrible fashion sense. Put a pressure cooker on its head, hand it a toilet plunger, and try to survive the wheel.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -1765,7 +1793,7 @@
       "builder": null,
       "category": "other",
       "contracts": [],
-      "description_en": "According to its README, source for two separate Netlify sites. Neither is part of mfbrat.com.",
+      "description_en": "Source for two separate Netlify sites. Neither is part of mfbrat.com.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -1783,7 +1811,7 @@
         "website": "https://squeek.mfbrat.com/"
       },
       "logo": "logos/59791254fef130b5330d7b7cf72a9c70d55cff17444a684a2f53f3b0583b1be3.svg",
-      "name": "squeektoshi-live",
+      "name": "Squeektoshi Live",
       "publication_origin": "owner_approved",
       "stage": "unknown",
       "verified_by_squeek": {
@@ -1806,7 +1834,7 @@
       ],
       "category": "tools",
       "contracts": [],
-      "description_en": "Institutional-grade real-time block explorer and cryptographic verifier for Squeekchain (Ethereum Sepolia Chain ID 11155111).",
+      "description_en": "Institutional-grade real-time block explorer and cryptographic verifier for Squeekchain (Ethereum Sepolia).",
       "description_origin": "website",
       "ecosystem_status": "weak",
       "evidence": [],
@@ -1903,7 +1931,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, 一个介绍 **Squeekchain - Hamster Powered Blockchain** 的中文单页网站。原创仓鼠跑轮插画、四步工作流程、SQK 说明及原生折叠 FAQ，支持手机与键盘操作。跑轮可以启动、暂停，并明确标注为插画演示。",
+      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -1934,7 +1962,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "According to its README, a prediction game on the Squeekchain hamster wheel. Every 10 minutes the wheel's work is counted and settled onchain by SqueekCore. You bet Sepolia ETH on whether a future round's work lands over or under a line, and the contract pays winners from the certified number. Nobody can settle it by hand, and there is no admi…",
+      "description_en": "A prediction game on the Squeekchain hamster wheel. Every 10 minutes the wheel's work is counted and settled onchain by SqueekCore. You bet Sepolia ETH on whether a future round's work lands over or under a line, and the contract pays winners from the certified number. Nobody can settle it by hand, and there is no admi…",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -1995,7 +2023,7 @@
         "version": 1
       },
       "contracts": [],
-      "description_en": "According to its README, a free-to-play browser platformer and mining-colony game inspired by Squeekchain.",
+      "description_en": "A free-to-play browser platformer and mining-colony game inspired by Squeekchain.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -2012,7 +2040,7 @@
         "github": "https://github.com/NeoPortia/squeekrun",
         "website": "https://squeekrun.vercel.app"
       },
-      "name": "🐹 SqueekRun: Crystal Caverns",
+      "name": "SqueekRun: Crystal Caverns",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -2112,7 +2140,7 @@
         "version": 1
       },
       "contracts": [],
-      "description_en": "According to its README, 像素仓鼠跑酷网页小游戏。游戏速度和难度由 Squeekchain 真实仓鼠转轮的实时数据驱动。 A pixel hamster runner whose speed and difficulty come from a real hamster wheel on Squeekchain.",
+      "description_en": "A pixel hamster runner whose speed and difficulty come from a real hamster wheel on Squeekchain.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -2171,7 +2199,7 @@
         "version": 1
       },
       "contracts": [],
-      "description_en": "According to its README, a prediction game on simulated hamster-wheel races. Each round has four hamsters: pick one, stake funds, and winners split the whole pot. If a round cannot be settled, everyone is refunded. There is no owner and no fee. Bets are placed in USDC on Arc Testnet and in ETH on Ethereum Sepolia and Base Sepolia, with test fu…",
+      "description_en": "A prediction game on simulated hamster-wheel races. Each round has four hamsters: pick one, stake funds, and winners split the whole pot. If a round cannot be settled, everyone is refunded. There is no owner and no fee. Bets are placed in USDC on Arc Testnet and in ETH on Ethereum Sepolia and Base Sepolia, with test fu…",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -2196,7 +2224,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "According to its README, a responsive retro arcade driven by Squeektoshi’s real wheel telemetry. Boost a helmeted hamster through a procedural copper mine, collect coins and Golden Nuts, and sign a high score with an EVM wallet.",
+      "description_en": "A responsive retro arcade driven by Squeektoshi’s real wheel telemetry. Boost a helmeted hamster through a procedural copper mine, collect coins and Golden Nuts, and sign a high score with an EVM wallet.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -2226,7 +2254,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "A public repository referencing Squeekchain. Repository description: Build \"Squeekville\", a charming mobile-first interactive hamster town. ALL user-facing text must be English. CORE Real hamster work settled on Squeekchain's Sepolia contracts supplies local game energy. The player connects a wallet, signs a mayor order, and chooses where that energy goes. This must be a functional chain-driven experience, not a ...",
+      "description_en": "Be the mayor of a little hamster town. Turn verified Squeekchain work into warm ovens, flowing fountains and neighborhood celebrations.",
       "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
@@ -2248,7 +2276,7 @@
         "website": "https://squeekville-a-little-town-hamste.imd.site"
       },
       "logo": "logos/a6277228b7c2216e1d8e0b3677f57be1055c2bae1fe462c7b922affb829d9a78.svg",
-      "name": "launch-2882-build-squeekville-charming-mobile-first",
+      "name": "Squeekville",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -2292,7 +2320,7 @@
         "version": 1
       },
       "contracts": [],
-      "description_en": "According to its README, a turn-based tower climb built on real data from Squeekchain. Every settled round in which the hamster did work is one floor. The round's work sets the floor type, its hash sets the enemies, map and weather, and long naps leave treasure chests.",
+      "description_en": "A turn-based tower climb built on real data from Squeekchain. Every settled round in which the hamster did work is one floor. The round's work sets the floor type, its hash sets the enemies, map and weather, and long naps leave treasure chests.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -2418,7 +2446,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "According to its README, a 6x6 turn-based burrow puzzle for the Squeekchain Genesis Code lane, created by @wobushibaolonga ([Genesis page](https://squeekchain.com/genesis/tz7hncvh), [official Squeekchain](https://squeekchain.com)). You guide a hamster to rescue 3 lost pups and reach the nest within a move budget. Along the way you push seed cr…",
+      "description_en": "A 6x6 turn-based burrow puzzle for the Squeekchain Genesis Code lane, created by @wobushibaolonga (Genesis page, official Squeekchain). You guide a hamster to rescue 3 lost pups and reach the nest within a move budget. Along the way you push seed cr…",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -2477,7 +2505,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, **Live from the wheel.** A community dashboard for [Squeekchain](https://squeekchain.com) — the proof-of-work toychain on Ethereum powered by Squeektoshi, a real hamster running in the WHEELY9000.",
+      "description_en": "Live from the wheel. A community dashboard for Squeekchain — the proof-of-work toychain on Ethereum powered by Squeektoshi, a real hamster running in the WHEELY9000.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -2533,7 +2561,7 @@
         "version": 1
       },
       "contracts": [],
-      "description_en": "A public repository referencing Squeekchain. Repository description: Build on the existing GitHub project to create a polished Squeekchain-themed browser game arcade. Number Slide is the first game; the structure should make it easy to add more games later. Pages - Lobby: Introduce the arcade and show available games, starting with Number Slide. - Number Slide: Provide playable timed puzzles with move limits, cle...",
+      "description_en": "Free browser puzzle games with a Squeekchain twist. Play Number Slide on Sepolia, where a contract verifies every winning run.",
       "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
@@ -2636,7 +2664,7 @@
         "website": "https://wheelcam-obs-overlays-for-a-hams.imd.site"
       },
       "logo": "logos/7fb5d95d33f886b9b493b58f8c3670ffceaf9ce76528fe8aa8bc9c0ebc38bac3.svg",
-      "name": "WheelCam: put the wheel on air",
+      "name": "WheelCam",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -2843,7 +2871,7 @@
         "version": 1
       },
       "contracts": [],
-      "description_en": "According to its README, feed, touch, turn and grow with Pip. This upgrade preserves the existing lavender 3D companion, five growth appearances, browser saves, care/play/memories, English default, Traditional Chinese and free on-device AI. It adds read-only IMD/Ethereum and Squeekchain/Sepolia monitoring, twelve procedural gestures, reward-fr…",
+      "description_en": "Feed, touch, turn and grow with Pip. This upgrade preserves the existing lavender 3D companion, five growth appearances, browser saves, care/play/memories, English default, Traditional Chinese and free on-device AI. It adds read-only IMD/Ethereum and Squeekchain/Sepolia monitoring, twelve procedural gestures, reward-fr…",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -2874,7 +2902,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, 持有人合并 Squeek 之前的**非托管决策台**：选两只 Squeek → Day 0 / +7 天 / +30 天前后对照与后悔点 → 本地 Baseline 快照 → 勾选「我理解合并可能不可逆」后才给出官方合并检查单。站点本身**不发起任何合并交易**。",
+      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -2896,7 +2924,7 @@
         "website": "https://squeek-merge-preview.imd.site"
       },
       "logo": "logos/891912ec60a65061c30b562133ca04cb0dcdf6e627406b87f22af629c6f9a5a8.svg",
-      "name": "Squeek Merge Preview（合并预演）",
+      "name": "Squeek Merge Preview",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -2982,7 +3010,7 @@
         "version": 1
       },
       "contracts": [],
-      "description_en": "According to its README, a playable cooperative browser game for Squeekchain. One to four raiders share a health pool and fight the original Chrome Gnawer boss with Attack, Defend and Heal. No wallets, wagering, custody, transfers, or private keys.",
+      "description_en": "A playable cooperative browser game for Squeekchain. One to four raiders share a health pool and fight the original Chrome Gnawer boss with Attack, Defend and Heal. No wallets, wagering, custody, transfers, or private keys.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -3048,7 +3076,7 @@
         "version": 1
       },
       "contracts": [],
-      "description_en": "According to its README, every settled batch of Squeekchain rounds becomes a sealed capsule.",
+      "description_en": "Every settled batch of Squeekchain rounds becomes a sealed capsule.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -3156,7 +3184,7 @@
         "version": 1
       },
       "contracts": [],
-      "description_en": "According to its README, research produced by the IdentityMD worker network, with reports, supporting files and provenance grouped by job.",
+      "description_en": "Research produced by the IdentityMD worker network, with reports, supporting files and provenance grouped by job.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [],
@@ -3251,7 +3279,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, a static, responsive Squeekchain telemetry dashboard. It reads the two public APIs directly from the browser every 15 seconds. No backend, wallet, account, API key, or environment file is required.",
+      "description_en": "A static, responsive Squeekchain telemetry dashboard. It reads the two public APIs directly from the browser every 15 seconds. No backend, wallet, account, API key, or environment file is required.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -3322,7 +3350,7 @@
           "chain_id": 11155111
         }
       ],
-      "description_en": "According to its README, a Sepolia-only Foundry application and static COVER demo for fixed payouts on certified zero-work rounds. The five contracts are `MockSQK`, `PremiumModel`, `CoverPool`, `CoreReader`, and `PolicyBook`. Contract dependencies are vendored as ordinary source files; the frontend uses the npm lockfile in `web/`.",
+      "description_en": "A Sepolia-only Foundry application and static COVER demo for fixed payouts on certified zero-work rounds. The five contracts are MockSQK, PremiumModel, CoverPool, CoreReader, and PolicyBook. Contract dependencies are vendored as ordinary source files; the frontend uses the npm lockfile in web/.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -3354,7 +3382,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, a static Squeekchain dashboard, transparent OBS overlay, and SQK tipping page for **Ethereum Sepolia, chain ID 11155111**. Public numbers load without a wallet. There is no backend, custody, API key, application contract, or secret configuration.",
+      "description_en": "A static Squeekchain dashboard, transparent OBS overlay, and SQK tipping page for Ethereum Sepolia. Public numbers load without a wallet. There is no backend, custody, API key, application contract, or secret configuration.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -3383,7 +3411,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "According to its README, **Race, Predict & Play with Squeektoshi's Real-World Wheel Activity**",
+      "description_en": "Race, Predict & Play with Squeektoshi's Real-World Wheel Activity",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -3408,35 +3436,6 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Dashboard aims to display every Squeek on Squeekchain, highlighting owners, merges, and level and power leaderboards "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-dashboard.fun"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "You can follow the source trail by visiting the project website to see these specific details about the ecosystem "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-dashboard.fun"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Every Squeek on Squeekchain: owners, merges, level and power leaderboards.",
       "description_origin": "website",
@@ -3465,7 +3464,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, [中文说明](README.zh-CN.md)",
+      "description_en": "A tiny pixel hamster that runs when Squeektoshi runs. Pat, feed and wake him. Read-only Squeekchain data, no wallet.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -3557,7 +3556,7 @@
         "version": 1
       },
       "contracts": [],
-      "description_en": "According to its README, every night the real hamster that mines [Squeekchain](https://squeekchain.com) paints a spin-art card with his wheel.",
+      "description_en": "Every night the real hamster that mines Squeekchain paints a spin-art card with his wheel.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [],
@@ -3578,7 +3577,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, **BUILD YOUR EMPIRE. RACE WITH THE HAMSTER. SURVIVE THE ROUNDS.**",
+      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -3638,9 +3637,9 @@
           "url": "https://x.com/0xyvz"
         }
       ],
-      "category": "tools",
+      "category": "other",
       "contracts": [],
-      "description_en": "According to its README, squeektoshi's garden on Sepolia: hamster snacks that grow only from what the real [Squeekchain](https://squeekchain.com) hamster does.",
+      "description_en": "Squeektoshi's garden on Sepolia: hamster snacks that grow only from what the real Squeekchain hamster does.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -3669,7 +3668,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, a small, independent Squeekchain companion on Ethereum Sepolia. The dashboard reads SqueekCore directly and gives Squeektoshi a cozy little corner of the internet.",
+      "description_en": "A small, independent Squeekchain companion on Ethereum Sepolia. The dashboard reads SqueekCore directly and gives Squeektoshi a cozy little corner of the internet.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -3699,7 +3698,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, a playful, responsive Squeekchain dashboard: a pixel hamster wheel, interactive local work simulation, SQK ecosystem cards, an educational settlement timeline, and recent Ethereum Sepolia activity. The About page explains the hamster-powered toychain. Sharing includes an X intent, clipboard link, favicon, and a locally…",
+      "description_en": "A playful, responsive Squeekchain dashboard: a pixel hamster wheel, interactive local work simulation, SQK ecosystem cards, an educational settlement timeline, and recent Ethereum Sepolia activity. The About page explains the hamster-powered toychain. Sharing includes an X intent, clipboard link, favicon, and a locally…",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -3729,7 +3728,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "According to its README, a static React game for Squeekchain on Sepolia. The hamster's wheel deals shared round damage; players add on-chain hits with a wallet. This revision fixes shared wheel totals, historical attack indexing, and stale telemetry while preserving the existing game and wallet protocol.",
+      "description_en": "A static React game for Squeekchain on Sepolia. The hamster's wheel deals shared round damage; players add on-chain hits with a wallet. This revision fixes shared wheel totals, historical attack indexing, and stale telemetry while preserving the existing game and wallet protocol.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -3759,7 +3758,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "According to its README, browser puzzle games with a Squeekchain twist. **Number Slide** now has real on-chain play on **Ethereum Sepolia (chain 11155111), a test network**: a player starts a session with one transaction, plays every move in the browser, and submits the whole move list in a second transaction. The `NumberSlideSessions` contrac…",
+      "description_en": "Browser puzzle games with a Squeekchain twist. Number Slide now has real on-chain play on Ethereum Sepolia, a test network: a player starts a session with one transaction, plays every move in the browser, and submits the whole move list in a second transaction. The NumberSlideSessions contrac…",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -3829,7 +3828,7 @@
       "links": {
         "website": "https://squeekpulse.xyz"
       },
-      "name": "🐹 Squeek Pulse",
+      "name": "Squeek Pulse",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -3837,7 +3836,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "A public repository referencing Squeekchain. Repository description: Build an absolutely fire, highly polished 1v1 penalty shootout game called **SQUEEK PENALTY** for the Squeekchain ecosystem. This should feel like a premium mobile game that people instantly understand and want to rematch. Cute, chaotic, and addictive. Pure hamster energy. AUTHENTICATION (CRITICAL): - Use **Privy** for authentication. - Primary ...",
+      "description_en": "A tiny hamster. A massive moment. Play a fast, animated 1v1 penalty shootout. Practice for free, pick a direction, and go for the rematch.",
       "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
@@ -3887,7 +3886,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, **Live:** https://squeek-power-planner.duckdns.org/",
+      "description_en": "What your Squeeks and staked SQK earn under Squeekchain's Proof of Squeek rule, the next move for your own Squeeks, when merging pays, and what one more Squeek is worth in SQK.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -3905,7 +3904,7 @@
         "github": "https://github.com/Ceyz/squeek-power-planner",
         "website": "https://squeek-power-planner.duckdns.org/"
       },
-      "name": "Squeek Power Planner 🐹",
+      "name": "Squeek Power Planner",
       "publication_origin": "owner_approved",
       "stage": "unknown",
       "verified_by_squeek": {
@@ -3920,7 +3919,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, a single-page dashboard for a hamster-powered proof-of-work chain: a real hamster runs on a wheel, generating the work that builds blocks.",
+      "description_en": "A single-page dashboard for a hamster-powered proof-of-work chain: a real hamster runs on a wheel, generating the work that builds blocks.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -3950,7 +3949,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "According to its README, a responsive, free prediction game for Squeektoshi’s next 24-hour running distance. This repository includes the finished static website in **`dist/`**, React/TypeScript source, and a working **shared SQLite score service**. Wallets prove ownership with a signed message; there are no token approvals, transactions, entr…",
+      "description_en": "A responsive, free prediction game for Squeektoshi’s next 24-hour running distance. This repository includes the finished static website in dist/, React/TypeScript source, and a working shared SQLite score service. Wallets prove ownership with a signed message; there are no token approvals, transactions, entr…",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -4005,7 +4004,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "According to its README, a cute pixel endless runner whose speed comes from a real hamster wheel. The page reads `https://api.squeekchain.com/v1/status` every two seconds and drives the game from it:",
+      "description_en": "A cute pixel endless runner whose speed comes from a real hamster wheel. The page reads https://api.squeekchain.com/v1/status every two seconds and drives the game from it",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -4070,7 +4069,7 @@
         "version": 1
       },
       "contracts": [],
-      "description_en": "According to its README, **Small paws. Real work.** An independent analytics dashboard for the hamster-powered Squeekchain ecosystem on **Ethereum Sepolia**.",
+      "description_en": "Small paws. Real work. An independent analytics dashboard for the hamster-powered Squeekchain ecosystem on Ethereum Sepolia.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -4122,7 +4121,7 @@
       "builder": null,
       "category": "defi",
       "contracts": [],
-      "description_en": "According to its README, a small staking dapp on Sepolia. Stake SEED, earn SEED. Every staked token earns a 5% base rate per year plus a fixed reward for each unit of hamster work that SqueekCore (`0x74665dAecA35A2303e767E76a2FF1FB6F93e119f`) settles on-chain. So the APY goes up while the hamster runs and drops back to 5% while it rests. The p…",
+      "description_en": "A small staking dapp on Sepolia. Stake SEED, earn SEED. Every staked token earns a 5% base rate per year plus a fixed reward for each unit of hamster work that SqueekCore  settles on-chain. So the APY goes up while the hamster runs and drops back to 5% while it rests. The p…",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -4152,7 +4151,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "According to its README, a free browser game for Squeekchain. Drive a hamster courier around an illustrated garden, collect up to five sunflower seeds, avoid rocks, and return to the central house to score during a 60-second run.",
+      "description_en": "A free browser game for Squeekchain. Drive a hamster courier around an illustrated garden, collect up to five sunflower seeds, avoid rocks, and return to the central house to score during a 60-second run.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -4182,7 +4181,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, a read-only Hamster-to-Holder Console for Squeekchain's public Sepolia data.",
+      "description_en": "A read-only Hamster-to-Holder Console for Squeekchain's public Sepolia data.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -4207,7 +4206,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, eight-second clips of a wheel turning: some are Squeektoshi's real recorded runs, and some are fakes. You hear every magnet passage and watch the gaps between passages, then call each clip **hamster** or **robot**. A small trained model calls them too. Each reveal names the tell that gave the clip away, and the score c…",
+      "description_en": "Eight-second clips of a wheel turning: some are Squeektoshi's real recorded runs, and some are fakes. You hear every magnet passage and watch the gaps between passages, then call each clip hamster or robot. A small trained model calls them too. Each reveal names the tell that gave the clip away, and the score c…",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -4242,7 +4241,7 @@
           "chain_id": 11155111
         }
       ],
-      "description_en": "The website describes: Bet on the hamster-powered blockchain Will Squeektoshi mine enough blocks? Stake $SQK on YES or NO. The winners split the pool, and every result is settled onchain with no oracle.",
+      "description_en": "Bet on the hamster-powered blockchain Will Squeektoshi mine enough blocks? Stake $SQK on YES or NO. The winners split the pool, and every result is settled onchain with no oracle.",
       "description_origin": "website",
       "ecosystem_status": "confirmed",
       "evidence": [
@@ -4286,7 +4285,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "According to its README, a playable, English-language community game built with React, TypeScript and Vite. Predict **UNDER** or **AT/OVER** a real hamster’s future wheel work, earn points, and defeat the Vacuum of the Void. The original prototype’s forest greens, lime accents and animated wheel are preserved with new, original SVG artwork.",
+      "description_en": "A playable, English-language community game built with React, TypeScript and Vite. Predict UNDER or AT/OVER a real hamster’s future wheel work, earn points, and defeat the Vacuum of the Void. The original prototype’s forest greens, lime accents and animated wheel are preserved with new, original SVG artwork.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -4316,7 +4315,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, a complete hamster-powered routing puzzle: place limited straight, elbow and alternator tracks, then deliver every device's pulse quota within its tick budget. Original SVG art, deterministic simulation, tutorial, six levels, chain-seeded challenges and local progress. React / TypeScript / SVG / CSS. No account, wallet…",
+      "description_en": "A complete hamster-powered routing puzzle: place limited straight, elbow and alternator tracks, then deliver every device's pulse quota within its tick budget. Original SVG art, deterministic simulation, tutorial, six levels, chain-seeded challenges and local progress. React / TypeScript / SVG / CSS. No account, wallet…",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -4385,7 +4384,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, a cozy, original cheek-pouch packing puzzle for the [Squeekchain Genesis Code lane](https://squeekchain.com/genesis/d4sp8cje). Open the site and Level 1 is ready to play. Pack sunflower seeds, hazelnuts, berries, clover, tiny treasures and paw biscuits through twelve authored puzzles.",
+      "description_en": "A cozy, original cheek-pouch packing puzzle for the Squeekchain Genesis Code lane. Open the site and Level 1 is ready to play. Pack sunflower seeds, hazelnuts, berries, clover, tiny treasures and paw biscuits through twelve authored puzzles.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -4415,7 +4414,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "A public repository referencing Squeekchain. Repository description: WORKFLOW CONTRACT STAGE CONTEXT: the stage produces implemented and tested contracts, ABI documentation and an independently reviewed launch.json. Each assignment contributes only within its own role and write scope. Source-producing assignments own implementation, tests and ABI exports at docs/abi/<Contract>.json where their scope permits. The ...",
+      "description_en": "Find a partner for your single Squeek. Plan merges and trade peer to peer with no market fee. An unofficial Squeekchain tool on Sepolia.",
       "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
@@ -4449,7 +4448,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, 把 Squeekchain 的链上 work 变成一座夜班锻造工坊：区块是钢锭，转速驱动砂轮和锻锤，结算是出炉记录。页面页脚署名 **@Despite_zmw**。",
+      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -4478,7 +4477,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "According to its README, a cozy single-page arcade game for **Squeekchain**, the hamster-powered proof-of-work toychain on Ethereum Sepolia (chainId 11155111). You play a hamster catching seeds in its cheek pouches. The real hamster Squeektoshi's wheel and real Squeek blocks change the game while you play.",
+      "description_en": "A cozy single-page arcade game for Squeekchain, the hamster-powered proof-of-work toychain on Ethereum Sepolia. You play a hamster catching seeds in its cheek pouches. The real hamster Squeektoshi's wheel and real Squeek blocks change the game while you play.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -4508,7 +4507,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, a sourced, one-page parody investigation into the hamster and SqueekChain. The production site is [dist/index.html](dist/index.html): pinned clue cards and red string, a live alibi, five expandable non-human suspects, a source ledger, and a verdict. The footer identifies it as an unofficial fan parody, not affiliated w…",
+      "description_en": "A sourced, one-page parody investigation into the hamster and SqueekChain. The production site is dist/index.html: pinned clue cards and red string, a live alibi, five expandable non-human suspects, a source ledger, and a verdict. The footer identifies it as an unofficial fan parody, not affiliated w…",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -4565,7 +4564,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "A public repository referencing Squeekchain. Its purpose and deployment status still need confirmation.",
+      "description_en": "🐹 Squeekchain Dashboard Live data from the hamster-powered toychain · Community project for Buildooooor badge",
       "description_origin": "source",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -4582,7 +4581,7 @@
         "github": "https://github.com/truongle1990/squeekchain-dashboard",
         "website": "https://squeekchain-dashboard-ten.vercel.app"
       },
-      "name": "squeekchain-dashboard",
+      "name": "Squeekchain Dashboard",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -4590,7 +4589,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, a static, IPFS-ready independent community artwork built on Squeekchain. Squeektoshi’s wheel paints the canvas; verified Sepolia self-approvals add community-colored strokes. This is a community project, not an official Squeekchain site.",
+      "description_en": "A static, IPFS-ready independent community artwork built on Squeekchain. Squeektoshi’s wheel paints the canvas; verified Sepolia self-approvals add community-colored strokes. This is a community project, not an official Squeekchain site.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -4641,7 +4640,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, a daily fantasy game for Squeekchain. Draft five predictions about Squeektoshi’s next UTC day, choose a Captain, and let the real wheel settle the score. A single static React + TypeScript page, with no account, wallet, token, payments, game server, external fonts, analytics, or simulated wheel data.",
+      "description_en": "A daily fantasy game for Squeekchain. Draft five predictions about Squeektoshi’s next UTC day, choose a Captain, and let the real wheel settle the score. A single static React + TypeScript page, with no account, wallet, token, payments, game server, external fonts, analytics, or simulated wheel data.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -4671,7 +4670,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, squeektoshi's live mixtape: a single-page web app that turns the Squeekchain hamster's live wheel telemetry into generated music (Web Audio, all synthesized), a 60fps glowing wheel, and a free downloadable SVG vinyl for every round.",
+      "description_en": "Squeektoshi's live mixtape: a single-page web app that turns the Squeekchain hamster's live wheel telemetry into generated music (Web Audio, all synthesized), a 60fps glowing wheel, and a free downloadable SVG vinyl for every round.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -4700,7 +4699,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, a colorful wheel-bike action runner and boss shooter. Fly Pip through three desert trails, collect Cheese Coins, upgrade the royal bike, and fight Baron Von Claw’s Clockwork Cat-Blimp. The HUD reads Squeektoshi’s wheel directly from Squeekchain.",
+      "description_en": "A colorful wheel-bike action runner and boss shooter. Fly Pip through three desert trails, collect Cheese Coins, upgrade the royal bike, and fight Baron Von Claw’s Clockwork Cat-Blimp. The HUD reads Squeektoshi’s wheel directly from Squeekchain.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -4735,7 +4734,7 @@
           "chain_id": 11155111
         }
       ],
-      "description_en": "According to its README, a small, on-chain YES/NO prediction market for the **Squeekchain ecosystem / Buildooooor badge**. Bet Sepolia test ETH on whether the hamster will complete **more than X Squeek blocks during a fixed 24-hour or 7-day window**. This community MVP does not issue a badge or claim official endorsement.",
+      "description_en": "A small, on-chain YES/NO prediction market for the Squeekchain ecosystem / Buildooooor badge. Bet Sepolia test ETH on whether the hamster will complete more than X Squeek blocks during a fixed 24-hour or 7-day window. This community MVP does not issue a badge or claim official endorsement.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -4805,7 +4804,7 @@
           "chain_id": 11155111
         }
       ],
-      "description_en": "According to its README, pick your hamster. Place your SQK. Win the race.",
+      "description_en": "Pick your hamster. Place your SQK. Win the race.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -4840,7 +4839,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "A public repository referencing Squeekchain. Repository description: Build a small static web dashboard for Squeekchain (Sepolia testnet) that reads the public /v1/economy/state API and shows the current mining round, total SQK mined, live NFT count and the contract addresses, with a plain-language explainer for newcomers. Read-only: no wallet connection, no keys, no transactions. Include a README.",
+      "description_en": "Follow Squeekchain on Sepolia: the current mining round, SQK mined, live Squeek NFTs, and public contract addresses. A read-only view of a hamster-powered economy.",
       "description_origin": "source",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -4870,7 +4869,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "The website describes: Squeek Alerts Push for the wheel Fires once when the wheel goes from idle to active. No repeats while he keeps running.",
+      "description_en": "Squeek Alerts Push for the wheel Fires once when the wheel goes from idle to active. No repeats while he keeps running.",
       "description_origin": "website",
       "ecosystem_status": "weak",
       "evidence": [
@@ -4896,7 +4895,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, **Small paws. Big night.** Protect Pip’s underground home through six illustrated encounters. Each threat gives you three responses: spend power on protection, improvise at another room’s expense, or accept damage to bank power. See the room changes immediately, then decide when to face the next encounter.",
+      "description_en": "Small paws. Big night. Protect Pip’s underground home through six illustrated encounters. Each threat gives you three responses: spend power on protection, improvise at another room’s expense, or accept damage to bank power. See the room changes immediately, then decide when to face the next encounter.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -4926,7 +4925,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "According to its README, a fast arcade merge game powered by **Squeekchain**, the hamster-powered proof-of-work blockchain.",
+      "description_en": "A fast arcade merge game powered by Squeekchain, the hamster-powered proof-of-work blockchain.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -5005,9 +5004,39 @@
     },
     {
       "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "One mouse. Sixty seconds. Play Squeek Clicker, build a 5× combo, and chase your personal best. Built for the Squeekchain community.",
+      "description_origin": "source",
+      "ecosystem_status": "claimed",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-2905-build-complete-interactive-mobile-friend"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/7d5dab25-ea84-4c25-b3cb-08dd5bbc30e6"
+        }
+      ],
+      "first_seen": "2026-11-03T03:35:50.899298+00:00",
+      "id": "d3b15acfbd4b8cbf",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-2905-build-complete-interactive-mobile-friend",
+        "website": "https://squeek-clicker-small-mouse-big-s.imd.site"
+      },
+      "logo": "logos/6210756edb2d87e517ebcdf7814e858edf095b3946800ddb19b08cb015c93682.svg",
+      "name": "Squeek Clicker",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, race a ghost of Squeektoshi's real recorded runs. You spin an on-screen wheel with your mouse, trackpad, finger or the arrow keys. A ghost replays one of his real runs passage by passage. Your passages are counted with the WHEELY9000's published counting rules, and his real Squeek blocks pop at the exact passages that…",
+      "description_en": "Race a ghost of Squeektoshi's real recorded runs. You spin an on-screen wheel with your mouse, trackpad, finger or the arrow keys. A ghost replays one of his real runs passage by passage. Your passages are counted with the WHEELY9000's published counting rules, and his real Squeek blocks pop at the exact passages that…",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -5042,7 +5071,7 @@
           "chain_id": 11155111
         }
       ],
-      "description_en": "According to its README, a static React, TypeScript and Vite mint site for the existing Squeek Companion collection on **Sepolia (11155111)**, at [`0x264730e600808321053729bf3445ffb611c67221`](https://sepolia.etherscan.io/address/0x264730e600808321053729bf3445ffb611c67221).",
+      "description_en": "A static React, TypeScript and Vite mint site for the existing Squeek Companion collection on Sepolia.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -5098,7 +5127,7 @@
       "builder": null,
       "category": "other",
       "contracts": [],
-      "description_en": "According to its README, 把 Squeekchain 的链上 work 变成一座夜班锻造工坊：区块是钢锭，转速驱动砂轮和锻锤，结算是出炉记录。页面页脚署名 **@xinchne_eth**。",
+      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -5123,7 +5152,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "A public repository referencing Squeekchain. Repository description: Hamster-powered game on Squeekchain",
+      "description_en": "Hamster-powered game on Squeekchain",
       "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
@@ -5140,7 +5169,7 @@
         "github": "https://github.com/salax345/squeek-runner",
         "website": "https://squeek-runner.vercel.app"
       },
-      "name": "squeek-runner",
+      "name": "Squeek Runner",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -5182,7 +5211,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "According to its README, a last-buyer-before-bedtime game on Squeektoshi, SqueekChain's real hamster, as one Uniswap v4 hook on Ethereum Sepolia. Every buy of NAP pays 2% of its ETH into a pot the hook holds and makes the buyer the latest buyer. When SqueekCore certifies a nap, the last buyer before the nap began takes the pot. An unofficial c…",
+      "description_en": "A last-buyer-before-bedtime game on Squeektoshi, SqueekChain's real hamster, as one Uniswap v4 hook on Ethereum Sepolia. Every buy of NAP pays 2% of its ETH into a pot the hook holds and makes the buyer the latest buyer. When SqueekCore certifies a nap, the last buyer before the nap began takes the pot. An unofficial c…",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -5212,7 +5241,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "The website describes: Squeek Pit Crew 🐹 Pit stop ping sends SqueekToken approve(SqueekMining, 0) : a harmless, zero-allowance transaction (gas only, Sepolia ETH) so anyone can make a first Squeekchain transaction.",
+      "description_en": "Squeek Pit Crew 🐹 Pit stop ping sends SqueekToken approve(SqueekMining, 0): a harmless, zero-allowance transaction (gas only, Sepolia ETH) so anyone can make a first Squeekchain transaction.",
       "description_origin": "website",
       "ecosystem_status": "weak",
       "evidence": [],
@@ -5298,8 +5327,8 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "A public repository referencing Squeekchain. Repository description: Finish and ship Among Squeeks, a free multiplayer social deduction game for Squeekchain, as a hosted static website. Squeekchain is a proof-of-work toy chain powered by a real hamster, Squeektoshi, running on a sensor-equipped wheel. In Among Squeeks a crew of hamsters mines a block while a secret Rugger tries to drain the vault. Every shift run...",
-      "description_origin": "source",
+      "description_en": "A free multiplayer social deduction game powered by Squeektoshi, the real hamster behind Squeekchain. A crew mines a block while a secret Rugger tries to drain the vault. No wallet, token, login, payment, or analytics.",
+      "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
         {
@@ -5320,7 +5349,7 @@
         "website": "https://among-squeeks.imd.site"
       },
       "logo": "logos/eac81e15bf7ecb1c89afe7358ddf77eb8c5c07b2eaf2a3a31efb9133ba6f28f8.svg",
-      "name": "launch-2879-finish-ship-among-squeeks",
+      "name": "Among Squeeks",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -5357,7 +5386,7 @@
         "version": 1
       },
       "contracts": [],
-      "description_en": "According to its README, smart contracts for [Squeeky Market](https://hamster.squeekymarket.trade), an independent community prediction market on Squeektoshi’s daily wheel distance.",
+      "description_en": "Smart contracts for Squeeky Market, an independent community prediction market on Squeektoshi’s daily wheel distance.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -5375,7 +5404,7 @@
         "website": "https://hamster.squeekymarket.trade"
       },
       "logo": "logos/3657d88c522e510bd774feaf045b3f26f398db597e2a1077fffb8bf3708c9364.svg",
-      "name": "Squeeky Market — Solidity contracts",
+      "name": "Squeeky Market",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -5383,7 +5412,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "According to its README, a browser game for [Squeekchain](https://squeekchain.com/), the hamster-powered proof-of-work chain.",
+      "description_en": "A browser game for Squeekchain, the hamster-powered proof-of-work chain.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -5413,7 +5442,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "According to its README, squeek’s First Road Trip is a community game powered by Squeek’s real wheel. Small wheel. Big world.",
+      "description_en": "Squeek’s First Road Trip is a community game powered by Squeek’s real wheel. Small wheel. Big world.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -5435,7 +5464,7 @@
         "github": "https://github.com/identity-md-launches/launch-2753-workflow-frontend-stage-context",
         "website": "https://hamster-road-trip-choose-the-nex.imd.site"
       },
-      "name": "Squeek’s First Road Trip — `RoadTripVotes`",
+      "name": "Squeek’s First Road Trip",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -5443,7 +5472,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "According to its README, a small, illustrated story game powered by confirmed Squeekchain rounds on Sepolia. A real 10-minute round becomes a chapter: **Nap** at 0 work, **Jog** at 1–499, and **Zoomies** at 500+. The static production website is included in `dist/`.",
+      "description_en": "A small, illustrated story game powered by confirmed Squeekchain rounds on Sepolia. A real 10-minute round becomes a chapter: Nap at 0 work, Jog at 1–499, and Zoomies at 500+. The static production website is included in dist/.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -5473,7 +5502,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, 一个完整可玩的 45 秒仓鼠收集小游戏。深绿色能量站、原创仓鼠插画和荧光绿界面，支持中文与 English、电脑与手机。",
+      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -5495,7 +5524,7 @@
         "website": "https://hamster-dash.imd.site"
       },
       "logo": "logos/130606c22ad38972312e183e5c58502d7a6ef5bef8c4be3467f3b3c86fdf1738.svg",
-      "name": "Hamster Dash｜仓鼠能量站",
+      "name": "Hamster Dash",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -5528,7 +5557,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, a responsive Squeekchain companion with a live WHEELY9000 wheel, a playable four-lane derby, a SqueekFi power calculator and merge simulator, and an OBS browser source.",
+      "description_en": "A responsive Squeekchain companion with a live WHEELY9000 wheel, a playable four-lane derby, a SqueekFi power calculator and merge simulator, and an OBS browser source.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -5557,35 +5586,6 @@
     {
       "builder": null,
       "category": "launchpad",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "SqueekPad is described as an unofficial Sepolia launchpad built on Squeekchain. According to the project description, Squeek holders get first access to buy, with a 0% tax and LP burned "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekpad.xyz"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To understand the specifics, you can review the details provided in the project profile "
-            },
-            {
-              "text": "the project profile",
-              "url": "https://x.com/squeekpad"
-            },
-            {
-              "text": ". This source offers further context on how the launchpad operates within the Squeekchain ecosystem."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Unofficial Sepolia launchpad built on Squeekchain. Fair bonding-curve launches whose phases unlock with settled Squeek blocks. Squeek holders buy first, 0% tax, LP burned.",
       "description_origin": "website",
@@ -5594,7 +5594,7 @@
       "first_seen": "2026-11-01T00:50:35.195426+00:00",
       "id": "ee7c07991aa5a0c0",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "launch_announced",
       "links": {
         "website": "https://squeekpad.xyz",
         "x": "https://x.com/squeekpad"
@@ -5602,7 +5602,7 @@
       "logo": "logos/b8aefda67a9b418ff9473814e92c5d96d95c64c2a54ade88ac6ca9108426488d.jpg",
       "name": "SqueekPad",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "launch_announced"
     },
     {
       "builder": null,
@@ -5632,9 +5632,9 @@
     },
     {
       "builder": null,
-      "category": "nft",
+      "category": "game",
       "contracts": [],
-      "description_en": "According to its README, training now earns stamina only from physical work certified by SqueekCore on Sepolia. Starting training books six rounds; elapsed time alone never pays. The NFT name is **hamsterrun**, symbol **HMR**.",
+      "description_en": "A bright Game Boy green public game site for the deployed v3 Sepolia contracts. The playable interface is in web/; the complete static export is in dist/. The existing Solidity, Foundry configuration, dependencies and application ABIs are unchanged.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -5656,7 +5656,7 @@
         "github": "https://github.com/identity-md-launches/launch-2874-hamsterrun",
         "website": "https://hamsterrun-little-paws-real-whee.imd.site"
       },
-      "name": "HamsterRun v3 — certified wheel training",
+      "name": "HamsterRun",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -5715,7 +5715,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, unofficial community charts for the [Squeek Chain](https://docs.squeekchain.com/) public work record on Ethereum Sepolia.",
+      "description_en": "Unofficial community charts for the Squeek Chain public work record on Ethereum Sepolia.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -5742,7 +5742,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "According to its README, a free pixel colony game driven by real ten-minute Squeekchain rounds. Choose **Forage**, **Fortify**, or **Research** once per live round. The game only reads public data; it cannot affect the wheel or hamster. There are no wallets, tokens, wagers, approvals, or payments.",
+      "description_en": "A free pixel colony game driven by real ten-minute Squeekchain rounds. Choose Forage, Fortify, or Research once per live round. The game only reads public data; it cannot affect the wheel or hamster. There are no wallets, tokens, wagers, approvals, or payments.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [

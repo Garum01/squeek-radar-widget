@@ -308,13 +308,19 @@ function projectDetails(project) {
   copy.append(el('p', '', (identity[project.identity_status] || 'We haven’t pinned down the project’s identity from this record alone.') + ' ' +
     (connection[project.ecosystem_status] || 'These sources don’t yet establish a Squeekchain integration.')));
   const stage = stageLabels[project.lifecycle_stage || project.stage] || stageLabels.unknown;
-  let context = 'Where things stand: ' + stage.charAt(0).toLowerCase() + stage.slice(1) + '. ';
-  if (project.builder) context += 'The announcement comes from @' + project.builder + ', which may be a builder’s personal account. ';
+  const where = el('p', '', 'Where things stand: ' + stage.charAt(0).toLowerCase() + stage.slice(1) + '. ');
+  if (project.builder) {
+    // The handle itself opens the profile.
+    const handle = /^[A-Za-z0-9_]{1,15}$/.test(project.builder) && external('https://x.com/' + project.builder, '', '@' + project.builder);
+    where.append('The announcement comes from ', handle || '@' + project.builder, ', which may be a builder’s personal account. ');
+  }
+  let context = '';
   if (project.first_seen) context += 'We first picked it up on ' + date(project.first_seen, true) + '. ';
   const contracts = project.contracts || [];
   context += contracts.length ? 'There’s a contract reference here: ' + contracts.map(c => c.address + ' (chain ' + c.chain_id + ')').join('; ') + '. That alone doesn’t tell us whether it’s deployed, active or safe.' :
     'We haven’t independently confirmed a project contract from this record.';
-  copy.append(el('p', '', context));
+  where.append(context);
+  copy.append(where);
   if (project.review_required) copy.append(el('p', '', 'The record is flagged for an additional identity review.'));
   }
   for (const builder of (Array.isArray(project.builder_links) ? project.builder_links : []).slice(0, 3)) {
