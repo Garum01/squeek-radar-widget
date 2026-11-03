@@ -1319,6 +1319,42 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "HamsterRun describes itself as a pixel pastel game on the Sepolia network. According to its README, the core loop involves minting a free HAM, training it, and challenging another owner "
+            },
+            {
+              "text": "the project website",
+              "url": "https://hamsterrun-small-paws-big-advent.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To follow this trail, start with the documentation for context "
+            },
+            {
+              "text": "the documentation",
+              "url": "https://github.com/identity-md-launches/launch-2834-hamster-run/blob/HEAD/docs/VALIDATION.md"
+            },
+            {
+              "text": ". Then, check the code repository to see how the mechanics are implemented "
+            },
+            {
+              "text": "the code repository",
+              "url": "https://github.com/identity-md-launches/launch-2834-hamster-run"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "According to its README, a pixel pastel Sepolia game: mint a free HAM, train, and challenge another owner. **Independent testnet demo only.** No official Squeek mining rights, SQK yield, sensors, insurance, or transferable points.",
       "description_origin": "readme",
@@ -1375,6 +1411,42 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Beat: Hamster Tour is a free, playable two-lane rhythm arcade featuring original hamster-in-wheel artwork. Its README describes tiny paws and big beats, including three acts, sunflower notes, FEVER, and local personal bests "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-beat-tour.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "You can follow the details in the public sources to see how these elements come together. Reading "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2721-build-squeek-beat-hamster"
+            },
+            {
+              "text": " or "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/44f84410-24e1-45ba-8f9f-1a6f5be6218d"
+            },
+            {
+              "text": " helps you understand the specific mechanics and visual style mentioned in the description."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "According to its README, tiny paws. Big beats. A free, playable two-lane rhythm arcade with original hamster-in-wheel artwork, three acts, sunflower notes, FEVER, and local personal bests.",
       "description_origin": "readme",
@@ -1441,6 +1513,42 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Run is a silly browser runner featuring a hamster with terrible fashion sense. According to its description, you place a pressure cooker on its head and hand it a toilet plunger to survive the wheel "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-run-small-hamster-big-pro.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To understand the project, start with the provided sources. You can explore the details in "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2780-project-goal-funny-chaotic"
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/297ae167-a512-4e36-8f4e-4f2f8185919a"
+            },
+            {
+              "text": " to see how this quirky concept is presented and documented."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "According to its README, a silly browser runner for a hamster with terrible fashion sense. Put a pressure cooker on its head, hand it a toilet plunger, and try to survive the wheel.",
       "description_origin": "readme",
@@ -4311,7 +4419,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "other",
       "contracts": [],
       "description_en": "According to its README, 把 Squeekchain 的链上 work 变成一座夜班锻造工坊：区块是钢锭，转速驱动砂轮和锻锤，结算是出炉记录。页面页脚署名 **@xinchne_eth**。",
       "description_origin": "readme",
