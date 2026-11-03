@@ -2,33 +2,6 @@
   "projects": [
     {
       "builder": null,
-      "category": "tools",
-      "contracts": [],
-      "description_en": "How long does a closed Squeekchain round wait before it is certified onchain?",
-      "description_origin": "readme",
-      "ecosystem_status": "weak",
-      "evidence": [
-        {
-          "kind": "github_mention",
-          "url": "https://github.com/0xMingXiu/squeekchain-settlement-latency"
-        }
-      ],
-      "first_seen": "2026-10-28T21:01:40.233035+00:00",
-      "id": "016daa5f0a1e83fe",
-      "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
-      "links": {
-        "docs": "https://github.com/0xMingXiu/squeekchain-settlement-latency/blob/HEAD/docs/dashboard.png",
-        "github": "https://github.com/0xMingXiu/squeekchain-settlement-latency",
-        "website": "https://squeekchain-settlement-latency.identitymd.eth.limo/"
-      },
-      "logo": "logos/7dae29d119cd10974c36bcb3de7e60f74527573a9f6010cd244b8569806f3b2e.svg",
-      "name": "Squeek Settlement Latency Tracker",
-      "publication_origin": "owner_approved",
-      "stage": "unknown"
-    },
-    {
-      "builder": null,
       "category": "game",
       "contracts": [],
       "description_en": "A complete single-player pixel-art mining roguelite built with Vite, React, TypeScript, and the original asset pack. Play Pip, fill your cheeks, survive the deep, and return your treasure to the surface. The real Squeekchain wheel powers the basket; Practice uses an offline simulation.",
@@ -338,6 +311,42 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Pet is a browser virtual pet where your pixel hamster runs and naps in sync with Squeektoshi, a real hamster whose wheel powers Squeekchain, a proof-of-work toychain on Ethereum Sepolia "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-pet-a-pixel-hamster-in-sy.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "You can follow the details in "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2696-build-squeek-pet-browser"
+            },
+            {
+              "text": " or "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/ce3c37cc-52fc-4677-8d91-a87e06fe58da"
+            },
+            {
+              "text": " to see how this digital companion mirrors the physical activity of the real hamster driving the network."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A browser virtual pet. Your pixel hamster runs and naps in sync with Squeektoshi, the real hamster whose wheel powers Squeekchain (a proof-of-work toychain on Ethereum Sepolia).",
       "description_origin": "readme",
@@ -673,6 +682,42 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Keeper is a Chrome extension designed to watch your Squeeks and ping you when action is needed "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-keeper.imd.site"
+            },
+            {
+              "text": ". It aims to simplify monitoring by alerting you to pending tasks directly in your browser."
+            }
+          ],
+          [
+            {
+              "text": "To understand how it works, you can explore the technical details in "
+            },
+            {
+              "text": "the code repository",
+              "url": "https://github.com/olric3015/squeektoshi-status#install-2-minutes"
+            },
+            {
+              "text": " or review the overview on "
+            },
+            {
+              "text": "the project profile",
+              "url": "https://x.com/squeektoshi"
+            },
+            {
+              "text": ". These sources provide a clear trail for anyone curious about its implementation."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A Chrome extension that watches your Squeeks for you and pings you when there's something to do.",
       "description_origin": "readme",
@@ -1294,27 +1339,6 @@
       "stage": "unknown"
     },
     {
-      "builder": null,
-      "category": "nft",
-      "contracts": [],
-      "description_en": "Permissionless experiments with SQUEEK",
-      "description_origin": "website",
-      "ecosystem_status": "weak",
-      "evidence": [],
-      "first_seen": "2026-10-31T21:12:19.020960+00:00",
-      "id": "340d5e78056bc292",
-      "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
-      "links": {
-        "website": "https://squeekstr.netlify.app",
-        "x": "https://x.com/sqkstr"
-      },
-      "logo": "logos/f6cb930d71a3f6f385806a0b63adce82e95f2aff3b9a8918e905ca6413ac366b.png",
-      "name": "SQUEEKSTR",
-      "publication_origin": "owner_approved",
-      "stage": "unknown"
-    },
-    {
       "builder": "theidmfun",
       "category": "other",
       "checked_text": {
@@ -1410,12 +1434,20 @@
           "url": "https://eth-sepolia.blockscout.com/tx/0xa7ec0f1a91034c684272d19203da5f8d57526e388ff33091695863ef629d1880"
         },
         {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0xa3a06814a4b8be800c21fb5505e6fd9b4f5a52b80488e7cab2a5915108d6b76c"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x7f16ddd5415642bb68c45a9d5fb43b8d7663bb8b073b63e770b68d8eeae62a78"
+        },
+        {
           "kind": "team_mention",
           "url": "https://x.com/pillheadddd/status/2117731749459284235"
         },
         {
           "kind": "onchain_contract",
-          "url": "https://eth-sepolia.blockscout.com/tx/0xa3a06814a4b8be800c21fb5505e6fd9b4f5a52b80488e7cab2a5915108d6b76c"
+          "url": "https://eth-sepolia.blockscout.com/tx/0x2104c3af1114084b663a4e9536e6295363d06c962d00cbf13b230de52b02b2f3"
         }
       ],
       "first_seen": "2026-10-31T20:13:44.178169+00:00",
@@ -1894,35 +1926,6 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "This project serves as a read-only tracker for SqueekCore settlement latency on Sepolia. It monitors batches, gaps, unsettled rounds, and alerts at one finalized block, as described in "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekchain-settlement-latency.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow the data, you can start with "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/7a90e58f-17b7-45b7-9c8c-41dde4df40ce"
-            },
-            {
-              "text": ". This helps you see how the latency metrics are presented and what specific settlement details are being tracked for this network."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Read-only tracker for SqueekCore settlement latency on Sepolia: batches, gaps, unsettled rounds and alerts at one finalized block.",
       "description_origin": "website",
@@ -1938,6 +1941,8 @@
       "identity_status": "resolved",
       "lifecycle_stage": "unknown",
       "links": {
+        "docs": "https://github.com/0xMingXiu/squeekchain-settlement-latency/blob/HEAD/docs/dashboard.png",
+        "github": "https://github.com/0xMingXiu/squeekchain-settlement-latency",
         "website": "https://squeekchain-settlement-latency.imd.site"
       },
       "logo": "logos/7dae29d119cd10974c36bcb3de7e60f74527573a9f6010cd244b8569806f3b2e.svg",
@@ -1977,10 +1982,10 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
       "contracts": [],
-      "description_en": "A cozy tunnel-routing puzzle for the Squeekchain community. Rotate tunnels, gather seeds, and guide Squeek safely home through 12 original burrows.",
-      "description_origin": "source",
+      "description_en": "A complete, original turn-based tunnel puzzle for the Squeekchain community. Rotate an illustrated underground burrow, collect its seed caches, and send Squeek safely home. The game opens directly on the playable tutorial. Twelve authored levels introduce bends, junctions, directed tunnels, switches, gates, and optiona…",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -2198,7 +2203,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
       "contracts": [],
       "description_en": "A turn-based tower climb built on real data from Squeekchain. Every settled round in which the hamster did work is one floor. The round's work sets the floor type, its hash sets the enemies, map and weather, and long naps leave treasure chests.",
       "description_origin": "readme",
@@ -3947,36 +3952,6 @@
     },
     {
       "builder": null,
-      "category": "game",
-      "contracts": [],
-      "description_en": "Browser puzzle games with a Squeekchain twist. Number Slide now has real on-chain play on Ethereum Sepolia, a test network: a player starts a session with one transaction, plays every move in the browser, and submits the whole move list in a second transaction. The NumberSlideSessions contract replays…",
-      "description_origin": "readme",
-      "ecosystem_status": "weak",
-      "evidence": [
-        {
-          "kind": "github_mention",
-          "url": "https://github.com/identity-md-launches/launch-2708-extend-existing-squeekchain-arcade"
-        },
-        {
-          "kind": "imd_publication",
-          "url": "https://explorer.imd.fun/jobs/79973160-2b95-4d1c-85d8-ee8657889b54"
-        }
-      ],
-      "first_seen": "2026-10-30T09:08:03.050924+00:00",
-      "id": "93b0162fb030fb7f",
-      "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
-      "links": {
-        "github": "https://github.com/identity-md-launches/launch-2708-extend-existing-squeekchain-arcade",
-        "website": "https://squeekchain-arcade-browser-7997.imd.site"
-      },
-      "logo": "logos/585a0f843f012ba96cd7d87d9cbf718cda60fc10c5dc3d329bffc1e19e438170.svg",
-      "name": "Squeekchain Arcade",
-      "publication_origin": "owner_approved",
-      "stage": "unknown"
-    },
-    {
-      "builder": null,
       "category": "tools",
       "contracts": [],
       "description_en": "Squeek Pulse — independent, read-only SqueekChain community analytics. Explore wheel activity, settled blocks, SQK issuance and Squeek ownership on Sepolia.",
@@ -4847,44 +4822,6 @@
       },
       "logo": "logos/f00520c389ac9917d7ddecc7e9404a21d6a479729a495522df0b04d4222f3a39.svg",
       "name": "Squeek Pouch",
-      "publication_origin": "owner_approved",
-      "stage": "unknown"
-    },
-    {
-      "builder": null,
-      "category": "tools",
-      "contracts": [],
-      "description_en": "Non-custodial, fee-free peer-to-peer market for Squeeks (Squeekchain's ERC-721) priced in SQK, built so holders of a lone Squeek at a level can find a merge partner. This repository holds the contract stage of SqueekMatch: the Solidity source, its tests, the ABI export and this document. The website is a later stage.",
-      "description_origin": "readme",
-      "ecosystem_status": "weak",
-      "evidence": [
-        {
-          "kind": "github_mention",
-          "url": "https://github.com/identity-md-launches/launch-2897-workflow-contract-stage-context"
-        },
-        {
-          "kind": "imd_publication",
-          "url": "https://github.com/identity-md-launches/launch-2897-workflow-contract-stage-context"
-        },
-        {
-          "kind": "imd_publication",
-          "url": "https://explorer.imd.fun/jobs/db82d2bc-fb4f-4bf2-8dd7-e16c9218c4e4"
-        },
-        {
-          "kind": "imd_publication",
-          "url": "https://explorer.imd.fun/jobs/82f7ff06-1cd6-4fbd-9f04-7109e25ff189"
-        }
-      ],
-      "first_seen": "2026-11-02T23:32:56.572331+00:00",
-      "id": "bb723802a6fa0182",
-      "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
-      "links": {
-        "github": "https://github.com/identity-md-launches/launch-2897-workflow-contract-stage-context",
-        "website": "https://squeekmatch-find-your-merge-part.imd.site"
-      },
-      "logo": "logos/6af086df9e08ee2e8572f5359e9786fe886a94ec152b2831680e2459cfc5db0b.svg",
-      "name": "SqueekMatchEscrow",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
