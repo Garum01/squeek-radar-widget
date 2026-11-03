@@ -1960,15 +1960,24 @@
     },
     {
       "builder": null,
-      "category": "game",
-      "contracts": [],
-      "description_en": "A prediction game on the Squeekchain hamster wheel. Every 10 minutes the wheel's work is counted and settled onchain by SqueekCore. You bet Sepolia ETH on whether a future round's work lands over or under a line, and the contract pays winners from the certified number. Nobody can settle it by hand, and there is no admi…",
-      "description_origin": "readme",
+      "category": "other",
+      "contracts": [
+        {
+          "address": "0xd780ecea3f58da7a3f8129ac1e8d06332107e7c9",
+          "chain_id": 11155111
+        }
+      ],
+      "description_en": "An on-chain ecosystem candidate observed interacting with, or holding assets from, Squeekchain. Its project identity and purpose have not yet been confirmed.",
+      "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
         {
           "kind": "github_mention",
           "url": "https://github.com/ekervo/wheel-odds"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x531daa0c1bf9fcd3ebb421f99da1214fd9dbfd25930383902135b39d013c2ec2"
         }
       ],
       "first_seen": "2026-10-31T15:56:06.329113+00:00",
@@ -1976,6 +1985,7 @@
       "identity_status": "resolved",
       "lifecycle_stage": "unknown",
       "links": {
+        "explorer": "https://eth-sepolia.blockscout.com/address/0xd780ecea3f58da7a3f8129ac1e8d06332107e7c9",
         "github": "https://github.com/ekervo/wheel-odds",
         "website": "https://wheel-odds-bet-on-the-squeekchai.imd.site"
       },
@@ -2254,8 +2264,8 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "Be the mayor of a little hamster town. Turn verified Squeekchain work into warm ovens, flowing fountains and neighborhood celebrations.",
-      "description_origin": "source",
+      "description_en": "An original illustrated hamster town at dusk. Connect on Sepolia, choose one of three locations, and explicitly sign a local mayor order. Verified newly settled hamster work supplies local Town Energy. The bakery, fountain and square each have a 10-second event. All buildings are present from the start.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -2283,42 +2293,6 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Hamster Tower is a turn-based climb built on real Squeekchain data. According to its description, every settled round where the hamster worked becomes a floor. The specific work determines the floor type, while the hash sets enemies, map, and weather. Long naps even leave behind treasure chests."
-            }
-          ],
-          [
-            {
-              "text": "You can follow this logic by checking the provided materials. Start with "
-            },
-            {
-              "text": "the project website",
-              "url": "https://hamster-tower.imd.site"
-            },
-            {
-              "text": " to see how these data points translate into gameplay. Then, review "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2883-hamster-tower-free-turn-based"
-            },
-            {
-              "text": " and "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/e5055ba2-3caf-43f4-b49a-b50585016603"
-            },
-            {
-              "text": " to trace the underlying chain details that power each floor's unique conditions."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A turn-based tower climb built on real data from Squeekchain. Every settled round in which the hamster did work is one floor. The round's work sets the floor type, its hash sets the enemies, map and weather, and long naps leave treasure chests.",
       "description_origin": "readme",
@@ -5017,6 +4991,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/7d5dab25-ea84-4c25-b3cb-08dd5bbc30e6"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/146332b6-b43c-4d32-a5af-65878ee1d777"
         }
       ],
       "first_seen": "2026-11-03T03:35:50.899298+00:00",
