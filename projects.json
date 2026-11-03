@@ -97,6 +97,35 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Companion is a free ERC-721 collection for Sepolia, featuring original SVG hamster artwork and a static React mint site. It follows real Squeekchain measurements and offers resting, active, and energetic style previews, while reading actual minted companions from the collection "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-companion-a-hamster-nft-t.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To follow the source trail, start with the project website to see the artwork and mint interface. You can then explore the other public sources to understand how the collection integrates with Squeekchain data and displays the various companion states "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2713-build-dynamic-erc-721-nft"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A free ERC-721 companion collection for Sepolia, with a static React mint site and original SVG hamster artwork. The page follows real Squeekchain measurements, offers resting, active and energetic style previews, and reads actual minted companions from the collection.",
       "description_origin": "readme",
@@ -752,8 +781,8 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "One real hamster. Three dungeon bosses. Build an on-chain Squeek squad, fight a live wheel-powered raid, and explore the Sepolia tester terminal.",
-      "description_origin": "source",
+      "description_en": "Wheel-Powered Boss Dungeon & Tester Terminal for Squeekchain. A single-page, hardware-driven local raid game with real on-chain Squeek artwork and a real Sepolia transaction terminal.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -774,7 +803,7 @@
         "website": "https://squeek-raid-wheel-powered-boss-d.imd.site"
       },
       "logo": "logos/98876e408ab07ea0f79db00e7cfacee5fabd71f72662cd2c8acd0554759ddbab.svg",
-      "name": "launch-2904-build-single-page-interactive-web",
+      "name": "Squeek Raid",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -1298,7 +1327,43 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "other",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Turing Wheel is a community project for Squeekchain that uses a hamster to clock a computer. It is not affiliated with the Squeekchain team, as noted in "
+            },
+            {
+              "text": "the project website",
+              "url": "https://turingwheel.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "You can explore the details by checking "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2795-host-repository-s-prebuilt-static"
+            },
+            {
+              "text": " or "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/90f7896b-2591-4557-aba3-35c62a59bc27"
+            },
+            {
+              "text": ". These references help you follow the trail of how this unique setup operates within the ecosystem."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A computer clocked by a hamster. Community project for Squeekchain. Not affiliated with the Squeekchain team.",
       "description_origin": "readme",
@@ -1751,6 +1816,35 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "This project serves as a read-only tracker for SqueekCore settlement latency on Sepolia. It monitors batches, gaps, unsettled rounds, and alerts at one finalized block, as described in "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekchain-settlement-latency.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To follow the data, you can start with "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/7a90e58f-17b7-45b7-9c8c-41dde4df40ce"
+            },
+            {
+              "text": ". This helps you see how the latency metrics are presented and what specific settlement details are being tracked for this network."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Read-only tracker for SqueekCore settlement latency on Sepolia: batches, gaps, unsettled rounds and alerts at one finalized block.",
       "description_origin": "website",
@@ -2014,35 +2108,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Race Squeektoshi is a rhythm arcade game for Squeekchain where you race a real hamster. The project description highlights chasing recorded ghosts, saving stamina, and predicting wheel rounds, all without needing a wallet "
-            },
-            {
-              "text": "the project website",
-              "url": "https://race-squeektoshi-tiny-paws-big-r.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To understand the gameplay mechanics, you can explore the details provided in the public materials. Reading "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/1dc37146-c532-47b9-a57d-2f8d4024fccc"
-            },
-            {
-              "text": " offers a clear look at how the race and rhythm elements come together for players."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Race a real hamster in a rhythm arcade game for Squeekchain. Chase recorded ghosts, save your stamina, and predict the next wheel round. No wallet needed.",
       "description_origin": "website",
@@ -2109,9 +2174,9 @@
     },
     {
       "builder": null,
-      "category": "game",
+      "category": "tools",
       "contracts": [],
-      "description_en": "A 6x6 turn-based burrow puzzle for the Squeekchain Genesis Code lane, created by @wobushibaolonga (Genesis page, official Squeekchain). You guide a hamster to rescue 3 lost pups and reach the nest within a move budget. Along the way you push seed cr…",
+      "description_en": "A 6x6 turn-based burrow puzzle for the Squeekchain Genesis Code lane, created by @wobushibaolonga (Genesis page, official Squeekchain). You guide a hamster to rescue 3 lost pups and reach the nest within a move budget. Along the way you push seed crates onto pressure plates to open gates and dodge patrolling beetles. T…",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -2269,42 +2334,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Hatchery is a local hamster hatchery demo that uses real wheel data. As described on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-hatchery-hatch-a-hamster.imd.site"
-            },
-            {
-              "text": ", you aim a lamp, incubate for sixty active seconds, and save your hamster."
-            }
-          ],
-          [
-            {
-              "text": "To follow the trail, start with "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/7d8f9737-cdea-4827-beb8-55366c621303"
-            },
-            {
-              "text": " for context. Then visit "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-hatchery-hatch-a-hamster.imd.site"
-            },
-            {
-              "text": " to see the specific steps for aiming the lamp and completing the incubation process."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A local hamster hatchery demo using real wheel data. Aim the lamp, incubate for 60 active seconds, and save your hamster. NFT minting is not live yet.",
       "description_origin": "website",
@@ -2589,6 +2618,36 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
+      "description_en": "Night Canvas: turn every night Squeektoshi runs into a one-of-a-kind pixel artwork. Squeekchain is a hamster-powered proof-of-work toychain on Ethereum: Squeektoshi runs on the WHEELY9000 wheel and his work produces Squeek blocks. Data (read-only, public, CORS-enabled). Follow the published schemas at https://docs.squeekchain.com/developers/api/...",
+      "description_origin": "source",
+      "ecosystem_status": "claimed",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-2928-night-canvas-turn-every"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/60e0e534-ba85-4515-ba34-fa738bed5499"
+        }
+      ],
+      "first_seen": "2026-11-03T16:59:57.163663+00:00",
+      "id": "763619e0af619758",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-2928-night-canvas-turn-every",
+        "website": "https://night-canvas-tiny-paws-big-art.imd.site"
+      },
+      "logo": "logos/b5707628457aa616a9c70c937a3e2d42ef6d2eccd0dd7453db5f31e4ac90d805.svg",
+      "name": "Night Canvas",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
       "description_en": "English summary. Squeek Merge Preview is a static, non-custodial pre-merge desk for Squeek holders on Sepolia. Pick a survivor and a donor, compare Day 0 / +7d / +30d with every row tagged Certain, Scenario or Unknown, save local snapshots (compare 3 side by side, export JSON, copy a summary, downloa…",
       "description_origin": "readme",
       "ecosystem_status": "weak",
@@ -2618,42 +2677,6 @@
     {
       "builder": "pillheadddd",
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Exsqueektion is a solo extraction game where you loot a beautiful, murderous garden. The goal is to get out before the hamster-powered portal collapses, as described in "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek.win"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To see how this works, you can follow the trail through "
-            },
-            {
-              "text": "a team post",
-              "url": "https://x.com/squeekchain/status/2115912610826653723"
-            },
-            {
-              "text": " and "
-            },
-            {
-              "text": "a team post",
-              "url": "https://x.com/pillheadddd/status/2115954399587815913"
-            },
-            {
-              "text": ". These entries offer a closer look at the game's design and mechanics."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Loot a beautiful, murderous garden. Get out before the hamster-powered portal collapses. A solo extraction game.",
       "description_origin": "website",
@@ -2678,6 +2701,10 @@
         {
           "kind": "team_mention",
           "url": "https://x.com/pillheadddd/status/2116965190264832385"
+        },
+        {
+          "kind": "team_mention",
+          "url": "https://x.com/pillheadddd/status/2117686534568857655"
         }
       ],
       "first_seen": "2026-10-29T21:11:24.375090+00:00",
@@ -3119,7 +3146,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "A tiny pixel hamster that runs when Squeektoshi runs. Pat, feed and wake him. Read-only Squeekchain data, no wallet.",
+      "description_en": "A desktop hamster that moves with Squeektoshi's real hamster wheel on SqueekChain (Sepolia testnet).",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -3339,6 +3366,42 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Peek is a small, independent companion for Squeekchain on Ethereum Sepolia. According to "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-peek-squeekchain-companio.imd.site"
+            },
+            {
+              "text": ", its dashboard reads SqueekCore directly, giving Squeektoshi a cozy little corner of the internet."
+            }
+          ],
+          [
+            {
+              "text": "To understand how this works, you can explore the details in "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2714-build-simple-squeekchain-companion"
+            },
+            {
+              "text": " or "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/4ef94479-3301-48d1-9269-f4d2074c71ab"
+            },
+            {
+              "text": ". These materials help you follow the source trail and see how the dashboard connects to the underlying data."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A small, independent Squeekchain companion on Ethereum Sepolia. The dashboard reads SqueekCore directly and gives Squeektoshi a cozy little corner of the internet.",
       "description_origin": "readme",
@@ -3852,7 +3915,7 @@
       "builder": null,
       "category": "defi",
       "contracts": [],
-      "description_en": "A small staking dapp on Sepolia. Stake SEED, earn SEED. Every staked token earns a 5% base rate per year plus a fixed reward for each unit of hamster work that SqueekCore  settles on-chain. So the APY goes up while the hamster runs and drops back to 5% while it rests. The p…",
+      "description_en": "A small staking dapp on Sepolia. Stake SEED, earn SEED. Every staked token earns a 5% base rate per year plus a fixed reward for each unit of hamster work that SqueekCore  settles on-chain. So the APY goes up while the hamster runs and drops back to 5% while it rests. The pag…",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -4342,8 +4405,51 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "This project is a sourced, one-page parody investigation into the hamster and SqueekChain. The footer clearly identifies it as an unofficial fan parody, not affiliated with SqueekChain "
+            },
+            {
+              "text": "the project website",
+              "url": "https://whoissqueektoshi.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "You can follow the source trail through several public sources "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2757-who-squeektoshi-parody-investigation"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/b61deef7-be3e-40b9-9bb0-bc25df7d81c8"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "a public source",
+              "url": "https://eth-sepolia.blockscout.com/address/0x980b4424c007caf7a1f3670b48c8eaef7ebc3d44"
+            },
+            {
+              "text": ". Reading these helps you see how the parody constructs its narrative."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
-      "description_en": "A sourced, one-page parody investigation into the hamster and SqueekChain. The production site is dist/index.html: pinned clue cards and red string, a live alibi, five expandable non-human suspects, a source ledger, and a verdict. The footer identifies it as an unofficial fan parody, not affiliated w…",
+      "description_en": "A sourced, one-page parody investigation into the hamster and SqueekChain. The production site is dist/index.html: pinned clue cards and red string, a live alibi, five expandable non-human suspects, a source ledger, and a verdict. The footer identifies it as an unofficial fan parody, not affiliated with SqueekChain.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -4428,6 +4534,42 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Wheel Canvas is described as a static, IPFS-ready independent community artwork built on Squeekchain "
+            },
+            {
+              "text": "the project website",
+              "url": "https://wheel-canvas-painted-by-squeekto.imd.site"
+            },
+            {
+              "text": ". This simple definition helps set the stage for what you are about to explore. It frames the project as a digital piece rather than a complex application, focusing on its artistic and technical foundation."
+            }
+          ],
+          [
+            {
+              "text": "To understand how this artwork functions, you can follow the provided source trail. Starting with "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2770-build-wheel-canvas-live"
+            },
+            {
+              "text": " and moving through "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/5699df30-1257-4bfd-9c29-2eaa8b355445"
+            },
+            {
+              "text": " offers a clear path. These references guide you through the specific details of the project's construction and its place within the broader ecosystem."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A static, IPFS-ready independent community artwork built on Squeekchain. Squeektoshi’s wheel paints the canvas; verified Sepolia self-approvals add community-colored strokes. This is a community project, not an official Squeekchain site.",
       "description_origin": "readme",
@@ -4479,6 +4621,49 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Fantasy Hamster is a daily fantasy game for Squeekchain. You draft five predictions about Squeektoshi’s next UTC day, choose a Captain, and let the real wheel settle the score. It is a single static React and TypeScript page with no account, wallet, token, payments, game server, external fonts, analytics, or simulated wheel data "
+            },
+            {
+              "text": "the project website",
+              "url": "https://fantasy-hamster.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To follow the details, start with the project website "
+            },
+            {
+              "text": "the project website",
+              "url": "https://fantasy-hamster.imd.site"
+            },
+            {
+              "text": ". You can also explore the other public sources "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2789-build-fantasy-hamster-daily"
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/e0f82510-f874-463c-8176-e50ceb131148"
+            },
+            {
+              "text": " to see how the game mechanics and static nature are described in the available documentation."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A daily fantasy game for Squeekchain. Draft five predictions about Squeektoshi’s next UTC day, choose a Captain, and let the real wheel settle the score. A single static React + TypeScript page, with no account, wallet, token, payments, game server, external fonts, analytics, or simulated wheel data.",
       "description_origin": "readme",
@@ -4856,10 +5041,10 @@
     },
     {
       "builder": null,
-      "category": "game",
+      "category": "tools",
       "contracts": [],
-      "description_en": "One mouse. Sixty seconds. Play Squeek Clicker, build a 5× combo, and chase your personal best. Built for the Squeekchain community.",
-      "description_origin": "source",
+      "description_en": "A playable, 60-second pixel mouse clicker for the Squeekchain community. The production website is included in dist/ alongside its TypeScript, HTML, CSS, local artwork, fonts, package manifest, and lockfile.",
+      "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
         {
@@ -5205,6 +5390,36 @@
       },
       "logo": "logos/3657d88c522e510bd774feaf045b3f26f398db597e2a1077fffb8bf3708c9364.svg",
       "name": "Squeeky Market",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "OBS overlay and stream control panel for the Squeekchain hamster wheel on Sepolia: live SPINNING and IDLE alerts, RPM, block progress, round countdown and viewer cheers.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-2927-build-finished-public-english-first"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/a333011d-c5b5-4a4e-bf15-c7c7032d620a"
+        }
+      ],
+      "first_seen": "2026-11-03T16:44:45.544365+00:00",
+      "id": "e729cf878879dd30",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-2927-build-finished-public-english-first",
+        "website": "https://squeek-stream-kit-squeekchain-ov.imd.site"
+      },
+      "logo": "logos/ef779b26a79f8936ac19b74485d41b7c07ac28f5f2eb3a1939b48d7d5391f1b9.svg",
+      "name": "Squeek Stream Kit",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
