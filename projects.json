@@ -785,29 +785,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Life is an unofficial fan game, NFT collection, and community token centered on Squeektoshi, the hamster who mines Squeektoshi. The project invites you to vote on art and earn a whitelist spot. "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek.life"
-            }
-          ],
-          [
-            {
-              "text": "To understand how this works, start by visiting the project website. It outlines the specific mechanics for voting and earning access. Reading this source helps you see exactly what the community is building around the character. "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek.life"
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Squeek Life: an unofficial fan game, NFT collection and community token around Squeektoshi, the hamster who mines Squeekchain. Vote the art, earn the whitelist. In design, nothing deployed.",
       "description_origin": "website",
