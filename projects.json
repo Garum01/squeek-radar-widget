@@ -1419,42 +1419,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Beat: Hamster Tour is a free, playable two-lane rhythm arcade featuring original hamster-in-wheel artwork. Its README describes tiny paws and big beats, including three acts, sunflower notes, FEVER, and local personal bests "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-beat-tour.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "You can follow the details in the public sources to see how these elements come together. Reading "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2721-build-squeek-beat-hamster"
-            },
-            {
-              "text": " or "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/44f84410-24e1-45ba-8f9f-1a6f5be6218d"
-            },
-            {
-              "text": " helps you understand the specific mechanics and visual style mentioned in the description."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Tiny paws. Big beats. A free, playable two-lane rhythm arcade with original hamster-in-wheel artwork, three acts, sunflower notes, FEVER, and local personal bests.",
       "description_origin": "readme",
@@ -1521,42 +1485,6 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Run is a silly browser runner featuring a hamster with terrible fashion sense. According to its description, you place a pressure cooker on its head and hand it a toilet plunger to survive the wheel "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-run-small-hamster-big-pro.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To understand the project, start with the provided sources. You can explore the details in "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2780-project-goal-funny-chaotic"
-            },
-            {
-              "text": " and "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/297ae167-a512-4e36-8f4e-4f2f8185919a"
-            },
-            {
-              "text": " to see how this quirky concept is presented and documented."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A silly browser runner for a hamster with terrible fashion sense. Put a pressure cooker on its head, hand it a toilet plunger, and try to survive the wheel.",
       "description_origin": "readme",
@@ -1727,7 +1655,7 @@
       "category": "tools",
       "contracts": [],
       "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
-      "description_origin": "readme",
+      "description_origin": "placeholder",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -1823,37 +1751,6 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "This project serves as a read-only tracker for SqueekCore settlement latency on Sepolia, monitoring batches, gaps, and unsettled rounds at one finalized block "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekchain-settlement-latency.imd.site"
-            },
-            {
-              "text": ". To follow the data, start with the public source for context "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/7a90e58f-17b7-45b7-9c8c-41dde4df40ce"
-            },
-            {
-              "text": ", then check the project website for specific latency details "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekchain-settlement-latency.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Read-only tracker for SqueekCore settlement latency on Sepolia: batches, gaps, unsettled rounds and alerts at one finalized block.",
       "description_origin": "website",
@@ -4388,7 +4285,7 @@
       "category": "tools",
       "contracts": [],
       "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
-      "description_origin": "readme",
+      "description_origin": "placeholder",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -5228,7 +5125,7 @@
       "contracts": [],
       "description_en": "Building a treasury designed to grow @squeekchain.",
       "description_origin": "x_profile",
-      "ecosystem_status": "weak",
+      "ecosystem_status": "claimed",
       "evidence": [
         {
           "kind": "ai_hint",
@@ -5237,19 +5134,23 @@
         {
           "kind": "ai_hint",
           "url": "https://x.com/pillheadddd/status/2116201262010241204"
+        },
+        {
+          "kind": "x_profile",
+          "url": "https://x.com/nutshellmarkets"
         }
       ],
       "first_seen": "2026-10-27T16:14:42.765267+00:00",
       "id": "e2a9fedfc4dc8bf8",
       "identity_status": "unresolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "x": "https://x.com/nutshellmarkets"
       },
       "logo": "logos/a986415c22efe925415b95de8393570707ca395fcb891d3017e5bd0fe1243cf1.jpg",
       "name": "NutshellMarkets",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
