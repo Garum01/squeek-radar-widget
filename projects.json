@@ -923,6 +923,36 @@
     {
       "builder": null,
       "category": "tools",
+      "contracts": [],
+      "description_en": "A public repository referencing Squeekchain. Repository description: Build a polished, fun, fully playable single-page game called \"Squeek Arena\" for Squeekchain (Sepolia). Concept: A competitive mini-game where the outcome is influenced by the real hamster's recent on-chain activity. This is a real product with gameplay, not a dashboard or thin API wrapper. Core Gameplay: - Player connects wallet (optional but r...",
+      "description_origin": "source",
+      "ecosystem_status": "claimed",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-2903-build-polished-fun-fully"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/71f1545d-43fa-46f7-954f-83dc26ca69d1"
+        }
+      ],
+      "first_seen": "2026-11-03T01:49:15.279199+00:00",
+      "id": "21d49d44bdd47270",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-2903-build-polished-fun-fully",
+        "website": "https://squeek-arena-tiny-paws-massive-s.imd.site"
+      },
+      "logo": "logos/4e3b7c9daac6129be40a122fc4cbf707f494dcd0ae0c601f7bb69c69ffda3b7b.svg",
+      "name": "launch-2903-build-polished-fun-fully",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
       "checked_text": {
         "paragraphs": [
           [
@@ -2290,7 +2320,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
       "contracts": [],
       "description_en": "According to its README, a 6x6 turn-based burrow puzzle for the Squeekchain Genesis Code lane, created by @wobushibaolonga ([Genesis page](https://squeekchain.com/genesis/tz7hncvh), [official Squeekchain](https://squeekchain.com)). You guide a hamster to rescue 3 lost pups and reach the nest within a move budget. Along the way you push seed cr…",
       "description_origin": "readme",
@@ -2377,6 +2407,35 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "This project aims to build a polished Squeekchain-themed browser game arcade on an existing GitHub repository. As described, it starts with Number Slide, a game featuring timed puzzles with move limits. The structure is designed to make adding more games later straightforward "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekchain-arcade-browser-7997.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "You can follow the source trail to see how the lobby introduces the arcade and lists available games. The documentation outlines the specific mechanics for Number Slide, helping you understand the initial setup before exploring further details in the provided materials "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2698-build-existing-github-project"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A public repository referencing Squeekchain. Repository description: Build on the existing GitHub project to create a polished Squeekchain-themed browser game arcade. Number Slide is the first game; the structure should make it easy to add more games later. Pages - Lobby: Introduce the arcade and show available games, starting with Number Slide. - Number Slide: Provide playable timed puzzles with move limits, cle...",
       "description_origin": "source",
@@ -2407,6 +2466,42 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Hatchery is a local hamster hatchery demo that uses real wheel data. As described on "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-hatchery-hatch-a-hamster.imd.site"
+            },
+            {
+              "text": ", you aim a lamp, incubate for sixty active seconds, and save your hamster."
+            }
+          ],
+          [
+            {
+              "text": "To follow the trail, start with "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/7d8f9737-cdea-4827-beb8-55366c621303"
+            },
+            {
+              "text": " for context. Then visit "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-hatchery-hatch-a-hamster.imd.site"
+            },
+            {
+              "text": " to see the specific steps for aiming the lamp and completing the incubation process."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A local hamster hatchery demo using real wheel data. Aim the lamp, incubate for 60 active seconds, and save your hamster. NFT minting is not live yet.",
       "description_origin": "website",
@@ -2622,6 +2717,35 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "According to its README, this project lets you feed, touch, and grow with Pip. It preserves the existing lavender 3D companion, five growth appearances, browser saves, and care features. It also adds read-only monitoring for specific networks and introduces twelve procedural gestures "
+            },
+            {
+              "text": "the project website",
+              "url": "https://pip-squeekchain-hamster-com-576c.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To follow the details, start with the documentation for the core mechanics. You can then check the public sources for the specific monitoring additions and gesture implementations. This trail helps you understand how the new features integrate with the original companion experience "
+            },
+            {
+              "text": "the documentation",
+              "url": "https://github.com/identity-md-launches/launch-2777-reference-source-https-github-com-tungwe/blob/HEAD/docs/UPSTREAM_README.md"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "According to its README, feed, touch, turn and grow with Pip. This upgrade preserves the existing lavender 3D companion, five growth appearances, browser saves, care/play/memories, English default, Traditional Chinese and free on-device AI. It adds read-only IMD/Ethereum and Squeekchain/Sepolia monitoring, twelve procedural gestures, reward-fr…",
       "description_origin": "readme",
@@ -2732,6 +2856,35 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Wheel Raid is a cooperative browser game for Squeekchain, as described in its README. One to four players share a health pool to fight the Chrome Gnawer boss using Attack, Defend, and Heal actions. The project explicitly notes it involves no wallets, wagering, custody, transfers, or private keys "
+            },
+            {
+              "text": "the project website",
+              "url": "https://wheel-raid-tiny-paws-shared-boss.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To understand the gameplay mechanics, you can explore the provided documentation. The sources outline the specific rules for the raiding experience, helping you see how the shared health system works in practice. Reading through these details gives a clear picture of the intended player interaction "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2738-build-wheel-raid-original"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "According to its README, a playable cooperative browser game for Squeekchain. One to four raiders share a health pool and fight the original Chrome Gnawer boss with Attack, Defend and Heal. No wallets, wagering, custody, transfers, or private keys.",
       "description_origin": "readme",
@@ -2762,6 +2915,42 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "The Wheel Archive project aims to transform settled Squeekchain rounds into sealed capsules, as described in its README. This process ensures that once a batch is finalized, it is preserved in a distinct, immutable format for future reference. You can learn more about this specific mechanism by visiting "
+            },
+            {
+              "text": "the project website",
+              "url": "https://wheel-archive-every-turn-kept.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To understand how these capsules are formed, you can follow the details provided in "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2722-wheel-archive-capsule"
+            },
+            {
+              "text": ". This document offers a clear look at the underlying logic. Another "
+            },
+            {
+              "text": "public source",
+              "url": "https://explorer.imd.fun/jobs/89d18a71-fa33-4fab-b7cc-7b0de3e0e002"
+            },
+            {
+              "text": " also provides context on the archival process, helping you trace the journey from active rounds to sealed records."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "According to its README, every settled batch of Squeekchain rounds becomes a sealed capsule.",
       "description_origin": "readme",
@@ -3304,6 +3493,43 @@
         "website": "https://hamster-rush-squeekchain.imd.site"
       },
       "name": "Hamster Rush",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "builder_links": [
+        {
+          "kind": "post",
+          "label": "@0xyvz",
+          "source": "https://x.com/0xyvz/status/2117376121205579886",
+          "url": "https://x.com/0xyvz"
+        }
+      ],
+      "category": "tools",
+      "contracts": [],
+      "description_en": "According to its README, squeektoshi's garden on Sepolia: hamster snacks that grow only from what the real [Squeekchain](https://squeekchain.com) hamster does.",
+      "description_origin": "readme",
+      "ecosystem_status": "claimed",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-2856-fix-trust-wording-site"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/84ccdaf5-ef53-4818-986b-9b3f7238a90b"
+        }
+      ],
+      "first_seen": "2026-11-01T22:15:19.172360+00:00",
+      "id": "8d9533750a6cd8c5",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-2856-fix-trust-wording-site",
+        "website": "https://squeek-garden.imd.site"
+      },
+      "name": "Squeek Garden",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -4415,14 +4641,6 @@
     },
     {
       "builder": null,
-      "builder_links": [
-        {
-          "kind": "post",
-          "label": "@0xyvz",
-          "source": "https://x.com/0xyvz/status/2117376121205579886",
-          "url": "https://x.com/0xyvz"
-        }
-      ],
       "category": "game",
       "contracts": [],
       "description_en": "Plant a little happiness. A cozy hamster garden that grows with real settled Squeekchain rounds on Sepolia. Plant seeds, watch them grow, and collect your harvest.",
@@ -4455,8 +4673,8 @@
           "chain_id": 11155111
         }
       ],
-      "description_en": "A public repository referencing Squeekchain. Repository description: Build SQUEEK ARENA, a complete, original Web3 hamster racing and betting game for the SqueekChain community. Create a finished, playable website with exactly THREE animated hamster racers: BROWN, WHITE and GOLDEN. 1. NETWORK AND TOKEN Ethereum Sepolia testnet only. Chain ID: 11155111. Real test token: Squeek (SQK). Token address: 0x6872bfa5ccc3e...",
-      "description_origin": "source",
+      "description_en": "According to its README, pick your hamster. Place your SQK. Win the race.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -4482,7 +4700,7 @@
         "website": "https://squeek-arena-hamster-races-on-se.imd.site"
       },
       "logo": "logos/e09564e4596057c93c8313a44ea0f22d97b0e50f8dbab739d2e8a7c3e24123ff.svg",
-      "name": "launch-2862-build-squeek-arena-complete",
+      "name": "SQUEEK ARENA",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
