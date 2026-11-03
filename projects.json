@@ -3,35 +3,6 @@
     {
       "builder": null,
       "category": "other",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "This project aims to answer a specific question: how long a closed Squeekchain round waits before being certified onchain, as described in its README "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekchain-settlement-latency.identitymd.eth.limo/"
-            },
-            {
-              "text": ". It focuses on measuring this settlement latency within the Sepolia environment."
-            }
-          ],
-          [
-            {
-              "text": "To follow the trail, you can start by reviewing the core details provided in "
-            },
-            {
-              "text": "the documentation",
-              "url": "https://github.com/0xMingXiu/squeekchain-settlement-latency/blob/HEAD/docs/dashboard.png"
-            },
-            {
-              "text": ". This helps clarify the context behind the latency measurements and the specific conditions being tracked for the Squeek Settlement Latency Tracker."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "How long does a closed Squeekchain round wait before it is certified onchain?",
       "description_origin": "readme",
@@ -1114,21 +1085,21 @@
           ],
           [
             {
-              "text": "To understand how it works, start with the public source for an overview "
+              "text": "To understand how it works, start with the project website "
             },
             {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/e16f29ab-97a5-4a7f-9b02-e495e4b96721"
+              "text": "the project website",
+              "url": "https://squeek-survival-beat-robo-squeek.imd.site"
             },
             {
-              "text": ". Then, explore the code repository to see the implementation details "
+              "text": " for an overview. Then, explore the code repository "
             },
             {
               "text": "the code repository",
               "url": "https://github.com/identity-md-launches/launch-2853-squeek-survival-deliver-hosted"
             },
             {
-              "text": "."
+              "text": " to see the implementation details behind the game mechanics and AI components."
             }
           ]
         ],
@@ -1142,6 +1113,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/e16f29ab-97a5-4a7f-9b02-e495e4b96721"
+        },
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0x980b4424c007caf7a1f3670b48c8eaef7ebc3d44"
         }
       ],
       "first_seen": "2026-11-02T20:42:45.989013+00:00",
@@ -1495,42 +1470,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "HamsterRun describes itself as a pixel pastel game on the Sepolia network. According to its README, the core loop involves minting a free HAM, training it, and challenging another owner "
-            },
-            {
-              "text": "the project website",
-              "url": "https://hamsterrun-small-paws-big-advent.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow this trail, start with the documentation for context "
-            },
-            {
-              "text": "the documentation",
-              "url": "https://github.com/identity-md-launches/launch-2834-hamster-run/blob/HEAD/docs/VALIDATION.md"
-            },
-            {
-              "text": ". Then, check the code repository to see how the mechanics are implemented "
-            },
-            {
-              "text": "the code repository",
-              "url": "https://github.com/identity-md-launches/launch-2834-hamster-run"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A pixel pastel Sepolia game: mint a free HAM, train, and challenge another owner. Independent testnet demo only. No official Squeek mining rights, SQK yield, sensors, insurance, or transferable points.",
       "description_origin": "readme",
@@ -1569,6 +1508,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/4cf29528-0445-4965-9bb5-44a241310117"
+        },
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0x980b4424c007caf7a1f3670b48c8eaef7ebc3d44"
         }
       ],
       "first_seen": "2026-10-31T05:19:53.923098+00:00",
@@ -1652,10 +1595,10 @@
     },
     {
       "builder": null,
-      "category": "game",
+      "category": "tools",
       "contracts": [],
       "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
-      "description_origin": "readme",
+      "description_origin": "placeholder",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -2792,6 +2735,42 @@
     {
       "builder": "pillheadddd",
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Exsqueektion is a solo extraction game where you loot a beautiful, murderous garden. The goal is to get out before the hamster-powered portal collapses, as described in "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek.win"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To see how this works, you can follow the trail through "
+            },
+            {
+              "text": "a team post",
+              "url": "https://x.com/squeekchain/status/2115912610826653723"
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "a team post",
+              "url": "https://x.com/pillheadddd/status/2115954399587815913"
+            },
+            {
+              "text": ". These entries offer a closer look at the game's design and mechanics."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Loot a beautiful, murderous garden. Get out before the hamster-powered portal collapses. A solo extraction game.",
       "description_origin": "website",
@@ -2841,39 +2820,10 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Wheel Raid is a cooperative browser game for Squeekchain, as described in its README. One to four players share a health pool to fight the Chrome Gnawer boss using Attack, Defend, and Heal actions. The project explicitly notes it involves no wallets, wagering, custody, transfers, or private keys "
-            },
-            {
-              "text": "the project website",
-              "url": "https://wheel-raid-tiny-paws-shared-boss.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To understand the gameplay mechanics, you can explore the provided documentation. The sources outline the specific rules for the raiding experience, helping you see how the shared health system works in practice. Reading through these details gives a clear picture of the intended player interaction "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2738-build-wheel-raid-original"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A playable cooperative browser game for Squeekchain. One to four raiders share a health pool and fight the original Chrome Gnawer boss with Attack, Defend and Heal. No wallets, wagering, custody, transfers, or private keys.",
       "description_origin": "readme",
-      "ecosystem_status": "claimed",
+      "ecosystem_status": "confirmed",
       "evidence": [
         {
           "kind": "github_mention",
@@ -2882,6 +2832,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/26b2b01c-0384-4911-ad49-902df8a5fae4"
+        },
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0x980b4424c007caf7a1f3670b48c8eaef7ebc3d44"
         }
       ],
       "first_seen": "2026-10-30T17:42:47.146583+00:00",
@@ -3101,33 +3055,33 @@
         "paragraphs": [
           [
             {
-              "text": "COVER is a Sepolia-only Foundry application and static demo designed for fixed payouts on certified zero-work rounds. As described in "
+              "text": "COVER is a Sepolia-only Foundry application and static demo designed for fixed payouts on certified zero-work rounds. It includes five specific contracts: MockSQK, PremiumModel, CoverPool, CoreReader, and PolicyBook. The project vendors its contract dependencies as ordinary source files, while the frontend relies on the npm lockfile located in the web directory "
             },
             {
               "text": "the project website",
               "url": "https://cover-squeekfi-on-sepolia.imd.site"
             },
             {
-              "text": ", it includes five specific contracts: MockSQK, PremiumModel, CoverPool, CoreReader, and PolicyBook. The codebase vendors dependencies as ordinary source files, while the frontend relies on the npm lockfile found in the web directory."
+              "text": "."
             }
           ],
           [
             {
-              "text": "To follow the source trail, start with "
+              "text": "To follow the source trail, start with the code repository to see how these components interact "
             },
             {
               "text": "the code repository",
               "url": "https://github.com/identity-md-launches/launch-2814-sqi"
             },
             {
-              "text": " to see the contract structure and vendored files. You can then cross-reference the implementation details with "
+              "text": ". You can also consult the documentation for further context on the implementation details "
             },
             {
               "text": "the documentation",
               "url": "https://github.com/identity-md-launches/launch-2814-sqi/blob/HEAD/docs/abi/README.md"
             },
             {
-              "text": " to understand how the static demo operates. This path helps you trace the logic from the core contracts to the user-facing interface without needing external tools."
+              "text": "."
             }
           ]
         ],
@@ -3329,6 +3283,23 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "SQUEEK KINGDOM is an original, playable hamster strategy game designed for the SqueekChain ecosystem. According to "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-kingdom-a-little-kingdom.imd.site"
+            },
+            {
+              "text": ", the export is located in the dist directory. You can serve this folder with any static web host, as asset paths are relative and navigation uses URL hashes, allowing it to work under a gateway subpath."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "An original, playable hamster strategy game for the SqueekChain ecosystem. The export is in dist/. Serve that directory with any static web host; asset paths are relative and navigation uses URL hashes, so it also works under a gateway subpath. Publishing is handled by the assignment’s hosting plane.",
       "description_origin": "readme",
@@ -4210,6 +4181,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/b61deef7-be3e-40b9-9bb0-bc25df7d81c8"
+        },
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0x980b4424c007caf7a1f3670b48c8eaef7ebc3d44"
         }
       ],
       "first_seen": "2026-10-31T01:02:46.137790+00:00",
@@ -4449,6 +4424,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/b4aef4c6-bbb0-4a9f-be21-d9cbed6c315d"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/3a43d418-4e21-4fa6-9d84-fa63a10c6763"
         }
       ],
       "first_seen": "2026-10-30T09:23:16.390827+00:00",
@@ -4477,6 +4456,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/f8093178-7c90-4389-993c-ade15e5ba12c"
+        },
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0x980b4424c007caf7a1f3670b48c8eaef7ebc3d44"
         }
       ],
       "first_seen": "2026-11-02T17:59:54.952462+00:00",
