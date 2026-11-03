@@ -923,6 +923,35 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "This project aims to build a polished, fun, and fully playable single-page game called \"Squeek Arena\" for Squeekchain on Sepolia. It is designed as a competitive mini-game where the outcome is influenced by the real hamster's recent on-chain activity, rather than being a simple dashboard or API wrapper "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-arena-tiny-paws-massive-s.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To understand the details, you can follow the provided source trail. These references offer context on the game's mechanics and its connection to the Squeekchain ecosystem, helping you see how the on-chain activity integrates with the gameplay experience "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2903-build-polished-fun-fully"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A public repository referencing Squeekchain. Repository description: Build a polished, fun, fully playable single-page game called \"Squeek Arena\" for Squeekchain (Sepolia). Concept: A competitive mini-game where the outcome is influenced by the real hamster's recent on-chain activity. This is a real product with gameplay, not a dashboard or thin API wrapper. Core Gameplay: - Player connects wallet (optional but r...",
       "description_origin": "source",
@@ -1011,9 +1040,37 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "post",
+          "label": "@chotim_chimto",
+          "source": "https://x.com/chotim_chimto/status/2117329698338521507",
+          "url": "https://x.com/chotim_chimto"
+        }
+      ],
       "category": "tools",
       "contracts": [],
-      "description_en": "According to its README, [![test](https://github.com/DinhTienhz/squeek-holder-bot/actions/workflows/test.yml/badge.svg)](https://github.com/DinhTienhz/squeek-holder-bot/actions/workflows/test.yml) [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![node](https://img.shields.io/badge/node-%E2%89%A524-brightgreen.svg…",
+      "description_en": "A turn-based tower climb where every round of real work by the Squeekchain hamster is a floor.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-11-03T04:11:22.092848+00:00",
+      "id": "248813d56554677d",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://hamstertower.site"
+      },
+      "logo": "logos/7a99aa78441d2cc073085530fd7e3ce318f2a79c9a4cd6e87ff38acd1ed1051e.webp",
+      "name": "Hamster Tower",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "According to its README, static mirror of the [published Squeek Holder Bot site](https://squeek-holder-bot.chainn.workers.dev/), rebuilt from [upstream master `ad869b5`](https://github.com/DinhTienhz/squeek-holder-bot/commit/ad869b547c3b123df946c060dd5c07711134bc4a). The published HTML and that revision matched when fetched on 2026-11-02. The…",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -1104,7 +1161,12 @@
     {
       "builder": null,
       "category": "tools",
-      "contracts": [],
+      "contracts": [
+        {
+          "address": "0xc17b08994b70b468aa30e4e3d73edf9d65727302",
+          "chain_id": 11155111
+        }
+      ],
       "description_en": "According to its README, your bags. his legs.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
@@ -1116,6 +1178,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/dc709c08-b571-4eae-9262-859f3ac1b4d7"
+        },
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0xc17b08994b70b468aa30e4e3d73edf9d65727302"
         }
       ],
       "first_seen": "2026-10-31T19:58:31.489580+00:00",
@@ -1124,6 +1190,7 @@
       "lifecycle_stage": "unknown",
       "links": {
         "docs": "https://github.com/identity-md-launches/launch-2793-build-hamlock-hamster-powered-time/blob/HEAD/docs/WEBSITE_VALIDATION.md",
+        "explorer": "https://eth-sepolia.blockscout.com/address/0xc17b08994b70b468aa30e4e3d73edf9d65727302",
         "github": "https://github.com/identity-md-launches/launch-2793-build-hamlock-hamster-powered-time",
         "website": "https://hamlock-the-hamster-powered-time.imd.site"
       },
@@ -1154,9 +1221,38 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Streak is a single-page prediction game for the real Squeekchain hamster wheel, as described in its README. You pick the next 10-minute round’s work band, stake free SP, build a streak, or challenge a second wallet. Duels and scores belong to a disclosed local league in this browser "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-streak-little-wheel-big-p.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To follow the details, start with the project website for the core rules. You can also check the other public sources for additional context on how the local league operates and how the game interacts with the wheel "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2871-build-single-page-prediction-game"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
-      "description_en": "A public repository referencing Squeekchain. Repository description: Build a single-page prediction game called \"Squeek Streak\" for the Squeekchain hamster economy. Core loop: players predict the NEXT 10-minute round's total wheel work in 4 bands — SLEEP (0), STROLL (1–99), RUN (100–499), SPRINT (500+) — finer-grained than existing prediction games. Settle each prediction against the real settled round work, read...",
-      "description_origin": "source",
+      "description_en": "According to its README, a single-page prediction game for the real Squeekchain hamster wheel. Pick the **next** 10-minute round’s work band, stake free SP, build a streak, or challenge a second wallet. Duels and scores belong to a disclosed local league in this browser.",
+      "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
         {
@@ -1177,7 +1273,7 @@
         "website": "https://squeek-streak-little-wheel-big-p.imd.site"
       },
       "logo": "logos/e2837863afdad79d2ad48aa747ee562034922e9c4feb904fea981b00f8a9166a.svg",
-      "name": "launch-2871-build-single-page-prediction-game",
+      "name": "Squeek Streak",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -2716,7 +2812,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
       "checked_text": {
         "paragraphs": [
           [
@@ -3184,6 +3280,42 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "COVER is a Sepolia-only Foundry application and static demo designed for fixed payouts on certified zero-work rounds. As described in "
+            },
+            {
+              "text": "the project website",
+              "url": "https://cover-squeekfi-on-sepolia.imd.site"
+            },
+            {
+              "text": ", it includes five specific contracts: MockSQK, PremiumModel, CoverPool, CoreReader, and PolicyBook. The codebase vendors dependencies as ordinary source files, while the frontend relies on the npm lockfile found in the web directory."
+            }
+          ],
+          [
+            {
+              "text": "To follow the source trail, start with "
+            },
+            {
+              "text": "the code repository",
+              "url": "https://github.com/identity-md-launches/launch-2814-sqi"
+            },
+            {
+              "text": " to see the contract structure and vendored files. You can then cross-reference the implementation details with "
+            },
+            {
+              "text": "the documentation",
+              "url": "https://github.com/identity-md-launches/launch-2814-sqi/blob/HEAD/docs/abi/README.md"
+            },
+            {
+              "text": " to understand how the static demo operates. This path helps you trace the logic from the core contracts to the user-facing interface without needing external tools."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [
         {
           "address": "0x5fbe17ecdae6cab9d657313ba5704ea3e19ab72d",
@@ -4539,8 +4671,8 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "A public repository referencing Squeekchain. Repository description: Build \"SQUEELODY\" — a single-page web app that turns Squeekchain's live hamster telemetry into a real-time generative music machine plus a \"press the round to vinyl\" generative-art export. Make it feel like a product people open and play with, NOT a read-only dashboard. WHAT IT DOES - Fetches live Squeekchain data and turns it into real-time gen...",
-      "description_origin": "source",
+      "description_en": "According to its README, squeektoshi's live mixtape: a single-page web app that turns the Squeekchain hamster's live wheel telemetry into generated music (Web Audio, all synthesized), a 60fps glowing wheel, and a free downloadable SVG vinyl for every round.",
+      "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
         {
@@ -4560,7 +4692,7 @@
         "github": "https://github.com/identity-md-launches/launch-2867-build-squeelody-single-page",
         "website": "https://squeelody.imd.site"
       },
-      "name": "launch-2867-build-squeelody-single-page",
+      "name": "SQUEELODY",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -5608,10 +5740,10 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
       "contracts": [],
-      "description_en": "A public repository referencing Squeekchain. Repository description: Build and host a polished, responsive web game called “Squeek Colony.” It is a cooperative persistent micro-colony game powered by real Squeekchain 10-minute rounds. Do not make a dashboard, token page, or prediction market. The app must read publicly available Squeekchain status and settled-round data. Show the source or official data link for ...",
-      "description_origin": "source",
+      "description_en": "According to its README, a free pixel colony game driven by real ten-minute Squeekchain rounds. Choose **Forage**, **Fortify**, or **Research** once per live round. The game only reads public data; it cannot affect the wheel or hamster. There are no wallets, tokens, wagers, approvals, or payments.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -5632,7 +5764,7 @@
         "website": "https://squeek-colony-a-hamster-burrow-g.imd.site"
       },
       "logo": "logos/b0656b834b59a9ce9143ca646756bba7f9431cc78d42d10ad120bae834c39cd6.svg",
-      "name": "launch-2872-build-host-polished-responsive",
+      "name": "Squeek Colony",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     }
