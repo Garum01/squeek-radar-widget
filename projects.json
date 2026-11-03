@@ -373,42 +373,6 @@
     {
       "builder": null,
       "category": "nft",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Market is a static, wallet-connected marketplace for Squeekchain’s Squeeks, operating exclusively on the Sepolia test network. As described in "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-market-on-chain-companion.imd.site"
-            },
-            {
-              "text": ", it allows users to browse real DotGrid NFTs, inspect mining positions, and trade using signed Seaport 1.6 orders. The project explicitly notes that these test assets hold no monetary value."
-            }
-          ],
-          [
-            {
-              "text": "To follow the source trail, start by reviewing the project's public documentation. You can explore the specific mechanics and interface details provided in "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2804-build-complete-nft-marketplace"
-            },
-            {
-              "text": " and "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/c8215366-c64e-4086-a9df-fed5f98f21f7"
-            },
-            {
-              "text": ". These materials help clarify how the marketplace functions within its limited test environment."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A static, wallet-connected marketplace for Squeekchain’s Squeeks on Sepolia only. Browse real DotGrid NFTs, inspect the whole mining position, find owned Squeeks, and trade with signed Seaport 1.6 orders. Test assets have no monetary value.",
       "description_origin": "readme",
@@ -1012,35 +976,6 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "SqueekMatchEscrow focuses on the contract stage of SqueekMatch, containing Solidity source code, tests, and ABI exports. The project description notes that the website is a later stage, so this repository is strictly about the underlying smart contract implementation "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekmatch-find-your-merge-part.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow the source trail, you can start with the public sources provided. These documents outline the specific components included in this repository, helping you understand the scope of the contract stage before moving on to other parts of the ecosystem "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2900-workflow-frontend-stage-context"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Non-custodial, fee-free peer-to-peer market for Squeeks (Squeekchain's ERC-721) priced in SQK, built so holders of a lone Squeek at a level can find a merge partner. This repository holds the contract stage of SqueekMatch: the Solidity source, its tests, the ABI export and this document. The website is a later stage.",
       "description_origin": "readme",
@@ -1053,6 +988,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/db82d2bc-fb4f-4bf2-8dd7-e16c9218c4e4"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/82f7ff06-1cd6-4fbd-9f04-7109e25ff189"
         }
       ],
       "first_seen": "2026-11-02T23:32:56.568868+00:00",
@@ -1433,6 +1372,37 @@
     {
       "builder": "theidmfun",
       "category": "other",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Intelligent Dance Market is a Uniswap v4 hook where on-chain state acts as a 16-step drum machine, turning every trade into a note "
+            },
+            {
+              "text": "the project website",
+              "url": "https://theidm.fun"
+            },
+            {
+              "text": ". To understand this concept, you can explore the details in "
+            },
+            {
+              "text": "the documentation",
+              "url": "https://theidm.fun/docs"
+            },
+            {
+              "text": " or check "
+            },
+            {
+              "text": "the announcement",
+              "url": "https://x.com/theidmfun/status/2115155784929812559"
+            },
+            {
+              "text": " for the initial context behind this unique approach to market mechanics."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Intelligent Dance Market ($IDM): a Uniswap v4 hook whose on-chain state is a 16-step drum machine. Every trade is a note.",
       "description_origin": "website",
@@ -1852,35 +1822,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Out is a game of nerve where you ride Squeektoshi's wheel and must bail before he stops. It runs on Squeekchain, a hamster-powered blockchain, as described on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekout.fun"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To understand how this works, you can explore the details provided on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekout.fun"
-            },
-            {
-              "text": ". It offers a clear look at the mechanics and the unique setting of this interactive experience."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Ride Squeektoshi's wheel and bail before he stops. A game of nerve on Squeekchain, the hamster-powered blockchain.",
       "description_origin": "website",
@@ -3013,42 +2954,6 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "The Wheel Archive project aims to transform settled Squeekchain rounds into sealed capsules, as described in its README. This process ensures that once a batch is finalized, it is preserved in a distinct, immutable format for future reference. You can learn more about this specific mechanism by visiting "
-            },
-            {
-              "text": "the project website",
-              "url": "https://wheel-archive-every-turn-kept.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To understand how these capsules are formed, you can follow the details provided in "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2722-wheel-archive-capsule"
-            },
-            {
-              "text": ". This document offers a clear look at the underlying logic. Another "
-            },
-            {
-              "text": "public source",
-              "url": "https://explorer.imd.fun/jobs/89d18a71-fa33-4fab-b7cc-7b0de3e0e002"
-            },
-            {
-              "text": " also provides context on the archival process, helping you trace the journey from active rounds to sealed records."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Every settled batch of Squeekchain rounds becomes a sealed capsule.",
       "description_origin": "readme",
@@ -3178,49 +3083,6 @@
     {
       "builder": "hamsterhourgame",
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Hamster Hour is a playful Ethereum project where you bet on a real hamster running on a wheel. As described in "
-            },
-            {
-              "text": "the public profile",
-              "url": "https://x.com/hamsterhourgame"
-            },
-            {
-              "text": ", you watch the live cam and guess the jackpot outcome. It’s a simple, lighthearted way to engage with the ecosystem."
-            }
-          ],
-          [
-            {
-              "text": "To understand the details, start with "
-            },
-            {
-              "text": "the project website",
-              "url": "https://hamsterhour.fun"
-            },
-            {
-              "text": " for general info. Then check "
-            },
-            {
-              "text": "the announcement",
-              "url": "https://x.com/hamsterhourgame/status/2116181078650331524"
-            },
-            {
-              "text": " for specific rules. "
-            },
-            {
-              "text": "A team post",
-              "url": "https://x.com/pillheadddd/status/2116210686665859099"
-            },
-            {
-              "text": " might offer extra context on how the game works."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A real hamster. One hour. Bet IMD on the wheel, watch the live cam, and take a guess at the jackpot. Hamster Hour on Ethereum.",
       "description_origin": "website",
@@ -4006,42 +3868,6 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeekchain Analytics aims to provide an independent dashboard for the hamster-powered Squeekchain ecosystem on Ethereum Sepolia. As described in "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekchain-analytics-small-paws.imd.site"
-            },
-            {
-              "text": ", it focuses on delivering real work through small paws, offering a clear view of this specific network's activity."
-            }
-          ],
-          [
-            {
-              "text": "To follow the details, you can start with "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/Volha1213/squeekchain-analytics"
-            },
-            {
-              "text": " for general context. Then, dive deeper into "
-            },
-            {
-              "text": "the documentation",
-              "url": "https://github.com/Volha1213/squeekchain-analytics/blob/HEAD/docs/screenshots/overview-dark.jpg"
-            },
-            {
-              "text": " to understand how the analytics are structured and presented within this unique environment."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Small paws. Real work. An independent analytics dashboard for the hamster-powered Squeekchain ecosystem on Ethereum Sepolia.",
       "description_origin": "readme",
@@ -4403,6 +4229,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/db82d2bc-fb4f-4bf2-8dd7-e16c9218c4e4"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/82f7ff06-1cd6-4fbd-9f04-7109e25ff189"
         }
       ],
       "first_seen": "2026-11-02T23:32:56.572331+00:00",
@@ -4727,6 +4557,10 @@
         {
           "kind": "site_contract_link",
           "url": "https://eth-sepolia.blockscout.com/address/0x8bd658e58e94ab6a18a8b9d8c6108d1287facacf"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/b4aef4c6-bbb0-4a9f-be21-d9cbed6c315d"
         }
       ],
       "first_seen": "2026-10-30T09:23:16.390827+00:00",
@@ -5244,37 +5078,6 @@
     {
       "builder": null,
       "category": "defi",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "NutshellMarkets is building a treasury designed to grow Squeekchain, as stated in "
-            },
-            {
-              "text": "the project profile",
-              "url": "https://x.com/nutshellmarkets"
-            },
-            {
-              "text": ". This description outlines the core intent behind the initiative. To understand the details, you can follow the trail in "
-            },
-            {
-              "text": "a public source",
-              "url": "https://x.com/pillheadddd/status/2115513298699329819"
-            },
-            {
-              "text": " and "
-            },
-            {
-              "text": "a public source",
-              "url": "https://x.com/pillheadddd/status/2116201262010241204"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Building a treasury designed to grow @squeekchain.",
       "description_origin": "x_profile",
@@ -5333,36 +5136,7 @@
     },
     {
       "builder": null,
-      "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "The project provides smart contracts for Squeeky Market, an independent community prediction market focused on Squeektoshi’s daily wheel distance "
-            },
-            {
-              "text": "the project website",
-              "url": "https://hamster.squeekymarket.trade"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "You can explore the technical details by reviewing the public documentation "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/Czyzuu/squeeky-market-contracts"
-            },
-            {
-              "text": ". This guide helps you understand how the contracts function within that specific ecosystem."
-            }
-          ]
-        ],
-        "version": 1
-      },
+      "category": "tools",
       "contracts": [],
       "description_en": "Smart contracts for Squeeky Market, an independent community prediction market on Squeektoshi’s daily wheel distance.",
       "description_origin": "readme",
