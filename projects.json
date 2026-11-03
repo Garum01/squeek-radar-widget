@@ -923,6 +923,65 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "SqueekMatchEscrow focuses on the contract stage of SqueekMatch, containing Solidity source code, tests, and ABI exports. The project description notes that the website is a later stage, so this repository is strictly about the underlying smart contract implementation "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekmatch-find-your-merge-part.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To follow the source trail, you can start with the public sources provided. These documents outline the specific components included in this repository, helping you understand the scope of the contract stage before moving on to other parts of the ecosystem "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2900-workflow-frontend-stage-context"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
+      "contracts": [],
+      "description_en": "According to its README, non-custodial, fee-free peer-to-peer market for Squeeks (Squeekchain's ERC-721) priced in SQK, built so holders of a lone Squeek at a level can find a merge partner. This repository holds the contract stage of SqueekMatch: the Solidity source, its tests, the ABI export and this document. The website is a later stage.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-2900-workflow-frontend-stage-context"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/db82d2bc-fb4f-4bf2-8dd7-e16c9218c4e4"
+        }
+      ],
+      "first_seen": "2026-11-02T23:32:56.568868+00:00",
+      "id": "242b1e82ef653193",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-2900-workflow-frontend-stage-context",
+        "website": "https://squeekmatch-find-your-merge-part.imd.site"
+      },
+      "logo": "logos/6af086df9e08ee2e8572f5359e9786fe886a94ec152b2831680e2459cfc5db0b.svg",
+      "name": "SqueekMatchEscrow",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
       "contracts": [],
       "description_en": "According to its README, [![test](https://github.com/DinhTienhz/squeek-holder-bot/actions/workflows/test.yml/badge.svg)](https://github.com/DinhTienhz/squeek-holder-bot/actions/workflows/test.yml) [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![node](https://img.shields.io/badge/node-%E2%89%A524-brightgreen.svg…",
       "description_origin": "readme",
@@ -1611,6 +1670,33 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "post",
+          "label": "@kolkrypt",
+          "source": "https://x.com/kolkrypt/status/2117407065048264924",
+          "url": "https://x.com/kolkrypt"
+        }
+      ],
+      "category": "tools",
+      "contracts": [],
+      "description_en": "Institutional-grade real-time block explorer and cryptographic verifier for Squeekchain (Ethereum Sepolia Chain ID 11155111).",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-11-03T00:37:35.956254+00:00",
+      "id": "4ef0081402803d10",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://squeekexplorer.netlify.app"
+      },
+      "name": "Squeekchain Explorer",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
       "category": "game",
       "checked_text": {
         "paragraphs": [
@@ -1807,6 +1893,37 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "This project serves as a read-only tracker for SqueekCore settlement latency on Sepolia, monitoring batches, gaps, and unsettled rounds at one finalized block "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekchain-settlement-latency.imd.site"
+            },
+            {
+              "text": ". To follow the data, start with the public source for context "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/7a90e58f-17b7-45b7-9c8c-41dde4df40ce"
+            },
+            {
+              "text": ", then check the project website for specific latency details "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekchain-settlement-latency.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Read-only tracker for SqueekCore settlement latency on Sepolia: batches, gaps, unsettled rounds and alerts at one finalized block.",
       "description_origin": "website",
@@ -1832,6 +1949,42 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Wheel Runner is a pixel hamster runner where speed and difficulty are driven by real-time data from a hamster wheel on Squeekchain, as described in "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-wheel-runner.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To follow the source trail, start with "
+            },
+            {
+              "text": "the project profile",
+              "url": "https://x.com/shimis_88"
+            },
+            {
+              "text": " for context, then check "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2700-squeek-wheel-runner-squeekchain"
+            },
+            {
+              "text": " for additional details on how the game mechanics connect to the on-chain data."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "According to its README, 像素仓鼠跑酷网页小游戏。游戏速度和难度由 Squeekchain 真实仓鼠转轮的实时数据驱动。 A pixel hamster runner whose speed and difficulty come from a real hamster wheel on Squeekchain.",
       "description_origin": "readme",
@@ -1976,6 +2129,42 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Hamster Tower is a turn-based climb built on real Squeekchain data. According to its description, every settled round where the hamster worked becomes a floor. The specific work determines the floor type, while the hash sets enemies, map, and weather. Long naps even leave behind treasure chests."
+            }
+          ],
+          [
+            {
+              "text": "You can follow this logic by checking the provided materials. Start with "
+            },
+            {
+              "text": "the project website",
+              "url": "https://hamster-tower.imd.site"
+            },
+            {
+              "text": " to see how these data points translate into gameplay. Then, review "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2883-hamster-tower-free-turn-based"
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/e5055ba2-3caf-43f4-b49a-b50585016603"
+            },
+            {
+              "text": " to trace the underlying chain details that power each floor's unique conditions."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "According to its README, a turn-based tower climb built on real data from Squeekchain. Every settled round in which the hamster did work is one floor. The round's work sets the floor type, its hash sets the enemies, map and weather, and long naps leave treasure chests.",
       "description_origin": "readme",
@@ -2006,6 +2195,35 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Race Squeektoshi is a rhythm arcade game for Squeekchain where you race a real hamster. The project description highlights chasing recorded ghosts, saving stamina, and predicting wheel rounds, all without needing a wallet "
+            },
+            {
+              "text": "the project website",
+              "url": "https://race-squeektoshi-tiny-paws-big-r.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To understand the gameplay mechanics, you can explore the details provided in the public materials. Reading "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/1dc37146-c532-47b9-a57d-2f8d4024fccc"
+            },
+            {
+              "text": " offers a clear look at how the race and rhythm elements come together for players."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Race a real hamster in a rhythm arcade game for Squeekchain. Chase recorded ghosts, save your stamina, and predict the next wheel round. No wallet needed.",
       "description_origin": "website",
@@ -3839,6 +4057,40 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
+      "description_en": "A public repository referencing Squeekchain. Repository description: WORKFLOW CONTRACT STAGE CONTEXT: the stage produces implemented and tested contracts, ABI documentation and an independently reviewed launch.json. Each assignment contributes only within its own role and write scope. Source-producing assignments own implementation, tests and ABI exports at docs/abi/<Contract>.json where their scope permits. The ...",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-2897-workflow-contract-stage-context"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://github.com/identity-md-launches/launch-2897-workflow-contract-stage-context"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/db82d2bc-fb4f-4bf2-8dd7-e16c9218c4e4"
+        }
+      ],
+      "first_seen": "2026-11-02T23:32:56.572331+00:00",
+      "id": "bb723802a6fa0182",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-2897-workflow-contract-stage-context",
+        "website": "https://squeekmatch-find-your-merge-part.imd.site"
+      },
+      "logo": "logos/6af086df9e08ee2e8572f5359e9786fe886a94ec152b2831680e2459cfc5db0b.svg",
+      "name": "launch-2897-workflow-contract-stage-context",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
       "description_en": "According to its README, 把 Squeekchain 的链上 work 变成一座夜班锻造工坊：区块是钢锭，转速驱动砂轮和锻锤，结算是出炉记录。页面页脚署名 **@Despite_zmw**。",
       "description_origin": "readme",
       "ecosystem_status": "weak",
@@ -3921,6 +4173,33 @@
       },
       "logo": "logos/20ec4bc95abf1bef5c5e35789eb5cd58c29d5a646e1a0a9715a74c3a9f98dc34.svg",
       "name": "Who is Squeektoshi?",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "builder_links": [
+        {
+          "kind": "post",
+          "label": "@despite_zmw",
+          "source": "https://x.com/despite_zmw/status/2117368990263885904",
+          "url": "https://x.com/despite_zmw"
+        }
+      ],
+      "category": "tools",
+      "contracts": [],
+      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
+      "description_origin": "placeholder",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-11-03T02:38:40.153246+00:00",
+      "id": "c36a408f89663ccd",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://hamster-run.pages.dev"
+      },
+      "name": "Hamster Run",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -4136,6 +4415,14 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "post",
+          "label": "@0xyvz",
+          "source": "https://x.com/0xyvz/status/2117376121205579886",
+          "url": "https://x.com/0xyvz"
+        }
+      ],
       "category": "game",
       "contracts": [],
       "description_en": "Plant a little happiness. A cozy hamster garden that grows with real settled Squeekchain rounds on Sepolia. Plant seeds, watch them grow, and collect your harvest.",
@@ -4196,6 +4483,36 @@
       },
       "logo": "logos/e09564e4596057c93c8313a44ea0f22d97b0e50f8dbab739d2e8a7c3e24123ff.svg",
       "name": "launch-2862-build-squeek-arena-complete",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "A public repository referencing Squeekchain. Repository description: Build a small static web dashboard for Squeekchain (Sepolia testnet) that reads the public /v1/economy/state API and shows the current mining round, total SQK mined, live NFT count and the contract addresses, with a plain-language explainer for newcomers. Read-only: no wallet connection, no keys, no transactions. Include a README.",
+      "description_origin": "source",
+      "ecosystem_status": "claimed",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-2901-build-small-static-web"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/73780568-2c81-421c-8cc8-e3c988c09996"
+        }
+      ],
+      "first_seen": "2026-11-02T23:32:56.565952+00:00",
+      "id": "ce9658a1adfcd63e",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-2901-build-small-static-web",
+        "website": "https://squeek-pulse.imd.site"
+      },
+      "logo": "logos/f6bbf2af7051b3a9fdf877c7294f0144362bdf7539e1f669119106710cb072be.svg",
+      "name": "launch-2901-build-small-static-web",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -4368,8 +4685,13 @@
     },
     {
       "builder": null,
-      "category": "tools",
-      "contracts": [],
+      "category": "nft",
+      "contracts": [
+        {
+          "address": "0x264730e600808321053729bf3445ffb611c67221",
+          "chain_id": 11155111
+        }
+      ],
       "description_en": "According to its README, a static React, TypeScript and Vite mint site for the existing Squeek Companion collection on **Sepolia (11155111)**, at [`0x264730e600808321053729bf3445ffb611c67221`](https://sepolia.etherscan.io/address/0x264730e600808321053729bf3445ffb611c67221).",
       "description_origin": "readme",
       "ecosystem_status": "weak",
@@ -4377,6 +4699,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/b1d9f96c-ff99-459f-bf19-655620be71dd"
+        },
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0x264730e600808321053729bf3445ffb611c67221"
         }
       ],
       "first_seen": "2026-11-02T20:42:47.888954+00:00",
@@ -4384,6 +4710,7 @@
       "identity_status": "resolved",
       "lifecycle_stage": "unknown",
       "links": {
+        "explorer": "https://eth-sepolia.blockscout.com/address/0x264730e600808321053729bf3445ffb611c67221",
         "github": "https://github.com/identity-md-launches/launch-2702-squeek-companion-mint",
         "website": "https://squeek-companion-free-hamster-mi.imd.site"
       },
@@ -5031,6 +5358,33 @@
       },
       "logo": "logos/50651a89464f389746692492aee61ea90b0f17b07559cda30d68a588674d77a5.svg",
       "name": "SQUEEKFOREST: SEEDKEEPER",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "According to its README, unofficial community charts for the [Squeek Chain](https://docs.squeekchain.com/) public work record on Ethereum Sepolia.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/mertonghen-lang/squeek-analytics"
+        }
+      ],
+      "first_seen": "2026-10-27T00:04:14.041457+00:00",
+      "id": "fe531ee3eeb808cd",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "docs": "https://github.com/mertonghen-lang/squeek-analytics/blob/HEAD/docs/screenshots/work-history.png",
+        "github": "https://github.com/mertonghen-lang/squeek-analytics",
+        "website": "https://squeek-analytics.vercel.app"
+      },
+      "logo": "logos/8cd223bb8a15b3563e2af4d62b5f0e6328f1cab7ca8b28000f8d06298edd4554.svg",
+      "name": "Squeek Analytics",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },

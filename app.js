@@ -321,7 +321,9 @@ function projectDetails(project) {
     const url = safeURL(builder.url);
     if (!url || !/^https:\/\/(?:www\.)?(?:x|twitter)\.com\/[A-Za-z0-9_]{1,15}\/?$/.test(url)) continue;
     const credit = el('p');
-    credit.append('The site credits ', external(url, '', builder.label || 'its builder'), ' as its builder.');
+    const post = builder.kind === 'post' && safeURL(builder.source);
+    if (post) credit.append(external(url, '', builder.label || 'Its builder'), ' presented this project as their build in ', external(post, '', 'a post on X'), '.');
+    else credit.append('The site credits ', external(url, '', builder.label || 'its builder'), ' as its builder.');
     copy.append(credit);
   }
   const verified = showcaseInfo(project);
