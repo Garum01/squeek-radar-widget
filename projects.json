@@ -2047,44 +2047,8 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Wheel Runner is a pixel hamster runner where speed and difficulty are driven by real-time data from a hamster wheel on Squeekchain, as described in "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-wheel-runner.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow the source trail, start with "
-            },
-            {
-              "text": "the project profile",
-              "url": "https://x.com/shimis_88"
-            },
-            {
-              "text": " for context, then check "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2700-squeek-wheel-runner-squeekchain"
-            },
-            {
-              "text": " for additional details on how the game mechanics connect to the on-chain data."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
-      "description_en": "A pixel hamster runner whose speed and difficulty come from a real hamster wheel on Squeekchain.",
+      "description_en": "Overlay/ is a transparent page with only the live rpm (the wheel icon turns at the real rpm), block progress and the best local score. In OBS add a Browser source with that URL (about 800×160). Add?lang=en for English.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -2412,6 +2376,49 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "This project serves as a community dashboard for Squeekchain, described as a proof-of-work toychain on Ethereum. It is powered by Squeektoshi, a real hamster running in the WHEELY9000, according to the supplied description "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekchain-dashboard.vercel.app"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To follow the source trail, you can start with "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekchain-dashboard.vercel.app"
+            },
+            {
+              "text": " for general context. Then, check "
+            },
+            {
+              "text": "the documentation",
+              "url": "https://github.com/h0xva/squeekchain-dashboard/blob/HEAD/docs/live.png"
+            },
+            {
+              "text": " for technical details and "
+            },
+            {
+              "text": "the project profile",
+              "url": "https://x.com/squeekchain"
+            },
+            {
+              "text": " for additional background information."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Live from the wheel. A community dashboard for Squeekchain — the proof-of-work toychain on Ethereum powered by Squeektoshi, a real hamster running in the WHEELY9000.",
       "description_origin": "readme",
@@ -2439,35 +2446,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "This project aims to build a polished Squeekchain-themed browser game arcade on an existing GitHub repository. As described, it starts with Number Slide, a game featuring timed puzzles with move limits. The structure is designed to make adding more games later straightforward "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekchain-arcade-browser-7997.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "You can follow the source trail to see how the lobby introduces the arcade and lists available games. The documentation outlines the specific mechanics for Number Slide, helping you understand the initial setup before exploring further details in the provided materials "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2698-build-existing-github-project"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Free browser puzzle games with a Squeekchain twist. Play Number Slide on Sepolia, where a contract verifies every winning run.",
       "description_origin": "source",
@@ -2491,7 +2469,7 @@
         "website": "https://squeekchain-arcade-browser-7997.imd.site"
       },
       "logo": "logos/585a0f843f012ba96cd7d87d9cbf718cda60fc10c5dc3d329bffc1e19e438170.svg",
-      "name": "launch-2698-build-existing-github-project",
+      "name": "Squeekchain Arcade",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -2579,6 +2557,49 @@
     {
       "builder": "CelerityCodes",
       "category": "defi",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "The developer describes quadConnect as an automated vault combining Squeekchain mining, hourly long/short strategies, and compounding "
+            },
+            {
+              "text": "the project website",
+              "url": "https://quad.cx"
+            },
+            {
+              "text": ". This setup aims to streamline these specific activities into a single, managed system for users interested in this particular approach."
+            }
+          ],
+          [
+            {
+              "text": "To understand the details, you can start with the announcement "
+            },
+            {
+              "text": "the announcement",
+              "url": "https://x.com/CelerityCodes/status/2112654209430827034"
+            },
+            {
+              "text": " for the initial overview. From there, exploring the public profile "
+            },
+            {
+              "text": "the public profile",
+              "url": "https://x.com/quadconnects"
+            },
+            {
+              "text": " and a team post "
+            },
+            {
+              "text": "a team post",
+              "url": "https://x.com/pillheadddd/status/2112707335022166376"
+            },
+            {
+              "text": " offers further context on how the project is presented to the community."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "The developer describes an automated vault combining Squeekchain mining, hourly long/short strategies and compounding. A testnet has been announced; the contract and live operation have not been independently confirmed.",
       "description_origin": "source",
@@ -2879,6 +2900,42 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "The Wheel Archive project aims to transform every settled batch of Squeekchain rounds into a sealed capsule, as described on "
+            },
+            {
+              "text": "the project website",
+              "url": "https://wheel-archive-every-turn-kept.imd.site"
+            },
+            {
+              "text": ". This process ensures that completed data is preserved in a distinct, immutable format for future reference."
+            }
+          ],
+          [
+            {
+              "text": "To understand how this works, you can explore the details provided in "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2722-wheel-archive-capsule"
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/89d18a71-fa33-4fab-b7cc-7b0de3e0e002"
+            },
+            {
+              "text": ". These materials offer a clear trail of the project's methodology, helping you follow the journey from active rounds to their final archived state."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Every settled batch of Squeekchain rounds becomes a sealed capsule.",
       "description_origin": "readme",
@@ -2909,35 +2966,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "The Last Wheel describes a frozen city kept alive by a real hamster on Squeekchain, where every turn of his wheel heats the town "
-            },
-            {
-              "text": "the project website",
-              "url": "https://thelastwheel.app"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "You can follow this concept by checking the project profile for more context "
-            },
-            {
-              "text": "the project profile",
-              "url": "https://x.com/squeekchain"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A frozen city kept alive by a real hamster on Squeekchain. Every turn of his wheel heats the town.",
       "description_origin": "website",
@@ -3566,10 +3594,10 @@
     },
     {
       "builder": null,
-      "category": "game",
+      "category": "tools",
       "contracts": [],
-      "description_en": "A tiny hamster. A massive moment. Play a fast, animated 1v1 penalty shootout. Practice for free, pick a direction, and go for the rematch.",
-      "description_origin": "source",
+      "description_en": "A mobile-first hamster penalty shootout built with Next.js App Router, TypeScript, Tailwind CSS, custom SVG characters, and synthesized Web Audio. The production site is in dist/; it runs from a plain static host, including a gateway subpath.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -3590,7 +3618,7 @@
         "website": "https://squeek-penalty-tiny-paws-big-pre.imd.site"
       },
       "logo": "logos/9388afe0a5cb2597bf40031cb3ca7ff8ee59849fa770f9eb5564251e53499326.svg",
-      "name": "launch-2895-build-absolutely-fire-highly",
+      "name": "SQUEEK PENALTY",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
