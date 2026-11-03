@@ -36,7 +36,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
       "contracts": [],
       "description_en": "A complete single-player pixel-art mining roguelite built with Vite, React, TypeScript, and the original asset pack. Play Pip, fill your cheeks, survive the deep, and return your treasure to the surface. The real Squeekchain wheel powers the basket; Practice uses an offline simulation.",
       "description_origin": "readme",
@@ -68,8 +68,8 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "A three-minute merge game built from real Squeekchain settlements, with a verified leaderboard and Sepolia score pinning.",
-      "description_origin": "readme",
+      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
+      "description_origin": "placeholder",
       "ecosystem_status": "claimed",
       "evidence": [
         {
@@ -931,8 +931,37 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "This project is a static mirror of the Squeek Holder Bot site, rebuilt from a specific upstream revision. The published HTML and that revision matched when fetched on 2026-11-02, preserving the original layout, copy, palette, and image assets "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-holder-bot-telegram-alert.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "You can follow the source trail to see how the site was reconstructed. The description notes that small accessibility and reliability fixes were applied, along with the addition of a missing /start command "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2870-fix-site-root-get"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
-      "description_en": "Static mirror of the published Squeek Holder Bot site, rebuilt from upstream master ad869b5. The published HTML and that revision matched when fetched on 2026-11-02. The…",
+      "description_en": "Static mirror of the published Squeek Holder Bot site, rebuilt from upstream master ad869b5. The published HTML and that revision matched when fetched on 2026-11-02. The upstream layout, copy, palette and five image assets are preserved. Small accessibility and reliability fixes, plus the missing /start command, are li…",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -1112,35 +1141,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Streak is a single-page prediction game for the real Squeekchain hamster wheel, as described in its README. You pick the next 10-minute round’s work band, stake free SP, build a streak, or challenge a second wallet. Duels and scores belong to a disclosed local league in this browser "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-streak-little-wheel-big-p.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow the details, start with the project website for the core rules. You can also check the other public sources for additional context on how the local league operates and how the game interacts with the wheel "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2871-build-single-page-prediction-game"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A single-page prediction game for the real Squeekchain hamster wheel. Pick the next 10-minute round’s work band, stake free SP, build a streak, or challenge a second wallet. Duels and scores belong to a disclosed local league in this browser.",
       "description_origin": "readme",
@@ -1820,6 +1820,42 @@
         "paragraphs": [
           [
             {
+              "text": "This cozy 2D platformer follows a tiny hamster on a big adventure, as described on "
+            },
+            {
+              "text": "the project website",
+              "url": "https://hamster-tales.vercel.app"
+            },
+            {
+              "text": ". It invites you to explore a charming world built around this small but determined protagonist. You can learn more about the game's setting and story by visiting the site directly."
+            }
+          ]
+        ],
+        "version": 1
+      },
+      "contracts": [],
+      "description_en": "Hamster Tales: The Great Seed Adventure - a cozy 2D platformer about a tiny hamster on a big adventure.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-11-03T20:05:50.170450+00:00",
+      "id": "58d077a645d03a75",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://hamster-tales.vercel.app"
+      },
+      "name": "Hamster Tales: The Great Seed Adventure",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
               "text": "This project serves as a read-only tracker for SqueekCore settlement latency on Sepolia. It monitors batches, gaps, unsettled rounds, and alerts at one finalized block, as described in "
             },
             {
@@ -2108,6 +2144,42 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Race Squeektoshi is a rhythm arcade game for Squeekchain where you race a real hamster. As described on "
+            },
+            {
+              "text": "the project website",
+              "url": "https://race-squeektoshi-tiny-paws-big-r.imd.site"
+            },
+            {
+              "text": ", you chase recorded ghosts, manage stamina, and predict wheel rounds without needing a wallet."
+            }
+          ],
+          [
+            {
+              "text": "To understand the mechanics, start with "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/1dc37146-c532-47b9-a57d-2f8d4024fccc"
+            },
+            {
+              "text": " for context. Then visit "
+            },
+            {
+              "text": "the project website",
+              "url": "https://race-squeektoshi-tiny-paws-big-r.imd.site"
+            },
+            {
+              "text": " to see how the gameplay loop works. This trail helps you follow the specific rules and features outlined in the description."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Race a real hamster in a rhythm arcade game for Squeekchain. Chase recorded ghosts, save your stamina, and predict the next wheel round. No wallet needed.",
       "description_origin": "website",
@@ -2334,6 +2406,42 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Hatchery is a local hamster hatchery demo that uses real wheel data. As described on "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-hatchery-hatch-a-hamster.imd.site"
+            },
+            {
+              "text": ", you aim a lamp, incubate for sixty active seconds, and save your hamster."
+            }
+          ],
+          [
+            {
+              "text": "To follow the trail, start with "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/7d8f9737-cdea-4827-beb8-55366c621303"
+            },
+            {
+              "text": " for context. Then visit "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-hatchery-hatch-a-hamster.imd.site"
+            },
+            {
+              "text": " to see the specific steps for aiming the lamp and completing the incubation process."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A local hamster hatchery demo using real wheel data. Aim the lamp, incubate for 60 active seconds, and save your hamster. NFT minting is not live yet.",
       "description_origin": "website",
@@ -2730,6 +2838,49 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Wheel Raid is a cooperative browser game for Squeekchain where one to four players share a health pool to fight the Chrome Gnawer boss using Attack, Defend, and Heal actions "
+            },
+            {
+              "text": "the project website",
+              "url": "https://wheel-raid-tiny-paws-shared-boss.imd.site"
+            },
+            {
+              "text": ". It explicitly avoids wallets, wagering, custody, transfers, or private keys "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2738-build-wheel-raid-original"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To understand how this works, you can follow the details provided in the available materials. The project website offers a clear overview of the gameplay mechanics and design goals "
+            },
+            {
+              "text": "the project website",
+              "url": "https://wheel-raid-tiny-paws-shared-boss.imd.site"
+            },
+            {
+              "text": ". Other public sources provide additional context on the project's structure and intended user experience "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/26b2b01c-0384-4911-ad49-902df8a5fae4"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A playable cooperative browser game for Squeekchain. One to four raiders share a health pool and fight the original Chrome Gnawer boss with Attack, Defend and Heal. No wallets, wagering, custody, transfers, or private keys.",
       "description_origin": "readme",
@@ -4179,6 +4330,42 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Wheel Oracle is a playable, English-language community game built with React, TypeScript, and Vite. As described on "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-wheel-oracle-tiny-paws-bi.imd.site"
+            },
+            {
+              "text": ", players predict whether a real hamster’s future wheel work will be UNDER or AT/OVER, earn points, and defeat the Vacuum of the Void."
+            }
+          ],
+          [
+            {
+              "text": "The original prototype’s forest greens, lime accents, and animated wheel are preserved with new, original SVG artwork. You can explore these design choices and the game’s mechanics by reading "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2799-build-english-language-browser-game"
+            },
+            {
+              "text": " or checking "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-wheel-oracle-tiny-paws-bi.imd.site"
+            },
+            {
+              "text": " for more details."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A playable, English-language community game built with React, TypeScript and Vite. Predict UNDER or AT/OVER a real hamster’s future wheel work, earn points, and defeat the Vacuum of the Void. The original prototype’s forest greens, lime accents and animated wheel are preserved with new, original SVG artwork.",
       "description_origin": "readme",
@@ -4835,6 +5022,42 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "SQUEEK ARENA is a project where you pick a hamster, place your SQK, and win the race, as described in its public summary "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-arena-hamster-races-on-se.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To understand how this works, you can follow the trail through the available materials. Start with "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2862-build-squeek-arena-complete"
+            },
+            {
+              "text": " and then check "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/bce2e76c-0b7a-4e58-a69a-85c9063a2481"
+            },
+            {
+              "text": " for more context on the setup."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [
         {
           "address": "0x7b323e55617e7f7a7a41e5172d70ad25f462c329",
@@ -4875,6 +5098,42 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "This project is a small, static, read-only dashboard for Squeekchain on Ethereum Sepolia. The finished export lives in the dist folder, sitting right next to the React and TypeScript source code and the exact npm lockfile "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-pulse.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "You can follow the source trail by looking at the public materials provided. Start with "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2901-build-small-static-web"
+            },
+            {
+              "text": " to see the broader context, then check "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/73780568-2c81-421c-8cc8-e3c988c09996"
+            },
+            {
+              "text": " for more details. These references help you understand how the dashboard fits into the ecosystem without needing to run anything yourself."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A small, static, read-only dashboard for Squeekchain on Ethereum Sepolia. The finished export is in dist/, alongside the React/TypeScript source and exact npm lockfile.",
       "description_origin": "readme",
