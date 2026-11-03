@@ -186,6 +186,75 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Wheel Raid is a static, wallet-connected weekly boss raid powered by Squeektoshi’s real wheel "
+            },
+            {
+              "text": "the project website",
+              "url": "https://wheel-raid-small-paws-big-boss.imd.site"
+            },
+            {
+              "text": ". The delivered production website is in dist/, with source, package manifest, and lockfile included "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/1a06162a-ecd2-4e40-8ae3-f5f5e480fb65"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To follow the trail, start with the project website for context "
+            },
+            {
+              "text": "the project website",
+              "url": "https://wheel-raid-small-paws-big-boss.imd.site"
+            },
+            {
+              "text": ". Then, explore the code repository to see the underlying implementation "
+            },
+            {
+              "text": "the code repository",
+              "url": "https://github.com/identity-md-launches/launch-2923-wheel-raid"
+            },
+            {
+              "text": ". This path helps you understand how the raid operates within the ecosystem."
+            }
+          ]
+        ],
+        "version": 1
+      },
+      "contracts": [],
+      "description_en": "A static, wallet-connected weekly boss raid powered by Squeektoshi’s real wheel. The delivered production website is in dist/. Source, package manifest and lockfile are included.",
+      "description_origin": "readme",
+      "ecosystem_status": "claimed",
+      "evidence": [
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/1a06162a-ecd2-4e40-8ae3-f5f5e480fb65"
+        }
+      ],
+      "first_seen": "2026-11-03T16:48:42.169859+00:00",
+      "id": "088a0b4e4000694c",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-2923-wheel-raid",
+        "website": "https://wheel-raid-small-paws-big-boss.imd.site"
+      },
+      "logo": "logos/ae111f6806f9311211d9fb4da1bdb50ccafd873a75e29a03c20bbd4cbbb5a4f5.svg",
+      "name": "Wheel Raid",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
       "contracts": [],
       "description_en": "Follow Squeekchain’s live block height, real-world work, SQK supply, and recent settlements. An independent community dashboard.",
       "description_origin": "website",
@@ -711,39 +780,10 @@
     },
     {
       "builder": null,
-      "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "This project aims to build a polished, fun, and fully playable single-page game called \"Squeek Arena\" for Squeekchain on Sepolia. It is designed as a competitive mini-game where the outcome is influenced by the real hamster's recent on-chain activity, rather than being a simple dashboard or API wrapper "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-arena-tiny-paws-massive-s.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To understand the details, you can follow the provided source trail. These references offer context on the game's mechanics and its connection to the Squeekchain ecosystem, helping you see how the on-chain activity integrates with the gameplay experience "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2903-build-polished-fun-fully"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
+      "category": "game",
       "contracts": [],
-      "description_en": "A 35-second rhythm game powered by a real hamster. Time your boosts, chase your personal best, and let Squeektoshi's settled Squeekchain activity power your score.",
-      "description_origin": "source",
+      "description_en": "A complete, static, single-page rhythm game for Squeekchain on Ethereum Sepolia. Time your boosts, build a combo, and chase a personal best with help from Squeektoshi’s real settled wheel work. This community project was built for the Squeekchain Buildooooor badge.",
+      "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
         {
@@ -1965,6 +2005,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/edf1766e-6293-4979-bdb9-f50b6c9d72e8"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/db382aa1-2381-4916-a4dc-8b693f6bafbd"
         }
       ],
       "first_seen": "2026-11-03T05:52:01.101948+00:00",
@@ -2595,6 +2639,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/edf1766e-6293-4979-bdb9-f50b6c9d72e8"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/db382aa1-2381-4916-a4dc-8b693f6bafbd"
         }
       ],
       "first_seen": "2026-10-31T11:23:26.251920+00:00",
@@ -2608,6 +2656,35 @@
       },
       "logo": "logos/be95e66899518f06b8b8b798bb78129a2d5cf95034cd1ad63cf896704c1b9cb0.svg",
       "name": "Pip · Squeekchain Hamster Companion",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
+      "description_origin": "placeholder",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/08dd68f0-f8cc-49f2-b14f-2d8022c0f19e"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/1aca5e0b-5258-4ca1-92c6-99bafdc2d933"
+        }
+      ],
+      "first_seen": "2026-11-03T16:48:42.175258+00:00",
+      "id": "758a730c6c9844a6",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://squeekraid.imd.site"
+      },
+      "logo": "logos/f06f916da9fc814fc41804c061d6b2f28325d1c369017849d6d9cdbe1dbd2a2c.svg",
+      "name": "SqueekRaid",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -3061,7 +3138,36 @@
     },
     {
       "builder": null,
-      "category": "game",
+      "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "SqueekRace Arena invites you to race, predict, and play alongside Squeektoshi's real-world wheel activity "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-race.vercel.app"
+            },
+            {
+              "text": ". This description highlights a blend of competitive racing and interactive prediction, centered on that specific wheel mechanism. It sets the stage for an engaging experience where participants can engage with the activity directly."
+            }
+          ],
+          [
+            {
+              "text": "To understand how this works, you can explore the details provided in the documentation "
+            },
+            {
+              "text": "the documentation",
+              "url": "https://github.com/nhattung99/squeek-race/blob/HEAD/docs/RESEARCH.md"
+            },
+            {
+              "text": ". This source likely offers a clearer path through the mechanics of the race and prediction elements. Following this trail helps you see exactly how the wheel activity functions within the broader project context."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Race, Predict & Play with Squeektoshi's Real-World Wheel Activity",
       "description_origin": "readme",
@@ -3526,7 +3632,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "What your Squeeks and staked SQK earn under Squeekchain's Proof of Squeek rule, the next move for your own Squeeks, when merging pays, and what one more Squeek is worth in SQK.",
+      "description_en": "A SqueekFi planner for Squeekchain. Every completed Squeek block issues SQK, shared by power, and power comes from the Squeeks you deposit and the SQK you stake with them. This page answers the questions that rule raises, and acts on the answers",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -4978,10 +5084,10 @@
     },
     {
       "builder": null,
-      "category": "other",
+      "category": "tools",
       "contracts": [],
       "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
-      "description_origin": "readme",
+      "description_origin": "placeholder",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -5285,6 +5391,31 @@
         "website": "https://hamster-road-trip-choose-the-nex.imd.site"
       },
       "name": "Squeek’s First Road Trip",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "Myth Arena is an on-chain pvp strategy game on harmony netwpr that strongly utilized zero knowledge proof to ensure the credibility of players guesses and ensure that the game is not altered. Players go in turns to try to guess the correct items (eggs) in the opponents rack. The first person to guess the correct order…",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_code",
+          "url": "https://github.com/Abstaina44/Web3-game/blob/31d9184598962fd6231b20f2257b658d37049825/skills-lock.json"
+        }
+      ],
+      "first_seen": "2026-11-03T17:30:19.270381+00:00",
+      "id": "e8a9626c147041f8",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "github": "https://github.com/Abstaina44/Web3-game",
+        "website": "https://myth-arena.netlify.app"
+      },
+      "name": "Myth Arena",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
