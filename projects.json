@@ -1282,7 +1282,7 @@
         "paragraphs": [
           [
             {
-              "text": "Wheel Rhythm is a small, static rhythm game powered by Squeekchain's real hamster wheel. According to its README, it uses HTML, CSS, and vanilla JavaScript, with no runtime libraries, backend, account, wallet, or tracking. All artwork is original and bundled locally "
+              "text": "Wheel Rhythm is a small, static rhythm game powered by Squeekchain's real hamster wheel. It uses HTML, CSS, and vanilla JavaScript, with no runtime libraries, backend, account, wallet, or tracking. All artwork is original and bundled locally, as described on "
             },
             {
               "text": "the project website",
@@ -1294,28 +1294,21 @@
           ],
           [
             {
-              "text": "To follow the source trail, you can start with the project website "
-            },
-            {
-              "text": "the project website",
-              "url": "https://wheel-rhythm-tiny-paws-big-rhyth.imd.site"
-            },
-            {
-              "text": " for the main description. Other public sources "
+              "text": "To see how it works, you can explore the technical details in "
             },
             {
               "text": "a public source",
               "url": "https://github.com/identity-md-launches/launch-2784-build-small-browser-rhythm"
             },
             {
-              "text": " and "
+              "text": " or review the implementation notes in "
             },
             {
               "text": "a public source",
               "url": "https://explorer.imd.fun/jobs/15fab8fd-0958-42ef-ac45-1a72fa689eeb"
             },
             {
-              "text": " may offer additional context on how the game connects to the wheel data."
+              "text": ". These materials help you follow the code structure and understand how the game interacts with the wheel data."
             }
           ]
         ],
@@ -1930,15 +1923,15 @@
     },
     {
       "builder": null,
-      "category": "other",
+      "category": "game",
       "contracts": [
         {
           "address": "0xd780ecea3f58da7a3f8129ac1e8d06332107e7c9",
           "chain_id": 11155111
         }
       ],
-      "description_en": "An on-chain ecosystem candidate observed interacting with, or holding assets from, Squeekchain. Its project identity and purpose have not yet been confirmed.",
-      "description_origin": "source",
+      "description_en": "A prediction game on the Squeekchain hamster wheel. Every 10 minutes the wheel's work is counted and settled onchain by SqueekCore. You bet Sepolia ETH on whether a future round's work lands over or under a line, and the contract pays winners from the certified number. Nobody can settle it by hand, and there is no admi…",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -1973,35 +1966,6 @@
         }
       ],
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "According to its README, this is a free-to-play browser platformer and mining-colony game inspired by Squeekchain. It combines classic platforming mechanics with colony management elements, all accessible directly in your web browser without any cost."
-            }
-          ],
-          [
-            {
-              "text": "To understand the project better, you can explore the details provided in "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/NeoPortia/squeekrun"
-            },
-            {
-              "text": " or visit "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekrun.vercel.app"
-            },
-            {
-              "text": ". These sources offer the foundational information about the game's design and inspiration, helping you see what makes this particular take on the genre unique."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A free-to-play browser platformer and mining-colony game inspired by Squeekchain.",
       "description_origin": "readme",
@@ -2149,6 +2113,35 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Hamster Derby is a prediction game centered on simulated hamster-wheel races. According to "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekchain-hamster-derby.vercel.app"
+            },
+            {
+              "text": ", each round features four hamsters where you pick one and stake funds. Winners split the whole pot, and if a round cannot be settled, everyone is refunded. The project has no owner and charges no fee."
+            }
+          ],
+          [
+            {
+              "text": "To understand how this works, you can explore the details provided in "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/ekervo/Squeekchain-Hamster-Derby"
+            },
+            {
+              "text": ". This document offers further context on the mechanics and structure of the game, helping you follow the logic behind the simulated races and the settlement process described in the project's overview."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A prediction game on simulated hamster-wheel races. Each round has four hamsters: pick one, stake funds, and winners split the whole pot. If a round cannot be settled, everyone is refunded. There is no owner and no fee. Bets are placed in USDC on Arc Testnet and in ETH on Ethereum Sepolia and Base Sepolia, with test fu…",
       "description_origin": "readme",
@@ -3907,9 +3900,9 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
       "contracts": [],
-      "description_en": "Eight-second clips of a wheel turning: some are Squeektoshi's real recorded runs, and some are fakes. You hear every magnet passage and watch the gaps between passages, then call each clip hamster or robot. A small trained model calls them too. Each reveal names the tell that gave the clip away, and the score c…",
+      "description_en": "Eight-second clips of a wheel turning: some are Squeektoshi's real recorded runs, and some are fakes. You hear every magnet passage and watch the gaps between passages, then call each clip hamster or robot. A small trained model calls them too. Each reveal names the tell that gave the clip away, and the score card read…",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
