@@ -69,35 +69,6 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Companion is a free ERC-721 collection for Sepolia, featuring original SVG hamster artwork. The project uses a static React mint site that follows real Squeekchain measurements. It offers resting, active, and energetic style previews while reading actual minted companions from the collection "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-companion-a-hamster-nft-t.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To understand how this works, you can explore the provided materials. The sources detail the technical setup and the specific measurements used for the hamster designs. Reading through them helps clarify how the static site interacts with the on-chain data "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2713-build-dynamic-erc-721-nft"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A free ERC-721 companion collection for Sepolia, with a static React mint site and original SVG hamster artwork. The page follows real Squeekchain measurements, offers resting, active and energetic style previews, and reads actual minted companions from the collection.",
       "description_origin": "readme",
@@ -1548,54 +1519,40 @@
     },
     {
       "builder": null,
-      "category": "game",
+      "category": "tools",
       "checked_text": {
         "paragraphs": [
           [
             {
-              "text": "Squeek Streak is a single-page prediction game for the real Squeekchain hamster wheel. As described on "
+              "text": "Squeek Streak lets you bring your own Telegram bot to the Squeekchain hamster wheel. You configure the bot you own, choose specific moments, and send alerts directly from your browser. The project description highlights that this setup requires no backend, account, signup, wallet, or shared broadcast bot "
             },
             {
               "text": "the project website",
               "url": "https://squeek-streak-little-wheel-big-p.imd.site"
             },
             {
-              "text": ", you pick the next 10-minute round’s work band, stake free SP, build a streak, or challenge a second wallet. Duels and scores belong to a disclosed local league in this browser."
+              "text": "."
             }
           ],
           [
             {
-              "text": "To follow the details, start with "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-streak-little-wheel-big-p.imd.site"
-            },
-            {
-              "text": " for the core rules. You can also explore "
+              "text": "To understand how this works, you can follow the provided source trail. These materials explain the configuration process and the direct browser-to-bot communication. Reading through them helps clarify how you manage your own alerts without relying on external services or shared infrastructure "
             },
             {
               "text": "a public source",
               "url": "https://github.com/identity-md-launches/launch-2871-build-single-page-prediction-game"
             },
             {
-              "text": " and "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/4550a7ad-6fda-43ee-a682-deaea7328064"
-            },
-            {
-              "text": " for additional context. These materials help you understand how the local league operates within the browser environment."
+              "text": "."
             }
           ]
         ],
         "version": 1
       },
       "contracts": [],
-      "description_en": "A single-page prediction game for the real Squeekchain hamster wheel. Pick the next 10-minute round’s work band, stake free SP, build a streak, or challenge a second wallet. Duels and scores belong to a disclosed local league in this browser.",
+      "description_en": "Bring your own Telegram bot to the Squeekchain hamster wheel. Configure the bot you own, choose the moments you care about, and send alerts directly from your browser. No backend, account, signup, wallet, or shared broadcast bot.",
       "description_origin": "readme",
-      "ecosystem_status": "claimed",
+      "ecosystem_status": "weak",
       "evidence": [
         {
           "kind": "github_mention",
@@ -3604,6 +3561,35 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "This project upgrades the original game, continuing from a specific commit. It keeps existing elements like characters, physics, and dialogue, while adding progression, equipment, and saves to the same canvas game "
+            },
+            {
+              "text": "the project website",
+              "url": "https://hamster-friendship-the-lost-alic.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "You can follow the source trail to see how these features were integrated. The documentation and code repository provide details on the changes, helping you understand the development path "
+            },
+            {
+              "text": "the documentation",
+              "url": "https://github.com/identity-md-launches/launch-2971-project-hamster-friendship/blob/HEAD/docs/licenses/better-interface.txt"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "An upgrade of the original game, continuing commit 6fe0476cf3c4da8a61321e06312aac3b9b1815d9. Chang, Alice, Mrs. Pebble, the autumn forest, enemy sprites, movement physics, shield, clues, dialogue and ending remain in the existing canvas game. This is the same project, with progression, equipment and saves added.",
       "description_origin": "readme",
@@ -4092,7 +4078,7 @@
         "paragraphs": [
           [
             {
-              "text": "Squeek Burrow is an idle game for Squeekchain where you dig a burrow, collect seeds, and unlock chambers. The twist is the real hamster: while it runs on the wheel, every chamber works at triple speed. When it naps, production drops to a tenth "
+              "text": "Squeek Burrow is a 3D hamster kart racing game designed for Squeekchain. It is built using React, Three.js, and Vite. A unique feature is that all models, textures, music, and sound effects are generated directly in code, meaning there are no separate asset files "
             },
             {
               "text": "the project website",
@@ -4104,7 +4090,7 @@
           ],
           [
             {
-              "text": "To follow this trail, start with the project website for the core mechanics. You can also check a public source for additional context on how the hamster's activity influences the game's production rates "
+              "text": "To understand how this works, you can explore the technical details provided in the documentation. The public source offers a clear look at the implementation, allowing you to see exactly how the code generates the game's visual and audio elements "
             },
             {
               "text": "a public source",
@@ -4118,7 +4104,7 @@
         "version": 1
       },
       "contracts": [],
-      "description_en": "An idle game for Squeekchain. You dig a burrow, collect seeds, and unlock chambers. The twist is the real hamster: while it runs on the wheel, every chamber works at triple speed. When it naps, production drops to a tenth.",
+      "description_en": "A 3D hamster kart racing game for Squeekchain, built with React, Three.js and Vite. All models, textures, music and sound effects are generated in code, so there are no asset files.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -4473,6 +4459,35 @@
     {
       "builder": null,
       "category": "other",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Spin Art is a project where a real hamster mines Squeekchain by running in a wheel. According to "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekwheel.xyz"
+            },
+            {
+              "text": ", this nightly activity results in the creation of a unique spin-art card. It is a simple, physical process that connects animal movement to digital output."
+            }
+          ],
+          [
+            {
+              "text": "To understand how this works, you can explore the technical details in "
+            },
+            {
+              "text": "the code repository",
+              "url": "https://github.com/Rooaraak/squeek-wheel-watch/blob/main/art.js"
+            },
+            {
+              "text": ". This source offers a look at the implementation behind the hamster's mining and art generation. Reading it helps clarify the mechanics of the project."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Every night the real hamster that mines Squeekchain paints a spin-art card with his wheel.",
       "description_origin": "readme",
@@ -5750,6 +5765,49 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Real or Robot? invites you to listen to eight-second clips of a turning wheel, distinguishing Squeektoshi's real runs from fakes. You hear magnet passages and watch the gaps, then decide if each clip is hamster or robot. A small trained model makes its own call, and each reveal names the specific tell that gave the clip away "
+            },
+            {
+              "text": "the project website",
+              "url": "https://real-or-robot-squeektoshi-s-runs.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To follow this trail, start with the project website for the full context "
+            },
+            {
+              "text": "the project website",
+              "url": "https://real-or-robot-squeektoshi-s-runs.imd.site"
+            },
+            {
+              "text": ". You can also explore the other public sources to see how the audio and visual cues are presented "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2891-real-robot-static-squeekchain"
+            },
+            {
+              "text": ". Reading these materials helps you understand the listening game and the model's reasoning "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/27de4a87-4b53-4c52-b9d2-6f4f60a925f7"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Eight-second clips of a wheel turning: some are Squeektoshi's real recorded runs, and some are fakes. You hear every magnet passage and watch the gaps between passages, then call each clip hamster or robot. A small trained model calls them too. Each reveal names the tell that gave the clip away, and the score card read…",
       "description_origin": "readme",
@@ -6721,35 +6779,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Ghost Wheel lets you race a ghost of Squeektoshi's real recorded runs. You spin an on-screen wheel using your mouse, trackpad, finger, or arrow keys. A ghost replays one of his actual runs passage by passage, allowing you to compare your performance directly against his history "
-            },
-            {
-              "text": "the project website",
-              "url": "https://ghost-wheel-race-squeektoshi-s-r.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow the details, start with the project website for the core mechanics. You can also explore the other public sources to see how the counting rules apply to your passages "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2889-add-open-graph-twitter"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Race a ghost of Squeektoshi's real recorded runs. You spin an on-screen wheel with your mouse, trackpad, finger or the arrow keys. A ghost replays one of his real runs passage by passage. Your passages are counted with the WHEELY9000's published counting rules, and his real Squeek blocks pop at the exact passages that…",
       "description_origin": "readme",
