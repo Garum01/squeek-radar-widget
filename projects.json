@@ -1185,18 +1185,25 @@
               "text": "To follow the details, start with "
             },
             {
+              "text": "the project website",
+              "url": "https://squeek-streak-little-wheel-big-p.imd.site"
+            },
+            {
+              "text": " for the core rules. You can also explore "
+            },
+            {
               "text": "a public source",
               "url": "https://github.com/identity-md-launches/launch-2871-build-single-page-prediction-game"
             },
             {
-              "text": " for the core mechanics. Then check "
+              "text": " and "
             },
             {
               "text": "a public source",
               "url": "https://explorer.imd.fun/jobs/4550a7ad-6fda-43ee-a682-deaea7328064"
             },
             {
-              "text": " for more context on how the local league operates. These sources help you understand the game's structure without needing to inspect the code directly."
+              "text": " for additional context. These materials help you understand how the local league operates within the browser environment."
             }
           ]
         ],
@@ -1214,6 +1221,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/4550a7ad-6fda-43ee-a682-deaea7328064"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/b73710ed-5913-47de-88db-cc42647bb9d3"
         }
       ],
       "first_seen": "2026-11-02T09:21:31.356322+00:00",
@@ -1389,6 +1400,14 @@
         {
           "kind": "onchain_contract",
           "url": "https://eth-sepolia.blockscout.com/tx/0xc4589e1cc1aa4e51235a7bfd7005dfa1aae443c18510167f0fd7b012460ce57e"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x5d9609c1fce5f4731958bcc7fa635dcce06b01fbecc5ffc7809d3e85d903054b"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x08340f2ce517a296d4fd965a28eb9de4228d7f43d1c8f5cd37a421ca129ef700"
         },
         {
           "kind": "team_mention",
@@ -1627,6 +1646,14 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "post",
+          "label": "@mfbrat_eth",
+          "source": "https://x.com/mfbrat_eth/status/2117313998261825884",
+          "url": "https://x.com/mfbrat_eth"
+        }
+      ],
       "category": "tools",
       "contracts": [],
       "description_en": "Source for two separate Netlify sites. Neither is part of mfbrat.com.",
@@ -1636,6 +1663,10 @@
         {
           "kind": "github_mention",
           "url": "https://github.com/mfBRAT/squeektoshi-live"
+        },
+        {
+          "kind": "website",
+          "url": "https://squeekorsleep.mfbrat.com"
         }
       ],
       "first_seen": "2026-10-29T21:31:52.511814+00:00",
@@ -2181,40 +2212,16 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "The project aims to let you predict Squeekchain rounds, outwit Professor Whiskers, duel friends, and collect art made from the wheel, all centered around one real hamster "
-            },
-            {
-              "text": "the project website",
-              "url": "https://nap-or-sprint.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To understand how this works, you can explore the details directly on the project website "
-            },
-            {
-              "text": "the project website",
-              "url": "https://nap-or-sprint.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "One real hamster. Your next great call. Predict Squeekchain rounds, outwit Professor Whiskers, duel friends, and collect art made from the wheel.",
       "description_origin": "website",
       "ecosystem_status": "weak",
-      "evidence": [],
+      "evidence": [
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/aabd355e-b120-4b3f-85b3-3658dd176b3c"
+        }
+      ],
       "first_seen": "2026-11-04T03:40:42.850611+00:00",
       "id": "6163d5a78e9464c0",
       "identity_status": "resolved",
@@ -2488,49 +2495,6 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "This project serves as a community dashboard for Squeekchain, described as a proof-of-work toychain on Ethereum. It is powered by Squeektoshi, a real hamster running in the WHEELY9000, according to the supplied description "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekchain-dashboard.vercel.app"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow the source trail, you can start with "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekchain-dashboard.vercel.app"
-            },
-            {
-              "text": " for general context. Then, check "
-            },
-            {
-              "text": "the documentation",
-              "url": "https://github.com/h0xva/squeekchain-dashboard/blob/HEAD/docs/live.png"
-            },
-            {
-              "text": " for technical details and "
-            },
-            {
-              "text": "the project profile",
-              "url": "https://x.com/squeekchain"
-            },
-            {
-              "text": " for additional background information."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Live from the wheel. A community dashboard for Squeekchain — the proof-of-work toychain on Ethereum powered by Squeektoshi, a real hamster running in the WHEELY9000.",
       "description_origin": "readme",
@@ -2594,42 +2558,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Hatchery is a local hamster hatchery demo that uses real wheel data. As described on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-hatchery-hatch-a-hamster.imd.site"
-            },
-            {
-              "text": ", you aim a lamp, incubate for sixty active seconds, and save your hamster."
-            }
-          ],
-          [
-            {
-              "text": "To follow the trail, start with "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/7d8f9737-cdea-4827-beb8-55366c621303"
-            },
-            {
-              "text": " for context. Then visit "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-hatchery-hatch-a-hamster.imd.site"
-            },
-            {
-              "text": " to see the specific steps for aiming the lamp and completing the incubation process."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A local hamster hatchery demo using real wheel data. Aim the lamp, incubate for 60 active seconds, and save your hamster. NFT minting is not live yet.",
       "description_origin": "website",
@@ -2638,6 +2566,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/7d8f9737-cdea-4827-beb8-55366c621303"
+        },
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/0xvictorvn/squeek-hatchery"
         }
       ],
       "first_seen": "2026-11-02T07:16:50.486928+00:00",
@@ -2877,11 +2809,11 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
       "contracts": [],
-      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
-      "description_origin": "placeholder",
-      "ecosystem_status": "weak",
+      "description_en": "A co-op boss raid on Squeekchain: your party fights the Snooze King with the real distance the hamster runs every night. No predictions, no betting. Connect a wallet on Sepolia and claim your victory on-chain.",
+      "description_origin": "website",
+      "ecosystem_status": "claimed",
       "evidence": [
         {
           "kind": "imd_publication",
@@ -3105,6 +3037,36 @@
       },
       "logo": "logos/c4ff45090c4cf54cd010c078d72b2dc6a83fe0a831e7769e401423af2330be40.svg",
       "name": "Wheel Raid",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "An original Squeekchain puzzle and stream companion. Restore a night garden by turning conduits from a hamster-wheel source toward four flower beacons. A run contains three progressively harder 6×6 boards, a shared three-minute active-play clock, rotation limits, optional growth charges, connection streaks and combos.…",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-2918-production-site-through-imd"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/f38b54d8-e878-426b-bf2e-85c7deceb00c"
+        }
+      ],
+      "first_seen": "2026-11-04T03:25:13.307434+00:00",
+      "id": "7b40aeda2ad04585",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-2918-production-site-through-imd",
+        "website": "https://blocklight-every-block-lights-ou.imd.site"
+      },
+      "logo": "logos/da4eb34ee3561e150985ac925bb1581bd63b03f09859b2a1c5d7d0010e16baa9.svg",
+      "name": "Squeek Signal Garden",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -4062,6 +4024,12 @@
       "logo": "logos/fb53d7e32e2fce52297501c3b12ec3c35051b3d5d4e60e2245e5c620934d6f20.svg",
       "name": "SqueekPet",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "9cc243ffda688f30",
+          "name": "SqueekOptimizer"
+        }
+      ],
       "stage": "unknown"
     },
     {
@@ -4223,6 +4191,42 @@
       "logo": "logos/5f0565fca758cb79c27cf0e132fdffd8480c899645e668a47d82778dda4cc98a.svg",
       "name": "Squeek Merge Desk",
       "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "A non-custodial Squeekchain utility. Discover your Squeek NFTs, claim testnet SQK and safely preview merges on Ethereum Sepolia.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-2942-build-deploy-squeekoptimizer-premium"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/cc271d2e-67ee-43ca-a41c-161e00ce8bc9"
+        }
+      ],
+      "first_seen": "2026-11-04T02:38:16.222693+00:00",
+      "id": "9cc243ffda688f30",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-2942-build-deploy-squeekoptimizer-premium",
+        "website": "https://squeekoptimizer-your-squeeks-wor.imd.site"
+      },
+      "logo": "logos/059e371a1e00ad110dc95a97e0f37e701a6861233ad6c1ca8971915c47000bc8.svg",
+      "name": "SqueekOptimizer",
+      "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "952a848999c3bf15",
+          "name": "SqueekPet"
+        }
+      ],
       "stage": "unknown"
     },
     {
@@ -5192,6 +5196,14 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "post",
+          "label": "@eli_802",
+          "source": "https://x.com/Eli_802/status/2117288952319385914",
+          "url": "https://x.com/eli_802"
+        }
+      ],
       "category": "tools",
       "checked_text": {
         "paragraphs": [
