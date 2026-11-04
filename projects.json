@@ -1450,8 +1450,8 @@
           "chain_id": 11155111
         }
       ],
-      "description_en": "An on-chain ecosystem candidate observed interacting with, or holding assets from, Squeekchain. Its project identity and purpose have not yet been confirmed.",
-      "description_origin": "source",
+      "description_en": "Solidity implementation of the approved Squeek Wars Testnet season on Sepolia. This repository supplies the contract-stage source, tests, ABI exports, deployment parameters, and review handoff. Publication, the independently generated launch.json, independent adversarial review, deployment, and the…",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -1877,10 +1877,10 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
       "contracts": [],
-      "description_en": "# Burrow Raid — 3D community boss battle Build and publicly ship a finished original 3D browser game for the Squeekchain Genesis Code lane. The customer selected a stylized 3D community boss battle after rejecting a garden-game concept. Do not build a garden game, tracker, dashboard or landing page. Use this prototype as a starting point for gam...",
-      "description_origin": "source",
+      "description_en": "A finished playable 3D hamster boss battle in one miniature, mushroom-lit arena. Choose Fighter, Guardian or Medic, dodge the Cable Gnawer, and defend the burrow. The default game is practice with two labelled bot companions and simulated bonus recharge.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -2210,7 +2210,7 @@
       "verified_by_squeek": {
         "last_checked": "2026-11-03T21:21:14.526201+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
-        "stale": false,
+        "stale": true,
         "verified_at": "2026-10-29T21:37:44.874000+00:00",
         "version": 1
       }
@@ -2317,7 +2317,7 @@
       "verified_by_squeek": {
         "last_checked": "2026-11-03T21:21:14.526201+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
-        "stale": false,
+        "stale": true,
         "verified_at": "2026-11-03T20:27:41.024000+00:00",
         "version": 1
       }
@@ -3394,7 +3394,7 @@
       "verified_by_squeek": {
         "last_checked": "2026-11-03T21:21:14.526201+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
-        "stale": false,
+        "stale": true,
         "verified_at": "2026-11-03T20:13:21.294000+00:00",
         "version": 1
       }
@@ -3719,7 +3719,7 @@
       "verified_by_squeek": {
         "last_checked": "2026-11-03T21:21:14.526201+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
-        "stale": false,
+        "stale": true,
         "verified_at": "2026-10-29T18:51:42.010000+00:00",
         "version": 1
       }
@@ -4982,7 +4982,7 @@
       "verified_by_squeek": {
         "last_checked": "2026-11-03T21:21:14.526201+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
-        "stale": false,
+        "stale": true,
         "verified_at": "2026-10-29T21:36:12.155000+00:00",
         "version": 1
       }
@@ -5473,8 +5473,8 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "Read-only lookup of a wallet's Squeeks and SQK balance on Squeekchain (Sepolia testnet).",
-      "description_origin": "website",
+      "description_en": "A small read-only tool that looks up a wallet on Squeekchain, the hamster-powered proof-of-work toychain. Give it an address and it shows",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [],
       "first_seen": "2026-11-03T22:46:59.722904+00:00",
@@ -5860,7 +5860,7 @@
       "verified_by_squeek": {
         "last_checked": "2026-11-03T21:21:14.526201+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
-        "stale": false,
+        "stale": true,
         "verified_at": "2026-10-29T20:44:51.266000+00:00",
         "version": 1
       }
@@ -6248,7 +6248,7 @@
       "verified_by_squeek": {
         "last_checked": "2026-11-03T21:21:14.526201+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
-        "stale": false,
+        "stale": true,
         "verified_at": "2026-11-03T20:48:31.131000+00:00",
         "version": 1
       }
@@ -6936,7 +6936,7 @@
       "verified_by_squeek": {
         "last_checked": "2026-11-03T21:21:14.526201+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
-        "stale": false,
+        "stale": true,
         "verified_at": "2026-10-29T22:39:31.786000+00:00",
         "version": 1
       }
@@ -6998,7 +6998,7 @@
       "verified_by_squeek": {
         "last_checked": "2026-11-03T21:21:14.526201+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
-        "stale": false,
+        "stale": true,
         "verified_at": "2026-10-29T21:55:44.291000+00:00",
         "version": 1
       }
