@@ -3561,35 +3561,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "This project upgrades the original game, continuing from a specific commit. It keeps existing elements like characters, physics, and dialogue, while adding progression, equipment, and saves to the same canvas game "
-            },
-            {
-              "text": "the project website",
-              "url": "https://hamster-friendship-the-lost-alic.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "You can follow the source trail to see how these features were integrated. The documentation and code repository provide details on the changes, helping you understand the development path "
-            },
-            {
-              "text": "the documentation",
-              "url": "https://github.com/identity-md-launches/launch-2971-project-hamster-friendship/blob/HEAD/docs/licenses/better-interface.txt"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "An upgrade of the original game, continuing commit 6fe0476cf3c4da8a61321e06312aac3b9b1815d9. Chang, Alice, Mrs. Pebble, the autumn forest, enemy sprites, movement physics, shield, clues, dialogue and ending remain in the existing canvas game. This is the same project, with progression, equipment and saves added.",
       "description_origin": "readme",
@@ -3598,6 +3569,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/6d6ccaf8-fd0f-4f65-a8dc-201f8ba2c326"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/700a1364-933c-4fbd-97af-7cf551640e00"
         }
       ],
       "first_seen": "2026-11-04T18:55:35.715126+00:00",
