@@ -1458,6 +1458,10 @@
         {
           "kind": "team_mention",
           "url": "https://x.com/pillheadddd/status/2117731749459284235"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x131719036c8f6b9610fd87726c836535301e0880e99d87634de8ec673ba80168"
         }
       ],
       "first_seen": "2026-10-31T20:13:44.178169+00:00",
@@ -1603,36 +1607,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Wheelbound presents the endless journey of Squeektoshi, a story written by the wheel. As described on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://wheelbound.imd.site"
-            },
-            {
-              "text": ", every settled Squeekchain round moves the narrative forward, creating a continuous tale driven by on-chain activity."
-            }
-          ],
-          [
-            {
-              "text": "To follow this evolving story, you can explore the details provided in "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/fb094a7a-f3cc-4b13-bff7-6ac260178b6e"
-            },
-            {
-              "text": ". This resource helps you understand how the rounds connect to the broader narrative, allowing you to trace the path of Squeektoshi as the journey unfolds."
-            }
-          ]
-        ],
-        "version": 1
-      },
+      "category": "other",
       "contracts": [],
       "description_en": "The endless journey of Squeektoshi, written by the wheel. Every settled Squeekchain round moves the story forward.",
       "description_origin": "website",
@@ -1641,6 +1616,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/fb094a7a-f3cc-4b13-bff7-6ac260178b6e"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/a1f07156-8c72-46d6-89aa-c605f8fd7822"
         }
       ],
       "first_seen": "2026-11-04T05:53:28.165089+00:00",
@@ -3921,23 +3900,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "SQUEEK KINGDOM is an original, playable hamster strategy game designed for the SqueekChain ecosystem. According to "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-kingdom-a-little-kingdom.imd.site"
-            },
-            {
-              "text": ", the export is located in the dist directory. You can serve this folder with any static web host, as asset paths are relative and navigation uses URL hashes, allowing it to work under a gateway subpath."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "An original, playable hamster strategy game for the SqueekChain ecosystem. The export is in dist/. Serve that directory with any static web host; asset paths are relative and navigation uses URL hashes, so it also works under a gateway subpath. Publishing is handled by the assignment’s hosting plane.",
       "description_origin": "readme",
@@ -4328,6 +4290,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/69dc4e3d-4014-4001-bb67-bedd1aa9bbe0"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/de0669b1-0e1d-45f3-a13b-023a645607ea"
         }
       ],
       "first_seen": "2026-11-02T18:44:02.551416+00:00",
@@ -4832,6 +4798,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/a0900c1f-816e-4b58-8d12-17fa713acaaf"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/3b615338-19df-4864-a61c-aa0f4915cd88"
         }
       ],
       "first_seen": "2026-11-04T04:53:09.759685+00:00",
@@ -6328,7 +6298,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "nft",
       "contracts": [
         {
           "address": "0x264730e600808321053729bf3445ffb611c67221",
