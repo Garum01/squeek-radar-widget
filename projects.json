@@ -1032,6 +1032,14 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "post",
+          "label": "@elshan01539513",
+          "source": "https://x.com/elshan01539513/status/2117317063475900554",
+          "url": "https://x.com/elshan01539513"
+        }
+      ],
       "category": "game",
       "checked_text": {
         "paragraphs": [
@@ -1375,6 +1383,14 @@
           "url": "https://eth-sepolia.blockscout.com/tx/0xd402032557e74cf3432a5ad51ba5965f66d96cd55e09daf5a7a97ce069bff725"
         },
         {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x46573fd8755c65ab97f9fe5b9797c9da70ab9fb5f2f95ffc0373117ae941d27b"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0xc4589e1cc1aa4e51235a7bfd7005dfa1aae443c18510167f0fd7b012460ce57e"
+        },
+        {
           "kind": "team_mention",
           "url": "https://x.com/pillheadddd/status/2117731749459284235"
         }
@@ -1676,7 +1692,7 @@
         "paragraphs": [
           [
             {
-              "text": "Squeek Out is a game of nerve where you ride Squeektoshi's wheel and must bail before he stops. It runs on Squeekchain, described as a hamster-powered blockchain. You can learn more about this playful concept directly from "
+              "text": "Squeek Out is a game of nerve where you ride Squeektoshi's wheel and bail before he stops, all happening on Squeekchain, the hamster-powered blockchain "
             },
             {
               "text": "the project website",
@@ -1688,14 +1704,14 @@
           ],
           [
             {
-              "text": "To understand the mechanics, start by visiting "
+              "text": "To understand how this works, you can check the project website for more details on the mechanics and the unique blockchain environment "
             },
             {
               "text": "the project website",
               "url": "https://squeekout.fun"
             },
             {
-              "text": ". It offers the primary details about the game and its unique setting. Reading this source will help you follow the trail of how this specific experience works within its ecosystem."
+              "text": "."
             }
           ]
         ],
@@ -1836,13 +1852,6 @@
     },
     {
       "builder": null,
-      "builder_links": [
-        {
-          "label": "@defsnotneo",
-          "source": "https://squeekrun.vercel.app",
-          "url": "https://x.com/defsnotneo"
-        }
-      ],
       "category": "game",
       "contracts": [],
       "description_en": "A free-to-play browser platformer and mining-colony game inspired by Squeekchain.",
@@ -1852,6 +1861,14 @@
         {
           "kind": "github_mention",
           "url": "https://github.com/NeoPortia/squeekrun"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/aa5137f1-2e01-48d1-97d2-46dc54c4ff1f"
+        },
+        {
+          "kind": "website",
+          "url": "https://squeekrun.vercel.app"
         }
       ],
       "first_seen": "2026-10-30T16:57:28.121789+00:00",
@@ -1860,7 +1877,7 @@
       "lifecycle_stage": "unknown",
       "links": {
         "github": "https://github.com/NeoPortia/squeekrun",
-        "website": "https://squeekrun.vercel.app"
+        "website": "https://squeekrun-crystal-caverns.imd.site"
       },
       "name": "SqueekRun: Crystal Caverns",
       "publication_origin": "owner_approved",
@@ -2052,7 +2069,7 @@
               "url": "https://squeekchain-hamster-derby.vercel.app"
             },
             {
-              "text": ", each round features four hamsters where you pick one and stake funds. Winners split the whole pot, and if a round cannot be settled, everyone is refunded. The project has no owner and charges no fee."
+              "text": ", each round features four hamsters where you pick one and stake funds. Winners split the entire pot, and if a round cannot be settled, everyone receives a refund. The system has no owner and charges no fees."
             }
           ],
           [
@@ -2064,7 +2081,7 @@
               "url": "https://github.com/ekervo/Squeekchain-Hamster-Derby"
             },
             {
-              "text": ". This document offers further context on the mechanics and structure of the game, helping you follow the logic behind the simulated races and the settlement process described in the project's overview."
+              "text": ". This document offers further context on the mechanics and structure of the game, helping you follow the logic behind the betting and settlement process."
             }
           ]
         ],
@@ -2095,6 +2112,35 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Pip is a 3D hamster game built as a static site, designed for visitors to pet, feed, and grow their companion over real time. This specific revision focuses on repairing a previously published texture failure, ensuring the five authored growth meshes display correctly as described in the project overview "
+            },
+            {
+              "text": "the project website",
+              "url": "https://pip-squeekchain-hamster-com-edf1.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To understand how this works, you can follow the technical details provided in the public records. These sources outline the specific changes made to the Vite and React setup, helping you see exactly how the visual issues were addressed in this continued build "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2907-new-project-pip"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "The Pip hamster game as a static Vite + React + TypeScript site, continued from b6aee41c5919311d4fa19a6a0cba9f961497fe9f. This revision repairs the published texture failure. Pip is a 3D hamster (five authored growth meshes from the reference build) that visitors pet, feed, play with and grow over real time. It also of…",
       "description_origin": "readme",
@@ -2139,45 +2185,51 @@
         "paragraphs": [
           [
             {
-              "text": "SqueekPack: Jetstream Run is a responsive retro arcade game driven by Squeektoshi’s real wheel telemetry. As described in "
+              "text": "The project aims to let you predict Squeekchain rounds, outwit Professor Whiskers, duel friends, and collect art made from the wheel, all centered around one real hamster "
             },
             {
               "text": "the project website",
-              "url": "https://squeekpack-jetstream-run.imd.site"
+              "url": "https://nap-or-sprint.imd.site"
             },
             {
-              "text": ", players boost a helmeted hamster through a procedural copper mine, collect coins and Golden Nuts, and sign a high score with an EVM wallet."
+              "text": "."
             }
           ],
           [
             {
-              "text": "To follow the source trail, start with "
+              "text": "To understand how this works, you can explore the details directly on the project website "
             },
             {
               "text": "the project website",
-              "url": "https://squeekpack-jetstream-run.imd.site"
+              "url": "https://nap-or-sprint.imd.site"
             },
             {
-              "text": " for the core gameplay loop. You can then explore "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2802-what-site-squeekpack-jetstream"
-            },
-            {
-              "text": " and "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/659019c0-0dd7-418c-9f38-8e62f8e0401d"
-            },
-            {
-              "text": " to see how the telemetry and scoring mechanics are presented in the broader ecosystem."
+              "text": "."
             }
           ]
         ],
         "version": 1
       },
+      "contracts": [],
+      "description_en": "One real hamster. Your next great call. Predict Squeekchain rounds, outwit Professor Whiskers, duel friends, and collect art made from the wheel.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-11-04T03:40:42.850611+00:00",
+      "id": "6163d5a78e9464c0",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://nap-or-sprint.imd.site"
+      },
+      "logo": "logos/cafdc25ee900d30cec1b435fababe7edba7e5b73ef4b5113beb751dcc76306f7.svg",
+      "name": "Nap or Sprint?",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "game",
       "contracts": [],
       "description_en": "A responsive retro arcade driven by Squeektoshi’s real wheel telemetry. Boost a helmeted hamster through a procedural copper mine, collect coins and Golden Nuts, and sign a high score with an EVM wallet.",
       "description_origin": "readme",
@@ -2629,6 +2681,49 @@
     {
       "builder": "CelerityCodes",
       "category": "defi",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "The developer describes quadConnect as an automated vault. It combines Squeekchain mining with hourly long and short strategies, plus compounding, according to the project's own description "
+            },
+            {
+              "text": "the project website",
+              "url": "https://quad.cx"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To see how this works, you can follow the trail from "
+            },
+            {
+              "text": "a team post",
+              "url": "https://x.com/pillheadddd/status/2112707335022166376"
+            },
+            {
+              "text": " to "
+            },
+            {
+              "text": "the code repository",
+              "url": "https://github.com/clrhc/quadConnect"
+            },
+            {
+              "text": ". Reading "
+            },
+            {
+              "text": "the announcement",
+              "url": "https://x.com/CelerityCodes/status/2112654209430827034"
+            },
+            {
+              "text": " might also help you understand the setup better."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "The developer describes an automated vault combining Squeekchain mining, hourly long/short strategies and compounding. A testnet has been announced; the contract and live operation have not been independently confirmed.",
       "description_origin": "source",
@@ -3752,6 +3847,41 @@
     {
       "builder": null,
       "category": "tools",
+      "contracts": [],
+      "description_en": "A static, browser-only daily hamster tarot reading for any Ethereum address. Built with React, TypeScript and Vite. The production website is in dist/; it includes its fonts, 22 original SVG cards, card back, favicon, share image and a genuine dated Sepolia snapshot.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-2731-build-squeekscope-static-website"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/b4d3a548-6f7d-4139-9295-633e0abd5b29"
+        },
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0x980b4424c007caf7a1f3670b48c8eaef7ebc3d44"
+        }
+      ],
+      "first_seen": "2026-10-30T15:11:27.051992+00:00",
+      "id": "8eca90f2878108d1",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "docs": "https://github.com/identity-md-launches/launch-2731-build-squeekscope-static-website/blob/HEAD/docs/validation.md",
+        "github": "https://github.com/identity-md-launches/launch-2731-build-squeekscope-static-website",
+        "website": "https://squeekscope-daily-hamster-tarot.imd.site"
+      },
+      "logo": "logos/e5c377abb5588feaced4af922154f5edb373fbfd8cc0165b43941bf1f825e07c.svg",
+      "name": "Squeekscope",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
       "checked_text": {
         "paragraphs": [
           [
@@ -3906,6 +4036,36 @@
     },
     {
       "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "A little hamster. A living world. Adopt your pixel companion, make a cozy home, and grow together with Squeektoshi’s real wheel activity.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-2925-build-deploy-squeekpet-living"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/a077cfb9-164e-4dea-aec9-33c7bbe8a4c8"
+        }
+      ],
+      "first_seen": "2026-11-03T16:14:21.222374+00:00",
+      "id": "952a848999c3bf15",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-2925-build-deploy-squeekpet-living",
+        "website": "https://squeekpet-living-evolution.imd.site"
+      },
+      "logo": "logos/fb53d7e32e2fce52297501c3b12ec3c35051b3d5d4e60e2245e5c620934d6f20.svg",
+      "name": "SqueekPet",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
       "category": "tools",
       "contracts": [],
       "description_en": "Squeek Pulse — independent, read-only SqueekChain community analytics. Explore wheel activity, settled blocks, SQK issuance and Squeek ownership on Sepolia.",
@@ -3950,6 +4110,31 @@
       },
       "logo": "logos/9388afe0a5cb2597bf40031cb3ca7ff8ee59849fa770f9eb5564251e53499326.svg",
       "name": "SQUEEK PENALTY",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "Mở http://localhost:8000/ trong trình duyệt.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/tidavn/squeek-aura-planner"
+        }
+      ],
+      "first_seen": "2026-11-04T03:40:20.138860+00:00",
+      "id": "98e134b0920a3376",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "github": "https://github.com/tidavn/squeek-aura-planner",
+        "website": "https://squeek-aura-planner.vercel.app"
+      },
+      "name": "Squeek Aura Planner",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
