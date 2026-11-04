@@ -2155,6 +2155,13 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "label": "@defsnotneo",
+          "source": "https://squeekrun-crystal-caverns.imd.site",
+          "url": "https://x.com/defsnotneo"
+        }
+      ],
       "category": "game",
       "contracts": [],
       "description_en": "A free-to-play browser platformer and mining-colony game inspired by Squeekchain.",
@@ -2483,6 +2490,13 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "label": "@lorisnyder8612",
+          "source": "https://nap-or-sprint.imd.site",
+          "url": "https://x.com/lorisnyder8612"
+        }
+      ],
       "category": "game",
       "checked_text": {
         "paragraphs": [
@@ -3071,6 +3085,42 @@
     {
       "builder": null,
       "category": "defi",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Hamster Mining Reserve lets you pool Squeekchain Squeeks to reach high mining levels that are too expensive for one person, aiming for roughly double the mining power. This is an IMD and Squeekchain build "
+            },
+            {
+              "text": "the project website",
+              "url": "https://hamstermining.energy"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To understand how this works, you can follow the details in "
+            },
+            {
+              "text": "a public source",
+              "url": "https://eth-sepolia.blockscout.com/address/0x18a974ec34e748574c83ae8140ef7faa3904bc24"
+            },
+            {
+              "text": " or check "
+            },
+            {
+              "text": "the project website",
+              "url": "https://hamstermining.energy"
+            },
+            {
+              "text": " for more context on the pooling mechanism."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [
         {
           "address": "0x18a974ec34e748574c83ae8140ef7faa3904bc24",
@@ -4522,6 +4572,49 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Merge Desk is a community utility for the Squeekchain Buildooooor badge. It helps you review Genesis Squeeks and prepare unsigned merge calls on Sepolia, ensuring your wallet signs everything while the app never touches your private key "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-merge-desk-genesis-holder.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To follow the details, start with "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-merge-desk-genesis-holder.imd.site"
+            },
+            {
+              "text": " for the main overview. You can then explore "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2919-squeek-merge-desk"
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/22fcac30-9ccf-4e39-8db2-3991bff4b7f1"
+            },
+            {
+              "text": " to see how the merge pairs and staking comparisons are presented in practice."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A community project for the Squeekchain Buildooooor badge. This English-first, dark-theme holder utility runs on Sepolia only. Review Genesis Squeeks, choose a concrete merge pair or compare additional SQK staking, and prepare unsigned claim/merge calls. Your wallet signs; the app never requests or stores a private key…",
       "description_origin": "readme",
@@ -4753,35 +4846,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Sprouts lets you plant a tiny pixel garden powered by Squeektoshi's real wheel work, as described in "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/4181c929-08b1-4f0c-9a05-892db1676534"
-            },
-            {
-              "text": ". You can grow, harvest, and collect golden crops on Squeekchain without needing a wallet or gas."
-            }
-          ],
-          [
-            {
-              "text": "To see how this works, check "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-sprouts-a-little-garden-p.imd.site"
-            },
-            {
-              "text": " for more details. It offers a clear look at the garden mechanics and how your wheel activity translates into digital crops."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Plant a tiny pixel garden powered by Squeektoshi's real wheel work. Grow, harvest and collect golden crops on Squeekchain. No wallet or gas.",
       "description_origin": "website",
@@ -4856,10 +4920,18 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "builder_links": [
+        {
+          "kind": "post",
+          "label": "@nammcamm",
+          "source": "https://x.com/nammcamm/status/2117944019150082546",
+          "url": "https://x.com/nammcamm"
+        }
+      ],
+      "category": "game",
       "contracts": [],
-      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
-      "description_origin": "placeholder",
+      "description_en": "A Flappy-style browser game where players fly a hamster through bamboo columns on maps seeded by live Squeekchain rounds, featuring power-ups and friend challenges.",
+      "description_origin": "website_ai",
       "ecosystem_status": "weak",
       "evidence": [
         {
