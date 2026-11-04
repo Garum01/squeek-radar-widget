@@ -456,11 +456,11 @@
         "paragraphs": [
           [
             {
-              "text": "VeilHub aims to provide a Sepolia-only environment for Squeek NFT rental escrow and temporary usage registry. It uses a Next.js frontend with wagmi and viem to manage these interactions. You can learn more about this specific setup in "
+              "text": "VeilHub is a Sepolia-only project designed for Squeek NFT rental escrow and temporary usage registry. It uses a Next.js frontend with wagmi and viem to manage these interactions "
             },
             {
               "text": "the project website",
-              "url": "https://subletsqk.vercel.app"
+              "url": "https://veilhubs.xyz"
             },
             {
               "text": "."
@@ -468,21 +468,21 @@
           ],
           [
             {
-              "text": "To follow the technical details, start with "
+              "text": "To understand how this works, you can explore the technical details in "
+            },
+            {
+              "text": "the documentation",
+              "url": "https://www.veilhubs.xyz/docs/"
+            },
+            {
+              "text": ". For broader context, "
             },
             {
               "text": "a public source",
               "url": "https://github.com/JohnsonNguyen-coll/VeilHub"
             },
             {
-              "text": " for an overview. Then, dive deeper into the implementation specifics by reading "
-            },
-            {
-              "text": "the documentation",
-              "url": "https://subletsqk.vercel.app/docs/"
-            },
-            {
-              "text": ". This path helps you understand how the registry functions within the test network."
+              "text": " offers additional background on the project's development and goals."
             }
           ]
         ],
@@ -496,6 +496,10 @@
         {
           "kind": "github_mention",
           "url": "https://github.com/JohnsonNguyen-coll/VeilHub"
+        },
+        {
+          "kind": "website",
+          "url": "https://subletsqk.vercel.app"
         }
       ],
       "first_seen": "2026-11-04T10:15:38.956788+00:00",
@@ -503,9 +507,9 @@
       "identity_status": "resolved",
       "lifecycle_stage": "unknown",
       "links": {
-        "docs": "https://subletsqk.vercel.app/docs/",
+        "docs": "https://www.veilhubs.xyz/docs/",
         "github": "https://github.com/JohnsonNguyen-coll/VeilHub",
-        "website": "https://subletsqk.vercel.app"
+        "website": "https://veilhubs.xyz"
       },
       "logo": "logos/5c65f3b1be8c2cc41382fd007b72afdbf3ff9cd50118ecec73f272f17d00ce7d.png",
       "name": "VeilHub",
@@ -811,8 +815,7 @@
       "links": {
         "docs": "https://github.com/identity-md-launches/launch-2705-build-squeek-odometer-single-page/blob/HEAD/docs/validation.md",
         "github": "https://github.com/identity-md-launches/launch-2705-build-squeek-odometer-single-page",
-        "website": "https://squeek-odometer-little-paws-live.imd.site",
-        "x": "https://x.com/squeekchain"
+        "website": "https://squeek-odometer-little-paws-live.imd.site"
       },
       "logo": "logos/27826281bccb180c85071eee64909b57b69540efeaffff6923a73470fc06811b.svg",
       "name": "Squeek Odometer",
@@ -905,8 +908,7 @@
       "links": {
         "docs": "https://github.com/olric3015/squeektoshi-status/blob/HEAD/docs/preview.png",
         "github": "https://github.com/olric3015/squeektoshi-status#install-2-minutes",
-        "website": "https://squeek-keeper.imd.site",
-        "x": "https://x.com/squeektoshi"
+        "website": "https://squeek-keeper.imd.site"
       },
       "logo": "logos/22770565c1ef6d0262a896375fcf990ed0996832f7d2f78b7aecc83608b87cac.png",
       "name": "Squeek Keeper",
@@ -2577,23 +2579,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "This cozy 2D platformer follows a tiny hamster on a big adventure, as described on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://hamster-tales.vercel.app"
-            },
-            {
-              "text": ". It invites you to explore a charming world built around this small but determined protagonist. You can learn more about the game's setting and story by visiting the site directly."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Hamster Tales: The Great Seed Adventure - a cozy 2D platformer about a tiny hamster on a big adventure.",
       "description_origin": "website",
@@ -2974,6 +2959,14 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "post",
+          "label": "@chotim_chimto",
+          "source": "https://x.com/chotim_chimto/status/2117329698338521507",
+          "url": "https://x.com/chotim_chimto"
+        }
+      ],
       "category": "game",
       "contracts": [],
       "description_en": "A turn-based tower climb built on real data from Squeekchain. Every settled round in which the hamster did work is one floor. The round's work sets the floor type, its hash sets the enemies, map and weather, and long naps leave treasure chests.",
@@ -3005,42 +2998,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Race Squeektoshi is a rhythm arcade game for Squeekchain where you race a real hamster. As described on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://race-squeektoshi-tiny-paws-big-r.imd.site"
-            },
-            {
-              "text": ", you chase recorded ghosts, manage stamina, and predict wheel rounds without needing a wallet."
-            }
-          ],
-          [
-            {
-              "text": "To understand the mechanics, start with "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/1dc37146-c532-47b9-a57d-2f8d4024fccc"
-            },
-            {
-              "text": " for context. Then visit "
-            },
-            {
-              "text": "the project website",
-              "url": "https://race-squeektoshi-tiny-paws-big-r.imd.site"
-            },
-            {
-              "text": " to see how the gameplay loop works. This trail helps you follow the specific rules and features outlined in the description."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Race a real hamster in a rhythm arcade game for Squeekchain. Chase recorded ghosts, save your stamina, and predict the next wheel round. No wallet needed.",
       "description_origin": "website",
@@ -3167,49 +3124,6 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "This project serves as a community dashboard for Squeekchain, described as a proof-of-work toychain on Ethereum. It is powered by Squeektoshi, a real hamster running in the WHEELY9000, according to the supplied description "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekchain-dashboard.vercel.app"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow the source trail, you can start with "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekchain-dashboard.vercel.app"
-            },
-            {
-              "text": " for general context. Then, check "
-            },
-            {
-              "text": "the documentation",
-              "url": "https://github.com/h0xva/squeekchain-dashboard/blob/HEAD/docs/live.png"
-            },
-            {
-              "text": " for technical details and "
-            },
-            {
-              "text": "the project profile",
-              "url": "https://x.com/squeekchain"
-            },
-            {
-              "text": " for additional background information."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Live from the wheel. A community dashboard for Squeekchain — the proof-of-work toychain on Ethereum powered by Squeektoshi, a real hamster running in the WHEELY9000.",
       "description_origin": "readme",
@@ -3227,8 +3141,7 @@
       "links": {
         "docs": "https://github.com/h0xva/squeekchain-dashboard/blob/HEAD/docs/live.png",
         "github": "https://github.com/h0xva/squeekchain-dashboard",
-        "website": "https://squeekchain-dashboard.vercel.app",
-        "x": "https://x.com/squeekchain"
+        "website": "https://squeekchain-dashboard.vercel.app"
       },
       "name": "Squeekchain community dashboard",
       "publication_origin": "owner_approved",
@@ -3967,44 +3880,6 @@
     {
       "builder": "Vizou01",
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "The Last Wheel describes a frozen city kept alive by a real hamster on Squeekchain, where every turn of his wheel heats the town "
-            },
-            {
-              "text": "the project website",
-              "url": "https://thelastwheel.app"
-            },
-            {
-              "text": ". To follow this story, start with "
-            },
-            {
-              "text": "the announcement",
-              "url": "https://x.com/Vizou01/status/2117639707651899546"
-            },
-            {
-              "text": " for context, then check "
-            },
-            {
-              "text": "a team post",
-              "url": "https://x.com/pillheadddd/status/2117729165218582875"
-            },
-            {
-              "text": " and "
-            },
-            {
-              "text": "the project profile",
-              "url": "https://x.com/squeekchain"
-            },
-            {
-              "text": " for more details."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A frozen city kept alive by a real hamster on Squeekchain. Every turn of his wheel heats the town.",
       "description_origin": "website",
@@ -4021,8 +3896,7 @@
       "lifecycle_stage": "unknown",
       "links": {
         "announcement": "https://x.com/Vizou01/status/2117639707651899546",
-        "website": "https://thelastwheel.app",
-        "x": "https://x.com/squeekchain"
+        "website": "https://thelastwheel.app"
       },
       "name": "The Last Wheel",
       "publication_origin": "owner_approved",
@@ -4456,8 +4330,7 @@
       "identity_status": "resolved",
       "lifecycle_stage": "unknown",
       "links": {
-        "website": "https://squeek-wake-raid-wheely9000-sire.imd.site",
-        "x": "https://x.com/squeekchain"
+        "website": "https://squeek-wake-raid-wheely9000-sire.imd.site"
       },
       "logo": "logos/a851e19e59d821c4e3c37312465771f23e273b04a0f192819a23b6c78a399b99.svg",
       "name": "Squeek Wake & Raid",
@@ -4478,8 +4351,7 @@
       "lifecycle_stage": "unknown",
       "links": {
         "github": "https://github.com/Rooaraak/squeek-wheel-watch/blob/main/art.js",
-        "website": "https://squeekwheel.xyz",
-        "x": "https://x.com/squeekchain"
+        "website": "https://squeekwheel.xyz"
       },
       "name": "Squeek Spin Art",
       "publication_origin": "owner_approved",
@@ -5697,6 +5569,29 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "SqueekFi serves as a read-only console for Squeekchain's public Sepolia data, specifically designed for Hamster-to-Holder interactions. It allows users to view information without modifying any underlying records, keeping the experience strictly observational. "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekfi.vercel.app"
+            }
+          ],
+          [
+            {
+              "text": "To understand how this works, you can explore the details provided in the public documentation. This source trail helps clarify the specific data points available within the console. "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/tommycuong1904/squeekfi"
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A read-only Hamster-to-Holder Console for Squeekchain's public Sepolia data.",
       "description_origin": "readme",
@@ -5962,8 +5857,7 @@
       "lifecycle_stage": "unknown",
       "links": {
         "github": "https://github.com/nh0cksh0ck02/squeekchain-genesis-hamster",
-        "website": "https://squeekchain-genesis-the-rebellio.imd.site",
-        "x": "https://twitter.com/squeekchain"
+        "website": "https://squeekchain-genesis-the-rebellio.imd.site"
       },
       "logo": "logos/ef07dfccad87d323940d4f2219d4a95f13357a0a3cd6c382a4dd0c841ec1b671.svg",
       "name": "Squeekchain Genesis",
@@ -6038,49 +5932,6 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "This project is a sourced, one-page parody investigation into the hamster and SqueekChain. The footer clearly identifies it as an unofficial fan parody, not affiliated with SqueekChain "
-            },
-            {
-              "text": "the project website",
-              "url": "https://whoissqueektoshi.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "You can follow the source trail through several public sources "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2757-who-squeektoshi-parody-investigation"
-            },
-            {
-              "text": " "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/b61deef7-be3e-40b9-9bb0-bc25df7d81c8"
-            },
-            {
-              "text": " "
-            },
-            {
-              "text": "a public source",
-              "url": "https://eth-sepolia.blockscout.com/address/0x980b4424c007caf7a1f3670b48c8eaef7ebc3d44"
-            },
-            {
-              "text": ". Reading these helps you see how the parody constructs its narrative."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A sourced, one-page parody investigation into the hamster and SqueekChain. The production site is dist/index.html: pinned clue cards and red string, a live alibi, five expandable non-human suspects, a source ledger, and a verdict. The footer identifies it as an unofficial fan parody, not affiliated with SqueekChain.",
       "description_origin": "readme",
@@ -6224,7 +6075,7 @@
         "website": "https://sqkstr.xyz/",
         "x": "https://x.com/sqkstr"
       },
-      "logo": "logos/d1dd9e4fca9ac7b1b43dbe415a15a5494dc9131324b9b101588be51c1c37f9ec.jpg",
+      "logo": "logos/c1e1a071a97273698de1597d36ecb398d76509d0ceae2104dd67fef3bc7fa89f.jpg",
       "name": "sqkstr",
       "publication_origin": "owner_approved",
       "stage": "unknown",
@@ -6238,7 +6089,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
       "contracts": [],
       "description_en": "A daily fantasy game for Squeekchain. Draft five predictions about Squeektoshi’s next UTC day, choose a Captain, and let the real wheel settle the score. A single static React + TypeScript page, with no account, wallet, token, payments, game server, external fonts, analytics, or simulated wheel data.",
       "description_origin": "readme",
