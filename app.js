@@ -16,6 +16,8 @@ const stageLabels = {
   development: 'In development',
   testnet_announced: 'Testnet announced by the developer',
   launch_announced: 'Launch announced by the developer',
+  testnet: 'Contract on the Sepolia testnet, linked to the project',
+  mainnet: 'Contract on Ethereum mainnet, linked to the project',
   live_confirmed: 'Live activity confirmed'
 };
 // Short stage names for the tag next to a project's name.
@@ -23,7 +25,7 @@ const stageTags = {
   announced: 'Announced',
   unknown: 'Testnet',
   research: 'Early signal', development: 'In development', testnet_announced: 'Testnet announced',
-  launch_announced: 'Launch announced', live_confirmed: 'Live'
+  launch_announced: 'Launch announced', testnet: 'Testnet contract', mainnet: 'Mainnet contract', live_confirmed: 'Live'
 };
 const linkLabels = {
   x: ['𝕏', 'X'], announcement: ['𝕏', 'Announcement'], website: ['◎', 'Website'],
@@ -428,6 +430,7 @@ function card(project) {
   const stage = el('span', 'stage-tag', stageTags[project.stage] || 'Testnet');
   if (project.id === '34d98d6c0dd3f8d8') stage.textContent = 'Mainnet contract & Testnet';
   if (!stageTags[project.stage] || project.stage === 'unknown') stage.title = 'Squeekchain testnet · project deployment not independently confirmed';
+  else if (['testnet', 'mainnet'].includes(project.stage)) stage.title = stageLabels[project.stage];
   stage.classList.toggle('confirmed', project.stage === 'live_confirmed');
   nameRow.append(stage);
   info.append(nameRow);

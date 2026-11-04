@@ -20,7 +20,7 @@
       "first_seen": "2026-10-30T17:42:47.142472+00:00",
       "id": "025cec09b7f5e1ec",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2739-build-squeek-deep-polished",
         "website": "https://squeek-deep.imd.site"
@@ -34,7 +34,7 @@
           "name": "Squeek Wheel Runner"
         }
       ],
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -56,7 +56,7 @@
       "first_seen": "2026-10-30T17:12:49.761705+00:00",
       "id": "0372209da6d7ad7d",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2736-squeeksupplyboard",
         "website": "https://squeek-supply-station.imd.site"
@@ -64,7 +64,7 @@
       "logo": "logos/797cdfcf518304c51a9d430466c076fb9fc68619d988ad5af94928e45699ecfc.svg",
       "name": "Squeek Supply Station",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -86,7 +86,7 @@
       "first_seen": "2026-10-30T09:38:24.420424+00:00",
       "id": "0447214d4e84448f",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2713-build-dynamic-erc-721-nft",
         "website": "https://squeek-companion-a-hamster-nft-t.imd.site"
@@ -108,7 +108,7 @@
           "name": "SqueekYield"
         }
       ],
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -166,14 +166,14 @@
       "first_seen": "2026-10-30T19:59:26.394939+00:00",
       "id": "047d77721dc50b90",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2747-deploy-new-version-after",
         "website": "https://wheelkeepers-a-little-hamster-a.imd.site"
       },
       "name": "Wheelkeepers",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -195,7 +195,7 @@
       "first_seen": "2026-10-30T16:42:26.192644+00:00",
       "id": "049bd120d672ee05",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2734-build-squeek-pal-website",
         "website": "https://squeek-pal-a-pixel-hamster-for-x.imd.site"
@@ -209,7 +209,7 @@
           "name": "Squeek Pet"
         }
       ],
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -227,7 +227,7 @@
       "first_seen": "2026-11-03T16:48:42.169859+00:00",
       "id": "088a0b4e4000694c",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2923-wheel-raid",
         "website": "https://wheel-raid-small-paws-big-boss.imd.site"
@@ -235,7 +235,7 @@
       "logo": "logos/ae111f6806f9311211d9fb4da1bdb50ccafd873a75e29a03c20bbd4cbbb5a4f5.svg",
       "name": "Wheel Raid",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -257,7 +257,7 @@
       "first_seen": "2026-11-04T07:59:19.676372+00:00",
       "id": "088cc021ce82bf6a",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2959-build-ship-squeek-maze",
         "website": "https://squeek-maze-sprint.imd.site"
@@ -265,7 +265,7 @@
       "logo": "logos/f4d2a141dac01cb0965ff69c7ed5712a85e96e68863c6435add05f90482c03e7.svg",
       "name": "Squeek Maze Sprint",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -283,7 +283,7 @@
       "first_seen": "2026-11-01T05:23:34.755543+00:00",
       "id": "08dc852fca63d035",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "docs": "https://github.com/identity-md-launches/launch-2806-build-clean-dark-themed-dashboard/blob/HEAD/docs/screenshots",
         "website": "https://squeekchain-network-dashboard.imd.site"
@@ -297,7 +297,7 @@
           "name": "Squeek Arena"
         }
       ],
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -319,7 +319,7 @@
       "first_seen": "2026-11-04T04:56:42.332393+00:00",
       "id": "0b7ef169de560c7e",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2947-squeek-runner",
         "website": "https://squeek-runner-small-paws-big-pow.imd.site"
@@ -327,7 +327,7 @@
       "logo": "logos/66214ab9c1bb7e6a46f53790a22b177944b93335a506101f89b43f029750c1af.svg",
       "name": "Squeek Runner",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -385,7 +385,7 @@
       "first_seen": "2026-10-30T07:22:04.902879+00:00",
       "id": "0be8559ead85e180",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2696-build-squeek-pet-browser",
         "website": "https://squeek-pet-a-pixel-hamster-in-sy.imd.site"
@@ -398,27 +398,7 @@
           "name": "Squeek Pal"
         }
       ],
-      "stage": "unknown"
-    },
-    {
-      "builder": null,
-      "category": "game",
-      "contracts": [],
-      "description_en": "An independent, play-money prediction market on a hamster’s daily wheel distance.",
-      "description_origin": "website",
-      "ecosystem_status": "weak",
-      "evidence": [],
-      "first_seen": "2026-10-31T01:07:42.807034+00:00",
-      "id": "0c1f29be3bdbaae6",
-      "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
-      "links": {
-        "website": "https://wheel-market.46.225.133.160.sslip.io"
-      },
-      "logo": "logos/3657d88c522e510bd774feaf045b3f26f398db597e2a1077fffb8bf3708c9364.svg",
-      "name": "Squeeky Market",
-      "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -476,7 +456,7 @@
       "first_seen": "2026-11-04T10:15:38.956788+00:00",
       "id": "0c38ea532969e3cc",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "docs": "https://www.veilhubs.xyz/docs/",
         "github": "https://github.com/JohnsonNguyen-coll/VeilHub",
@@ -485,7 +465,7 @@
       "logo": "logos/5c65f3b1be8c2cc41382fd007b72afdbf3ff9cd50118ecec73f272f17d00ce7d.png",
       "name": "VeilHub",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -526,7 +506,7 @@
       "first_seen": "2026-11-01T02:17:59.616733+00:00",
       "id": "0de68e384401e86b",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2804-build-complete-nft-marketplace",
         "website": "https://squeek-market-on-chain-companion.imd.site"
@@ -548,7 +528,7 @@
           "name": "SqueekYield"
         }
       ],
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -570,7 +550,7 @@
       "first_seen": "2026-11-04T09:00:00.787938+00:00",
       "id": "114c7b1e54280153",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2961-build-squeektoshi-stream-overlay",
         "website": "https://squeektoshi-stream-overlay-obs-a.imd.site"
@@ -578,7 +558,7 @@
       "logo": "logos/537ea789f98d4a156730150102d587da5ed41484ba3065e21710f81ff6d364b9.svg",
       "name": "Squeektoshi Stream Overlay",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -632,7 +612,7 @@
       "first_seen": "2026-11-01T02:29:08.757189+00:00",
       "id": "11b1540c5c769b32",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://squeek-appraiser-know-your-next.imd.site"
       },
@@ -645,7 +625,7 @@
           "name": "Squeek Sprouts"
         }
       ],
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -680,14 +660,14 @@
       "first_seen": "2026-11-02T17:59:54.943203+00:00",
       "id": "1261d98fa8ed6179",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://keepthelightson.xyz"
       },
       "logo": "logos/6e3b06f148d6397e9d77cfce3aebddbc20b6ebb56e76ac84c0ec2fec6a5414e3.svg",
       "name": "Keep the Lights On",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -752,7 +732,7 @@
       "first_seen": "2026-11-03T14:13:13.738694+00:00",
       "id": "13d87937200a99d7",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2922-build-squeek-god",
         "website": "https://squeek-god-a-real-hamster-contro.imd.site"
@@ -760,7 +740,7 @@
       "logo": "logos/6acd5d1a8272c2ad7ab0975ff4d39df9ba2d07e45c1915104b5e2d04b1428e35.svg",
       "name": "SQUEEK GOD",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -782,7 +762,7 @@
       "first_seen": "2026-10-30T08:22:33.600158+00:00",
       "id": "14ce63d4c4d63ede",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "docs": "https://github.com/identity-md-launches/launch-2705-build-squeek-odometer-single-page/blob/HEAD/docs/validation.md",
         "github": "https://github.com/identity-md-launches/launch-2705-build-squeek-odometer-single-page",
@@ -791,7 +771,7 @@
       "logo": "logos/27826281bccb180c85071eee64909b57b69540efeaffff6923a73470fc06811b.svg",
       "name": "Squeek Odometer",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -875,7 +855,7 @@
       "first_seen": "2026-10-31T21:12:19.318290+00:00",
       "id": "161118c8ef978dbf",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "docs": "https://github.com/olric3015/squeektoshi-status/blob/HEAD/docs/preview.png",
         "github": "https://github.com/olric3015/squeektoshi-status#install-2-minutes",
@@ -884,7 +864,7 @@
       "logo": "logos/22770565c1ef6d0262a896375fcf990ed0996832f7d2f78b7aecc83608b87cac.png",
       "name": "Squeek Keeper",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -906,7 +886,7 @@
       "first_seen": "2026-10-30T06:51:51.770806+00:00",
       "id": "16e727ce37fe952c",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2693-build-polished-single-page-website",
         "website": "https://squeekchain-live-dashboard-d8ab.imd.site"
@@ -914,7 +894,7 @@
       "logo": "logos/d0a285d8591a0a047266b3a3809b1367c163ddb71d1533de4ff7063286c07554.svg",
       "name": "Squeekchain Live Dashboard",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -940,7 +920,7 @@
       "first_seen": "2026-11-04T09:45:23.529783+00:00",
       "id": "172cbf121cdbd6e7",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2964-build-new-one-page-website",
         "website": "https://squeekpulse-live-squeekchain-tel.imd.site"
@@ -948,7 +928,7 @@
       "logo": "logos/dcac354a49d5e848090af0d3821b843a3de7bca1f112070b43a25b3db5940918.svg",
       "name": "SqueekPulse",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -970,14 +950,14 @@
       "first_seen": "2026-10-30T19:29:04.600161+00:00",
       "id": "17e21f2b7db24e34",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2745-fix-two-content-check-advisories",
         "website": "https://polyhamster-prediction-markets-o.imd.site"
       },
       "name": "PolyHamster",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -1013,14 +993,14 @@
       "first_seen": "2026-11-02T14:02:16.428653+00:00",
       "id": "1a407d185b925143",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://squeek.life"
       },
       "logo": "logos/ba7494c91914f351734c98dd54dedaed9255e2a714bad1e77e7c855c1f66914f.png",
       "name": "SQK LIFE",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -1042,7 +1022,7 @@
       "first_seen": "2026-10-30T08:07:28.718250+00:00",
       "id": "1a7da9f5aa9375f8",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2701-squeek-tx-lab-sepolia-only",
         "website": "https://squeek-tx-lab-sepolia-transactio.imd.site"
@@ -1050,7 +1030,7 @@
       "logo": "logos/5633fd7bd1f34ba8e55ddd243e892d0a29c2fa203fe25f49c7393b2ef6c1b63e.svg",
       "name": "Squeek Tx Lab",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -1072,7 +1052,7 @@
       "first_seen": "2026-11-04T04:41:27.261694+00:00",
       "id": "1b61ead678593909",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2946-build-publish-squeek-switchyard",
         "website": "https://squeek-switchyard-an-unofficial.imd.site"
@@ -1080,7 +1060,7 @@
       "logo": "logos/1f4995b977c516aba0c4c772d5f3f086299807a7606c6f727897635a54e62dde.svg",
       "name": "Squeek Switchyard",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -1102,7 +1082,7 @@
       "first_seen": "2026-11-03T03:20:38.261947+00:00",
       "id": "20d57858aa15781c",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2904-build-single-page-interactive-web",
         "website": "https://squeek-raid-wheel-powered-boss-d.imd.site"
@@ -1110,7 +1090,7 @@
       "logo": "logos/98876e408ab07ea0f79db00e7cfacee5fabd71f72662cd2c8acd0554759ddbab.svg",
       "name": "Squeek Raid",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -1132,7 +1112,7 @@
       "first_seen": "2026-11-03T01:49:15.279199+00:00",
       "id": "21d49d44bdd47270",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2903-build-polished-fun-fully",
         "website": "https://squeek-arena-tiny-paws-massive-s.imd.site"
@@ -1146,7 +1126,7 @@
           "name": "Squeekchain • Network dashboard"
         }
       ],
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -1172,7 +1152,7 @@
       "first_seen": "2026-11-02T23:32:56.568868+00:00",
       "id": "242b1e82ef653193",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2900-workflow-frontend-stage-context",
         "website": "https://squeekmatch-find-your-merge-part.imd.site"
@@ -1180,7 +1160,7 @@
       "logo": "logos/6af086df9e08ee2e8572f5359e9786fe886a94ec152b2831680e2459cfc5db0b.svg",
       "name": "SqueekMatchEscrow",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -1202,7 +1182,7 @@
       "first_seen": "2026-11-02T09:06:23.754195+00:00",
       "id": "24a551a6c69d6cbc",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2870-fix-site-root-get",
         "telegram": "https://t.me/SqueekHolder_Bot",
@@ -1211,7 +1191,7 @@
       "logo": "logos/daee587075027a68853f56d3c5cc35dce732bdc606387d788c0fdcc587100f7d.png",
       "name": "Squeek Holder Bot",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -1287,7 +1267,7 @@
       "first_seen": "2026-11-03T19:47:50.445951+00:00",
       "id": "26c3e03bdd26c7b3",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2933-build-deliver-squeek-shift",
         "website": "https://squeek-shift-tiny-hamster-big-ad.imd.site"
@@ -1295,7 +1275,7 @@
       "logo": "logos/c9fb01c47fb00d3089a3f19226a1e813844bc034e1906195d5c12ce80ec7acc4.svg",
       "name": "Squeek Shift: Tiny hamster. Big adventure.",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -1317,7 +1297,7 @@
       "first_seen": "2026-11-04T11:01:30.279597+00:00",
       "id": "2896a93d54796514",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2967-build-squeek-farm-hamster",
         "website": "https://squeek-farm-hamster-wars.imd.site"
@@ -1325,7 +1305,7 @@
       "logo": "logos/299ab966805cea8fac39a6c815d584cda87188d6318e44157b6fab8632322b77.svg",
       "name": "Squeek Farm: Hamster Wars",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -1391,14 +1371,14 @@
       "first_seen": "2026-11-02T20:42:45.989013+00:00",
       "id": "2a2da0c749d4243f",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2853-squeek-survival-deliver-hosted",
         "website": "https://squeek-survival-beat-robo-squeek.imd.site"
       },
       "name": "Squeek Survival",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -1429,7 +1409,7 @@
       "first_seen": "2026-10-31T19:58:31.489580+00:00",
       "id": "2ba082166eeec14d",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "testnet",
       "links": {
         "docs": "https://github.com/identity-md-launches/launch-2793-build-hamlock-hamster-powered-time/blob/HEAD/docs/WEBSITE_VALIDATION.md",
         "explorer": "https://eth-sepolia.blockscout.com/address/0xc17b08994b70b468aa30e4e3d73edf9d65727302",
@@ -1439,7 +1419,7 @@
       "logo": "logos/1af47f88856ed8f404f6a6217bfa8843e3496f8cfd7535984ac8e3a8b97754d8.svg",
       "name": "HAMLOCK",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "testnet"
     },
     {
       "builder": null,
@@ -1486,7 +1466,7 @@
       "first_seen": "2026-11-03T22:34:55.834094+00:00",
       "id": "2c4c3370b10c2105",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "testnet",
       "links": {
         "docs": "https://github.com/identity-md-launches/launch-2935-launch-squeek-wars-testnet/blob/HEAD/docs/VALIDATION.md",
         "explorer": "https://eth-sepolia.blockscout.com/address/0x11d4a8126b7911bda323e4c6dc8b137bf01ba2b9",
@@ -1496,7 +1476,7 @@
       "logo": "logos/fa7c532ac5e08e9281d194c6209ed860e3e89bc8c04919a57cf899336528da75.svg",
       "name": "Squeek Wars",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "testnet"
     },
     {
       "builder": null,
@@ -1509,13 +1489,13 @@
       "first_seen": "2026-10-30T12:09:27.656586+00:00",
       "id": "30a70a1c2131f4f1",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://squeek-pulse-studio.vercel.app"
       },
       "name": "SqueekLeveler & WheelPulse Studio",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -1570,7 +1550,7 @@
       "first_seen": "2026-11-02T09:21:31.356322+00:00",
       "id": "30aa5687eb08cf02",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2871-build-single-page-prediction-game",
         "website": "https://squeek-streak-little-wheel-big-p.imd.site"
@@ -1578,7 +1558,7 @@
       "logo": "logos/e2837863afdad79d2ad48aa747ee562034922e9c4feb904fea981b00f8a9166a.svg",
       "name": "Squeek Streak",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -1600,7 +1580,7 @@
       "first_seen": "2026-10-31T15:25:41.042596+00:00",
       "id": "3246cf67517d2ac0",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2784-build-small-browser-rhythm",
         "website": "https://wheel-rhythm-tiny-paws-big-rhyth.imd.site"
@@ -1608,7 +1588,7 @@
       "logo": "logos/3ae90e3ad7f6b7c5e2d1a48f69e6509e56a8555e29e5f24d1865852b72342b15.svg",
       "name": "Wheel Rhythm",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": "theidmfun",
@@ -1669,7 +1649,7 @@
       "first_seen": "2026-10-27T19:12:01.161066+00:00",
       "id": "34d98d6c0dd3f8d8",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "announcement": "https://x.com/theidmfun/status/2115155784929812559",
         "docs": "https://theidm.fun/docs",
@@ -1678,7 +1658,7 @@
       },
       "logo": "logos/2f1f37b99853c5b08cb1d42033a39b399ebfcba41a53190d28b795aa19742589.jpg",
       "name": "Intelligent Dance Market",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": "pillheadddd",
@@ -1857,7 +1837,7 @@
       "first_seen": "2026-10-31T20:13:44.178169+00:00",
       "id": "361ac51a339cda7c",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "testnet",
       "links": {
         "announcement": "https://x.com/pillheadddd/status/2117731749459284235",
         "explorer": "https://eth-sepolia.blockscout.com/address/0x1b53382f61db4bb991aa329d62d04c904e86c20b",
@@ -1873,7 +1853,7 @@
           "name": "Fantasy Hamster"
         }
       ],
-      "stage": "unknown"
+      "stage": "testnet"
     },
     {
       "builder": null,
@@ -1895,7 +1875,7 @@
       "first_seen": "2026-11-03T23:21:59.232609+00:00",
       "id": "37133654c60bba8e",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2937-burrow-raid",
         "website": "https://burrow-raid-small-paws-big-boss.imd.site"
@@ -1903,7 +1883,7 @@
       "logo": "logos/0f335d7a9e0c3d75e5f2f45bf458d9a706957bd163274ee6f72271fc2c29d7a2.svg",
       "name": "Burrow Raid",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -1925,7 +1905,7 @@
       "first_seen": "2026-11-02T13:24:40.182247+00:00",
       "id": "379ac364f5a9c0b4",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2878-objective-build-clean-public-website",
         "website": "https://wheelwatch-squeekchain-community.imd.site"
@@ -1933,7 +1913,7 @@
       "logo": "logos/1828ca4052bd2a5a23ae5ffec2ed72a2ee77082c6ab4975235fd539552876955.svg",
       "name": "Wheelwatch",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -1951,7 +1931,7 @@
       "first_seen": "2026-11-02T20:42:45.884154+00:00",
       "id": "394d9826ba546464",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "docs": "https://github.com/identity-md-launches/launch-2834-hamster-run/blob/HEAD/docs/VALIDATION.md",
         "github": "https://github.com/identity-md-launches/launch-2834-hamster-run",
@@ -1959,7 +1939,7 @@
       },
       "name": "HamsterRun",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -1985,7 +1965,7 @@
       "first_seen": "2026-10-31T05:19:53.923098+00:00",
       "id": "3ba8f332ce1d1d3a",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2764-squeek-keeper-console-transaction-first",
         "website": "https://squeek-keeper-console-keep-the-w.imd.site"
@@ -1993,7 +1973,7 @@
       "logo": "logos/6250e2cc76dbf1a97a8ca89a153ec0629bcacd95fe6243c297b7125cb7317a2a.svg",
       "name": "Squeek Keeper Console",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -2015,7 +1995,7 @@
       "first_seen": "2026-11-04T05:53:28.165089+00:00",
       "id": "3c826b300168595e",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://wheelbound.imd.site"
       },
@@ -2028,7 +2008,7 @@
           "name": "Wheel Call"
         }
       ],
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -2041,13 +2021,13 @@
       "first_seen": "2026-11-04T10:10:00.555704+00:00",
       "id": "3d2770db05528058",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://squeek.lionmanlabs.top"
       },
       "name": "Squeek",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -2069,7 +2049,7 @@
       "first_seen": "2026-10-30T10:38:49.520330+00:00",
       "id": "406f16e8d45695f8",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2721-build-squeek-beat-hamster",
         "website": "https://squeek-beat-tour.imd.site"
@@ -2077,7 +2057,7 @@
       "logo": "logos/2911c27880e5f86042ebb74cae71b5b596eb6e3c4f06d3cb1e5dd0ea203f4659.svg",
       "name": "Squeek Beat: Hamster Tour",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -2099,7 +2079,7 @@
       "first_seen": "2026-11-04T05:27:10.189835+00:00",
       "id": "43ce3962b48a1e0d",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2949-build-publish-original-production-ready",
         "website": "https://squeekstr-desk.imd.site"
@@ -2113,7 +2093,7 @@
           "name": "Squeek Pouch"
         }
       ],
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -2135,14 +2115,14 @@
       "first_seen": "2026-10-28T19:46:15.300031+00:00",
       "id": "484084c14bdb95e5",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2648-squeek-race-squeekchain",
         "website": "https://squeek-race-squeekchain.identitymd.eth.limo/"
       },
       "name": "Squeek Race",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -2164,7 +2144,7 @@
       "first_seen": "2026-10-31T12:39:07.648483+00:00",
       "id": "4bc4e0f19af28b30",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2780-project-goal-funny-chaotic",
         "website": "https://squeek-run-small-hamster-big-pro.imd.site"
@@ -2172,7 +2152,7 @@
       "logo": "logos/6d70f4eb5123b36e954ff9a0def7718e578a9f935ee1773e500be0d538981635.png",
       "name": "Squeek Run",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -2198,7 +2178,7 @@
       "first_seen": "2026-10-29T21:31:52.511814+00:00",
       "id": "4c741c1caca119a7",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/mfBRAT/squeektoshi-live",
         "website": "https://squeek.mfbrat.com/"
@@ -2206,7 +2186,7 @@
       "logo": "logos/59791254fef130b5330d7b7cf72a9c70d55cff17444a684a2f53f3b0583b1be3.svg",
       "name": "Squeektoshi Live",
       "publication_origin": "owner_approved",
-      "stage": "unknown",
+      "stage": "development",
       "verified_by_squeek": {
         "last_checked": "2026-11-03T21:21:14.526201+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
@@ -2231,13 +2211,13 @@
       "first_seen": "2026-11-04T07:54:09.767103+00:00",
       "id": "4eac1d81e7d27e07",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://wheel-run-squeekchain-genesis.imd.site"
       },
       "name": "Wheel Run",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -2258,13 +2238,13 @@
       "first_seen": "2026-11-03T00:37:35.956254+00:00",
       "id": "4ef0081402803d10",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://squeekexplorer.netlify.app"
       },
       "name": "Squeekchain Explorer",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -2306,14 +2286,14 @@
       "first_seen": "2026-10-29T18:10:17.435285+00:00",
       "id": "508ebed43b30d173",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://squeekout.fun"
       },
       "logo": "logos/20a95a4b1417aafaade018db4e4764bd53934317374df16ce9da223826909207.svg",
       "name": "Squeek Out",
       "publication_origin": "owner_approved",
-      "stage": "unknown",
+      "stage": "development",
       "verified_by_squeek": {
         "last_checked": "2026-11-03T21:21:14.526201+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
@@ -2342,14 +2322,14 @@
       "first_seen": "2026-10-30T08:19:43.177778+00:00",
       "id": "529a43de26b6335f",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://squeek-mode-chat-with-a-little-c.imd.site"
       },
       "logo": "logos/5038ec14a24ad8b8e297bbdc2833462f73fff8481f0bdb0d7c82a95ab306ec1d.svg",
       "name": "Squeek Mode",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -2411,14 +2391,14 @@
       "first_seen": "2026-11-04T05:02:07.194258+00:00",
       "id": "53935b57b395f9af",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://squeekorsleep.mfbrat.com"
       },
       "logo": "logos/59791254fef130b5330d7b7cf72a9c70d55cff17444a684a2f53f3b0583b1be3.svg",
       "name": "Squeek or Sleep",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -2440,7 +2420,7 @@
       "first_seen": "2026-10-29T23:18:16.618921+00:00",
       "id": "54ac1ad233b97b98",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "docs": "https://github.com/identity-md-launches/launch-2674-squeekchain/blob/HEAD/docs/NOTICE.md",
         "github": "https://github.com/identity-md-launches/launch-2674-squeekchain",
@@ -2463,7 +2443,7 @@
           "name": "SqueekYield"
         }
       ],
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -2490,7 +2470,7 @@
       "first_seen": "2026-10-31T15:56:06.329113+00:00",
       "id": "557bcdb9f17ea33f",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "testnet",
       "links": {
         "explorer": "https://eth-sepolia.blockscout.com/address/0xd780ecea3f58da7a3f8129ac1e8d06332107e7c9",
         "github": "https://github.com/ekervo/wheel-odds",
@@ -2498,7 +2478,7 @@
       },
       "name": "Wheel Odds",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "testnet"
     },
     {
       "builder": null,
@@ -2531,14 +2511,14 @@
       "first_seen": "2026-10-30T16:57:28.121789+00:00",
       "id": "582b57634efd5c78",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/NeoPortia/squeekrun",
         "website": "https://squeekrun-crystal-caverns.imd.site"
       },
       "name": "SqueekRun: Crystal Caverns",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -2568,13 +2548,13 @@
       "first_seen": "2026-11-03T20:05:50.170450+00:00",
       "id": "58d077a645d03a75",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://hamster-tales.vercel.app"
       },
       "name": "Hamster Tales: The Great Seed Adventure",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -2592,7 +2572,7 @@
       "first_seen": "2026-10-30T00:37:44.789117+00:00",
       "id": "59de99f421090789",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "docs": "https://github.com/0xMingXiu/squeekchain-settlement-latency/blob/HEAD/docs/dashboard.png",
         "github": "https://github.com/0xMingXiu/squeekchain-settlement-latency",
@@ -2601,7 +2581,7 @@
       "logo": "logos/7dae29d119cd10974c36bcb3de7e60f74527573a9f6010cd244b8569806f3b2e.svg",
       "name": "Squeekchain settlement latency",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -2623,7 +2603,7 @@
       "first_seen": "2026-10-30T08:07:28.721719+00:00",
       "id": "59e56b17c625a795",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2700-squeek-wheel-runner-squeekchain",
         "website": "https://squeek-wheel-runner.imd.site",
@@ -2637,7 +2617,7 @@
           "name": "Squeek Deep"
         }
       ],
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -2659,7 +2639,7 @@
       "first_seen": "2026-11-03T06:07:23.759741+00:00",
       "id": "59fb0266423a206b",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2910-build-publish-original-complete",
         "website": "https://squeek-burrow-circuit.imd.site"
@@ -2667,7 +2647,7 @@
       "logo": "logos/fcd8fd23c4f362e463e6683a337fd15c6c8bd2e3123b2fd687e7d519d34d2346.svg",
       "name": "Squeek Burrow Circuit",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -2734,13 +2714,13 @@
       "first_seen": "2026-11-04T11:21:57.164030+00:00",
       "id": "5d2f15ee20612f93",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://squeekdash.xyz"
       },
       "name": "SqueekDash",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -2795,7 +2775,7 @@
       "first_seen": "2026-11-03T05:52:01.101948+00:00",
       "id": "5f3f5cbe85bfc571",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2907-new-project-pip",
         "website": "https://pip-squeekchain-hamster-com-edf1.imd.site"
@@ -2809,7 +2789,7 @@
         }
       ],
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -2863,14 +2843,14 @@
       "first_seen": "2026-11-04T03:40:42.850611+00:00",
       "id": "6163d5a78e9464c0",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://nap-or-sprint.imd.site"
       },
       "logo": "logos/cafdc25ee900d30cec1b435fababe7edba7e5b73ef4b5113beb751dcc76306f7.svg",
       "name": "Nap or Sprint?",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -2892,7 +2872,7 @@
       "first_seen": "2026-10-31T23:15:34.334586+00:00",
       "id": "63fa415019729141",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2802-what-site-squeekpack-jetstream",
         "website": "https://squeekpack-jetstream-run.imd.site"
@@ -2906,7 +2886,7 @@
           "name": "Squeek Play"
         }
       ],
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -2928,7 +2908,7 @@
       "first_seen": "2026-11-02T14:10:25.721948+00:00",
       "id": "6430ccb2e994ee78",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2882-build-squeekville-charming-mobile-first",
         "website": "https://squeekville-a-little-town-hamste.imd.site"
@@ -2936,7 +2916,7 @@
       "logo": "logos/a6277228b7c2216e1d8e0b3677f57be1055c2bae1fe462c7b922affb829d9a78.svg",
       "name": "Squeekville",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -2966,7 +2946,7 @@
       "first_seen": "2026-11-02T14:40:40.585490+00:00",
       "id": "659c3b1c55a1a347",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2883-hamster-tower-free-turn-based",
         "website": "https://hamster-tower.imd.site"
@@ -2974,7 +2954,7 @@
       "logo": "logos/7a99aa78441d2cc073085530fd7e3ce318f2a79c9a4cd6e87ff38acd1ed1051e.webp",
       "name": "Hamster Tower",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -3028,14 +3008,14 @@
       "first_seen": "2026-11-01T02:29:08.768428+00:00",
       "id": "6654b51023a23b98",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://race-squeektoshi-tiny-paws-big-r.imd.site"
       },
       "logo": "logos/1810b0bc6f9af4c5e4343434c809815e9b5882bf12f3590cd6e053399f9c6c4c.svg",
       "name": "Race Squeektoshi",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -3070,14 +3050,14 @@
       "first_seen": "2026-10-29T23:13:23.546307+00:00",
       "id": "673e966542c15efd",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "testnet",
       "links": {
         "explorer": "https://eth-sepolia.blockscout.com/address/0x531497ddc70d634342020b1111c8b1a92873e669",
         "website": "https://squeekblocknft-community-block-d.imd.site"
       },
       "name": "Squeek Block NFT",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "testnet"
     },
     {
       "builder": null,
@@ -3099,7 +3079,7 @@
       "first_seen": "2026-10-30T09:53:39.032790+00:00",
       "id": "676c208742ad16b4",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2716-build-publish-original-production-ready",
         "website": "https://squeek-burrow-rescue-squeekchain.imd.site"
@@ -3107,7 +3087,7 @@
       "logo": "logos/c7ea9316f8b3368a63496f0dcb900700aceaaf7b570a8d0198c0d24b3b05cccd.svg",
       "name": "Squeek Burrow Rescue",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": "KazzYuzaNFT",
@@ -3129,14 +3109,14 @@
       "first_seen": "2026-11-01T01:17:34.781666+00:00",
       "id": "6800976b083aa1af",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "announcement": "https://x.com/KazzYuzaNFT/status/2116609853762469911",
         "website": "https://squeekden.art"
       },
       "name": "Squeek Den",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -3154,7 +3134,7 @@
       "first_seen": "2026-10-30T07:22:04.899893+00:00",
       "id": "68817065462f8ecf",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "docs": "https://github.com/h0xva/squeekchain-dashboard/blob/HEAD/docs/live.png",
         "github": "https://github.com/h0xva/squeekchain-dashboard",
@@ -3162,7 +3142,7 @@
       },
       "name": "Squeekchain community dashboard",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -3175,19 +3155,23 @@
         {
           "kind": "github_mention",
           "url": "https://github.com/leanhcute/squeekfi-points"
+        },
+        {
+          "kind": "website",
+          "url": "https://squeekfi-points.vercel.app"
         }
       ],
       "first_seen": "2026-11-04T05:42:16.229510+00:00",
       "id": "68aaf44dfa3a0eab",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/leanhcute/squeekfi-points",
-        "website": "https://squeekfi-points.vercel.app"
+        "website": "https://squeekfi-predict-with-points.imd.site"
       },
       "name": "SqueekFi",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -3209,7 +3193,7 @@
       "first_seen": "2026-10-30T07:52:25.889235+00:00",
       "id": "6ca05d5cae916192",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2698-build-existing-github-project",
         "website": "https://squeekchain-arcade-browser-7997.imd.site"
@@ -3223,7 +3207,7 @@
           "name": "Burrow Power"
         }
       ],
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -3245,7 +3229,7 @@
       "first_seen": "2026-11-02T07:16:50.486928+00:00",
       "id": "6d64bbb75b75fd3f",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://squeek-hatchery-hatch-a-hamster.imd.site"
       },
@@ -3258,7 +3242,7 @@
           "name": "Squeek & Glide"
         }
       ],
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -3280,7 +3264,7 @@
       "first_seen": "2026-11-04T15:03:09.287807+00:00",
       "id": "6fe6754ae2682fa3",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2973-build-publish-original-playable",
         "website": "https://burrow-siege-a-hamster-powered-t.imd.site"
@@ -3288,7 +3272,7 @@
       "logo": "logos/51a76a23d82930ec2a5f39de279d1dd2b1a80cc0effcaf3a35d5bea2676b021f.svg",
       "name": "Burrow Siege",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -3301,14 +3285,14 @@
       "first_seen": "2026-10-31T21:12:19.404104+00:00",
       "id": "7038028ab90e3893",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://wheelcam-obs-overlays-for-a-hams.imd.site"
       },
       "logo": "logos/7fb5d95d33f886b9b493b58f8c3670ffceaf9ce76528fe8aa8bc9c0ebc38bac3.svg",
       "name": "WheelCam",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": "CelerityCodes",
@@ -3472,14 +3456,14 @@
       "first_seen": "2026-10-31T01:07:42.899514+00:00",
       "id": "7386de4766354d33",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "testnet",
       "links": {
         "explorer": "https://eth-sepolia.blockscout.com/address/0x18a974ec34e748574c83ae8140ef7faa3904bc24",
         "website": "https://hamstermining.energy"
       },
       "name": "Hamster Mining Reserve",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "testnet"
     },
     {
       "builder": null,
@@ -3549,14 +3533,14 @@
       "first_seen": "2026-11-03T16:48:42.175258+00:00",
       "id": "758a730c6c9844a6",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://squeekraid.imd.site"
       },
       "logo": "logos/f06f916da9fc814fc41804c061d6b2f28325d1c369017849d6d9cdbe1dbd2a2c.svg",
       "name": "SqueekRaid",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -3578,7 +3562,7 @@
       "first_seen": "2026-11-04T18:55:35.715126+00:00",
       "id": "76128e7f27f91492",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "docs": "https://github.com/identity-md-launches/launch-2971-project-hamster-friendship/blob/HEAD/docs/licenses/better-interface.txt",
         "github": "https://github.com/identity-md-launches/launch-2971-project-hamster-friendship",
@@ -3587,7 +3571,7 @@
       "logo": "logos/cbb3184d0a4d649511ad4082d0ab5688c1d2dcd84142f28cd49effe5e8b14ae4.svg",
       "name": "Hamster Friendship: The Lost Alice",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -3617,7 +3601,7 @@
       "first_seen": "2026-11-03T16:59:57.163663+00:00",
       "id": "763619e0af619758",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2928-night-canvas-turn-every",
         "website": "https://night-canvas-tiny-paws-big-art.imd.site"
@@ -3625,7 +3609,7 @@
       "logo": "logos/b5707628457aa616a9c70c937a3e2d42ef6d2eccd0dd7453db5f31e4ac90d805.svg",
       "name": "Night Canvas",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -3647,7 +3631,7 @@
       "first_seen": "2026-11-02T23:32:56.575297+00:00",
       "id": "77621cd2e13531f3",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2899-squeek-merge-preview",
         "website": "https://squeek-merge-preview.imd.site"
@@ -3661,7 +3645,7 @@
           "name": "Squeek Forge"
         }
       ],
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": "squeekchain",
@@ -3707,7 +3691,7 @@
       "first_seen": "2026-10-29T21:11:24.375090+00:00",
       "id": "79634a19c84cd390",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "announcement": "https://x.com/squeekchain/status/2115912610826653723",
         "website": "https://squeek.win"
@@ -3715,7 +3699,7 @@
       "logo": "logos/07e4e2d12ec09162a4112088c44c391d3ed905a4116b470a1674f89b48bd4c40.svg",
       "name": "Exsqueektion",
       "publication_origin": "owner_approved",
-      "stage": "unknown",
+      "stage": "development",
       "verified_by_squeek": {
         "last_checked": "2026-11-03T21:21:14.526201+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
@@ -3791,7 +3775,7 @@
       "first_seen": "2026-10-30T17:42:47.146583+00:00",
       "id": "79efbcdca33f1f79",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2738-build-wheel-raid-original",
         "website": "https://wheel-raid-tiny-paws-shared-boss.imd.site"
@@ -3799,7 +3783,7 @@
       "logo": "logos/c4ff45090c4cf54cd010c078d72b2dc6a83fe0a831e7769e401423af2330be40.svg",
       "name": "Wheel Raid",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -3857,7 +3841,7 @@
       "first_seen": "2026-11-04T03:25:13.307434+00:00",
       "id": "7b40aeda2ad04585",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2918-production-site-through-imd",
         "website": "https://blocklight-every-block-lights-ou.imd.site"
@@ -3865,7 +3849,36 @@
       "logo": "logos/da4eb34ee3561e150985ac925bb1581bd63b03f09859b2a1c5d7d0010e16baa9.svg",
       "name": "Squeek Signal Garden",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "SqueekSense — a community-powered hamster activity intelligence dashboard for Squeekchain on Sepolia.",
+      "description_origin": "source",
+      "ecosystem_status": "claimed",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/Xelp66/squeeksense-ai"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/Xelp66/squeeksense-ai/blob/1178355aac8dcfecaded2930197fc01296b84287/README.md"
+        }
+      ],
+      "first_seen": "2026-11-04T19:52:10.805830+00:00",
+      "id": "7b5f9eb25127de39",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/Xelp66/squeeksense-ai",
+        "website": "https://squeeksense-ai-app.vercel.app"
+      },
+      "name": "SqueekSense",
+      "publication_origin": "owner_approved",
+      "stage": "development"
     },
     {
       "builder": null,
@@ -3887,7 +3900,7 @@
       "first_seen": "2026-11-04T03:25:13.300429+00:00",
       "id": "7e8ad8344b0fc6e1",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "docs": "https://github.com/identity-md-launches/launch-2944-workflow-frontend-stage-context/blob/HEAD/docs/VALIDATION.md",
         "github": "https://github.com/identity-md-launches/launch-2944-workflow-frontend-stage-context",
@@ -3895,7 +3908,7 @@
       },
       "name": "SqueekRaider",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -3953,7 +3966,7 @@
       "first_seen": "2026-10-30T13:10:22.110330+00:00",
       "id": "80f8c6d15871b3b6",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2722-wheel-archive-capsule",
         "website": "https://wheel-archive-every-turn-kept.imd.site"
@@ -3961,7 +3974,7 @@
       "logo": "logos/2e996ca5b07542779d2e5952ea54e1515647b4579712f63b44a198f3846c14bf.svg",
       "name": "Wheel Archive",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": "Vizou01",
@@ -3987,14 +4000,14 @@
       "first_seen": "2026-10-31T21:12:19.307802+00:00",
       "id": "811683d53f330087",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "announcement": "https://x.com/Vizou01/status/2117639707651899546",
         "website": "https://thelastwheel.app"
       },
       "name": "The Last Wheel",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -4036,7 +4049,7 @@
       "first_seen": "2026-10-29T01:18:38.590709+00:00",
       "id": "818182a7692c5e39",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/Identity-md/research/blob/main/jobs/06d98304-78a4-4089-815a-2be96ef1f7c5/files/AUDIT.md",
         "website": "https://squeekpicks.xyz"
@@ -4044,40 +4057,11 @@
       "logo": "logos/457bbf8e4c7e51be5f66da2cf8c7dc414c488aaa882e22f4d701d4e570da1fa8.svg",
       "name": "Squeek Picks",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Burrow is a 3D hamster kart racing game designed for Squeekchain. It is built using React, Three.js, and Vite. A unique feature is that all models, textures, music, and sound effects are generated directly in code, meaning there are no separate asset files "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-burrow.vercel.app"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To understand how this works, you can explore the technical details provided in the documentation. The public source offers a clear look at the implementation, allowing you to see exactly how the code generates the game's visual and audio elements "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/bangpateng/squeek-burrow"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A 3D hamster kart racing game for Squeekchain, built with React, Three.js and Vite. All models, textures, music and sound effects are generated in code, so there are no asset files.",
       "description_origin": "readme",
@@ -4086,20 +4070,24 @@
         {
           "kind": "github_mention",
           "url": "https://github.com/bangpateng/squeek-burrow"
+        },
+        {
+          "kind": "website",
+          "url": "https://squeek-burrow.vercel.app"
         }
       ],
       "first_seen": "2026-11-03T20:33:11.907210+00:00",
       "id": "829361d74515829a",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/bangpateng/squeek-burrow",
-        "website": "https://squeek-burrow.vercel.app"
+        "website": "https://squeekburrow.site"
       },
       "logo": "logos/c873a2d0da3a0e90a66602f3a7e30f8a2c3f2e418a500101b925eb33eab364b8.svg",
       "name": "Squeek Burrow",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": "hamsterhourgame",
@@ -4121,7 +4109,7 @@
       "first_seen": "2026-10-23T19:28:51.093916+00:00",
       "id": "82c3c3c9cd2c39a7",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "announcement": "https://x.com/hamsterhourgame/status/2116181078650331524",
         "website": "https://hamsterhour.fun",
@@ -4130,7 +4118,7 @@
       "logo": "logos/e23a1cb4daf73400c9f7751cf4dbaf9c116d200fad2649463448e67bd1c9fceb.jpg",
       "name": "Hamster Hour",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -4152,7 +4140,7 @@
       "first_seen": "2026-10-30T19:44:12.939137+00:00",
       "id": "83c58cec38236163",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2746-live-squeektoshi-telemetry-dashboard",
         "website": "https://squeektoshi-live-squeekchain-tel.imd.site"
@@ -4160,7 +4148,7 @@
       "logo": "logos/33399d485e9c12b07cea9986f2c20b77ecba798935662974ee0aef5994c7c084.svg",
       "name": "Squeektoshi live",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -4230,7 +4218,7 @@
       "first_seen": "2026-11-02T20:42:46.185115+00:00",
       "id": "83f80ee974aff8af",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "testnet",
       "links": {
         "docs": "https://github.com/identity-md-launches/launch-2814-sqi/blob/HEAD/docs/abi/README.md",
         "explorer": "https://eth-sepolia.blockscout.com/address/0x5fbe17ecdae6cab9d657313ba5704ea3e19ab72d",
@@ -4240,7 +4228,7 @@
       "logo": "logos/4a6c727311ce818e57da85b10d05a6fe9aaa675c19cc529a2d70bcb89070e012.svg",
       "name": "COVER",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "testnet"
     },
     {
       "builder": null,
@@ -4262,7 +4250,7 @@
       "first_seen": "2026-11-04T12:47:33.104516+00:00",
       "id": "84d8a3b648b9fcf0",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2969-build-spoke-sprint-one",
         "website": "https://spoke-sprint-race-squeektoshi-s.imd.site"
@@ -4270,7 +4258,7 @@
       "logo": "logos/3d2a7d92a8a9998d96d52c4071f277e1e15c42f4a66960104f177a263939cccf.svg",
       "name": "Spoke Sprint",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -4292,14 +4280,14 @@
       "first_seen": "2026-10-30T08:07:28.714938+00:00",
       "id": "85e135dc55848621",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2703-build-squeekstage-static-stream",
         "website": "https://squeekstage-live-stream-companio.imd.site"
       },
       "name": "SqueekStage",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -4317,7 +4305,7 @@
       "first_seen": "2026-11-01T10:23:27.432993+00:00",
       "id": "872af929d4628915",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "docs": "https://github.com/nhattung99/squeek-race/blob/HEAD/docs/RESEARCH.md",
         "github": "https://github.com/nhattung99/squeek-race",
@@ -4325,7 +4313,7 @@
       },
       "name": "SqueekRace Arena",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -4367,14 +4355,14 @@
       "first_seen": "2026-10-27T05:51:12.873289+00:00",
       "id": "883b9c2a12d22e2f",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://squeek-dashboard.fun"
       },
       "logo": "logos/5450d5403c3d2ba8091f7a98b95840fbe62ac353ae5e93d6d89f3579aad63dad.png",
       "name": "Squeek Dashboard",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -4396,7 +4384,7 @@
       "first_seen": "2026-11-01T16:42:14.338724+00:00",
       "id": "890804f7016dd884",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "docs": "https://github.com/identity-md-launches/launch-2838-deliver-source-backed-squeek-pet/blob/HEAD/docs/screenshots/hamster.png",
         "github": "https://github.com/identity-md-launches/launch-2838-deliver-source-backed-squeek-pet",
@@ -4404,7 +4392,7 @@
       },
       "name": "Squeek Pet",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -4422,14 +4410,14 @@
       "first_seen": "2026-10-31T21:12:19.217573+00:00",
       "id": "8a88be894dedf00d",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://squeek-wake-raid-wheely9000-sire.imd.site"
       },
       "logo": "logos/a851e19e59d821c4e3c37312465771f23e273b04a0f192819a23b6c78a399b99.svg",
       "name": "Squeek Wake & Raid",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -4471,14 +4459,14 @@
       "first_seen": "2026-10-31T21:12:19.106513+00:00",
       "id": "8bb0f98c06a6d7e8",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/Rooaraak/squeek-wheel-watch/blob/main/art.js",
         "website": "https://squeekwheel.xyz"
       },
       "name": "Squeek Spin Art",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -4517,7 +4505,7 @@
       "first_seen": "2026-11-02T04:03:24.695568+00:00",
       "id": "8d334f6bea6837d8",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2860-build-squeek-kingdom-original",
         "website": "https://squeek-kingdom-a-little-kingdom.imd.site"
@@ -4531,7 +4519,7 @@
           "name": "SQUEEK ARENA"
         }
       ],
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -4549,13 +4537,13 @@
       "first_seen": "2026-11-02T20:42:47.477414+00:00",
       "id": "8d5040ac8883caee",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://hamster-rush-squeekchain.imd.site"
       },
       "name": "Hamster Rush",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -4614,14 +4602,14 @@
       "first_seen": "2026-11-01T22:15:19.172360+00:00",
       "id": "8d9533750a6cd8c5",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2856-fix-trust-wording-site",
         "website": "https://squeek-garden.imd.site"
       },
       "name": "Squeek Garden",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -4683,7 +4671,7 @@
       "first_seen": "2026-10-30T15:11:27.051992+00:00",
       "id": "8eca90f2878108d1",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "docs": "https://github.com/identity-md-launches/launch-2731-build-squeekscope-static-website/blob/HEAD/docs/validation.md",
         "github": "https://github.com/identity-md-launches/launch-2731-build-squeekscope-static-website",
@@ -4692,7 +4680,7 @@
       "logo": "logos/e5c377abb5588feaced4af922154f5edb373fbfd8cc0165b43941bf1f825e07c.svg",
       "name": "Squeekscope",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -4714,7 +4702,7 @@
       "first_seen": "2026-10-30T09:38:24.417960+00:00",
       "id": "90d6fa234c4507c9",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2714-build-simple-squeekchain-companion",
         "website": "https://squeek-peek-squeekchain-companio.imd.site"
@@ -4722,7 +4710,7 @@
       "logo": "logos/4f9ae14e6b3c5dbf099981e261302a618552bf1e6bc6dcd0e93684ee517d0466.svg",
       "name": "Squeek Peek",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -4744,7 +4732,7 @@
       "first_seen": "2026-10-30T05:36:29.477363+00:00",
       "id": "910139adb6dccdec",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2687-build-website-called-squeek",
         "website": "https://squeek-radar-small-paws-big-bloc.imd.site"
@@ -4752,7 +4740,7 @@
       "logo": "logos/49a007faa34f7e991ba1c4f72cffe69a87f66ada63f137d2c51651a0a7c402c5.svg",
       "name": "Squeek Radar",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -4774,7 +4762,7 @@
       "first_seen": "2026-10-30T15:41:51.704302+00:00",
       "id": "921a131cee52ea08",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2732-build-squeek-boss-raid",
         "website": "https://squeek-boss-raid-a-hamster-power.imd.site"
@@ -4782,7 +4770,7 @@
       "logo": "logos/2e7e01867a61b186db8af74c3cd016110b452cc002c5f11d2435e2416af0f61c.svg",
       "name": "Squeek Boss Raid",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -4840,7 +4828,7 @@
       "first_seen": "2026-11-03T16:14:21.222374+00:00",
       "id": "952a848999c3bf15",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2925-build-deploy-squeekpet-living",
         "website": "https://squeekpet-living-evolution.imd.site"
@@ -4854,7 +4842,7 @@
           "name": "SqueekOptimizer"
         }
       ],
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -4867,13 +4855,13 @@
       "first_seen": "2026-11-01T15:33:23.203805+00:00",
       "id": "985b4e66047709ca",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://squeekpulse.xyz"
       },
       "name": "Squeek Pulse",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -4899,7 +4887,7 @@
       "first_seen": "2026-11-02T18:44:02.551416+00:00",
       "id": "98d7243c9e92f7cc",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2895-build-absolutely-fire-highly",
         "website": "https://squeek-penalty-tiny-paws-big-pre.imd.site"
@@ -4907,7 +4895,7 @@
       "logo": "logos/9388afe0a5cb2597bf40031cb3ca7ff8ee59849fa770f9eb5564251e53499326.svg",
       "name": "SQUEEK PENALTY",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -4925,14 +4913,14 @@
       "first_seen": "2026-11-04T03:40:20.138860+00:00",
       "id": "98e134b0920a3376",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/tidavn/squeek-aura-planner",
         "website": "https://squeek-aura-planner.vercel.app"
       },
       "name": "Squeek Aura Planner",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -4970,7 +4958,7 @@
       "first_seen": "2026-10-29T04:35:30.178961+00:00",
       "id": "9aa1637574885b2f",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "docs": "https://github.com/Ceyz/squeek-power-planner/blob/HEAD/docs/MODEL.md",
         "github": "https://github.com/Ceyz/squeek-power-planner",
@@ -4978,7 +4966,7 @@
       },
       "name": "Squeek Power Planner",
       "publication_origin": "owner_approved",
-      "stage": "unknown",
+      "stage": "development",
       "verified_by_squeek": {
         "last_checked": "2026-11-03T21:21:14.526201+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
@@ -5054,7 +5042,7 @@
       "first_seen": "2026-11-03T12:26:15.823928+00:00",
       "id": "9bff1a6802411ddb",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2919-squeek-merge-desk",
         "website": "https://squeek-merge-desk-genesis-holder.imd.site"
@@ -5062,7 +5050,7 @@
       "logo": "logos/5f0565fca758cb79c27cf0e132fdffd8480c899645e668a47d82778dda4cc98a.svg",
       "name": "Squeek Merge Desk",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -5084,7 +5072,7 @@
       "first_seen": "2026-11-04T02:38:16.222693+00:00",
       "id": "9cc243ffda688f30",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2942-build-deploy-squeekoptimizer-premium",
         "website": "https://squeekoptimizer-your-squeeks-wor.imd.site"
@@ -5098,7 +5086,7 @@
           "name": "SqueekPet"
         }
       ],
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -5163,7 +5151,7 @@
       "first_seen": "2026-10-30T06:21:44.570128+00:00",
       "id": "9d5008150f844a90",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2690-build-single-page-website-called",
         "website": "https://squeekchain-live-dashboard.imd.site"
@@ -5171,7 +5159,7 @@
       "logo": "logos/9c60ee62d7fdfb95fd6b014ffd1ca3d598d156f53a52fdc2a1bc8967609c9034.svg",
       "name": "Squeekchain Live Dashboard",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -5193,7 +5181,7 @@
       "first_seen": "2026-11-04T09:30:13.482365+00:00",
       "id": "9eb1e983844f7730",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2960-build-new-one-page-website",
         "website": "https://burrowkeep-246d.imd.site"
@@ -5201,7 +5189,7 @@
       "logo": "logos/46b24b7f18d51f94ed1dcd2968cea0c21aacf31175edc4c0cd290cee4c2702ce.svg",
       "name": "轮谱",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -5252,7 +5240,7 @@
       "first_seen": "2026-10-30T07:07:02.108803+00:00",
       "id": "a037ec35b4fb9d29",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2695-using-squeekhub-api-https-api-squeekchai",
         "website": "https://spm-squeek-prediction-market.imd.site"
@@ -5260,7 +5248,7 @@
       "logo": "logos/411d467b869feb35b675792b657e144e4596a679ec4f1405c0d90e691a877d24.svg",
       "name": "SPM · Squeek Prediction Market",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -5314,14 +5302,14 @@
       "first_seen": "2026-11-01T03:55:59.664230+00:00",
       "id": "a124364f3aa6c038",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://wheelprints-sepolia.pages.dev"
       },
       "logo": "logos/f37b6a412409cda187e8dcddaa95aad6b1f9eb497815ab1c73caf012f0f1a493.svg",
       "name": "Wheelprints",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -5343,14 +5331,14 @@
       "first_seen": "2026-10-30T09:08:03.045490+00:00",
       "id": "a12e63be8f96f779",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2710-build-cute-single-page-game",
         "website": "https://squeek-escape-a-hamster-runner-p.imd.site"
       },
       "name": "Squeek Escape",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -5397,7 +5385,7 @@
       "first_seen": "2026-10-29T20:30:54.021313+00:00",
       "id": "a1362c9ba1fea35e",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "docs": "https://github.com/Volha1213/squeekchain-analytics/blob/HEAD/docs/screenshots/overview-dark.jpg",
         "github": "https://github.com/Volha1213/squeekchain-analytics",
@@ -5406,7 +5394,7 @@
       "logo": "logos/34a8f52dc5b5dc667268366fe9453dae5a5d6d710476ecc5ac35739c42b8ac4d.svg",
       "name": "Squeekchain Analytics",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -5460,14 +5448,14 @@
       "first_seen": "2026-11-04T10:22:38.557731+00:00",
       "id": "a311aedfe3ec6e0c",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/blustackk/squeek-pulse",
         "website": "https://squeek.blu-stack.com"
       },
       "name": "Squeek Pulse",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -5480,14 +5468,14 @@
       "first_seen": "2026-11-03T22:46:59.722904+00:00",
       "id": "a4d49036ed617c12",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/ridaghraizi46-ops/squeek-viewer",
         "website": "https://aramalan.win"
       },
       "name": "Squeek Viewer",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -5509,7 +5497,7 @@
       "first_seen": "2026-11-04T09:45:23.533297+00:00",
       "id": "a51556038c2dd122",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2965-build-squeekrace-wheel-relay",
         "website": "https://squeekrace-wheel-relay.imd.site"
@@ -5517,7 +5505,34 @@
       "logo": "logos/069ce2aefe766af98efc941d6496723e2a79c8cbd518a7005ca77c1d17c1bccf.svg",
       "name": "SqueekRace Wheel Relay",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "nft",
+      "contracts": [],
+      "description_en": "A Sepolia vault that permanently pools Graph A Squeek mining NFTs. Depositors receive ERC-20 accounting shares (hmSQUEEK); a strategist merges equal-level NFTs; holders claim their proportion of funded SQK rewards. The vault is one application contract, HamsterMiningReserve, with no premint, token sale, liquidity pool,…",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/d66169a6-20fb-4f0d-80a8-a57696d80a98"
+        }
+      ],
+      "first_seen": "2026-11-02T20:42:47.273618+00:00",
+      "id": "a52f4a9cd2c112b6",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "docs": "https://github.com/identity-md-launches/launch-2751-workflow-frontend-stage-context/blob/HEAD/docs/TESTING.md",
+        "github": "https://github.com/identity-md-launches/launch-2751-workflow-frontend-stage-context",
+        "website": "https://hamster-mining-reserve-squeek-nf.imd.site"
+      },
+      "logo": "logos/46504b3ce78a2489ab1193e24ade0a5c664052d6c1bffce416f2f6b2a3a47712.svg",
+      "name": "Hamster Mining Reserve",
+      "publication_origin": "owner_approved",
+      "stage": "development"
     },
     {
       "builder": null,
@@ -5564,7 +5579,7 @@
       "first_seen": "2026-10-31T21:12:19.222151+00:00",
       "id": "a5a278ce9e54c6ba",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://squeek-sprouts-a-little-garden-p.imd.site"
       },
@@ -5577,7 +5592,7 @@
           "name": "Squeek Appraiser"
         }
       ],
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -5599,7 +5614,7 @@
       "first_seen": "2026-10-30T09:38:24.422715+00:00",
       "id": "a7888893596b8e40",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2712-build-simple-but-fully",
         "website": "https://squeekyield-stake-seed-on-sepoli.imd.site"
@@ -5621,7 +5636,7 @@
           "name": "Squeekchain"
         }
       ],
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -5651,13 +5666,13 @@
       "first_seen": "2026-11-04T04:53:09.759685+00:00",
       "id": "a9f802261bd27037",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://squeek-flap-run-with-squeektoshi.imd.site"
       },
       "name": "Squeek Flap",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -5679,7 +5694,7 @@
       "first_seen": "2026-10-30T06:21:44.572844+00:00",
       "id": "aa0c23d92e521748",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2689-build-deploy-squeek-courier",
         "website": "https://squeek-courier-small-paws-big-de.imd.site"
@@ -5687,7 +5702,7 @@
       "logo": "logos/ea77c1a2598d1689e7715ee36d7545c68544131acc0a79472537e084f4f6f8bd.svg",
       "name": "Squeek Courier",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -5728,14 +5743,14 @@
       "first_seen": "2026-10-30T13:10:22.112900+00:00",
       "id": "abed8276549b7152",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/tommycuong1904/squeekfi",
         "website": "https://squeekfi.vercel.app"
       },
       "name": "SqueekFi",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -5800,7 +5815,7 @@
       "first_seen": "2026-11-02T17:58:20.915723+00:00",
       "id": "ac2a8ee74bc5e343",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2891-real-robot-static-squeekchain",
         "website": "https://real-or-robot-squeektoshi-s-runs.imd.site"
@@ -5814,7 +5829,7 @@
           "name": "Ghost Wheel"
         }
       ],
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -5849,14 +5864,14 @@
       "first_seen": "2026-10-27T04:35:34.132091+00:00",
       "id": "acd4a8ee520ea78f",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "testnet",
       "links": {
         "explorer": "https://eth-sepolia.blockscout.com/address/0xc0402e84499d3970640f4a996e5ce2ebd51618c7",
         "website": "https://squeekbet.xyz"
       },
       "name": "SqueekBet",
       "publication_origin": "owner_approved",
-      "stage": "unknown",
+      "stage": "testnet",
       "verified_by_squeek": {
         "last_checked": "2026-11-03T21:21:14.526201+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
@@ -5885,7 +5900,7 @@
       "first_seen": "2026-10-31T21:44:58.013371+00:00",
       "id": "ad808bd00c69cd8d",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2799-build-english-language-browser-game",
         "website": "https://squeek-wheel-oracle-tiny-paws-bi.imd.site"
@@ -5893,7 +5908,7 @@
       "logo": "logos/01d91433107c50fee3323d66881a2511b084b2cf8eb673c896a667169c8cf6cf.svg",
       "name": "Squeek Wheel Oracle",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -5915,7 +5930,7 @@
       "first_seen": "2026-11-01T18:58:42.127258+00:00",
       "id": "b24b6fcdc12ab038",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2852-build-wheelworks-complete-playable",
         "website": "https://wheelworks-a-hamster-powered-rou.imd.site"
@@ -5923,7 +5938,7 @@
       "logo": "logos/f90e94a05c20fa3f2d1d4e2902ba509565e2463fe58e31341577df0009ab7901.svg",
       "name": "Wheelworks",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -5936,13 +5951,13 @@
       "first_seen": "2026-10-30T00:37:44.784688+00:00",
       "id": "b488cfb493ec95cb",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://hamster-atlas.vercel.app"
       },
       "name": "Hamster Atlas",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -5955,14 +5970,14 @@
       "first_seen": "2026-10-31T21:12:19.322493+00:00",
       "id": "b5d2c1af2488cb6f",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://wheelcam.online"
       },
       "logo": "logos/7fb5d95d33f886b9b493b58f8c3670ffceaf9ce76528fe8aa8bc9c0ebc38bac3.svg",
       "name": "WheelCam",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -5984,7 +5999,7 @@
       "first_seen": "2026-10-31T11:23:26.254692+00:00",
       "id": "b96f3b96feb8e03d",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2776-build-publish-original-production-ready",
         "website": "https://squeek-pouch.imd.site"
@@ -5998,7 +6013,7 @@
           "name": "Squeekstr Desk"
         }
       ],
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -6020,7 +6035,7 @@
       "first_seen": "2026-11-04T07:54:09.672703+00:00",
       "id": "bed4464683094583",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/nh0cksh0ck02/squeekchain-genesis-hamster",
         "website": "https://squeekchain-genesis-the-rebellio.imd.site"
@@ -6028,7 +6043,7 @@
       "logo": "logos/ef07dfccad87d323940d4f2219d4a95f13357a0a3cd6c382a4dd0c841ec1b671.svg",
       "name": "Squeekchain Genesis",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -6050,7 +6065,7 @@
       "first_seen": "2026-10-29T22:17:33.192222+00:00",
       "id": "bf59d3bc79f7a775",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/XINyu2314/squeek-forge",
         "website": "https://squeek-forge.imd.site"
@@ -6063,7 +6078,7 @@
           "name": "Squeek Merge Preview"
         }
       ],
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -6085,7 +6100,7 @@
       "first_seen": "2026-10-31T10:52:55.785837+00:00",
       "id": "c0dfb5ce7b239ca7",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2774-build-publish-squeek-pouch",
         "website": "https://squeek-pouch-a-hamster-arcade-ga.imd.site"
@@ -6093,7 +6108,7 @@
       "logo": "logos/9683debacdd31afc4d2db82e943a663d388361f25ba4e31d7c7bb9ce1e138b54.svg",
       "name": "Squeek Pouch",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -6119,7 +6134,7 @@
       "first_seen": "2026-10-31T01:02:46.137790+00:00",
       "id": "c2eedad2e6b28c4a",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2757-who-squeektoshi-parody-investigation",
         "website": "https://whoissqueektoshi.imd.site"
@@ -6133,7 +6148,7 @@
           "name": "Hamster Nap (NAP)"
         }
       ],
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -6178,14 +6193,14 @@
       "first_seen": "2026-11-01T03:18:40.525118+00:00",
       "id": "c59bcff9c6f2412c",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/truongle1990/squeekchain-dashboard",
         "website": "https://squeekchain-dashboard-ten.vercel.app"
       },
       "name": "Squeekchain Dashboard",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -6215,7 +6230,7 @@
       "first_seen": "2026-10-31T08:36:46.646674+00:00",
       "id": "c5c6a89b6d2283f3",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2770-build-wheel-canvas-live",
         "website": "https://wheel-canvas-painted-by-squeekto.imd.site"
@@ -6223,7 +6238,7 @@
       "logo": "logos/d7ac196928d6f0fa4ca8f3adb9652c7cfe1e19a38f04177f99176f5506477d17.svg",
       "name": "Wheel Canvas",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -6236,7 +6251,7 @@
       "first_seen": "2026-10-27T05:51:12.866509+00:00",
       "id": "c6a9651f4ba6680c",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://sqkstr.xyz/",
         "x": "https://x.com/sqkstr"
@@ -6244,7 +6259,7 @@
       "logo": "logos/c1e1a071a97273698de1597d36ecb398d76509d0ceae2104dd67fef3bc7fa89f.jpg",
       "name": "sqkstr",
       "publication_origin": "owner_approved",
-      "stage": "unknown",
+      "stage": "development",
       "verified_by_squeek": {
         "last_checked": "2026-11-03T21:21:14.526201+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
@@ -6273,7 +6288,7 @@
       "first_seen": "2026-10-31T18:12:11.696461+00:00",
       "id": "c9887d42102d1239",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2789-build-fantasy-hamster-daily",
         "website": "https://fantasy-hamster.imd.site"
@@ -6287,7 +6302,7 @@
           "name": "Turing Wheel"
         }
       ],
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -6309,14 +6324,14 @@
       "first_seen": "2026-11-02T07:50:37.315748+00:00",
       "id": "cacb9a71bca8c3f7",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2867-build-squeelody-single-page",
         "website": "https://squeelody.imd.site"
       },
       "name": "SQUEELODY",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -6338,7 +6353,7 @@
       "first_seen": "2026-11-02T12:24:14.319676+00:00",
       "id": "cba8852a8f8ba9a6",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2869-squeekrider-odyssey",
         "website": "https://squeekrider-odyssey-small-rider.imd.site"
@@ -6346,7 +6361,7 @@
       "logo": "logos/ce2c559b5d894a8303121a2a91fc74d64ca4fcb5e9397bc276596db5dd4ce942.svg",
       "name": "SqueekRider Odyssey",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -6393,7 +6408,7 @@
       "first_seen": "2026-10-30T09:23:16.390827+00:00",
       "id": "ccd468d84b259517",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "testnet",
       "links": {
         "docs": "https://github.com/identity-md-launches/launch-2711-create-complete-squeekchain-prediction/blob/HEAD/docs/CORE_INTEGRATION.md",
         "explorer": "https://eth-sepolia.blockscout.com/address/0x8bd658e58e94ab6a18a8b9d8c6108d1287facacf",
@@ -6403,7 +6418,7 @@
       "logo": "logos/2324c3d3b0ef454192c6ddb7557f86e8d4097f46ec4e3da4758929b5f31ae9f1.svg",
       "name": "Squeek Predict",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "testnet"
     },
     {
       "builder": null,
@@ -6425,7 +6440,7 @@
       "first_seen": "2026-11-02T17:59:54.952462+00:00",
       "id": "cd69dec184b32427",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://squeek-garden-a-little-garden-po.imd.site"
       },
@@ -6438,7 +6453,7 @@
           "name": "Squeek Tales"
         }
       ],
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -6469,7 +6484,7 @@
       "first_seen": "2026-11-02T05:03:44.193289+00:00",
       "id": "cd8f624b93020d0c",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "testnet",
       "links": {
         "explorer": "https://eth-sepolia.blockscout.com/address/0x7b323e55617e7f7a7a41e5172d70ad25f462c329",
         "github": "https://github.com/identity-md-launches/launch-2862-build-squeek-arena-complete",
@@ -6484,7 +6499,7 @@
           "name": "SQUEEK KINGDOM"
         }
       ],
-      "stage": "unknown"
+      "stage": "testnet"
     },
     {
       "builder": null,
@@ -6506,7 +6521,7 @@
       "first_seen": "2026-11-02T23:32:56.565952+00:00",
       "id": "ce9658a1adfcd63e",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2901-build-small-static-web",
         "website": "https://squeek-pulse.imd.site"
@@ -6514,7 +6529,7 @@
       "logo": "logos/f6bbf2af7051b3a9fdf877c7294f0144362bdf7539e1f669119106710cb072be.svg",
       "name": "Squeekchain dashboard",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -6532,7 +6547,7 @@
       "first_seen": "2026-11-02T20:42:47.575468+00:00",
       "id": "d0c84f2e6dfe53c7",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/jojay64/squeek-alerts",
         "telegram": "https://t.me/squeek_alerts",
@@ -6540,7 +6555,7 @@
       },
       "name": "Squeek Alerts",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -6562,7 +6577,7 @@
       "first_seen": "2026-11-01T12:55:00.401766+00:00",
       "id": "d0f042a62fb3fc8f",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2822-build-burrow-power-original",
         "website": "https://burrow-power-a-hamster-powered-s.imd.site"
@@ -6576,7 +6591,7 @@
           "name": "Squeekchain Arcade"
         }
       ],
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -6597,13 +6612,13 @@
       "first_seen": "2026-11-04T00:22:48.725652+00:00",
       "id": "d16dddc9c8ca46a8",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://crypto-hamster-run.netlify.app"
       },
       "name": "Crypto Hamster Run",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -6625,7 +6640,7 @@
       "first_seen": "2026-11-01T12:55:00.324302+00:00",
       "id": "d1a3a0057a5bfafd",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2825-add-small-how-play",
         "website": "https://wheel-merge-29fc.imd.site"
@@ -6633,7 +6648,7 @@
       "logo": "logos/1f755e94547a5eeee7db4fcbda1f657ce93fc43e86f8e9a26bb04aedfddfe4f4.svg",
       "name": "Wheel Merge",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -6646,14 +6661,14 @@
       "first_seen": "2026-11-02T03:56:01.844911+00:00",
       "id": "d23c01b43ba6ea76",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://squeek-nft.identitymd.eth.limo/"
       },
       "logo": "logos/40a4496b7d6721bc8a3b57bc2365d573f909231179d6c5ac7a79c4d3c9d51f24.svg",
       "name": "Squeek 起名屋",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -6678,6 +6693,36 @@
       "name": "SqueekScope",
       "publication_origin": "owner_approved",
       "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "Live SqueekChain dashboard: Squeektoshi wheel status, next block progress, $SQK supply, settlements and contracts on Sepolia, refreshed every 15 seconds.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-2982-build-squeekvision-real-time"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/276d0fae-58e3-4769-a174-d84ec568c39b"
+        }
+      ],
+      "first_seen": "2026-11-04T21:38:12.060390+00:00",
+      "id": "d3805979ad266e81",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-2982-build-squeekvision-real-time",
+        "website": "https://squeekvision-squeekchain-network.imd.site"
+      },
+      "logo": "logos/e2d2ffae1cf8b74d27578a624dd0c097dff5c6ec36f0df4d3e9e9d4b2b1bb165.svg",
+      "name": "SqueekVision",
+      "publication_origin": "owner_approved",
+      "stage": "development"
     },
     {
       "builder": null,
@@ -6707,7 +6752,7 @@
       "first_seen": "2026-11-03T03:35:50.899298+00:00",
       "id": "d3b15acfbd4b8cbf",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2905-build-complete-interactive-mobile-friend",
         "website": "https://squeek-clicker-small-mouse-big-s.imd.site"
@@ -6715,7 +6760,7 @@
       "logo": "logos/6210756edb2d87e517ebcdf7814e858edf095b3946800ddb19b08cb015c93682.svg",
       "name": "Squeek Clicker",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -6741,7 +6786,7 @@
       "first_seen": "2026-11-04T07:13:49.590010+00:00",
       "id": "d431f706db8ce272",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2953-build-publish-complete-web",
         "website": "https://squeek-studio-make-the-wheel-par.imd.site"
@@ -6749,7 +6794,7 @@
       "logo": "logos/cef11147e5bccf9803ca99594a0c9beba33365a3d1cbd3c52f344665ad04b8bb.svg",
       "name": "Squeek Studio",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -6771,7 +6816,7 @@
       "first_seen": "2026-11-02T16:57:04.314826+00:00",
       "id": "d50e964be532f7c4",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2889-add-open-graph-twitter",
         "website": "https://ghost-wheel-race-squeektoshi-s-r.imd.site"
@@ -6785,7 +6830,7 @@
           "name": "Real or Robot?"
         }
       ],
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -6812,7 +6857,7 @@
       "first_seen": "2026-11-02T20:42:47.888954+00:00",
       "id": "d514954477a18101",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "testnet",
       "links": {
         "docs": "https://github.com/identity-md-launches/launch-2692-squeek-companion/blob/HEAD/docs/artwork.svg",
         "explorer": "https://eth-sepolia.blockscout.com/address/0x264730e600808321053729bf3445ffb611c67221",
@@ -6822,7 +6867,7 @@
       "logo": "logos/1812868b1e53ad97e562a874313bddd21608d51ef2261b45e8dc635ce2c473b7.svg",
       "name": "Squeek Companion",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "testnet"
     },
     {
       "builder": null,
@@ -6840,7 +6885,7 @@
       "first_seen": "2026-11-02T07:16:50.436278+00:00",
       "id": "d65c5b4545f0c8af",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://squeek-glide-ban-lai-hamster-tao.imd.site"
       },
@@ -6853,7 +6898,7 @@
           "name": "Squeek Hatchery"
         }
       ],
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -6871,7 +6916,7 @@
       "first_seen": "2026-11-04T07:59:19.683976+00:00",
       "id": "d9817cd67d3a3580",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "docs": "https://github.com/jexeth738/hamster-city/blob/HEAD/docs/city-day.png",
         "github": "https://github.com/jexeth738/hamster-city",
@@ -6880,7 +6925,7 @@
       "logo": "logos/2b08b1c1ce6e548d88bb3f8b08df7f614a460c3189c0b3f9a0a8cd6661a9134b.png",
       "name": "open http://localhost:8000",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -6898,14 +6943,14 @@
       "first_seen": "2026-11-02T15:56:18.636557+00:00",
       "id": "dabe9a8b4f641ae7",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/salax345/squeek-runner",
         "website": "https://squeek-runner.vercel.app"
       },
       "name": "Squeek Runner",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -6925,14 +6970,14 @@
       "first_seen": "2026-10-28T01:09:08.749867+00:00",
       "id": "db0463f9621fb23c",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://wheelpaper.online/"
       },
       "logo": "logos/51402b2d4d8fc90f555a42d1b7f2fa76fbf3ea8e1d1f3b92f00e7399f0e4eada.png",
       "name": "The Wheelpaper",
       "publication_origin": "owner_approved",
-      "stage": "unknown",
+      "stage": "development",
       "verified_by_squeek": {
         "last_checked": "2026-11-03T21:21:14.526201+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
@@ -6961,7 +7006,7 @@
       "first_seen": "2026-10-31T03:49:14.454786+00:00",
       "id": "dddf5d0fe643127f",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2762-workflow-frontend-stage-context",
         "website": "https://hamsternap.imd.site"
@@ -6975,7 +7020,7 @@
           "name": "Who is Squeektoshi?"
         }
       ],
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -6988,13 +7033,13 @@
       "first_seen": "2026-11-02T02:35:47.727135+00:00",
       "id": "e0cdb0fdae439f75",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://squeek.pametnozavarovan.si/"
       },
       "name": "Hamster Track",
       "publication_origin": "owner_approved",
-      "stage": "unknown",
+      "stage": "development",
       "verified_by_squeek": {
         "last_checked": "2026-11-03T21:21:14.526201+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
@@ -7056,7 +7101,7 @@
       "first_seen": "2026-11-02T13:39:57.497158+00:00",
       "id": "e36a2c502e45bd50",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2879-finish-ship-among-squeeks",
         "website": "https://among-squeeks.imd.site"
@@ -7064,7 +7109,7 @@
       "logo": "logos/eac81e15bf7ecb1c89afe7358ddf77eb8c5c07b2eaf2a3a31efb9133ba6f28f8.svg",
       "name": "Among Squeeks",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -7077,12 +7122,16 @@
         {
           "kind": "github_mention",
           "url": "https://github.com/Czyzuu/squeeky-market-contracts"
+        },
+        {
+          "kind": "website",
+          "url": "https://wheel-market.46.225.133.160.sslip.io"
         }
       ],
       "first_seen": "2026-11-02T15:10:59.275201+00:00",
       "id": "e3da2f0dd417d55b",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/Czyzuu/squeeky-market-contracts",
         "website": "https://hamster.squeekymarket.trade"
@@ -7090,7 +7139,7 @@
       "logo": "logos/3657d88c522e510bd774feaf045b3f26f398db597e2a1077fffb8bf3708c9364.svg",
       "name": "Squeeky Market",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -7116,7 +7165,7 @@
       "first_seen": "2026-11-03T16:44:45.544365+00:00",
       "id": "e729cf878879dd30",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2927-build-finished-public-english-first",
         "website": "https://squeek-stream-kit-squeekchain-ov.imd.site"
@@ -7124,7 +7173,7 @@
       "logo": "logos/ef779b26a79f8936ac19b74485d41b7c07ac28f5f2eb3a1939b48d7d5391f1b9.svg",
       "name": "Squeek Stream Kit",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -7173,7 +7222,7 @@
       "first_seen": "2026-11-02T15:41:15.050204+00:00",
       "id": "e7b9e35841df40c8",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2887-add-social-share-metadata",
         "website": "https://wheel-call-ab9f.imd.site"
@@ -7187,7 +7236,7 @@
           "name": "Wheelbound"
         }
       ],
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -7209,7 +7258,7 @@
       "first_seen": "2026-10-31T08:51:46.951880+00:00",
       "id": "e864795c2d690da2",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "docs": "https://github.com/identity-md-launches/launch-2753-workflow-frontend-stage-context/blob/HEAD/docs/frontend/REBRAND-VALIDATION.md",
         "github": "https://github.com/identity-md-launches/launch-2753-workflow-frontend-stage-context",
@@ -7217,7 +7266,33 @@
       },
       "name": "Squeek’s First Road Trip",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "A complete, free 2D endless runner: a little mouse, a sunlit pantry, and one more piece of cheese. Built with React, TypeScript, Vite, and a Canvas 2D simulation. The finished static site is included in dist/.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/562a5871-9c1a-4fd8-bd9c-54260bb269f2"
+        }
+      ],
+      "first_seen": "2026-11-04T18:55:35.818386+00:00",
+      "id": "e87aaa926c8cb1ae",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-2976-build-new-project-named",
+        "website": "https://squeek-runner-small-mouse-big-ch.imd.site"
+      },
+      "logo": "logos/c39c4a45cefbd531f1e409f5e79374e4dea60ae462dd6b2423534fdd6404ef58.svg",
+      "name": "Squeek Runner",
+      "publication_origin": "owner_approved",
+      "stage": "development"
     },
     {
       "builder": null,
@@ -7235,14 +7310,14 @@
       "first_seen": "2026-11-03T17:30:19.270381+00:00",
       "id": "e8a9626c147041f8",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/Abstaina44/Web3-game",
         "website": "https://myth-arena.netlify.app"
       },
       "name": "Myth Arena",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -7264,7 +7339,7 @@
       "first_seen": "2026-11-01T09:37:56.042066+00:00",
       "id": "e8af6d0bc2c9eb3e",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2818-build-fun-interactive-single-page",
         "website": "https://squeek-tales-a-little-adventure.imd.site"
@@ -7278,7 +7353,7 @@
           "name": "Squeek Garden"
         }
       ],
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -7304,7 +7379,7 @@
       "first_seen": "2026-11-03T08:53:33.827862+00:00",
       "id": "ed84ddc66dfbd836",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2913-build-squeek-relay",
         "website": "https://squeek-relay-one-hamster-all-of.imd.site"
@@ -7312,7 +7387,7 @@
       "logo": "logos/3f6b9d79448d110b9fd97656999195e6934cf4c98b5bf80b9b43d6c2f8a0c1ce.svg",
       "name": "Squeek Relay",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -7334,7 +7409,7 @@
       "first_seen": "2026-10-31T12:08:54.377432+00:00",
       "id": "ee280aba019e434a",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2779-hamster-dash-ipfs-45-10-30-20-0-a-d",
         "website": "https://hamster-dash.imd.site"
@@ -7342,7 +7417,7 @@
       "logo": "logos/130606c22ad38972312e183e5c58502d7a6ef5bef8c4be3467f3b3c86fdf1738.svg",
       "name": "Hamster Dash",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -7360,14 +7435,14 @@
       "first_seen": "2026-10-31T21:12:19.203861+00:00",
       "id": "ee38834c456b7c98",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://burrow-squeek.imd.site"
       },
       "logo": "logos/d40b9c2ea4946be6147a8054e989fdcd161587ffb636aa18e5a2fafacc90e1b9.svg",
       "name": "Burrow",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -7389,7 +7464,7 @@
       "first_seen": "2026-10-30T21:15:09.391388+00:00",
       "id": "ee4155c151e3a9ec",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2750-site-interactive-web3-gaming",
         "website": "https://squeek-play-a-little-hamster-a-w.imd.site"
@@ -7403,7 +7478,7 @@
           "name": "SqueekPack: Jetstream Run"
         }
       ],
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -7461,7 +7536,7 @@
       "first_seen": "2026-10-31T21:12:19.303458+00:00",
       "id": "ef2623a74e3427fc",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://squeektoshi-diary.imd.site",
         "x": "https://x.com/xiligeweb3"
@@ -7469,7 +7544,7 @@
       "logo": "logos/ae42a05373e6d903036ab35f4243ddf72ef0d0064c6af50071ea01607d50115b.svg",
       "name": "Squeektoshi’s Diary",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -7491,7 +7566,7 @@
       "first_seen": "2026-11-02T13:24:40.184968+00:00",
       "id": "ef9973077345b452",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "docs": "https://github.com/identity-md-launches/launch-2874-hamsterrun/blob/HEAD/docs/VALIDATION.md",
         "github": "https://github.com/identity-md-launches/launch-2874-hamsterrun",
@@ -7499,7 +7574,7 @@
       },
       "name": "HamsterRun",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -7521,7 +7596,7 @@
       "first_seen": "2026-11-04T10:00:34.887266+00:00",
       "id": "f2762f960b6678fd",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2966-build-single-page-web-mini-game",
         "website": "https://wheel-rush-tiny-paws-big-rush.imd.site"
@@ -7529,7 +7604,7 @@
       "logo": "logos/4b262f0ef839e82560c5052745374003501295c9264bdb6ec18678c991b45c97.svg",
       "name": "Wheel Rush",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -7547,7 +7622,7 @@
       "first_seen": "2026-10-31T21:12:19.112974+00:00",
       "id": "f6b5518a22b817ac",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2767-squeek-dome-imd",
         "website": "https://squeek-dome-sepolia-workbench.imd.site"
@@ -7555,7 +7630,7 @@
       "logo": "logos/a60b342e8cc0a63d1175fbf31affa0c34d1da4239219b4bfc5f366ccb142ba4f.svg",
       "name": "Squeek Dome",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -7573,7 +7648,7 @@
       "first_seen": "2026-11-02T00:31:25.664824+00:00",
       "id": "f8415e2dc4622ec8",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "docs": "https://github.com/identity-md-launches/launch-2823-build-complete-original-playable/blob/HEAD/docs/GAME_GUIDE.md",
         "website": "https://squeekforest-seedkeeper-a-moonli.imd.site"
@@ -7581,7 +7656,7 @@
       "logo": "logos/50651a89464f389746692492aee61ea90b0f17b07559cda30d68a588674d77a5.svg",
       "name": "SQUEEKFOREST: SEEDKEEPER",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -7594,13 +7669,13 @@
       "first_seen": "2026-11-04T13:58:55.462249+00:00",
       "id": "f920bea70ed9b4a8",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://squeek-garden.trackingport.com"
       },
       "name": "Squeek Garden",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -7618,7 +7693,7 @@
       "first_seen": "2026-10-27T00:04:14.041457+00:00",
       "id": "fe531ee3eeb808cd",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "docs": "https://github.com/mertonghen-lang/squeek-analytics/blob/HEAD/docs/screenshots/work-history.png",
         "github": "https://github.com/mertonghen-lang/squeek-analytics",
@@ -7627,7 +7702,7 @@
       "logo": "logos/8cd223bb8a15b3563e2af4d62b5f0e6328f1cab7ca8b28000f8d06298edd4554.svg",
       "name": "Squeek Analytics",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -7649,7 +7724,7 @@
       "first_seen": "2026-11-02T09:51:55.332909+00:00",
       "id": "fe6cffdd59762e8e",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2872-build-host-polished-responsive",
         "website": "https://squeek-colony-a-hamster-burrow-g.imd.site"
@@ -7657,7 +7732,7 @@
       "logo": "logos/b0656b834b59a9ce9143ca646756bba7f9431cc78d42d10ad120bae834c39cd6.svg",
       "name": "Squeek Colony",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     }
   ],
   "public": true,
