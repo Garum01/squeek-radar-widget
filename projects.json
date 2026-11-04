@@ -206,7 +206,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "other",
       "contracts": [],
       "description_en": "A tiny pixel hamster for x.com, living in sync with Squeektoshi's real wheel on Squeekchain, a proof-of-work toychain on Ethereum Sepolia. The static website includes a playable demo and Chrome/Firefox extension downloads. EN and VI are available in the site header and the pal's Settings.",
       "description_origin": "readme",
@@ -1214,35 +1214,6 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "This project is a static mirror of the Squeek Holder Bot site, rebuilt from a specific upstream revision. The published HTML and that revision matched when fetched on 2026-11-02, preserving the original layout, copy, palette, and image assets "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-holder-bot-telegram-alert.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "You can follow the source trail to see how the site was reconstructed. The description notes that small accessibility and reliability fixes were applied, along with the addition of a missing /start command "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2870-fix-site-root-get"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Static mirror of the published Squeek Holder Bot site, rebuilt from upstream master ad869b5. The published HTML and that revision matched when fetched on 2026-11-02. The upstream layout, copy, palette and five image assets are preserved. Small accessibility and reliability fixes, plus the missing /start command, are li…",
       "description_origin": "readme",
@@ -1329,8 +1300,8 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "Squeek Shift is a 75-second hamster platform arcade for the Squeekchain community. The live Squeekchain wheel switches the run between a fast day lab and a low-gravity dream. Test coins only.",
-      "description_origin": "source",
+      "description_en": "Tiny hamster. Big adventure. A Canvas platform arcade for the Squeekchain community. Live wheel telemetry changes the world and physics. Practice works without the API. English only; no account, wallet, contract or real payment.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -1755,14 +1726,50 @@
     {
       "builder": "pillheadddd",
       "category": "other",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Turing Wheel is a community project for Squeekchain that uses a hamster to clock a computer. It is not affiliated with the Squeekchain team, as noted in "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2795-host-repository-s-prebuilt-static"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "You can follow the details in "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/90f7896b-2591-4557-aba3-35c62a59bc27"
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "a public source",
+              "url": "https://eth-sepolia.blockscout.com/tx/0xa7ec0f1a91034c684272d19203da5f8d57526e388ff33091695863ef629d1880"
+            },
+            {
+              "text": ". These materials outline the setup and context for this unique initiative."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [
         {
           "address": "0x1b53382f61db4bb991aa329d62d04c904e86c20b",
           "chain_id": 11155111
         }
       ],
-      "description_en": "An on-chain ecosystem candidate observed interacting with, or holding assets from, Squeekchain. Its project identity and purpose have not yet been confirmed.",
-      "description_origin": "source",
+      "description_en": "A computer clocked by a hamster. Community project for Squeekchain. Not affiliated with the Squeekchain team.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -2579,6 +2586,23 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "This cozy 2D platformer follows a tiny hamster on a big adventure, as described on "
+            },
+            {
+              "text": "the project website",
+              "url": "https://hamster-tales.vercel.app"
+            },
+            {
+              "text": ". It invites players into a lighthearted journey focused on exploration and charm. You can check the site to see exactly how this little story unfolds and what makes it feel so inviting for fans of gentle gaming experiences."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Hamster Tales: The Great Seed Adventure - a cozy 2D platformer about a tiny hamster on a big adventure.",
       "description_origin": "website",
@@ -2998,6 +3022,42 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Race Squeektoshi is a rhythm arcade game for Squeekchain where you race a real hamster. As described on "
+            },
+            {
+              "text": "the project website",
+              "url": "https://race-squeektoshi-tiny-paws-big-r.imd.site"
+            },
+            {
+              "text": ", you chase recorded ghosts, manage stamina, and predict wheel rounds without needing a wallet."
+            }
+          ],
+          [
+            {
+              "text": "To understand the gameplay, start with "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/1dc37146-c532-47b9-a57d-2f8d4024fccc"
+            },
+            {
+              "text": " for general context. Then, visit "
+            },
+            {
+              "text": "the project website",
+              "url": "https://race-squeektoshi-tiny-paws-big-r.imd.site"
+            },
+            {
+              "text": " to see the specific mechanics and how the hamster racing works in practice."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Race a real hamster in a rhythm arcade game for Squeekchain. Chase recorded ghosts, save your stamina, and predict the next wheel round. No wallet needed.",
       "description_origin": "website",
@@ -3241,6 +3301,36 @@
           "name": "Squeek & Glide"
         }
       ],
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "Protect the seed vault in Burrow Siege, a pixel-art tower defense powered by Squeektoshi’s real hamster wheel. Build, charge, and survive 20 waves.",
+      "description_origin": "source",
+      "ecosystem_status": "claimed",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-2973-build-publish-original-playable"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/56eb6c32-573b-4d39-b760-96c9f54b3876"
+        }
+      ],
+      "first_seen": "2026-11-04T15:03:09.287807+00:00",
+      "id": "6fe6754ae2682fa3",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-2973-build-publish-original-playable",
+        "website": "https://burrow-siege-a-hamster-powered-t.imd.site"
+      },
+      "logo": "logos/51a76a23d82930ec2a5f39de279d1dd2b1a80cc0effcaf3a35d5bea2676b021f.svg",
+      "name": "Burrow Siege",
+      "publication_origin": "owner_approved",
       "stage": "unknown"
     },
     {
@@ -3513,6 +3603,33 @@
     },
     {
       "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "An upgrade of the original game, continuing commit 6fe0476cf3c4da8a61321e06312aac3b9b1815d9. Chang, Alice, Mrs. Pebble, the autumn forest, enemy sprites, movement physics, shield, clues, dialogue and ending remain in the existing canvas game. This is the same project, with progression, equipment and saves added.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/6d6ccaf8-fd0f-4f65-a8dc-201f8ba2c326"
+        }
+      ],
+      "first_seen": "2026-11-04T18:55:35.715126+00:00",
+      "id": "76128e7f27f91492",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "docs": "https://github.com/identity-md-launches/launch-2971-project-hamster-friendship/blob/HEAD/docs/licenses/better-interface.txt",
+        "github": "https://github.com/identity-md-launches/launch-2971-project-hamster-friendship",
+        "website": "https://hamster-friendship-the-lost-alic.imd.site"
+      },
+      "logo": "logos/cbb3184d0a4d649511ad4082d0ab5688c1d2dcd84142f28cd49effe5e8b14ae4.svg",
+      "name": "Hamster Friendship: The Lost Alice",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
       "builder_links": [
         {
           "kind": "post",
@@ -3587,6 +3704,14 @@
     },
     {
       "builder": "squeekchain",
+      "builder_links": [
+        {
+          "kind": "team_post",
+          "label": "@flashrekt",
+          "source": "https://x.com/squeekchain/status/2115912607672549457",
+          "url": "https://x.com/flashrekt"
+        }
+      ],
       "category": "game",
       "contracts": [],
       "description_en": "Loot a beautiful, murderous garden. Get out before the hamster-powered portal collapses. A solo extraction game.",
@@ -3879,6 +4004,14 @@
     },
     {
       "builder": "Vizou01",
+      "builder_links": [
+        {
+          "kind": "post",
+          "label": "@vizou01",
+          "source": "https://x.com/Vizou01/status/2117639707651899546",
+          "url": "https://x.com/vizou01"
+        }
+      ],
       "category": "game",
       "contracts": [],
       "description_en": "A frozen city kept alive by a real hamster on Squeekchain. Every turn of his wheel heats the town.",
@@ -6277,42 +6410,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "SQUEEK ARENA is a project where you pick a hamster, place your SQK, and win the race, as described in its public summary "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-arena-hamster-races-on-se.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To understand how this works, you can follow the trail through the available materials. Start with "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2862-build-squeek-arena-complete"
-            },
-            {
-              "text": " and then check "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/bce2e76c-0b7a-4e58-a69a-85c9063a2481"
-            },
-            {
-              "text": " for more context on the setup."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [
         {
           "address": "0x7b323e55617e7f7a7a41e5172d70ad25f462c329",
@@ -6359,42 +6456,6 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "This project is a small, static, read-only dashboard for Squeekchain on Ethereum Sepolia. The finished export lives in the dist folder, sitting right next to the React and TypeScript source code and the exact npm lockfile "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-pulse.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "You can follow the source trail by looking at the public materials provided. Start with "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2901-build-small-static-web"
-            },
-            {
-              "text": " to see the broader context, then check "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/73780568-2c81-421c-8cc8-e3c988c09996"
-            },
-            {
-              "text": " for more details. These references help you understand how the dashboard fits into the ecosystem without needing to run anything yourself."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A small, static, read-only dashboard for Squeekchain on Ethereum Sepolia. The finished export is in dist/, alongside the React/TypeScript source and exact npm lockfile.",
       "description_origin": "readme",
@@ -6451,49 +6512,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Burrow Power is a game where you protect Pip’s underground home through six illustrated encounters. As described on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://burrow-power-a-hamster-powered-s.imd.site"
-            },
-            {
-              "text": ", each threat offers three responses: spend power on protection, improvise at another room’s expense, or accept damage to bank power. You see room changes immediately before deciding when to face the next encounter."
-            }
-          ],
-          [
-            {
-              "text": "To follow the source trail, start with "
-            },
-            {
-              "text": "the project website",
-              "url": "https://burrow-power-a-hamster-powered-s.imd.site"
-            },
-            {
-              "text": " for the core mechanics. You can also check "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2822-build-burrow-power-original"
-            },
-            {
-              "text": " and "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/50bde9d5-e162-4378-82fe-bafcc6b01e77"
-            },
-            {
-              "text": " for additional context. These materials help you understand how the power management and room changes work together in the gameplay loop."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Small paws. Big night. Protect Pip’s underground home through six illustrated encounters. Each threat gives you three responses: spend power on protection, improvise at another room’s expense, or accept damage to bank power. See the room changes immediately, then decide when to face the next encounter.",
       "description_origin": "readme",
@@ -6557,42 +6575,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Wheel Merge is a fast arcade merge game powered by Squeekchain, the hamster-powered proof-of-work blockchain "
-            },
-            {
-              "text": "the project website",
-              "url": "https://wheel-merge-29fc.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "You can explore the details in "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2825-add-small-how-play"
-            },
-            {
-              "text": " and "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/177e65d2-5259-44f4-8127-3e99e3c12bbb"
-            },
-            {
-              "text": " to see how the game connects to its underlying network."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A fast arcade merge game powered by Squeekchain, the hamster-powered proof-of-work blockchain.",
       "description_origin": "readme",
@@ -6717,6 +6699,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/37050fa6-0c34-40ce-8e48-8be4cc20a874"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/04f1b996-c3a1-4e91-9ee9-1b112278ae32"
         }
       ],
       "first_seen": "2026-11-04T07:13:49.590010+00:00",

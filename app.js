@@ -391,7 +391,9 @@ function projectDetails(project) {
     const credit = el('p');
     const post = builder.kind === 'post' && safeURL(builder.source);
     if (builder.kind === 'board') continue; // named with the Genesis board line below
-    if (post) credit.append(external(url, '', builder.label || 'Its builder'), ' presented this project as their build in ', external(post, '', 'a post on X'), '.');
+    const teamPost = builder.kind === 'team_post' && safeURL(builder.source);
+    if (teamPost) credit.append('The Squeekchain team named ', external(url, '', builder.label || 'its builder'), ' as its builder in ', external(teamPost, '', 'a post on X'), '.');
+    else if (post) credit.append(external(url, '', builder.label || 'Its builder'), ' presented this project as their build in ', external(post, '', 'a post on X'), '.');
     else credit.append('The site credits ', external(url, '', builder.label || 'its builder'), ' as its builder.');
     copy.append(credit);
   }
@@ -458,12 +460,27 @@ function matchesFilter(project) {
   return false;
 }
 
+// What a reader can search by: the name, description, category, builders and the card's own addresses.
+function searchText(project) {
+  const links = project.links || {};
+  const addresses = ['website', 'x', 'github'].map(kind => safeURL(links[kind])).filter(Boolean).map(href => {
+    const url = new URL(href);
+    return url.hostname.replace(/^www\./, '') + url.pathname.replace(/\/$/, '');
+  });
+  const builders = (Array.isArray(project.builder_links) ? project.builder_links : []).map(builder => builder && builder.label);
+  const category = project.category || 'other';
+  return [project.name, project.description_en, project.builder, categoryLabels[category] || category, ...addresses, ...builders]
+    .filter(value => typeof value === 'string').join(' ').toLowerCase();
+}
+
 function visibleProjects() {
-  const query = state.query.toLowerCase();
+  // Every word must appear somewhere on the card, in any order.
+  const words = state.query.toLowerCase().split(/\s+/).filter(Boolean);
   return state.projects.filter(project => {
     const category = state.category === 'all' || (state.category === '__squeek_verified' ? Boolean(showcaseInfo(project)) : (project.category || 'other') === state.category);
-    const text = [project.name, project.description_en, project.builder, project.category].filter(Boolean).join(' ').toLowerCase();
-    return matchesFilter(project) && category && (!query || text.includes(query));
+    if (!matchesFilter(project) || !category) return false;
+    const text = words.length ? searchText(project) : '';
+    return words.every(word => text.includes(word));
   }).sort((a, b) => {
     const left = Date.parse(a.first_seen), right = Date.parse(b.first_seen);
     if (!Number.isFinite(left) && Number.isFinite(right)) return 1;
@@ -528,7 +545,8 @@ function render() {
   $('published-at').textContent = timestamp ? 'FEED UPDATED ' + date(state.updated, true).toUpperCase() : 'AUTO-UPDATING DIRECTORY';
   $('message').hidden = projects.length > 0;
   if (projects.length) return;
-  $('message').textContent = embedMode ? 'New ecosystem projects will appear here as they are identified.' :
+  $('message').textContent = state.query.trim() && state.projects.length ? 'No projects match “' + state.query.trim() + '”. Try another word or clear the search.' :
+    embedMode ? 'New ecosystem projects will appear here as they are identified.' :
     state.projects.length ? 'No projects match these filters. Try another filter or look under Early signals.' :
     'No projects have been confirmed for the directory yet. New observations will appear here.';
 }
@@ -591,6 +609,9 @@ async function refresh() {
 function bindControls() {
   $('sort-toggle').addEventListener('click', () => {state.sort = state.sort === 'newest' ? 'oldest' : 'newest'; render();});
   $('search').addEventListener('input', event => {state.query = event.target.value; render();});
+  $('search').addEventListener('keydown', event => {
+    if (event.key === 'Escape' && event.target.value) {event.target.value = ''; state.query = ''; render();}
+  });
   $('category').addEventListener('change', event => {state.category = event.target.value; render();});
   document.querySelectorAll('[data-filter]').forEach(button => button.addEventListener('click', () => {
     state.filter = button.dataset.filter;
