@@ -242,7 +242,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
       "contracts": [],
       "description_en": "A static, wallet-connected weekly boss raid powered by Squeektoshi’s real wheel. The delivered production website is in dist/. Source, package manifest and lockfile are included.",
       "description_origin": "readme",
@@ -821,6 +821,14 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "post",
+          "label": "@kolkrypt",
+          "source": "https://x.com/kolkrypt/status/2117995245820428630",
+          "url": "https://x.com/kolkrypt"
+        }
+      ],
       "category": "memecoin",
       "checked_text": {
         "paragraphs": [
@@ -1872,12 +1880,12 @@
           "url": "https://eth-sepolia.blockscout.com/tx/0x54f7cd2c9c259b7444874ab5a4b0d217991ddf351032e75a1d583fc42abec440"
         },
         {
-          "kind": "team_mention",
-          "url": "https://x.com/pillheadddd/status/2117731749459284235"
-        },
-        {
           "kind": "onchain_contract",
           "url": "https://eth-sepolia.blockscout.com/tx/0xd551309538387f7f799650e0ecefefb522ad4c346a6a79c48e9c1431a0c3cb2f"
+        },
+        {
+          "kind": "team_mention",
+          "url": "https://x.com/pillheadddd/status/2117731749459284235"
         }
       ],
       "first_seen": "2026-10-31T20:13:44.178169+00:00",
@@ -3643,10 +3651,10 @@
           "url": "https://x.com/0xwuy"
         }
       ],
-      "category": "tools",
+      "category": "other",
       "contracts": [],
-      "description_en": "Night Canvas: turn every night Squeektoshi runs into a one-of-a-kind pixel artwork. Squeekchain is a hamster-powered proof-of-work toychain on Ethereum: Squeektoshi runs on the WHEELY9000 wheel and his work produces Squeek blocks. Data (read-only, public, CORS-enabled). Follow the published schemas at https://docs.squeekchain.com/developers/api/...",
-      "description_origin": "source",
+      "description_en": "Squeektoshi’s nightly wheelwork becomes a deterministic pixel artwork: a wheel of 48 half-hour slices, with warmer colors and more rings as observed activity increases.",
+      "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
         {
@@ -4827,6 +4835,42 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "SqueekPet is a playable, original pixel-art hamster game built for Squeekchain Genesis Code. As described on "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekpet-living-evolution.imd.site"
+            },
+            {
+              "text": ", you can adopt a friend, care for them, decorate their bedroom, and run the woodland trail. The game also features fresh hardware wheel activity from Squeektoshi, which can bring a temporary breeze and real, timestamped Wheel Memories."
+            }
+          ],
+          [
+            {
+              "text": "To understand how these mechanics work, you can follow the details provided in "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2925-build-deploy-squeekpet-living"
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/a077cfb9-164e-4dea-aec9-33c7bbe8a4c8"
+            },
+            {
+              "text": ". These materials help clarify the specific interactions and features mentioned in the project description, allowing you to see exactly how the hamster care and trail activities are implemented within the game environment."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A playable, original pixel-art hamster game built for Squeekchain Genesis Code. Adopt a friend, care for them, decorate their bedroom and run the woodland trail. Fresh hardware wheel activity from Squeektoshi can bring a temporary breeze and real, timestamped Wheel Memories.",
       "description_origin": "readme",
@@ -6337,6 +6381,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/3a43d418-4e21-4fa6-9d84-fa63a10c6763"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/5c715e7a-0bcb-4f97-84c6-28604ccd3eb6"
         }
       ],
       "first_seen": "2026-10-30T09:23:16.390827+00:00",
@@ -7221,8 +7269,8 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "OBS overlay and stream control panel for the Squeekchain hamster wheel on Sepolia: live SPINNING and IDLE alerts, RPM, block progress, round countdown and viewer cheers.",
-      "description_origin": "source",
+      "description_en": "Squeek Stream Kit is a community project for the Squeekchain Buildooooor badge. It is not an official Squeekchain product.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
