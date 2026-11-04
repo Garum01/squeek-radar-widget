@@ -445,66 +445,6 @@
     },
     {
       "builder": null,
-      "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek powers a community road trip, inviting you to watch the settled wheel distance and explore 64 destinations. You can also vote for the next stop on Sepolia, as described in "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-s-first-road-trip-choose.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow this journey, start with "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/7741c8ed-cc73-44a9-b65d-634f6990807f"
-            },
-            {
-              "text": " for context. Then, visit "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-s-first-road-trip-choose.imd.site"
-            },
-            {
-              "text": " to see the current status and participate in the voting process for the upcoming destination."
-            }
-          ]
-        ],
-        "version": 1
-      },
-      "contracts": [],
-      "description_en": "Squeek powers a community road trip. Watch the settled wheel distance, explore 64 destinations and vote for the next stop on Sepolia.",
-      "description_origin": "website",
-      "ecosystem_status": "weak",
-      "evidence": [
-        {
-          "kind": "imd_publication",
-          "url": "https://explorer.imd.fun/jobs/7741c8ed-cc73-44a9-b65d-634f6990807f"
-        }
-      ],
-      "first_seen": "2026-10-31T21:12:19.212488+00:00",
-      "id": "0e27ad2ba2ed1c36",
-      "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
-      "links": {
-        "website": "https://squeek-s-first-road-trip-choose.imd.site"
-      },
-      "name": "Squeek’s First Road Trip",
-      "publication_origin": "owner_approved",
-      "stage": "unknown"
-    },
-    {
-      "builder": null,
       "category": "tools",
       "checked_text": {
         "paragraphs": [
@@ -1261,21 +1201,21 @@
               "url": "https://theidm.fun"
             },
             {
-              "text": ". To understand this concept, you can explore the details in "
+              "text": ". This design frames market activity as a rhythmic sequence rather than a standard ledger entry. To understand how this works, you can follow the technical details provided by the team. Start with "
             },
             {
               "text": "the documentation",
               "url": "https://theidm.fun/docs"
             },
             {
-              "text": " or check "
+              "text": " for the core mechanics, then check "
             },
             {
-              "text": "the announcement",
-              "url": "https://x.com/theidmfun/status/2115155784929812559"
+              "text": "a team post",
+              "url": "https://x.com/squeekchain/status/2115158642806653141"
             },
             {
-              "text": " for the initial context behind this unique approach to market mechanics."
+              "text": " for context on the project's initial vision and goals."
             }
           ]
         ],
@@ -1363,6 +1303,14 @@
           "url": "https://eth-sepolia.blockscout.com/tx/0xa0c49fa40b822738388c54742d2cc63662b1352c34d53b537a27e6007c40586f"
         },
         {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0xaccc8a440e9a6a7a40fcc892cfb3a82ba771f6a5f28d64caf42ea7822eff1259"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0xd402032557e74cf3432a5ad51ba5965f66d96cd55e09daf5a7a97ce069bff725"
+        },
+        {
           "kind": "team_mention",
           "url": "https://x.com/pillheadddd/status/2117731749459284235"
         }
@@ -1379,6 +1327,36 @@
       },
       "logo": "logos/92307f6fcbe392a4c72485ecafa0d65407a22d5d440f80a44946efc9d97ce764.svg",
       "name": "Turing Wheel",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "# Burrow Raid — 3D community boss battle Build and publicly ship a finished original 3D browser game for the Squeekchain Genesis Code lane. The customer selected a stylized 3D community boss battle after rejecting a garden-game concept. Do not build a garden game, tracker, dashboard or landing page. Use this prototype as a starting point for gam...",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-2937-burrow-raid"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/7e402e1f-52ae-4d91-a0ff-0b907f03ed74"
+        }
+      ],
+      "first_seen": "2026-11-03T23:21:59.232609+00:00",
+      "id": "37133654c60bba8e",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-2937-burrow-raid",
+        "website": "https://burrow-raid-small-paws-big-boss.imd.site"
+      },
+      "logo": "logos/0f335d7a9e0c3d75e5f2f45bf458d9a706957bd163274ee6f72271fc2c29d7a2.svg",
+      "name": "Burrow Raid",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -1843,6 +1821,49 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "This project serves as a read-only tracker for SqueekCore settlement latency on Sepolia. It monitors batches, gaps, unsettled rounds, and alerts at one finalized block, as described in "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekchain-settlement-latency.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To follow the source trail, you can start with "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/7a90e58f-17b7-45b7-9c8c-41dde4df40ce"
+            },
+            {
+              "text": " for context. Then, explore "
+            },
+            {
+              "text": "the code repository",
+              "url": "https://github.com/0xMingXiu/squeekchain-settlement-latency"
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "the documentation",
+              "url": "https://github.com/0xMingXiu/squeekchain-settlement-latency/blob/HEAD/docs/dashboard.png"
+            },
+            {
+              "text": " to see how these metrics are tracked and presented."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Read-only tracker for SqueekCore settlement latency on Sepolia: batches, gaps, unsettled rounds and alerts at one finalized block.",
       "description_origin": "website",
@@ -4722,7 +4743,7 @@
       "identity_status": "resolved",
       "lifecycle_stage": "unknown",
       "links": {
-        "github": "https://github.com/identity-md-launches/launch-2672-squeek-forge-squeekchain",
+        "github": "https://github.com/XINyu2314/squeek-forge",
         "website": "https://squeek-forge.imd.site"
       },
       "name": "Squeek Forge",
