@@ -950,6 +950,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/0673162d-61df-4771-accc-067fa2c5f5eb"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/58c2e65a-3849-4510-b945-ddc292dc9009"
         }
       ],
       "first_seen": "2026-11-04T09:45:23.529783+00:00",
@@ -1864,8 +1868,16 @@
           "url": "https://eth-sepolia.blockscout.com/tx/0x47f5d07cf7a82177f1515353ae2fef226ff64747e18a75ebe140ce19b5b54955"
         },
         {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x54f7cd2c9c259b7444874ab5a4b0d217991ddf351032e75a1d583fc42abec440"
+        },
+        {
           "kind": "team_mention",
           "url": "https://x.com/pillheadddd/status/2117731749459284235"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0xd551309538387f7f799650e0ecefefb522ad4c346a6a79c48e9c1431a0c3cb2f"
         }
       ],
       "first_seen": "2026-10-31T20:13:44.178169+00:00",
@@ -4301,6 +4313,36 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
+      "description_en": "One wheel. Twenty seconds. Roll your way through a browser race against Squeektoshi’s real wheel, or try a clearly labeled practice run.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-2969-build-spoke-sprint-one"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/85ee3e80-73f0-4815-939f-976a74813f06"
+        }
+      ],
+      "first_seen": "2026-11-04T12:47:33.104516+00:00",
+      "id": "84d8a3b648b9fcf0",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-2969-build-spoke-sprint-one",
+        "website": "https://spoke-sprint-race-squeektoshi-s.imd.site"
+      },
+      "logo": "logos/3d2a7d92a8a9998d96d52c4071f277e1e15c42f4a66960104f177a263939cccf.svg",
+      "name": "Spoke Sprint",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
       "description_en": "A static Squeekchain dashboard, transparent OBS overlay, and SQK tipping page for Ethereum Sepolia. Public numbers load without a wallet. There is no backend, custody, API key, application contract, or secret configuration.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
@@ -4786,8 +4828,8 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "A little hamster. A living world. Adopt your pixel companion, make a cozy home, and grow together with Squeektoshi’s real wheel activity.",
-      "description_origin": "source",
+      "description_en": "A playable, original pixel-art hamster game built for Squeekchain Genesis Code. Adopt a friend, care for them, decorate their bedroom and run the woodland trail. Fresh hardware wheel activity from Squeektoshi can bring a temporary breeze and real, timestamped Wheel Memories.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -5168,6 +5210,35 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "This project is a free prediction game focused on Squeektoshi’s next 24-hour running distance. It provides a responsive static website, React and TypeScript source code, and a shared SQLite score service "
+            },
+            {
+              "text": "the project website",
+              "url": "https://spm-squeek-prediction-market.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "You can explore the finished site in the dist folder or review the underlying code. The repository also includes the working score service, letting you see how the game tracks predictions "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2695-using-squeekhub-api-https-api-squeekchai"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A responsive, free prediction game for Squeektoshi’s next 24-hour running distance. This repository includes the finished static website in dist/, React/TypeScript source, and a working shared SQLite score service. Wallets prove ownership with a signed message; there are no token approvals, transactions, entry costs or…",
       "description_origin": "readme",
@@ -5198,6 +5269,42 @@
     {
       "builder": null,
       "category": "other",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Wheelprints aims to help you create original prints from recorded Squeektoshi activity, as described on "
+            },
+            {
+              "text": "the project website",
+              "url": "https://wheelprints-sepolia.pages.dev"
+            },
+            {
+              "text": ". It invites you to explore three studies, choose a form and palette, replay the drawing, and keep the resulting art as a free beta experience."
+            }
+          ],
+          [
+            {
+              "text": "To follow the source trail, start with "
+            },
+            {
+              "text": "a public source",
+              "url": "https://eth-sepolia.blockscout.com/address/0x980b4424c007caf7a1f3670b48c8eaef7ebc3d44"
+            },
+            {
+              "text": " for general context. Then, visit "
+            },
+            {
+              "text": "the project website",
+              "url": "https://wheelprints-sepolia.pages.dev"
+            },
+            {
+              "text": " to see the specific studies and options available. This path helps you understand how the activity translates into your final artwork."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Make an original print from recorded Squeektoshi activity. Explore three studies, choose a form and palette, replay the drawing, and keep the art. Free art beta.",
       "description_origin": "website",
@@ -5252,6 +5359,35 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeekchain Analytics is an independent dashboard designed for the hamster-powered Squeekchain ecosystem on Ethereum Sepolia. As described in "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekchain-analytics-small-paws.imd.site"
+            },
+            {
+              "text": ", it focuses on delivering real work through small paws, offering a clear view of this unique environment."
+            }
+          ],
+          [
+            {
+              "text": "To follow the source trail, you can start by exploring "
+            },
+            {
+              "text": "the documentation",
+              "url": "https://github.com/Volha1213/squeekchain-analytics/blob/HEAD/docs/screenshots/overview-dark.jpg"
+            },
+            {
+              "text": " for detailed context. This helps you understand how the analytics function within the ecosystem, ensuring you have a solid foundation before diving deeper into the data."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Small paws. Real work. An independent analytics dashboard for the hamster-powered Squeekchain ecosystem on Ethereum Sepolia.",
       "description_origin": "readme",
@@ -5279,6 +5415,42 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Pulse is a non-custodial tool for Squeekchain on Sepolia, designed to help you see your Squeeks and SQK stake. It allows you to plan merges and stakes using the on-chain power formula, all from your own wallet "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek.blu-stack.com"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To understand how it works, you can explore the details in "
+            },
+            {
+              "text": "a public source",
+              "url": "https://eth-sepolia.blockscout.com/address/0x980b4424c007caf7a1f3670b48c8eaef7ebc3d44"
+            },
+            {
+              "text": " or dive into the technical specifics in "
+            },
+            {
+              "text": "the code repository",
+              "url": "https://github.com/blustackk/squeek-pulse"
+            },
+            {
+              "text": ". These resources provide a clear trail for anyone curious about the underlying mechanics."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Non-custodial holder tool for Squeekchain on Sepolia: see your Squeeks and SQK stake, plan merges and stakes with the on-chain power formula, and stake, claim, deposit, withdraw or merge from your own wallet.",
       "description_origin": "website",
@@ -5979,42 +6151,6 @@
         }
       ],
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Wheel Canvas is described as a static, IPFS-ready independent community artwork built on Squeekchain "
-            },
-            {
-              "text": "the project website",
-              "url": "https://wheel-canvas-painted-by-squeekto.imd.site"
-            },
-            {
-              "text": ". This simple definition helps set the stage for what you are about to explore. It frames the project as a digital piece rather than a complex application, focusing on its artistic and technical foundation."
-            }
-          ],
-          [
-            {
-              "text": "To understand how this artwork functions, you can follow the provided source trail. Starting with "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2770-build-wheel-canvas-live"
-            },
-            {
-              "text": " and moving through "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/5699df30-1257-4bfd-9c29-2eaa8b355445"
-            },
-            {
-              "text": " offers a clear path. These references guide you through the specific details of the project's construction and its place within the broader ecosystem."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A static, IPFS-ready independent community artwork built on Squeekchain. Squeektoshi’s wheel paints the canvas; verified Sepolia self-approvals add community-colored strokes. This is a community project, not an official Squeekchain site.",
       "description_origin": "readme",
@@ -6073,49 +6209,6 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Fantasy Hamster is a daily fantasy game for Squeekchain. You draft five predictions about Squeektoshi’s next UTC day, choose a Captain, and let the real wheel settle the score. It is a single static React and TypeScript page with no account, wallet, token, payments, game server, external fonts, analytics, or simulated wheel data "
-            },
-            {
-              "text": "the project website",
-              "url": "https://fantasy-hamster.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow the details, start with the project website "
-            },
-            {
-              "text": "the project website",
-              "url": "https://fantasy-hamster.imd.site"
-            },
-            {
-              "text": ". You can also explore the other public sources "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2789-build-fantasy-hamster-daily"
-            },
-            {
-              "text": " and "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/e0f82510-f874-463c-8176-e50ceb131148"
-            },
-            {
-              "text": " to see how the game mechanics and static nature are described in the available documentation."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A daily fantasy game for Squeekchain. Draft five predictions about Squeektoshi’s next UTC day, choose a Captain, and let the real wheel settle the score. A single static React + TypeScript page, with no account, wallet, token, payments, game server, external fonts, analytics, or simulated wheel data.",
       "description_origin": "readme",
@@ -7617,7 +7710,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
       "contracts": [],
       "description_en": "A pixel garden that grows on Squeektoshi's real wheel rounds on Squeekchain.",
       "description_origin": "website",
