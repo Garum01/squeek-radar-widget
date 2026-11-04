@@ -817,6 +817,36 @@
     },
     {
       "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "Dispatch five wagons of real Sepolia settlement blocks into three tunnels and keep overflow as low as you can. An unofficial Squeekchain puzzle.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-2946-build-publish-squeek-switchyard"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/a3adfba4-b82d-4a49-8af4-ef9fd601c948"
+        }
+      ],
+      "first_seen": "2026-11-04T04:41:27.261694+00:00",
+      "id": "1b61ead678593909",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-2946-build-publish-squeek-switchyard",
+        "website": "https://squeek-switchyard-an-unofficial.imd.site"
+      },
+      "logo": "logos/1f4995b977c516aba0c4c772d5f3f086299807a7606c6f727897635a54e62dde.svg",
+      "name": "Squeek Switchyard",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
       "category": "game",
       "contracts": [],
       "description_en": "Wheel-Powered Boss Dungeon & Tester Terminal for Squeekchain. A single-page, hardware-driven local raid game with real on-chain Squeek artwork and a real Sepolia transaction terminal.",
@@ -1418,6 +1448,14 @@
           "url": "https://eth-sepolia.blockscout.com/tx/0xe0b7d6c249b9d4e605555475838f8de2e6f0b291f20c85eccd723d6aacafde1f"
         },
         {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x0193a60373240d95ea2e9560f822df8743b681d7d5bddfda8abfcfc600aad339"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x3c15d3f4bd0b5d2335bdee101c8a76bd5046c67236935698eda067ea04acd277"
+        },
+        {
           "kind": "team_mention",
           "url": "https://x.com/pillheadddd/status/2117731749459284235"
         }
@@ -1561,6 +1599,66 @@
       "logo": "logos/6250e2cc76dbf1a97a8ca89a153ec0629bcacd95fe6243c297b7125cb7317a2a.svg",
       "name": "Squeek Keeper Console",
       "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Wheelbound presents the endless journey of Squeektoshi, a story written by the wheel. As described on "
+            },
+            {
+              "text": "the project website",
+              "url": "https://wheelbound.imd.site"
+            },
+            {
+              "text": ", every settled Squeekchain round moves the narrative forward, creating a continuous tale driven by on-chain activity."
+            }
+          ],
+          [
+            {
+              "text": "To follow this evolving story, you can explore the details provided in "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/fb094a7a-f3cc-4b13-bff7-6ac260178b6e"
+            },
+            {
+              "text": ". This resource helps you understand how the rounds connect to the broader narrative, allowing you to trace the path of Squeektoshi as the journey unfolds."
+            }
+          ]
+        ],
+        "version": 1
+      },
+      "contracts": [],
+      "description_en": "The endless journey of Squeektoshi, written by the wheel. Every settled Squeekchain round moves the story forward.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/fb094a7a-f3cc-4b13-bff7-6ac260178b6e"
+        }
+      ],
+      "first_seen": "2026-11-04T05:53:28.165089+00:00",
+      "id": "3c826b300168595e",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://wheelbound.imd.site"
+      },
+      "logo": "logos/65c788b372f6dd4ff54331b77a5af4b2207a080bac4e1fa2746ed9b8d03b1df7.svg",
+      "name": "Wheelbound",
+      "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "e7b9e35841df40c8",
+          "name": "Wheel Call"
+        }
+      ],
       "stage": "unknown"
     },
     {
@@ -1989,7 +2087,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
       "checked_text": {
         "paragraphs": [
           [
@@ -2668,6 +2766,31 @@
       "builder": null,
       "category": "game",
       "contracts": [],
+      "description_en": "SqueekFi is an independent community-built prediction market prototype for Squeekchain. It uses Sepolia and non-transferable, non-redeemable test points. It does not take ETH, SQK, or any other token as a wager.",
+      "description_origin": "readme",
+      "ecosystem_status": "claimed",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/leanhcute/squeekfi-points"
+        }
+      ],
+      "first_seen": "2026-11-04T05:42:16.229510+00:00",
+      "id": "68aaf44dfa3a0eab",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "github": "https://github.com/leanhcute/squeekfi-points",
+        "website": "https://squeekfi-points.vercel.app"
+      },
+      "name": "SqueekFi",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [],
       "description_en": "Free browser puzzle games with a Squeekchain twist. Play Number Slide on Sepolia, where a contract verifies every winning run.",
       "description_origin": "source",
       "ecosystem_status": "weak",
@@ -3282,7 +3405,73 @@
     },
     {
       "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "Immutable cooperative hamster raid for Sepolia TEST NETWORK. This is an unofficial community game, not the Squeek mint. It has no fees, prizes, payouts, ERC-20s, treasury, owner, admin, pause, upgrade path, or custody of NFTs. Scrap, Dreams and score are internal game counters. Transactions cost network gas.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-2944-workflow-frontend-stage-context"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/83ddb16b-137a-4131-85d5-c0be56bd2fd2"
+        }
+      ],
+      "first_seen": "2026-11-04T03:25:13.300429+00:00",
+      "id": "7e8ad8344b0fc6e1",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "docs": "https://github.com/identity-md-launches/launch-2944-workflow-frontend-stage-context/blob/HEAD/docs/VALIDATION.md",
+        "github": "https://github.com/identity-md-launches/launch-2944-workflow-frontend-stage-context",
+        "website": "https://squeek-raider.imd.site"
+      },
+      "name": "SqueekRaider",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
       "category": "other",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "The Wheel Archive project aims to transform every settled batch of Squeekchain rounds into a sealed capsule, as described in its public overview "
+            },
+            {
+              "text": "the project website",
+              "url": "https://wheel-archive-every-turn-kept.imd.site"
+            },
+            {
+              "text": ". This simple concept focuses on preserving completed data in a distinct, contained format."
+            }
+          ],
+          [
+            {
+              "text": "To understand how this works, you can explore the details provided in the available materials. A closer look at "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2722-wheel-archive-capsule"
+            },
+            {
+              "text": " or "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/89d18a71-fa33-4fab-b7cc-7b0de3e0e002"
+            },
+            {
+              "text": " offers further context on the process, helping you follow the trail of how these capsules are formed and maintained."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Every settled batch of Squeekchain rounds becomes a sealed capsule.",
       "description_origin": "readme",
@@ -3377,6 +3566,35 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Picks presents research from the IdentityMD worker network. The project groups reports, supporting files, and provenance by job, as described on "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekpicks.xyz"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To follow the source trail, start with that overview. You can then explore the underlying details in "
+            },
+            {
+              "text": "the code repository",
+              "url": "https://github.com/Identity-md/research/blob/main/jobs/06d98304-78a4-4089-815a-2be96ef1f7c5/files/AUDIT.md"
+            },
+            {
+              "text": " to see how the data is organized."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Research produced by the IdentityMD worker network, with reports, supporting files and provenance grouped by job.",
       "description_origin": "readme",
@@ -3682,42 +3900,6 @@
     {
       "builder": null,
       "category": "other",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Spin Art is a project where a real hamster mines Squeekchain by running on a wheel. Each night, this activity results in the creation of a unique spin-art card, as described on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekwheel.xyz"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To understand how this works, you can explore the details provided in "
-            },
-            {
-              "text": "the project profile",
-              "url": "https://x.com/squeekchain"
-            },
-            {
-              "text": " and examine the technical implementation in "
-            },
-            {
-              "text": "the code repository",
-              "url": "https://github.com/Rooaraak/squeek-wheel-watch/blob/main/art.js"
-            },
-            {
-              "text": ". These sources offer a clear trail for anyone curious about the process."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Every night the real hamster that mines Squeekchain paints a spin-art card with his wheel.",
       "description_origin": "readme",
@@ -3888,7 +4070,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "other",
       "contracts": [],
       "description_en": "A static, browser-only daily hamster tarot reading for any Ethereum address. Built with React, TypeScript and Vite. The production website is in dist/; it includes its fonts, 22 original SVG cards, card back, favicon, share image and a genuine dated Sepolia snapshot.",
       "description_origin": "readme",
@@ -6511,6 +6693,12 @@
       "logo": "logos/bbdb13190112cba7b21294a9dc55e42887fd4fad328f04a46a050b329f6a3855.svg",
       "name": "Wheel Call",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "3c826b300168595e",
+          "name": "Wheelbound"
+        }
+      ],
       "stage": "unknown"
     },
     {
