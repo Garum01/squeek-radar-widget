@@ -2612,53 +2612,10 @@
     },
     {
       "builder": null,
-      "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "This project serves as a read-only tracker for SqueekCore settlement latency on Sepolia. It monitors batches, gaps, unsettled rounds, and alerts at one finalized block, as described in "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekchain-settlement-latency.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow the source trail, you can start with "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/7a90e58f-17b7-45b7-9c8c-41dde4df40ce"
-            },
-            {
-              "text": " for context. Then, explore "
-            },
-            {
-              "text": "the code repository",
-              "url": "https://github.com/0xMingXiu/squeekchain-settlement-latency"
-            },
-            {
-              "text": " and "
-            },
-            {
-              "text": "the documentation",
-              "url": "https://github.com/0xMingXiu/squeekchain-settlement-latency/blob/HEAD/docs/dashboard.png"
-            },
-            {
-              "text": " to see how these metrics are tracked and presented."
-            }
-          ]
-        ],
-        "version": 1
-      },
+      "category": "other",
       "contracts": [],
-      "description_en": "Read-only tracker for SqueekCore settlement latency on Sepolia: batches, gaps, unsettled rounds and alerts at one finalized block.",
-      "description_origin": "website",
+      "description_en": "How long does a closed Squeekchain round wait before it is certified onchain?",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -4378,7 +4335,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
       "contracts": [],
       "description_en": "Race, Predict & Play with Squeektoshi's Real-World Wheel Activity",
       "description_origin": "readme",
@@ -5570,6 +5527,35 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Sprouts lets you plant a tiny pixel garden powered by Squeektoshi's real wheel work, as described on "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-sprouts-a-little-garden-p.imd.site"
+            },
+            {
+              "text": ". You can grow, harvest, and collect golden crops on Squeekchain without needing a wallet or gas."
+            }
+          ],
+          [
+            {
+              "text": "To see how this works, you can explore the details in "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/4181c929-08b1-4f0c-9a05-892db1676534"
+            },
+            {
+              "text": ". It offers a clear look at the mechanics behind the garden and the Squeekchain integration, helping you understand the experience better."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Plant a tiny pixel garden powered by Squeektoshi's real wheel work. Grow, harvest and collect golden crops on Squeekchain. No wallet or gas.",
       "description_origin": "website",
