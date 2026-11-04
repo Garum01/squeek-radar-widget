@@ -323,7 +323,8 @@ function projectDetails(project) {
   const labels = {team_mention: 'a public team post', github: 'a public repository reference',
     x_profile: 'the project’s public profile', onchain: 'an on-chain reference',
     contract_interaction: 'a contract interaction reference', website: 'a website reference',
-    imd_publication: 'the public IMD build job', imd_site: 'the earlier IMD-hosted address'};
+    imd_publication: 'the public IMD build job', imd_site: 'the earlier IMD-hosted address',
+    owner_lead: 'the public post that led us here'};
   for (const source of project.evidence || []) {
     const url = safeURL(source.url);
     if (!url || isNetworkDocumentation(url) || seen.has(url)) continue;

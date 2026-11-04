@@ -1410,6 +1410,14 @@
           "url": "https://eth-sepolia.blockscout.com/tx/0x08340f2ce517a296d4fd965a28eb9de4228d7f43d1c8f5cd37a421ca129ef700"
         },
         {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x4208b2d0226e7904ee5c773842d57d459377bca7a6c2ce7caf7ff20faa59825d"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0xe0b7d6c249b9d4e605555475838f8de2e6f0b291f20c85eccd723d6aacafde1f"
+        },
+        {
           "kind": "team_mention",
           "url": "https://x.com/pillheadddd/status/2117731749459284235"
         }
@@ -1654,7 +1662,7 @@
           "url": "https://x.com/mfbrat_eth"
         }
       ],
-      "category": "tools",
+      "category": "other",
       "contracts": [],
       "description_en": "Source for two separate Netlify sites. Neither is part of mfbrat.com.",
       "description_origin": "readme",
@@ -1663,10 +1671,6 @@
         {
           "kind": "github_mention",
           "url": "https://github.com/mfBRAT/squeektoshi-live"
-        },
-        {
-          "kind": "website",
-          "url": "https://squeekorsleep.mfbrat.com"
         }
       ],
       "first_seen": "2026-10-29T21:31:52.511814+00:00",
@@ -1798,6 +1802,75 @@
       },
       "logo": "logos/5038ec14a24ad8b8e297bbdc2833462f73fff8481f0bdb0d7c82a95ab306ec1d.svg",
       "name": "Squeek Mode",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "builder_links": [
+        {
+          "kind": "post",
+          "label": "@mfbrat_eth",
+          "source": "https://x.com/mfbrat_eth/status/2117313998261825884",
+          "url": "https://x.com/mfbrat_eth"
+        }
+      ],
+      "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek or Sleep is a free prediction game on Squeekchain. Its purpose is to let you guess whether Squeektoshi naps, jogs, or gets the zoomies in each 10-minute round, with results read from Ethereum Sepolia "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekorsleep.mfbrat.com"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To follow the details, start with the project website for the core rules "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekorsleep.mfbrat.com"
+            },
+            {
+              "text": ". You can also check a public source for additional context on how the game operates "
+            },
+            {
+              "text": "a public source",
+              "url": "https://x.com/mfbrat_eth/status/2117313998261825884"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
+      "contracts": [],
+      "description_en": "A free prediction game on Squeekchain: guess whether Squeektoshi naps, jogs or gets the zoomies in each 10-minute round. Results are read from Ethereum (Sepolia).",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "owner_lead",
+          "url": "https://x.com/mfbrat_eth/status/2117313998261825884"
+        }
+      ],
+      "first_seen": "2026-11-04T05:02:07.194258+00:00",
+      "id": "53935b57b395f9af",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://squeekorsleep.mfbrat.com"
+      },
+      "logo": "logos/59791254fef130b5330d7b7cf72a9c70d55cff17444a684a2f53f3b0583b1be3.svg",
+      "name": "Squeek or Sleep",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -2212,6 +2285,35 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "The project aims to let you predict Squeekchain rounds, outwit Professor Whiskers, duel friends, and collect art made from the wheel, all centered on one real hamster "
+            },
+            {
+              "text": "the project website",
+              "url": "https://nap-or-sprint.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To understand how this works, you can explore the details provided in the public materials. Reading "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/aabd355e-b120-4b3f-85b3-3658dd176b3c"
+            },
+            {
+              "text": " offers a clear look at the specific mechanics and context behind these interactive challenges."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "One real hamster. Your next great call. Predict Squeekchain rounds, outwit Professor Whiskers, duel friends, and collect art made from the wheel.",
       "description_origin": "website",
@@ -2495,6 +2597,49 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "This project serves as a community dashboard for Squeekchain, described as a proof-of-work toychain on Ethereum. It is powered by Squeektoshi, a real hamster running in the WHEELY9000, according to the supplied description "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekchain-dashboard.vercel.app"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To follow the source trail, you can start with "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekchain-dashboard.vercel.app"
+            },
+            {
+              "text": " for general context. Then, check "
+            },
+            {
+              "text": "the documentation",
+              "url": "https://github.com/h0xva/squeekchain-dashboard/blob/HEAD/docs/live.png"
+            },
+            {
+              "text": " for technical details and "
+            },
+            {
+              "text": "the project profile",
+              "url": "https://x.com/squeekchain"
+            },
+            {
+              "text": " for additional background information."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Live from the wheel. A community dashboard for Squeekchain — the proof-of-work toychain on Ethereum powered by Squeektoshi, a real hamster running in the WHEELY9000.",
       "description_origin": "readme",
@@ -2810,6 +2955,35 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "SqueekRaid is a co-op boss raid on Squeekchain where your party fights the Snooze King using the real distance a hamster runs every night. The project description emphasizes that there are no predictions or betting involved, focusing instead on a shared on-chain experience "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekraid.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To understand how this works, you can explore the provided materials. The project website offers a direct look at the mechanics, while other public sources provide additional context about the setup and participation details "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/08dd68f0-f8cc-49f2-b14f-2d8022c0f19e"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A co-op boss raid on Squeekchain: your party fights the Snooze King with the real distance the hamster runs every night. No predictions, no betting. Connect a wallet on Sepolia and claim your victory on-chain.",
       "description_origin": "website",
@@ -3043,6 +3217,42 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Signal Garden is an original Squeekchain puzzle and stream companion. Its goal is to restore a night garden by turning conduits from a hamster-wheel source toward four flower beacons, as described on "
+            },
+            {
+              "text": "the project website",
+              "url": "https://blocklight-every-block-lights-ou.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "You can follow the details in "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2918-production-site-through-imd"
+            },
+            {
+              "text": " or "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/f38b54d8-e878-426b-bf2e-85c7deceb00c"
+            },
+            {
+              "text": ". These materials outline the run structure, including three progressively harder boards, a shared clock, and various gameplay mechanics like rotation limits and combos."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "An original Squeekchain puzzle and stream companion. Restore a night garden by turning conduits from a hamster-wheel source toward four flower beacons. A run contains three progressively harder 6×6 boards, a shared three-minute active-play clock, rotation limits, optional growth charges, connection streaks and combos.…",
       "description_origin": "readme",
@@ -3073,42 +3283,6 @@
     {
       "builder": null,
       "category": "other",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "The Wheel Archive project aims to transform every settled batch of Squeekchain rounds into a sealed capsule, as described on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://wheel-archive-every-turn-kept.imd.site"
-            },
-            {
-              "text": ". This process ensures that completed data is preserved in a distinct, immutable format for future reference."
-            }
-          ],
-          [
-            {
-              "text": "To understand how this works, you can explore the details provided in "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2722-wheel-archive-capsule"
-            },
-            {
-              "text": " and "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/89d18a71-fa33-4fab-b7cc-7b0de3e0e002"
-            },
-            {
-              "text": ". These materials offer a clear trail of the project's methodology, helping you follow the journey from active rounds to their final archived state."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Every settled batch of Squeekchain rounds becomes a sealed capsule.",
       "description_origin": "readme",
@@ -3203,35 +3377,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Picks is a research initiative from the IdentityMD worker network. It organizes reports, supporting files, and provenance data into distinct groups based on specific jobs "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekpicks.xyz"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow the trail, start with the project website for an overview of the available reports. You can then explore the code repository to see how these research outputs are structured and maintained "
-            },
-            {
-              "text": "the code repository",
-              "url": "https://github.com/Identity-md/research/blob/main/jobs/06d98304-78a4-4089-815a-2be96ef1f7c5/files/AUDIT.md"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Research produced by the IdentityMD worker network, with reports, supporting files and provenance grouped by job.",
       "description_origin": "readme",
@@ -3369,42 +3514,6 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "COVER is a Sepolia-only Foundry application and static demo designed for fixed payouts on certified zero-work rounds. It includes five specific contracts: MockSQK, PremiumModel, CoverPool, CoreReader, and PolicyBook. The project vendors its contract dependencies as ordinary source files, while the frontend relies on the npm lockfile located in the web directory "
-            },
-            {
-              "text": "the project website",
-              "url": "https://cover-squeekfi-on-sepolia.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow the source trail, start with the code repository to see how these components interact "
-            },
-            {
-              "text": "the code repository",
-              "url": "https://github.com/identity-md-launches/launch-2814-sqi"
-            },
-            {
-              "text": ". You can also consult the documentation for further context on the implementation details "
-            },
-            {
-              "text": "the documentation",
-              "url": "https://github.com/identity-md-launches/launch-2814-sqi/blob/HEAD/docs/abi/README.md"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [
         {
           "address": "0x5fbe17ecdae6cab9d657313ba5704ea3e19ab72d",
@@ -3471,35 +3580,6 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "SqueekRace Arena invites you to race, predict, and play alongside Squeektoshi's real-world wheel activity "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-race.vercel.app"
-            },
-            {
-              "text": ". This description highlights a blend of competitive racing and interactive prediction, centered on that specific wheel mechanism. It sets the stage for an engaging experience where participants can engage with the activity directly."
-            }
-          ],
-          [
-            {
-              "text": "To understand how this works, you can explore the details provided in the documentation "
-            },
-            {
-              "text": "the documentation",
-              "url": "https://github.com/nhattung99/squeek-race/blob/HEAD/docs/RESEARCH.md"
-            },
-            {
-              "text": ". This source likely offers a clearer path through the mechanics of the race and prediction elements. Following this trail helps you see exactly how the wheel activity functions within the broader project context."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Race, Predict & Play with Squeektoshi's Real-World Wheel Activity",
       "description_origin": "readme",
@@ -4557,6 +4637,30 @@
           "name": "Squeekchain"
         }
       ],
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
+      "description_origin": "placeholder",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/a0900c1f-816e-4b58-8d12-17fa713acaaf"
+        }
+      ],
+      "first_seen": "2026-11-04T04:53:09.759685+00:00",
+      "id": "a9f802261bd27037",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://squeek-flap-run-with-squeektoshi.imd.site"
+      },
+      "name": "Squeek Flap",
+      "publication_origin": "owner_approved",
       "stage": "unknown"
     },
     {
