@@ -1087,21 +1087,21 @@
           ],
           [
             {
-              "text": "To understand how it works, start with the project website "
+              "text": "To understand how it works, start with "
             },
             {
               "text": "the project website",
               "url": "https://squeek-survival-beat-robo-squeek.imd.site"
             },
             {
-              "text": " for an overview. Then, explore the code repository "
+              "text": " for the core concept. Then, explore "
             },
             {
               "text": "the code repository",
               "url": "https://github.com/identity-md-launches/launch-2853-squeek-survival-deliver-hosted"
             },
             {
-              "text": " to see the implementation details behind the game mechanics and AI components."
+              "text": " to see the deterministic race logic and AI implementation in action."
             }
           ]
         ],
@@ -1456,12 +1456,24 @@
           "url": "https://eth-sepolia.blockscout.com/tx/0x3c15d3f4bd0b5d2335bdee101c8a76bd5046c67236935698eda067ea04acd277"
         },
         {
-          "kind": "team_mention",
-          "url": "https://x.com/pillheadddd/status/2117731749459284235"
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x131719036c8f6b9610fd87726c836535301e0880e99d87634de8ec673ba80168"
         },
         {
           "kind": "onchain_contract",
-          "url": "https://eth-sepolia.blockscout.com/tx/0x131719036c8f6b9610fd87726c836535301e0880e99d87634de8ec673ba80168"
+          "url": "https://eth-sepolia.blockscout.com/tx/0x93d37454a794f5d8fcb0b2e4bd0d07c75232402c016ae362816b7e81823da672"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0xc1ea5dbcc6ecd53b2bc90c5939fbac8874bafeb2fdcedf177f3f2c864f06fc78"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x6ef1f7668e5236f8dbd609a6cc224a079758bdb8294e1d16ea7eea83be868064"
+        },
+        {
+          "kind": "team_mention",
+          "url": "https://x.com/pillheadddd/status/2117731749459284235"
         }
       ],
       "first_seen": "2026-10-31T20:13:44.178169+00:00",
@@ -3265,14 +3277,14 @@
           ],
           [
             {
-              "text": "To understand how this works, you can follow the details provided in the available materials. The project website offers a clear overview of the gameplay mechanics and design goals "
+              "text": "To understand the mechanics, you can follow the details provided in the public sources. The project website offers a direct look at the gameplay loop "
             },
             {
               "text": "the project website",
               "url": "https://wheel-raid-tiny-paws-shared-boss.imd.site"
             },
             {
-              "text": ". Other public sources provide additional context on the project's structure and intended user experience "
+              "text": ", while other public sources provide additional context on the design "
             },
             {
               "text": "a public source",
@@ -3711,6 +3723,49 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "COVER is a Sepolia-only Foundry application and static demo designed for fixed payouts on certified zero-work rounds. It includes five specific contracts: MockSQK, PremiumModel, CoverPool, CoreReader, and PolicyBook. The project description notes that contract dependencies are vendored as ordinary source files, while the frontend relies on the npm lockfile located in the web directory "
+            },
+            {
+              "text": "the project website",
+              "url": "https://cover-squeekfi-on-sepolia.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To follow the source trail, you can start by exploring the code repository to see how these components interact "
+            },
+            {
+              "text": "the code repository",
+              "url": "https://github.com/identity-md-launches/launch-2814-sqi"
+            },
+            {
+              "text": ". The documentation offers further context on the setup "
+            },
+            {
+              "text": "the documentation",
+              "url": "https://github.com/identity-md-launches/launch-2814-sqi/blob/HEAD/docs/abi/README.md"
+            },
+            {
+              "text": ", and other public sources provide additional details "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/230069e2-85ed-4a16-8a0e-bd7de178f248"
+            },
+            {
+              "text": ". Reading through these materials helps clarify how the demo functions within its specific testing environment."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [
         {
           "address": "0x5fbe17ecdae6cab9d657313ba5704ea3e19ab72d",
@@ -3968,42 +4023,6 @@
         }
       ],
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Garden is described as Squeektoshi's garden on Sepolia, where hamster snacks grow only from the actions of the real Squeekchain hamster "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-garden.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow this trail, you can start by reviewing the details provided in "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2856-fix-trust-wording-site"
-            },
-            {
-              "text": " and "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/84ccdaf5-ef53-4818-986b-9b3f7238a90b"
-            },
-            {
-              "text": ". These entries help clarify how the garden connects to the broader ecosystem."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Squeektoshi's garden on Sepolia: hamster snacks that grow only from what the real Squeekchain hamster does.",
       "description_origin": "readme",
@@ -4068,42 +4087,6 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Peek is a small, independent companion for Squeekchain on Ethereum Sepolia. According to "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-peek-squeekchain-companio.imd.site"
-            },
-            {
-              "text": ", its dashboard reads SqueekCore directly, giving Squeektoshi a cozy little corner of the internet."
-            }
-          ],
-          [
-            {
-              "text": "To understand how this works, you can explore the details in "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2714-build-simple-squeekchain-companion"
-            },
-            {
-              "text": " or "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/4ef94479-3301-48d1-9269-f4d2074c71ab"
-            },
-            {
-              "text": ". These materials help you follow the source trail and see how the dashboard connects to the underlying data."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A small, independent Squeekchain companion on Ethereum Sepolia. The dashboard reads SqueekCore directly and gives Squeektoshi a cozy little corner of the internet.",
       "description_origin": "readme",
@@ -4134,35 +4117,6 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Radar is a playful, responsive dashboard for the Squeekchain ecosystem. It features a pixel hamster wheel, interactive local work simulation, and educational settlement timelines. The project also displays recent Ethereum Sepolia activity and explains the hamster-powered toychain concept "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-radar-small-paws-big-bloc.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow the source trail, start with the main site for an overview of the dashboard's components. You can then explore the additional public sources to see how the local simulation and ecosystem cards are presented in detail "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2687-build-website-called-squeek"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A playful, responsive Squeekchain dashboard: a pixel hamster wheel, interactive local work simulation, SQK ecosystem cards, an educational settlement timeline, and recent Ethereum Sepolia activity. The About page explains the hamster-powered toychain. Sharing includes an X intent, clipboard link, favicon, and a locally…",
       "description_origin": "readme",
@@ -4277,7 +4231,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
       "contracts": [],
       "description_en": "A mobile-first hamster penalty shootout built with Next.js App Router, TypeScript, Tailwind CSS, custom SVG characters, and synthesized Web Audio. The production site is in dist/; it runs from a plain static host, including a gateway subpath.",
       "description_origin": "readme",
