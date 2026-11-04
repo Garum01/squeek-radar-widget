@@ -243,49 +243,6 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Wheel Raid is a static, wallet-connected weekly boss raid powered by Squeektoshi’s real wheel "
-            },
-            {
-              "text": "the project website",
-              "url": "https://wheel-raid-small-paws-big-boss.imd.site"
-            },
-            {
-              "text": ". The delivered production website is in dist/, with source, package manifest, and lockfile included "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/1a06162a-ecd2-4e40-8ae3-f5f5e480fb65"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow the trail, start with the project website for context "
-            },
-            {
-              "text": "the project website",
-              "url": "https://wheel-raid-small-paws-big-boss.imd.site"
-            },
-            {
-              "text": ". Then, explore the code repository to see the underlying implementation "
-            },
-            {
-              "text": "the code repository",
-              "url": "https://github.com/identity-md-launches/launch-2923-wheel-raid"
-            },
-            {
-              "text": ". This path helps you understand how the raid operates within the ecosystem."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A static, wallet-connected weekly boss raid powered by Squeektoshi’s real wheel. The delivered production website is in dist/. Source, package manifest and lockfile are included.",
       "description_origin": "readme",
@@ -651,6 +608,42 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Appraiser is a read-only buyer’s tool designed to help you compare up to three Squeeks on Squeekchain on Sepolia. It focuses on specific metrics like power, asking price, staking share, and merge potential, as described in "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-appraiser-know-your-next.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To follow the source trail, start with "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/c7f6bd0e-fe1a-4381-906c-b72d09539ed2"
+            },
+            {
+              "text": " for general context. Then, visit "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-appraiser-know-your-next.imd.site"
+            },
+            {
+              "text": " to see how these comparisons are presented. This path helps you understand the tool’s scope without needing to interact with the chain directly."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Compare up to three Squeeks by power, asking price, staking share and merge potential. A read-only buyer’s tool for Squeekchain on Sepolia.",
       "description_origin": "website",
@@ -724,6 +717,49 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "SQUEEK GOD is a playable pixel village where Squeektoshi’s real hamster wheel controls the sun. You plant moon-carrots, harvest supplies, welcome villagers, build cottages, and send hope skyward, all while the hamster decides when day begins "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-god-a-real-hamster-contro.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To understand how this works, start with "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-god-a-real-hamster-contro.imd.site"
+            },
+            {
+              "text": " for the core concept. Then explore "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2922-build-squeek-god"
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/826ade72-c4cd-4405-a584-5fdda93d1bc1"
+            },
+            {
+              "text": " to see how the hamster’s actions translate into gameplay mechanics and village progression."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A playable pixel village ruled by Squeektoshi’s real hamster wheel. Plant moon-carrots, harvest supplies, welcome villagers, build cottages and send a little hope skyward. The hamster decides when the sun rises.",
       "description_origin": "readme",
@@ -1129,7 +1165,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "nft",
       "contracts": [],
       "description_en": "Non-custodial, fee-free peer-to-peer market for Squeeks (Squeekchain's ERC-721) priced in SQK, built so holders of a lone Squeek at a level can find a merge partner. This repository contains the deployed contract source, its tests and ABI, the React website in web/, and the ready-to-serve static export in dist/.",
       "description_origin": "readme",
@@ -1816,16 +1852,20 @@
           "url": "https://eth-sepolia.blockscout.com/tx/0x70ec41b5b46c6bc14d00e2b0f088814d374b505b3ed3fd0b793516b5e1d3a4ad"
         },
         {
-          "kind": "team_mention",
-          "url": "https://x.com/pillheadddd/status/2117731749459284235"
-        },
-        {
           "kind": "onchain_contract",
           "url": "https://eth-sepolia.blockscout.com/tx/0xa67f2e51d81ae650ae01a201f3e2ef105a68f15b81c26a4d61d3f5b46d84c2c3"
         },
         {
           "kind": "onchain_contract",
           "url": "https://eth-sepolia.blockscout.com/tx/0x3735e83fcaffdadc0507bf63ffde09c3b88463bc051142337d85aae0e37bd2f2"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x47f5d07cf7a82177f1515353ae2fef226ff64747e18a75ebe140ce19b5b54955"
+        },
+        {
+          "kind": "team_mention",
+          "url": "https://x.com/pillheadddd/status/2117731749459284235"
         }
       ],
       "first_seen": "2026-10-31T20:13:44.178169+00:00",
@@ -5565,42 +5605,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Wheel Oracle is a playable, English-language community game built with React, TypeScript, and Vite. As described on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-wheel-oracle-tiny-paws-bi.imd.site"
-            },
-            {
-              "text": ", players predict whether a real hamster’s future wheel work will be UNDER or AT/OVER, earn points, and defeat the Vacuum of the Void."
-            }
-          ],
-          [
-            {
-              "text": "The original prototype’s forest greens, lime accents, and animated wheel are preserved with new, original SVG artwork. You can explore these design choices and the game’s mechanics by reading "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2799-build-english-language-browser-game"
-            },
-            {
-              "text": " or checking "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-wheel-oracle-tiny-paws-bi.imd.site"
-            },
-            {
-              "text": " for more details."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A playable, English-language community game built with React, TypeScript and Vite. Predict UNDER or AT/OVER a real hamster’s future wheel work, earn points, and defeat the Vacuum of the Void. The original prototype’s forest greens, lime accents and animated wheel are preserved with new, original SVG artwork.",
       "description_origin": "readme",
@@ -5700,35 +5704,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Pouch is a cozy packing puzzle designed for the Squeekchain Genesis Code lane. As described on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-pouch.imd.site"
-            },
-            {
-              "text": ", it features twelve authored levels where you pack items like sunflower seeds, hazelnuts, berries, clover, tiny treasures, and paw biscuits."
-            }
-          ],
-          [
-            {
-              "text": "You can start exploring the game mechanics by visiting "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-pouch.imd.site"
-            },
-            {
-              "text": ". The description notes that Level 1 is ready to play immediately upon opening the site, offering a straightforward entry point into the puzzle experience."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A cozy, original cheek-pouch packing puzzle for the Squeekchain Genesis Code lane. Open the site and Level 1 is ready to play. Pack sunflower seeds, hazelnuts, berries, clover, tiny treasures and paw biscuits through twelve authored puzzles.",
       "description_origin": "readme",
@@ -5788,6 +5763,7 @@
         "website": "https://squeekchain-genesis-the-rebellio.imd.site",
         "x": "https://twitter.com/squeekchain"
       },
+      "logo": "logos/ef07dfccad87d323940d4f2219d4a95f13357a0a3cd6c382a4dd0c841ec1b671.svg",
       "name": "Squeekchain Genesis",
       "publication_origin": "owner_approved",
       "stage": "unknown"
@@ -7636,6 +7612,25 @@
       },
       "logo": "logos/50651a89464f389746692492aee61ea90b0f17b07559cda30d68a588674d77a5.svg",
       "name": "SQUEEKFOREST: SEEDKEEPER",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "A pixel garden that grows on Squeektoshi's real wheel rounds on Squeekchain.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-11-04T13:58:55.462249+00:00",
+      "id": "f920bea70ed9b4a8",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://squeek-garden.trackingport.com"
+      },
+      "name": "Squeek Garden",
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
