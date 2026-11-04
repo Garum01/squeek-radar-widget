@@ -28,6 +28,12 @@
       "logo": "logos/145ce01197ae7ce76b23a519005e230e1e9e927339d110feb1d4d7faa3da5d88.png",
       "name": "Squeek Deep",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "59e56b17c625a795",
+          "name": "Squeek Wheel Runner"
+        }
+      ],
       "stage": "unknown"
     },
     {
@@ -117,6 +123,20 @@
       "logo": "logos/90589b7c4bdb4bcdac8c74ba97af9ecb3cec195bd9b4e99d51de5f987ba0fb73.svg",
       "name": "Squeek Companion",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "0de68e384401e86b",
+          "name": "Squeek Market"
+        },
+        {
+          "id": "54ac1ad233b97b98",
+          "name": "Squeekchain"
+        },
+        {
+          "id": "a7888893596b8e40",
+          "name": "SqueekYield"
+        }
+      ],
       "stage": "unknown"
     },
     {
@@ -212,6 +232,12 @@
       "logo": "logos/b6142c71c831e866720d9538ad66e348098ff4db045a33b8fdcf27782c9d2d16.png",
       "name": "Squeek Pal",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "0be8559ead85e180",
+          "name": "Squeek Pet"
+        }
+      ],
       "stage": "unknown"
     },
     {
@@ -307,6 +333,12 @@
       "logo": "logos/11e9a8108f8702bcfc7e7d847d20ad2cc09a0b9cae17c77f0e3661053bdba939.svg",
       "name": "Squeekchain • Network dashboard",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "21d49d44bdd47270",
+          "name": "Squeek Arena"
+        }
+      ],
       "stage": "unknown"
     },
     {
@@ -372,6 +404,12 @@
       },
       "name": "Squeek Pet",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "049bd120d672ee05",
+          "name": "Squeek Pal"
+        }
+      ],
       "stage": "unknown"
     },
     {
@@ -441,6 +479,20 @@
       "logo": "logos/e25b4a7642c04e41b408f0efefce0e3d2113d2a265679fc383bd6fa4d05fcf07.svg",
       "name": "Squeek Market",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "0447214d4e84448f",
+          "name": "Squeek Companion"
+        },
+        {
+          "id": "54ac1ad233b97b98",
+          "name": "Squeekchain"
+        },
+        {
+          "id": "a7888893596b8e40",
+          "name": "SqueekYield"
+        }
+      ],
       "stage": "unknown"
     },
     {
@@ -502,6 +554,12 @@
       "logo": "logos/c462223eca1184f3036d0081cc62415055192a369103c8f9c6f9889a90a63aa7.svg",
       "name": "Squeek Appraiser",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "a5a278ce9e54c6ba",
+          "name": "Squeek Sprouts"
+        }
+      ],
       "stage": "unknown"
     },
     {
@@ -815,6 +873,12 @@
       "logo": "logos/4e3b7c9daac6129be40a122fc4cbf707f494dcd0ae0c601f7bb69c69ffda3b7b.svg",
       "name": "Squeek Arena",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "08dc852fca63d035",
+          "name": "Squeekchain • Network dashboard"
+        }
+      ],
       "stage": "unknown"
     },
     {
@@ -1328,6 +1392,12 @@
       "logo": "logos/92307f6fcbe392a4c72485ecafa0d65407a22d5d440f80a44946efc9d97ce764.svg",
       "name": "Turing Wheel",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "c9887d42102d1239",
+          "name": "Fantasy Hamster"
+        }
+      ],
       "stage": "unknown"
     },
     {
@@ -1713,6 +1783,20 @@
       "logo": "logos/570c64a6c1f695bec24c69481bfb38f9a45ce30996fef99fdf9efb5d92091dd4.svg",
       "name": "Squeekchain",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "0447214d4e84448f",
+          "name": "Squeek Companion"
+        },
+        {
+          "id": "0de68e384401e86b",
+          "name": "Squeek Market"
+        },
+        {
+          "id": "a7888893596b8e40",
+          "name": "SqueekYield"
+        }
+      ],
       "stage": "unknown"
     },
     {
@@ -1916,6 +2000,12 @@
       },
       "name": "Squeek Wheel Runner",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "025cec09b7f5e1ec",
+          "name": "Squeek Deep"
+        }
+      ],
       "stage": "unknown"
     },
     {
@@ -2033,6 +2123,12 @@
       },
       "logo": "logos/a663a7775e12a349157340c6826528c1cc1087d938ee2f4a7a2566767b1a9f7f.svg",
       "name": "Pip",
+      "other_versions": [
+        {
+          "name": "Pip · Squeekchain Hamster Companion",
+          "url": "https://pip-squeekchain-hamster-com-576c.imd.site"
+        }
+      ],
       "publication_origin": "owner_approved",
       "stage": "unknown"
     },
@@ -2107,6 +2203,12 @@
       "logo": "logos/e1d32811a4d95024006a20727102460c2ceb5bd442e6a0d2cb486a61f787c1d6.svg",
       "name": "SqueekPack: Jetstream Run",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "ee4155c151e3a9ec",
+          "name": "Squeek Play"
+        }
+      ],
       "stage": "unknown"
     },
     {
@@ -2429,6 +2531,12 @@
       "logo": "logos/585a0f843f012ba96cd7d87d9cbf718cda60fc10c5dc3d329bffc1e19e438170.svg",
       "name": "Squeekchain Arcade",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "d0f042a62fb3fc8f",
+          "name": "Burrow Power"
+        }
+      ],
       "stage": "unknown"
     },
     {
@@ -2490,6 +2598,12 @@
       "logo": "logos/af9538a9f9d2b0640fb0b94971d11b8860df394a3ead48b4c645f6216a2b96e9.svg",
       "name": "Squeek Hatchery",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "d65c5b4545f0c8af",
+          "name": "Squeek & Glide"
+        }
+      ],
       "stage": "unknown"
     },
     {
@@ -2650,74 +2764,6 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "This update focuses on preserving Pip's existing lavender 3D companion, five growth appearances, and browser saves. It also maintains care, play, and memories features, along with English and Traditional Chinese support. The project keeps free on-device AI while adding read-only monitoring for specific blockchain networks "
-            },
-            {
-              "text": "the project website",
-              "url": "https://pip-squeekchain-hamster-com-576c.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow the details, start with the main site for an overview of these changes. You can then explore the documentation for deeper technical context on the new monitoring capabilities and procedural gestures "
-            },
-            {
-              "text": "the documentation",
-              "url": "https://github.com/identity-md-launches/launch-2777-reference-source-https-github-com-tungwe/blob/HEAD/docs/UPSTREAM_README.md"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
-      "contracts": [],
-      "description_en": "Feed, touch, turn and grow with Pip. This upgrade preserves the existing lavender 3D companion, five growth appearances, browser saves, care/play/memories, English default, Traditional Chinese and free on-device AI. It adds read-only IMD/Ethereum and Squeekchain/Sepolia monitoring, twelve procedural gestures, reward-fr…",
-      "description_origin": "readme",
-      "ecosystem_status": "weak",
-      "evidence": [
-        {
-          "kind": "github_mention",
-          "url": "https://github.com/identity-md-launches/launch-2777-reference-source-https-github-com-tungwe"
-        },
-        {
-          "kind": "imd_publication",
-          "url": "https://explorer.imd.fun/jobs/042fe32c-3588-4206-a6fd-c1bfd18b521c"
-        },
-        {
-          "kind": "imd_publication",
-          "url": "https://explorer.imd.fun/jobs/edf1766e-6293-4979-bdb9-f50b6c9d72e8"
-        },
-        {
-          "kind": "imd_publication",
-          "url": "https://explorer.imd.fun/jobs/db382aa1-2381-4916-a4dc-8b693f6bafbd"
-        }
-      ],
-      "first_seen": "2026-10-31T11:23:26.251920+00:00",
-      "id": "73d8a01ad97c1fa4",
-      "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
-      "links": {
-        "docs": "https://github.com/identity-md-launches/launch-2777-reference-source-https-github-com-tungwe/blob/HEAD/docs/UPSTREAM_README.md",
-        "github": "https://github.com/identity-md-launches/launch-2777-reference-source-https-github-com-tungwe",
-        "website": "https://pip-squeekchain-hamster-com-576c.imd.site"
-      },
-      "logo": "logos/be95e66899518f06b8b8b798bb78129a2d5cf95034cd1ad63cf896704c1b9cb0.svg",
-      "name": "Pip · Squeekchain Hamster Companion",
-      "publication_origin": "owner_approved",
-      "stage": "unknown"
-    },
-    {
-      "builder": null,
-      "category": "tools",
       "contracts": [],
       "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
       "description_origin": "placeholder",
@@ -2829,6 +2875,12 @@
       "logo": "logos/891912ec60a65061c30b562133ca04cb0dcdf6e627406b87f22af629c6f9a5a8.svg",
       "name": "Squeek Merge Preview",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "bf59d3bc79f7a775",
+          "name": "Squeek Forge"
+        }
+      ],
       "stage": "unknown"
     },
     {
@@ -3592,6 +3644,12 @@
       "logo": "logos/db4352e8ed2931edd77a54c558fc8c3e6a321bdf461d3cd0c62e8dcbbdf2f5f7.svg",
       "name": "SQUEEK KINGDOM",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "cd8f624b93020d0c",
+          "name": "SQUEEK ARENA"
+        }
+      ],
       "stage": "unknown"
     },
     {
@@ -4260,6 +4318,12 @@
       "logo": "logos/0542d5444c023dae07ee2afffa53a7b558b0bc92c7755b787deb422241cedb90.svg",
       "name": "Squeek Sprouts",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "11b1540c5c769b32",
+          "name": "Squeek Appraiser"
+        }
+      ],
       "stage": "unknown"
     },
     {
@@ -4290,6 +4354,20 @@
       "logo": "logos/e06e6116fffc12b402565947e4986d09f46252b7ed3940d9e8166a8ffd115bc2.svg",
       "name": "SqueekYield",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "0447214d4e84448f",
+          "name": "Squeek Companion"
+        },
+        {
+          "id": "0de68e384401e86b",
+          "name": "Squeek Market"
+        },
+        {
+          "id": "54ac1ad233b97b98",
+          "name": "Squeekchain"
+        }
+      ],
       "stage": "unknown"
     },
     {
@@ -4476,6 +4554,12 @@
       "logo": "logos/1c207fe264f0b5bf78587cd42c43660d85e54f9fcae062aaffb4838cd33b454c.svg",
       "name": "Real or Robot?",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "d50e964be532f7c4",
+          "name": "Ghost Wheel"
+        }
+      ],
       "stage": "unknown"
     },
     {
@@ -4748,6 +4832,12 @@
       },
       "name": "Squeek Forge",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "77621cd2e13531f3",
+          "name": "Squeek Merge Preview"
+        }
+      ],
       "stage": "unknown"
     },
     {
@@ -4855,6 +4945,12 @@
       "logo": "logos/20ec4bc95abf1bef5c5e35789eb5cd58c29d5a646e1a0a9715a74c3a9f98dc34.svg",
       "name": "Who is Squeektoshi?",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "dddf5d0fe643127f",
+          "name": "Hamster Nap (NAP)"
+        }
+      ],
       "stage": "unknown"
     },
     {
@@ -5074,6 +5170,12 @@
       "logo": "logos/818ad410ad57226f5778325921e84aa805a8c4e1816e90f6e9c899d771ebfae0.svg",
       "name": "Fantasy Hamster",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "361ac51a339cda7c",
+          "name": "Turing Wheel"
+        }
+      ],
       "stage": "unknown"
     },
     {
@@ -5215,6 +5317,12 @@
       "logo": "logos/e39ad49c8f0ec2047aa6308b118fb4b3985785f9653958286bb150c8538984e4.svg",
       "name": "Squeek Garden",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "e8af6d0bc2c9eb3e",
+          "name": "Squeek Tales"
+        }
+      ],
       "stage": "unknown"
     },
     {
@@ -5291,6 +5399,12 @@
       "logo": "logos/e09564e4596057c93c8313a44ea0f22d97b0e50f8dbab739d2e8a7c3e24123ff.svg",
       "name": "SQUEEK ARENA",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "8d334f6bea6837d8",
+          "name": "SQUEEK KINGDOM"
+        }
+      ],
       "stage": "unknown"
     },
     {
@@ -5456,6 +5570,12 @@
       "logo": "logos/0d265cf947dc4dadd6935eccc3bcc3e3da91a18ac2845b3bfa56f0ff57494076.svg",
       "name": "Burrow Power",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "6ca05d5cae916192",
+          "name": "Squeekchain Arcade"
+        }
+      ],
       "stage": "unknown"
     },
     {
@@ -5715,6 +5835,12 @@
       "logo": "logos/3e9a022aa65b34503b8d6aec9e881da8368e13946da082f6ec3d0403e23b366e.svg",
       "name": "Ghost Wheel",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "ac2a8ee74bc5e343",
+          "name": "Real or Robot?"
+        }
+      ],
       "stage": "unknown"
     },
     {
@@ -5777,6 +5903,12 @@
       "logo": "logos/39866cf4e5abe88f27e3a24e7eaa7570411a4d63f9e927dc5bd54f1577143131.svg",
       "name": "Squeek & Glide",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "6d64bbb75b75fd3f",
+          "name": "Squeek Hatchery"
+        }
+      ],
       "stage": "unknown"
     },
     {
@@ -5866,6 +5998,12 @@
       "logo": "logos/c414e3be66b11807472d1738fcf1480086aa4b3313e893641a40a07fc4ae3eff.svg",
       "name": "Hamster Nap (NAP)",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "c2eedad2e6b28c4a",
+          "name": "Who is Squeektoshi?"
+        }
+      ],
       "stage": "unknown"
     },
     {
@@ -6157,14 +6295,20 @@
       "logo": "logos/ffa6f2265e81326da3f25662993b0885a7bd7465012ea26cdae6e80a0932903d.svg",
       "name": "Squeek Tales",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "cd69dec184b32427",
+          "name": "Squeek Garden"
+        }
+      ],
       "stage": "unknown"
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
       "contracts": [],
-      "description_en": "One real hamster powers the whole race. Grab batons, build your combo, and ride Squeektoshi’s live energy in Squeek Relay. Play free as a guest.",
-      "description_origin": "source",
+      "description_en": "A playable hamster relay powered by Squeektoshi’s real wheel. One motor changes everyone’s track: running brings speed and boost energy; sleeping turns the track to ice.",
+      "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
         {
@@ -6276,6 +6420,12 @@
       "logo": "logos/69853b39cb5abad361586bce04c3ebf1509e7b4cd1096300a9c1e32871a5de3c.svg",
       "name": "Squeek Play",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "63fa415019729141",
+          "name": "SqueekPack: Jetstream Run"
+        }
+      ],
       "stage": "unknown"
     },
     {

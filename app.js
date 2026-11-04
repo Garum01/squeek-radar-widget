@@ -247,6 +247,67 @@ function showcaseTitle(info) {
   return text + (info.stale ? ' Last checked ' + date(info.last_checked, true) + '; the listing awaits a fresh confirmation.' : '');
 }
 
+// Other public cards whose IMD builds were paid from the same wallet; each name opens that card here.
+function sameWalletLinks(project) {
+  const known = new Map(state.projects.map(p => [p.id, p]));
+  const others = (Array.isArray(project.same_wallet) ? project.same_wallet : []).filter(o => o && known.has(o.id) && o.id !== project.id);
+  if (!others.length) return null;
+  const line = el('p', 'same-wallet');
+  line.append('The same IMD wallet also published ');
+  others.forEach((other, index) => {
+    if (index) line.append(index === others.length - 1 ? ' and ' : ', ');
+    const a = el('a', '', known.get(other.id).name || 'another project');
+    if (selectedProject) {
+      const params = new URLSearchParams(viewParams);
+      params.set('project', other.id);
+      a.href = '?' + params.toString();
+    } else {
+      a.href = '#project-' + other.id;
+      a.addEventListener('click', event => {event.preventDefault(); openProject(other.id);});
+    }
+    line.append(a);
+  });
+  line.append('.');
+  return line;
+}
+
+// Sites of other versions the owner merged into this card; they no longer have cards of their own.
+function otherVersions(project) {
+  const versions = (Array.isArray(project.other_versions) ? project.other_versions : []).filter(v => v && safeURL(v.url));
+  if (!versions.length) return null;
+  const line = el('p', 'other-versions');
+  line.append(versions.length === 1 ? 'The same wallet also published another version of this project: ' : 'The same wallet also published other versions of this project: ');
+  versions.forEach((version, index) => {
+    if (index) line.append(', ');
+    line.append(external(version.url, '', version.name || 'its site'));
+  });
+  line.append('.');
+  return line;
+}
+
+// Bring a card into view, clearing filters that hide it, and open its details.
+function openProject(id) {
+  if (!visibleProjects().some(p => p.id === id)) {
+    state.query = '';
+    $('search').value = '';
+    state.category = 'all';
+    $('category').value = 'all';
+    if (!embedMode) {
+      state.filter = 'all';
+      document.querySelectorAll('[data-filter]').forEach(tab => {
+        tab.classList.toggle('selected', tab.dataset.filter === 'all');
+        tab.setAttribute('aria-pressed', String(tab.dataset.filter === 'all'));
+      });
+    }
+    render();
+  }
+  const article = $('project-' + id);
+  if (!article) return;
+  const details = article.querySelector('details');
+  if (details) details.open = true;
+  article.scrollIntoView({behavior: 'smooth', block: 'start'});
+}
+
 // Explain only the public record. Linked observations are not safety or usage proofs.
 function projectDetails(project) {
   const details = el('details');
@@ -262,7 +323,7 @@ function projectDetails(project) {
   const labels = {team_mention: 'a public team post', github: 'a public repository reference',
     x_profile: 'the project’s public profile', onchain: 'an on-chain reference',
     contract_interaction: 'a contract interaction reference', website: 'a website reference',
-    imd_publication: 'the public IMD build job'};
+    imd_publication: 'the public IMD build job', imd_site: 'the earlier IMD-hosted address'};
   for (const source of project.evidence || []) {
     const url = safeURL(source.url);
     if (!url || isNetworkDocumentation(url) || seen.has(url)) continue;
@@ -328,15 +389,21 @@ function projectDetails(project) {
     if (!url || !/^https:\/\/(?:www\.)?(?:x|twitter)\.com\/[A-Za-z0-9_]{1,15}\/?$/.test(url)) continue;
     const credit = el('p');
     const post = builder.kind === 'post' && safeURL(builder.source);
+    if (builder.kind === 'board') continue; // named with the Genesis board line below
     if (post) credit.append(external(url, '', builder.label || 'Its builder'), ' presented this project as their build in ', external(post, '', 'a post on X'), '.');
     else credit.append('The site credits ', external(url, '', builder.label || 'its builder'), ' as its builder.');
     copy.append(credit);
   }
+  for (const line of [sameWalletLinks(project), otherVersions(project)]) if (line) copy.append(line);
   const verified = showcaseInfo(project);
   if (verified) {
     const source = el('p', 'showcase-source');
     source.append('This project was listed on ', external(verified.source_url, '', 'Squeekchain’s Genesis board'),
-      ' (verified ' + date(verified.verified_at, true) + ').');
+      ' (verified ' + date(verified.verified_at, true) + ')');
+    const submitter = (Array.isArray(project.builder_links) ? project.builder_links : []).find(b => b && b.kind === 'board');
+    const handle = submitter && safeURL(submitter.url);
+    if (handle && /^https:\/\/x\.com\/[A-Za-z0-9_]{1,15}$/.test(handle)) source.append(', submitted by ', external(handle, '', submitter.label || 'its builder'));
+    source.append('.');
     source.title = showcaseTitle(verified);
     copy.append(source);
   }
