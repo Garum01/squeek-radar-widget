@@ -33,49 +33,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Deep is a single-player pixel-art mining roguelite built with Vite, React, and TypeScript. It uses the original asset pack, where the real Squeekchain wheel powers the basket, while Practice mode relies on an offline simulation "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-deep.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow the details, start with "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-deep.imd.site"
-            },
-            {
-              "text": " for the core overview. You can then explore "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2739-build-squeek-deep-polished"
-            },
-            {
-              "text": " and "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/42bc60d8-1be0-435b-8cb8-c1f9cfce150e"
-            },
-            {
-              "text": " to see how the technical components and game mechanics are presented in the available documentation."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Squeek Deep is a single-player pixel-art mining roguelite where you control Pip, a hamster digging through six earth layers. The game is powered by a real Squeekchain wheel that moves the basket, or an offline simulation in practice mode. Collect gems to fill Pip's cheeks and bring the treasure back to the surface.",
       "description_origin": "readme",
@@ -190,42 +147,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Wheelkeepers is a free Squeekchain arcade powered by a real hamster, as described on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://wheelkeepers-a-little-hamster-a.imd.site"
-            },
-            {
-              "text": ". You aim a collector around the wheel, catch gold seeds, and dodge blue glitches as the pace increases."
-            }
-          ],
-          [
-            {
-              "text": "To understand how this works, you can follow the details in "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2747-deploy-new-version-after"
-            },
-            {
-              "text": " and "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/21d0a91a-a91c-4626-9b66-095201785153"
-            },
-            {
-              "text": ". These materials help you see the specific mechanics and context behind the game's design."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A free Squeekchain arcade powered by a real hamster. You aim a collector around the wheel to catch gold seeds and dodge blue glitches as the pace increases. The game features live boost events and a shared leaderboard.",
       "description_origin": "readme",
@@ -1792,49 +1713,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Burrow Raid is a finished, playable 3D hamster boss battle set in a miniature, mushroom-lit arena. As described on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://burrow-raid-small-paws-big-boss.imd.site"
-            },
-            {
-              "text": ", you choose a Fighter, Guardian, or Medic to dodge the Cable Gnawer and defend the burrow. The default experience is practice mode, featuring two labelled bot companions and simulated bonus recharge."
-            }
-          ],
-          [
-            {
-              "text": "To follow the details, start with "
-            },
-            {
-              "text": "the project website",
-              "url": "https://burrow-raid-small-paws-big-boss.imd.site"
-            },
-            {
-              "text": " for the core gameplay overview. You can then explore "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2937-burrow-raid"
-            },
-            {
-              "text": " and "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/7e402e1f-52ae-4d91-a0ff-0b907f03ed74"
-            },
-            {
-              "text": " to see how the arena and character roles are presented. These sources help you understand the specific mechanics of the boss fight and the companion system."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Burrow Raid is a 3D hamster boss battle where you defend the burrow against the Cable Gnawer. Choose a Fighter, Guardian, or Medic role to play solo practice or join a co-op room with other players.",
       "description_origin": "readme",
@@ -2417,6 +2295,35 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Wheelhaven is an original crop strategy game where players grow carrots, broccoli, and sunflower seeds powered by real hamster wheel passages, as described in the project overview "
+            },
+            {
+              "text": "the project website",
+              "url": "https://wheelhaven.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To understand how this works, you can explore the details provided in the public materials "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/cc67daed-e7f8-4ff8-845f-2fc8e19150c7"
+            },
+            {
+              "text": ". This helps you see the connection between the physical wheel movements and the in-game growth mechanics."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Wheelhaven is an original crop strategy game where players grow carrots, broccoli, and sunflower seeds powered by real hamster wheel passages.",
       "description_origin": "website_ai",
@@ -5180,49 +5087,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Real or Robot? invites you to listen to eight-second clips of a turning wheel, distinguishing Squeektoshi's real runs from fakes. You hear magnet passages and watch the gaps, then decide if each clip is hamster or robot. A small trained model makes its own call, and each reveal names the specific tell that gave the clip away "
-            },
-            {
-              "text": "the project website",
-              "url": "https://real-or-robot-squeektoshi-s-runs.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow this trail, start with the project website for the full context "
-            },
-            {
-              "text": "the project website",
-              "url": "https://real-or-robot-squeektoshi-s-runs.imd.site"
-            },
-            {
-              "text": ". You can also explore the other public sources to see how the audio and visual cues are presented "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2891-real-robot-static-squeekchain"
-            },
-            {
-              "text": ". Reading these materials helps you understand the listening game and the model's reasoning "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/27de4a87-4b53-4c52-b9d2-6f4f60a925f7"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Listen to eight-second clips of Squeektoshi's wheel and decide if the passages are from the hamster or a fake source. A small trained model makes the same calls, highlighting the limits of sensor-based proof. The game reveals which specific details, like motor hums or hand movements, distinguish real runs from simulations.",
       "description_origin": "readme",
