@@ -3,6 +3,36 @@
     {
       "builder": null,
       "category": "game",
+      "contracts": [],
+      "description_en": "A community boss raid powered by Squeektoshi's real wheel work on Squeekchain. Join free with a wallet signature, pick a role, cheer, and climb the season leaderboard.",
+      "description_origin": "source",
+      "ecosystem_status": "claimed",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-2993-build-deploy-squeek-boss"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/94bbdd86-3731-4fd4-90e9-bbabf61ce035"
+        }
+      ],
+      "first_seen": "2026-11-05T10:16:47.529007+00:00",
+      "id": "0138e486f6fae81a",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-2993-build-deploy-squeek-boss",
+        "website": "https://squeek-boss-raid.imd.site"
+      },
+      "logo": "logos/47ff3640189859150ef05b3f2fe5228ce392b6279068821dbc5187b2987a380e.svg",
+      "name": "Squeek Boss Raid",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "game",
       "checked_text": {
         "paragraphs": [
           [
@@ -605,6 +635,42 @@
         {
           "id": "a7888893596b8e40",
           "name": "SqueekYield"
+        }
+      ],
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "analytics",
+      "contracts": [],
+      "description_en": "Turn your Squeek into profile pictures, banners, wallpapers, stickers and share cards. Free, read-only, and made in your browser.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-2988-skill-build-website-ipfs"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/7e7f823c-c766-46a8-9cbd-9eace42da45b"
+        }
+      ],
+      "first_seen": "2026-11-05T08:15:44.621643+00:00",
+      "id": "10f656f4e5a4a566",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-2988-skill-build-website-ipfs",
+        "website": "https://squeek-studio-your-squeek-everyw.imd.site"
+      },
+      "logo": "logos/254393793324c01ec46b0243f497110e5680547b21ceeebdeb4525c8e6131d33.svg",
+      "name": "Squeek Studio",
+      "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "2c4c3370b10c2105",
+          "name": "Squeek Wars"
         }
       ],
       "stage": "development"
@@ -1499,6 +1565,12 @@
       "logo": "logos/fa7c532ac5e08e9281d194c6209ed860e3e89bc8c04919a57cf899336528da75.svg",
       "name": "Squeek Wars",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "10f656f4e5a4a566",
+          "name": "Squeek Studio"
+        }
+      ],
       "stage": "testnet"
     },
     {
@@ -2501,6 +2573,31 @@
     },
     {
       "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
+      "description_origin": "placeholder",
+      "ecosystem_status": "claimed",
+      "evidence": [
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/cc67daed-e7f8-4ff8-845f-2fc8e19150c7"
+        }
+      ],
+      "first_seen": "2026-11-05T11:57:50.113843+00:00",
+      "id": "54021cb9ac627184",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "website": "https://wheelhaven.imd.site"
+      },
+      "logo": "logos/7be8cf0a7614403555079442dc02cc52c6547bedea5db2dedda73d6601ddff8e.svg",
+      "name": "Wheelhaven",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
       "category": "infrastructure",
       "contracts": [],
       "description_en": "Squeekchain is a blockchain where a real hamster running on a wheel generates work that settles to Ethereum. Sensors record the movement to produce Squeek blocks and issue SQK tokens. The project connects physical hamster activity to on-chain records.",
@@ -3490,6 +3587,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/485e0015-4189-4718-9d62-cd52a0e8d823"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/2c808a4b-76f8-4486-8d5a-fc9886e6ef10"
         }
       ],
       "first_seen": "2026-11-04T18:55:35.715126+00:00",
@@ -4393,6 +4494,41 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
+      "description_en": "Squeek Radar is a public live monitor for the Squeekchain hamster wheel: activity, events, milestones, rounds, blocks and settlements. No wallet needed.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-2989-build-complete-responsive-web"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/e778d1a3-7696-460b-8769-80d4c1803613"
+        }
+      ],
+      "first_seen": "2026-11-05T08:30:44.510406+00:00",
+      "id": "8ea65381af4abff9",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-2989-build-complete-responsive-web",
+        "website": "https://squeek-radar-know-what-s-happeni.imd.site"
+      },
+      "name": "Squeek Radar: Live Activity and Event Monitor",
+      "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "e87aaa926c8cb1ae",
+          "name": "Squeek Runner"
+        }
+      ],
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
       "description_en": "Squeekscope provides a daily hamster tarot reading for any Ethereum address based on Squeektoshi's settled wheel work. Users can read their card, compare a pair, and trace every draw. The tool is a static, browser-only application that generates a unique reading for each address and day.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
@@ -4778,49 +4914,6 @@
     {
       "builder": null,
       "category": "analytics",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "The project aims to provide a single-page dashboard for a hamster-powered proof-of-work chain, where a real hamster runs on a wheel to generate the work that builds blocks "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekchain-live-dashboard.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "You can follow the details by checking the provided materials. Start with "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2690-build-single-page-website-called"
-            },
-            {
-              "text": " for context, then review "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/c0ad85e3-adcc-478a-a16a-142ea57dcdf0"
-            },
-            {
-              "text": " and "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekchain-live-dashboard.imd.site"
-            },
-            {
-              "text": " to see how the dashboard presents this unique mechanism."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A live dashboard that tracks the wheel speed, proof of work, and block production of Squeekchain. It displays real-time telemetry, settlements, and economic data updated every ten seconds. The interface visualizes how a single hamster powers a functioning blockchain.",
       "description_origin": "readme",
@@ -6731,6 +6824,32 @@
     },
     {
       "builder": null,
+      "category": "art",
+      "contracts": [],
+      "description_en": "Every turn of Squeektoshi's wheel paints a dot. Live site: https://mstrsqueek.xyz · Source: https://github.com/15665322008/wheel-canvas",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/15665322008/wheel-canvas"
+        }
+      ],
+      "first_seen": "2026-11-04T09:30:13.486529+00:00",
+      "id": "dd812d73abe2a43d",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/15665322008/wheel-canvas",
+        "website": "https://mstrsqueek.xyz"
+      },
+      "logo": "logos/80ee121b57c0fe3dd69fdb15d092c274392d0c810393d651934eb260e1a101db.svg",
+      "name": "Wheel Canvas / 仓鼠画布",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
       "category": "game",
       "contracts": [],
       "description_en": "Hamster Nap is a community game where players buy NAP tokens to become the last buyer before Squeektoshi naps. A 2% fee from each purchase builds a pot of test ETH, which the final buyer wins when the hamster's nap is certified. The game runs as a Uniswap v4 hook on the Sepolia testnet.",
@@ -6778,7 +6897,7 @@
       "category": "analytics",
       "contracts": [],
       "description_en": "A companion dashboard for Squeekchain that streams live footage of Squeektoshi and displays real-time metrics like wheel RPM and block height. Users can send a zero-allowance test transaction to verify their wallet and earn a Genesis badge.",
-      "description_origin": "website",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [],
       "first_seen": "2026-11-02T02:35:47.727135+00:00",
@@ -7069,6 +7188,12 @@
       "logo": "logos/c39c4a45cefbd531f1e409f5e79374e4dea60ae462dd6b2423534fdd6404ef58.svg",
       "name": "Squeek Runner",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "8ea65381af4abff9",
+          "name": "Squeek Radar: Live Activity and Event Monitor"
+        }
+      ],
       "stage": "development"
     },
     {
@@ -7303,6 +7428,36 @@
     },
     {
       "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "Tap a tempo to trace the real speed curves of Squeektoshi's hamster-wheel runs. An unofficial Squeekchain fan game.",
+      "description_origin": "source",
+      "ecosystem_status": "claimed",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-2986-build-publish-original-playable"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/9e0041e1-55f7-4e9d-9f52-f872b6e70d6a"
+        }
+      ],
+      "first_seen": "2026-11-05T04:58:21.520487+00:00",
+      "id": "ee855519591ef767",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-2986-build-publish-original-playable",
+        "website": "https://hamster-pacer-echo.imd.site"
+      },
+      "logo": "logos/90f785b4849cc97fe1ed222b6560c95905e595a10803fcaca26ca6f4acffa3e8.svg",
+      "name": "Hamster Pacer: Echo",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
       "category": "analytics",
       "contracts": [],
       "description_en": "Squeektoshi’s Diary tracks the daily activity of the hamster powering Squeekchain. It displays live wheel speed, distance, and historical pass counts to show how the animal contributes to the proof-of-work process on the Sepolia testnet.",
@@ -7384,6 +7539,36 @@
       },
       "logo": "logos/4b262f0ef839e82560c5052745374003501295c9264bdb6ec18678c991b45c97.svg",
       "name": "Wheel Rush",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "analytics",
+      "contracts": [],
+      "description_en": "A stream companion HUD that tracks live Sepolia blocks, SqueekCore round state, and active hamster wheel mining progress on Squeekchain.",
+      "description_origin": "source",
+      "ecosystem_status": "claimed",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-2991-stream-companion-hud-tracks"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/72bc3072-f84c-4101-a6d3-9fe49987e58b"
+        }
+      ],
+      "first_seen": "2026-11-05T09:31:03.310222+00:00",
+      "id": "f5265f8763a9a6ae",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-2991-stream-companion-hud-tracks",
+        "website": "https://squeekside-squeekchain-stream-co.imd.site"
+      },
+      "logo": "logos/b312d597b8e6bb9abd256a0d4a98912a39c0774ee3d76d4d77cd35b0955cb71a.svg",
+      "name": "Squeekside",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
