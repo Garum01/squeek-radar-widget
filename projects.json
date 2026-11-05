@@ -2416,10 +2416,10 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
       "contracts": [],
-      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
-      "description_origin": "placeholder",
+      "description_en": "Wheelhaven is an original crop strategy game where players grow carrots, broccoli, and sunflower seeds powered by real hamster wheel passages.",
+      "description_origin": "website_ai",
       "ecosystem_status": "claimed",
       "evidence": [
         {
@@ -3427,6 +3427,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/2c808a4b-76f8-4486-8d5a-fc9886e6ef10"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/d916e39b-ac0b-44e0-a28a-7f21386c3927"
         }
       ],
       "first_seen": "2026-11-04T18:55:35.715126+00:00",
@@ -4191,35 +4195,6 @@
     {
       "builder": null,
       "category": "art",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Spin Art is a project where a real hamster mines Squeekchain by running in a wheel. According to "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekwheel.xyz"
-            },
-            {
-              "text": ", this nightly activity results in the creation of a unique spin-art card. It is a simple, physical process that connects animal movement to digital output."
-            }
-          ],
-          [
-            {
-              "text": "To understand how this works, you can explore the technical details in "
-            },
-            {
-              "text": "the code repository",
-              "url": "https://github.com/Rooaraak/squeek-wheel-watch/blob/main/art.js"
-            },
-            {
-              "text": ". This source offers a look at the implementation behind the hamster's mining and art generation. Reading it helps clarify the mechanics of the project."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Squeek Spin Art turns the mining wheel of Squeektoshi, the hamster that powers Squeekchain, into a live painting tool. You can watch the card fill with paint in real time based on the hamster's speed, replay previous nights, or add the live feed to your own stream. The project also generates unique spin-art portraits for Squeek NFTs.",
       "description_origin": "readme",
