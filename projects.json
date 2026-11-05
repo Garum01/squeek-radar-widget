@@ -3,6 +3,49 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Deep is a single-player pixel-art mining roguelite built with Vite, React, and TypeScript. It uses the original asset pack, where the real Squeekchain wheel powers the basket, while Practice mode relies on an offline simulation "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-deep.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To follow the details, start with "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-deep.imd.site"
+            },
+            {
+              "text": " for the core overview. You can then explore "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2739-build-squeek-deep-polished"
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/42bc60d8-1be0-435b-8cb8-c1f9cfce150e"
+            },
+            {
+              "text": " to see how the technical components and game mechanics are presented in the available documentation."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A complete single-player pixel-art mining roguelite built with Vite, React, TypeScript, and the original asset pack. Play Pip, fill your cheeks, survive the deep, and return your treasure to the surface. The real Squeekchain wheel powers the basket; Practice uses an offline simulation.",
       "description_origin": "readme",
@@ -69,6 +112,35 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Companion is a free ERC-721 collection for Sepolia, featuring original SVG hamster artwork. It includes a static React mint site that follows real Squeekchain measurements, offering resting, active, and energetic style previews while reading actual minted companions "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-companion-a-hamster-nft-t.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To follow the trail, start with the project website to see the mint interface and artwork styles. You can then explore the other public sources to understand how the collection interacts with the chain data "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2713-build-dynamic-erc-721-nft"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A free ERC-721 companion collection for Sepolia, with a static React mint site and original SVG hamster artwork. The page follows real Squeekchain measurements, offers resting, active and energetic style previews, and reads actual minted companions from the collection.",
       "description_origin": "readme",
@@ -113,42 +185,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Wheelkeepers is a free Squeekchain arcade powered by a real hamster, as described on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://wheelkeepers-a-little-hamster-a.imd.site"
-            },
-            {
-              "text": ". You aim a collector around the wheel to catch gold seeds and dodge blue glitches while the pace increases."
-            }
-          ],
-          [
-            {
-              "text": "To understand how this works, you can follow the details in "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2747-deploy-new-version-after"
-            },
-            {
-              "text": " and "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/21d0a91a-a91c-4626-9b66-095201785153"
-            },
-            {
-              "text": ". These materials help you see the specific mechanics and context behind the game's design."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A free Squeekchain arcade powered by a real hamster. Aim a collector around the wheel, catch gold seeds and dodge blue glitches as the pace increases.",
       "description_origin": "readme",
@@ -332,42 +368,6 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Pet is a browser virtual pet where your pixel hamster runs and naps in sync with Squeektoshi, a real hamster whose wheel powers Squeekchain, a proof-of-work toychain on Ethereum Sepolia "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-pet-a-pixel-hamster-in-sy.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "You can follow the details in "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2696-build-squeek-pet-browser"
-            },
-            {
-              "text": " or "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/ce3c37cc-52fc-4677-8d91-a87e06fe58da"
-            },
-            {
-              "text": " to see how this digital companion mirrors the physical activity of the real hamster driving the network."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A browser virtual pet. Your pixel hamster runs and naps in sync with Squeektoshi, the real hamster whose wheel powers Squeekchain (a proof-of-work toychain on Ethereum Sepolia).",
       "description_origin": "readme",
@@ -1858,6 +1858,49 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Burrow Raid is a finished, playable 3D hamster boss battle set in a miniature, mushroom-lit arena. As described on "
+            },
+            {
+              "text": "the project website",
+              "url": "https://burrow-raid-small-paws-big-boss.imd.site"
+            },
+            {
+              "text": ", you choose a Fighter, Guardian, or Medic to dodge the Cable Gnawer and defend the burrow. The default experience is practice mode, featuring two labelled bot companions and simulated bonus recharge."
+            }
+          ],
+          [
+            {
+              "text": "To follow the details, start with "
+            },
+            {
+              "text": "the project website",
+              "url": "https://burrow-raid-small-paws-big-boss.imd.site"
+            },
+            {
+              "text": " for the core gameplay overview. You can then explore "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2937-burrow-raid"
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/7e402e1f-52ae-4d91-a0ff-0b907f03ed74"
+            },
+            {
+              "text": " to see how the arena and character roles are presented. These sources help you understand the specific mechanics of the boss fight and the companion system."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A finished playable 3D hamster boss battle in one miniature, mushroom-lit arena. Choose Fighter, Guardian or Medic, dodge the Cable Gnawer, and defend the burrow. The default game is practice with two labelled bot companions and simulated bonus recharge.",
       "description_origin": "readme",
