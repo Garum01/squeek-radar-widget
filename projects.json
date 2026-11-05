@@ -518,42 +518,6 @@
     {
       "builder": null,
       "category": "nft",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "VeilHub is a Sepolia-only project designed for Squeek NFT rental escrow and temporary usage registry. It uses a Next.js frontend with wagmi and viem to manage these interactions "
-            },
-            {
-              "text": "the project website",
-              "url": "https://veilhubs.xyz"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To understand how this works, you can explore the technical details in "
-            },
-            {
-              "text": "the documentation",
-              "url": "https://www.veilhubs.xyz/docs/"
-            },
-            {
-              "text": ". For broader context, "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/JohnsonNguyen-coll/VeilHub"
-            },
-            {
-              "text": " offers additional background on the project's development and goals."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "VeilHub is a rental marketplace for Squeek NFTs on Sepolia. Users can list their NFTs for temporary usage or rent access rights from other holders. Payments are settled in SQK, with the NFT held in contract escrow until the rental period expires.",
       "description_origin": "readme",
@@ -649,7 +613,7 @@
       "builder": null,
       "category": "streaming",
       "contracts": [],
-      "description_en": "A transparent browser source that adds Squeektoshi, the Squeekchain hamster, to your live stream. It displays a pixel hamster on the WHEELY9000 wheel, along with queued alerts, block progress, and a session counter. You can customize the theme, position, and language to fit your OBS or Streamlabs setup.",
+      "description_en": "A transparent browser source that adds Squeektoshi, the Squeekchain hamster, to your live stream. It displays animated stats, block progress, and queued alerts for events like new blocks or session records. Configure the layout, theme, and sound to fit your OBS or Streamlabs setup.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -961,30 +925,6 @@
         }
       ],
       "category": "launchpad",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "WheelPad describes itself as a project where memecoins are mined by a real hamster on SqueekChain, according to "
-            },
-            {
-              "text": "the public profile",
-              "url": "https://x.com/wheelpadfun"
-            },
-            {
-              "text": ". This framing suggests a playful, animal-driven narrative for its token generation. To understand how this concept translates into practice, you can explore the details provided in "
-            },
-            {
-              "text": "the project website",
-              "url": "https://wheelpad.fun"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "WheelPad issues memecoins on SqueekChain where the supply unlocks only as Squeektoshi runs on the wheel. Users can obtain free test tokens on the Sepolia testnet to interact with the project.",
       "description_origin": "website",
@@ -1077,8 +1017,8 @@
       "builder": null,
       "category": "analytics",
       "contracts": [],
-      "description_en": "SqueekPulse is a live telemetry console and OBS stream overlay for Squeekchain. It displays settled blocks, SQK mints, supply, hamster wheel distance, and on-chain events in eight languages. The tool provides a transparent background for streaming and tracks activity by half-hour intervals.",
-      "description_origin": "source",
+      "description_en": "SqueekPulse is a live telemetry console and OBS stream overlay for Squeekchain. It displays settled blocks, SQK mints, supply, hamster wheel distance, and on-chain events in eight languages. The tool provides a transparent background overlay for streaming and a detailed dashboard for tracking chain activity.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -3726,49 +3666,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Wheel Raid is a cooperative browser game for Squeekchain where one to four players share a health pool to fight the Chrome Gnawer boss using Attack, Defend, and Heal actions "
-            },
-            {
-              "text": "the project website",
-              "url": "https://wheel-raid-tiny-paws-shared-boss.imd.site"
-            },
-            {
-              "text": ". It explicitly avoids wallets, wagering, custody, transfers, or private keys "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2738-build-wheel-raid-original"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To understand the mechanics, you can follow the details provided in the public sources. The project website offers a direct look at the gameplay loop "
-            },
-            {
-              "text": "the project website",
-              "url": "https://wheel-raid-tiny-paws-shared-boss.imd.site"
-            },
-            {
-              "text": ", while other public sources provide additional context on the design "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/26b2b01c-0384-4911-ad49-902df8a5fae4"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Wheel Raid is a cooperative browser game where one to four players fight the Chrome Gnawer boss. Players choose to attack, defend, or heal, with their moves powered by confirmed Squeekchain rounds. You can play archived raids or wait for live confirmed rounds to join a party.",
       "description_origin": "readme",
@@ -5093,8 +4990,8 @@
       "builder": null,
       "category": "art",
       "contracts": [],
-      "description_en": "Burrowkeep converts confirmed Squeekchain Sepolia settlement rounds into a pixel fabric and a pentatonic melody. It maps work amounts to specific colors and notes, allowing users to view the visual pattern or download the result as PNG and MIDI files.",
-      "description_origin": "source",
+      "description_en": "Burrowkeep weaves confirmed Squeekchain Sepolia settlements into a pixel fabric and a musical score. You can view the woven pattern, listen to the generated melody, and download the result as PNG or MIDI files.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -5409,8 +5306,8 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "SqueekRace Wheel Relay is a timed game where your racer moves only when a real hamster completes a wheel passage. You choose a run length, pass the baton in a gold zone, and score based on the passages used. It serves as a companion to SqueekRace Arena, using live data from the Squeekchain public API.",
-      "description_origin": "source",
+      "description_en": "A timed relay game where your racer moves only when a real hamster runs. Pick a racer, start a run, and pass the baton as accepted wheel passages from the Squeekchain public API carry your racer around the rim. It serves as a companion to SqueekRace Arena.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -7592,8 +7489,8 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "Wheel Rush is a one-button pixel arcade where you run with Squeektoshi to collect seeds and dodge spikes. The game follows the real Squeekchain wheel live, letting you see how many Squeek blocks you can mine in a free, wallet-free session.",
-      "description_origin": "source",
+      "description_en": "A one-button pixel arcade where you control Squeektoshi to collect seeds and dodge spikes. The game mirrors the live Squeekchain wheel, letting you see how many blocks you can mine in a session.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -7693,8 +7590,8 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "Squeek Colony is a persistent game where the state of your colony is determined by Squeektoshi's verified wheel activity. The hamster's physical movement directly writes the fate of the colony, creating a unique link between real-world action and on-chain progression.",
-      "description_origin": "website",
+      "description_en": "Wheelhold is a persistent colony strategy game where Squeektoshi's verified wheel activity determines round outcomes. Players manage a personal colony whose fate is written by the hamster's real activity on the wheel.",
+      "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
         {
@@ -7719,7 +7616,7 @@
         "website": "https://squeek-colony-the-wheel-writes-o.imd.site"
       },
       "logo": "logos/5cce27a144ba50fb0faef3ea432788edecff42a0ff7e60cc93d061f739ff109d.svg",
-      "name": "Squeek Colony",
+      "name": "Wheelhold",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
