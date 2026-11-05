@@ -4921,35 +4921,6 @@
     {
       "builder": null,
       "category": "prediction",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "This project is a free prediction game focused on Squeektoshi’s next 24-hour running distance. It provides a responsive static website, React and TypeScript source code, and a shared SQLite score service "
-            },
-            {
-              "text": "the project website",
-              "url": "https://spm-squeek-prediction-market.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "You can explore the finished site in the dist folder or review the underlying code. The repository also includes the working score service, letting you see how the game tracks predictions "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2695-using-squeekhub-api-https-api-squeekchai"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "SPM is a free prediction game where you guess whether Squeektoshi will run over or under their seven-day average distance in the next 24 hours. Correct predictions earn points, with no tokens or fees involved.",
       "description_origin": "readme",
@@ -4980,42 +4951,6 @@
     {
       "builder": null,
       "category": "art",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Wheelprints aims to help you create original prints from recorded Squeektoshi activity, as described on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://wheelprints-sepolia.pages.dev"
-            },
-            {
-              "text": ". It invites you to explore three studies, choose a form and palette, replay the drawing, and keep the resulting art as a free beta experience."
-            }
-          ],
-          [
-            {
-              "text": "To follow the source trail, start with "
-            },
-            {
-              "text": "a public source",
-              "url": "https://eth-sepolia.blockscout.com/address/0x980b4424c007caf7a1f3670b48c8eaef7ebc3d44"
-            },
-            {
-              "text": " for general context. Then, visit "
-            },
-            {
-              "text": "the project website",
-              "url": "https://wheelprints-sepolia.pages.dev"
-            },
-            {
-              "text": " to see the specific studies and options available. This path helps you understand how the activity translates into your final artwork."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Wheelprints turns recorded Squeektoshi activity into original, deterministic SVG prints. You choose from three studies, each with a specific form and palette, to generate a unique composition based on on-chain data. The project includes a replay feature that shows how the drawing process unfolds over time.",
       "description_origin": "website",
@@ -5070,35 +5005,6 @@
     {
       "builder": null,
       "category": "analytics",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeekchain Analytics is an independent dashboard designed for the hamster-powered Squeekchain ecosystem on Ethereum Sepolia. As described in "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekchain-analytics-small-paws.imd.site"
-            },
-            {
-              "text": ", it focuses on delivering real work through small paws, offering a clear view of this unique environment."
-            }
-          ],
-          [
-            {
-              "text": "To follow the source trail, you can start by exploring "
-            },
-            {
-              "text": "the documentation",
-              "url": "https://github.com/Volha1213/squeekchain-analytics/blob/HEAD/docs/screenshots/overview-dark.jpg"
-            },
-            {
-              "text": " for detailed context. This helps you understand how the analytics function within the ecosystem, ensuring you have a solid foundation before diving deeper into the data."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "An independent dashboard that tracks activity on the Squeekchain ecosystem. It also includes a hamster wheel game where players earn points for fun, which are not linked to SQK or blockchain transactions.",
       "description_origin": "readme",
