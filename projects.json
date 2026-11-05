@@ -373,42 +373,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Pet is a browser virtual pet where your pixel hamster runs and naps in sync with Squeektoshi, the real hamster whose wheel powers Squeekchain, a proof-of-work toychain on Ethereum Sepolia "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-pet-a-pixel-hamster-in-sy.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow the source trail, you can start with "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2696-build-squeek-pet-browser"
-            },
-            {
-              "text": " and then check "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/ce3c37cc-52fc-4677-8d91-a87e06fe58da"
-            },
-            {
-              "text": " for more context on how the virtual pet connects to the physical hamster's activity."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Squeek Pet is a browser-based virtual pet game where a pixel hamster mirrors the movements of Squeektoshi, the real hamster powering Squeekchain. You watch your digital companion run and nap in sync with the physical wheel, creating a direct link between the toy chain and its biological engine.",
       "description_origin": "readme",
@@ -1157,7 +1121,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-05T09:21:31.407337+00:00",
+        "last_checked": "2026-11-05T21:31:57.525603+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-05T06:45:33.132000+00:00",
@@ -1326,6 +1290,36 @@
       "name": "HAMLOCK",
       "publication_origin": "owner_approved",
       "stage": "testnet"
+    },
+    {
+      "builder": null,
+      "category": "streaming",
+      "contracts": [],
+      "description_en": "A free live samurai stream overlay and just-for-fun game powered by a hamster's wheel. Built on Squeekchain · community project, not an official Squeekchain site",
+      "description_origin": "source",
+      "ecosystem_status": "claimed",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-3002-build-rels-wheel-free"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/c2430e3b-0fbf-44fe-acd9-d50b19eeb1cc"
+        }
+      ],
+      "first_seen": "2026-11-05T16:51:52.259577+00:00",
+      "id": "2bcf4329a3eb6709",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-3002-build-rels-wheel-free",
+        "website": "https://rels-on-the-wheel-built-on-squee.imd.site"
+      },
+      "logo": "logos/f0013db46113fef98585a4ce4d30fd0f5eafe7379c6c05148d06a674a297f3e1.svg",
+      "name": "Rels on the Wheel",
+      "publication_origin": "owner_approved",
+      "stage": "development"
     },
     {
       "builder": null,
@@ -1991,7 +1985,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-05T09:21:31.407337+00:00",
+        "last_checked": "2026-11-05T21:31:57.525603+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T20:28:19.405000+00:00",
@@ -2098,7 +2092,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-05T09:21:31.407337+00:00",
+        "last_checked": "2026-11-05T21:31:57.525603+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:37:44.874000+00:00",
@@ -2216,7 +2210,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-05T09:21:31.407337+00:00",
+        "last_checked": "2026-11-05T21:31:57.525603+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-03T20:27:41.024000+00:00",
@@ -2285,7 +2279,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-05T09:21:31.407337+00:00",
+        "last_checked": "2026-11-05T21:31:57.525603+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:33:51.063000+00:00",
@@ -2520,7 +2514,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-05T09:21:31.407337+00:00",
+        "last_checked": "2026-11-05T21:31:57.525603+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T20:55:04.251000+00:00",
@@ -2827,6 +2821,35 @@
     },
     {
       "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "Look up public Genesis progress, explore the official badge checklist, and understand unofficial aura estimates. An independent Squeekchain community tool.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-3001-build-aura-board-original"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/e559d1d2-3c66-4156-914d-dcf3bb6c103c"
+        }
+      ],
+      "first_seen": "2026-11-05T14:35:19.318966+00:00",
+      "id": "6526b6e2747b1bc0",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-3001-build-aura-board-original",
+        "website": "https://aura-board-squeek-genesis.imd.site"
+      },
+      "name": "Aura Board",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
       "builder_links": [
         {
           "kind": "post",
@@ -2861,7 +2884,14 @@
       "logo": "logos/7a99aa78441d2cc073085530fd7e3ce318f2a79c9a4cd6e87ff38acd1ed1051e.webp",
       "name": "Hamster Tower",
       "publication_origin": "owner_approved",
-      "stage": "development"
+      "stage": "development",
+      "verified_by_squeek": {
+        "last_checked": "2026-11-05T21:31:57.525603+00:00",
+        "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
+        "stale": false,
+        "verified_at": "2026-11-05T18:50:40.790000+00:00",
+        "version": 1
+      }
     },
     {
       "builder": null,
@@ -3221,7 +3251,7 @@
       "name": "quadConnect",
       "stage": "testnet_announced",
       "verified_by_squeek": {
-        "last_checked": "2026-11-05T09:21:31.407337+00:00",
+        "last_checked": "2026-11-05T21:31:57.525603+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": true,
         "verified_at": "2026-11-03T20:13:21.294000+00:00",
@@ -3486,7 +3516,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-05T09:21:31.407337+00:00",
+        "last_checked": "2026-11-05T21:31:57.525603+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T18:51:42.010000+00:00",
@@ -3846,7 +3876,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-05T09:21:31.407337+00:00",
+        "last_checked": "2026-11-05T21:31:57.525603+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-03T18:29:23.740000+00:00",
@@ -4037,7 +4067,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-05T09:21:31.407337+00:00",
+        "last_checked": "2026-11-05T21:31:57.525603+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:41:31.306000+00:00",
@@ -4492,6 +4522,32 @@
     },
     {
       "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "A living 3D world built on Squeekchain, with a game at its centre. Visitors walk a hamster through an underground burrow where every pillar, block and door is backed by a real record, and The Great Dig turns real settled rounds into a game communities play together.",
+      "description_origin": "readme",
+      "ecosystem_status": "claimed",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/BFA-xx/squeek-time-machine"
+        }
+      ],
+      "first_seen": "2026-11-05T20:39:06.054342+00:00",
+      "id": "99873bd996547195",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/BFA-xx/squeek-time-machine",
+        "website": "https://squeektime.vercel.app"
+      },
+      "logo": "logos/2c554232f488e9e4bc76da776eb0c7e3de5216689bf200dc2144a68b55950bcd.png",
+      "name": "Squeek Time Machine",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
       "builder_links": [
         {
           "kind": "board",
@@ -4524,7 +4580,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-05T09:21:31.407337+00:00",
+        "last_checked": "2026-11-05T21:31:57.525603+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:36:12.155000+00:00",
@@ -5063,6 +5119,32 @@
       "builder": null,
       "category": "analytics",
       "contracts": [],
+      "description_en": "An independent, read-only collection explorer for Squeekchain on Ethereum Sepolia. Enter an NFT ID to trace its merges, examine the artwork of each original and save a family card. The interface is available in English and simplified Chinese. Visitors never need a wallet.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/RottenToTheBone/squeek-family-album"
+        }
+      ],
+      "first_seen": "2026-11-04T17:20:12.027000+00:00",
+      "id": "aa38aa1edd4f7e4d",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/RottenToTheBone/squeek-family-album",
+        "website": "https://squeek.machinepaystack.com/"
+      },
+      "logo": "logos/30dd5a44f96e078b23ce390c68b7808887e4d9e8656a787ba1c2722ffc780634.svg",
+      "name": "Squeek Family Album",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "analytics",
+      "contracts": [],
       "description_en": "SqueekFi is a read-only dashboard that tracks certified hamster work from hardware readings through Ethereum settlement and mining checkpoints. It allows users to inspect public Squeek accounts, view claimable SQK, and monitor Genesis launch readiness without connecting a wallet.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
@@ -5162,7 +5244,7 @@
       "publication_origin": "owner_approved",
       "stage": "testnet",
       "verified_by_squeek": {
-        "last_checked": "2026-11-05T09:21:31.407337+00:00",
+        "last_checked": "2026-11-05T21:31:57.525603+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T20:44:51.266000+00:00",
@@ -5509,7 +5591,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-05T09:21:31.407337+00:00",
+        "last_checked": "2026-11-05T21:31:57.525603+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-04T21:05:34.042000+00:00",
@@ -5518,14 +5600,6 @@
     },
     {
       "builder": null,
-      "builder_links": [
-        {
-          "kind": "board",
-          "label": "@lowonfiats",
-          "source": "https://squeekchain.com/genesis/i/2k6c9h8k",
-          "url": "https://x.com/lowonfiats"
-        }
-      ],
       "category": "nft",
       "contracts": [],
       "description_en": "Squeekstr is a protocol that merges SQUEEK NFTs to increase their mining power. Users deposit their NFTs to receive tracker receipts, which serve as claims on the rewards generated by the shared pool. The system also uses tax revenue from its native token to acquire additional SQUEEKs for the vault.",
@@ -5548,14 +5622,32 @@
       "logo": "logos/c1e1a071a97273698de1597d36ecb398d76509d0ceae2104dd67fef3bc7fa89f.jpg",
       "name": "sqkstr",
       "publication_origin": "owner_approved",
-      "stage": "development",
-      "verified_by_squeek": {
-        "last_checked": "2026-11-05T09:21:31.407337+00:00",
-        "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
-        "stale": false,
-        "verified_at": "2026-11-03T20:48:31.131000+00:00",
-        "version": 1
-      }
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "analytics",
+      "contracts": [],
+      "description_en": "WheelTrace - live, read-only Squeekchain telemetry dashboard. Canvas hamster wheel driven by real rpmMilli, RPM trace, block progress, SQK supply.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/Robekk/wheeltrace"
+        }
+      ],
+      "first_seen": "2026-11-05T19:08:05.062857+00:00",
+      "id": "c6c47de07ca3c615",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/Robekk/wheeltrace",
+        "website": "https://www.noirveil.web.id"
+      },
+      "name": "wheeltrace",
+      "publication_origin": "owner_approved",
+      "stage": "development"
     },
     {
       "builder": null,
@@ -6013,7 +6105,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-05T09:21:31.407337+00:00",
+        "last_checked": "2026-11-05T21:31:57.525603+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-30T00:45:08.265000+00:00",
@@ -6329,7 +6421,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-05T09:21:31.407337+00:00",
+        "last_checked": "2026-11-05T21:31:57.525603+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T22:39:31.786000+00:00",
@@ -6426,7 +6518,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-05T09:21:31.407337+00:00",
+        "last_checked": "2026-11-05T21:31:57.525603+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:55:44.291000+00:00",
@@ -6866,6 +6958,14 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "board",
+          "label": "@theloserzx",
+          "source": "https://squeekchain.com/genesis/i/2k6c9h8k",
+          "url": "https://x.com/theloserzx"
+        }
+      ],
       "category": "defi",
       "contracts": [],
       "description_en": "Burrow is a financial district on Squeekchain where users borrow SQK against Squeek NFTs. The collateral continues mining on the chain, and the generated rewards automatically repay the loan debt.",
@@ -6887,7 +6987,14 @@
       "logo": "logos/d40b9c2ea4946be6147a8054e989fdcd161587ffb636aa18e5a2fafacc90e1b9.svg",
       "name": "Burrow",
       "publication_origin": "owner_approved",
-      "stage": "development"
+      "stage": "development",
+      "verified_by_squeek": {
+        "last_checked": "2026-11-05T21:31:57.525603+00:00",
+        "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
+        "stale": false,
+        "verified_at": "2026-11-05T11:19:23.352000+00:00",
+        "version": 1
+      }
     },
     {
       "builder": null,
