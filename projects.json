@@ -708,42 +708,6 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Appraiser is a read-only buyer’s tool designed to help you compare up to three Squeeks on Squeekchain on Sepolia. It focuses on specific metrics like power, asking price, staking share, and merge potential, as described in "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-appraiser-know-your-next.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow the source trail, start with "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/c7f6bd0e-fe1a-4381-906c-b72d09539ed2"
-            },
-            {
-              "text": " for general context. Then, visit "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-appraiser-know-your-next.imd.site"
-            },
-            {
-              "text": " to see how these comparisons are presented. This path helps you understand the tool’s scope without needing to interact with the chain directly."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Squeek Appraiser is a read-only tool for comparing up to three Squeeks on Squeekchain. It evaluates power, asking price, staking share, and merge potential to help buyers make informed decisions. The tool calculates a score based on power relative to price and merge compatibility.",
       "description_origin": "website",
@@ -795,49 +759,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "SQUEEK GOD is a playable pixel village where Squeektoshi’s real hamster wheel controls the sun. You plant moon-carrots, harvest supplies, welcome villagers, build cottages, and send hope skyward, all while the hamster decides when day begins "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-god-a-real-hamster-contro.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To understand how this works, start with "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-god-a-real-hamster-contro.imd.site"
-            },
-            {
-              "text": " for the core concept. Then explore "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2922-build-squeek-god"
-            },
-            {
-              "text": " and "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/826ade72-c4cd-4405-a584-5fdda93d1bc1"
-            },
-            {
-              "text": " to see how the hamster’s actions translate into gameplay mechanics and village progression."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A playable pixel village where a real hamster's wheel activity controls the weather and world events. You plant crops, care for villagers and pray to Squeektoshi, whose live movements determine when the sun rises and how your civilization develops.",
       "description_origin": "readme",
@@ -2963,6 +2884,32 @@
       "name": "Squeekcrumb",
       "publication_origin": "owner_approved",
       "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "analytics",
+      "contracts": [],
+      "description_en": "Independent analytics for the Squeekchain ecosystem: live network status, hamster wheel telemetry, Squeek blocks, SQK token economy, events, mining activity and wallet lookup.",
+      "description_origin": "source",
+      "ecosystem_status": "claimed",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/vmcryptoo/squeekpulse-u1"
+        }
+      ],
+      "first_seen": "2026-11-05T13:04:13.522748+00:00",
+      "id": "60ab90a41ff74dd8",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/vmcryptoo/squeekpulse-u1",
+        "website": "https://squeekpulse.vercel.app"
+      },
+      "logo": "logos/83145e5bb033ace23cd8e7fbb63e7c39733aaf58f8a7280d7800995cced6f7c2.png",
+      "name": "Squeekpulse U1",
+      "publication_origin": "owner_approved",
+      "stage": "development"
     },
     {
       "builder": null,
@@ -7261,6 +7208,31 @@
       "builder": null,
       "category": "game",
       "contracts": [],
+      "description_en": "A weekly boss-raid browser game for the Squeekchain Genesis Code lane.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/syariffadilla/squeekchain-boss-raid"
+        }
+      ],
+      "first_seen": "2026-11-05T12:03:21.103741+00:00",
+      "id": "ec73907e818fc2e6",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/syariffadilla/squeekchain-boss-raid",
+        "website": "https://squeekchain-boss-raid.vercel.app"
+      },
+      "name": "Squeekchain Boss Raid",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [],
       "description_en": "Squeek Relay is a live arcade race where a real hamster powers the track. Players grab batons and build combos while riding Squeektoshi's energy. The hamster's activity changes the track, with running providing speed and sleep turning it to ice.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
@@ -7539,6 +7511,36 @@
       },
       "logo": "logos/4b262f0ef839e82560c5052745374003501295c9264bdb6ec18678c991b45c97.svg",
       "name": "Wheel Rush",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "The live pulse of Squeekchain. Follow the hamster's wheel, block progress, distance run, and the community moving the chain forward.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-2995-build-single-page-website-called"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/e6d277bb-fc18-4546-8ccf-2d31ad3ab629"
+        }
+      ],
+      "first_seen": "2026-11-05T11:48:09.603084+00:00",
+      "id": "f49d538de5cce065",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-2995-build-single-page-website-called",
+        "website": "https://squeek-pulse-live-squeekchain-da.imd.site"
+      },
+      "logo": "logos/e229486dfa17d1432b79058e4a0243d80fdf0e679ce7b6876c7b3b1d649c91b3.svg",
+      "name": "Squeek Pulse",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
