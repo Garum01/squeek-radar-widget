@@ -185,6 +185,42 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Wheelkeepers is a free Squeekchain arcade powered by a real hamster, as described on "
+            },
+            {
+              "text": "the project website",
+              "url": "https://wheelkeepers-a-little-hamster-a.imd.site"
+            },
+            {
+              "text": ". You aim a collector around the wheel, catch gold seeds, and dodge blue glitches as the pace increases."
+            }
+          ],
+          [
+            {
+              "text": "To understand how this works, you can follow the details in "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2747-deploy-new-version-after"
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/21d0a91a-a91c-4626-9b66-095201785153"
+            },
+            {
+              "text": ". These materials help you see the specific mechanics and context behind the game's design."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A free Squeekchain arcade powered by a real hamster. Aim a collector around the wheel, catch gold seeds and dodge blue glitches as the pace increases.",
       "description_origin": "readme",
@@ -368,6 +404,42 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Pet is a browser virtual pet where your pixel hamster runs and naps in sync with Squeektoshi, the real hamster whose wheel powers Squeekchain, a proof-of-work toychain on Ethereum Sepolia "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-pet-a-pixel-hamster-in-sy.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To follow the source trail, you can start with "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2696-build-squeek-pet-browser"
+            },
+            {
+              "text": " and then check "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/ce3c37cc-52fc-4677-8d91-a87e06fe58da"
+            },
+            {
+              "text": " for more context on how the virtual pet connects to the physical hamster's activity."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A browser virtual pet. Your pixel hamster runs and naps in sync with Squeektoshi, the real hamster whose wheel powers Squeekchain (a proof-of-work toychain on Ethereum Sepolia).",
       "description_origin": "readme",
@@ -3588,6 +3660,35 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "This project is an upgrade of the original game, continuing from a specific commit. It keeps the existing canvas game elements, including characters, physics, and dialogue, while adding progression, equipment, and saves "
+            },
+            {
+              "text": "the project website",
+              "url": "https://hamster-friendship-the-lost-alic.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To follow the source trail, you can explore the code repository and documentation. These public sources help you see how the new features integrate with the original game structure "
+            },
+            {
+              "text": "the code repository",
+              "url": "https://github.com/identity-md-launches/launch-2971-project-hamster-friendship"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "An upgrade of the original game, continuing commit 6fe0476cf3c4da8a61321e06312aac3b9b1815d9. Chang, Alice, Mrs. Pebble, the autumn forest, enemy sprites, movement physics, shield, clues, dialogue and ending remain in the existing canvas game. This is the same project, with progression, equipment and saves added.",
       "description_origin": "readme",
@@ -4055,39 +4156,10 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Picks presents research from the IdentityMD worker network. The project groups reports, supporting files, and provenance by job, as described on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekpicks.xyz"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow the source trail, start with that overview. You can then explore the underlying details in "
-            },
-            {
-              "text": "the code repository",
-              "url": "https://github.com/Identity-md/research/blob/main/jobs/06d98304-78a4-4089-815a-2be96ef1f7c5/files/AUDIT.md"
-            },
-            {
-              "text": " to see how the data is organized."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Research produced by the IdentityMD worker network, with reports, supporting files and provenance grouped by job.",
       "description_origin": "readme",
-      "ecosystem_status": "weak",
+      "ecosystem_status": "claimed",
       "evidence": [],
       "first_seen": "2026-10-29T01:18:38.590709+00:00",
       "id": "818182a7692c5e39",
@@ -6222,7 +6294,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "other",
       "contracts": [],
       "description_en": "🐹 Squeekchain Dashboard Live data from the hamster-powered toychain · Community project for Buildooooor badge",
       "description_origin": "source",
