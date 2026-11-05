@@ -1446,6 +1446,10 @@
         {
           "kind": "site_contract_link",
           "url": "https://eth-sepolia.blockscout.com/address/0x980b4424c007caf7a1f3670b48c8eaef7ebc3d44"
+        },
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0xcb98349c134ab983da5bfd80527dfe2552bdb70f"
         }
       ],
       "first_seen": "2026-11-03T22:34:55.834094+00:00",
@@ -1491,35 +1495,6 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Streak lets you bring your own Telegram bot to the Squeekchain hamster wheel. You configure the bot you own, choose specific moments, and send alerts directly from your browser. The project description highlights that this setup requires no backend, account, signup, wallet, or shared broadcast bot "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-streak-little-wheel-big-p.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To understand how this works, you can follow the provided source trail. These materials explain the configuration process and the direct browser-to-bot communication. Reading through them helps clarify how you manage your own alerts without relying on external services or shared infrastructure "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2871-build-single-page-prediction-game"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Squeek Streak is a browser-based toolkit that connects your personal Telegram bot to the Squeekchain hamster wheel. You configure the bot to send alerts for specific events like wake-ups, sleep, rounds, and RPM changes. The tool runs entirely in your browser without requiring a backend or account.",
       "description_origin": "readme",
@@ -1654,42 +1629,6 @@
     {
       "builder": "pillheadddd",
       "category": "art",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Turing Wheel is a community project for Squeekchain that uses a hamster to clock a computer. It is not affiliated with the Squeekchain team, as noted in "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2795-host-repository-s-prebuilt-static"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "You can follow the details in "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/90f7896b-2591-4557-aba3-35c62a59bc27"
-            },
-            {
-              "text": " and "
-            },
-            {
-              "text": "a public source",
-              "url": "https://eth-sepolia.blockscout.com/tx/0xa7ec0f1a91034c684272d19203da5f8d57526e388ff33091695863ef629d1880"
-            },
-            {
-              "text": ". These materials outline the setup and context for this unique initiative."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [
         {
           "address": "0x1b53382f61db4bb991aa329d62d04c904e86c20b",
@@ -1998,6 +1937,10 @@
         {
           "kind": "site_contract_link",
           "url": "https://eth-sepolia.blockscout.com/address/0x980b4424c007caf7a1f3670b48c8eaef7ebc3d44"
+        },
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0xcb98349c134ab983da5bfd80527dfe2552bdb70f"
         }
       ],
       "first_seen": "2026-10-31T05:19:53.923098+00:00",
@@ -2619,23 +2562,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "This cozy 2D platformer follows a tiny hamster on a big adventure, as described on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://hamster-tales.vercel.app"
-            },
-            {
-              "text": ". It invites players into a lighthearted journey focused on exploration and charm. You can check the site to see exactly how this little story unfolds and what makes it feel so inviting for fans of gentle gaming experiences."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A cozy 2D platformer where you guide a tiny hamster on a big adventure. The game focuses on a relaxed experience centered around the hamster's journey.",
       "description_origin": "website",
@@ -3033,42 +2959,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Race Squeektoshi is a rhythm arcade game for Squeekchain where you race a real hamster. As described on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://race-squeektoshi-tiny-paws-big-r.imd.site"
-            },
-            {
-              "text": ", you chase recorded ghosts, manage stamina, and predict wheel rounds without needing a wallet."
-            }
-          ],
-          [
-            {
-              "text": "To understand the gameplay, start with "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/1dc37146-c532-47b9-a57d-2f8d4024fccc"
-            },
-            {
-              "text": " for general context. Then, visit "
-            },
-            {
-              "text": "the project website",
-              "url": "https://race-squeektoshi-tiny-paws-big-r.imd.site"
-            },
-            {
-              "text": " to see the specific mechanics and how the hamster racing works in practice."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Race Squeektoshi is a rhythm arcade game where you compete against a real hamster on Squeekchain. You chase recorded ghosts, manage your stamina, and predict the next wheel round. The game features one real hamster as your tiny rival.",
       "description_origin": "website",
@@ -4778,6 +4668,10 @@
         {
           "kind": "site_contract_link",
           "url": "https://eth-sepolia.blockscout.com/address/0x980b4424c007caf7a1f3670b48c8eaef7ebc3d44"
+        },
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0xcb98349c134ab983da5bfd80527dfe2552bdb70f"
         }
       ],
       "first_seen": "2026-11-03T12:26:15.823928+00:00",
