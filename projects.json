@@ -3395,42 +3395,6 @@
     {
       "builder": null,
       "category": "defi",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Hamster Mining Reserve lets you pool Squeekchain Squeeks to reach high mining levels that are too expensive for one person, aiming for roughly double the mining power. This is an IMD and Squeekchain build "
-            },
-            {
-              "text": "the project website",
-              "url": "https://hamstermining.energy"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To understand how this works, you can follow the details in "
-            },
-            {
-              "text": "a public source",
-              "url": "https://eth-sepolia.blockscout.com/address/0x18a974ec34e748574c83ae8140ef7faa3904bc24"
-            },
-            {
-              "text": " or check "
-            },
-            {
-              "text": "the project website",
-              "url": "https://hamstermining.energy"
-            },
-            {
-              "text": " for more context on the pooling mechanism."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [
         {
           "address": "0x18a974ec34e748574c83ae8140ef7faa3904bc24",
@@ -4108,8 +4072,8 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "Spoke Sprint is a browser-based race where you tap to roll a virtual wheel against Squeektoshi's real wheel. The challenge lasts twenty seconds, with each tap representing one step. You can compete in the live race or use a practice run to test your speed.",
-      "description_origin": "source",
+      "description_en": "A browser game where you roll a virtual wheel for twenty seconds. Your distance is compared against Squeektoshi's real wheel counter. You can also try a practice run.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -4201,7 +4165,7 @@
       ],
       "category": "analytics",
       "contracts": [],
-      "description_en": "Squeek Dashboard is an explorer for Squeekchain that lists every Squeek with details on owners, merges, levels, and power. It provides leaderboards and tools to look up specific wallets, view staking vaults, and track recent merges.",
+      "description_en": "Squeek Dashboard is a live explorer for Squeekchain that displays every Squeek's holder, level, power, and vault status. It ranks wallets by staked power, tracks merges and vault activity in real time, and allows users to look up specific addresses for their SQK rewards and activity history.",
       "description_origin": "website",
       "ecosystem_status": "weak",
       "evidence": [],
@@ -4744,49 +4708,6 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Merge Desk is a community utility for the Squeekchain Buildooooor badge. It helps you review Genesis Squeeks and prepare unsigned merge calls on Sepolia, ensuring your wallet signs everything while the app never touches your private key "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-merge-desk-genesis-holder.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow the details, start with "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-merge-desk-genesis-holder.imd.site"
-            },
-            {
-              "text": " for the main overview. You can then explore "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2919-squeek-merge-desk"
-            },
-            {
-              "text": " and "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/22fcac30-9ccf-4e39-8db2-3991bff4b7f1"
-            },
-            {
-              "text": " to see how the merge pairs and staking comparisons are presented in practice."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Squeek Merge Desk is a utility for Squeekchain Genesis holders to review their Squeeks and compare merge options with SQK staking. It allows users to prepare unsigned transactions on Sepolia, ensuring the wallet signs the final action without the app ever accessing private keys.",
       "description_origin": "readme",
@@ -6375,6 +6296,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/50bde9d5-e162-4378-82fe-bafcc6b01e77"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/aaae0e75-f2b4-4149-b9a3-6b2c0da9eb04"
         }
       ],
       "first_seen": "2026-11-01T12:55:00.401766+00:00",
