@@ -709,28 +709,6 @@
     {
       "builder": null,
       "category": "prediction",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeektoshi’s wheel powers a string of numbered bulbs, creating a simple visual setup. The project invites you to bet test SQK on how many lights he manages to turn on before falling asleep, as described on the project website "
-            },
-            {
-              "text": "the project website",
-              "url": "https://keepthelightson.xyz"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow the source trail, start by visiting the project website. There, you can see the specific details of the wheel and bulb mechanics, helping you understand exactly what is being tracked during the test."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Keep the Lights On is a betting game where players wager test SQK on how many numbered bulbs Squeektoshi's wheel will power before he falls asleep. Every ten minutes of continuous running lights the next bulb, and the pot is shared among lit bulbs, with higher numbers and earlier bets receiving larger slices.",
       "description_origin": "website",
@@ -1259,6 +1237,14 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "board",
+          "label": "@DinhtienSol",
+          "source": "https://squeekchain.com/genesis/i/2k6c9h8k",
+          "url": "https://x.com/DinhtienSol"
+        }
+      ],
       "category": "tools",
       "contracts": [],
       "description_en": "A read-only Telegram bot that monitors Squeekchain wallets for claimable SQK, merge readiness, and hamster activity. It sends alerts for block completions and wallet transfers, while providing commands to calculate optimal merge ladders and claim batches.",
@@ -1286,7 +1272,14 @@
       "logo": "logos/daee587075027a68853f56d3c5cc35dce732bdc606387d788c0fdcc587100f7d.png",
       "name": "Squeek Holder Bot",
       "publication_origin": "owner_approved",
-      "stage": "development"
+      "stage": "development",
+      "verified_by_squeek": {
+        "last_checked": "2026-11-05T09:21:31.407337+00:00",
+        "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
+        "stale": false,
+        "verified_at": "2026-11-05T06:45:33.132000+00:00",
+        "version": 1
+      }
     },
     {
       "builder": null,
@@ -1376,7 +1369,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "Squeek Farm: Hamster Wars is a farming and defense game where you grow six crops and trade your harvest. You must also defend Pip's paradise from Brutus. The game offers a cozy mix of agricultural management and hamster-based combat.",
+      "description_en": "A farming and defense game where players grow six crops and trade their harvest. The core challenge involves protecting the farm from Brutus, a hamster antagonist. It offers a cozy gameplay loop focused on expansion and survival.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -2199,9 +2192,17 @@
     },
     {
       "builder": null,
-      "category": "analytics",
+      "builder_links": [
+        {
+          "kind": "board",
+          "label": "@Despite_zmw",
+          "source": "https://squeekchain.com/genesis/i/2k6c9h8k",
+          "url": "https://x.com/Despite_zmw"
+        }
+      ],
+      "category": "game",
       "contracts": [],
-      "description_en": "Squeek Race visualizes Squeekchain's on-chain work as a live hamster race, updating every ten seconds. It displays block progress, cumulative work, and a 24-hour bar chart. The leaderboard assigns work to five fictional hamsters, with rankings shifting as new data arrives.",
+      "description_en": "Squeek Race visualizes Squeekchain's on-chain computational power as a live hamster race. It displays block progress, cumulative work, and a 24-hour leaderboard that updates every 10 seconds. The runners are fictional, with work distributed randomly among five hamsters to create shifting rankings.",
       "description_origin": "placeholder",
       "ecosystem_status": "weak",
       "evidence": [
@@ -2224,7 +2225,14 @@
       },
       "name": "Squeek Race",
       "publication_origin": "owner_approved",
-      "stage": "development"
+      "stage": "development",
+      "verified_by_squeek": {
+        "last_checked": "2026-11-05T09:21:31.407337+00:00",
+        "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
+        "stale": false,
+        "verified_at": "2026-10-29T20:28:19.405000+00:00",
+        "version": 1
+      }
     },
     {
       "builder": null,
@@ -2326,9 +2334,9 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-03T21:21:14.526201+00:00",
+        "last_checked": "2026-11-05T09:21:31.407337+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
-        "stale": true,
+        "stale": false,
         "verified_at": "2026-10-29T21:37:44.874000+00:00",
         "version": 1
       }
@@ -2411,9 +2419,17 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "board",
+          "label": "@printer_brrr",
+          "source": "https://squeekchain.com/genesis/i/2k6c9h8k",
+          "url": "https://x.com/printer_brrr"
+        }
+      ],
       "category": "game",
       "contracts": [],
-      "description_en": "Squeek Out is a game of nerve where players join a lobby and must exit before Squeektoshi stops running on his wheel. The game uses live wheel data to determine when the hamster begins and ends his run. Players can set automatic exit times or watch the live stream to decide when to bail.",
+      "description_en": "Squeek Out is a game of nerve on Squeekchain where players ride Squeektoshi's wheel and must bail before he stops. You join a lobby, stay on the wheel as long as you dare, and claim a share of the game treasury if you exit in time. The game ends when the hamster stops, and anyone still on the wheel is caught and loses their entry.",
       "description_origin": "website",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -2436,9 +2452,9 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-03T21:21:14.526201+00:00",
+        "last_checked": "2026-11-05T09:21:31.407337+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
-        "stale": true,
+        "stale": false,
         "verified_at": "2026-11-03T20:27:41.024000+00:00",
         "version": 1
       }
@@ -2484,7 +2500,7 @@
       ],
       "category": "prediction",
       "contracts": [],
-      "description_en": "Squeek or Sleep is a prediction game where you guess whether Squeektoshi naps, jogs, or gets the zoomies in each 10-minute round. You can call up to six future rounds, with rarer outcomes earning more points. Results are settled on-chain using data from SqueekCore on Sepolia.",
+      "description_en": "Squeek or Sleep is a free prediction game where you guess whether Squeektoshi naps, jogs, or gets the zoomies in each 10-minute round. Results are read directly from SqueekCore on Sepolia, with rarer outcomes earning more points. Weekly seasons and a leaderboard track performance based on how often specific behaviors occur.",
       "description_origin": "website",
       "ecosystem_status": "weak",
       "evidence": [
@@ -2503,7 +2519,14 @@
       "logo": "logos/59791254fef130b5330d7b7cf72a9c70d55cff17444a684a2f53f3b0583b1be3.svg",
       "name": "Squeek or Sleep",
       "publication_origin": "owner_approved",
-      "stage": "development"
+      "stage": "development",
+      "verified_by_squeek": {
+        "last_checked": "2026-11-05T09:21:31.407337+00:00",
+        "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
+        "stale": false,
+        "verified_at": "2026-10-29T21:33:51.063000+00:00",
+        "version": 1
+      }
     },
     {
       "builder": null,
@@ -2663,6 +2686,14 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "board",
+          "label": "@Mojito_cx",
+          "source": "https://squeekchain.com/genesis/i/2k6c9h8k",
+          "url": "https://x.com/Mojito_cx"
+        }
+      ],
       "category": "analytics",
       "contracts": [],
       "description_en": "A read-only tracker that measures how long SqueekCore takes to settle closed rounds on Sepolia. It displays batches, gaps, and unsettled rounds at a single finalized block, with options for alerts and CSV downloads.",
@@ -2686,7 +2717,14 @@
       "logo": "logos/7dae29d119cd10974c36bcb3de7e60f74527573a9f6010cd244b8569806f3b2e.svg",
       "name": "Squeekchain settlement latency",
       "publication_origin": "owner_approved",
-      "stage": "development"
+      "stage": "development",
+      "verified_by_squeek": {
+        "last_checked": "2026-11-05T09:21:31.407337+00:00",
+        "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
+        "stale": false,
+        "verified_at": "2026-10-29T20:55:04.251000+00:00",
+        "version": 1
+      }
     },
     {
       "builder": null,
@@ -2853,6 +2891,7 @@
       "links": {
         "x": "https://x.com/squeekcrumb"
       },
+      "logo": "logos/1806b2cc242c7ec3a0bccc0cae99ee1bc26c80c2e2f4e1c88de13bdd433b2ed8.jpg",
       "name": "Squeekcrumb",
       "publication_origin": "owner_approved",
       "stage": "unknown"
@@ -3375,7 +3414,7 @@
       "name": "quadConnect",
       "stage": "testnet_announced",
       "verified_by_squeek": {
-        "last_checked": "2026-11-03T21:21:14.526201+00:00",
+        "last_checked": "2026-11-05T09:21:31.407337+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": true,
         "verified_at": "2026-11-03T20:13:21.294000+00:00",
@@ -3512,6 +3551,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/0baa5519-b33f-4682-8618-ae00d358baa1"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/485e0015-4189-4718-9d62-cd52a0e8d823"
         }
       ],
       "first_seen": "2026-11-04T18:55:35.715126+00:00",
@@ -3656,9 +3699,9 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-03T21:21:14.526201+00:00",
+        "last_checked": "2026-11-05T09:21:31.407337+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
-        "stale": true,
+        "stale": false,
         "verified_at": "2026-10-29T18:51:42.010000+00:00",
         "version": 1
       }
@@ -3974,6 +4017,14 @@
     },
     {
       "builder": "hamsterhourgame",
+      "builder_links": [
+        {
+          "kind": "board",
+          "label": "@hamsterhourgame",
+          "source": "https://squeekchain.com/genesis/i/2k6c9h8k",
+          "url": "https://x.com/hamsterhourgame"
+        }
+      ],
       "category": "prediction",
       "contracts": [],
       "description_en": "Hamster Hour is a betting platform where users wager IMD tokens on the outcome of a hamster running on a wheel. Participants watch a live camera feed and guess the jackpot amount during a one-hour session. The project runs on Ethereum and offers a $HAMSTER token for users who lose bets.",
@@ -4006,7 +4057,14 @@
       "logo": "logos/e23a1cb4daf73400c9f7751cf4dbaf9c116d200fad2649463448e67bd1c9fceb.jpg",
       "name": "Hamster Hour",
       "publication_origin": "owner_approved",
-      "stage": "development"
+      "stage": "development",
+      "verified_by_squeek": {
+        "last_checked": "2026-11-05T09:21:31.407337+00:00",
+        "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
+        "stale": false,
+        "verified_at": "2026-11-03T18:29:23.740000+00:00",
+        "version": 1
+      }
     },
     {
       "builder": null,
@@ -4162,6 +4220,14 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "board",
+          "label": "@cuongisreal_",
+          "source": "https://squeekchain.com/genesis/i/2k6c9h8k",
+          "url": "https://x.com/cuongisreal_"
+        }
+      ],
       "category": "analytics",
       "contracts": [],
       "description_en": "Squeek Dashboard is an explorer for Squeekchain that lists every Squeek with details on owners, merges, levels, and power. It provides leaderboards and tools to look up specific wallets, view staking vaults, and track recent merges.",
@@ -4178,7 +4244,14 @@
       "logo": "logos/5450d5403c3d2ba8091f7a98b95840fbe62ac353ae5e93d6d89f3579aad63dad.png",
       "name": "Squeek Dashboard",
       "publication_origin": "owner_approved",
-      "stage": "development"
+      "stage": "development",
+      "verified_by_squeek": {
+        "last_checked": "2026-11-05T09:21:31.407337+00:00",
+        "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
+        "stale": false,
+        "verified_at": "2026-10-29T21:41:31.306000+00:00",
+        "version": 1
+      }
     },
     {
       "builder": null,
@@ -4355,35 +4428,6 @@
         }
       ],
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Garden is described as Squeektoshi's garden on Sepolia, where hamster snacks grow only from the actions of the real Squeekchain hamster "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-garden.imd.site"
-            },
-            {
-              "text": ". This setup links the garden's growth directly to that specific hamster's behavior."
-            }
-          ],
-          [
-            {
-              "text": "To follow this trail, you can start by reviewing the details provided in the public sources "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2856-fix-trust-wording-site"
-            },
-            {
-              "text": ". These materials help clarify how the garden operates and what drives the snack growth within this ecosystem."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Squeek Garden is a virtual garden where hamster snacks grow based on the activity of Squeektoshi, the real hamster powering Squeekchain. You harvest different types of snacks depending on whether the hamster is running, resting, or just finished a session. A shared pantry system unlocks new seeds for the community as it fills up, and you can visit neighbors to water their plants.",
       "description_origin": "readme",
@@ -4413,42 +4457,6 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeekscope is a static, browser-only tool that generates a daily hamster tarot reading for any Ethereum address. It is built with React, TypeScript, and Vite, and the production website includes its fonts, 22 original SVG cards, and a genuine dated Sepolia snapshot "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekscope-daily-hamster-tarot.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow the source trail, you can start by exploring the project website to see the interface and assets "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekscope-daily-hamster-tarot.imd.site"
-            },
-            {
-              "text": ". The documentation also provides further context on how the reading is generated and the specific data sources used "
-            },
-            {
-              "text": "the documentation",
-              "url": "https://github.com/identity-md-launches/launch-2731-build-squeekscope-static-website/blob/HEAD/docs/validation.md"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Squeekscope provides a daily hamster tarot reading for any Ethereum address based on Squeektoshi's settled wheel work. Users can read their card, compare a pair, and trace every draw. The tool is a static, browser-only application that generates a unique reading for each address and day.",
       "description_origin": "readme",
@@ -4723,6 +4731,14 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "board",
+          "label": "@Jesuistamer",
+          "source": "https://squeekchain.com/genesis/i/2k6c9h8k",
+          "url": "https://x.com/Jesuistamer"
+        }
+      ],
       "category": "tools",
       "contracts": [],
       "description_en": "A planning tool for Squeekchain that calculates SQK earnings based on the Proof of Squeek rule. It shows how much your deposited Squeeks and staked SQK earn, predicts when merging pays off, and estimates the value of adding another Squeek. The interface allows you to simulate these moves directly from your wallet on the testnet.",
@@ -4747,9 +4763,9 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-03T21:21:14.526201+00:00",
+        "last_checked": "2026-11-05T09:21:31.407337+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
-        "stale": true,
+        "stale": false,
         "verified_at": "2026-10-29T21:36:12.155000+00:00",
         "version": 1
       }
@@ -5652,9 +5668,9 @@
       "publication_origin": "owner_approved",
       "stage": "testnet",
       "verified_by_squeek": {
-        "last_checked": "2026-11-03T21:21:14.526201+00:00",
+        "last_checked": "2026-11-05T09:21:31.407337+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
-        "stale": true,
+        "stale": false,
         "verified_at": "2026-10-29T20:44:51.266000+00:00",
         "version": 1
       }
@@ -5997,13 +6013,28 @@
       "logo": "logos/d7ac196928d6f0fa4ca8f3adb9652c7cfe1e19a38f04177f99176f5506477d17.svg",
       "name": "Wheel Canvas",
       "publication_origin": "owner_approved",
-      "stage": "development"
+      "stage": "development",
+      "verified_by_squeek": {
+        "last_checked": "2026-11-05T09:21:31.407337+00:00",
+        "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
+        "stale": false,
+        "verified_at": "2026-11-04T21:05:34.042000+00:00",
+        "version": 1
+      }
     },
     {
       "builder": null,
-      "category": "defi",
+      "builder_links": [
+        {
+          "kind": "board",
+          "label": "@lowonfiats",
+          "source": "https://squeekchain.com/genesis/i/2k6c9h8k",
+          "url": "https://x.com/lowonfiats"
+        }
+      ],
+      "category": "nft",
       "contracts": [],
-      "description_en": "Squeekstr is a platform for permissionless experiments with SQUEEK tokens. Users can deposit tokens into a portfolio and merge them to upgrade their level. The interface includes sections for managing the portfolio, leveling up, and viewing statistics.",
+      "description_en": "Squeekstr is a protocol that merges SQUEEK NFTs to increase their mining power. Users deposit their NFTs to receive tracker receipts, which serve as claims on the rewards generated by the shared pool. The system also uses tax revenue from its native token to acquire additional SQUEEKs for the vault.",
       "description_origin": "website",
       "ecosystem_status": "weak",
       "evidence": [],
@@ -6020,9 +6051,9 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-03T21:21:14.526201+00:00",
+        "last_checked": "2026-11-05T09:21:31.407337+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
-        "stale": true,
+        "stale": false,
         "verified_at": "2026-11-03T20:48:31.131000+00:00",
         "version": 1
       }
@@ -6453,6 +6484,14 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "board",
+          "label": "@berru_alexander",
+          "source": "https://squeekchain.com/genesis/i/2k6c9h8k",
+          "url": "https://x.com/berru_alexander"
+        }
+      ],
       "category": "nft",
       "contracts": [],
       "description_en": "Assign an English name to your Squeek hamster NFT and store it on-chain. Collect likes and SQK tips from the community for your chosen name.",
@@ -6469,7 +6508,14 @@
       "logo": "logos/40a4496b7d6721bc8a3b57bc2365d573f909231179d6c5ac7a79c4d3c9d51f24.svg",
       "name": "Squeek 起名屋",
       "publication_origin": "owner_approved",
-      "stage": "development"
+      "stage": "development",
+      "verified_by_squeek": {
+        "last_checked": "2026-11-05T09:21:31.407337+00:00",
+        "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
+        "stale": false,
+        "verified_at": "2026-10-30T00:45:08.265000+00:00",
+        "version": 1
+      }
     },
     {
       "builder": null,
@@ -6764,7 +6810,7 @@
       ],
       "category": "tools",
       "contracts": [],
-      "description_en": "An interactive visualization of the Squeekchain whitepaper that lets users explore the chain's mechanics. You can adjust difficulty and block counts to see how work units translate into SQK minting and settlement outcomes.",
+      "description_en": "The Wheelpaper turns the Squeekchain whitepaper into an interactive site where you can drag handles to test difficulty adjustments and supply schedules. It reads live Sepolia state to show how the pixel wheel spins at Squeektoshi's real RPM and stops when he sleeps.",
       "description_origin": "website",
       "ecosystem_status": "weak",
       "evidence": [],
@@ -6780,9 +6826,9 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-03T21:21:14.526201+00:00",
+        "last_checked": "2026-11-05T09:21:31.407337+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
-        "stale": true,
+        "stale": false,
         "verified_at": "2026-10-29T22:39:31.786000+00:00",
         "version": 1
       }
@@ -6825,6 +6871,14 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "board",
+          "label": "@v1dox_eth",
+          "source": "https://squeekchain.com/genesis/i/2k6c9h8k",
+          "url": "https://x.com/v1dox_eth"
+        }
+      ],
       "category": "analytics",
       "contracts": [],
       "description_en": "Squeek Pit Crew is a companion dashboard for Squeekchain that displays live hamster-cam footage and real-time wheel statistics. Users can connect a wallet to send a zero-allowance transaction, which serves as a simple first step for interacting with the network and earning a badge.",
@@ -6843,9 +6897,9 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-03T21:21:14.526201+00:00",
+        "last_checked": "2026-11-05T09:21:31.407337+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
-        "stale": true,
+        "stale": false,
         "verified_at": "2026-10-29T21:55:44.291000+00:00",
         "version": 1
       }
