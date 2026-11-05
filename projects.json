@@ -1914,6 +1914,36 @@
     },
     {
       "builder": null,
+      "category": "prediction",
+      "contracts": [],
+      "description_en": "Create an interactive Web3 trading and prediction game called \"Squeek Price Action Terminal\" powered by Squeekchain's live API. Key Features to build: 1. Live Hamster Chart: Convert the hamster's real-time wheel distance, speed, and round history from Squeekchain into live price-action candlesticks. 2. Algorithmic Signal Engine: Detect Momentum...",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-3012-create-interactive-web3-trading"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/886d225d-9f06-4bbe-883a-c23ab125282d"
+        }
+      ],
+      "first_seen": "2026-11-05T20:08:54.648027+00:00",
+      "id": "4237811a0c309cb3",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-3012-create-interactive-web3-trading",
+        "website": "https://squeek-price-action-terminal-bea.imd.site"
+      },
+      "logo": "logos/471a3344fd43c36b55f8e226fc0c50d6eacc9bab72d34ac7904b189808145b94.svg",
+      "name": "Squeek Price Action Terminal",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
       "category": "tools",
       "contracts": [],
       "description_en": "Squeekstr Desk is an interactive paper protocol simulation for Squeekchain. Users can deposit Squeeks, merge power, earn paper SQK, and trade tracker receipts without a wallet. It serves as a community project for the Squeekchain Buildooooor badge.",
@@ -2670,6 +2700,10 @@
         {
           "name": "Pip · Squeekchain Hamster Companion",
           "url": "https://pip-squeekchain-hamster-com-576c.imd.site"
+        },
+        {
+          "name": "Pip",
+          "url": "https://pip-squeekchain-hamster-companio.imd.site"
         }
       ],
       "publication_origin": "owner_approved",
@@ -3210,6 +3244,42 @@
       "logo": "logos/7fb5d95d33f886b9b493b58f8c3670ffceaf9ce76528fe8aa8bc9c0ebc38bac3.svg",
       "name": "WheelCam",
       "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "Pick a stall. The real wheel decides how fast it works. A small, living night market for the Squeekchain community. Play as a guest, no Squeek required.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-3013-build-night-market-one"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/cf0d91f3-a1f3-40d6-981a-68519a13af8a"
+        }
+      ],
+      "first_seen": "2026-11-05T20:08:54.559937+00:00",
+      "id": "7191499deab80f5e",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-3013-build-night-market-one",
+        "website": "https://night-market.imd.site"
+      },
+      "logo": "logos/aee931e2dedf1408e52f8ecd3394b8429a417f9af8c53fa057cdba5e4124cf1b.svg",
+      "name": "Night Market",
+      "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "84d8a3b648b9fcf0",
+          "name": "Spoke Sprint"
+        }
+      ],
       "stage": "development"
     },
     {
@@ -3978,6 +4048,12 @@
       "logo": "logos/3d2a7d92a8a9998d96d52c4071f277e1e15c42f4a66960104f177a263939cccf.svg",
       "name": "Spoke Sprint",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "7191499deab80f5e",
+          "name": "Night Market"
+        }
+      ],
       "stage": "development"
     },
     {
@@ -4036,6 +4112,36 @@
         "website": "https://squeek-race.vercel.app"
       },
       "name": "SqueekRace Arena",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "prediction",
+      "contracts": [],
+      "description_en": "A free prediction game on Squeekchain. Guess whether Squeektoshi the hamster is running or asleep next round, scored from live wheel telemetry.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-3010-build-squeek-sleep"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/91422cb5-36d2-4ab8-a9e1-d469077518ac"
+        }
+      ],
+      "first_seen": "2026-11-05T19:23:09.148674+00:00",
+      "id": "87351da7a1d3fe10",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-3010-build-squeek-sleep",
+        "website": "https://squeek-or-sleep.imd.site"
+      },
+      "logo": "logos/133caf32ab6fec5f357b766ab95452ba353067ddbc4b4afc449dc4895266911a.svg",
+      "name": "Squeek or Sleep",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
@@ -5784,6 +5890,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/5c715e7a-0bcb-4f97-84c6-28604ccd3eb6"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/9e8032cd-8334-4c13-8d9b-31b85811b4b1"
         }
       ],
       "first_seen": "2026-10-30T09:23:16.390827+00:00",
@@ -7159,6 +7269,12 @@
         "website": "https://hamsterrun-little-paws-real-whee.imd.site"
       },
       "name": "HamsterRun",
+      "other_versions": [
+        {
+          "name": "HamsterRun",
+          "url": "https://hamsterrun-free-pixel-hamster-ra.imd.site"
+        }
+      ],
       "publication_origin": "owner_approved",
       "stage": "development"
     },
@@ -7295,6 +7411,31 @@
       },
       "logo": "logos/a60b342e8cc0a63d1175fbf31affa0c34d1da4239219b4bfc5f366ccb142ba4f.svg",
       "name": "Squeek Dome",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "A one-button, 60-second game powered by Squeekchain's live hamster wheel.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/alwialhuda11/catch-the-cheese"
+        }
+      ],
+      "first_seen": "2026-11-04T18:06:38.990647+00:00",
+      "id": "f6d223abdb89d011",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/alwialhuda11/catch-the-cheese",
+        "website": "https://catch-the-cheese-lac.vercel.app"
+      },
+      "name": "Catch the Cheese",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
