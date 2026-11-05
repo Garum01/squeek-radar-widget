@@ -313,8 +313,8 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "Squeek Maze Sprint is a 60-second arcade game where players collect Squeeks and dodge hazards. The maze layout is generated from official Squeekchain data and the real hamster wheel, ensuring every player faces the same challenge within a specific round.",
-      "description_origin": "source",
+      "description_en": "A 60-second arcade game where players navigate a maze to collect Squeeks and avoid hazards. The layout is determined by official Squeekchain data and the real hamster wheel, ensuring every player faces the same challenge in a given round. It supports keyboard, touch, and swipe controls.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -650,7 +650,7 @@
       "category": "streaming",
       "contracts": [],
       "description_en": "A transparent browser source that adds Squeektoshi, the Squeekchain hamster, to your live stream. It displays a pixel hamster on the WHEELY9000 wheel, along with queued alerts, block progress, and a session counter. You can customize the theme, position, and language to fit your OBS or Streamlabs setup.",
-      "description_origin": "source",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -1473,42 +1473,6 @@
         }
       ],
       "category": "prediction",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Survival is a guest-first English prediction game where you beat Robo-Squeek to keep the wheel alive. It features deterministic virtual races, a device-local weekly raid, learning AI, and printable wheel art, with no token rewards "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-survival-beat-robo-squeek.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To understand how it works, start with "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-survival-beat-robo-squeek.imd.site"
-            },
-            {
-              "text": " for the core concept. Then, explore "
-            },
-            {
-              "text": "the code repository",
-              "url": "https://github.com/identity-md-launches/launch-2853-squeek-survival-deliver-hosted"
-            },
-            {
-              "text": " to see the deterministic race logic and AI implementation in action."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Squeek Survival is a guest-first prediction game where you duel Robo-Squeek by betting on virtual race distances. You pick Over or Under the robot's call, manage lives and boosters, and raid a local weekly boss. Each race generates printable art, and the game runs without token rewards.",
       "description_origin": "readme",
@@ -2450,6 +2414,31 @@
         "website": "https://wheel-run-squeekchain-genesis.imd.site"
       },
       "name": "Wheel Run",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "WheelOps is an interactive arcade game and NFT merge lab that uses live telemetry from Squeektoshi's physical wheel. Players control a hamster runner where real RPM data affects speed and obstacles, while a forge simulates merging NFTs to increase power levels.",
+      "description_origin": "readme",
+      "ecosystem_status": "claimed",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/stfu911/squeekchain-wheelops"
+        }
+      ],
+      "first_seen": "2026-10-30T08:53:11.105718+00:00",
+      "id": "4eb54b0da3899e20",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/stfu911/squeekchain-wheelops",
+        "website": "https://squeekchain-wheelops.vercel.app"
+      },
+      "name": "WheelOps",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
@@ -3567,35 +3556,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "This project is an upgrade of the original game, continuing from a specific commit. It keeps the existing canvas game elements, including characters, physics, and dialogue, while adding progression, equipment, and saves "
-            },
-            {
-              "text": "the project website",
-              "url": "https://hamster-friendship-the-lost-alic.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow the source trail, you can explore the code repository and documentation. These public sources help you see how the new features integrate with the original game structure "
-            },
-            {
-              "text": "the code repository",
-              "url": "https://github.com/identity-md-launches/launch-2971-project-hamster-friendship"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A browser-based pixel-art adventure where you guide Chang the hamster through an autumn chestnut forest to find his missing friend Alice. The game features enemy combat, weapon swapping, and a shield mechanic, with progress saved locally on your device.",
       "description_origin": "readme",
@@ -3608,6 +3568,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/700a1364-933c-4fbd-97af-7cf551640e00"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/0baa5519-b33f-4682-8618-ae00d358baa1"
         }
       ],
       "first_seen": "2026-11-04T18:55:35.715126+00:00",
@@ -4180,49 +4144,6 @@
     {
       "builder": null,
       "category": "defi",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "COVER is a Sepolia-only Foundry application and static demo designed for fixed payouts on certified zero-work rounds. It includes five specific contracts: MockSQK, PremiumModel, CoverPool, CoreReader, and PolicyBook. The project description notes that contract dependencies are vendored as ordinary source files, while the frontend relies on the npm lockfile located in the web directory "
-            },
-            {
-              "text": "the project website",
-              "url": "https://cover-squeekfi-on-sepolia.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow the source trail, you can start by exploring the code repository to see how these components interact "
-            },
-            {
-              "text": "the code repository",
-              "url": "https://github.com/identity-md-launches/launch-2814-sqi"
-            },
-            {
-              "text": ". The documentation offers further context on the setup "
-            },
-            {
-              "text": "the documentation",
-              "url": "https://github.com/identity-md-launches/launch-2814-sqi/blob/HEAD/docs/abi/README.md"
-            },
-            {
-              "text": ", and other public sources provide additional details "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/230069e2-85ed-4a16-8a0e-bd7de178f248"
-            },
-            {
-              "text": ". Reading through these materials helps clarify how the demo functions within its specific testing environment."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [
         {
           "address": "0x5fbe17ecdae6cab9d657313ba5704ea3e19ab72d",
@@ -7204,6 +7125,31 @@
       },
       "logo": "logos/3657d88c522e510bd774feaf045b3f26f398db597e2a1077fffb8bf3708c9364.svg",
       "name": "Squeeky Market",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "prediction",
+      "contracts": [],
+      "description_en": "Squeek Arena is a web-based platform that displays real-time telemetry from a physical hamster wheel, including speed and power output. Users can interact with the system by sending on-chain transactions to boost the wheel's speed or place wagers in a sprint betting game. The project also features a dynamic NFT that evolves based on the hamster's cumulative revolutions.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/slarkand/squeek-arena"
+        }
+      ],
+      "first_seen": "2026-11-05T06:29:46.310974+00:00",
+      "id": "e6099eb0b56964a2",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/slarkand/squeek-arena",
+        "website": "https://squeek-arena-ivory.vercel.app"
+      },
+      "name": "SQUEEK ARENA",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
