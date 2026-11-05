@@ -142,35 +142,6 @@
     {
       "builder": null,
       "category": "nft",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Companion is a free ERC-721 collection for Sepolia, featuring original SVG hamster artwork. It includes a static React mint site that follows real Squeekchain measurements, offering resting, active, and energetic style previews while reading actual minted companions "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-companion-a-hamster-nft-t.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow the trail, start with the project website to see the mint interface and artwork styles. You can then explore the other public sources to understand how the collection interacts with the chain data "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2713-build-dynamic-erc-721-nft"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Mint a free ERC-721 hamster on Sepolia whose mood and artwork reflect the real Squeekchain wheel. The hamster zooms when the wheel spins and sleeps when it stops. The project includes a React mint site with original SVG artwork and previews of different energy states.",
       "description_origin": "readme",
@@ -183,6 +154,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/2981a7f3-8605-4145-aec8-d9f473599596"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/fe908ee4-411a-4978-86da-31312a7e1253"
         }
       ],
       "first_seen": "2026-10-30T09:38:24.420424+00:00",
@@ -1848,6 +1823,10 @@
         {
           "kind": "team_mention",
           "url": "https://x.com/pillheadddd/status/2117731749459284235"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/04927f12-7313-41a8-8b93-55ffb0a4727b"
         }
       ],
       "first_seen": "2026-10-31T20:13:44.178169+00:00",
@@ -2844,6 +2823,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/db382aa1-2381-4916-a4dc-8b693f6bafbd"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/db382aa1-2381-4916-a4dc-8b693f6bafbd"
         }
       ],
       "first_seen": "2026-11-03T05:52:01.101948+00:00",
@@ -3279,6 +3262,14 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/79973160-2b95-4d1c-85d8-ee8657889b54"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/79973160-2b95-4d1c-85d8-ee8657889b54"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/1c6feea4-0953-48a9-896d-247240de1fe6"
         }
       ],
       "first_seen": "2026-10-30T07:52:25.889235+00:00",
@@ -3340,7 +3331,7 @@
       "category": "game",
       "contracts": [],
       "description_en": "Burrow Siege is a pixel-art tower defense game where a real hamster on a wheel powers your towers. You build defenses and charge them to survive 20 waves of enemies protecting a seed vault.",
-      "description_origin": "source",
+      "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
         {
@@ -3468,6 +3459,10 @@
         {
           "kind": "site_contract_link",
           "url": "https://eth-sepolia.blockscout.com/address/0x4e6fc32b6a0adc1cd1e13949666fe66ec40e01f2"
+        },
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0xcb98349c134ab983da5bfd80527dfe2552bdb70f"
         }
       ],
       "first_seen": "2026-10-31T01:07:42.899514+00:00",
@@ -4161,6 +4156,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/8d005aa2-fa68-42e0-b9cf-df8ccadda5ba"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/06427de9-caa6-4c50-9f14-ac43cad0661c"
         }
       ],
       "first_seen": "2026-10-30T08:07:28.714938+00:00",
@@ -4600,42 +4599,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "SqueekPet is a playable, original pixel-art hamster game built for Squeekchain Genesis Code. As described on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekpet-living-evolution.imd.site"
-            },
-            {
-              "text": ", you can adopt a friend, care for them, decorate their bedroom, and run the woodland trail. The game also features fresh hardware wheel activity from Squeektoshi, which can bring a temporary breeze and real, timestamped Wheel Memories."
-            }
-          ],
-          [
-            {
-              "text": "To understand how these mechanics work, you can follow the details provided in "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2925-build-deploy-squeekpet-living"
-            },
-            {
-              "text": " and "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/a077cfb9-164e-4dea-aec9-33c7bbe8a4c8"
-            },
-            {
-              "text": ". These materials help clarify the specific interactions and features mentioned in the project description, allowing you to see exactly how the hamster care and trail activities are implemented within the game environment."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "SqueekPet is a pixel-art hamster game where you adopt a companion, decorate their home, and run a woodland trail. The game connects to Squeektoshi's real wheel activity, which can trigger in-game events like breezes and timestamped memories.",
       "description_origin": "readme",
@@ -7089,6 +7052,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/f7aa19b3-f207-45af-abf3-a8bc0d7a1bd3"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/1abf35f3-0e48-4675-ba72-2e3202e0d19c"
         }
       ],
       "first_seen": "2026-11-01T09:37:56.042066+00:00",
