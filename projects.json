@@ -1377,7 +1377,7 @@
       "category": "game",
       "contracts": [],
       "description_en": "Squeek Farm: Hamster Wars is a farming and defense game where you grow six crops and trade your harvest. You must also defend Pip's paradise from Brutus. The game offers a cozy mix of agricultural management and hamster-based combat.",
-      "description_origin": "source",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -4163,35 +4163,6 @@
     {
       "builder": null,
       "category": "analytics",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Dashboard aims to display every Squeek on Squeekchain, highlighting owners, merges, and level and power leaderboards "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-dashboard.fun"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "You can follow the source trail by visiting the project website to see these specific details directly "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-dashboard.fun"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Squeek Dashboard is an explorer for Squeekchain that lists every Squeek with details on owners, merges, levels, and power. It provides leaderboards and tools to look up specific wallets, view staking vaults, and track recent merges.",
       "description_origin": "website",
@@ -4316,23 +4287,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "SQUEEK KINGDOM is an original, playable hamster strategy game designed for the SqueekChain ecosystem. According to "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-kingdom-a-little-kingdom.imd.site"
-            },
-            {
-              "text": ", the export is located in the dist/ directory. You can serve this folder with any static web host, as asset paths are relative and navigation uses URL hashes, allowing it to work under a gateway subpath."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "SQUEEK KINGDOM is a free, playable pixel-art strategy game where you build a hamster kingdom and explore the wilds. The gameplay incorporates real SqueekChain activity, allowing players to race with the hamster and survive various rounds.",
       "description_origin": "readme",
@@ -5224,45 +5178,9 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Pulse is a non-custodial tool for Squeekchain on Sepolia, designed to help you see your Squeeks and SQK stake. It allows you to plan merges and stakes using the on-chain power formula, all from your own wallet "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek.blu-stack.com"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To understand how it works, you can explore the details in "
-            },
-            {
-              "text": "a public source",
-              "url": "https://eth-sepolia.blockscout.com/address/0x980b4424c007caf7a1f3670b48c8eaef7ebc3d44"
-            },
-            {
-              "text": " or dive into the technical specifics in "
-            },
-            {
-              "text": "the code repository",
-              "url": "https://github.com/blustackk/squeek-pulse"
-            },
-            {
-              "text": ". These resources provide a clear trail for anyone curious about the underlying mechanics."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
-      "description_en": "Squeek Pulse is a non-custodial tool for managing Squeekchain assets on Sepolia. It displays your Squeeks and SQK stake, allowing you to plan merges and stakes using the on-chain power formula. You can stake, claim, deposit, withdraw, or merge directly from your own wallet.",
-      "description_origin": "website",
+      "description_en": "Squeek Pulse is a non-custodial tool for managing Squeekchain assets on Sepolia. It displays your Squeeks and SQK stake, calculates network power, and allows you to stake, claim, deposit, withdraw, or merge items directly from your wallet.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -6213,7 +6131,7 @@
           "chain_id": 11155111
         }
       ],
-      "description_en": "Squeek Predict is an on-chain prediction market where you bet Sepolia test ETH on whether the Squeekchain hamster will complete more than a set number of blocks. The platform tracks weekly stats and market history for these over/under markets.",
+      "description_en": "Squeek Predict is an on-chain prediction market where you bet Sepolia test ETH on the Squeekchain hamster's performance. You take a side on whether the hamster will complete a specific number of blocks within a 24-hour or 7-day window. The platform displays clear pool odds and tracks your positions in one place.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -6846,7 +6764,7 @@
       ],
       "category": "tools",
       "contracts": [],
-      "description_en": "An interactive visualization of the Squeekchain whitepaper that turns technical specifications into draggable controls. Users can adjust difficulty, simulate block minting, and explore the mechanics of Squeek NFTs to understand how the hamster-powered chain operates.",
+      "description_en": "An interactive visualization of the Squeekchain whitepaper that lets users explore the chain's mechanics. You can adjust difficulty and block counts to see how work units translate into SQK minting and settlement outcomes.",
       "description_origin": "website",
       "ecosystem_status": "weak",
       "evidence": [],
@@ -7398,8 +7316,8 @@
           "chain_id": 11155111
         }
       ],
-      "description_en": "SqueekPad is a launchpad on Squeekchain where tokens sell on a fixed bonding curve. Launch phases unlock as a hamster runs on a wheel, settling Squeek blocks on Ethereum. Anyone can buy from the start, with Squeek holders getting extra access in the first hour.",
-      "description_origin": "website",
+      "description_en": "SqueekPad is a launchpad on Squeekchain where token phases unlock based on settled Squeek blocks. Users can buy tokens from the first second, with Squeek holders receiving extra access during the initial hour. The platform features a fixed bonding curve, 0% tax, and burned liquidity.",
+      "description_origin": "source",
       "ecosystem_status": "confirmed",
       "evidence": [
         {
@@ -7413,6 +7331,10 @@
         {
           "kind": "site_contract_link",
           "url": "https://eth-sepolia.blockscout.com/address/0xcc434ba5b59918535057290b1ecb29594603c273"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x07d2506900b542fd083064eb21a9ddeb5726a84fedb60d75bcdb17609b346e43"
         }
       ],
       "first_seen": "2026-11-01T00:50:35.195426+00:00",
