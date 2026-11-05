@@ -850,6 +850,33 @@
       "builder_links": [
         {
           "kind": "post",
+          "label": "@azrarm",
+          "source": "https://x.com/azrarm/status/2118162409722691803",
+          "url": "https://x.com/azrarm"
+        }
+      ],
+      "category": "tools",
+      "contracts": [],
+      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
+      "description_origin": "placeholder",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-11-05T02:05:39.515610+00:00",
+      "id": "14d711ec62622ac0",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://squeekbossraid.xyz"
+      },
+      "name": "squeekbossraid.xyz",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "builder_links": [
+        {
+          "kind": "post",
           "label": "@kolkrypt",
           "source": "https://x.com/kolkrypt/status/2117995245820428630",
           "url": "https://x.com/kolkrypt"
@@ -1034,29 +1061,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Life is an unofficial fan game, NFT collection, and community token centered on Squeektoshi, the hamster who mines Squeekchain. The project description highlights voting on art and earning whitelist spots as key activities. "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek.life"
-            }
-          ],
-          [
-            {
-              "text": "To understand how this works, you can explore the details provided on the project website. It outlines the specific mechanics for participating in the art voting process and securing your place in the whitelist. "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek.life"
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Squeek Life: an unofficial fan game, NFT collection and community token around Squeektoshi, the hamster who mines Squeekchain. Vote the art, earn the whitelist. In design, nothing deployed.",
       "description_origin": "website",
@@ -1067,7 +1071,8 @@
       "identity_status": "resolved",
       "lifecycle_stage": "development",
       "links": {
-        "website": "https://squeek.life"
+        "website": "https://squeek.life",
+        "x": "https://x.com/squeeklife"
       },
       "logo": "logos/ba7494c91914f351734c98dd54dedaed9255e2a714bad1e77e7c855c1f66914f.png",
       "name": "SQK LIFE",
@@ -1665,37 +1670,6 @@
     {
       "builder": "theidmfun",
       "category": "other",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Intelligent Dance Market is a Uniswap v4 hook where on-chain state acts as a 16-step drum machine, turning every trade into a note "
-            },
-            {
-              "text": "the project website",
-              "url": "https://theidm.fun"
-            },
-            {
-              "text": ". This design frames market activity as a rhythmic sequence rather than a standard ledger entry. To understand how this works, you can follow the technical details provided by the team. Start with "
-            },
-            {
-              "text": "the documentation",
-              "url": "https://theidm.fun/docs"
-            },
-            {
-              "text": " for the core mechanics, then check "
-            },
-            {
-              "text": "a team post",
-              "url": "https://x.com/squeekchain/status/2115158642806653141"
-            },
-            {
-              "text": " for context on the project's initial vision and goals."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Intelligent Dance Market ($IDM): a Uniswap v4 hook whose on-chain state is a 16-step drum machine. Every trade is a note.",
       "description_origin": "website",
@@ -3396,7 +3370,12 @@
       "description_en": "WheelCam is a free set of transparent OBS browser-source overlays for Squeektoshi's wheel stream: a corner bug, lower third, ticker, rpm gauge, run card and alerts, driven by live wheel data.",
       "description_origin": "website",
       "ecosystem_status": "weak",
-      "evidence": [],
+      "evidence": [
+        {
+          "kind": "website",
+          "url": "https://wheelcam.online"
+        }
+      ],
       "first_seen": "2026-10-31T21:12:19.404104+00:00",
       "id": "7038028ab90e3893",
       "identity_status": "resolved",
@@ -3579,25 +3558,6 @@
       "name": "Hamster Mining Reserve",
       "publication_origin": "owner_approved",
       "stage": "testnet"
-    },
-    {
-      "builder": null,
-      "category": "tools",
-      "contracts": [],
-      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
-      "description_origin": "placeholder",
-      "ecosystem_status": "weak",
-      "evidence": [],
-      "first_seen": "2026-11-03T21:21:19.073131+00:00",
-      "id": "74075419678225c0",
-      "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
-      "links": {
-        "website": "https://hamster-hour-bet-on-the-wheel.site.identitymd.eth.limo/"
-      },
-      "name": "hamster-hour-bet-on-the-wheel.site.identitymd.eth.limo",
-      "publication_origin": "owner_approved",
-      "stage": "unknown"
     },
     {
       "builder": null,
@@ -4156,6 +4116,42 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Picks is a research initiative by the IdentityMD worker network. It organizes reports, supporting files, and provenance data into distinct groups based on specific jobs "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekpicks.xyz"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To follow the source trail, start with the project website for an overview of the grouped outputs "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekpicks.xyz"
+            },
+            {
+              "text": ". You can also explore the code repository to see how these research components are structured and maintained "
+            },
+            {
+              "text": "the code repository",
+              "url": "https://github.com/Identity-md/research/blob/main/jobs/06d98304-78a4-4089-815a-2be96ef1f7c5/files/AUDIT.md"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Research produced by the IdentityMD worker network, with reports, supporting files and provenance grouped by job.",
       "description_origin": "readme",
@@ -4177,6 +4173,42 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Burrow is a 3D hamster kart racing game for Squeekchain, built with React, Three.js, and Vite. As described in "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekburrow.site"
+            },
+            {
+              "text": ", all models, textures, music, and sound effects are generated in code, meaning there are no asset files."
+            }
+          ],
+          [
+            {
+              "text": "To understand how this works, you can explore the technical details in "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/bangpateng/squeek-burrow"
+            },
+            {
+              "text": " or "
+            },
+            {
+              "text": "a public source",
+              "url": "https://squeek-burrow.vercel.app"
+            },
+            {
+              "text": ". These materials help you follow the source trail and see how the code generates the game's visual and audio elements directly."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A 3D hamster kart racing game for Squeekchain, built with React, Three.js and Vite. All models, textures, music and sound effects are generated in code, so there are no asset files.",
       "description_origin": "readme",
@@ -5041,26 +5073,6 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
-      "description_origin": "placeholder",
-      "ecosystem_status": "weak",
-      "evidence": [],
-      "first_seen": "2026-11-02T16:25:11.542126+00:00",
-      "id": "99cb981d14e80fd8",
-      "identity_status": "unresolved",
-      "lifecycle_stage": "unknown",
-      "links": {
-        "x": "https://x.com/squeeklife"
-      },
-      "logo": "logos/37418d0b29cd4581ce753ab015d4829d1362f19aad4e3fe2fddf2cc85e6f1948.jpg",
-      "name": "Squeeklife",
-      "publication_origin": "owner_approved",
-      "stage": "unknown"
-    },
-    {
-      "builder": null,
-      "category": "tools",
-      "contracts": [],
       "description_en": "A SqueekFi planner for Squeekchain. Every completed Squeek block issues SQK, shared by power, and power comes from the Squeeks you deposit and the SQK you stake with them. This page answers the questions that rule raises, and acts on the answers",
       "description_origin": "readme",
       "ecosystem_status": "weak",
@@ -5169,10 +5181,10 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "nft",
       "contracts": [],
-      "description_en": "A non-custodial Squeekchain utility. Discover your Squeek NFTs, claim testnet SQK and safely preview merges on Ethereum Sepolia.",
-      "description_origin": "source",
+      "description_en": "A working, non-custodial Squeek NFT utility for Ethereum Sepolia. Discover genuine NFTs, inspect mining positions, batch-claim testnet SQK and prepare safe, owner-approved merges. All assets are TESTNET.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -5625,6 +5637,42 @@
     {
       "builder": null,
       "category": "nft",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Hamster Mining Reserve is a Sepolia vault that permanently pools Graph A Squeek mining NFTs, as described in "
+            },
+            {
+              "text": "the project website",
+              "url": "https://hamster-mining-reserve-squeek-nf.imd.site"
+            },
+            {
+              "text": ". Depositors receive ERC-20 accounting shares, while a strategist merges equal-level NFTs so holders can claim their proportion of funded SQK rewards."
+            }
+          ],
+          [
+            {
+              "text": "To follow the source trail, start with "
+            },
+            {
+              "text": "the documentation",
+              "url": "https://github.com/identity-md-launches/launch-2751-workflow-frontend-stage-context/blob/HEAD/docs/TESTING.md"
+            },
+            {
+              "text": " for an overview of the mechanics. You can then explore "
+            },
+            {
+              "text": "the code repository",
+              "url": "https://github.com/identity-md-launches/launch-2751-workflow-frontend-stage-context"
+            },
+            {
+              "text": " to see how the single application contract operates, ensuring you understand the specific logic behind the pooling process."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A Sepolia vault that permanently pools Graph A Squeek mining NFTs. Depositors receive ERC-20 accounting shares (hmSQUEEK); a strategist merges equal-level NFTs; holders claim their proportion of funded SQK rewards. The vault is one application contract, HamsterMiningReserve, with no premint, token sale, liquidity pool,…",
       "description_origin": "readme",
@@ -6071,26 +6119,6 @@
         "website": "https://hamster-atlas.vercel.app"
       },
       "name": "Hamster Atlas",
-      "publication_origin": "owner_approved",
-      "stage": "development"
-    },
-    {
-      "builder": null,
-      "category": "tools",
-      "contracts": [],
-      "description_en": "Broadcast graphics for Squeektoshi's wheel stream: transparent OBS browser-source overlays driven by live wheel telemetry and settled Squeekchain data.",
-      "description_origin": "website",
-      "ecosystem_status": "weak",
-      "evidence": [],
-      "first_seen": "2026-10-31T21:12:19.322493+00:00",
-      "id": "b5d2c1af2488cb6f",
-      "identity_status": "resolved",
-      "lifecycle_stage": "development",
-      "links": {
-        "website": "https://wheelcam.online"
-      },
-      "logo": "logos/7fb5d95d33f886b9b493b58f8c3670ffceaf9ce76528fe8aa8bc9c0ebc38bac3.svg",
-      "name": "WheelCam",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
@@ -6618,6 +6646,42 @@
     },
     {
       "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "\"Squeek Wheel Rush\" is a free one-page browser game for the Squeekchain community. You play the hamster, Squeektoshi, running inside a giant wheel: the longer you stay on, the more points you earn and the harder it gets. Scores go onto a shared worldwide leaderboard. It is a community project, not made by the Squeekchain team (say so in small te...",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-2983-squeek-wheel-rush-free"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/1e6ea8ae-fb0f-40c0-a733-656f86f2cf1f"
+        }
+      ],
+      "first_seen": "2026-11-04T23:54:24.907590+00:00",
+      "id": "cdc17204c8ba9466",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-2983-squeek-wheel-rush-free",
+        "website": "https://squeek-wheel-rush-tiny-paws-big.imd.site"
+      },
+      "logo": "logos/76421e1ab57d0eff2ad8b500da3059c04c4ed590164d72a643b8a0d5c41ce3f4.svg",
+      "name": "Squeek Wheel Rush",
+      "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "ce9658a1adfcd63e",
+          "name": "Squeekchain dashboard"
+        }
+      ],
+      "stage": "development"
+    },
+    {
+      "builder": null,
       "category": "tools",
       "contracts": [],
       "description_en": "A small, static, read-only dashboard for Squeekchain on Ethereum Sepolia. The finished export is in dist/, alongside the React/TypeScript source and exact npm lockfile.",
@@ -6644,6 +6708,12 @@
       "logo": "logos/f6bbf2af7051b3a9fdf877c7294f0144362bdf7539e1f669119106710cb072be.svg",
       "name": "Squeekchain dashboard",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "cdc17204c8ba9466",
+          "name": "Squeek Wheel Rush"
+        }
+      ],
       "stage": "development"
     },
     {
@@ -7789,6 +7859,31 @@
         "website": "https://squeek-garden.trackingport.com"
       },
       "name": "Squeek Garden",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "A persistent colony game powered by Squeektoshi's verified wheel activity.",
+      "description_origin": "website",
+      "ecosystem_status": "claimed",
+      "evidence": [
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/10243a89-33c6-4399-a3b2-85890e3ddc68"
+        }
+      ],
+      "first_seen": "2026-11-05T01:56:50.408322+00:00",
+      "id": "faafb42163db3a6b",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "website": "https://squeek-colony-the-wheel-writes-o.imd.site"
+      },
+      "logo": "logos/5cce27a144ba50fb0faef3ea432788edecff42a0ff7e60cc93d061f739ff109d.svg",
+      "name": "Squeek Colony",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
