@@ -3538,35 +3538,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "SqueekRaid is a co-op boss raid on Squeekchain where your party fights the Snooze King using the real distance a hamster runs every night. The project description emphasizes that there are no predictions or betting involved, focusing instead on a shared on-chain experience "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekraid.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To understand how this works, you can explore the provided materials. The project website offers a direct look at the mechanics, while other public sources provide additional context about the setup and participation details "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/08dd68f0-f8cc-49f2-b14f-2d8022c0f19e"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "SqueekRaid is a co-op boss raid where a party of six fighters battles the Snooze King using the actual distance Squeektoshi runs each night. Players select tactic cards to determine their damage output, aiming to defeat the boss within seven nights. Victories can be recorded on the Sepolia testnet for on-chain verification.",
       "description_origin": "website",
@@ -3868,42 +3839,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Signal Garden is an original Squeekchain puzzle and stream companion. Its goal is to restore a night garden by turning conduits from a hamster-wheel source toward four flower beacons, as described on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://blocklight-every-block-lights-ou.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "You can follow the details in "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2918-production-site-through-imd"
-            },
-            {
-              "text": " or "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/f38b54d8-e878-426b-bf2e-85c7deceb00c"
-            },
-            {
-              "text": ". These materials outline the run structure, including three progressively harder boards, a shared clock, and various gameplay mechanics like rotation limits and combos."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Squeek Signal Garden is a puzzle game where you route energy from a hamster wheel to grow four flower beacons. You play three progressively harder 6x6 boards within a shared three-minute clock, using rotation limits and connection streaks. The game serves as a stream companion, allowing you to share your restored night garden with an audience.",
       "description_origin": "readme",
@@ -3993,42 +3928,6 @@
     {
       "builder": null,
       "category": "art",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "The Wheel Archive project aims to transform every settled batch of Squeekchain rounds into a sealed capsule, as described in its public overview "
-            },
-            {
-              "text": "the project website",
-              "url": "https://wheel-archive-every-turn-kept.imd.site"
-            },
-            {
-              "text": ". This simple concept focuses on preserving completed data in a distinct, contained format."
-            }
-          ],
-          [
-            {
-              "text": "To understand how this works, you can explore the details provided in the available materials. A closer look at "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2722-wheel-archive-capsule"
-            },
-            {
-              "text": " or "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/89d18a71-fa33-4fab-b7cc-7b0de3e0e002"
-            },
-            {
-              "text": " offers further context on the process, helping you follow the trail of how these capsules are formed and maintained."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Wheel Archive turns settled batches of Squeekchain rounds into sealed capsules. You can explore the live archive and leave a zero-value stamp on Sepolia.",
       "description_origin": "readme",
@@ -6143,9 +6042,9 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "Squeekchain Genesis is an interactive simulator that demonstrates the Proof-of-Hamster-Work consensus mechanism. Users spin a virtual wheel to generate kinetic energy and observe how it translates into simulated cryptographic hashes. The project also includes a showcase for Genesis campaign mechanics like aura farming and whitelist criteria.",
-      "description_origin": "website",
-      "ecosystem_status": "claimed",
+      "description_en": "An educational simulator that lets users spin a virtual hamster wheel to generate local, simulated scores. It demonstrates Proof-of-Hamster-Work mechanics without transferring cryptocurrency or interacting with the live blockchain.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
       "evidence": [
         {
           "kind": "imd_publication",
@@ -6165,7 +6064,7 @@
         "website": "https://squeekchain-genesis-the-rebellio.imd.site"
       },
       "logo": "logos/ef07dfccad87d323940d4f2219d4a95f13357a0a3cd6c382a4dd0c841ec1b671.svg",
-      "name": "Squeekchain Genesis",
+      "name": "SqueekChain",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
@@ -6932,8 +6831,8 @@
       "builder": null,
       "category": "streaming",
       "contracts": [],
-      "description_en": "Squeek Studio creates custom OBS overlays for Squeekchain broadcasts. You can display wheel telemetry, settled blocks, and recent events in your stream. The tool is designed for streamers who want to visualize chain activity.",
-      "description_origin": "source",
+      "description_en": "A browser-based tool for building custom OBS overlays for Squeekchain streams. You can arrange widgets to display live wheel telemetry, settled blocks, and recent events. The editor runs entirely in the browser without requiring a wallet or account.",
+      "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
         {
@@ -7829,7 +7728,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "Squeek Garden is a pixel garden where plants grow based on Squeektoshi's real wheel activity on Squeekchain. You plant seeds and watch them develop as the hamster runs, with different moods affecting the growth process.",
+      "description_en": "Squeek Garden is a pixel garden where plants grow based on Squeektoshi's real wheel rounds. You plant seeds, manage barn animals, and collect goods to earn pips. The game includes skills, decorations, and daily challenges to track your progress.",
       "description_origin": "website",
       "ecosystem_status": "weak",
       "evidence": [],
