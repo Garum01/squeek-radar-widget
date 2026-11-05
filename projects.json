@@ -1247,7 +1247,7 @@
       ],
       "category": "tools",
       "contracts": [],
-      "description_en": "A read-only Telegram bot that monitors Squeekchain wallets for claimable SQK, merge readiness, and hamster activity. It sends alerts for block completions and wallet transfers, while providing commands to calculate optimal merge ladders and claim batches.",
+      "description_en": "A read-only Telegram bot that monitors Squeekchain wallets to alert users about claimable SQK, merge cooldowns, and hamster wheel activity. It provides a merge ladder for planning token upgrades and tracks wallet transfers, stakes, and block completions without requiring private keys.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -1284,35 +1284,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Hamster Boss Raid is a cooperative game where a Squeekchain hamster powers the action. As the hamster runs, it reduces boss health, while players contribute damage through squeak attacks and combos. The boss gets a breather when the hamster naps, as described on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://hamster-boss-raid.vercel.app"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To understand the mechanics, you can explore the details provided in "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/bangpateng/hamster-boss-raid"
-            },
-            {
-              "text": ". This guide helps you follow the source trail to see how the hamster's movement and player inputs interact during the fight."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A cooperative boss fight where the Squeekchain hamster's running distance directly reduces enemy health. Players add damage by pressing space to squeak, building combos for extra hits. The boss recovers when the hamster naps, requiring players to keep the wheel turning.",
       "description_origin": "readme",
@@ -2312,7 +2283,7 @@
       ],
       "category": "analytics",
       "contracts": [],
-      "description_en": "A live dashboard that shows whether Squeektoshi is running on the wheel. It displays real-time stats like wheel RPM, total work, block height, and difficulty on the Sepolia testnet. You can also watch the official livestream and send a harmless ping transaction to the SQK token.",
+      "description_en": "A live dashboard that answers whether Squeektoshi is currently running on the wheel. It displays real-time telemetry like RPM and total work, alongside Squeekchain stats such as block height and difficulty. The interface also links to the official livestream and offers an optional button to send a harmless transaction to the SQK token.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -2696,7 +2667,7 @@
       ],
       "category": "analytics",
       "contracts": [],
-      "description_en": "A read-only tracker that measures how long SqueekCore takes to settle closed rounds on Sepolia. It displays batches, gaps, and unsettled rounds at a single finalized block, with options for alerts and CSV downloads.",
+      "description_en": "A read-only tracker that measures how long SqueekCore takes to settle closed rounds on Sepolia. It displays batches, gaps, and unsettled rounds at a finalized block, with options for alerts and CSV downloads.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -4027,7 +3998,7 @@
       ],
       "category": "prediction",
       "contracts": [],
-      "description_en": "Hamster Hour is a betting platform where users wager IMD tokens on the outcome of a hamster running on a wheel. Participants watch a live camera feed and guess the jackpot amount during a one-hour session. The project runs on Ethereum and offers a $HAMSTER token for users who lose bets.",
+      "description_en": "Hamster Hour is a betting platform where users wager IMD on the outcome of a hamster running on a wheel. Participants watch a live camera feed and guess the jackpot amount during a one-hour session. The project operates on Ethereum and centers on the activity of a real hamster.",
       "description_origin": "website",
       "ecosystem_status": "confirmed",
       "evidence": [
@@ -4741,7 +4712,7 @@
       ],
       "category": "tools",
       "contracts": [],
-      "description_en": "A planning tool for Squeekchain that calculates SQK earnings based on the Proof of Squeek rule. It shows how much your deposited Squeeks and staked SQK earn, predicts when merging pays off, and estimates the value of adding another Squeek. The interface allows you to simulate these moves directly from your wallet on the testnet.",
+      "description_en": "A planning tool for Squeekchain that calculates earnings from Squeeks and staked SQK under the Proof of Squeek rule. It helps users determine the optimal next move, such as merging Squeeks or adding more stake, by modeling network power and emission schedules.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -5635,7 +5606,7 @@
           "chain_id": 11155111
         }
       ],
-      "description_en": "SqueekBet is a prediction market where users stake $SQK on whether Squeektoshi will mine enough blocks. Winners split the pool, and every result is settled onchain without an oracle.",
+      "description_en": "SqueekBet is a prediction market where users stake SQK on whether Squeektoshi will mine enough blocks in upcoming rounds. Winners split the pool, and results are settled onchain without an oracle. A live camera stream allows participants to watch the hamster while betting.",
       "description_origin": "website",
       "ecosystem_status": "confirmed",
       "evidence": [
@@ -5989,7 +5960,7 @@
       ],
       "category": "art",
       "contracts": [],
-      "description_en": "Wheel Canvas is a community artwork where Squeektoshi's wheel movements paint a living canvas. You add your own color to the piece and explore past nights of activity on Squeekchain.",
+      "description_en": "Wheel Canvas is a community artwork where Squeektoshi's wheel movements paint a live generative canvas. You can add your own colored stroke by signing a zero-value SQK approval on Sepolia, contributing to the evolving piece.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -6492,9 +6463,9 @@
           "url": "https://x.com/berru_alexander"
         }
       ],
-      "category": "nft",
+      "category": "tools",
       "contracts": [],
-      "description_en": "Assign an English name to your Squeek hamster NFT and store it on-chain. Collect likes and SQK tips from the community for your chosen name.",
+      "description_en": "Users can generate names in various styles, collect likes, and receive SQK tips. The site displays real-time hamster activity and weekly leaderboards.",
       "description_origin": "placeholder",
       "ecosystem_status": "weak",
       "evidence": [],
@@ -6881,7 +6852,7 @@
       ],
       "category": "analytics",
       "contracts": [],
-      "description_en": "Squeek Pit Crew is a companion dashboard for Squeekchain that displays live hamster-cam footage and real-time wheel statistics. Users can connect a wallet to send a zero-allowance transaction, which serves as a simple first step for interacting with the network and earning a badge.",
+      "description_en": "A companion dashboard for Squeekchain that streams live footage of Squeektoshi and displays real-time metrics like wheel RPM and block height. Users can send a zero-allowance test transaction to verify their wallet and earn a Genesis badge.",
       "description_origin": "website",
       "ecosystem_status": "weak",
       "evidence": [],
