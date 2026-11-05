@@ -855,22 +855,57 @@
           "url": "https://x.com/azrarm"
         }
       ],
-      "category": "tools",
+      "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Boss Raid is a weekly co-op event on Squeekchain where the boss's health decreases only when Squeektoshi the hamster runs. This damage comes from his certified wheel work on SqueekCore, as described in "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekbossraid.xyz"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To follow the details, you can check "
+            },
+            {
+              "text": "a public source",
+              "url": "https://eth-sepolia.blockscout.com/address/0x980b4424c007caf7a1f3670b48c8eaef7ebc3d44"
+            },
+            {
+              "text": " for more context. It helps to see how enlisting with a class and planning round calls fit into the on-chain leaderboard experience."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
-      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
-      "description_origin": "placeholder",
-      "ecosystem_status": "weak",
-      "evidence": [],
+      "description_en": "A weekly co-op boss raid on Squeekchain. The boss's HP falls only when Squeektoshi the hamster actually runs: damage is his certified wheel work from SqueekCore on Sepolia. Enlist with a class, plan your round calls, climb an on-chain leaderboard.",
+      "description_origin": "website",
+      "ecosystem_status": "confirmed",
+      "evidence": [
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0x980b4424c007caf7a1f3670b48c8eaef7ebc3d44"
+        }
+      ],
       "first_seen": "2026-11-05T02:05:39.515610+00:00",
       "id": "14d711ec62622ac0",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://squeekbossraid.xyz"
       },
-      "name": "squeekbossraid.xyz",
+      "logo": "logos/fa6368c39a4dcee42f65abf93186cfeee34eec9963d753be8e205ea7729981b9.svg",
+      "name": "Squeek Boss Raid",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -1111,10 +1146,10 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
       "contracts": [],
-      "description_en": "Dispatch five wagons of real Sepolia settlement blocks into three tunnels and keep overflow as low as you can. An unofficial Squeekchain puzzle.",
-      "description_origin": "source",
+      "description_en": "An unofficial, mobile-first browser puzzle for Squeekchain. You are a hamster rail dispatcher: route five wagons, each carrying the completed blocks of one real Sepolia settlement batch, into three tunnels with different capacities. Lowest total overflow wins, and you try to do it in under a minute. Scores are game rul…",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -1315,14 +1350,14 @@
       "first_seen": "2026-11-03T08:23:12.341117+00:00",
       "id": "2604239a3262d6aa",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/bangpateng/hamster-boss-raid",
         "website": "https://hamster-boss-raid.vercel.app"
       },
       "name": "Hamster Boss Raid",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -1670,6 +1705,37 @@
     {
       "builder": "theidmfun",
       "category": "other",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Intelligent Dance Market is a Uniswap v4 hook where on-chain state acts as a 16-step drum machine, turning every trade into a note "
+            },
+            {
+              "text": "the project website",
+              "url": "https://theidm.fun"
+            },
+            {
+              "text": ". This design frames market activity as a rhythmic sequence rather than a standard ledger entry. To understand how this works, you can follow the technical details in "
+            },
+            {
+              "text": "the documentation",
+              "url": "https://theidm.fun/docs"
+            },
+            {
+              "text": " or check "
+            },
+            {
+              "text": "a team post",
+              "url": "https://x.com/squeekchain/status/2115158642806653141"
+            },
+            {
+              "text": " for context on the concept."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Intelligent Dance Market ($IDM): a Uniswap v4 hook whose on-chain state is a 16-step drum machine. Every trade is a note.",
       "description_origin": "website",
@@ -2216,6 +2282,42 @@
     {
       "builder": null,
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Run is a silly browser runner featuring a hamster with terrible fashion sense. According to "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeek-run-small-hamster-big-pro.imd.site"
+            },
+            {
+              "text": ", you put a pressure cooker on its head, hand it a toilet plunger, and try to survive the wheel."
+            }
+          ],
+          [
+            {
+              "text": "To understand the details, you can follow the trail in "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/identity-md-launches/launch-2780-project-goal-funny-chaotic"
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/297ae167-a512-4e36-8f4e-4f2f8185919a"
+            },
+            {
+              "text": ". These entries provide the context for the game's unique mechanics and the hamster's questionable style choices."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A silly browser runner for a hamster with terrible fashion sense. Put a pressure cooker on its head, hand it a toilet plunger, and try to survive the wheel.",
       "description_origin": "readme",
@@ -2338,35 +2440,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Out is a game of nerve where you ride Squeektoshi's wheel and bail before he stops, all happening on Squeekchain, the hamster-powered blockchain "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekout.fun"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To understand how this works, you can check the project website for more details on the mechanics and the unique blockchain environment "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekout.fun"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Ride Squeektoshi's wheel and bail before he stops. A game of nerve on Squeekchain, the hamster-powered blockchain.",
       "description_origin": "website",
@@ -2783,14 +2856,14 @@
       "first_seen": "2026-10-31T06:05:24.051472+00:00",
       "id": "5b854a58453bd8a4",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/ekervo/Squeekchain-Hamster-Derby",
         "website": "https://squeekchain-hamster-derby.vercel.app"
       },
       "name": "Hamster Derby",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -2814,35 +2887,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Pip is a 3D hamster game built as a static site, designed for visitors to pet, feed, and grow their companion over real time. This specific revision focuses on repairing a previously published texture failure, ensuring the five authored growth meshes display correctly as described in the project overview "
-            },
-            {
-              "text": "the project website",
-              "url": "https://pip-squeekchain-hamster-com-edf1.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To understand how this works, you can follow the technical details provided in the public records. These sources outline the specific changes made to the Vite and React setup, helping you see exactly how the visual issues were addressed in this continued build "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2907-new-project-pip"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "The Pip hamster game as a static Vite + React + TypeScript site, continued from b6aee41c5919311d4fa19a6a0cba9f961497fe9f. This revision repairs the published texture failure. Pip is a 3D hamster (five authored growth meshes from the reference build) that visitors pet, feed, play with and grow over real time. It also of…",
       "description_origin": "readme",
@@ -3391,49 +3435,6 @@
     {
       "builder": "CelerityCodes",
       "category": "defi",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "The developer describes quadConnect as an automated vault. It combines Squeekchain mining with hourly long and short strategies, plus compounding, according to the project's own description "
-            },
-            {
-              "text": "the project website",
-              "url": "https://quad.cx"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To see how this works, you can follow the trail from "
-            },
-            {
-              "text": "a team post",
-              "url": "https://x.com/pillheadddd/status/2112707335022166376"
-            },
-            {
-              "text": " to "
-            },
-            {
-              "text": "the code repository",
-              "url": "https://github.com/clrhc/quadConnect"
-            },
-            {
-              "text": ". Reading "
-            },
-            {
-              "text": "the announcement",
-              "url": "https://x.com/CelerityCodes/status/2112654209430827034"
-            },
-            {
-              "text": " might also help you understand the setup better."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "The developer describes an automated vault combining Squeekchain mining, hourly long/short strategies and compounding. A testnet has been announced; the contract and live operation have not been independently confirmed.",
       "description_origin": "source",
@@ -4251,6 +4252,10 @@
         {
           "kind": "team_mention",
           "url": "https://x.com/pillheadddd/status/2116210686665859099"
+        },
+        {
+          "kind": "website",
+          "url": "https://hamster-hour-bet-on-the-wheel.site.identitymd.eth.limo/"
         }
       ],
       "first_seen": "2026-10-23T19:28:51.093916+00:00",
@@ -4259,6 +4264,7 @@
       "lifecycle_stage": "development",
       "links": {
         "announcement": "https://x.com/hamsterhourgame/status/2116181078650331524",
+        "docs": "https://github.com/identity-md-launches/launch-1951-workflow-contract-stage-context/blob/HEAD/docs/ABI.md",
         "website": "https://hamsterhour.fun",
         "x": "https://x.com/hamsterhourgame"
       },
@@ -6312,13 +6318,13 @@
       "first_seen": "2026-11-03T02:38:40.153246+00:00",
       "id": "c36a408f89663ccd",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://hamster-run.pages.dev"
       },
       "name": "Hamster Run",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -6871,13 +6877,13 @@
       "first_seen": "2026-11-01T16:45:39.777411+00:00",
       "id": "d26fc132e0fc6825",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://squeekscope-squeekchain-command.imd.site"
       },
       "name": "SqueekScope",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -7379,13 +7385,13 @@
       "first_seen": "2026-11-03T09:42:54.314204+00:00",
       "id": "e781b475cf0d6331",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://finish-product-322f7d.surf.computer"
       },
       "name": "Hoàn thiện sản phẩm đã gửi",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -7873,6 +7879,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/10243a89-33c6-4399-a3b2-85890e3ddc68"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/0d169d04-aca1-4e62-b69d-97109149a850"
         }
       ],
       "first_seen": "2026-11-05T01:56:50.408322+00:00",
