@@ -1263,35 +1263,6 @@
         }
       ],
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Pixel Pit is a multiplayer game where each wallet holds a brush budget of zero to forty pixels. This budget refills only through settled Squeek blocks, and the contract rejects any paints that exceed this limit "
-            },
-            {
-              "text": "the project website",
-              "url": "https://hamsterpit.xyz"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow the source trail, start with the project website for the core mechanics. You can then cross-reference the details in the other public sources to see how the budget rules are described elsewhere "
-            },
-            {
-              "text": "a public source",
-              "url": "https://eth-sepolia.blockscout.com/tx/0x2105a8fa57ae7160e0f57e859e5b341c3428763859659cfaa9bb843569761bba"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [
         {
           "address": "0x0b71e2aeb9eda244ba53492efa83f913a37cbd83",
@@ -4045,6 +4016,10 @@
         {
           "kind": "github_code",
           "url": "https://github.com/Xelp66/squeeksense-ai/blob/050a185c7583a703c23a49c25a5abb9fd18467ca/README.md"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/Xelp66/squeeksense-ai/blob/a7b72a47f3abb3a4dc87d0c223693af38b55544c/README.md"
         }
       ],
       "first_seen": "2026-11-04T19:52:10.805830+00:00",
