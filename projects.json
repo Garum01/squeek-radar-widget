@@ -4171,6 +4171,14 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "post",
+          "label": "@naxweb3",
+          "source": "https://x.com/naxweb3/status/2118752366103237076",
+          "url": "https://x.com/naxweb3"
+        }
+      ],
       "category": "game",
       "contracts": [],
       "description_en": "Squeek Burrow is a 3D hamster kart racing game for Squeekchain. Your turbo charges twice as fast while the real Squeekchain hamster runs. All models, textures, music and sound effects are generated in code.",
@@ -6872,9 +6880,9 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "A retro top-down open-world heist game where you play a hamster thief moving through a small town. The game's day and night cycle is driven live by Squeektoshi, the real hamster mining Squeekchain blocks.",
+      "description_en": "A top-down heist game where Squeektoshi's physical activity controls the gameplay. Running opens the route, sleep closes it, and new wheel blocks unlock payouts. The live mode relies entirely on observed chain data without simulated fallbacks.",
       "description_origin": "readme",
-      "ecosystem_status": "claimed",
+      "ecosystem_status": "weak",
       "evidence": [
         {
           "kind": "github_mention",
@@ -6891,7 +6899,7 @@
         "website": "https://squeekcity.space"
       },
       "logo": "logos/2b08b1c1ce6e548d88bb3f8b08df7f614a460c3189c0b3f9a0a8cd6661a9134b.png",
-      "name": "Squeek City",
+      "name": "open http://localhost:8000",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
