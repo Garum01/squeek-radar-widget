@@ -326,6 +326,7 @@ function projectDetails(project) {
     x_profile: 'the project’s public profile', onchain: 'an on-chain reference',
     contract_interaction: 'a contract interaction reference', website: 'a website reference',
     imd_publication: 'the public IMD build job', imd_site: 'the earlier IMD-hosted address',
+    owner_site: 'another site of this project',
     owner_lead: 'the public post that led us here'};
   for (const source of project.evidence || []) {
     const url = safeURL(source.url);

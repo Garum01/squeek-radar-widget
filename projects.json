@@ -395,7 +395,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "Squeek Foundry: publish an original finished factory-automation browser game for Squeekchain Genesis Code. NEW project/repository, not a Garden reskin. Obey https://squeekchain.com/genesis/code. Deliver working gameplay, deterministic simulation and replay, not dashboards, wrappers, clones or approval claims. GAME: Factory: ore -> belts/splitte...",
+      "description_en": "Squeek Foundry is a factory automation browser game where you build a copper-and-cyan facility to process ore into delivered pods. The gameplay involves managing intermittent wheel electricity and features offline training with reproducible Squeekchain Historical Shifts.",
       "description_origin": "source",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -635,7 +635,7 @@
           "chain_id": 11155111
         }
       ],
-      "description_en": "Adopt a soulbound on-chain pet that grows based on Squeektoshi's real wheel activity. Cheer for your pet during 10-minute rounds to earn XP, which determines its stage from Egg to Legend. Pets can become hungry or sleepy if not cheered for, and Squeek NFT holders receive a golden collar.",
+      "description_en": "Adopt a soulbound on-chain pet that grows based on Squeektoshi's real wheel activity. Cheer for your pet during 10-minute rounds to earn XP, which determines its stage from Egg to Legend. Neglecting your pet causes it to become hungry or sleepy.",
       "description_origin": "readme",
       "ecosystem_status": "confirmed",
       "evidence": [
@@ -2262,7 +2262,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "# Build SqueekQuest – SqueekChain Interactive Game Act as a senior Web3 full-stack development team. Build a complete, functional web game called SqueekQuest, powered by real SqueekChain blockchain data. Official resources: - Website: https://squeekchain.com/ - Documentation: https://docs.squeekchain.com/ - API: https://api.squeekchain.com/v...",
+      "description_en": "SqueekQuest is a playable hamster adventure where you explore a valley and complete quests using real SqueekChain data. You move through the map to find seeds and follow signals, connecting your in-game discoveries to actual chain events on Sepolia.",
       "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
@@ -3022,7 +3022,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "Tap a hamster, earn Squeeks, and grow your little economy. A free browser game with staking, mining, and account power. Game only, no real rewards.",
+      "description_en": "Squeekchain Tap is a free browser game where you tap a hamster to earn Squeeks. You can stake these tokens to build account power or buy mining rigs to earn while waiting. The game includes upgrades that increase your earnings, though progress resets when you refresh the page.",
       "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
@@ -3150,7 +3150,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "A zero-backend, pixel-art side-scrolling arcade (Nokia Space Impact style) where the enemy waves are driven by the live Squeekchain hamster PoW chain.",
+      "description_en": "A Nokia-era side-scrolling arcade game where enemy waves are driven by the live Squeekchain hamster PoW chain. Players move and auto-fire to survive, with gameplay intensity changing based on whether the hamster is spinning or asleep.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -3969,6 +3969,7 @@
       "links": {
         "website": "https://squeekerant.online"
       },
+      "logo": "logos/d82b7de6d07a6d00e01de3184b064ba41b7b25174dacb1dee3b55883a20405ba.png",
       "name": "Squeekerant",
       "publication_origin": "owner_approved",
       "stage": "development"
@@ -6285,6 +6286,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/9e8032cd-8334-4c13-8d9b-31b85811b4b1"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/4bd67f0f-0ab8-4546-9e34-51901fa36f62"
         }
       ],
       "first_seen": "2026-10-30T09:23:16.390827+00:00",
