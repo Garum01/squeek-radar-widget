@@ -2116,6 +2116,12 @@
       "logo": "logos/68b00615ab8598e0e08465385f661dc3cbec8f5129cea93cca2970ce57bd272d.svg",
       "name": "Squeek Wheel Arena",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "bbcbc52f07d1682d",
+          "name": "Squeek Arena"
+        }
+      ],
       "stage": "development"
     },
     {
@@ -2466,7 +2472,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "Wheelhaven is a crop strategy game where you grow carrots, broccoli, and sunflower seeds. The game's growth mechanics are driven by the real wheel passages of Squeektoshi, the hamster powering Squeekchain. You tend to a food patch and harvest ingredients to build up a pantry for the hamster.",
+      "description_en": "Wheelhaven is a crop strategy game where you grow carrots, broccoli, and sunflower seeds using Squeektoshi's real wheel passages. You tend to a food patch and harvest ingredients to build a pantry for the hamster.",
       "description_origin": "website_ai",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -3983,7 +3989,7 @@
       "builder": null,
       "category": "prediction",
       "contracts": [],
-      "description_en": "Squeek Picks is a prediction game where you guess the nightly running distance, busiest hours, and block count of Squeektoshi, a real hamster on a wheel. Correct guesses earn points for a leaderboard, and accurate season predictions can result in a Sepolia NFT receipt.",
+      "description_en": "Squeek Picks is a free prediction game where you guess the nightly running distance, busiest hours, and block count of Squeektoshi, a real hamster on a wheel. Correct guesses earn points for leaderboards, while accurate season predictions can mint Sepolia NFTs as receipts of the hamster's run.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [],
@@ -5620,6 +5626,42 @@
     },
     {
       "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "Squeek Arena is a free-to-play hamster action-adventure game featuring three pixel-art worlds. Players master their moves to defeat the final boss, the Iron Gnaw, without needing a wallet.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-3016-build-deliver-squeek-arena"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/d0cfefcd-572b-48aa-a9c0-1ea6b7bc7270"
+        }
+      ],
+      "first_seen": "2026-11-05T22:17:04.021615+00:00",
+      "id": "bbcbc52f07d1682d",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-3016-build-deliver-squeek-arena",
+        "website": "https://squeek-arena.imd.site"
+      },
+      "logo": "logos/4f304832e3b5f121323f500ec81fef84d28aa7006fb280b3eed2cda62d38f9e2.svg",
+      "name": "Squeek Arena",
+      "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "43bbd3f40c691678",
+          "name": "Squeek Wheel Arena"
+        }
+      ],
+      "stage": "development"
+    },
+    {
+      "builder": null,
       "category": "tools",
       "contracts": [],
       "description_en": "An educational simulator that lets users spin a virtual hamster wheel to generate local, simulated scores. It demonstrates Proof-of-Hamster-Work mechanics without transferring cryptocurrency or interacting with the live blockchain.",
@@ -6142,8 +6184,8 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "Squeek Wheel Rush is a free browser game where you control Squeektoshi running inside a wheel. You jump over pegs and collect seeds to earn points, with a live bonus when the real hamster is active. Scores are tracked on a worldwide leaderboard.",
-      "description_origin": "source",
+      "description_en": "A free browser game where you keep Squeektoshi running on a wheel by jumping over pegs and collecting seeds. The score grows with a multiplier and a live bonus when the real hamster is active. Players can claim their best time on a worldwide leaderboard.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
