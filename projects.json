@@ -4637,6 +4637,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/84ccdaf5-ef53-4818-986b-9b3f7238a90b"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/52f92b8e-accd-4bb5-8d1d-9e4489565a64"
         }
       ],
       "first_seen": "2026-11-01T22:15:19.172360+00:00",
@@ -7644,8 +7648,8 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "A fan game where you tap a tempo to trace the real speed curves of Squeektoshi's hamster-wheel runs. Match the amber line representing the hamster's pace to earn stickers and track your daily streak.",
-      "description_origin": "source",
+      "description_en": "A browser game where you tap a tempo to trace the real speed curves of Squeektoshi's hamster-wheel runs. You match the amber line representing actual wheel data to earn stickers and track your daily streak. It is an unofficial fan project focused on rhythm and timing.",
+      "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
         {
