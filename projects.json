@@ -594,8 +594,8 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "Squeek Studio is a browser-based tool that turns your onchain Squeeks into profile pictures, banners, wallpapers, stickers, and share cards. It operates as a free, read-only creative studio where you can customize your assets and export them for use anywhere.",
-      "description_origin": "source",
+      "description_en": "A free, read-only browser tool that turns Squeeks into profile pictures, banners, wallpapers, stickers, and share cards. Find a Squeek by number or wallet address to generate custom visuals for social media or personal use.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -4020,6 +4020,10 @@
         {
           "kind": "github_code",
           "url": "https://github.com/Xelp66/squeeksense-ai/blob/a7b72a47f3abb3a4dc87d0c223693af38b55544c/README.md"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/Xelp66/squeeksense-ai/blob/4c96217e99799201ef624dd84046dc0fa2343e45/README.md"
         }
       ],
       "first_seen": "2026-11-04T19:52:10.805830+00:00",
@@ -4651,7 +4655,7 @@
       "category": "tools",
       "contracts": [],
       "description_en": "Squeek Radar is a public live monitor for the Squeekchain hamster wheel. It displays real-time activity, events, milestones, rounds, blocks, and settlements. The tool allows anyone to see what is happening on the wheel without needing a wallet.",
-      "description_origin": "source",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -5290,7 +5294,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "Squeek Pulse is a non-custodial tool for managing Squeekchain assets on Sepolia. It displays your Squeeks and SQK stake, calculates network power, and allows you to stake, claim, deposit, withdraw, or merge items directly from your wallet.",
+      "description_en": "Squeek Pulse is a live companion for Squeekchain that displays Squeektoshi's wheel activity, rounds, and block settlements in real time. It also serves as a non-custodial tool for managing Squeeks and SQK stakes, allowing users to view power calculations and handle staking operations directly.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
