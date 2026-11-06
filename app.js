@@ -396,6 +396,7 @@ function projectDetails(project) {
     const teamPost = builder.kind === 'team_post' && safeURL(builder.source);
     if (teamPost) credit.append('The Squeekchain team named ', external(url, '', builder.label || 'its builder'), ' as its builder in ', external(teamPost, '', 'a post on X'), '.');
     else if (post) credit.append(external(url, '', builder.label || 'Its builder'), ' presented this project as their build in ', external(post, '', 'a post on X'), '.');
+    else if (builder.kind === 'profile') credit.append(external(url, '', builder.label || 'Its builder'), ' is its builder.');
     else credit.append('The site credits ', external(url, '', builder.label || 'its builder'), ' as its builder.');
     copy.append(credit);
   }
