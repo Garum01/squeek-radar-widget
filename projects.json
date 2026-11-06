@@ -820,10 +820,15 @@
         }
       ],
       "category": "launchpad",
-      "contracts": [],
+      "contracts": [
+        {
+          "address": "0x3bc144c0236aaaa6dacfaad62a598ef6fadcc92e",
+          "chain_id": 11155111
+        }
+      ],
       "description_en": "WheelPad issues memecoins on SqueekChain where the supply unlocks only as Squeektoshi runs on the wheel. Users can obtain free test tokens on the Sepolia testnet to interact with the project.",
       "description_origin": "website",
-      "ecosystem_status": "claimed",
+      "ecosystem_status": "confirmed",
       "evidence": [
         {
           "kind": "x_profile",
@@ -836,6 +841,10 @@
         {
           "kind": "ai_hint",
           "url": "https://x.com/pillheadddd/status/2117279128260948345"
+        },
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0x3bc144c0236aaaa6dacfaad62a598ef6fadcc92e"
         }
       ],
       "first_seen": "2026-10-23T12:44:31.145131+00:00",
@@ -843,6 +852,7 @@
       "identity_status": "resolved",
       "lifecycle_stage": "testnet_announced",
       "links": {
+        "explorer": "https://eth-sepolia.blockscout.com/address/0x3bc144c0236aaaa6dacfaad62a598ef6fadcc92e",
         "website": "https://wheelpad.fun",
         "x": "https://x.com/wheelpadfun"
       },
