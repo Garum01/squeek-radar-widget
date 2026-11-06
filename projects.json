@@ -3331,6 +3331,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/5d4a3e68-624d-4a3c-852b-47db537ae720"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/58f7f918-fcbd-48c7-a085-55ce20828c0d"
         }
       ],
       "first_seen": "2026-10-30T09:53:39.032790+00:00",
