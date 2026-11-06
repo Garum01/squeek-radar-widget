@@ -1245,7 +1245,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T09:33:17.657972+00:00",
+        "last_checked": "2026-11-06T21:33:33.466645+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-05T06:45:33.132000+00:00",
@@ -2226,7 +2226,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T09:33:17.657972+00:00",
+        "last_checked": "2026-11-06T21:33:33.466645+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T20:28:19.405000+00:00",
@@ -2331,7 +2331,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T09:33:17.657972+00:00",
+        "last_checked": "2026-11-06T21:33:33.466645+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:37:44.874000+00:00",
@@ -2459,7 +2459,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T09:33:17.657972+00:00",
+        "last_checked": "2026-11-06T21:33:33.466645+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-03T20:27:41.024000+00:00",
@@ -2528,7 +2528,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T09:33:17.657972+00:00",
+        "last_checked": "2026-11-06T21:33:33.466645+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:33:51.063000+00:00",
@@ -2778,7 +2778,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T09:33:17.657972+00:00",
+        "last_checked": "2026-11-06T21:33:33.466645+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T20:55:04.251000+00:00",
@@ -3217,7 +3217,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T09:33:17.657972+00:00",
+        "last_checked": "2026-11-06T21:33:33.466645+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-05T18:50:40.790000+00:00",
@@ -3892,7 +3892,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T09:33:17.657972+00:00",
+        "last_checked": "2026-11-06T21:33:33.466645+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T18:51:42.010000+00:00",
@@ -4024,6 +4024,10 @@
         {
           "kind": "github_code",
           "url": "https://github.com/Xelp66/squeeksense-ai/blob/4c96217e99799201ef624dd84046dc0fa2343e45/README.md"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/Xelp66/squeeksense-ai/blob/8e05dc5d89f81ffb155d8ab9ef286faf9f01e8ea/README.md"
         }
       ],
       "first_seen": "2026-11-04T19:52:10.805830+00:00",
@@ -4234,7 +4238,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T09:33:17.657972+00:00",
+        "last_checked": "2026-11-06T21:33:33.466645+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-03T18:29:23.740000+00:00",
@@ -4467,7 +4471,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T09:33:17.657972+00:00",
+        "last_checked": "2026-11-06T21:33:33.466645+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": true,
         "verified_at": "2026-10-29T21:41:31.306000+00:00",
@@ -5028,7 +5032,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T09:33:17.657972+00:00",
+        "last_checked": "2026-11-06T21:33:33.466645+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:36:12.155000+00:00",
@@ -5666,7 +5670,7 @@
       "publication_origin": "owner_approved",
       "stage": "testnet",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T09:33:17.657972+00:00",
+        "last_checked": "2026-11-06T21:33:33.466645+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T20:44:51.266000+00:00",
@@ -6085,7 +6089,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T09:33:17.657972+00:00",
+        "last_checked": "2026-11-06T21:33:33.466645+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-04T21:05:34.042000+00:00",
@@ -6126,7 +6130,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T09:33:17.657972+00:00",
+        "last_checked": "2026-11-06T21:33:33.466645+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-03T20:48:31.131000+00:00",
@@ -6622,7 +6626,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T09:33:17.657972+00:00",
+        "last_checked": "2026-11-06T21:33:33.466645+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-30T00:45:08.265000+00:00",
@@ -6938,7 +6942,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T09:33:17.657972+00:00",
+        "last_checked": "2026-11-06T21:33:33.466645+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T22:39:31.786000+00:00",
@@ -7075,7 +7079,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T09:33:17.657972+00:00",
+        "last_checked": "2026-11-06T21:33:33.466645+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:55:44.291000+00:00",
@@ -7552,9 +7556,9 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T09:33:17.657972+00:00",
+        "last_checked": "2026-11-06T21:33:33.466645+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
-        "stale": false,
+        "stale": true,
         "verified_at": "2026-11-05T11:19:23.352000+00:00",
         "version": 1
       }
