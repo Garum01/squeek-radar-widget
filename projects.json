@@ -2371,35 +2371,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Wheelhaven is an original crop strategy game where players grow carrots, broccoli, and sunflower seeds powered by real hamster wheel passages, as described in the project overview "
-            },
-            {
-              "text": "the project website",
-              "url": "https://wheelhaven.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To understand how this works, you can explore the details provided in the public materials "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/cc67daed-e7f8-4ff8-845f-2fc8e19150c7"
-            },
-            {
-              "text": ". This helps you see the connection between the physical wheel movements and the in-game growth mechanics."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Wheelhaven is a crop strategy game where you grow carrots, broccoli, and sunflower seeds. The game's growth mechanics are driven by the real wheel passages of Squeektoshi, the hamster powering Squeekchain. You tend to a food patch and harvest ingredients to build up a pantry for the hamster.",
       "description_origin": "website_ai",
@@ -2408,6 +2379,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/cc67daed-e7f8-4ff8-845f-2fc8e19150c7"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/91e72e48-9f29-4f7c-b1bb-f3423d4fab9d"
         }
       ],
       "first_seen": "2026-11-05T11:57:50.113843+00:00",
@@ -3338,7 +3313,7 @@
       "builder": "CelerityCodes",
       "category": "defi",
       "contracts": [],
-      "description_en": "QuadConnect is an automated vault on SqueekChain that deposits USDC, ETH, or SQK to participate in mining boards and long/short markets. Earnings from these activities compound automatically, allowing users to grow their balance without manual intervention. The project currently operates on a testnet using paper money.",
+      "description_en": "QuadConnect is a vault on Squeekchain where you deposit USDC, ETH, or SQK to earn returns. The balance grows automatically through mining boards, the hamster desk, and Squeek earnings, with compounding handled by the system. Users can test the strategy using paper money on the Sepolia testnet.",
       "description_origin": "source",
       "ecosystem_status": "confirmed",
       "evidence": [
@@ -3490,6 +3465,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/d916e39b-ac0b-44e0-a28a-7f21386c3927"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/14781b07-c7eb-4a2c-a313-7734d91b958a"
         }
       ],
       "first_seen": "2026-11-04T18:55:35.715126+00:00",
@@ -3689,11 +3668,11 @@
           "url": "https://x.com/huynh7903"
         }
       ],
-      "category": "tools",
+      "category": "game",
       "contracts": [],
-      "description_en": "Squeekerant is a community board where users can post messages and manage their activity. It includes a quiet hours feature to control when posts are visible.",
-      "description_origin": "placeholder",
-      "ecosystem_status": "weak",
+      "description_en": "Squeekerant is a free pixel restaurant game controlled by Squeektoshi, a real hamster on a wheel. When the hamster runs, guests enter the restaurant, and when it sleeps, new dishes are dreamed up. The game has no tokens or fees.",
+      "description_origin": "website",
+      "ecosystem_status": "claimed",
       "evidence": [],
       "first_seen": "2026-11-05T16:40:14.755270+00:00",
       "id": "7a972e8bea54b158",
@@ -6065,7 +6044,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "Burrow Power is a neon survival game where you protect Pip's underground home through six illustrated encounters. Real Squeekchain wheel activity shapes the gameplay, requiring you to choose between spending power on protection, improvising, or accepting damage to bank resources.",
+      "description_en": "Burrow Power is a neon survival game where you protect Pip's underground home through six illustrated encounters. You read each threat and choose a response to keep the nest, garden, and tunnels above zero until sunrise. The game's challenges are shaped by real Squeekchain wheel activity.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -6583,7 +6562,7 @@
       ],
       "category": "analytics",
       "contracts": [],
-      "description_en": "A companion dashboard for Squeekchain that streams live footage of Squeektoshi and displays real-time metrics like wheel RPM and block height. Users can send a zero-allowance test transaction to verify their wallet and earn a Genesis badge.",
+      "description_en": "A hamster-cam companion for Squeekchain that displays live stats on Squeektoshi's wheel activity, including speed, distance, and block height. Users can connect a wallet to send a zero-allowance transaction, which serves as a simple test for interacting with the chain.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [],
