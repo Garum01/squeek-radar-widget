@@ -2273,6 +2273,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/d44df940-5c82-4bb9-b618-4987f67ccc9d"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/3c695fed-c7e7-43b1-83c6-5ee6b4d16a3d"
         }
       ],
       "first_seen": "2026-11-06T09:27:18.879862+00:00",
@@ -2457,8 +2461,8 @@
       ],
       "category": "game",
       "contracts": [],
-      "description_en": "Squeek Out is a game of nerve on Squeekchain where players ride Squeektoshi's wheel and must bail before he stops. You join a lobby, stay on the wheel as long as you dare, and claim a share of the game treasury if you exit in time. The game ends when the hamster stops, and anyone still on the wheel is caught and loses their entry.",
-      "description_origin": "website",
+      "description_en": "Squeek Out is a game of nerve on Squeekchain where players ride Squeektoshi's wheel and must bail before he stops. Holders of Squeek NFTs can join the lobby to win a share of the game treasury, with payouts increasing the longer they stay on the wheel. The game ends when the hamster stops, and anyone still riding is caught and loses their entry.",
+      "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
         {
