@@ -71,6 +71,10 @@
         {
           "kind": "github_code",
           "url": "https://github.com/0xairr/squeekswap/blob/eb99cde42917e3686e31d9fe199ec138a7da13be/web/lib/deployments.ts"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/0xairr/squeekswap/blob/eb99cde42917e3686e31d9fe199ec138a7da13be/README.md"
         }
       ],
       "first_seen": "2026-11-04T19:22:01.493294+00:00",
@@ -774,35 +778,6 @@
         }
       ],
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Boss Raid is a weekly co-op event on Squeekchain where the boss's health decreases only when Squeektoshi the hamster runs. This damage comes from his certified wheel work on SqueekCore, as described in "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekbossraid.xyz"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow the details, you can check "
-            },
-            {
-              "text": "a public source",
-              "url": "https://eth-sepolia.blockscout.com/address/0x980b4424c007caf7a1f3670b48c8eaef7ebc3d44"
-            },
-            {
-              "text": " for more context. It helps to see how enlisting with a class and planning round calls fit into the on-chain leaderboard experience."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A weekly cooperative raid where a boss's health decreases only when Squeektoshi the hamster runs on his wheel. Players enlist with a class, predict the hamster's activity in ten-minute rounds, and compete for points on an on-chain leaderboard.",
       "description_origin": "website",
@@ -1260,7 +1235,7 @@
           "chain_id": 11155111
         }
       ],
-      "description_en": "Pixel Pit: a multiplayer game where each wallet has a brush budget of 0-40 pixels refilled only by settled Squeek blocks; the contract rejects paints beyond budget. Unofficial fan project on the Sepolia testnet.",
+      "description_en": "Pixel Pit is a multiplayer game where each wallet holds a brush budget of 0-40 pixels. This budget refills only when Squeek blocks settle, and the contract rejects any paint attempts that exceed the limit.",
       "description_origin": "website",
       "ecosystem_status": "weak",
       "evidence": [
@@ -2103,7 +2078,7 @@
       "builder": null,
       "category": "prediction",
       "contracts": [],
-      "description_en": "Race or bet against Squeektoshi, a real hamster on a live wheel. Every outcome settles on the real round from Squeekchain's public API.",
+      "description_en": "Squeek Wheel Arena lets you race or bet against Squeektoshi, a real hamster running on a live wheel. Every outcome is settled using the actual round data from Squeekchain's public API, ensuring the results reflect the hamster's real performance.",
       "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
@@ -2536,7 +2511,7 @@
         "version": 1
       },
       "contracts": [],
-      "description_en": "Wheelhaven is an original crop strategy game where players grow carrots, broccoli, and sunflower seeds powered by real hamster wheel passages.",
+      "description_en": "Wheelhaven is a crop strategy game where you grow carrots, broccoli, and sunflower seeds. The game's growth mechanics are driven by the real wheel passages of Squeektoshi, the hamster powering Squeekchain. You tend to a food patch and harvest ingredients to build up a pantry for the hamster.",
       "description_origin": "website_ai",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -3437,7 +3412,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "Pick a stall. The real wheel decides how fast it works. A small, living night market for the Squeekchain community. Play as a guest, no Squeek required.",
+      "description_en": "A small, living night market for the Squeekchain community where players pick a stall to play. The real hamster wheel determines how fast the game works.",
       "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
@@ -3996,42 +3971,6 @@
     {
       "builder": null,
       "category": "prediction",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Picks is a research initiative by the IdentityMD worker network. It organizes reports, supporting files, and provenance data into distinct groups based on specific jobs "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekpicks.xyz"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow the source trail, start with the project website for an overview of the grouped outputs "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekpicks.xyz"
-            },
-            {
-              "text": ". You can also explore the code repository to see how these research components are structured and maintained "
-            },
-            {
-              "text": "the code repository",
-              "url": "https://github.com/Identity-md/research/blob/main/jobs/06d98304-78a4-4089-815a-2be96ef1f7c5/files/AUDIT.md"
-            },
-            {
-              "text": "."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Squeek Picks is a prediction game where you guess the nightly running distance, busiest hours, and block count of Squeektoshi, a real hamster on a wheel. Correct guesses earn points for a leaderboard, and accurate season predictions can result in a Sepolia NFT receipt.",
       "description_origin": "readme",
@@ -4053,42 +3992,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Burrow is a 3D hamster kart racing game for Squeekchain, built with React, Three.js, and Vite. As described in "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekburrow.site"
-            },
-            {
-              "text": ", all models, textures, music, and sound effects are generated in code, meaning there are no asset files."
-            }
-          ],
-          [
-            {
-              "text": "To understand how this works, you can explore the technical details in "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/bangpateng/squeek-burrow"
-            },
-            {
-              "text": " or "
-            },
-            {
-              "text": "a public source",
-              "url": "https://squeek-burrow.vercel.app"
-            },
-            {
-              "text": ". These materials help you follow the source trail and see how the code generates the game's visual and audio elements directly."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Squeek Burrow is a 3D hamster kart racing game for Squeekchain. Your turbo charges twice as fast while the real Squeekchain hamster runs. All models, textures, music and sound effects are generated in code.",
       "description_origin": "readme",
@@ -4333,7 +4236,7 @@
       "builder": null,
       "category": "prediction",
       "contracts": [],
-      "description_en": "A free prediction game on Squeekchain. Guess whether Squeektoshi the hamster is running or asleep next round, scored from live wheel telemetry.",
+      "description_en": "Squeek or Sleep is a free prediction game where you guess whether Squeektoshi the hamster is running or asleep in the next round. Your score depends on correctly calling changes in the hamster's activity, with points awarded based on live wheel telemetry from Squeekchain.",
       "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
@@ -4842,9 +4745,9 @@
     },
     {
       "builder": null,
-      "category": "game",
+      "category": "art",
       "contracts": [],
-      "description_en": "A living 3D world built on Squeekchain, with a game at its centre. Visitors walk a hamster through an underground burrow where every pillar, block and door is backed by a real record, and The Great Dig turns real settled rounds into a game communities play together.",
+      "description_en": "Squeek Time Machine is a living underground archive that grows with every settled Squeekchain block. Visitors walk through the project's history in a 3D burrow where pillars and doors are backed by real records. The live archive is currently in preview, allowing users to explore the environment and practice wheels.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -5234,42 +5137,6 @@
     {
       "builder": null,
       "category": "defi",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Hamster Mining Reserve is a Sepolia vault that permanently pools Graph A Squeek mining NFTs, as described in "
-            },
-            {
-              "text": "the project website",
-              "url": "https://hamster-mining-reserve-squeek-nf.imd.site"
-            },
-            {
-              "text": ". Depositors receive ERC-20 accounting shares, while a strategist merges equal-level NFTs so holders can claim their proportion of funded SQK rewards."
-            }
-          ],
-          [
-            {
-              "text": "To follow the source trail, start with "
-            },
-            {
-              "text": "the documentation",
-              "url": "https://github.com/identity-md-launches/launch-2751-workflow-frontend-stage-context/blob/HEAD/docs/TESTING.md"
-            },
-            {
-              "text": " for an overview of the mechanics. You can then explore "
-            },
-            {
-              "text": "the code repository",
-              "url": "https://github.com/identity-md-launches/launch-2751-workflow-frontend-stage-context"
-            },
-            {
-              "text": " to see how the single application contract operates, ensuring you understand the specific logic behind the pooling process."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "A Sepolia vault that permanently pools Graph A Squeek mining NFTs. Depositors receive hmSQUEEK accounting shares and can claim their proportion of funded SQK rewards. A strategist merges equal-level NFTs to manage the reserve's mining weight.",
       "description_origin": "readme",
@@ -5439,7 +5306,7 @@
       "builder": null,
       "category": "analytics",
       "contracts": [],
-      "description_en": "An independent, read-only collection explorer for Squeekchain on Ethereum Sepolia. Enter an NFT ID to trace its merges, examine the artwork of each original and save a family card. The interface is available in English and simplified Chinese. Visitors never need a wallet.",
+      "description_en": "A read-only explorer for Squeekchain NFTs on Ethereum Sepolia. Enter a token ID to trace its merge history, view the original onchain portraits of burned tokens, and save a family card. The interface is available in English and simplified Chinese.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -5948,7 +5815,7 @@
       "builder": null,
       "category": "analytics",
       "contracts": [],
-      "description_en": "WheelTrace - live, read-only Squeekchain telemetry dashboard. Canvas hamster wheel driven by real rpmMilli, RPM trace, block progress, SQK supply.",
+      "description_en": "WheelTrace is a live, read-only dashboard that displays Squeekchain's hamster wheel telemetry. It shows real-time metrics such as RPM, block progress, cumulative work, and distance drawn from the public API.",
       "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
@@ -5965,7 +5832,7 @@
         "github": "https://github.com/Robekk/wheeltrace",
         "website": "https://www.noirveil.web.id"
       },
-      "name": "wheeltrace",
+      "name": "WheelTrace",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
