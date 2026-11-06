@@ -395,6 +395,42 @@
       "builder": null,
       "category": "game",
       "contracts": [],
+      "description_en": "Squeek Foundry: publish an original finished factory-automation browser game for Squeekchain Genesis Code. NEW project/repository, not a Garden reskin. Obey https://squeekchain.com/genesis/code. Deliver working gameplay, deterministic simulation and replay, not dashboards, wrappers, clones or approval claims. GAME: Factory: ore -> belts/splitte...",
+      "description_origin": "source",
+      "ecosystem_status": "claimed",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-3031-squeek-foundry-publish-original"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/fa403ef2-1136-4472-990d-96a51c42c3d4"
+        }
+      ],
+      "first_seen": "2026-11-06T07:09:52.457360+00:00",
+      "id": "0944b720abf269a7",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-3031-squeek-foundry-publish-original",
+        "website": "https://squeek-foundry-a-little-factory.imd.site"
+      },
+      "logo": "logos/9e94a6253fdfd9af02f942b6a185ac3ea31e93bc9c5002fc7e69a701889e7feb.svg",
+      "name": "Squeek Foundry",
+      "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "7b40aeda2ad04585",
+          "name": "Squeek Signal Garden"
+        }
+      ],
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [],
       "description_en": "Squeek Runner is a browser-based pixel-art arcade game where you tap to run, hold to charge, and release to flip a hamster. The goal is to land flips cleanly, with five consecutive successes triggering a Fever mode. It is free to play and includes optional Squeekchain testnet reads.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
@@ -600,7 +636,7 @@
         }
       ],
       "description_en": "Adopt a soulbound on-chain pet that grows based on Squeektoshi's real wheel activity. Cheer for your pet during 10-minute rounds to earn XP, which determines its stage from Egg to Legend. Pets can become hungry or sleepy if not cheered for, and Squeek NFT holders receive a golden collar.",
-      "description_origin": "source",
+      "description_origin": "readme",
       "ecosystem_status": "confirmed",
       "evidence": [
         {
@@ -618,6 +654,10 @@
         {
           "kind": "onchain_contract",
           "url": "https://eth-sepolia.blockscout.com/tx/0x57a449074138e26fbb8a1e0f726e96e503eda0a0549f3ddb34f4e07074f1527e"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x3cbc0b9793840d3d727c81fe20830beb4a49085df20705eb08bfcdd0f177f26e"
         }
       ],
       "first_seen": "2026-11-06T05:00:18.171508+00:00",
@@ -1886,6 +1926,10 @@
         {
           "id": "4eac1d81e7d27e07",
           "name": "Wheel Run"
+        },
+        {
+          "id": "dcdc00e3c9489a3c",
+          "name": "WHEELY Stage"
         }
       ],
       "stage": "development"
@@ -2218,6 +2262,36 @@
       "builder": null,
       "category": "game",
       "contracts": [],
+      "description_en": "# Build SqueekQuest – SqueekChain Interactive Game Act as a senior Web3 full-stack development team. Build a complete, functional web game called SqueekQuest, powered by real SqueekChain blockchain data. Official resources: - Website: https://squeekchain.com/ - Documentation: https://docs.squeekchain.com/ - API: https://api.squeekchain.com/v...",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-3041-build-squeekquest"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/d44df940-5c82-4bb9-b618-4987f67ccc9d"
+        }
+      ],
+      "first_seen": "2026-11-06T09:27:18.879862+00:00",
+      "id": "4b10782137370f4c",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-3041-build-squeekquest",
+        "website": "https://squeekquest-a-little-hamster-adv.imd.site"
+      },
+      "logo": "logos/833797d174e1192ff0129b147678f03575e8191cf48ce552d4588f16ce263e26.svg",
+      "name": "SqueekQuest",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [],
       "description_en": "Squeek Run is a browser-based runner where you dress a hamster in absurd accessories and dodge obstacles. You collect seeds and chase a high score in a game powered by Squeekchain activity.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
@@ -2311,6 +2385,10 @@
         {
           "id": "37136326bd05b2ee",
           "name": "Squeeks Status Board"
+        },
+        {
+          "id": "dcdc00e3c9489a3c",
+          "name": "WHEELY Stage"
         }
       ],
       "stage": "development"
@@ -2942,6 +3020,36 @@
     },
     {
       "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "Tap a hamster, earn Squeeks, and grow your little economy. A free browser game with staking, mining, and account power. Game only, no real rewards.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-3038-build-single-page-browser-game"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/8c9b038d-c343-4751-8c04-a3726e7c5940"
+        }
+      ],
+      "first_seen": "2026-11-06T08:56:38.553609+00:00",
+      "id": "60f7af6e6c45b0ee",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-3038-build-single-page-browser-game",
+        "website": "https://squeekchain-tap-hamster-powered.imd.site"
+      },
+      "logo": "logos/3c9803c199cf8470fb6ced83d64f3ed8fef1c462c8c19d0c656b1b8fff448960.svg",
+      "name": "Squeekchain Tap",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
       "builder_links": [
         {
           "label": "@lorisnyder8612",
@@ -3035,6 +3143,31 @@
       },
       "logo": "logos/a6277228b7c2216e1d8e0b3677f57be1055c2bae1fe462c7b922affb829d9a78.svg",
       "name": "Squeekville",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "A zero-backend, pixel-art side-scrolling arcade (Nokia Space Impact style) where the enemy waves are driven by the live Squeekchain hamster PoW chain.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/jinkatama105/squeek-impact"
+        }
+      ],
+      "first_seen": "2026-11-06T11:14:31.418481+00:00",
+      "id": "64e1587462f0930c",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/jinkatama105/squeek-impact",
+        "website": "https://squeekimpact.vercel.app"
+      },
+      "name": "SQUEEK IMPACT",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
@@ -3868,6 +4001,12 @@
       "logo": "logos/da4eb34ee3561e150985ac925bb1581bd63b03f09859b2a1c5d7d0010e16baa9.svg",
       "name": "Squeek Signal Garden",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "0944b720abf269a7",
+          "name": "Squeek Foundry"
+        }
+      ],
       "stage": "development"
     },
     {
@@ -4284,6 +4423,12 @@
       "logo": "logos/133caf32ab6fec5f357b766ab95452ba353067ddbc4b4afc449dc4895266911a.svg",
       "name": "Squeek or Sleep",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "bf1b1bb74e361b06",
+          "name": "Squeek Maze"
+        }
+      ],
       "stage": "development"
     },
     {
@@ -5699,6 +5844,42 @@
     },
     {
       "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "Squeek Maze is a free arcade game where you guide Squeektoshi through 50 mazes to collect peanuts and dodge snakes. The game features a local leaderboard and power beans that allow the hamster to eat snakes for a short duration.",
+      "description_origin": "source",
+      "ecosystem_status": "claimed",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-3027-build-squeek-maze"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/eb12ac99-5bea-49b5-80cc-9a0850610790"
+        }
+      ],
+      "first_seen": "2026-11-06T05:23:10.170382+00:00",
+      "id": "bf1b1bb74e361b06",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-3027-build-squeek-maze",
+        "website": "https://squeek-maze.imd.site"
+      },
+      "logo": "logos/d4f9dbd993d53d0a0ef341b8360937a4948114a6bca130e919647f193e076a26.png",
+      "name": "Squeek Maze",
+      "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "87351da7a1d3fe10",
+          "name": "Squeek or Sleep"
+        }
+      ],
+      "stage": "development"
+    },
+    {
+      "builder": null,
       "category": "analytics",
       "contracts": [],
       "description_en": "Squeek Forge visualizes Squeekchain's on-chain work as a real-time blacksmithing workshop. It displays cumulative hammer strikes, current ingot status, and 24-hour work metrics. The interface syncs with public chain data every ten seconds to show forging progress and settlement records.",
@@ -6747,6 +6928,46 @@
         "verified_at": "2026-10-29T22:39:31.786000+00:00",
         "version": 1
       }
+    },
+    {
+      "builder": null,
+      "category": "streaming",
+      "contracts": [],
+      "description_en": "WHEELY Stage is a free OBS overlay and second-screen ghost race driven by the real Squeekchain hamster wheel. It serves as a community stream companion, adding a theatrical element to broadcasts by visualizing the hamster's activity.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-3039-build-publish-wheely-stage"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/73bd377e-0c7c-49e2-9b83-c1075d45aaed"
+        }
+      ],
+      "first_seen": "2026-11-06T09:12:17.162803+00:00",
+      "id": "dcdc00e3c9489a3c",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-3039-build-publish-wheely-stage",
+        "website": "https://wheely-stage-a-live-hamster-stag.imd.site"
+      },
+      "logo": "logos/2443967c1e415fdae22ced86bcb77f43db9b63b18e6deb35ad2637b7939c1bf4.svg",
+      "name": "WHEELY Stage",
+      "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "37136326bd05b2ee",
+          "name": "Squeeks Status Board"
+        },
+        {
+          "id": "4eac1d81e7d27e07",
+          "name": "Wheel Run"
+        }
+      ],
+      "stage": "development"
     },
     {
       "builder": null,
