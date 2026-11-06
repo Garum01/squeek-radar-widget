@@ -3769,6 +3769,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/740df85a-cafc-4814-983a-f58c2932f570"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/1586cb4a-5a0e-4884-8cd0-16b995ebf433"
         }
       ],
       "first_seen": "2026-11-04T18:55:35.715126+00:00",
