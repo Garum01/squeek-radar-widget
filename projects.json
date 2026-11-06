@@ -94,7 +94,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "A community boss raid powered by Squeektoshi's real wheel work on Squeekchain. Join free with a wallet signature, pick a role, cheer, and climb the season leaderboard.",
+      "description_en": "A community raid where players join with a wallet signature to pick roles like Tank or Runner. Boss health decreases only when Squeektoshi's wheel performs measured work on Squeekchain. Participants earn points based on their role and cheers to climb the seasonal leaderboard.",
       "description_origin": "source",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -1427,7 +1427,7 @@
       "builder": null,
       "category": "streaming",
       "contracts": [],
-      "description_en": "A free live samurai stream overlay and just-for-fun game powered by a hamster's wheel. Built on Squeekchain · community project, not an official Squeekchain site",
+      "description_en": "Rels on the Wheel is a free live stream overlay featuring samurai characters named Rels and lil Kuni. It functions as a just-for-fun game where viewers can predict the outcome of a hamster running on a wheel. The project is built on Squeekchain as a community initiative.",
       "description_origin": "source",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -1606,37 +1606,6 @@
     {
       "builder": "theidmfun",
       "category": "art",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Intelligent Dance Market is a Uniswap v4 hook where on-chain state acts as a 16-step drum machine, turning every trade into a note "
-            },
-            {
-              "text": "the project website",
-              "url": "https://theidm.fun"
-            },
-            {
-              "text": ". This design frames market activity as a rhythmic sequence rather than a standard ledger entry. To understand how this works, you can follow the technical details in "
-            },
-            {
-              "text": "the documentation",
-              "url": "https://theidm.fun/docs"
-            },
-            {
-              "text": " or check "
-            },
-            {
-              "text": "a team post",
-              "url": "https://x.com/squeekchain/status/2115158642806653141"
-            },
-            {
-              "text": " for context on the concept."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Intelligent Dance Market is a Uniswap v4 hook that stores a 16-step drum machine in on-chain state. Every trade in the IDM/ETH pool flips a step, adjusts the bass line, and changes the tempo. The project turns market activity into a live, evolving musical sequence without any off-chain components.",
       "description_origin": "website",
@@ -2895,7 +2864,7 @@
       "builder": null,
       "category": "analytics",
       "contracts": [],
-      "description_en": "Independent analytics for the Squeekchain ecosystem: live network status, hamster wheel telemetry, Squeek blocks, SQK token economy, events, mining activity and wallet lookup.",
+      "description_en": "SqueekPulse is an independent, read-only analytics dashboard for the Squeekchain ecosystem. It displays live network status, hamster wheel telemetry, block statistics, and SQK token economy data directly from the public API. Users can also look up recent events and specific wallet addresses within the indexed event window.",
       "description_origin": "source",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -2913,7 +2882,7 @@
         "website": "https://squeekpulse.vercel.app"
       },
       "logo": "logos/83145e5bb033ace23cd8e7fbb63e7c39733aaf58f8a7280d7800995cced6f7c2.png",
-      "name": "Squeekpulse U1",
+      "name": "SqueekPulse",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
@@ -3801,7 +3770,7 @@
       ],
       "category": "tools",
       "contracts": [],
-      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
+      "description_en": "Squeekerant is a community board where users can post messages and manage their activity. It includes a quiet hours feature to control when posts are visible.",
       "description_origin": "placeholder",
       "ecosystem_status": "weak",
       "evidence": [],
@@ -4473,7 +4442,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "Squeek Radar is a public live monitor for the Squeekchain hamster wheel: activity, events, milestones, rounds, blocks and settlements. No wallet needed.",
+      "description_en": "Squeek Radar is a public live monitor for the Squeekchain hamster wheel. It displays real-time activity, events, milestones, rounds, blocks, and settlements. The tool allows anyone to see what is happening on the wheel without needing a wallet.",
       "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
@@ -4494,7 +4463,7 @@
         "github": "https://github.com/identity-md-launches/launch-2989-build-complete-responsive-web",
         "website": "https://squeek-radar-know-what-s-happeni.imd.site"
       },
-      "name": "Squeek Radar: Live Activity and Event Monitor",
+      "name": "Squeek Radar",
       "publication_origin": "owner_approved",
       "same_wallet": [
         {
@@ -6988,7 +6957,7 @@
       "same_wallet": [
         {
           "id": "8ea65381af4abff9",
-          "name": "Squeek Radar: Live Activity and Event Monitor"
+          "name": "Squeek Radar"
         }
       ],
       "stage": "development"
@@ -7062,7 +7031,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "A weekly boss-raid browser game for the Squeekchain Genesis Code lane.",
+      "description_en": "A weekly browser game where players attack a boss whose health is tied to Squeekchain block progress. Damage is generated by the actual distance a hamster runs on its wheel, with classes and frenzy modes affecting the output.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -7393,7 +7362,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "Six factions fight over one map. Every move is powered by @squeektoshi, a real hamster on a real wheel. Free to play. Built on @squeekchain.",
+      "description_en": "Squeek Turf is a strategy game where six factions compete for control of a single map. Every move is powered by Squeektoshi, a real hamster on a wheel. The game is free to play and built on Squeekchain.",
       "description_origin": "x_profile",
       "ecosystem_status": "weak",
       "evidence": [],
@@ -7411,9 +7380,9 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "analytics",
       "contracts": [],
-      "description_en": "The live pulse of Squeekchain. Follow the hamster's wheel, block progress, distance run, and the community moving the chain forward.",
+      "description_en": "Squeek Pulse is a live dashboard for Squeekchain that displays the hamster's wheel telemetry, block progress, and distance run. It also shows community rankings of the people moving the chain forward. The data refreshes every 20 seconds.",
       "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
@@ -7443,7 +7412,7 @@
       "builder": null,
       "category": "analytics",
       "contracts": [],
-      "description_en": "A stream companion HUD that tracks live Sepolia blocks, SqueekCore round state, and active hamster wheel mining progress on Squeekchain.",
+      "description_en": "Squeekside is a read-only stream companion that displays live Sepolia blocks, SqueekCore rounds, and Squeektoshi's mining progress. It presents this activity in a single HUD designed for streaming.",
       "description_origin": "source",
       "ecosystem_status": "claimed",
       "evidence": [
