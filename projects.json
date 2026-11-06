@@ -2,6 +2,92 @@
   "projects": [
     {
       "builder": null,
+      "category": "nft",
+      "contracts": [],
+      "description_en": "SqueekSwap allows holders to trade Squeek Genesis NFTs directly with one another. You select specific Genesis IDs to exchange, and both sides change hands in a single atomic transaction. Completed swaps earn Seeds, with double rewards if Squeektoshi is on his wheel.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/0xairr/squeekswap"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/0xairr/squeekswap/blob/993c7c479a44f4658a8ad51e070c4f0d8beced64/README.md"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/0xairr/squeekswap/blob/993c7c479a44f4658a8ad51e070c4f0d8beced64/web/lib/deployments.ts"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/0xairr/squeekswap/blob/993c7c479a44f4658a8ad51e070c4f0d8beced64/docs/squeekswap/SEEDS.md"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/0xairr/squeekswap/blob/993c7c479a44f4658a8ad51e070c4f0d8beced64/docs/squeekswap/CHAIN.md"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/0xairr/squeekswap/blob/5cf049dce5e74835a8cbcaa33a955daac81a861c/docs/squeekswap/SEEDS.md"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/0xairr/squeekswap/blob/013ccc0b8234c2bffb4854e2b293e09b0d033620/docs/squeekswap/CHAIN.md"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/0xairr/squeekswap/blob/c820410e2589e935a90cf86a402f6401fe69a759/docs/squeekswap/SEEDS.md"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/0xairr/squeekswap/blob/c820410e2589e935a90cf86a402f6401fe69a759/docs/squeekswap/CHAIN.md"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/0xairr/squeekswap/blob/cf1957c8a061973fec6002fc1bf4107aea906b06/docs/squeekswap/CHAIN.md"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/0xairr/squeekswap/blob/94fa887064d363ed6808ed07e8dbd243ecfb7012/docs/squeekswap/SEEDS.md"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/0xairr/squeekswap/blob/36e8b29bda68e7582460f91bde0714b45ae5a50e/docs/squeekswap/CHAIN.md"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/0xairr/squeekswap/blob/36e8b29bda68e7582460f91bde0714b45ae5a50e/docs/squeekswap/SEEDS.md"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/0xairr/squeekswap/blob/36e8b29bda68e7582460f91bde0714b45ae5a50e/web/lib/deployments.ts"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/0xairr/squeekswap/blob/eb99cde42917e3686e31d9fe199ec138a7da13be/docs/squeekswap/SEEDS.md"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/0xairr/squeekswap/blob/eb99cde42917e3686e31d9fe199ec138a7da13be/web/lib/deployments.ts"
+        }
+      ],
+      "first_seen": "2026-11-04T19:22:01.493294+00:00",
+      "id": "0121f068ab20c239",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/0xairr/squeekswap",
+        "website": "https://www.squeekswap.xyz"
+      },
+      "logo": "logos/b4ce2b9755cf9c151a56d583abb4a35373e793ba09e6308713a4426d10d79a1a.svg",
+      "name": "SqueekSwap",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
       "category": "game",
       "contracts": [],
       "description_en": "A community boss raid powered by Squeektoshi's real wheel work on Squeekchain. Join free with a wallet signature, pick a role, cheer, and climb the season leaderboard.",
@@ -1130,6 +1216,77 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "post",
+          "label": "@greenfisheth",
+          "source": "https://x.com/greenfisheth/status/2118444660607652104",
+          "url": "https://x.com/greenfisheth"
+        }
+      ],
+      "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Pixel Pit is a multiplayer game where each wallet holds a brush budget of zero to forty pixels. This budget refills only through settled Squeek blocks, and the contract rejects any paints that exceed this limit "
+            },
+            {
+              "text": "the project website",
+              "url": "https://hamsterpit.xyz"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To follow the source trail, start with the project website for the core mechanics. You can then cross-reference the details in the other public sources to see how the budget rules are described elsewhere "
+            },
+            {
+              "text": "a public source",
+              "url": "https://eth-sepolia.blockscout.com/tx/0x2105a8fa57ae7160e0f57e859e5b341c3428763859659cfaa9bb843569761bba"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
+      "contracts": [
+        {
+          "address": "0x0b71e2aeb9eda244ba53492efa83f913a37cbd83",
+          "chain_id": 11155111
+        }
+      ],
+      "description_en": "Pixel Pit: a multiplayer game where each wallet has a brush budget of 0-40 pixels refilled only by settled Squeek blocks; the contract rejects paints beyond budget. Unofficial fan project on the Sepolia testnet.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x2105a8fa57ae7160e0f57e859e5b341c3428763859659cfaa9bb843569761bba"
+        },
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0x0b71e2aeb9eda244ba53492efa83f913a37cbd83"
+        }
+      ],
+      "first_seen": "2026-11-05T21:10:43.761757+00:00",
+      "id": "25caf00fdf6a612d",
+      "identity_status": "resolved",
+      "lifecycle_stage": "testnet",
+      "links": {
+        "explorer": "https://eth-sepolia.blockscout.com/address/0x0b71e2aeb9eda244ba53492efa83f913a37cbd83",
+        "website": "https://hamsterpit.xyz"
+      },
+      "name": "Pixel Pit",
+      "publication_origin": "owner_approved",
+      "stage": "testnet"
+    },
+    {
+      "builder": null,
       "category": "game",
       "contracts": [],
       "description_en": "A cooperative boss fight where the Squeekchain hamster's running distance directly reduces enemy health. Players add damage by pressing space to squeak, building combos for extra hits. The boss recovers when the hamster naps, requiring players to keep the wheel turning.",
@@ -1916,7 +2073,7 @@
       "builder": null,
       "category": "prediction",
       "contracts": [],
-      "description_en": "Create an interactive Web3 trading and prediction game called \"Squeek Price Action Terminal\" powered by Squeekchain's live API. Key Features to build: 1. Live Hamster Chart: Convert the hamster's real-time wheel distance, speed, and round history from Squeekchain into live price-action candlesticks. 2. Algorithmic Signal Engine: Detect Momentum...",
+      "description_en": "Squeek Price Action Terminal converts Squeekchain's live hamster wheel activity into price-action candlesticks. You read the wheel data to spot signals and predict the next round using virtual SQK. The project frames the hamster's movements as a market to challenge an AI in a prediction game.",
       "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
@@ -1939,6 +2096,36 @@
       },
       "logo": "logos/471a3344fd43c36b55f8e226fc0c50d6eacc9bab72d34ac7904b189808145b94.svg",
       "name": "Squeek Price Action Terminal",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "prediction",
+      "contracts": [],
+      "description_en": "Race or bet against Squeektoshi, a real hamster on a live wheel. Every outcome settles on the real round from Squeekchain's public API.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-3009-build-squeek-wheel-arena"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/841dc96b-d0bd-4b2c-8a09-4c46f0ac254e"
+        }
+      ],
+      "first_seen": "2026-11-05T19:08:05.055217+00:00",
+      "id": "43bbd3f40c691678",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-3009-build-squeek-wheel-arena",
+        "website": "https://squeek-wheel-arena.imd.site"
+      },
+      "logo": "logos/68b00615ab8598e0e08465385f661dc3cbec8f5129cea93cca2970ce57bd272d.svg",
+      "name": "Squeek Wheel Arena",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
@@ -3629,6 +3816,33 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "post",
+          "label": "@huynh7903",
+          "source": "https://x.com/huynh7903/status/2118378285239562362",
+          "url": "https://x.com/huynh7903"
+        }
+      ],
+      "category": "tools",
+      "contracts": [],
+      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
+      "description_origin": "placeholder",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-11-05T16:40:14.755270+00:00",
+      "id": "7a972e8bea54b158",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "website": "https://squeekerant.online"
+      },
+      "name": "Squeekerant",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
       "category": "game",
       "contracts": [],
       "description_en": "Squeek Signal Garden is a puzzle game where you route energy from a hamster wheel to grow four flower beacons. You play three progressively harder 6x6 boards within a shared three-minute clock, using rotation limits and connection streaks. The game serves as a stream companion, allowing you to share your restored night garden with an audience.",
@@ -3662,7 +3876,7 @@
       "category": "analytics",
       "contracts": [],
       "description_en": "SqueekSense is a dashboard that tracks Squeektoshi's live wheel activity on Squeekchain. It displays current speed, daily distance, and a heatmap of the hamster's 24-hour rhythm. The tool also uses historical data to forecast the probability of the next run.",
-      "description_origin": "source",
+      "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
         {
@@ -7418,7 +7632,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "A one-button, 60-second game powered by Squeekchain's live hamster wheel.",
+      "description_en": "Catch the Cheese is a one-button arcade game where you catch falling cheese wedges in a 60-second round. The game is powered by Squeektoshi's live wheel, which determines the speed and type of cheese drops. Catching cheese fills a snack meter, while misses break your streak.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
