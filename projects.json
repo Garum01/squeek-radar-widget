@@ -1201,7 +1201,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-05T21:31:57.525603+00:00",
+        "last_checked": "2026-11-06T09:33:17.657972+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-05T06:45:33.132000+00:00",
@@ -2207,7 +2207,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-05T21:31:57.525603+00:00",
+        "last_checked": "2026-11-06T09:33:17.657972+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T20:28:19.405000+00:00",
@@ -2278,7 +2278,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-05T21:31:57.525603+00:00",
+        "last_checked": "2026-11-06T09:33:17.657972+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:37:44.874000+00:00",
@@ -2402,7 +2402,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-05T21:31:57.525603+00:00",
+        "last_checked": "2026-11-06T09:33:17.657972+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-03T20:27:41.024000+00:00",
@@ -2471,7 +2471,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-05T21:31:57.525603+00:00",
+        "last_checked": "2026-11-06T09:33:17.657972+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:33:51.063000+00:00",
@@ -2721,7 +2721,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-05T21:31:57.525603+00:00",
+        "last_checked": "2026-11-06T09:33:17.657972+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T20:55:04.251000+00:00",
@@ -3105,7 +3105,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-05T21:31:57.525603+00:00",
+        "last_checked": "2026-11-06T09:33:17.657972+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-05T18:50:40.790000+00:00",
@@ -3504,14 +3504,7 @@
       },
       "logo": "logos/b908ba6b33f3e08bd93fcf4e7ee9103f6b3162cc29e58c5ba624e528438f9a1d.jpg",
       "name": "quadConnect",
-      "stage": "testnet_announced",
-      "verified_by_squeek": {
-        "last_checked": "2026-11-05T21:31:57.525603+00:00",
-        "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
-        "stale": true,
-        "verified_at": "2026-11-03T20:13:21.294000+00:00",
-        "version": 1
-      }
+      "stage": "testnet_announced"
     },
     {
       "builder": null,
@@ -3779,7 +3772,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-05T21:31:57.525603+00:00",
+        "last_checked": "2026-11-06T09:33:17.657972+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T18:51:42.010000+00:00",
@@ -4094,7 +4087,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-05T21:31:57.525603+00:00",
+        "last_checked": "2026-11-06T09:33:17.657972+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-03T18:29:23.740000+00:00",
@@ -4321,9 +4314,9 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-05T21:31:57.525603+00:00",
+        "last_checked": "2026-11-06T09:33:17.657972+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
-        "stale": false,
+        "stale": true,
         "verified_at": "2026-10-29T21:41:31.306000+00:00",
         "version": 1
       }
@@ -4878,7 +4871,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-05T21:31:57.525603+00:00",
+        "last_checked": "2026-11-06T09:33:17.657972+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:36:12.155000+00:00",
@@ -5516,7 +5509,7 @@
       "publication_origin": "owner_approved",
       "stage": "testnet",
       "verified_by_squeek": {
-        "last_checked": "2026-11-05T21:31:57.525603+00:00",
+        "last_checked": "2026-11-06T09:33:17.657972+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T20:44:51.266000+00:00",
@@ -5899,7 +5892,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-05T21:31:57.525603+00:00",
+        "last_checked": "2026-11-06T09:33:17.657972+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-04T21:05:34.042000+00:00",
@@ -5908,9 +5901,17 @@
     },
     {
       "builder": null,
-      "category": "defi",
+      "builder_links": [
+        {
+          "kind": "board",
+          "label": "@lowonfiats",
+          "source": "https://squeekchain.com/genesis/i/2k6c9h8k",
+          "url": "https://x.com/lowonfiats"
+        }
+      ],
+      "category": "nft",
       "contracts": [],
-      "description_en": "Squeekstr allows users to perform permissionless experiments with SQUEEK tokens. You can deposit tokens into your portfolio and use the Level Up feature to merge them with other SQUEEK.",
+      "description_en": "Squeekstr is a protocol that merges SQUEEK NFTs to increase their mining power. Users deposit their NFTs to receive tracker receipts, which act as claims on the rewards generated by the shared pool. The system also uses tax revenue from its native token to automatically acquire more SQUEEKs for the vault.",
       "description_origin": "website",
       "ecosystem_status": "weak",
       "evidence": [
@@ -5930,7 +5931,14 @@
       "logo": "logos/c1e1a071a97273698de1597d36ecb398d76509d0ceae2104dd67fef3bc7fa89f.jpg",
       "name": "Squeekstr",
       "publication_origin": "owner_approved",
-      "stage": "development"
+      "stage": "development",
+      "verified_by_squeek": {
+        "last_checked": "2026-11-06T09:33:17.657972+00:00",
+        "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
+        "stale": false,
+        "verified_at": "2026-11-03T20:48:31.131000+00:00",
+        "version": 1
+      }
     },
     {
       "builder": null,
@@ -6417,7 +6425,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-05T21:31:57.525603+00:00",
+        "last_checked": "2026-11-06T09:33:17.657972+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-30T00:45:08.265000+00:00",
@@ -6733,7 +6741,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-05T21:31:57.525603+00:00",
+        "last_checked": "2026-11-06T09:33:17.657972+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T22:39:31.786000+00:00",
@@ -6830,7 +6838,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-05T21:31:57.525603+00:00",
+        "last_checked": "2026-11-06T09:33:17.657972+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:55:44.291000+00:00",
@@ -7307,7 +7315,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-05T21:31:57.525603+00:00",
+        "last_checked": "2026-11-06T09:33:17.657972+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-05T11:19:23.352000+00:00",
