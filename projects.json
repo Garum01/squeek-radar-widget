@@ -7820,7 +7820,7 @@
       "category": "analytics",
       "contracts": [],
       "description_en": "Squeekside is a read-only stream companion that displays live Sepolia blocks, SqueekCore rounds, and Squeektoshi's mining progress. It presents this activity in a single HUD designed for streaming.",
-      "description_origin": "source",
+      "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
         {
