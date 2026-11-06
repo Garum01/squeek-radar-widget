@@ -295,6 +295,10 @@
         {
           "id": "0be8559ead85e180",
           "name": "Squeek Pet"
+        },
+        {
+          "id": "97228874ac020a77",
+          "name": "Squeek Studio"
         }
       ],
       "stage": "development"
@@ -448,6 +452,10 @@
         {
           "id": "049bd120d672ee05",
           "name": "Squeek Pal"
+        },
+        {
+          "id": "97228874ac020a77",
+          "name": "Squeek Studio"
         }
       ],
       "stage": "development"
@@ -581,6 +589,50 @@
         }
       ],
       "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [
+        {
+          "address": "0x13c421454de930e373647cb45dd35a963c21c0a3",
+          "chain_id": 11155111
+        }
+      ],
+      "description_en": "Adopt a soulbound on-chain pet that grows based on Squeektoshi's real wheel activity. Cheer for your pet during 10-minute rounds to earn XP, which determines its stage from Egg to Legend. Pets can become hungry or sleepy if not cheered for, and Squeek NFT holders receive a golden collar.",
+      "description_origin": "source",
+      "ecosystem_status": "confirmed",
+      "evidence": [
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/12e352ec-9043-40f7-bdb8-d9b9113ece06"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x0bd90cb7fb729db208cab7d3cda97f6ecc3f5a2cebe7bb2f4c26e7593b37f043"
+        },
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0x13c421454de930e373647cb45dd35a963c21c0a3"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x57a449074138e26fbb8a1e0f726e96e503eda0a0549f3ddb34f4e07074f1527e"
+        }
+      ],
+      "first_seen": "2026-11-06T05:00:18.171508+00:00",
+      "id": "10f8ad165b6874be",
+      "identity_status": "resolved",
+      "lifecycle_stage": "testnet",
+      "links": {
+        "explorer": "https://eth-sepolia.blockscout.com/address/0x13c421454de930e373647cb45dd35a963c21c0a3",
+        "github": "https://github.com/identity-md-launches/launch-3024-visual-polish-finishing-only",
+        "website": "https://wheelings.imd.site"
+      },
+      "logo": "logos/5a94d6338c5829d8b44f41754fd794fe291255b184216cb499d5e760f9f4ff52.svg",
+      "name": "Wheelings",
+      "publication_origin": "owner_approved",
+      "stage": "testnet"
     },
     {
       "builder": null,
@@ -1796,6 +1848,42 @@
       "builder": null,
       "category": "analytics",
       "contracts": [],
+      "description_en": "A read-only dashboard for monitoring the Squeekchain testnet. It displays live metrics such as hamster wheel RPM, settled blocks, NFT supply, and overall protocol health without requiring a wallet connection.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-3022-build-publish-squeeks-status"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/be6bdf8e-9b9f-4fcc-8d28-e6bf52208f13"
+        }
+      ],
+      "first_seen": "2026-11-06T02:50:29.723770+00:00",
+      "id": "37136326bd05b2ee",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-3022-build-publish-squeeks-status",
+        "website": "https://squeeks-status-board.imd.site"
+      },
+      "logo": "logos/1119a144e761e8740382e16dff768ca1a8ccc42c65a41c613b7f7f096b47929c.svg",
+      "name": "Squeeks Status Board",
+      "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "4eac1d81e7d27e07",
+          "name": "Wheel Run"
+        }
+      ],
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "analytics",
+      "contracts": [],
       "description_en": "Wheelwatch is a community dashboard that displays live data from Squeekchain. It tracks the current block height, work, wheel distance, SQK supply, and recent settlements. This project offers a public window into the hamster-powered chain's activity.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
@@ -2203,6 +2291,12 @@
       },
       "name": "Wheel Run",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "37136326bd05b2ee",
+          "name": "Squeeks Status Board"
+        }
+      ],
       "stage": "development"
     },
     {
@@ -2538,6 +2632,46 @@
     },
     {
       "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "SqueekCity is a playable isometric hamster city where residents work wheels to earn Wheel Energy and advance in their careers. The game connects to the real Squeekchain wheel, which triggers surges that affect the simulation. Players can watch a hamster civilization live, work, and grow within this interactive environment.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-3025-build-deploy-squeekcity-wheel"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/14416cc2-36d5-495f-8ed4-f1d982ddf12b"
+        }
+      ],
+      "first_seen": "2026-11-06T03:36:20.452441+00:00",
+      "id": "5926a5c5a9d2cc90",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-3025-build-deploy-squeekcity-wheel",
+        "website": "https://squeekcity-the-wheel-life.imd.site"
+      },
+      "logo": "logos/018ee9e7a2e383bd7a49bb12f0e9c84b741e920788b8df19e04a4460acdf2a49.svg",
+      "name": "SqueekCity: The Wheel Life",
+      "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "9cc243ffda688f30",
+          "name": "SqueekOptimizer"
+        },
+        {
+          "id": "952a848999c3bf15",
+          "name": "SqueekPet"
+        }
+      ],
+      "stage": "development"
+    },
+    {
+      "builder": null,
       "builder_links": [
         {
           "kind": "board",
@@ -2758,6 +2892,14 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "profile",
+          "label": "@falahdrops",
+          "source": "https://agenticworlds.xyz",
+          "url": "https://x.com/falahdrops"
+        }
+      ],
       "category": "analytics",
       "contracts": [],
       "description_en": "SqueekPulse is an independent, read-only analytics dashboard for the Squeekchain ecosystem. It displays live network status, hamster wheel telemetry, block statistics, and SQK token economy data directly from the public API. Users can also look up recent events and specific wallet addresses within the indexed event window.",
@@ -4528,8 +4670,52 @@
       "publication_origin": "owner_approved",
       "same_wallet": [
         {
+          "id": "5926a5c5a9d2cc90",
+          "name": "SqueekCity: The Wheel Life"
+        },
+        {
           "id": "9cc243ffda688f30",
           "name": "SqueekOptimizer"
+        }
+      ],
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "Squeek Studio turns on-chain Squeeks into profile pictures, banners, wallpapers, stickers and a Squeek ID. The tool runs entirely in your browser, keeping the process free and private.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-3020-build-squeek-studio-website"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/1df0cabe-dd08-412e-b006-95628609a139"
+        }
+      ],
+      "first_seen": "2026-11-06T02:19:44.222151+00:00",
+      "id": "97228874ac020a77",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-3020-build-squeek-studio-website",
+        "website": "https://squeek-studio-small-squeek-big-p.imd.site"
+      },
+      "logo": "logos/d0f8bb7c3b1b0555660afbe8fe632bc021c7654b327d9aedc9f6a267f7b72854.svg",
+      "name": "Squeek Studio",
+      "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "049bd120d672ee05",
+          "name": "Squeek Pal"
+        },
+        {
+          "id": "0be8559ead85e180",
+          "name": "Squeek Pet"
         }
       ],
       "stage": "development"
@@ -4747,6 +4933,10 @@
       "publication_origin": "owner_approved",
       "same_wallet": [
         {
+          "id": "5926a5c5a9d2cc90",
+          "name": "SqueekCity: The Wheel Life"
+        },
+        {
           "id": "952a848999c3bf15",
           "name": "SqueekPet"
         }
@@ -4780,6 +4970,12 @@
       },
       "logo": "logos/9c60ee62d7fdfb95fd6b014ffd1ca3d598d156f53a52fdc2a1bc8967609c9034.svg",
       "name": "Squeekchain Live Dashboard",
+      "other_versions": [
+        {
+          "name": "Squeekchain Live Dashboard",
+          "url": "https://squeekchain-live-dashboard-87be.imd.site"
+        }
+      ],
       "publication_origin": "owner_approved",
       "stage": "development"
     },
@@ -6791,6 +6987,12 @@
       },
       "logo": "logos/bbdb13190112cba7b21294a9dc55e42887fd4fad328f04a46a050b329f6a3855.svg",
       "name": "Wheel Call",
+      "other_versions": [
+        {
+          "name": "wheel-call.imd.site",
+          "url": "https://wheel-call.imd.site"
+        }
+      ],
       "publication_origin": "owner_approved",
       "same_wallet": [
         {
