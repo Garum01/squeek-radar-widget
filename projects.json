@@ -390,49 +390,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Runner is a pixel-art hamster arcade game built with React, TypeScript, and Phaser 3. As described on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-runner-small-paws-big-pow.imd.site"
-            },
-            {
-              "text": ", you tap to run, hold to charge, and release near a bright band for a clean flip. Five consecutive landings trigger ten seconds of Fever mode."
-            }
-          ],
-          [
-            {
-              "text": "To understand the mechanics, start with "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-runner-small-paws-big-pow.imd.site"
-            },
-            {
-              "text": " for the core gameplay loop. You can also explore "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2947-squeek-runner"
-            },
-            {
-              "text": " and "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/be703e15-90a5-46e8-bff7-e664ef33dc97"
-            },
-            {
-              "text": " to see how the technical stack supports the visual style and interaction design."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Squeek Runner is a browser-based pixel-art arcade game where you tap to run, hold to charge, and release to flip a hamster. The goal is to land flips cleanly, with five consecutive successes triggering a Fever mode. It is free to play and includes optional Squeekchain testnet reads.",
       "description_origin": "readme",
@@ -591,9 +548,9 @@
     },
     {
       "builder": null,
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
-      "description_en": "Turn your Squeek into profile pictures, banners, wallpapers, stickers and share cards. Free, read-only, and made in your browser.",
+      "description_en": "Squeek Studio is a browser-based tool that turns your onchain Squeeks into profile pictures, banners, wallpapers, stickers, and share cards. It operates as a free, read-only creative studio where you can customize your assets and export them for use anywhere.",
       "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
@@ -2156,42 +2113,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Run is a silly browser runner featuring a hamster with terrible fashion sense. According to "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeek-run-small-hamster-big-pro.imd.site"
-            },
-            {
-              "text": ", you put a pressure cooker on its head, hand it a toilet plunger, and try to survive the wheel."
-            }
-          ],
-          [
-            {
-              "text": "To understand the details, you can follow the trail in "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/identity-md-launches/launch-2780-project-goal-funny-chaotic"
-            },
-            {
-              "text": " and "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/297ae167-a512-4e36-8f4e-4f2f8185919a"
-            },
-            {
-              "text": ". These entries provide the context for the game's unique mechanics and the hamster's questionable style choices."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Squeek Run is a browser-based runner where you dress a hamster in absurd accessories and dodge obstacles. You collect seeds and chase a high score in a game powered by Squeekchain activity.",
       "description_origin": "readme",
@@ -3025,7 +2946,7 @@
       ],
       "category": "game",
       "contracts": [],
-      "description_en": "Hamster Tower is a turn-based climb where each round of real work by the Squeekchain hamster creates a new floor. The round's data determines the floor type, enemies, map and weather, while long naps leave treasure chests.",
+      "description_en": "Hamster Tower is a turn-based game where each floor is generated from a settled round of real work by the Squeekchain hamster. The round's data determines the floor type, enemies, map, and weather, creating a shared, endless climb. It is free to play and requires no tokens or transactions.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -3542,7 +3463,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "A browser-based pixel-art adventure where you guide Chang the hamster through an autumn chestnut forest to find his missing friend Alice. The game features enemy combat, weapon swapping, and a shield mechanic, with progress saved locally on your device.",
+      "description_en": "A pixel-art adventure where you guide Chang through forest, glacier, volcano and reef biomes. Collect produce, grow your character, and defeat four bosses to find Alice. The game supports wallet-linked cloud saves for progress tracking.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -3581,7 +3502,7 @@
         "website": "https://hamster-friendship-the-lost-alic.imd.site"
       },
       "logo": "logos/cbb3184d0a4d649511ad4082d0ab5688c1d2dcd84142f28cd49effe5e8b14ae4.svg",
-      "name": "Hamster Friendship: The Lost Alice",
+      "name": "squeek.hamster",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
@@ -3819,7 +3740,7 @@
       "builder": null,
       "category": "analytics",
       "contracts": [],
-      "description_en": "SqueekSense is a dashboard that tracks Squeektoshi's live wheel activity on Squeekchain. It displays current speed, daily distance, and a heatmap of the hamster's 24-hour rhythm. The tool also uses historical data to forecast the probability of the next run.",
+      "description_en": "SqueekSense is a read-only dashboard that visualizes Squeektoshi's live wheel telemetry and historical activity patterns. It displays real-time speed, 30-minute heatmaps, and statistical forecasts for upcoming activity windows based on observed data.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -5776,7 +5697,7 @@
         "x": "https://x.com/sqkstr"
       },
       "logo": "logos/c1e1a071a97273698de1597d36ecb398d76509d0ceae2104dd67fef3bc7fa89f.jpg",
-      "name": "sqkstr",
+      "name": "Squeekstr",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
@@ -6300,8 +6221,8 @@
       "builder": null,
       "category": "analytics",
       "contracts": [],
-      "description_en": "SqueekVision is a live dashboard for the SqueekChain network on Sepolia. It displays Squeektoshi's wheel status, block progress, $SQK supply, and settlement data, refreshing every 15 seconds.",
-      "description_origin": "source",
+      "description_en": "SqueekVision is a live dashboard for the SqueekChain network. It displays Squeektoshi's wheel status, block progress, $SQK supply, and settlement data. The page refreshes every 15 seconds to show real-time activity on Sepolia.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -6565,7 +6486,7 @@
       ],
       "category": "tools",
       "contracts": [],
-      "description_en": "The Wheelpaper turns the Squeekchain whitepaper into an interactive site where you can drag handles to test difficulty adjustments and supply schedules. It reads live Sepolia state to show how the pixel wheel spins at Squeektoshi's real RPM and stops when he sleeps.",
+      "description_en": "The Wheelpaper turns the Squeekchain whitepaper into an interactive site where you can drag handles to test difficulty adjustments and supply schedules. It visualizes the chain's mechanics by syncing a pixel wheel with Squeektoshi's real RPM and comparing paper formulas against live Sepolia data.",
       "description_origin": "website",
       "ecosystem_status": "weak",
       "evidence": [],
@@ -6592,7 +6513,7 @@
       "builder": null,
       "category": "art",
       "contracts": [],
-      "description_en": "Every turn of Squeektoshi's wheel paints a dot. Live site: https://mstrsqueek.xyz · Source: https://github.com/15665322008/wheel-canvas",
+      "description_en": "Wheel Canvas creates live, deterministic dot-grid paintings from every turn of Squeektoshi's wheel on Squeekchain. Each day produces a unique visual record of the hamster's activity, offering a simple way to observe the chain's real-time data through art.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -6610,7 +6531,7 @@
         "website": "https://mstrsqueek.xyz"
       },
       "logo": "logos/80ee121b57c0fe3dd69fdb15d092c274392d0c810393d651934eb260e1a101db.svg",
-      "name": "Wheel Canvas / 仓鼠画布",
+      "name": "Wheel Canvas",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
@@ -7240,7 +7161,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "Tap a tempo to trace the real speed curves of Squeektoshi's hamster-wheel runs. An unofficial Squeekchain fan game.",
+      "description_en": "A fan game where you tap a tempo to trace the real speed curves of Squeektoshi's hamster-wheel runs. Match the amber line representing the hamster's pace to earn stickers and track your daily streak.",
       "description_origin": "source",
       "ecosystem_status": "claimed",
       "evidence": [
