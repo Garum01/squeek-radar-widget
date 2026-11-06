@@ -678,7 +678,7 @@
       "builder": null,
       "category": "streaming",
       "contracts": [],
-      "description_en": "A transparent browser source that adds Squeektoshi, the Squeekchain hamster, to your live stream. It displays animated stats, block progress, and queued alerts for events like new blocks or session records. Configure the layout, theme, and sound to fit your OBS or Streamlabs setup.",
+      "description_en": "A live hamster companion for your stream that displays Squeektoshi running or resting. Preview the hamster, choose a layout, and copy a transparent browser source for OBS or Streamlabs.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -4030,8 +4030,8 @@
       "builder": null,
       "category": "analytics",
       "contracts": [],
-      "description_en": "SqueekSense is a read-only dashboard that visualizes Squeektoshi's live wheel telemetry and historical activity patterns. It displays real-time speed, 30-minute heatmaps, and statistical forecasts for upcoming activity windows based on observed data.",
-      "description_origin": "readme",
+      "description_en": "SqueekSense is a dashboard that tracks Squeektoshi's live wheel activity on Squeekchain. It displays current speed, daily distance, and a heatmap of the hamster's 24-hour rhythm. The tool also uses historical data to forecast the probability of the next run.",
+      "description_origin": "source",
       "ecosystem_status": "claimed",
       "evidence": [
         {
@@ -4041,6 +4041,10 @@
         {
           "kind": "github_code",
           "url": "https://github.com/Xelp66/squeeksense-ai/blob/1178355aac8dcfecaded2930197fc01296b84287/README.md"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/Xelp66/squeeksense-ai/blob/050a185c7583a703c23a49c25a5abb9fd18467ca/README.md"
         }
       ],
       "first_seen": "2026-11-04T19:52:10.805830+00:00",
@@ -4911,7 +4915,7 @@
       "builder": null,
       "category": "analytics",
       "contracts": [],
-      "description_en": "Squeek Pulse is an independent, read-only analytics dashboard for SqueekChain. It tracks wheel activity, settled blocks, SQK issuance, and Squeek ownership on the Sepolia network.",
+      "description_en": "Squeek Pulse is an independent, read-only community site dedicated to Squeektoshi, the hamster powering SqueekChain. It features a live dashboard for tracking wheel activity and block settlements, alongside interactive elements like the Squeek Pet desktop hamster and Squeek Pet World.",
       "description_origin": "website",
       "ecosystem_status": "weak",
       "evidence": [],
