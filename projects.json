@@ -2495,6 +2495,7 @@
         "announcement": "https://x.com/celestaocom/status/2118776845504307487",
         "website": "https://squeekascension.celestao.com"
       },
+      "logo": "logos/3813d3fd605fcc923f9a86eda2c8225052b001550f8f833f4f51a7aab437a7f7.png",
       "name": "Squeek Ascension",
       "publication_origin": "owner_approved",
       "stage": "development"
@@ -3931,7 +3932,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "A 6x6 turn-based puzzle where you guide a hamster to rescue three pups and reach the nest. The live Squeekchain hamster determines whether wheel bridges or sleeping gates open, adding a dynamic element to the 12 burrow puzzles.",
+      "description_en": "Squeek Burrow Rescue is a 6x6 turn-based puzzle where you guide a hamster to rescue three pups and reach the nest. You push seed crates onto pressure plates, open gates, and avoid beetles within a move budget. The game offers four chapters, a shared UTC Daily challenge, and a settlement-seeded rescue mode with shareable verified replays.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -6492,9 +6493,9 @@
     },
     {
       "builder": null,
-      "category": "analytics",
+      "category": "nft",
       "contracts": [],
-      "description_en": "A read-only explorer for Squeekchain NFTs on Ethereum Sepolia. Enter a token ID to trace its merge history, view the original onchain portraits of burned tokens, and save a family card. The interface is available in English and simplified Chinese.",
+      "description_en": "Trace the verified merge history of Squeekchain NFTs to recover original onchain portraits from before they were burned. Explore family trees on Ethereum Sepolia and export a personal family card. The tool supports both current and historical collections in English and Chinese.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -9407,7 +9408,7 @@
       "category": "game",
       "contracts": [],
       "description_en": "Squeaksy is a community game where you wake a hamster, spin a wheel and fill block clouds. You earn stars, collect limited hamsters and Pixsy buddies, and climb the leaderboard.",
-      "description_origin": "website",
+      "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [],
       "first_seen": "2026-11-05T21:31:55.726602+00:00",
