@@ -1172,7 +1172,7 @@
       "builder": null,
       "category": "prediction",
       "contracts": [],
-      "description_en": "Can you outthink Wheel Brain? A best-of-three prediction duel settled by real Squeekchain hamster rounds. Bragging rights only.",
+      "description_en": "Round Prophet is a prediction duel where you compete against Wheel Brain in a best-of-three match. The outcome is determined by real Squeekchain hamster-wheel settlements, offering bragging rights as the sole reward.",
       "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
@@ -1443,7 +1443,7 @@
           "chain_id": 11155111
         }
       ],
-      "description_en": "Squeeklings lets you hatch a free on-chain hamster on Ethereum Sepolia. You feed your Squeekling and watch it grow in sync with Squeektoshi, Squeekchain's real hamster. The project includes a static app to manage your companion and browse the on-chain nursery.",
+      "description_en": "Hatch a free on-chain hamster on Ethereum Sepolia. Feed your Squeekling and watch it grow in sync with Squeektoshi, Squeekchain's real hamster.",
       "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
@@ -1770,9 +1770,9 @@
     },
     {
       "builder": null,
-      "category": "streaming",
+      "category": "prediction",
       "contracts": [],
-      "description_en": "Rels on the Wheel is a free live stream overlay featuring samurai characters named Rels and lil Kuni. It functions as a just-for-fun game where viewers can predict the outcome of a hamster running on a wheel. The project is built on Squeekchain as a community initiative.",
+      "description_en": "Rels on the Wheel is a free live stream overlay and prediction game featuring a chibi samurai and a small dragon. The characters' animations follow Squeektoshi's real wheel signal, turning the hamster's movement into a visual companion for streams.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -2533,8 +2533,8 @@
       "builder": null,
       "category": "prediction",
       "contracts": [],
-      "description_en": "Squeek Wheel Arena lets you race or bet against Squeektoshi, a real hamster running on a live wheel. Every outcome is settled using the actual round data from Squeekchain's public API, ensuring the results reflect the hamster's real performance.",
-      "description_origin": "source",
+      "description_en": "Race or bet against Squeektoshi, a real hamster on a live wheel. You can race a ghost that runs at his real speed or bet on his next round. Every outcome settles on the real round from Squeekchain's public API.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -2605,7 +2605,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "A cozy living story powered by Squeektoshi’s real hamster wheel on Squeekchain. Read the latest chapter, join the village, and choose what happens next.",
+      "description_en": "Hamster Chronicles is a living story where Squeektoshi's real wheel work on Squeekchain determines the plot. You can join the village, name your character, and choose paths that shape the next chapter. The narrative evolves based on the amount of work recorded by the hamster.",
       "description_origin": "source",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -4064,9 +4064,9 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "nft",
       "contracts": [],
-      "description_en": "Squeek Hatchery is a demo where you hatch a hamster by aiming a heat lamp at an egg for 60 seconds of active wheel data. You can choose from three species, customize traits based on lighting, and save your character. A weekly leaderboard ranks the top 100 hamsters based on their total scores.",
+      "description_en": "Squeek Hatchery is a local demo that uses real hamster wheel data to simulate hatching a new hamster. You aim a lamp and incubate for 60 active seconds to save your hamster. NFT minting is not yet available.",
       "description_origin": "website",
       "ecosystem_status": "weak",
       "evidence": [
@@ -4103,10 +4103,10 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
       "contracts": [],
-      "description_en": "Squeekverse is a tiny planet where the sun rises only when a real hamster runs. You can defend the night shift, out-call the Almanac, and grow sunflowers on Squeekchain.",
-      "description_origin": "source",
+      "description_en": "Squeekverse is a tiny planet where the sun rises only when a real hamster runs. Players defend the night shift, out-call the Almanac, and grow sunflowers on Squeekchain.",
+      "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
         {
@@ -7265,7 +7265,7 @@
       "category": "analytics",
       "contracts": [],
       "description_en": "WheelTrace is a live, read-only dashboard that displays Squeekchain's hamster wheel telemetry. It shows real-time metrics such as RPM, block progress, cumulative work, and distance drawn from the public API.",
-      "description_origin": "source",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -7282,6 +7282,32 @@
         "website": "https://www.noirveil.web.id"
       },
       "name": "WheelTrace",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "A 2D top-down action RPG in the browser where Squeektoshi's real wheel work drains a weekly boss. Holders join the raid with a free wallet signature, and the game runs without gas or pay-to-win mechanics.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/edwarderlick/Hamster-Raid"
+        }
+      ],
+      "first_seen": "2026-11-05T18:22:53.255994+00:00",
+      "id": "c8abc70ec9fb5a5b",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/edwarderlick/Hamster-Raid",
+        "website": "https://hamster-raid.vercel.app"
+      },
+      "logo": "logos/f26aa6c5143b7d181dc47013ba4168adfa3cda4fbda74fbd773ca5145a445e4b.svg",
+      "name": "Hamster Raid: Wheelbound",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
@@ -8761,6 +8787,14 @@
         {
           "address": "0x79224b71fec04bbd1c34d0922e04a11da56d56cf",
           "chain_id": 11155111
+        },
+        {
+          "address": "0x4ee0160d3e9d9a24e7ab2d933d3cf29c32774b3c",
+          "chain_id": 11155111
+        },
+        {
+          "address": "0x1ae975c860d22aea8d6c6b3398164cfefd3b7f7e",
+          "chain_id": 11155111
         }
       ],
       "description_en": "Lock 30,000 test $CARDIO while Squeektoshi the hamster runs on Sepolia. You receive an on-chain pixel-hamster card and your coins back. The project is an unofficial testnet experience.",
@@ -8802,6 +8836,70 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/71300538-252b-47ab-91a6-5b6a37875a9b"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0xe55f841d043fb052e73cf2a553a079f07a685ca8a202e3571b374ac6bfb960ea"
+        },
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0x4ee0160d3e9d9a24e7ab2d933d3cf29c32774b3c"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0xe8097750b89b67cbd4ee25b143f1a3c091dd53dcd50edce6b3d5bb489ddd4459"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0xea97142611b05e5970b403230a2fbf164a5edc1c1f333bce6e933842556b0240"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0xbf230bb49fae0e0c553c1d709d0b2de615eb6979848baeed72e294493144da8f"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0xd4b3917c1fbc679582813badd9d125cc97cc432e518dbd3c12c50fdab0a31a00"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x0546584754c35728de7cf7c1028b4a043e2f18f04a9fda3452a751324854d0b8"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x7aca95d3ecf0836a744879f558170927087d2cbfd10d5de853153fad77be4b02"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x529f3fc9d03689d754263fed1fc508280cabf6bcab4af4f638b3cbb053d193ad"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0xbd5531b4a6217409cdb33f15c8696ffdce9602f1336c4bcbe9366bbb95ecf5e3"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x79897da9ff93a3ab8267f94e2b91fbdaa58f1902389798f1221b4882efbd5a87"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0xb55cad23ef69199ca1ae2f9bae16fddbe3381beea5781c754b43887423d062a7"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x044ecb5196cc330bec1c10cb5f96c875b83d53f1f91300a46e542ecc550f1ff8"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x47d19b1efe840f6a8be244b3a5bf2497f73b1f727f51adb1de827bf21f3f46f1"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0xc317b3e220fbc41bbe2fe88dbab67c74c05ef2aa70c68ce425388f6641eb4e27"
+        },
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0x1ae975c860d22aea8d6c6b3398164cfefd3b7f7e"
         }
       ],
       "first_seen": "2026-11-06T07:25:03.254381+00:00",
@@ -9277,7 +9375,7 @@
       ],
       "category": "game",
       "contracts": [],
-      "description_en": "Wake your hamster, spin the wheel and fill the block clouds. Earn stars, collect limited hamsters and Pixsy buddies, and climb the leaderboard. Built for the Squeekchain community.",
+      "description_en": "Squeaksy is a community game where you wake a hamster, spin a wheel and fill block clouds. You earn stars, collect limited hamsters and Pixsy buddies, and climb the leaderboard.",
       "description_origin": "website",
       "ecosystem_status": "claimed",
       "evidence": [],
