@@ -24,7 +24,7 @@
       "category": "nft",
       "contracts": [],
       "description_en": "SqueekSwap allows holders to trade Squeek Genesis NFTs directly with one another. You select specific Genesis IDs to exchange, and both sides change hands in a single atomic transaction. Completed swaps earn Seeds, with double rewards if Squeektoshi is on his wheel.",
-      "description_origin": "source",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -203,45 +203,9 @@
     {
       "builder": null,
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "SqueekWheel is a hamster-powered mining game where you run an empire, collect squeeks, and build a chain. It is free to play and requires no wallet, as described on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekwheel-hamster-powered-mini.imd.site"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To see how this works, you can check "
-            },
-            {
-              "text": "a public source",
-              "url": "https://explorer.imd.fun/jobs/4afe37f1-7f87-42b2-a45c-f29c15f14183"
-            },
-            {
-              "text": " or explore "
-            },
-            {
-              "text": "the code repository",
-              "url": "https://github.com/identity-md-launches/launch-3100-build-complete-polished-single-page"
-            },
-            {
-              "text": " for more details on the mechanics."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
-      "description_en": "Small paws. Big blocks. Run your hamster-powered mining empire, collect squeeks, and build a chain. Free to play. No wallet needed.",
-      "description_origin": "website",
+      "description_en": "Browse freely. Connect your wallet to start mining.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -1990,6 +1954,10 @@
         {
           "kind": "onchain_contract",
           "url": "https://eth-sepolia.blockscout.com/tx/0xf13377c2ba1bdbbedc44c05940bfbf45618c5d7b810dda310f8880ba7f659755"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x56f7368234daa57cb7eba16f6587abf093bdb4ee6cc973035a2df8f8921583a5"
         }
       ],
       "first_seen": "2026-11-03T22:34:55.834094+00:00",
@@ -2406,6 +2374,25 @@
       },
       "logo": "logos/1828ca4052bd2a5a23ae5ffec2ed72a2ee77082c6ab4975235fd539552876955.svg",
       "name": "Wheelwatch",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "🐹 Squeekchain Hamster Hub Demo mode: rivals are simulated and your score is stored only on this device. A real shared board needs a backend.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-11-07T16:02:37.942794+00:00",
+      "id": "38f1014d13a8e145",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "website": "https://squeekhub.site"
+      },
+      "name": "Squeekchain Hamster Hub",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
@@ -2902,6 +2889,35 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Jump is an endless runner game rethemed for Squeekchain, as described on "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekjump.my.id"
+            },
+            {
+              "text": ". It features Squeektoshi the hamster navigating obstacles like seed piles and sleeping cats, boosted by his exercise wheel."
+            }
+          ],
+          [
+            {
+              "text": "You can explore the game's details and mechanics directly on "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekjump.my.id"
+            },
+            {
+              "text": ". This source provides the primary context for understanding the project's purpose and visual style."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "Squeek Jump: a Chrome-dino-style endless runner rethemed for Squeekchain. Help Squeektoshi the hamster jump the seed piles, bottles, boxes and sleeping cats — boosted by his real exercise wheel.",
       "description_origin": "website",
@@ -2941,6 +2957,10 @@
         {
           "kind": "github_code",
           "url": "https://github.com/0xairr/squeektoshi-care-fund/blob/c7e8202b36d20124bd6ec46d1a7c7ac5863f8d79/backend/scripts/snapshot.mjs"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/0xairr/squeektoshi-care-fund/blob/c7e8202b36d20124bd6ec46d1a7c7ac5863f8d79/backend/config/care.json"
         }
       ],
       "first_seen": "2026-11-07T14:06:08.471585+00:00",
@@ -4778,7 +4798,7 @@
       "stage": "development"
     },
     {
-      "builder": null,
+      "builder": "huynh7903",
       "builder_links": [
         {
           "kind": "post",
@@ -4791,13 +4811,19 @@
       "contracts": [],
       "description_en": "Squeekerant is a free pixel restaurant game controlled by Squeektoshi, a real hamster on a wheel. When the hamster runs, guests enter the restaurant, and when it sleeps, new dishes are dreamed up. The game has no tokens or fees.",
       "description_origin": "website",
-      "ecosystem_status": "claimed",
-      "evidence": [],
+      "ecosystem_status": "confirmed",
+      "evidence": [
+        {
+          "kind": "team_mention",
+          "url": "https://x.com/pillheadddd/status/2119099600799666414"
+        }
+      ],
       "first_seen": "2026-11-05T16:40:14.755270+00:00",
       "id": "7a972e8bea54b158",
       "identity_status": "resolved",
       "lifecycle_stage": "development",
       "links": {
+        "announcement": "https://x.com/huynh7903/status/2119097553274933267",
         "website": "https://squeekerant.online"
       },
       "logo": "logos/d82b7de6d07a6d00e01de3184b064ba41b7b25174dacb1dee3b55883a20405ba.png",
@@ -5093,7 +5119,7 @@
       "contracts": [],
       "description_en": "Squeek Burrow is a 3D hamster kart racing game for Squeekchain. Your turbo charges twice as fast while the real Squeekchain hamster runs. All models, textures, music and sound effects are generated in code.",
       "description_origin": "readme",
-      "ecosystem_status": "claimed",
+      "ecosystem_status": "weak",
       "evidence": [
         {
           "kind": "github_mention",
