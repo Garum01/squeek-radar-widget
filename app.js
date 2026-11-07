@@ -398,6 +398,7 @@ function projectDetails(project) {
     if (teamPost) credit.append('The Squeekchain team named ', external(url, '', builder.label || 'its builder'), ' as its builder in ', external(teamPost, '', 'a post on X'), '.');
     else if (post) credit.append(external(url, '', builder.label || 'Its builder'), ' presented this project as their build in ', external(post, '', 'a post on X'), '.');
     else if (builder.kind === 'profile') credit.append(external(url, '', builder.label || 'Its builder'), ' is its builder.');
+    else if (builder.kind === 'repo_owner' && safeURL(builder.source)) credit.append(external(url, '', builder.label || 'Its builder'), ' is its builder: the same login owns ', external(safeURL(builder.source), '', 'its GitHub repository'), '.');
     else credit.append('The site credits ', external(url, '', builder.label || 'its builder'), ' as its builder.');
     copy.append(credit);
   }
