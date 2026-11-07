@@ -4380,6 +4380,14 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "post",
+          "label": "@teehuc269",
+          "source": "https://x.com/teehuc269/status/2119010038580748328",
+          "url": "https://x.com/teehuc269"
+        }
+      ],
       "category": "game",
       "contracts": [],
       "description_en": "A pixel-art adventure where you guide Chang through forest, glacier, volcano and reef biomes. Collect produce, grow your character, and defeat four bosses to find Alice. The game supports wallet-linked cloud saves for progress tracking.",
@@ -4727,6 +4735,10 @@
         {
           "kind": "github_code",
           "url": "https://github.com/Xelp66/squeeksense-ai/blob/259b056a16d2b2bb6607f4bf9afb53694f0c136e/README.md"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/Xelp66/squeeksense-ai/blob/d71e5a624ba0a64305d10df1bb0f7f273127b424/README.md"
         }
       ],
       "first_seen": "2026-11-04T19:52:10.805830+00:00",
