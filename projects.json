@@ -2381,6 +2381,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/3c695fed-c7e7-43b1-83c6-5ee6b4d16a3d"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/72501653-a08d-4707-a465-ea81684c594b"
         }
       ],
       "first_seen": "2026-11-06T09:27:18.879862+00:00",
@@ -4674,6 +4678,36 @@
     },
     {
       "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "Tempo Squeek is a free 90-second rhythm runner where the game speed and beat timing follow the live RPM of Squeektoshi's real wheel. Players jump hurdles, duck under branches, and collect cheese to build combos, with track layouts seeded by Squeekchain rounds. The game offers a live mode connected to the chain and a simulation mode for practice.",
+      "description_origin": "readme",
+      "ecosystem_status": "claimed",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-2998-build-tempo-squeek"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/595caf3a-200f-4674-811b-d49bfc99d80c"
+        }
+      ],
+      "first_seen": "2026-11-05T14:20:11.515819+00:00",
+      "id": "87a1267f1b9b0021",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-2998-build-tempo-squeek",
+        "website": "https://tempo-squeek-sync-or-sleep.imd.site"
+      },
+      "logo": "logos/9a83eecfe59a54079f96d36dd6232cbd23b84e1b70d4adc037dd6a82283a9f21.svg",
+      "name": "Tempo Squeek",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
       "builder_links": [
         {
           "kind": "board",
@@ -5165,6 +5199,10 @@
         {
           "kind": "owner_site",
           "url": "https://squeek-pen.vercel.app"
+        },
+        {
+          "kind": "owner_site",
+          "url": "https://squeek-penalty-tiny-paws-big-pre.imd.site"
         }
       ],
       "first_seen": "2026-11-02T18:44:02.551416+00:00",
@@ -5173,7 +5211,7 @@
       "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2895-build-absolutely-fire-highly",
-        "website": "https://squeek-penalty-tiny-paws-big-pre.imd.site"
+        "website": "https://squeekpen.xyz"
       },
       "logo": "logos/9388afe0a5cb2597bf40031cb3ca7ff8ee59849fa770f9eb5564251e53499326.svg",
       "name": "SQUEEK PENALTY",
@@ -7706,30 +7744,28 @@
     },
     {
       "builder": null,
-      "builder_links": [
-        {
-          "kind": "post",
-          "label": "@0xvinhpham",
-          "source": "https://x.com/0xvinhpham/status/2117547653303337287",
-          "url": "https://x.com/0xvinhpham"
-        }
-      ],
       "category": "game",
       "contracts": [],
       "description_en": "Squeek Life is a pixel art life simulation where you play as a rat moving from poverty to wealth. You scavenge trash, take jobs, and upgrade your appearance to unlock the rich district. The game uses live Squeekchain data and in-game coins to track your progress.",
       "description_origin": "placeholder",
       "ecosystem_status": "weak",
-      "evidence": [],
+      "evidence": [
+        {
+          "kind": "owner_site",
+          "url": "https://finish-product-322f7d.surf.computer"
+        }
+      ],
       "first_seen": "2026-11-03T09:42:54.314204+00:00",
       "id": "e781b475cf0d6331",
       "identity_status": "resolved",
-      "lifecycle_stage": "development",
+      "lifecycle_stage": "unknown",
       "links": {
-        "website": "https://finish-product-322f7d.surf.computer"
+        "website": "https://squeek-life-from-rags-to-riches.imd.site"
       },
+      "logo": "logos/3a767b724ee3e70205b33f7597ced443ec8ded6a157fba763ceaf4f3b315d1e0.svg",
       "name": "Squeek Life: From Rags to Riches",
       "publication_origin": "owner_approved",
-      "stage": "development"
+      "stage": "unknown"
     },
     {
       "builder": null,
@@ -7898,6 +7934,25 @@
           "name": "Squeek Garden"
         }
       ],
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "Squeek Arena: original hamster arcade fighting. Master high and low defense, aerial attacks, combos, throws and specials.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-11-06T16:09:12.262838+00:00",
+      "id": "e9d52732c256fa94",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "website": "https://squeek-arena.xyz"
+      },
+      "name": "SQUEEK ARENA",
+      "publication_origin": "owner_approved",
       "stage": "development"
     },
     {
