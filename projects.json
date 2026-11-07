@@ -202,6 +202,71 @@
     },
     {
       "builder": null,
+      "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "SqueekWheel is a hamster-powered mining game where you run an empire, collect squeeks, and build a chain. It is free to play and requires no wallet, as described on "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekwheel-hamster-powered-mini.imd.site"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To see how this works, you can check "
+            },
+            {
+              "text": "a public source",
+              "url": "https://explorer.imd.fun/jobs/4afe37f1-7f87-42b2-a45c-f29c15f14183"
+            },
+            {
+              "text": " or explore "
+            },
+            {
+              "text": "the code repository",
+              "url": "https://github.com/identity-md-launches/launch-3100-build-complete-polished-single-page"
+            },
+            {
+              "text": " for more details on the mechanics."
+            }
+          ]
+        ],
+        "version": 1
+      },
+      "contracts": [],
+      "description_en": "Small paws. Big blocks. Run your hamster-powered mining empire, collect squeeks, and build a chain. Free to play. No wallet needed.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/4afe37f1-7f87-42b2-a45c-f29c15f14183"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/46bf9376-a356-4ffe-bcc5-6c67713d0582"
+        }
+      ],
+      "first_seen": "2026-11-07T10:06:13.543546+00:00",
+      "id": "01ffe53bf846c374",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-3100-build-complete-polished-single-page",
+        "website": "https://squeekwheel-hamster-powered-mini.imd.site"
+      },
+      "name": "SqueekWheel: Hamster-Powered Mining",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
       "category": "game",
       "contracts": [],
       "description_en": "Squeek Deep is a single-player pixel-art mining roguelite where you control Pip, a hamster digging through six earth layers. The game is powered by a real Squeekchain wheel that moves the basket, or an offline simulation in practice mode. Collect gems to fill Pip's cheeks and bring the treasure back to the surface.",
@@ -2838,6 +2903,63 @@
       "builder": null,
       "category": "game",
       "contracts": [],
+      "description_en": "Squeek Jump: a Chrome-dino-style endless runner rethemed for Squeekchain. Help Squeektoshi the hamster jump the seed piles, bottles, boxes and sleeping cats — boosted by his real exercise wheel.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-11-07T13:06:47.148644+00:00",
+      "id": "4d9c3d3a41c975a7",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "website": "https://squeekjump.my.id"
+      },
+      "name": "Squeek Jump",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "defi",
+      "contracts": [],
+      "description_en": "A token where 5% of every trade pays for the food, bedding, and vet visits of Squeektoshi, the hamster powering Squeekchain. Once the vault holds a month of care, the fee is used to buy back and burn tokens. Holders vote on the monthly allowance.",
+      "description_origin": "source",
+      "ecosystem_status": "claimed",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/0xairr/squeektoshi-care-fund"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/0xairr/squeektoshi-care-fund/blob/c7e8202b36d20124bd6ec46d1a7c7ac5863f8d79/backend/lib/config.js"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/0xairr/squeektoshi-care-fund/blob/c7e8202b36d20124bd6ec46d1a7c7ac5863f8d79/backend/lib/squeek.js"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/0xairr/squeektoshi-care-fund/blob/c7e8202b36d20124bd6ec46d1a7c7ac5863f8d79/backend/scripts/snapshot.mjs"
+        }
+      ],
+      "first_seen": "2026-11-07T14:06:08.471585+00:00",
+      "id": "4e7c2fe77577dadb",
+      "identity_status": "resolved",
+      "lifecycle_stage": "testnet_announced",
+      "links": {
+        "github": "https://github.com/0xairr/squeektoshi-care-fund",
+        "website": "https://caretoshi.live"
+      },
+      "logo": "logos/bec79757301852ab2dbec40b2f33eb23736e53563f8a0021c09b1cf201e20b58.svg",
+      "name": "Squeektoshi Care Fund",
+      "publication_origin": "owner_approved",
+      "stage": "testnet_announced"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [],
       "description_en": "Wheel Run is an endless survival race game driven by the live Squeekchain hamster wheel. Players compete in a race where the hamster's speed determines the pace, creating a unique interactive experience.",
       "description_origin": "website",
       "ecosystem_status": "claimed",
@@ -3398,6 +3520,32 @@
         "website": "https://squeekchain-hamster-derby.vercel.app"
       },
       "name": "Hamster Derby",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "Can you outrun a hamster? Run with your phone for 10 minutes against Squeektoshi, the hamster whose wheel mines blocks on Squeekchain.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/0xdogacan/outrun-squeektoshi"
+        }
+      ],
+      "first_seen": "2026-11-05T21:46:34.921741+00:00",
+      "id": "5bede68da140578b",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/0xdogacan/outrun-squeektoshi",
+        "website": "https://outrun-squeektoshi.vercel.app"
+      },
+      "logo": "logos/bb1ed264ed712c1e75466b9594e0440775ad955b30fa2bd060dad09058c90e16.svg",
+      "name": "Outrun Squeektoshi",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
@@ -4744,6 +4892,10 @@
         {
           "kind": "github_code",
           "url": "https://github.com/Xelp66/squeeksense-ai/blob/d71e5a624ba0a64305d10df1bb0f7f273127b424/README.md"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/Xelp66/squeeksense-ai/blob/fd7d30dcbc47b33381949782981eccaaf3477c7d/README.md"
         }
       ],
       "first_seen": "2026-11-04T19:52:10.805830+00:00",
@@ -4782,6 +4934,36 @@
       "name": "Squeek Colony",
       "publication_origin": "owner_approved",
       "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [
+        {
+          "address": "0x7042fa3563706eacc8688af9c3bbcf4ae1c6f212",
+          "chain_id": 11155111
+        }
+      ],
+      "description_en": "SQUEEK TILES A square-grid elimination game on Squeekchain. Every player is a hamster tile. The wheel spins for 10 seconds, one tile drops — last hamster standing reaches the final tile and its prize.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0x7042fa3563706eacc8688af9c3bbcf4ae1c6f212"
+        }
+      ],
+      "first_seen": "2026-11-07T14:29:52.140536+00:00",
+      "id": "7d3703d9c88a5f25",
+      "identity_status": "resolved",
+      "lifecycle_stage": "testnet",
+      "links": {
+        "explorer": "https://eth-sepolia.blockscout.com/address/0x7042fa3563706eacc8688af9c3bbcf4ae1c6f212",
+        "website": "https://squeektiles.top"
+      },
+      "name": "Squeek Tiles",
+      "publication_origin": "owner_approved",
+      "stage": "testnet"
     },
     {
       "builder": null,
@@ -5251,6 +5433,31 @@
       },
       "logo": "logos/9a83eecfe59a54079f96d36dd6232cbd23b84e1b70d4adc037dd6a82283a9f21.svg",
       "name": "Tempo Squeek",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "A small, bilingual pottery studio in the browser. Public wheel-speed data from Squeektoshi the hamster sets the rhythm; you shape, glaze, and collect the pottery.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/ananaer/wheel-and-clay"
+        }
+      ],
+      "first_seen": "2026-11-07T12:04:37.340076+00:00",
+      "id": "87b643cf998cc255",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/ananaer/wheel-and-clay",
+        "website": "https://wheel-and-clay.blackhaven-phase1-dashboard.workers.dev/"
+      },
+      "name": "Wheel & Clay",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
@@ -6693,6 +6900,25 @@
     },
     {
       "builder": null,
+      "category": "nft",
+      "contracts": [],
+      "description_en": "A hamster runs on a real wheel, not a simulation, as an NFT on a chain.",
+      "description_origin": "ai",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-11-07T14:29:52.148542+00:00",
+      "id": "b1ee321090bf1df6",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "website": "https://quantumsqueak.xyz"
+      },
+      "name": "quantumsqueak.xyz",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
       "category": "game",
       "contracts": [],
       "description_en": "Wheelworks is a puzzle game where you route energy pulses from a hamster wheel to workshop devices. You place conveyors, elbows, and alternators to deliver every device's pulse quota within a strict tick budget. The game features handcrafted boards and a challenge seeded by a Squeekchain settlement.",
@@ -7259,6 +7485,37 @@
       "builder": null,
       "builder_links": [
         {
+          "label": "@serkankels",
+          "source": "https://wheelcast-broadcast-graphics-for.imd.site",
+          "url": "https://x.com/serkankels"
+        }
+      ],
+      "category": "streaming",
+      "contracts": [],
+      "description_en": "Free OBS overlays driven by Squeekchain's live API: run alerts, wheel telemetry, block banners, Twitch chat calls and a stats ticker.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/03b0ebc5-1e9d-416e-924d-97cdbc78f485"
+        }
+      ],
+      "first_seen": "2026-11-07T11:06:25.445485+00:00",
+      "id": "c630cf5be2944cf6",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "website": "https://wheelcast-broadcast-graphics-for.imd.site"
+      },
+      "name": "Wheelcast",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "builder_links": [
+        {
           "kind": "board",
           "label": "@lowonfiats",
           "source": "https://squeekchain.com/genesis/i/2k6c9h8k",
@@ -7680,6 +7937,25 @@
           "name": "Squeek Wheel Rush"
         }
       ],
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "nft",
+      "contracts": [],
+      "description_en": "SQUEEK ROYALE — Tiny Hamsters. Massive Battles. 100 AI Hamster Battle Royale, deterministic simulation, 256-bit on-chain DNA NFT, and 90% prize pool.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-11-07T09:13:19.250070+00:00",
+      "id": "cfd4fef6ecc31ce6",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "website": "https://squeekroyale.fun"
+      },
+      "name": "SQUEEK ROYALE",
+      "publication_origin": "owner_approved",
       "stage": "development"
     },
     {
@@ -8214,6 +8490,7 @@
       "identity_status": "resolved",
       "lifecycle_stage": "development",
       "links": {
+        "github": "https://github.com/mettin4/wheelpaper",
         "website": "https://wheelpaper.online/"
       },
       "logo": "logos/51402b2d4d8fc90f555a42d1b7f2fa76fbf3ea8e1d1f3b92f00e7399f0e4eada.png",
@@ -9403,9 +9680,9 @@
       "builder": null,
       "builder_links": [
         {
-          "kind": "repo_owner",
+          "kind": "post",
           "label": "@nftpoetrist",
-          "source": "https://github.com/nftpoetrist/squeaksy",
+          "source": "https://x.com/nftpoetrist/status/2119075671200714823",
           "url": "https://x.com/nftpoetrist"
         }
       ],
@@ -9569,6 +9846,36 @@
       },
       "logo": "logos/5cce27a144ba50fb0faef3ea432788edecff42a0ff7e60cc93d061f739ff109d.svg",
       "name": "Wheelhold",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "analytics",
+      "contracts": [],
+      "description_en": "A static, turn-based hamster RPG built with React, TypeScript and Vite. Live Squeekchain telemetry sets the party's battle stance. Three battles lead to Ashwood gate, with simulated SQK credits and a 120 Genesis Aura campaign reward.",
+      "description_origin": "readme",
+      "ecosystem_status": "claimed",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-3102-https-github-com-nerotarbo-squeek-warrio"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/c917705c-e791-4abe-8ea7-9cf22076a772"
+        }
+      ],
+      "first_seen": "2026-11-07T10:48:45.338182+00:00",
+      "id": "fcd299f3661ee300",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/nerotarbo/squeek-warriors",
+        "website": "https://squeek-warriors-a-hamster-rpg-po.imd.site"
+      },
+      "logo": "logos/45c62cd50f22b18b80e08fa61f3c767e96a218f20c41cad5ae43c7e34acd6b04.svg",
+      "name": "Squeek Warriors",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
