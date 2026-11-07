@@ -2641,6 +2641,31 @@
     },
     {
       "builder": null,
+      "category": "defi",
+      "contracts": [],
+      "description_en": "YES/NO pools in $SQK on what Squeektoshi, the hamster behind Squeekchain, does on the wheel. Unofficial community project. Sepolia testnet only: testnet SQK has no monetary value.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/mecalor0x/squeek-markets"
+        }
+      ],
+      "first_seen": "2026-11-07T22:58:54.229774+00:00",
+      "id": "3ef942287352bae0",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/mecalor0x/squeek-markets",
+        "website": "https://squeek-markets.vercel.app"
+      },
+      "name": "Squeek Markets",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
       "category": "game",
       "contracts": [],
       "description_en": "Squeek Beat: Hamster Tour is a free, two-lane rhythm arcade game for the Squeekchain community. Players complete a 60-second hamster tour across three acts, collecting sunflowers to find their groove. The game features original hamster-in-wheel artwork and tracks local personal bests.",
