@@ -94,8 +94,8 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "A community raid where players join with a wallet signature to pick roles like Tank or Runner. Boss health decreases only when Squeektoshi's wheel performs measured work on Squeekchain. Participants earn points based on their role and cheers to climb the seasonal leaderboard.",
-      "description_origin": "source",
+      "description_en": "A community boss raid where the boss only loses health when Squeektoshi's wheel performs real, measured work on Squeekchain. Players join with a wallet signature, pick a role, and cheer to climb the season leaderboard. An OBS-ready overlay displays live boss health and wheel data for streaming.",
+      "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
         {
@@ -3146,6 +3146,7 @@
         "github": "https://github.com/jinkatama105/squeek-impact",
         "website": "https://squeekimpact.vercel.app"
       },
+      "logo": "logos/96547fcb41533adb2bf8931c1450c58ff2d92c31c3d817b7a59b7b37cc9113d4.png",
       "name": "SQUEEK IMPACT",
       "publication_origin": "owner_approved",
       "stage": "development"
@@ -3329,7 +3330,7 @@
       "builder": "KazzYuzaNFT",
       "category": "game",
       "contracts": [],
-      "description_en": "Squeek Den is a browser-based game where players manage a hamster den and earn Watts by spinning a wheel. You spend these Watts in a shop to customize your burrow and participate in raids against other players. The game features a leaderboard and a certificate system that tracks your progress and speed records.",
+      "description_en": "Squeek Den is a browser-based game where players manage a hamster den to earn Watts by spinning a wheel. You spend these Watts in a shop to customize your den and participate in raids against other players. The project features a leaderboard and a certificate system that tracks your lifetime progress.",
       "description_origin": "ai",
       "ecosystem_status": "confirmed",
       "evidence": [
@@ -6266,7 +6267,7 @@
           "chain_id": 11155111
         }
       ],
-      "description_en": "Squeek Predict is an on-chain prediction market where you bet Sepolia test ETH on the Squeekchain hamster's performance. You take a side on whether the hamster will complete a specific number of blocks within a 24-hour or 7-day window. The platform displays clear pool odds and tracks your positions in one place.",
+      "description_en": "Squeek Predict is a prediction board for Squeekchain activity featuring twelve ready-to-play markets. You pick a side on upcoming blocks using virtual ETH or verified Sepolia markets, then track your choices in My Positions.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -7819,7 +7820,7 @@
       "builder": null,
       "category": "analytics",
       "contracts": [],
-      "description_en": "Squeekside is a read-only stream companion that displays live Sepolia blocks, SqueekCore rounds, and Squeektoshi's mining progress. It presents this activity in a single HUD designed for streaming.",
+      "description_en": "Squeekside is a read-only stream companion that displays live Sepolia blocks, SqueekCore rounds, and Squeektoshi's mining progress. It offers a responsive monitor with a stream view, fullscreen mode, and an optional transparent background for easy integration into broadcasts.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
