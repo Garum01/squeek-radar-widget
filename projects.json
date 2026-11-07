@@ -179,7 +179,7 @@
         "version": 1
       },
       "contracts": [],
-      "description_en": "A small Squeekchain circuit puzzle. Flip a lamp and its four orthogonal neighbours. The goal is to light every lamp. Reset repeats the current board and Hint identifies one move from a shortest solution.",
+      "description_en": "Burrow Relay is a circuit puzzle generated from live Squeekchain wheel readings. You flip switches to light nine lamps, where each move also toggles the four orthogonal neighbors. The goal is to illuminate the entire board.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -505,6 +505,31 @@
           "name": "Squeek Signal Garden"
         }
       ],
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "analytics",
+      "contracts": [],
+      "description_en": "A live dashboard that monitors Squeekchain's hamster wheel speed and block height. It triggers a sound and banner when the hamster starts or stops running. The page also includes mini-games like Squeek or Sleep and Squeek Out, which are only playable while the wheel is moving.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/Learshy/squeek-alarm"
+        }
+      ],
+      "first_seen": "2026-11-07T07:31:57.385689+00:00",
+      "id": "0a386a9058d9d46a",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/Learshy/squeek-alarm",
+        "website": "https://squeek-alarm.vercel.app"
+      },
+      "name": "Squeek Alarm",
+      "publication_origin": "owner_approved",
       "stage": "development"
     },
     {
@@ -1573,6 +1598,7 @@
       "lifecycle_stage": "testnet",
       "links": {
         "explorer": "https://eth-sepolia.blockscout.com/address/0x0b71e2aeb9eda244ba53492efa83f913a37cbd83",
+        "github": "https://github.com/0xBadSign/pixel-pit",
         "website": "https://hamsterpit.xyz"
       },
       "name": "Pixel Pit",
@@ -1872,6 +1898,10 @@
         {
           "kind": "onchain_contract",
           "url": "https://eth-sepolia.blockscout.com/tx/0x1721837d8a5f50e809a426235ef3ea084fb6937348c7cf7b01f68c107c18ce2f"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0xf13377c2ba1bdbbedc44c05940bfbf45618c5d7b810dda310f8880ba7f659755"
         }
       ],
       "first_seen": "2026-11-03T22:34:55.834094+00:00",
@@ -3393,7 +3423,7 @@
       "builder": null,
       "category": "prediction",
       "contracts": [],
-      "description_en": "A playable hamster prediction game for the Squeekchain economy. Predict Run or Rest, watch the wheel reveal the outcome, and outscore the rule-based opponent Pip across five rounds. The site includes original SVG hamster art, streak scoring, browser persistence, a roundbook, JSON exports and downloadable SVG scorecards…",
+      "description_en": "Wheelhouse is a hamster prediction game where you guess whether Squeektoshi will run or rest. You compete against Pip, a rule-based opponent, across five rounds to see who scores higher. The game includes streak tracking and downloadable SVG scorecards.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -3423,7 +3453,7 @@
       "builder": null,
       "category": "prediction",
       "contracts": [],
-      "description_en": "Predict the hamster. Powered by the real wheel. Guess whether Squeektoshi will be running or sleeping when the 90-second timer ends.",
+      "description_en": "Squeek or Sleep is a prediction game where you guess whether Squeektoshi will be running or sleeping when a 90-second timer ends. Correct picks earn points based on your current streak, with results determined by live Squeekchain wheel data.",
       "description_origin": "source",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -4073,9 +4103,9 @@
     },
     {
       "builder": null,
-      "category": "game",
+      "category": "tools",
       "contracts": [],
-      "description_en": "Add one new room to the existing Squeekverse site: Distance Race. Visitors pick a distance goal for the real Squeekchain hamster and follow his settled work toward that goal, with a race track drawn in the same style as the rest of the site. Use the existing hash routes, room layout and chain data helpers in src and shared. Keep every existing r...",
+      "description_en": "Squeekverse is a tiny planet where the sun rises only when a real hamster runs. You can defend the night shift, out-call the Almanac, and grow sunflowers on Squeekchain.",
       "description_origin": "source",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -4086,6 +4116,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/2bf5d1e4-3d04-47ac-87fd-10d1ce06825c"
+        },
+        {
+          "kind": "owner_site",
+          "url": "https://squeekverse-2bf5.imd.site"
         }
       ],
       "first_seen": "2026-11-05T18:07:44.457713+00:00",
@@ -4094,7 +4128,7 @@
       "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-3006-add-one-new-room",
-        "website": "https://squeekverse-2bf5.imd.site"
+        "website": "https://squeekverse.imd.site"
       },
       "logo": "logos/a3dc56d3e7a5df2f0c47e36130e0003a3d7fa657282fe029a3a0e7c69e214343.svg",
       "name": "Squeekverse",
@@ -4455,25 +4489,6 @@
           "name": "Squeek Forge"
         }
       ],
-      "stage": "development"
-    },
-    {
-      "builder": null,
-      "category": "game",
-      "contracts": [],
-      "description_en": "A 3D endless runner where you control one of five hamsters with unique skills to dodge obstacles and collect sunflower seeds. The daily track is generated from Squeekchain block data, ensuring all players face the same course. You can play as a guest or connect a wallet to compete on the global leaderboard.",
-      "description_origin": "ai",
-      "ecosystem_status": "weak",
-      "evidence": [],
-      "first_seen": "2026-11-06T17:37:41.865526+00:00",
-      "id": "78f9df1bfdfbb12a",
-      "identity_status": "resolved",
-      "lifecycle_stage": "development",
-      "links": {
-        "website": "https://hamster.dess.lol"
-      },
-      "name": "仓鼠快跑",
-      "publication_origin": "owner_approved",
       "stage": "development"
     },
     {
@@ -5470,9 +5485,9 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
       "contracts": [],
-      "description_en": "On-chain part of SqueekBoard, the community companion app for Squeekchain, the hamster-powered testnet on Sepolia. Two contracts, no fungible token",
+      "description_en": "On-chain contracts for SqueekBoard, a community companion app for Squeekchain. Users mint a free Hamster Badge on Sepolia, record one wheel spin a day, and climb a public streak leaderboard.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -6472,9 +6487,9 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
       "contracts": [],
-      "description_en": "Small paws. Shared survival. Join a hamster colony, choose your assignment, and survive 24 Squeekchain rounds together.",
+      "description_en": "SqueekBurrow is a cooperative hamster survival game where players join a colony and choose an assignment. You forage, fortify, and explore to keep the burrow glowing across 24 Squeekchain rounds.",
       "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
@@ -7117,7 +7132,12 @@
       "description_en": "A 3D endless runner where players control one of five hamsters with unique skills to dodge obstacles and collect sunflower seeds. Daily tracks are generated from Squeekchain data, and daily champions are recorded on-chain via ScoreLedger.",
       "description_origin": "placeholder",
       "ecosystem_status": "weak",
-      "evidence": [],
+      "evidence": [
+        {
+          "kind": "owner_site",
+          "url": "https://hamster.dess.lol"
+        }
+      ],
       "first_seen": "2026-11-03T02:38:40.153246+00:00",
       "id": "c36a408f89663ccd",
       "identity_status": "resolved",
@@ -7604,7 +7624,7 @@
       "builder": null,
       "category": "art",
       "contracts": [],
-      "description_en": "Wheel Radio plays live generative lofi driven by Squeektoshi the hamster's real wheel on Squeekchain. Read-only, no wallet, runs in your browser.",
+      "description_en": "Wheel Radio is a browser-based tool that plays live generative lofi music driven by Squeektoshi the hamster's real wheel activity on Squeekchain. It is read-only and requires no wallet, allowing users to listen to the chain's rhythm as the beat follows the hamster's movement in real time.",
       "description_origin": "source",
       "ecosystem_status": "claimed",
       "evidence": [
