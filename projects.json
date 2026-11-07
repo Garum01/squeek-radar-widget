@@ -1041,9 +1041,17 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "board",
+          "label": "@OlricOnlyfornft",
+          "source": "https://squeekchain.com/genesis/i/2k6c9h8k",
+          "url": "https://x.com/OlricOnlyfornft"
+        }
+      ],
       "category": "tools",
       "contracts": [],
-      "description_en": "Squeek Keeper is a Chrome extension that monitors your Squeekchain wallet in the background. It alerts you when Squeeks are ready to merge, when SQK is claimable, and when Squeektoshi starts running. You can also claim rewards directly from the extension without connecting or signing transactions.",
+      "description_en": "Squeek Keeper is a Chrome extension and web app that monitors your Squeekchain wallet for actionable events. It alerts you when Squeeks are ready to merge, SQK is claimable, or Squeektoshi starts running, and provides one-click buttons to claim or stake directly from your own wallet.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -1063,7 +1071,14 @@
       "logo": "logos/22770565c1ef6d0262a896375fcf990ed0996832f7d2f78b7aecc83608b87cac.png",
       "name": "Squeek Keeper",
       "publication_origin": "owner_approved",
-      "stage": "development"
+      "stage": "development",
+      "verified_by_squeek": {
+        "last_checked": "2026-11-07T09:33:43.947114+00:00",
+        "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
+        "stale": false,
+        "verified_at": "2026-11-06T03:49:55.677000+00:00",
+        "version": 1
+      }
     },
     {
       "builder": null,
@@ -1531,7 +1546,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T21:33:33.466645+00:00",
+        "last_checked": "2026-11-07T09:33:43.947114+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-05T06:45:33.132000+00:00",
@@ -1800,6 +1815,14 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "board",
+          "label": "@0xdegenapt",
+          "source": "https://squeekchain.com/genesis/i/2k6c9h8k",
+          "url": "https://x.com/0xdegenapt"
+        }
+      ],
       "category": "game",
       "contracts": [
         {
@@ -1811,7 +1834,7 @@
           "chain_id": 11155111
         }
       ],
-      "description_en": "Squeek Wars is a strategy game where each wallet founds a hamster village on Squeekchain. Players build structures, train troops, and raid neighbors, with production boosted by Squeektoshi's daily wheel work recorded on-chain.",
+      "description_en": "Squeek Wars is a strategy game where each wallet builds a hamster village on Squeekchain. Players train troops, raid neighbors, and grow resources boosted by Squeektoshi's daily wheel work. Holding a Squeek NFT strengthens your champion and speeds up construction.",
       "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
@@ -1923,7 +1946,14 @@
           "name": "Squeek Studio"
         }
       ],
-      "stage": "testnet"
+      "stage": "testnet",
+      "verified_by_squeek": {
+        "last_checked": "2026-11-07T09:33:43.947114+00:00",
+        "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
+        "stale": false,
+        "verified_at": "2026-11-04T11:06:43.483000+00:00",
+        "version": 1
+      }
     },
     {
       "builder": null,
@@ -2677,7 +2707,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T21:33:33.466645+00:00",
+        "last_checked": "2026-11-07T09:33:43.947114+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T20:28:19.405000+00:00",
@@ -2796,7 +2826,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T21:33:33.466645+00:00",
+        "last_checked": "2026-11-07T09:33:43.947114+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:37:44.874000+00:00",
@@ -2928,7 +2958,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T21:33:33.466645+00:00",
+        "last_checked": "2026-11-07T09:33:43.947114+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-03T20:27:41.024000+00:00",
@@ -2997,7 +3027,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T21:33:33.466645+00:00",
+        "last_checked": "2026-11-07T09:33:43.947114+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:33:51.063000+00:00",
@@ -3246,7 +3276,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T21:33:33.466645+00:00",
+        "last_checked": "2026-11-07T09:33:43.947114+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T20:55:04.251000+00:00",
@@ -3823,7 +3853,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T21:33:33.466645+00:00",
+        "last_checked": "2026-11-07T09:33:43.947114+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-05T18:50:40.790000+00:00",
@@ -4545,7 +4575,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T21:33:33.466645+00:00",
+        "last_checked": "2026-11-07T09:33:43.947114+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T18:51:42.010000+00:00",
@@ -4928,7 +4958,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T21:33:33.466645+00:00",
+        "last_checked": "2026-11-07T09:33:43.947114+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-03T18:29:23.740000+00:00",
@@ -5141,8 +5171,8 @@
       "builder": null,
       "category": "prediction",
       "contracts": [],
-      "description_en": "Squeek or Sleep is a free prediction game where you guess whether Squeektoshi the hamster is running or asleep in the next round. Your score depends on correctly calling changes in the hamster's activity, with points awarded based on live wheel telemetry from Squeekchain.",
-      "description_origin": "source",
+      "description_en": "A free prediction game where players guess whether Squeektoshi the hamster is running or asleep in the next two-minute round. Scores are calculated from live wheel telemetry, awarding points for correctly predicting state changes or continuity.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -5205,17 +5235,9 @@
     },
     {
       "builder": null,
-      "builder_links": [
-        {
-          "kind": "board",
-          "label": "@cuongisreal_",
-          "source": "https://squeekchain.com/genesis/i/2k6c9h8k",
-          "url": "https://x.com/cuongisreal_"
-        }
-      ],
       "category": "analytics",
       "contracts": [],
-      "description_en": "Squeek Dashboard is a live explorer for Squeekchain that displays every Squeek's holder, level, power, and vault status. It ranks wallets by staked power, tracks merges and vault activity in real time, and allows users to look up specific addresses for their SQK rewards and activity history.",
+      "description_en": "Squeek Dashboard is a Squeekchain explorer that tracks every Squeek, including owners, merges, levels, and power leaderboards. It displays Squeektoshi's mining records, recent merges, and staking vault details. Users can look up specific addresses to view their Squeeks, power share, and activity.",
       "description_origin": "website",
       "ecosystem_status": "weak",
       "evidence": [],
@@ -5229,14 +5251,7 @@
       "logo": "logos/5450d5403c3d2ba8091f7a98b95840fbe62ac353ae5e93d6d89f3579aad63dad.png",
       "name": "Squeek Dashboard",
       "publication_origin": "owner_approved",
-      "stage": "development",
-      "verified_by_squeek": {
-        "last_checked": "2026-11-06T21:33:33.466645+00:00",
-        "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
-        "stale": true,
-        "verified_at": "2026-10-29T21:41:31.306000+00:00",
-        "version": 1
-      }
+      "stage": "development"
     },
     {
       "builder": null,
@@ -5851,7 +5866,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T21:33:33.466645+00:00",
+        "last_checked": "2026-11-07T09:33:43.947114+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:36:12.155000+00:00",
@@ -6618,7 +6633,7 @@
       "publication_origin": "owner_approved",
       "stage": "testnet",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T21:33:33.466645+00:00",
+        "last_checked": "2026-11-07T09:33:43.947114+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T20:44:51.266000+00:00",
@@ -7212,7 +7227,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T21:33:33.466645+00:00",
+        "last_checked": "2026-11-07T09:33:43.947114+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-04T21:05:34.042000+00:00",
@@ -7253,7 +7268,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T21:33:33.466645+00:00",
+        "last_checked": "2026-11-07T09:33:43.947114+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-03T20:48:31.131000+00:00",
@@ -7842,7 +7857,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T21:33:33.466645+00:00",
+        "last_checked": "2026-11-07T09:33:43.947114+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-30T00:45:08.265000+00:00",
@@ -8185,7 +8200,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T21:33:33.466645+00:00",
+        "last_checked": "2026-11-07T09:33:43.947114+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T22:39:31.786000+00:00",
@@ -8370,7 +8385,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T21:33:33.466645+00:00",
+        "last_checked": "2026-11-07T09:33:43.947114+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:55:44.291000+00:00",
@@ -9038,7 +9053,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-06T21:33:33.466645+00:00",
+        "last_checked": "2026-11-07T09:33:43.947114+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": true,
         "verified_at": "2026-11-05T11:19:23.352000+00:00",
