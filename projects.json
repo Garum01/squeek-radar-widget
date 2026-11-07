@@ -3423,7 +3423,7 @@
         }
       ],
       "description_en": "Squeek Pot is a daily lottery on Squeekchain where users deposit SQK to receive tickets for a prize draw. Deposits are never at risk and can be withdrawn at any time, while the winner takes the entire pot. Genesis NFT holders receive a 20% boost to their winning odds.",
-      "description_origin": "website",
+      "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -3433,6 +3433,10 @@
         {
           "kind": "site_contract_link",
           "url": "https://eth-sepolia.blockscout.com/address/0xcb98349c134ab983da5bfd80527dfe2552bdb70f"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x4b22e884e128948f045aca79abb262ff818af36d0a2449cfde6e7baa52b5fc7d"
         }
       ],
       "first_seen": "2026-11-07T00:13:11.664778+00:00",
@@ -6917,8 +6921,8 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "Squeek Arena is a free-to-play hamster action-adventure game featuring three pixel-art worlds. Players master their moves to defeat the final boss, the Iron Gnaw, without needing a wallet.",
-      "description_origin": "source",
+      "description_en": "Squeek Arena is a free-to-play hamster action-adventure game featuring three pixel-art worlds. Players explore the environments, master their moves, and battle the Iron Gnaw boss to recover the heartseed. Progress is saved locally in the browser without requiring a wallet.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -9407,7 +9411,7 @@
       ],
       "category": "game",
       "contracts": [],
-      "description_en": "Squeaksy is a community game where you wake a hamster, spin a wheel and fill block clouds. You earn stars, collect limited hamsters and Pixsy buddies, and climb the leaderboard.",
+      "description_en": "Squeaksy is a pixel idle game where you wake a hamster, spin a wheel and fill block clouds. You earn stars, collect limited hamsters and Pixsy buddies, and climb the leaderboard.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [],
