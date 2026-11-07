@@ -2533,8 +2533,8 @@
       "builder": null,
       "category": "prediction",
       "contracts": [],
-      "description_en": "Squeek Price Action Terminal converts Squeekchain's live hamster wheel activity into price-action candlesticks. You read the wheel data to spot signals and predict the next round using virtual SQK. The project frames the hamster's movements as a market to challenge an AI in a prediction game.",
-      "description_origin": "source",
+      "description_en": "A prediction game that reads Squeekchain's live wheel activity to display market-like signals. You inspect derived candlesticks and algorithmic indicators to predict the next round's outcome. Compete against a rules-based AI using virtual SQK.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -4224,8 +4224,8 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "A small, living night market for the Squeekchain community where players pick a stall to play. The real hamster wheel determines how fast the game works.",
-      "description_origin": "source",
+      "description_en": "A small, living night market for the Squeekchain community where you pick a stall to play. The real hamster wheel determines how fast the game works, and you can join as a guest without a Squeek account.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -4723,6 +4723,10 @@
         {
           "kind": "owner_site",
           "url": "https://squeeksense-ai-app.vercel.app"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/Xelp66/squeeksense-ai/blob/259b056a16d2b2bb6607f4bf9afb53694f0c136e/README.md"
         }
       ],
       "first_seen": "2026-11-04T19:52:10.805830+00:00",
@@ -5806,7 +5810,7 @@
       ],
       "category": "game",
       "contracts": [],
-      "description_en": "Squeek Time Machine is a 3D underground archive that visualizes Squeekchain's history. Visitors walk a hamster through a burrow where every pillar and block represents a real settled record. The project includes The Great Dig, a game that turns settled rounds into a community activity.",
+      "description_en": "Squeek Time Machine is a living underground archive that grows with every settled Squeekchain block. Visitors walk through the chain's history in a 3D world where every pillar and door is backed by a real record. The project also features The Great Dig, a game that turns real settled rounds into a community activity.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -5822,7 +5826,7 @@
       "first_seen": "2026-11-05T20:39:06.054342+00:00",
       "id": "99873bd996547195",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/BFA-xx/squeek-time-machine",
         "website": "https://squeek.quest"
@@ -5830,7 +5834,7 @@
       "logo": "logos/2c554232f488e9e4bc76da776eb0c7e3de5216689bf200dc2144a68b55950bcd.png",
       "name": "Squeek Time Machine",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -8582,8 +8586,8 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "Squeek Life is a pixel art life simulation where you play as a rat moving from poverty to wealth. You scavenge trash, take jobs, and upgrade your appearance to unlock the rich district. The game uses live Squeekchain data and in-game coins to track your progress.",
-      "description_origin": "placeholder",
+      "description_en": "Squeek Life is a pixel art life simulation game where you start as a broke rat and work your way up to the rich district. You scavenge for trash, take jobs, and upgrade your appearance to progress through three distinct city areas. The game runs in the browser and uses in-game coins, with wallet connection being optional.",
+      "description_origin": "website",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -8594,14 +8598,14 @@
       "first_seen": "2026-11-03T09:42:54.314204+00:00",
       "id": "e781b475cf0d6331",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "website": "https://squeek-life-from-rags-to-riches.imd.site"
       },
       "logo": "logos/3a767b724ee3e70205b33f7597ced443ec8ded6a157fba763ceaf4f3b315d1e0.svg",
       "name": "Squeek Life: From Rags to Riches",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
