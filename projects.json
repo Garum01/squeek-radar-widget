@@ -2365,7 +2365,7 @@
       "category": "analytics",
       "contracts": [],
       "description_en": "A read-only dashboard for monitoring the Squeekchain testnet. It displays live metrics such as hamster wheel RPM, settled blocks, NFT supply, and overall protocol health without requiring a wallet connection.",
-      "description_origin": "source",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -5601,6 +5601,36 @@
     },
     {
       "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "Follow settled Squeekchain work, checkpoint on Sepolia, and explore Squeek power, merges and exit fees. A community tool with wallet-free paper mode.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-3118-build-squeekchain-keeper"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/78c09a2c-6de3-4633-94e1-0bdfae9b74c7"
+        }
+      ],
+      "first_seen": "2026-11-07T18:10:07.145464+00:00",
+      "id": "87b70beaab3fdcf8",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-3118-build-squeekchain-keeper",
+        "website": "https://squeek-keeper-sepolia-keeper-sta.imd.site"
+      },
+      "logo": "logos/060d584faae73663e72845dd040925948d346c22802e4761b485fa924d139748.svg",
+      "name": "Squeek Keeper",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
       "category": "analytics",
       "contracts": [],
       "description_en": "Squeek Dashboard is a Squeekchain explorer that tracks every Squeek, including owners, merges, levels, and power leaderboards. It displays Squeektoshi's mining records, recent merges, and staking vault details. Users can look up specific addresses to view their Squeeks, power share, and activity.",
@@ -6039,7 +6069,7 @@
       "category": "tools",
       "contracts": [],
       "description_en": "Squeek Studio turns on-chain Squeeks into profile pictures, banners, wallpapers, stickers and a Squeek ID. The tool runs entirely in your browser, keeping the process free and private.",
-      "description_origin": "source",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -7230,6 +7260,34 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "post",
+          "label": "@klein0gn",
+          "source": "https://x.com/klein0gn/status/2119167234774069473",
+          "url": "https://x.com/klein0gn"
+        }
+      ],
+      "category": "tools",
+      "contracts": [],
+      "description_en": "Wheelhouse — checkpoint, claim, merge and inspect Squeeks on Squeekchain. Reads are permissionless; owner actions are signed in your own wallet.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-11-07T21:05:25.548522+00:00",
+      "id": "b9a1ca041c5d6e2e",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/CryptoExplor/Squeekchain-console",
+        "website": "https://wheel-house.pages.dev"
+      },
+      "name": "Wheelhouse",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
       "category": "game",
       "contracts": [
         {
@@ -7787,6 +7845,36 @@
           "name": "Turing Wheel"
         }
       ],
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "Hatch a free on-chain hamster pet on Sepolia. Explore gentle trails, collect Seed Capsules, and make a cozy burrow. Napping is always welcome.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-3124-workflow-frontend-stage-context"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/98030752-2e5b-41d0-90ad-b5bea074c28c"
+        }
+      ],
+      "first_seen": "2026-11-07T19:10:42.243337+00:00",
+      "id": "ca4d3d39348d7c15",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-3124-workflow-frontend-stage-context",
+        "website": "https://squeeklings-little-paws-welcome.imd.site"
+      },
+      "logo": "logos/88e5ce747a62245d0d843c1c33561ef4856f189ec430aef5d87e9cc2411d7fb9.svg",
+      "name": "Squeeklings",
+      "publication_origin": "owner_approved",
       "stage": "development"
     },
     {
@@ -8653,6 +8741,40 @@
         "verified_at": "2026-10-29T22:39:31.786000+00:00",
         "version": 1
       }
+    },
+    {
+      "builder": null,
+      "builder_links": [
+        {
+          "kind": "repo_owner",
+          "label": "@siribraheem33",
+          "source": "https://github.com/SIRIBRAHEEM/squeek-sprint",
+          "url": "https://x.com/siribraheem33"
+        }
+      ],
+      "category": "game",
+      "contracts": [],
+      "description_en": "Squeek Sprint is an endless runner paced by Squeektoshi’s live wheel and a course seeded by the latest Squeekchain settlement.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/SIRIBRAHEEM/squeek-sprint"
+        }
+      ],
+      "first_seen": "2026-11-07T11:34:17.923638+00:00",
+      "id": "dcb5595e78dcbd15",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/SIRIBRAHEEM/squeek-sprint",
+        "website": "https://squeek-sprint-psi.vercel.app"
+      },
+      "logo": "logos/9e6c2f9e7e2f5a250a9ded816755487f029ee286400ef5f0832ff827685918b1.svg",
+      "name": "Squeek Sprint",
+      "publication_origin": "owner_approved",
+      "stage": "development"
     },
     {
       "builder": null,
