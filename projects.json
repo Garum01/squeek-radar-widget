@@ -7445,7 +7445,12 @@
         }
       ],
       "category": "game",
-      "contracts": [],
+      "contracts": [
+        {
+          "address": "0xb969b75909ba52b0ebe780144a052e43c6f77a0a",
+          "chain_id": 11155111
+        }
+      ],
       "description_en": "A 3D endless runner where players control one of five hamsters with unique skills to dodge obstacles and collect sunflower seeds. Daily tracks are generated from Squeekchain data, and daily champions are recorded on-chain via ScoreLedger.",
       "description_origin": "placeholder",
       "ecosystem_status": "weak",
@@ -7453,18 +7458,23 @@
         {
           "kind": "owner_site",
           "url": "https://hamster.dess.lol"
+        },
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0xb969b75909ba52b0ebe780144a052e43c6f77a0a"
         }
       ],
       "first_seen": "2026-11-03T02:38:40.153246+00:00",
       "id": "c36a408f89663ccd",
       "identity_status": "resolved",
-      "lifecycle_stage": "development",
+      "lifecycle_stage": "testnet",
       "links": {
+        "explorer": "https://eth-sepolia.blockscout.com/address/0xb969b75909ba52b0ebe780144a052e43c6f77a0a",
         "website": "https://hamster-run.pages.dev"
       },
       "name": "Hamster Run",
       "publication_origin": "owner_approved",
-      "stage": "development"
+      "stage": "testnet"
     },
     {
       "builder": null,
