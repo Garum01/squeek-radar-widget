@@ -2380,6 +2380,35 @@
     {
       "builder": null,
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeekchain Hamster Hub is a demo where rivals are simulated and your score stays on your device. As "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekhub.site"
+            },
+            {
+              "text": " explains, a real shared board would require a backend, but this version keeps everything local for a simple, private experience."
+            }
+          ],
+          [
+            {
+              "text": "You can explore how the simulation works by checking "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekhub.site"
+            },
+            {
+              "text": ". It outlines the current setup, helping you understand why the data remains on your device rather than syncing with others."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "🐹 Squeekchain Hamster Hub Demo mode: rivals are simulated and your score is stored only on this device. A real shared board needs a backend.",
       "description_origin": "website",
@@ -4880,7 +4909,7 @@
       "category": "analytics",
       "contracts": [],
       "description_en": "SqueekSense is a dashboard that tracks Squeektoshi's live wheel activity and learns daily patterns. You can play a prediction game where you challenge an AI model to forecast whether the hamster will run in the next UTC half-hour. The outcome is determined by recorded Squeekchain telemetry, making it a verifiable experiment in hamster behavior.",
-      "description_origin": "source",
+      "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
         {
@@ -7564,6 +7593,7 @@
       "identity_status": "resolved",
       "lifecycle_stage": "development",
       "links": {
+        "github": "https://github.com/xybernetsolutions/squeekstr",
         "website": "https://sqkstr.xyz/",
         "x": "https://x.com/sqkstr"
       },
