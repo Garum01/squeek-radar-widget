@@ -1398,8 +1398,8 @@
           "chain_id": 11155111
         }
       ],
-      "description_en": "Pixel Pit is a multiplayer game where each wallet holds a brush budget of 0-40 pixels. This budget refills only when Squeek blocks settle, and the contract rejects any paint attempts that exceed the limit.",
-      "description_origin": "website",
+      "description_en": "Pixel Pit is a multiplayer game where each wallet has a brush budget of 0-40 pixels. This budget is refilled only by settled Squeek blocks, and the contract rejects paints that exceed the limit.",
+      "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -1409,6 +1409,10 @@
         {
           "kind": "site_contract_link",
           "url": "https://eth-sepolia.blockscout.com/address/0x0b71e2aeb9eda244ba53492efa83f913a37cbd83"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x5e4b240064b4a6763bf74d3c7ce15f2943d6333ed6e7a911518dff15a5fa3e19"
         }
       ],
       "first_seen": "2026-11-05T21:10:43.761757+00:00",
@@ -1629,8 +1633,8 @@
           "chain_id": 11155111
         }
       ],
-      "description_en": "Squeek Wars is a strategy game where you build a hamster village and train troops to raid neighbors. Production is boosted by the daily work of Squeektoshi, Squeekchain's real hamster, which is recorded on-chain. You manage resources, upgrade buildings, and level up your village champion to compete on the map.",
-      "description_origin": "readme",
+      "description_en": "Squeek Wars is a strategy game where each wallet founds a hamster village on Squeekchain. Players build structures, train troops, and raid neighbors, with production boosted by Squeektoshi's daily wheel work recorded on-chain.",
+      "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -1708,6 +1712,10 @@
         {
           "kind": "site_contract_link",
           "url": "https://eth-sepolia.blockscout.com/address/0x8566e954532a377f269c45dfaea5479b6e92b759"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x3f46593d51f85bbe5754f1a9cfc3abd9ad0ed310afbb8e096e8078c8af2bf388"
         }
       ],
       "first_seen": "2026-11-03T22:34:55.834094+00:00",
@@ -2466,6 +2474,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/72501653-a08d-4707-a465-ea81684c594b"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/574bb615-c51f-4c6a-80fc-646b1d4c11a0"
         }
       ],
       "first_seen": "2026-11-06T09:27:18.879862+00:00",
@@ -3416,9 +3428,9 @@
     },
     {
       "builder": null,
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
-      "description_en": "An independent, read-only badge and aura tracker for the Squeekchain Genesis community. Built with TypeScript, native HTML and Vite. The static production export is included in dist/, with local fonts, an original dot-matrix hamster, favicon and share image.",
+      "description_en": "Aura Board is an independent, read-only tool for tracking public Genesis progress and badge checklists on Squeekchain. It provides unofficial aura estimates and honest observations for the community.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -3474,7 +3486,8 @@
       "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/identity-md-launches/launch-2883-hamster-tower-free-turn-based",
-        "website": "https://hamster-tower.imd.site"
+        "website": "https://hamster-tower.imd.site",
+        "x": "https://x.com/hamstertowersqk"
       },
       "logo": "logos/7a99aa78441d2cc073085530fd7e3ce318f2a79c9a4cd6e87ff38acd1ed1051e.webp",
       "name": "Hamster Tower",
