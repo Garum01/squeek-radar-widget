@@ -971,7 +971,6 @@
       "identity_status": "resolved",
       "lifecycle_stage": "development",
       "links": {
-        "docs": "https://github.com/olric3015/squeektoshi-status/blob/HEAD/docs/preview.png",
         "github": "https://github.com/olric3015/squeektoshi-status#install-2-minutes",
         "website": "https://squeek-keeper.imd.site"
       },
@@ -1258,6 +1257,68 @@
       "builder": null,
       "builder_links": [
         {
+          "kind": "profile",
+          "label": "@0xwuy",
+          "source": "https://x.com/0xwuy",
+          "url": "https://x.com/0xwuy"
+        }
+      ],
+      "category": "game",
+      "contracts": [
+        {
+          "address": "0xc42ce2d42684e7d7d5c29bf7fcc6fdf419c2771f",
+          "chain_id": 11155111
+        }
+      ],
+      "description_en": "Squeeklings lets you hatch a free on-chain hamster on Ethereum Sepolia. You feed your Squeekling and watch it grow in sync with Squeektoshi, Squeekchain's real hamster. The project includes a static app to manage your companion and browse the on-chain nursery.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-3000-build-squeeklings-web-app"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/39b65f0d-a8ea-437d-a7b8-08d1bf594200"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x36aa37cfb89f233e9d97e9890be4ba73467ceb128b196081e973cb5ef9f4919b"
+        },
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0xc42ce2d42684e7d7d5c29bf7fcc6fdf419c2771f"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x1691429b553298ebeb171b5aed976142082e1b18aedcd2900dd1f3dfcb5d0808"
+        }
+      ],
+      "first_seen": "2026-11-05T14:20:11.507993+00:00",
+      "id": "24934f50e1484aaa",
+      "identity_status": "resolved",
+      "lifecycle_stage": "testnet",
+      "links": {
+        "explorer": "https://eth-sepolia.blockscout.com/address/0xc42ce2d42684e7d7d5c29bf7fcc6fdf419c2771f",
+        "github": "https://github.com/identity-md-launches/launch-3000-build-squeeklings-web-app",
+        "website": "https://squeeklings-small-paws-real-grow.imd.site"
+      },
+      "logo": "logos/8a052c05b064da168d7f13a061c31481d6d65d8df82bb8182615b5f211f4914a.svg",
+      "name": "Squeeklings",
+      "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "763619e0af619758",
+          "name": "Night Canvas"
+        }
+      ],
+      "stage": "testnet"
+    },
+    {
+      "builder": null,
+      "builder_links": [
+        {
           "kind": "board",
           "label": "@DinhtienSol",
           "source": "https://squeekchain.com/genesis/i/2k6c9h8k",
@@ -1299,6 +1360,26 @@
         "verified_at": "2026-11-05T06:45:33.132000+00:00",
         "version": 1
       }
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "SqueekFlow is a project on Squeekchain that offers additional ways to put Squeeks to work. The tool is currently in development and is expected to launch soon.",
+      "description_origin": "placeholder",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-11-07T05:06:50.518277+00:00",
+      "id": "25487584f4211ac1",
+      "identity_status": "unresolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "x": "https://x.com/squeekflow"
+      },
+      "logo": "logos/bb89a89cdabd8cd1783f1ba4da925e66526f7d84431c8bd2699f33b992dad1c7.jpg",
+      "name": "SqueekFlow",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
     },
     {
       "builder": null,
@@ -2902,7 +2983,6 @@
       "identity_status": "resolved",
       "lifecycle_stage": "development",
       "links": {
-        "docs": "https://github.com/0xMingXiu/squeekchain-settlement-latency/blob/HEAD/docs/dashboard.png",
         "github": "https://github.com/0xMingXiu/squeekchain-settlement-latency",
         "website": "https://squeekchain-settlement-latency.imd.site"
       },
@@ -3336,10 +3416,10 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "analytics",
       "contracts": [],
-      "description_en": "Look up public Genesis progress, explore the official badge checklist, and understand unofficial aura estimates. An independent Squeekchain community tool.",
-      "description_origin": "source",
+      "description_en": "An independent, read-only badge and aura tracker for the Squeekchain Genesis community. Built with TypeScript, native HTML and Vite. The static production export is included in dist/, with local fonts, an original dot-matrix hamster, favicon and share image.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -3556,7 +3636,6 @@
       "identity_status": "resolved",
       "lifecycle_stage": "development",
       "links": {
-        "docs": "https://github.com/h0xva/squeekchain-dashboard/blob/HEAD/docs/live.png",
         "github": "https://github.com/h0xva/squeekchain-dashboard",
         "website": "https://squeekchain-dashboard.vercel.app"
       },
@@ -3988,6 +4067,12 @@
       "logo": "logos/b5707628457aa616a9c70c937a3e2d42ef6d2eccd0dd7453db5f31e4ac90d805.svg",
       "name": "Night Canvas",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "24934f50e1484aaa",
+          "name": "Squeeklings"
+        }
+      ],
       "stage": "development"
     },
     {
@@ -4028,6 +4113,25 @@
           "name": "Squeek Forge"
         }
       ],
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "A 3D endless runner where you control one of five hamsters with unique skills to dodge obstacles and collect sunflower seeds. The daily track is generated from Squeekchain block data, ensuring all players face the same course. You can play as a guest or connect a wallet to compete on the global leaderboard.",
+      "description_origin": "ai",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-11-06T17:37:41.865526+00:00",
+      "id": "78f9df1bfdfbb12a",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "website": "https://hamster.dess.lol"
+      },
+      "name": "仓鼠快跑",
+      "publication_origin": "owner_approved",
       "stage": "development"
     },
     {
@@ -4763,7 +4867,6 @@
       "identity_status": "resolved",
       "lifecycle_stage": "development",
       "links": {
-        "docs": "https://github.com/identity-md-launches/launch-2838-deliver-source-backed-squeek-pet/blob/HEAD/docs/screenshots/hamster.png",
         "github": "https://github.com/identity-md-launches/launch-2838-deliver-source-backed-squeek-pet",
         "website": "https://squeek-pet.imd.site"
       },
@@ -5180,7 +5283,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "SQUEEK PENALTY is a fast, animated 1v1 penalty shootout game featuring competitive hamsters. Players pick a direction and kick to race to three goals, with the option to practice against an AI first. The game is designed to be completed in under two minutes.",
+      "description_en": "SQUEEK PENALTY is a fast, animated 1v1 penalty shootout game featuring competitive hamsters. Players pick a direction and kick to race to three points against a practice AI or other challengers. The game is designed to be played in under two minutes.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -5245,29 +5348,41 @@
     },
     {
       "builder": null,
-      "category": "art",
+      "builder_links": [
+        {
+          "kind": "post",
+          "label": "@tosincrypt",
+          "source": "https://x.com/tosincrypt/status/2118716650568421562",
+          "url": "https://x.com/tosincrypt"
+        }
+      ],
+      "category": "game",
       "contracts": [],
-      "description_en": "Squeek Time Machine is a living underground archive that grows with every settled Squeekchain block. Visitors walk through the project's history in a 3D burrow where pillars and doors are backed by real records. The live archive is currently in preview, allowing users to explore the environment and practice wheels.",
+      "description_en": "Squeek Time Machine is a 3D underground archive that visualizes Squeekchain's history. Visitors walk a hamster through a burrow where every pillar and block represents a real settled record. The project includes The Great Dig, a game that turns settled rounds into a community activity.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
         {
           "kind": "github_mention",
           "url": "https://github.com/BFA-xx/squeek-time-machine"
+        },
+        {
+          "kind": "owner_site",
+          "url": "https://squeektime.vercel.app"
         }
       ],
       "first_seen": "2026-11-05T20:39:06.054342+00:00",
       "id": "99873bd996547195",
       "identity_status": "resolved",
-      "lifecycle_stage": "development",
+      "lifecycle_stage": "unknown",
       "links": {
         "github": "https://github.com/BFA-xx/squeek-time-machine",
-        "website": "https://squeektime.vercel.app"
+        "website": "https://squeek.quest"
       },
       "logo": "logos/2c554232f488e9e4bc76da776eb0c7e3de5216689bf200dc2144a68b55950bcd.png",
       "name": "Squeek Time Machine",
       "publication_origin": "owner_approved",
-      "stage": "development"
+      "stage": "unknown"
     },
     {
       "builder": null,
@@ -5556,7 +5671,6 @@
       "identity_status": "resolved",
       "lifecycle_stage": "development",
       "links": {
-        "docs": "https://github.com/Volha1213/squeekchain-analytics/blob/HEAD/docs/screenshots/overview-dark.jpg",
         "github": "https://github.com/Volha1213/squeekchain-analytics",
         "website": "https://squeekchain-analytics-small-paws.imd.site"
       },
@@ -6064,6 +6178,40 @@
         "website": "https://hamster-atlas.vercel.app"
       },
       "name": "Hamster Atlas",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "A free turn-based pixel-art game where you choose a hamster warrior to compete in an underground arena. You level up your character and make strategic moves to outsmart opponents in each battle.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-3060-build-complete-playable-browser"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/ae869fdb-f339-43ef-84fa-356d0c74d660"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/250cf1a0-6e5c-435d-85f5-b22891bf0022"
+        }
+      ],
+      "first_seen": "2026-11-06T14:02:24.657068+00:00",
+      "id": "b7f7794b08d8c102",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-3060-build-complete-playable-browser",
+        "website": "https://battle-hamster-squeekchain-genes.imd.site"
+      },
+      "logo": "logos/cb7c6baf6946ed968ccc42c39d6c813b83bdbb8ae5a2bb6a107d7003731ed1c1.svg",
+      "name": "BATTLE HAMSTER",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
@@ -7219,7 +7367,6 @@
       "identity_status": "resolved",
       "lifecycle_stage": "testnet",
       "links": {
-        "docs": "https://github.com/identity-md-launches/launch-2692-squeek-companion/blob/HEAD/docs/artwork.svg",
         "explorer": "https://eth-sepolia.blockscout.com/address/0x264730e600808321053729bf3445ffb611c67221",
         "github": "https://github.com/identity-md-launches/launch-2702-squeek-companion-mint",
         "website": "https://squeek-companion-free-hamster-mi.imd.site"
@@ -7293,7 +7440,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "A top-down heist game where Squeektoshi's physical activity controls the gameplay. Running opens the route, sleep closes it, and new wheel blocks unlock payouts. The live mode relies entirely on observed chain data without simulated fallbacks.",
+      "description_en": "Squeek City is a top-down heist game where Squeektoshi's wheel activity controls gameplay. Running opens the route, sleep closes it, and new observed wheel blocks unlock payouts. The live mode relies entirely on real chain data without simulated fallbacks.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -7307,12 +7454,11 @@
       "identity_status": "resolved",
       "lifecycle_stage": "development",
       "links": {
-        "docs": "https://github.com/jexeth738/hamster-city/blob/HEAD/docs/city-day.png",
         "github": "https://github.com/jexeth738/hamster-city",
         "website": "https://squeekcity.space"
       },
       "logo": "logos/2b08b1c1ce6e548d88bb3f8b08df7f614a460c3189c0b3f9a0a8cd6661a9134b.png",
-      "name": "open http://localhost:8000",
+      "name": "Squeek City",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
@@ -7940,7 +8086,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "Squeek Arena: original hamster arcade fighting. Master high and low defense, aerial attacks, combos, throws and specials.",
+      "description_en": "Squeek Arena is an arcade fighting game featuring hamster characters. Players master high and low defense, aerial attacks, combos, throws, and special moves to battle opponents.",
       "description_origin": "website",
       "ecosystem_status": "weak",
       "evidence": [],
@@ -8528,7 +8674,6 @@
       "identity_status": "resolved",
       "lifecycle_stage": "development",
       "links": {
-        "docs": "https://github.com/mertonghen-lang/squeek-analytics/blob/HEAD/docs/screenshots/work-history.png",
         "github": "https://github.com/mertonghen-lang/squeek-analytics",
         "website": "https://squeek-analytics.vercel.app"
       },
