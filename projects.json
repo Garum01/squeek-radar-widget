@@ -1339,6 +1339,34 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "post",
+          "label": "@big_ohms_",
+          "source": "https://x.com/big_ohms_/status/2119110711712329870",
+          "url": "https://x.com/big_ohms_"
+        }
+      ],
+      "category": "game",
+      "contracts": [],
+      "description_en": "A hamster-powered arcade for the Squeekchain ecosystem. Drop your Squeek through a pegboard, or race the wheel and cash out before it stops. Free daily points, provably fair.",
+      "description_origin": "website",
+      "ecosystem_status": "claimed",
+      "evidence": [],
+      "first_seen": "2026-11-07T17:18:51.242321+00:00",
+      "id": "1ebdf3eb77f9469b",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "website": "https://squeekarcade.fun"
+      },
+      "logo": "logos/2c554232f488e9e4bc76da776eb0c7e3de5216689bf200dc2144a68b55950bcd.png",
+      "name": "Squeek Arcade",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
       "category": "game",
       "contracts": [],
       "description_en": "Squeek Raid is a browser-based game where you build a squad of on-chain Squeeks to fight three dungeon bosses. Your combat power is boosted by the live activity of a real hamster on a wheel, adding a physical element to the digital raid. The project also includes a terminal for exploring Sepolia transactions.",
@@ -2795,6 +2823,32 @@
         "verified_at": "2026-10-29T20:28:19.405000+00:00",
         "version": 1
       }
+    },
+    {
+      "builder": null,
+      "builder_links": [
+        {
+          "label": "@pancigoreng",
+          "source": "https://squeekpixel.web.id",
+          "url": "https://x.com/pancigoreng"
+        }
+      ],
+      "category": "game",
+      "contracts": [],
+      "description_en": "SQUEEKCHAIN v32 NEO — a minimal, futuristic redesign: one clean header, a settings sheet, five slim tabs, and a low-lag performance mode that freezes decorations while you play. Same game: Daily, XP, Missions, Duel, and LIVE mode where the song tempo follows the real hamster wheel.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-11-07T18:28:27.446148+00:00",
+      "id": "48ee1662249877a2",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "website": "https://squeekpixel.web.id"
+      },
+      "name": "SQUEEKCHAIN //",
+      "publication_origin": "owner_approved",
+      "stage": "development"
     },
     {
       "builder": null,
