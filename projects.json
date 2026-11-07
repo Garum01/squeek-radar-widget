@@ -1348,6 +1348,35 @@
         }
       ],
       "category": "game",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "Squeek Arcade is a hamster-powered arcade within the Squeekchain ecosystem. According to "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekarcade.fun"
+            },
+            {
+              "text": ", you can drop Squeek through a pegboard or race the wheel to cash out before it stops. It also offers free daily points and claims to be provably fair."
+            }
+          ],
+          [
+            {
+              "text": "To understand how this works, start with "
+            },
+            {
+              "text": "the project website",
+              "url": "https://squeekarcade.fun"
+            },
+            {
+              "text": ". It outlines the specific games and the mechanics for earning points. Reading this source will help you see exactly how the arcade functions and what the daily rewards involve."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "A hamster-powered arcade for the Squeekchain ecosystem. Drop your Squeek through a pegboard, or race the wheel and cash out before it stops. Free daily points, provably fair.",
       "description_origin": "website",
@@ -1892,7 +1921,7 @@
         }
       ],
       "description_en": "Squeek Wars is a strategy game where each wallet builds a hamster village on Squeekchain. Players train troops, raid neighbors, and grow resources boosted by Squeektoshi's daily wheel work. Holding a Squeek NFT strengthens your champion and speeds up construction.",
-      "description_origin": "source",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -9082,6 +9111,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/bbf7c884-f744-4976-bf4a-2e2fbd9c3f39"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/e998c1bf-ab96-4cc4-8372-369283b84511"
         }
       ],
       "first_seen": "2026-10-31T08:51:46.951880+00:00",
