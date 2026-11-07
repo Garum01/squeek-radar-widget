@@ -1060,6 +1060,7 @@
       "lifecycle_stage": "testnet_announced",
       "links": {
         "explorer": "https://eth-sepolia.blockscout.com/address/0x3bc144c0236aaaa6dacfaad62a598ef6fadcc92e",
+        "github": "https://github.com/wheelpadfun/Wheelpad",
         "website": "https://wheelpad.fun",
         "x": "https://x.com/wheelpadfun"
       },
@@ -1102,7 +1103,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-07T09:33:43.947114+00:00",
+        "last_checked": "2026-11-07T21:33:47.125479+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-06T03:49:55.677000+00:00",
@@ -1632,7 +1633,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-07T09:33:43.947114+00:00",
+        "last_checked": "2026-11-07T21:33:47.125479+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-05T06:45:33.132000+00:00",
@@ -2038,7 +2039,7 @@
       ],
       "stage": "testnet",
       "verified_by_squeek": {
-        "last_checked": "2026-11-07T09:33:43.947114+00:00",
+        "last_checked": "2026-11-07T21:33:47.125479+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-04T11:06:43.483000+00:00",
@@ -2846,7 +2847,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-07T09:33:43.947114+00:00",
+        "last_checked": "2026-11-07T21:33:47.125479+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T20:28:19.405000+00:00",
@@ -2991,7 +2992,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-07T09:33:43.947114+00:00",
+        "last_checked": "2026-11-07T21:33:47.125479+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:37:44.874000+00:00",
@@ -3213,7 +3214,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-07T09:33:43.947114+00:00",
+        "last_checked": "2026-11-07T21:33:47.125479+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-03T20:27:41.024000+00:00",
@@ -3282,7 +3283,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-07T09:33:43.947114+00:00",
+        "last_checked": "2026-11-07T21:33:47.125479+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:33:51.063000+00:00",
@@ -3462,7 +3463,7 @@
       "category": "game",
       "contracts": [],
       "description_en": "SqueekCity is a playable isometric hamster city where residents work wheels to earn Wheel Energy and advance in their careers. The game connects to the real Squeekchain wheel, which triggers surges that affect the simulation. Players can watch a hamster civilization live, work, and grow within this interactive environment.",
-      "description_origin": "source",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -3531,7 +3532,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-07T09:33:43.947114+00:00",
+        "last_checked": "2026-11-07T21:33:47.125479+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T20:55:04.251000+00:00",
@@ -4138,7 +4139,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-07T09:33:43.947114+00:00",
+        "last_checked": "2026-11-07T21:33:47.125479+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-05T18:50:40.790000+00:00",
@@ -4868,7 +4869,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-07T09:33:43.947114+00:00",
+        "last_checked": "2026-11-07T21:33:47.125479+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T18:51:42.010000+00:00",
@@ -5299,7 +5300,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-07T09:33:43.947114+00:00",
+        "last_checked": "2026-11-07T21:33:47.125479+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-03T18:29:23.740000+00:00",
@@ -5631,6 +5632,14 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "board",
+          "label": "@cuongisreal_",
+          "source": "https://squeekchain.com/genesis/i/2k6c9h8k",
+          "url": "https://x.com/cuongisreal_"
+        }
+      ],
       "category": "analytics",
       "contracts": [],
       "description_en": "Squeek Dashboard is a Squeekchain explorer that tracks every Squeek, including owners, merges, levels, and power leaderboards. It displays Squeektoshi's mining records, recent merges, and staking vault details. Users can look up specific addresses to view their Squeeks, power share, and activity.",
@@ -5647,7 +5656,14 @@
       "logo": "logos/5450d5403c3d2ba8091f7a98b95840fbe62ac353ae5e93d6d89f3579aad63dad.png",
       "name": "Squeek Dashboard",
       "publication_origin": "owner_approved",
-      "stage": "development"
+      "stage": "development",
+      "verified_by_squeek": {
+        "last_checked": "2026-11-07T21:33:47.125479+00:00",
+        "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
+        "stale": false,
+        "verified_at": "2026-10-29T21:41:31.306000+00:00",
+        "version": 1
+      }
     },
     {
       "builder": null,
@@ -6262,7 +6278,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-07T09:33:43.947114+00:00",
+        "last_checked": "2026-11-07T21:33:47.125479+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:36:12.155000+00:00",
@@ -7029,7 +7045,7 @@
       "publication_origin": "owner_approved",
       "stage": "testnet",
       "verified_by_squeek": {
-        "last_checked": "2026-11-07T09:33:43.947114+00:00",
+        "last_checked": "2026-11-07T21:33:47.125479+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T20:44:51.266000+00:00",
@@ -7680,7 +7696,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-07T09:33:43.947114+00:00",
+        "last_checked": "2026-11-07T21:33:47.125479+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-04T21:05:34.042000+00:00",
@@ -7753,7 +7769,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-07T09:33:43.947114+00:00",
+        "last_checked": "2026-11-07T21:33:47.125479+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-03T20:48:31.131000+00:00",
@@ -8391,7 +8407,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-07T09:33:43.947114+00:00",
+        "last_checked": "2026-11-07T21:33:47.125479+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-30T00:45:08.265000+00:00",
@@ -8735,7 +8751,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-07T09:33:43.947114+00:00",
+        "last_checked": "2026-11-07T21:33:47.125479+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T22:39:31.786000+00:00",
@@ -8954,7 +8970,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-07T09:33:43.947114+00:00",
+        "last_checked": "2026-11-07T21:33:47.125479+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:55:44.291000+00:00",
@@ -9595,14 +9611,6 @@
     },
     {
       "builder": null,
-      "builder_links": [
-        {
-          "kind": "board",
-          "label": "@theloserzx",
-          "source": "https://squeekchain.com/genesis/i/2k6c9h8k",
-          "url": "https://x.com/theloserzx"
-        }
-      ],
       "category": "defi",
       "contracts": [],
       "description_en": "Burrow is a financial district on Squeekchain where loans, bonds, and share tokens operate based on the activity of a real hamster wheel. Users can borrow against Squeek NFTs, purchase wheel bonds, or stake in Hamster Motors, with terms and fees tied to the hamster's work cycles.",
@@ -9624,14 +9632,7 @@
       "logo": "logos/d40b9c2ea4946be6147a8054e989fdcd161587ffb636aa18e5a2fafacc90e1b9.svg",
       "name": "Burrow",
       "publication_origin": "owner_approved",
-      "stage": "development",
-      "verified_by_squeek": {
-        "last_checked": "2026-11-07T09:33:43.947114+00:00",
-        "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
-        "stale": true,
-        "verified_at": "2026-11-05T11:19:23.352000+00:00",
-        "version": 1
-      }
+      "stage": "development"
     },
     {
       "builder": null,
