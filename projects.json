@@ -3651,14 +3651,18 @@
         {
           "kind": "github_mention",
           "url": "https://github.com/0xvictorvn/squeek-hatchery"
+        },
+        {
+          "kind": "owner_site",
+          "url": "https://squeek-hatchery-hatch-a-hamster.imd.site"
         }
       ],
       "first_seen": "2026-11-02T07:16:50.486928+00:00",
       "id": "6d64bbb75b75fd3f",
       "identity_status": "resolved",
-      "lifecycle_stage": "development",
+      "lifecycle_stage": "unknown",
       "links": {
-        "website": "https://squeek-hatchery-hatch-a-hamster.imd.site"
+        "website": "https://squeek-hatchery.xyz"
       },
       "logo": "logos/af9538a9f9d2b0640fb0b94971d11b8860df394a3ead48b4c645f6216a2b96e9.svg",
       "name": "Squeek Hatchery",
@@ -3669,7 +3673,7 @@
           "name": "Squeek & Glide"
         }
       ],
-      "stage": "development"
+      "stage": "unknown"
     },
     {
       "builder": null,
@@ -3758,6 +3762,10 @@
         {
           "id": "84d8a3b648b9fcf0",
           "name": "Spoke Sprint"
+        },
+        {
+          "id": "a2d9ad002d028a38",
+          "name": "Squeek Hours"
         }
       ],
       "stage": "development"
@@ -4178,9 +4186,17 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "post",
+          "label": "@mikailozturk_",
+          "source": "https://x.com/mikailozturk_/status/2118773731686523129",
+          "url": "https://x.com/mikailozturk_"
+        }
+      ],
       "category": "analytics",
       "contracts": [],
-      "description_en": "SqueekSense is a dashboard that tracks Squeektoshi's live wheel activity on Squeekchain. It displays current speed, daily distance, and a heatmap of the hamster's 24-hour rhythm. The tool also uses historical data to forecast the probability of the next run.",
+      "description_en": "SqueekSense is a dashboard that tracks Squeektoshi's live wheel activity and learns daily patterns. You can play a prediction game where you challenge an AI model to forecast whether the hamster will run in the next UTC half-hour. The outcome is determined by recorded Squeekchain telemetry, making it a verifiable experiment in hamster behavior.",
       "description_origin": "source",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -4207,6 +4223,10 @@
         {
           "kind": "github_code",
           "url": "https://github.com/Xelp66/squeeksense-ai/blob/8e05dc5d89f81ffb155d8ab9ef286faf9f01e8ea/README.md"
+        },
+        {
+          "kind": "owner_site",
+          "url": "https://squeeksense-ai-app.vercel.app"
         }
       ],
       "first_seen": "2026-11-04T19:52:10.805830+00:00",
@@ -4215,7 +4235,7 @@
       "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/Xelp66/squeeksense-ai",
-        "website": "https://squeeksense-ai-app.vercel.app"
+        "website": "https://squeeksense.xyz"
       },
       "name": "SqueekSense",
       "publication_origin": "owner_approved",
@@ -4548,6 +4568,10 @@
         {
           "id": "7191499deab80f5e",
           "name": "Night Market"
+        },
+        {
+          "id": "a2d9ad002d028a38",
+          "name": "Squeek Hours"
         }
       ],
       "stage": "development"
@@ -4862,7 +4886,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "Squeek Radar is a public live monitor for the Squeekchain hamster wheel. It displays real-time activity, events, milestones, rounds, blocks, and settlements. The tool allows anyone to see what is happening on the wheel without needing a wallet.",
+      "description_en": "Squeek Radar is a public live monitor for the Squeekchain hamster wheel. It tracks activity, events, milestones, rounds, blocks, and settlements in real time. The tool requires no wallet to view the current state of the chain.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -5500,6 +5524,46 @@
       "logo": "logos/34a8f52dc5b5dc667268366fe9453dae5a5d6d710476ecc5ac35739c42b8ac4d.svg",
       "name": "Squeekchain Analytics",
       "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "Squeek Hours is a focus tool that uses Squeekchain activity to pace 25-minute work sessions. Users join public or private rooms to track shared participation and earn Focus XP, which is distinct from SQK tokens.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-3078-perform-complete-technical-functional"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/f51db504-0692-49ce-9e96-6b1312ac5610"
+        }
+      ],
+      "first_seen": "2026-11-06T19:24:33.770148+00:00",
+      "id": "a2d9ad002d028a38",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-3078-perform-complete-technical-functional",
+        "website": "https://squeek-hours.imd.site"
+      },
+      "logo": "logos/afd25834e04f1c544d4bfe5455df695dae1b949f908ff3cb4d9442eeed27536a.svg",
+      "name": "Squeek Hours",
+      "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "7191499deab80f5e",
+          "name": "Night Market"
+        },
+        {
+          "id": "84d8a3b648b9fcf0",
+          "name": "Spoke Sprint"
+        }
+      ],
       "stage": "development"
     },
     {
@@ -6883,6 +6947,12 @@
       },
       "logo": "logos/1f755e94547a5eeee7db4fcbda1f657ce93fc43e86f8e9a26bb04aedfddfe4f4.svg",
       "name": "Wheel Merge",
+      "other_versions": [
+        {
+          "name": "Wheel Merge",
+          "url": "https://wheel-merge.imd.site"
+        }
+      ],
       "publication_origin": "owner_approved",
       "stage": "development"
     },
@@ -7537,6 +7607,40 @@
       },
       "logo": "logos/3657d88c522e510bd774feaf045b3f26f398db597e2a1077fffb8bf3708c9364.svg",
       "name": "Squeeky Market",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "Squeekfolio is a read-only tool for viewing Squeek NFT levels, claimable SQK, and Genesis clout badges. It lets you look up a wallet's profile without connecting it, offering a simple home for your Squeeks and SQK.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-3043-build-single-page-web-app"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/8eee5114-6fc3-499a-b21d-d21b54ed0379"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/634b452d-8508-4953-a767-def5c07579de"
+        }
+      ],
+      "first_seen": "2026-11-06T09:42:39.955696+00:00",
+      "id": "e483c9baa5faaf18",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-3043-build-single-page-web-app",
+        "website": "https://squeekfolio-your-genesis-overvie.imd.site"
+      },
+      "logo": "logos/7335f2fd85f7520ae00292bb44d5615dbd118fff0a5eada2c220e4d36a2ab312.svg",
+      "name": "Squeekfolio",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
@@ -8259,9 +8363,16 @@
     },
     {
       "builder": null,
-      "category": "game",
+      "builder_links": [
+        {
+          "label": "@ahotespirit",
+          "source": "https://squeekforest-every-block-plants.imd.site",
+          "url": "https://x.com/ahotespirit"
+        }
+      ],
+      "category": "analytics",
       "contracts": [],
-      "description_en": "SQUEEKFOREST: SEEDKEEPER is a free community game where you plant, shade, and illuminate a pixel forest. The puzzles are rooted in settled Squeekchain blocks, offering a moonlit positioning challenge. You can practice offline to keep the grove alive.",
+      "description_en": "SQUEEKFOREST is a read-only pixel forest that grows trees based on confirmed Squeekchain blocks and live hamster wheel telemetry. The visual state of the forest, including wind and firefly motion, reflects real-time hardware data or remains still if the feed is stale.",
       "description_origin": "website",
       "ecosystem_status": "weak",
       "evidence": [
@@ -8276,10 +8387,17 @@
       "lifecycle_stage": "development",
       "links": {
         "docs": "https://github.com/identity-md-launches/launch-2823-build-complete-original-playable/blob/HEAD/docs/GAME_GUIDE.md",
-        "website": "https://squeekforest-seedkeeper-a-moonli.imd.site"
+        "github": "https://github.com/Peymanworship/squeekforest",
+        "website": "https://squeekforest-every-block-plants.imd.site"
       },
       "logo": "logos/50651a89464f389746692492aee61ea90b0f17b07559cda30d68a588674d77a5.svg",
-      "name": "SQUEEKFOREST: SEEDKEEPER",
+      "name": "SQUEEKFOREST",
+      "other_versions": [
+        {
+          "name": "SQUEEKFOREST: SEEDKEEPER",
+          "url": "https://squeekforest-seedkeeper-a-moonli.imd.site"
+        }
+      ],
       "publication_origin": "owner_approved",
       "stage": "development"
     },
