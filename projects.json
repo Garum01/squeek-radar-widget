@@ -5527,6 +5527,31 @@
     },
     {
       "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "Read-only console for a Squeekchain holder. It reads the Squeekchain core API and the SqueekStaking contract and shows, in one screen",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/0xtera/squeek-console"
+        }
+      ],
+      "first_seen": "2026-11-07T02:13:08.810953+00:00",
+      "id": "80d2bd3bf7aea9d6",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/0xtera/squeek-console",
+        "website": "https://squeek.hexarin.site"
+      },
+      "name": "Squeekchain Aura & Merge Console",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
       "category": "art",
       "contracts": [],
       "description_en": "Wheel Archive turns settled batches of Squeekchain rounds into sealed capsules. You can explore the live archive and leave a zero-value stamp on Sepolia.",
@@ -6485,6 +6510,31 @@
       "builder": null,
       "category": "game",
       "contracts": [],
+      "description_en": "A retro, black and white quiz battle game built on Squeekchain, the hamster-powered toychain that settles on Ethereum Sepolia. Live at https://squeekarena.web.id",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/ILKokoron/squeek-arena"
+        }
+      ],
+      "first_seen": "2026-11-04T07:44:09.062574+00:00",
+      "id": "924624d59ade17f8",
+      "identity_status": "unresolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "github": "https://github.com/ILKokoron/squeek-arena",
+        "website": "https://squeekarena.web.id/"
+      },
+      "name": "Squeek Arena",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [],
       "description_en": "SqueekPet is a pixel-art hamster game where you adopt a companion, decorate their home, and run a woodland trail. The game connects to Squeektoshi's real wheel activity, which can trigger in-game events like breezes and timestamped memories.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
@@ -7103,6 +7153,36 @@
         "website": "https://squeek.blu-stack.com"
       },
       "name": "Squeek Pulse",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "streaming",
+      "contracts": [],
+      "description_en": "Give your stream a little sidekick. Create a free Squeektoshi hamster wheel overlay for OBS or Streamlabs, with live Squeekchain stats and Twitch chat predictions.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-3157-build-wheel-cheer-free"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/d4495c66-e45a-412f-b8df-84b7a298c9da"
+        }
+      ],
+      "first_seen": "2026-11-08T20:17:35.085276+00:00",
+      "id": "a39639c119ca087f",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-3157-build-wheel-cheer-free",
+        "website": "https://wheel-cheer-your-stream-s-little.imd.site"
+      },
+      "logo": "logos/4f36544c2bc9105ef87ae120575283414a5e72e236d2c704be40c7ac8214402c.svg",
+      "name": "Wheel Cheer",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
