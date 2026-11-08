@@ -3100,6 +3100,33 @@
       "builder_links": [
         {
           "kind": "post",
+          "label": "@prufboogie",
+          "source": "https://x.com/prufboogie/status/2119457055786319896",
+          "url": "https://x.com/prufboogie"
+        }
+      ],
+      "category": "game",
+      "contracts": [],
+      "description_en": "Ash Run is a 3D runner set in a ruined highway where players dodge wrecks and vault barricades. You control the character with keyboard or touch inputs to stay ahead of oncoming trucks. Each run begins with a wallet signature on Squeekchain, and the score is calculated based on distance and collected scrap.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-11-08T16:46:28.435462+00:00",
+      "id": "4bf6bcce2c02408e",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "website": "https://prufsqueek.xyz"
+      },
+      "name": "The Last District",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "builder_links": [
+        {
+          "kind": "post",
           "label": "@mfbrat_eth",
           "source": "https://x.com/mfbrat_eth/status/2117313998261825884",
           "url": "https://x.com/mfbrat_eth"
@@ -5195,6 +5222,10 @@
         {
           "kind": "github_code",
           "url": "https://github.com/Xelp66/squeeksense-ai/blob/da3eef4de36dc980836f4ac69a39dfcec139d107/README.md"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/Xelp66/squeeksense-ai/blob/965ef90c163f2cc2f18336beaf057483edcc7207/README.md"
         }
       ],
       "first_seen": "2026-11-04T19:52:10.805830+00:00",
@@ -5769,26 +5800,30 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "A browser-based pottery studio where real-time wheel data from Squeektoshi the hamster sets the rhythm. You shape and glaze the clay to create a piece, then save it to your local collection.",
+      "description_en": "A browser-based pottery studio where Squeektoshi's wheel data sets the rhythm. You shape and glaze the clay to create a piece of collaborative art.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
           "kind": "github_mention",
           "url": "https://github.com/ananaer/wheel-and-clay"
+        },
+        {
+          "kind": "owner_site",
+          "url": "https://wheel-and-clay.blackhaven-phase1-dashboard.workers.dev/"
         }
       ],
       "first_seen": "2026-11-07T12:04:37.340076+00:00",
       "id": "87b643cf998cc255",
       "identity_status": "resolved",
-      "lifecycle_stage": "development",
+      "lifecycle_stage": "unknown",
       "links": {
         "github": "https://github.com/ananaer/wheel-and-clay",
-        "website": "https://wheel-and-clay.blackhaven-phase1-dashboard.workers.dev/"
+        "website": "https://wheel-and-clay.shop"
       },
       "name": "Wheel & Clay",
       "publication_origin": "owner_approved",
-      "stage": "development"
+      "stage": "unknown"
     },
     {
       "builder": null,
@@ -7425,8 +7460,8 @@
           "chain_id": 11155111
         }
       ],
-      "description_en": "Squeek League is a free community game where players draft Squeektoshi's next three wheel sessions. You learn the hamster's habits and compete against the House Bot on Squeekchain's Sepolia testnet.",
-      "description_origin": "source",
+      "description_en": "Squeek League is a free community game where players draft Squeektoshi's next three wheel sessions. You predict the hamster's habits and play against the House Bot on the Sepolia testnet. The project focuses on learning the hamster's patterns without any money or prizes involved.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -10524,6 +10559,7 @@
       "identity_status": "resolved",
       "lifecycle_stage": "development",
       "links": {
+        "github": "https://github.com/tuannhm04/squeek-garden",
         "website": "https://squeek-garden.trackingport.com"
       },
       "name": "Squeek Garden",
