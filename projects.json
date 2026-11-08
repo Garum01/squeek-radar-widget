@@ -21,6 +21,14 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "board",
+          "label": "@0xAirr",
+          "source": "https://squeekchain.com/genesis/i/2k6c9h8k",
+          "url": "https://x.com/0xAirr"
+        }
+      ],
       "category": "nft",
       "contracts": [],
       "description_en": "SqueekSwap allows holders to trade Squeek Genesis NFTs directly with one another. You select the specific NFTs to exchange, and both sides change hands in a single transaction. Completed swaps earn Seeds, with double rewards if Squeektoshi is on his wheel.",
@@ -123,7 +131,14 @@
       "logo": "logos/b4ce2b9755cf9c151a56d583abb4a35373e793ba09e6308713a4426d10d79a1a.svg",
       "name": "SqueekSwap",
       "publication_origin": "owner_approved",
-      "stage": "development"
+      "stage": "development",
+      "verified_by_squeek": {
+        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
+        "stale": false,
+        "verified_at": "2026-11-04T22:19:21.461000+00:00",
+        "version": 1
+      }
     },
     {
       "builder": null,
@@ -1117,6 +1132,12 @@
           "label": "@kolkrypt",
           "source": "https://x.com/kolkrypt/status/2117995245820428630",
           "url": "https://x.com/kolkrypt"
+        },
+        {
+          "kind": "board",
+          "label": "@The_KOOJ",
+          "source": "https://squeekchain.com/genesis/i/2k6c9h8k",
+          "url": "https://x.com/The_KOOJ"
         }
       ],
       "category": "launchpad",
@@ -1165,7 +1186,14 @@
       "logo": "logos/b55645c2f7eb7cc149315ee249e5054921e9949208727e3ca1855fb34b507047.jpg",
       "name": "WheelPad",
       "publication_origin": "owner_approved",
-      "stage": "testnet_announced"
+      "stage": "testnet_announced",
+      "verified_by_squeek": {
+        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
+        "stale": false,
+        "verified_at": "2026-11-07T14:47:05.016000+00:00",
+        "version": 1
+      }
     },
     {
       "builder": null,
@@ -1201,7 +1229,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T09:33:55.345227+00:00",
+        "last_checked": "2026-11-08T21:34:02.836915+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-06T03:49:55.677000+00:00",
@@ -1729,7 +1757,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T09:33:55.345227+00:00",
+        "last_checked": "2026-11-08T21:34:02.836915+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-05T06:45:33.132000+00:00",
@@ -2155,7 +2183,7 @@
       ],
       "stage": "testnet",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T09:33:55.345227+00:00",
+        "last_checked": "2026-11-08T21:34:02.836915+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-04T11:06:43.483000+00:00",
@@ -2286,6 +2314,14 @@
     },
     {
       "builder": "pillheadddd",
+      "builder_links": [
+        {
+          "kind": "board",
+          "label": "@spacexbt",
+          "source": "https://squeekchain.com/genesis/i/2k6c9h8k",
+          "url": "https://x.com/spacexbt"
+        }
+      ],
       "category": "art",
       "contracts": [
         {
@@ -2445,7 +2481,14 @@
           "name": "Fantasy Hamster"
         }
       ],
-      "stage": "testnet"
+      "stage": "testnet",
+      "verified_by_squeek": {
+        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
+        "stale": false,
+        "verified_at": "2026-11-08T11:42:09.579000+00:00",
+        "version": 1
+      }
     },
     {
       "builder": null,
@@ -2989,7 +3032,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T09:33:55.345227+00:00",
+        "last_checked": "2026-11-08T21:34:02.836915+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T20:28:19.405000+00:00",
@@ -3058,7 +3101,7 @@
       ],
       "description_en": "A rhythm game where you hit notes to match a song's tempo, which adjusts in real time to the speed of Squeektoshi's hamster wheel. Players compete in daily challenges, missions, and live races against the hamster's actual distance. The game features a pixel ID system and a low-lag performance mode for smooth gameplay.",
       "description_origin": "website",
-      "ecosystem_status": "weak",
+      "ecosystem_status": "confirmed",
       "evidence": [
         {
           "kind": "site_contract_link",
@@ -3217,7 +3260,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T09:33:55.345227+00:00",
+        "last_checked": "2026-11-08T21:34:02.836915+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:37:44.874000+00:00",
@@ -3415,7 +3458,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T09:33:55.345227+00:00",
+        "last_checked": "2026-11-08T21:34:02.836915+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-03T20:27:41.024000+00:00",
@@ -3484,7 +3527,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T09:33:55.345227+00:00",
+        "last_checked": "2026-11-08T21:34:02.836915+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:33:51.063000+00:00",
@@ -3733,7 +3776,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T09:33:55.345227+00:00",
+        "last_checked": "2026-11-08T21:34:02.836915+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T20:55:04.251000+00:00",
@@ -4422,7 +4465,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T09:33:55.345227+00:00",
+        "last_checked": "2026-11-08T21:34:02.836915+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-05T18:50:40.790000+00:00",
@@ -4532,6 +4575,14 @@
     },
     {
       "builder": "KazzYuzaNFT",
+      "builder_links": [
+        {
+          "kind": "board",
+          "label": "@KazzYuzaNFT",
+          "source": "https://squeekchain.com/genesis/i/2k6c9h8k",
+          "url": "https://x.com/KazzYuzaNFT"
+        }
+      ],
       "category": "game",
       "contracts": [],
       "description_en": "Squeek Den is a browser-based game where players manage a hamster den to earn Watts by spinning a wheel. You spend these Watts in a shop to customize your den and participate in raids against other players. The project features a leaderboard and a certificate system that tracks your lifetime progress.",
@@ -4558,7 +4609,14 @@
       },
       "name": "Squeek Den",
       "publication_origin": "owner_approved",
-      "stage": "development"
+      "stage": "development",
+      "verified_by_squeek": {
+        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
+        "stale": false,
+        "verified_at": "2026-11-03T21:56:05.906000+00:00",
+        "version": 1
+      }
     },
     {
       "builder": null,
@@ -5186,7 +5244,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T09:33:55.345227+00:00",
+        "last_checked": "2026-11-08T21:34:02.836915+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T18:51:42.010000+00:00",
@@ -5633,7 +5691,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T09:33:55.345227+00:00",
+        "last_checked": "2026-11-08T21:34:02.836915+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-03T18:29:23.740000+00:00",
@@ -6026,7 +6084,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T09:33:55.345227+00:00",
+        "last_checked": "2026-11-08T21:34:02.836915+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:41:31.306000+00:00",
@@ -6145,6 +6203,14 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "board",
+          "label": "@neuweltgeld",
+          "source": "https://squeekchain.com/genesis/i/2k6c9h8k",
+          "url": "https://x.com/neuweltgeld"
+        }
+      ],
       "category": "game",
       "contracts": [],
       "description_en": "Hamster Rush is a 32-bit pixel auto-shooter where players control a hamster to defeat bosses and collect seeds. The game runs on Squeekchain and Sepolia.",
@@ -6165,7 +6231,14 @@
       },
       "name": "Hamster Rush",
       "publication_origin": "owner_approved",
-      "stage": "development"
+      "stage": "development",
+      "verified_by_squeek": {
+        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
+        "stale": false,
+        "verified_at": "2026-11-08T11:42:09.379000+00:00",
+        "version": 1
+      }
     },
     {
       "builder": null,
@@ -6673,7 +6746,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T09:33:55.345227+00:00",
+        "last_checked": "2026-11-08T21:34:02.836915+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:36:12.155000+00:00",
@@ -7440,7 +7513,7 @@
       "publication_origin": "owner_approved",
       "stage": "testnet",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T09:33:55.345227+00:00",
+        "last_checked": "2026-11-08T21:34:02.836915+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T20:44:51.266000+00:00",
@@ -8166,7 +8239,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T09:33:55.345227+00:00",
+        "last_checked": "2026-11-08T21:34:02.836915+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-04T21:05:34.042000+00:00",
@@ -8239,7 +8312,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T09:33:55.345227+00:00",
+        "last_checked": "2026-11-08T21:34:02.836915+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-03T20:48:31.131000+00:00",
@@ -8688,6 +8761,14 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "board",
+          "label": "@phe_crypto",
+          "source": "https://squeekchain.com/genesis/i/2k6c9h8k",
+          "url": "https://x.com/phe_crypto"
+        }
+      ],
       "category": "nft",
       "contracts": [],
       "description_en": "SQUEEK ROYALE is a 2D battle royale where 100 AI hamsters parachute into an arena to fight for the Crown. Each hamster has a 256-bit on-chain DNA NFT, and matches are deterministic simulations. Players can watch the chaotic battles as the AI warriors hunt for weapons and survive the shrinking Cat Storm.",
@@ -8703,7 +8784,14 @@
       },
       "name": "SQUEEK ROYALE",
       "publication_origin": "owner_approved",
-      "stage": "development"
+      "stage": "development",
+      "verified_by_squeek": {
+        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
+        "stale": false,
+        "verified_at": "2026-11-07T08:46:04+00:00",
+        "version": 1
+      }
     },
     {
       "builder": null,
@@ -8907,7 +8995,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T09:33:55.345227+00:00",
+        "last_checked": "2026-11-08T21:34:02.836915+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-30T00:45:08.265000+00:00",
@@ -9180,6 +9268,14 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "board",
+          "label": "@Jexeth017",
+          "source": "https://squeekchain.com/genesis/i/2k6c9h8k",
+          "url": "https://x.com/Jexeth017"
+        }
+      ],
       "category": "game",
       "contracts": [],
       "description_en": "Squeek City is a top-down heist game where Squeektoshi's wheel activity controls gameplay. Running opens the route, sleep closes it, and new observed wheel blocks unlock payouts. The live mode relies entirely on real chain data without simulated fallbacks.",
@@ -9202,7 +9298,14 @@
       "logo": "logos/2b08b1c1ce6e548d88bb3f8b08df7f614a460c3189c0b3f9a0a8cd6661a9134b.png",
       "name": "Squeek City",
       "publication_origin": "owner_approved",
-      "stage": "development"
+      "stage": "development",
+      "verified_by_squeek": {
+        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
+        "stale": false,
+        "verified_at": "2026-11-04T12:47:09.639000+00:00",
+        "version": 1
+      }
     },
     {
       "builder": null,
@@ -9257,7 +9360,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T09:33:55.345227+00:00",
+        "last_checked": "2026-11-08T21:34:02.836915+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T22:39:31.786000+00:00",
@@ -9476,7 +9579,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T09:33:55.345227+00:00",
+        "last_checked": "2026-11-08T21:34:02.836915+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:55:44.291000+00:00",
@@ -9548,6 +9651,14 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "board",
+          "label": "@zacxbt",
+          "source": "https://squeekchain.com/genesis/i/2k6c9h8k",
+          "url": "https://x.com/zacxbt"
+        }
+      ],
       "category": "game",
       "contracts": [],
       "description_en": "SQUEEKDANCE is a one-button rhythm game where a real hamster spins the record. Tap when the gold star hits 12 on Squeektoshi's wheel to fill a wall of 48 friends and start the party.",
@@ -9570,10 +9681,25 @@
       "logo": "logos/d37ab64c610fe1c9e1ba537b415fee500925c155d226aa7f781bf8fbe9ac9263.png",
       "name": "SQUEEKDANCE",
       "publication_origin": "owner_approved",
-      "stage": "development"
+      "stage": "development",
+      "verified_by_squeek": {
+        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
+        "stale": false,
+        "verified_at": "2026-11-08T14:31:18.147000+00:00",
+        "version": 1
+      }
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "board",
+          "label": "@0xCzyzu",
+          "source": "https://squeekchain.com/genesis/i/2k6c9h8k",
+          "url": "https://x.com/0xCzyzu"
+        }
+      ],
       "category": "prediction",
       "contracts": [],
       "description_en": "Smart contracts for Squeeky Market, an independent prediction market on Squeektoshi’s daily wheel distance. Users trade play money on how far the hamster runs between UTC noon markers. The system polls live distance data every five seconds to resolve bets.",
@@ -9600,7 +9726,14 @@
       "logo": "logos/3657d88c522e510bd774feaf045b3f26f398db597e2a1077fffb8bf3708c9364.svg",
       "name": "Squeeky Market",
       "publication_origin": "owner_approved",
-      "stage": "development"
+      "stage": "development",
+      "verified_by_squeek": {
+        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
+        "stale": false,
+        "verified_at": "2026-11-03T20:30:23.337000+00:00",
+        "version": 1
+      }
     },
     {
       "builder": null,
@@ -10212,6 +10345,14 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "board",
+          "label": "@theloserzx",
+          "source": "https://squeekchain.com/genesis/i/2k6c9h8k",
+          "url": "https://x.com/theloserzx"
+        }
+      ],
       "category": "defi",
       "contracts": [],
       "description_en": "Burrow is a financial district on Squeekchain where users borrow SQK against Squeek NFTs. The collateral continues mining on the chain, and the generated rewards automatically repay the loan debt.",
@@ -10233,7 +10374,14 @@
       "logo": "logos/d40b9c2ea4946be6147a8054e989fdcd161587ffb636aa18e5a2fafacc90e1b9.svg",
       "name": "Burrow",
       "publication_origin": "owner_approved",
-      "stage": "development"
+      "stage": "development",
+      "verified_by_squeek": {
+        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
+        "stale": false,
+        "verified_at": "2026-11-08T15:28:16.944000+00:00",
+        "version": 1
+      }
     },
     {
       "builder": null,
@@ -10628,7 +10776,14 @@
       "logo": "logos/a97fd6747eab012bc798b628225562ec878e81d05b8c876ad8f25663fc8a56e1.png",
       "name": "Squeaksy",
       "publication_origin": "owner_approved",
-      "stage": "development"
+      "stage": "development",
+      "verified_by_squeek": {
+        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
+        "stale": false,
+        "verified_at": "2026-11-05T20:32:38.575000+00:00",
+        "version": 1
+      }
     },
     {
       "builder": null,
