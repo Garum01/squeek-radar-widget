@@ -402,7 +402,7 @@
         }
       ],
       "description_en": "A farming dApp on Ethereum Sepolia where users stake CHEESE to let hamsters work. The project features three distinct farms and a 15% Hamster Bite fee structure.",
-      "description_origin": "website",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -3042,21 +3042,32 @@
         }
       ],
       "category": "game",
-      "contracts": [],
+      "contracts": [
+        {
+          "address": "0x43f568acfadcee4333785c9f26596719ed0b02fb",
+          "chain_id": 11155111
+        }
+      ],
       "description_en": "A rhythm game where you hit notes to match a song's tempo, which adjusts in real time to the speed of Squeektoshi's hamster wheel. Players compete in daily challenges, missions, and live races against the hamster's actual distance. The game features a pixel ID system and a low-lag performance mode for smooth gameplay.",
       "description_origin": "website",
       "ecosystem_status": "weak",
-      "evidence": [],
+      "evidence": [
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0x43f568acfadcee4333785c9f26596719ed0b02fb"
+        }
+      ],
       "first_seen": "2026-11-07T18:28:27.446148+00:00",
       "id": "48ee1662249877a2",
       "identity_status": "resolved",
-      "lifecycle_stage": "development",
+      "lifecycle_stage": "testnet",
       "links": {
+        "explorer": "https://eth-sepolia.blockscout.com/address/0x43f568acfadcee4333785c9f26596719ed0b02fb",
         "website": "https://squeekpixel.web.id"
       },
       "name": "SQUEEKCHAIN",
       "publication_origin": "owner_approved",
-      "stage": "development"
+      "stage": "testnet"
     },
     {
       "builder": null,
@@ -3867,9 +3878,9 @@
       "builder": null,
       "builder_links": [
         {
-          "kind": "repo_owner",
+          "kind": "post",
           "label": "@andreehoan",
-          "source": "https://github.com/andreehoan/squeek-pot",
+          "source": "https://x.com/andreehoan/status/2119494709781680578",
           "url": "https://x.com/andreehoan"
         }
       ],
@@ -3983,6 +3994,36 @@
       "name": "Squeek or Sleep",
       "publication_origin": "owner_approved",
       "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "An arcade built on Squeekchain's own round arithmetic: pack work into 10,000-unit rounds before the round closes.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/EVM0x/leg-day"
+        },
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/EVM0x/squeek-pack"
+        }
+      ],
+      "first_seen": "2026-11-05T17:22:10.957324+00:00",
+      "id": "5c4c19a5e324235d",
+      "identity_status": "resolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "github": "https://github.com/EVM0x/leg-day",
+        "website": "https://squeekpack.evm0x.com"
+      },
+      "logo": "logos/cd7b41232113fee25e1d358c919fab9ae00554c481fd4132e4f2ef604c098985.png",
+      "name": "LEG DAY",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
     },
     {
       "builder": null,
@@ -10352,6 +10393,31 @@
         "website": "https://raid.7tomars.web.id"
       },
       "name": "Wheel Raid",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "NEXORA is a published space shooter (Google Play / App Store). In this build it runs on Squeekchain's real hamster wheel.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/izmiradami/nexora-wheel"
+        }
+      ],
+      "first_seen": "2026-11-08T18:30:11.921603+00:00",
+      "id": "f1a86bd052b76ec5",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/izmiradami/nexora-wheel",
+        "website": "https://nexora-wheel.vercel.app"
+      },
+      "name": "NEXORA · Wheel Protocol",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
