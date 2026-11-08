@@ -395,6 +395,68 @@
     {
       "builder": null,
       "category": "game",
+      "contracts": [
+        {
+          "address": "0xe06748177ad22d422e49cdb0982a5f932e46ee7d",
+          "chain_id": 11155111
+        }
+      ],
+      "description_en": "A farming dApp on Ethereum Sepolia where users stake CHEESE to let hamsters work. The project features three distinct farms and a 15% Hamster Bite fee structure.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/8c2f3489-1625-4e4b-805e-66cabdde9fee"
+        },
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0xe06748177ad22d422e49cdb0982a5f932e46ee7d"
+        }
+      ],
+      "first_seen": "2026-11-08T13:12:19.721364+00:00",
+      "id": "073e74d39cf85057",
+      "identity_status": "resolved",
+      "lifecycle_stage": "testnet",
+      "links": {
+        "explorer": "https://eth-sepolia.blockscout.com/address/0xe06748177ad22d422e49cdb0982a5f932e46ee7d",
+        "github": "https://github.com/identity-md-launches/launch-3143-build-cheese-vault-complete",
+        "website": "https://the-cheese-vault-stake-your-chee.imd.site"
+      },
+      "logo": "logos/6504a4d2532a0736fd16e052743891713b1bb78c400dffa65769307355ff6124.svg",
+      "name": "The Cheese Vault",
+      "publication_origin": "owner_approved",
+      "stage": "testnet"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "Merge Market is a peer-to-peer platform for trading Squeeks to find same-level merge partners. It identifies which of your Squeeks are missing a partner and facilitates swaps or purchases in a single transaction. The system is ownerless, non-custodial, and fee-free aside from collection royalties.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/0xdogacan/squeek-merge-market"
+        }
+      ],
+      "first_seen": "2026-11-08T14:57:06.827615+00:00",
+      "id": "07ae881afc80cd1c",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/0xdogacan/squeek-merge-market",
+        "website": "https://squeek-merge-market.vercel.app"
+      },
+      "logo": "logos/a71e172f0ca662e69ae0e857be58ff010fba26e4060d3a38e490c711550042fa.svg",
+      "name": "Merge Market",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "game",
       "contracts": [],
       "description_en": "A weekly community boss raid where real wheel work deals damage to the target. Players sign a daily attack to build a streak and earn their place among the slayers. The project centers on a single hamster powering a shared community challenge.",
       "description_origin": "readme",
@@ -934,6 +996,56 @@
     },
     {
       "builder": null,
+      "category": "game",
+      "contracts": [
+        {
+          "address": "0x4d9c2fa10fb70100d4c2390212b8f8de286a1d30",
+          "chain_id": 11155111
+        }
+      ],
+      "description_en": "Squeek Guild Wars is an unofficial community game where players form hamster guilds and check in daily to climb the rankings. Guilds are scored by the average points of their members, creating a cooperative team experience without tokens or payouts.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-3141-launch-guildwars-contract-src-guildwars"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://github.com/identity-md-launches/launch-3141-launch-guildwars-contract-src-guildwars"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/99199abb-d929-46f5-8e83-4f38874a440b"
+        },
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0x4d9c2fa10fb70100d4c2390212b8f8de286a1d30"
+        }
+      ],
+      "first_seen": "2026-11-08T08:51:50.957962+00:00",
+      "id": "14c1c61834d38746",
+      "identity_status": "resolved",
+      "lifecycle_stage": "testnet",
+      "links": {
+        "explorer": "https://eth-sepolia.blockscout.com/address/0x4d9c2fa10fb70100d4c2390212b8f8de286a1d30",
+        "github": "https://github.com/identity-md-launches/launch-3141-launch-guildwars-contract-src-guildwars",
+        "website": "https://squeek-guild-wars-small-paws-big.imd.site"
+      },
+      "logo": "logos/e3ea686da729594155390bf051f903c832f87bdc309b135c68fdd3a8cf5d7fdf.svg",
+      "name": "Squeek Guild Wars",
+      "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "d0c84f2e6dfe53c7",
+          "name": "Squeek Alerts"
+        }
+      ],
+      "stage": "testnet"
+    },
+    {
+      "builder": null,
       "category": "analytics",
       "contracts": [],
       "description_en": "Squeek Odometer tracks the distance Squeektoshi runs on its wheel in real time. You can view live speed and RPM, check the nightly distance log, and make a guess for how far the hamster will run tonight. The site also allows you to perform a zero-value check-in on the Sepolia testnet.",
@@ -1286,6 +1398,33 @@
       },
       "logo": "logos/5633fd7bd1f34ba8e55ddd243e892d0a29c2fa203fe25f49c7393b2ef6c1b63e.svg",
       "name": "Squeek Tx Lab",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "builder_links": [
+        {
+          "label": "@ramilashrff",
+          "source": "https://squeekhub.online",
+          "url": "https://x.com/ramilashrff"
+        }
+      ],
+      "category": "analytics",
+      "contracts": [],
+      "description_en": "Squeek Hub streams live telemetry from Squeektoshi's wheel, allowing users to replay recorded runs and monitor real-time RPM data. It features a broadcast desk that converts wheel motion into an original radio mix, with options to download run recaps or integrate live activity into streams.",
+      "description_origin": "website",
+      "ecosystem_status": "claimed",
+      "evidence": [],
+      "first_seen": "2026-11-08T12:17:28.729745+00:00",
+      "id": "1b2d909909a6d0d5",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/Ramilashrf/Squeek-Hub/tree/main",
+        "website": "https://squeekhub.online"
+      },
+      "name": "Squeek Hub",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
@@ -3004,7 +3143,12 @@
       "description_en": "Squeek Jump is an endless runner game where players control Squeektoshi the hamster to jump over obstacles like seed piles and sleeping cats. The game features a global leaderboard and private competition rooms for specific groups. Your wallet address serves only as a name tag, requiring no connection or signing.",
       "description_origin": "website",
       "ecosystem_status": "weak",
-      "evidence": [],
+      "evidence": [
+        {
+          "kind": "owner_site",
+          "url": "https://squeekjump.vercel.app"
+        }
+      ],
       "first_seen": "2026-11-07T13:06:47.148644+00:00",
       "id": "4d9c3d3a41c975a7",
       "identity_status": "resolved",
@@ -5043,6 +5187,14 @@
         {
           "kind": "github_code",
           "url": "https://github.com/Xelp66/squeeksense-ai/blob/a132f11a22f4d9a3fd2caca08a9d30f5b2771a50/README.md"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/Xelp66/squeeksense-ai/blob/fa02c60abd7b5d54c332bab73903da87a3e87d17/README.md"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/Xelp66/squeeksense-ai/blob/da3eef4de36dc980836f4ac69a39dfcec139d107/README.md"
         }
       ],
       "first_seen": "2026-11-04T19:52:10.805830+00:00",
@@ -5314,6 +5466,36 @@
         "verified_at": "2026-11-03T18:29:23.740000+00:00",
         "version": 1
       }
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "Echo Ledger: Burrow Protocol is a free community game where players record and replay routes to solve puzzles. It uses Squeektoshi's live wheel telemetry to drive the gameplay, allowing players to coordinate multiple echoes to reclaim the burrow.",
+      "description_origin": "source",
+      "ecosystem_status": "claimed",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-3144-redeploy-latest-main-branch"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/273c27ed-f694-4a03-b9b4-ee5451ea4633"
+        }
+      ],
+      "first_seen": "2026-11-08T10:38:48.930081+00:00",
+      "id": "83b39c863f0614ed",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-3144-redeploy-latest-main-branch",
+        "website": "https://echo-ledger-leave-a-route-change.imd.site"
+      },
+      "logo": "logos/bf72f51f635f8ba3b65c21273004ab90d7556649508b67eb2323320f4d133a11.svg",
+      "name": "Echo Ledger: Burrow Protocol",
+      "publication_origin": "owner_approved",
+      "stage": "development"
     },
     {
       "builder": null,
@@ -6212,6 +6394,33 @@
         "website": "https://squeek-aura-planner.vercel.app"
       },
       "name": "Squeek Aura Planner",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "builder_links": [
+        {
+          "kind": "post",
+          "label": "@cryptoorro",
+          "source": "https://x.com/cryptoorro/status/2119430243932926013",
+          "url": "https://x.com/cryptoorro"
+        }
+      ],
+      "category": "tools",
+      "contracts": [],
+      "description_en": "Squeek Passport lets you look up any wallet address to generate a shareable Squeekchain passport. The profile displays the holder's Squeeks, power, stakes, rewards, and earned stamps. It reads public data from the Squeekchain API to provide a snapshot of a wallet's activity.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-11-08T14:09:35.934382+00:00",
+      "id": "996d987381e119e7",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "website": "https://squeekpassport.xyz"
+      },
+      "name": "Squeek Passport",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
@@ -7692,6 +7901,32 @@
     },
     {
       "builder": null,
+      "category": "art",
+      "contracts": [],
+      "description_en": "A browser-based generative audio station that synthesizes music from Squeekchain proof-of-work telemetry. The hamster's wheel speed dictates the tempo, while block accumulation brightens the sound. Users can add Squeek NFTs to the ensemble as synthesized instruments.",
+      "description_origin": "readme",
+      "ecosystem_status": "claimed",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/CodeWithShamim/Squeektoshi-radio"
+        }
+      ],
+      "first_seen": "2026-11-06T19:24:33.758541+00:00",
+      "id": "c4bdb6633cac0b9f",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "docs": "https://github.com/CodeWithShamim/Squeektoshi-radio/blob/HEAD/docs/DIAGNOSIS.md",
+        "github": "https://github.com/CodeWithShamim/Squeektoshi-radio",
+        "website": "https://squeekradio.space/"
+      },
+      "name": "Squeektoshi-radio",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
       "category": "analytics",
       "contracts": [],
       "description_en": "A live dashboard that displays data from the Squeekchain API. It provides a real-time view of the hamster-powered toychain's activity. The project serves as a community tool for monitoring the network.",
@@ -8335,6 +8570,12 @@
       },
       "name": "Squeek Alerts",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "14c1c61834d38746",
+          "name": "Squeek Guild Wars"
+        }
+      ],
       "stage": "development"
     },
     {
@@ -9103,6 +9344,32 @@
     },
     {
       "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "SQUEEKDANCE is a one-button rhythm game where a real hamster spins the record. Tap when the gold star hits 12 on Squeektoshi's wheel to fill a wall of 48 friends and start the party.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/zacdoteth/squeekdance"
+        }
+      ],
+      "first_seen": "2026-11-08T11:54:44.835129+00:00",
+      "id": "e3bda41737df25d2",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/zacdoteth/squeekdance",
+        "website": "https://squeek.dance"
+      },
+      "logo": "logos/d37ab64c610fe1c9e1ba537b415fee500925c155d226aa7f781bf8fbe9ac9263.png",
+      "name": "SQUEEKDANCE",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
       "category": "prediction",
       "contracts": [],
       "description_en": "Smart contracts for Squeeky Market, an independent prediction market on Squeektoshi’s daily wheel distance. Users trade play money on how far the hamster runs between UTC noon markers. The system polls live distance data every five seconds to resolve bets.",
@@ -9162,6 +9429,35 @@
       },
       "logo": "logos/7335f2fd85f7520ae00292bb44d5615dbd118fff0a5eada2c220e4d36a2ab312.svg",
       "name": "Squeekfolio",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "Seed Slash is a free browser arcade game where you swipe seeds and dodge bombs with Pip the hamster. The mobile-friendly experience features local artwork and sound, with optional Squeekchain wheel telemetry.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-3148-text-build-seed-slash"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/f269c469-2111-476f-a609-8f8d97f70b29"
+        }
+      ],
+      "first_seen": "2026-11-08T14:41:52.450959+00:00",
+      "id": "e4ae223479ce90a7",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-3148-text-build-seed-slash",
+        "website": "https://seed-slash-a-little-forest-frenz.imd.site"
+      },
+      "name": "Seed Slash",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
@@ -10153,6 +10449,25 @@
         "website": "https://catch-the-cheese-lac.vercel.app"
       },
       "name": "Catch the Cheese",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "Squeek Beats is a rhythm game where you tap along to the real wheel passes of Squeektoshi, the hamster powering Squeekchain. You can play live to his current pace or replay a daily run, aiming for perfect timing within 60 milliseconds. The project lets you score your accuracy and share your results.",
+      "description_origin": "website",
+      "ecosystem_status": "claimed",
+      "evidence": [],
+      "first_seen": "2026-11-08T09:56:10.732413+00:00",
+      "id": "f77b09e1e57c0e6d",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "website": "https://squeekbeats.fun"
+      },
+      "name": "Squeek Beats",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
