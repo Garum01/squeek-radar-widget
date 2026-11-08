@@ -1182,7 +1182,7 @@
       "builder": null,
       "category": "prediction",
       "contracts": [],
-      "description_en": "Round Prophet is a prediction duel where you compete against Wheel Brain in a best-of-three match. The outcome is determined by real Squeekchain hamster-wheel settlements, offering bragging rights as the sole reward.",
+      "description_en": "Round Prophet is a browser-based prediction game where you challenge Wheel Brain in a best-of-three duel. You make calls on real Squeekchain hamster-wheel settlements to test your intuition against an explainable AI. The game requires no account or wallet, offering bragging rights as the only reward.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -2912,7 +2912,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "SqueekQuest is a playable hamster adventure where you explore a valley and complete quests using real SqueekChain data. You move through the map to find seeds and follow signals, connecting your in-game discoveries to actual chain events on Sepolia.",
+      "description_en": "SqueekQuest is a pixel-art hamster survival adventure where you explore four wild locations, fight enemies, and craft a burrow. The game uses confirmed Squeekchain data to trigger world events and encounters. Players manage health, stamina, and inventory while navigating the forest, ruins, wilderness, and cave.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -3805,8 +3805,8 @@
       "builder": null,
       "category": "prediction",
       "contracts": [],
-      "description_en": "Squeek or Sleep is a prediction game where you guess whether Squeektoshi will be running or sleeping when a 90-second timer ends. Correct picks earn points based on your current streak, with results determined by live Squeekchain wheel data.",
-      "description_origin": "source",
+      "description_en": "Squeek or Sleep is a prediction game where you guess whether Squeektoshi will be running or sleeping when a 90-second timer ends. Correct picks earn points based on your current streak, with results determined by the live status of the hamster's wheel.",
+      "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
         {
@@ -6980,8 +6980,8 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "SqueekBurrow is a cooperative hamster survival game where players join a colony and choose an assignment. You forage, fortify, and explore to keep the burrow glowing across 24 Squeekchain rounds.",
-      "description_origin": "source",
+      "description_en": "SqueekBurrow is a cooperative survival game where players join a hamster colony and choose specific assignments. You forage, fortify, and explore to keep the burrow glowing across 24 Squeekchain rounds.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -7721,6 +7721,10 @@
         {
           "kind": "site_contract_link",
           "url": "https://eth-sepolia.blockscout.com/address/0xb969b75909ba52b0ebe780144a052e43c6f77a0a"
+        },
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0xb969b75909ba52b0ebe780144a052e43c6f77a0a"
         }
       ],
       "first_seen": "2026-11-03T02:38:40.153246+00:00",
@@ -8321,8 +8325,8 @@
       "builder": null,
       "category": "art",
       "contracts": [],
-      "description_en": "Wheel Radio is a browser-based tool that plays live generative lofi music driven by Squeektoshi the hamster's real wheel activity on Squeekchain. It is read-only and requires no wallet, allowing users to listen to the chain's rhythm as the beat follows the hamster's movement in real time.",
-      "description_origin": "source",
+      "description_en": "Wheel Radio plays live generative lofi music in your browser, driven by Squeektoshi the hamster's real wheel activity on Squeekchain. The beat and mood follow the hamster's work.",
+      "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
         {
@@ -9180,7 +9184,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "Squeekfolio is a read-only tool for viewing Squeek NFT levels, claimable SQK, and Genesis clout badges. It lets you look up a wallet's profile without connecting it, offering a simple home for your Squeeks and SQK.",
+      "description_en": "Squeekfolio is a read-only tool for viewing Squeekchain Genesis profiles. Look up a wallet to see its Squeek NFT levels, claimable SQK, and clout badges. It provides a simple home for exploring your Squeeks and staking rewards.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
