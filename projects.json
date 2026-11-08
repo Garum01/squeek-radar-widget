@@ -5312,6 +5312,7 @@
       "lifecycle_stage": "development",
       "links": {
         "announcement": "https://x.com/huynh7903/status/2119097553274933267",
+        "github": "https://github.com/hthaiminh/Squeekerant",
         "website": "https://squeekerant.online"
       },
       "logo": "logos/d82b7de6d07a6d00e01de3184b064ba41b7b25174dacb1dee3b55883a20405ba.png",
@@ -10192,6 +10193,7 @@
       "identity_status": "resolved",
       "lifecycle_stage": "development",
       "links": {
+        "github": "https://github.com/zeroisme1994/squeek-arena",
         "website": "https://squeek-arena.xyz"
       },
       "name": "SQUEEK ARENA",
