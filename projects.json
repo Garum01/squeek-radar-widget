@@ -1922,7 +1922,7 @@
         }
       ],
       "description_en": "Squeek Wars is a strategy game where each wallet builds a hamster village on Squeekchain. Players train troops, raid neighbors, and grow resources boosted by Squeektoshi's daily wheel work. Holding a Squeek NFT strengthens your champion and speeds up construction.",
-      "description_origin": "readme",
+      "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -2016,6 +2016,10 @@
         {
           "kind": "onchain_contract",
           "url": "https://eth-sepolia.blockscout.com/tx/0x56f7368234daa57cb7eba16f6587abf093bdb4ee6cc973035a2df8f8921583a5"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x26022312366303124e7e56c0c0a6c58ecd9410ae4cd573e4aa49ddbd7d63f9e2"
         }
       ],
       "first_seen": "2026-11-03T22:34:55.834094+00:00",
@@ -2641,9 +2645,9 @@
     },
     {
       "builder": null,
-      "category": "defi",
+      "category": "prediction",
       "contracts": [],
-      "description_en": "YES/NO pools in $SQK on what Squeektoshi, the hamster behind Squeekchain, does on the wheel. Unofficial community project. Sepolia testnet only: testnet SQK has no monetary value.",
+      "description_en": "Squeek Markets is a prediction platform where users bet testnet SQK on how far Squeektoshi runs on his wheel. You choose a range or outcome, and winnings are distributed from the pool based on the actual laps recorded by the sensor.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -2721,6 +2725,36 @@
       },
       "logo": "logos/471a3344fd43c36b55f8e226fc0c50d6eacc9bab72d34ac7904b189808145b94.svg",
       "name": "Squeek Price Action Terminal",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "Squeek DJ is a four-lane rhythm game where the tempo follows Squeektoshi's real hamster wheel. The game reads the wheel's speed live from the Squeekchain status feed, turning one wheel rotation into one beat. Players can practice at a steady 100 BPM when the wheel is still.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-3129-build-publish-squeek-dj"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/65f86840-da51-4885-99fa-15856cea54c5"
+        }
+      ],
+      "first_seen": "2026-11-07T22:28:51.334687+00:00",
+      "id": "4345c2abc5d164f8",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-3129-build-publish-squeek-dj",
+        "website": "https://squeek-dj-a-rhythm-game-set-by-a.imd.site"
+      },
+      "logo": "logos/a90ae8fe574e70745038ba9e597606fbf2e75e6b53bbe4de80a7bc245d6d83eb.svg",
+      "name": "Squeek DJ",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
@@ -7451,7 +7485,7 @@
       "category": "game",
       "contracts": [],
       "description_en": "Squeek Maze is a free arcade game where you guide Squeektoshi through 50 mazes to collect peanuts and dodge snakes. The game features a local leaderboard and power beans that allow the hamster to eat snakes for a short duration.",
-      "description_origin": "source",
+      "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
         {
@@ -8221,7 +8255,7 @@
       "builder": null,
       "category": "nft",
       "contracts": [],
-      "description_en": "SQUEEK ROYALE — Tiny Hamsters. Massive Battles. 100 AI Hamster Battle Royale, deterministic simulation, 256-bit on-chain DNA NFT, and 90% prize pool.",
+      "description_en": "SQUEEK ROYALE is a 2D battle royale where 100 AI hamsters parachute into an arena to fight for the Crown. Each hamster has a 256-bit on-chain DNA NFT, and matches are deterministic simulations. Players can watch the chaotic battles as the AI warriors hunt for weapons and survive the shrinking Cat Storm.",
       "description_origin": "website",
       "ecosystem_status": "weak",
       "evidence": [],
