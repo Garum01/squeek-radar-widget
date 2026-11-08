@@ -504,8 +504,8 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "Squeek Foundry is a factory automation browser game where you build a copper-and-cyan facility to process ore into delivered pods. The gameplay involves managing intermittent wheel electricity and features offline training with reproducible Squeekchain Historical Shifts.",
-      "description_origin": "source",
+      "description_en": "Squeek Foundry is a factory automation browser game where you build a production line to turn ore into delivered pods. You manage intermittent wheel electricity and use offline training to test strategies against reproducible Squeekchain Historical Shifts.",
+      "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
         {
@@ -3091,7 +3091,7 @@
         "version": 1
       },
       "contracts": [],
-      "description_en": "Squeek Jump: a Chrome-dino-style endless runner rethemed for Squeekchain. Help Squeektoshi the hamster jump the seed piles, bottles, boxes and sleeping cats — boosted by his real exercise wheel.",
+      "description_en": "Squeek Jump is an endless runner game where players control Squeektoshi the hamster to jump over obstacles like seed piles and sleeping cats. The game features a global leaderboard and private competition rooms for specific groups. Your wallet address serves only as a name tag, requiring no connection or signing.",
       "description_origin": "website",
       "ecosystem_status": "weak",
       "evidence": [],
@@ -3717,9 +3717,9 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
       "contracts": [],
-      "description_en": "Can you outrun a hamster? Run with your phone for 10 minutes against Squeektoshi, the hamster whose wheel mines blocks on Squeekchain.",
+      "description_en": "Race Squeektoshi, the hamster whose wheel mines blocks on Squeekchain, by running with your phone for ten minutes. Use your device's motion sensor to track your distance against the hamster's real wheel runs, which settle on Ethereum.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -5150,7 +5150,7 @@
           "chain_id": 11155111
         }
       ],
-      "description_en": "SQUEEK TILES A square-grid elimination game on Squeekchain. Every player is a hamster tile. The wheel spins for 10 seconds, one tile drops — last hamster standing reaches the final tile and its prize.",
+      "description_en": "Squeek Tiles is a square-grid elimination game on Squeekchain where each player is represented by a hamster tile. A wheel spins for ten seconds to randomly eliminate one tile, and the last hamster standing claims the prize on the final tile.",
       "description_origin": "website",
       "ecosystem_status": "weak",
       "evidence": [
@@ -5646,7 +5646,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "A small, bilingual pottery studio in the browser. Public wheel-speed data from Squeektoshi the hamster sets the rhythm; you shape, glaze, and collect the pottery.",
+      "description_en": "A browser-based pottery studio where real-time wheel data from Squeektoshi the hamster sets the rhythm. You shape and glaze the clay to create a piece, then save it to your local collection.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -7315,6 +7315,36 @@
     },
     {
       "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "A community tool for planning Squeek merges on the Sepolia testnet. It calculates power and compares $SQK exit fees before and after midnight UTC to help determine the best time to act.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-3133-build-publish-squeek-exit"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/a53d4d19-6024-428a-8a82-2b30ba42d0b7"
+        }
+      ],
+      "first_seen": "2026-11-08T00:14:49.288542+00:00",
+      "id": "b900f6f60007c277",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-3133-build-publish-squeek-exit",
+        "website": "https://squeek-exit-merge-planner.imd.site"
+      },
+      "logo": "logos/1f7f33b043a09bca31f452303243c39484b6ee5275863aa9c25f640e35fb425a.svg",
+      "name": "Squeek Exit & Merge Planner",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
       "category": "game",
       "contracts": [],
       "description_en": "Squeek Pouch is a puzzle game where you pack seeds, nuts, and tiny treasures into a hamster's cheek pouch. You complete twelve levels using energy from the live Squeekchain wheel. The game features a cozy theme and simple packing mechanics.",
@@ -8845,7 +8875,7 @@
       ],
       "category": "game",
       "contracts": [],
-      "description_en": "Squeek Sprint is an endless runner paced by Squeektoshi’s live wheel and a course seeded by the latest Squeekchain settlement.",
+      "description_en": "Squeek Sprint is an endless runner where Squeektoshi's live wheel sets your speed and the latest Squeekchain settlement seeds the course. You race to build a score, with optional calls to double points based on the next round.",
       "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
@@ -9476,9 +9506,9 @@
           "chain_id": 11155111
         }
       ],
-      "description_en": "Lock 30,000 test $CARDIO while Squeektoshi the hamster runs on Sepolia. You receive an on-chain pixel-hamster card and your coins back. The project is an unofficial testnet experience.",
-      "description_origin": "source",
-      "ecosystem_status": "confirmed",
+      "description_en": "Lock 30,000 test $MILES to join Squeektoshi's run on the Sepolia testnet. When the run ends, you receive your coins back and an on-chain card generated from the hamster's real running numbers.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
       "evidence": [
         {
           "kind": "github_mention",
@@ -10202,9 +10232,9 @@
     },
     {
       "builder": null,
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
-      "description_en": "A static, turn-based hamster RPG built with React, TypeScript and Vite. Live Squeekchain telemetry sets the party's battle stance. Three battles lead to Ashwood gate, with simulated SQK credits and a 120 Genesis Aura campaign reward.",
+      "description_en": "Squeek Warriors is a turn-based hamster RPG where the live Squeekchain wheel determines your party's battle stance. You fight through three battles to reach the Ashwood gate, switching between Wheel frenzy and Burrow guard based on the hamster's activity.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
