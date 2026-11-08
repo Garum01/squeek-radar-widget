@@ -23,7 +23,7 @@
       "builder": null,
       "category": "nft",
       "contracts": [],
-      "description_en": "SqueekSwap allows holders to trade Squeek Genesis NFTs directly with one another. You select specific Genesis IDs to exchange, and both sides change hands in a single atomic transaction. Completed swaps earn Seeds, with double rewards if Squeektoshi is on his wheel.",
+      "description_en": "SqueekSwap allows holders to trade Squeek Genesis NFTs directly with one another. You select the exact Genesis IDs to give and receive, and both sides change hands in a single transaction. Completed swaps earn Seeds, with double rewards if Squeektoshi is on his wheel.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -1183,7 +1183,7 @@
       "category": "prediction",
       "contracts": [],
       "description_en": "Round Prophet is a prediction duel where you compete against Wheel Brain in a best-of-three match. The outcome is determined by real Squeekchain hamster-wheel settlements, offering bragging rights as the sole reward.",
-      "description_origin": "source",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -2803,8 +2803,8 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "Hamster Chronicles is a living story where Squeektoshi's real wheel work on Squeekchain determines the plot. You can join the village, name your character, and choose paths that shape the next chapter. The narrative evolves based on the amount of work recorded by the hamster.",
-      "description_origin": "source",
+      "description_en": "A living story on Squeekchain where Squeektoshi's real wheel work determines the plot. Read the latest chapter, join the village, and choose your character's next move to shape the narrative.",
+      "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
         {
@@ -2913,8 +2913,8 @@
       "category": "game",
       "contracts": [],
       "description_en": "SqueekQuest is a playable hamster adventure where you explore a valley and complete quests using real SqueekChain data. You move through the map to find seeds and follow signals, connecting your in-game discoveries to actual chain events on Sepolia.",
-      "description_origin": "source",
-      "ecosystem_status": "weak",
+      "description_origin": "readme",
+      "ecosystem_status": "claimed",
       "evidence": [
         {
           "kind": "github_mention",
@@ -3957,8 +3957,8 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "Squeekchain Tap is a free browser game where you tap a hamster to earn Squeeks. You can stake these tokens to build account power or buy mining rigs to earn while waiting. The game includes upgrades that increase your earnings, though progress resets when you refresh the page.",
-      "description_origin": "source",
+      "description_en": "Squeekchain Tap is a free browser game where you tap a hamster to earn Squeeks. You can stake these tokens to build account power or buy upgrades for passive mining. The game features original inline SVG artwork and resets progress on refresh.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -4583,6 +4583,33 @@
       "stage": "development"
     },
     {
+      "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "A mobile-first forest runner where Squeektoshi's real wheel telemetry drives the gameplay. Players stuff their cheeks with seeds, dodge obstacles, and bank progress at block burrows. An optional Sepolia checkpoint allows sealing a burrow to arm a nest soft-start for the next run.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/salsabila2507/cheek-pouch-run"
+        }
+      ],
+      "first_seen": "2026-11-06T08:41:35.226882+00:00",
+      "id": "71d10a7589cf9ab3",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "docs": "https://github.com/salsabila2507/cheek-pouch-run/blob/HEAD/docs/BOARD-COMPARISON.md",
+        "github": "https://github.com/salsabila2507/cheek-pouch-run",
+        "website": "https://cpr-gh-pages.vercel.app"
+      },
+      "logo": "logos/89dc20f11298f75a345d0ea6fbe887c73c7bb4764ccda8ab2ae28d29fb8f9f1b.svg",
+      "name": "Cheek Pouch Run",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
       "builder": "CelerityCodes",
       "category": "defi",
       "contracts": [],
@@ -4712,7 +4739,7 @@
       ],
       "category": "game",
       "contracts": [],
-      "description_en": "A pixel-art adventure where you guide Chang through forest, glacier, volcano and reef biomes. Collect produce, grow your character, and defeat four bosses to find Alice. The game supports wallet-linked cloud saves for progress tracking.",
+      "description_en": "A pixel-art adventure where you guide Chang through forest, glacier, volcano and reef biomes. Collect produce, grow your character and defeat four bosses to find Alice. The game supports wallet-linked cloud saves for progress tracking.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -5028,7 +5055,7 @@
       ],
       "category": "analytics",
       "contracts": [],
-      "description_en": "SqueekSense is a dashboard that tracks Squeektoshi's live wheel activity and learns daily patterns. You can play a prediction game where you challenge an AI model to forecast whether the hamster will run in the next UTC half-hour. The outcome is determined by recorded Squeekchain telemetry, making it a verifiable experiment in hamster behavior.",
+      "description_en": "SqueekSense is a dashboard that tracks Squeektoshi's live wheel activity and learns daily patterns. It features an Arena where you can predict whether the hamster will run in the next UTC half-hour, comparing your intuition against a prediction model. Outcomes are scored using recorded Squeekchain telemetry.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -5266,7 +5293,7 @@
       ],
       "category": "game",
       "contracts": [],
-      "description_en": "Squeek Burrow is a 3D hamster kart racing game for Squeekchain. Your turbo charges twice as fast while the real Squeekchain hamster runs. All models, textures, music and sound effects are generated in code.",
+      "description_en": "Squeek Burrow is a 3D kart racing game where each racer is a Genesis Squeek NFT rebuilt from on-chain art. The live Squeekchain hamster wheel powers your turbo, adding a unique mechanical element to the race.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -8875,8 +8902,8 @@
       "builder": null,
       "category": "streaming",
       "contracts": [],
-      "description_en": "WHEELY Stage is a free OBS overlay and second-screen ghost race driven by the real Squeekchain hamster wheel. It serves as a community stream companion, adding a theatrical element to broadcasts by visualizing the hamster's activity.",
-      "description_origin": "source",
+      "description_en": "A theatrical OBS overlay and second-screen ghost race driven by the real Squeekchain hamster wheel. A cartoon hamster performs on a velvet-curtained stage, with every action sourced from the wheel's live telemetry. It serves as a free community stream companion for Squeekchain Genesis Code.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -9154,7 +9181,7 @@
       "category": "tools",
       "contracts": [],
       "description_en": "Squeekfolio is a read-only tool for viewing Squeek NFT levels, claimable SQK, and Genesis clout badges. It lets you look up a wallet's profile without connecting it, offering a simple home for your Squeeks and SQK.",
-      "description_origin": "source",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
