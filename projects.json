@@ -2423,35 +2423,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeekchain Hamster Hub is a demo where rivals are simulated and your score stays on your device. As "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekhub.site"
-            },
-            {
-              "text": " explains, a real shared board would require a backend, but this version keeps everything local for a simple, private experience."
-            }
-          ],
-          [
-            {
-              "text": "You can explore how the simulation works by checking "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekhub.site"
-            },
-            {
-              "text": ". It outlines the current setup, helping you understand why the data remains on your device rather than syncing with others."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Squeekchain Hamster Hub is a read-only arcade that displays real wheel data from Squeekchain alongside play-token games. You can check in daily, spin a wheel, predict hamster activity, or play a run game where you cash out before the hamster tires. The project runs on a testnet and stores progress locally in demo mode.",
       "description_origin": "website",
@@ -3042,35 +3013,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Jump is an endless runner game rethemed for Squeekchain, as described on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekjump.my.id"
-            },
-            {
-              "text": ". It features Squeektoshi the hamster navigating obstacles like seed piles and sleeping cats, boosted by his exercise wheel."
-            }
-          ],
-          [
-            {
-              "text": "You can explore the game's details and mechanics directly on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekjump.my.id"
-            },
-            {
-              "text": ". This source provides the primary context for understanding the project's purpose and visual style."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Squeek Jump is an endless runner game where players control Squeektoshi the hamster to jump over obstacles like seed piles and sleeping cats. The game features a global leaderboard and private competition rooms for specific groups. Your wallet address serves only as a name tag, requiring no connection or signing.",
       "description_origin": "website",
