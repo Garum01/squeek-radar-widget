@@ -6207,7 +6207,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "SQUEEK PENALTY is a fast, animated 1v1 penalty shootout game featuring competitive hamsters. Players pick a direction and kick to race to three points against a practice AI or other challengers. The game is designed to be played in under two minutes.",
+      "description_en": "SQUEEK PENALTY is a fast, animated 1v1 penalty shootout game featuring competitive hamsters. Players pick a direction and kick to race to three goals, with the option to practice against an AI first. The match is designed to be short, lasting under two minutes.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
