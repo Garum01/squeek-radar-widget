@@ -1607,24 +1607,35 @@
     },
     {
       "builder": null,
-      "category": "tools",
-      "contracts": [],
-      "description_en": "SqueekFlow is a project on Squeekchain that offers additional ways to put Squeeks to work. The tool is currently in development and is expected to launch soon.",
-      "description_origin": "placeholder",
+      "category": "nft",
+      "contracts": [
+        {
+          "address": "0x89a401c8fd33f6b8bc35cb534d908bd793864acd",
+          "chain_id": 11155111
+        }
+      ],
+      "description_en": "SqueekFlow is a platform for managing Squeek assets and their associated rights. Its first live product, Rentals, allows owners to list NFTs for rent and set terms for staking rewards, while renters pay upfront to claim an agreed share of those rewards. The project is currently operating on the Sepolia testnet.",
+      "description_origin": "source",
       "ecosystem_status": "weak",
-      "evidence": [],
+      "evidence": [
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x0b5704df6232a83c4653048614d6f8bfc86dbc4891029db6f37b2445ecd0348c"
+        }
+      ],
       "first_seen": "2026-11-07T05:06:50.518277+00:00",
       "id": "25487584f4211ac1",
-      "identity_status": "unresolved",
-      "lifecycle_stage": "unknown",
+      "identity_status": "resolved",
+      "lifecycle_stage": "testnet",
       "links": {
+        "explorer": "https://eth-sepolia.blockscout.com/address/0x89a401c8fd33f6b8bc35cb534d908bd793864acd",
         "website": "https://squeekflow.fun",
         "x": "https://x.com/squeekflow"
       },
       "logo": "logos/bb89a89cdabd8cd1783f1ba4da925e66526f7d84431c8bd2699f33b992dad1c7.jpg",
       "name": "SqueekFlow",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "testnet"
     },
     {
       "builder": null,
@@ -7247,6 +7258,12 @@
       "logo": "logos/cb7c6baf6946ed968ccc42c39d6c813b83bdbb8ae5a2bb6a107d7003731ed1c1.svg",
       "name": "BATTLE HAMSTER",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "e72fc128d4e75c9f",
+          "name": "SQUEEK LOGISTICS"
+        }
+      ],
       "stage": "development"
     },
     {
@@ -9278,6 +9295,46 @@
       "builder": null,
       "category": "game",
       "contracts": [],
+      "description_en": "SQUEEK LOGISTICS is a pixel-art economic game where you build a hamster-powered logistics outpost. You gather resources, craft items, and manage deliveries to grow your tiny empire. The game connects to settled Squeekchain Genesis milestones on Sepolia.",
+      "description_origin": "source",
+      "ecosystem_status": "claimed",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-3132-build-squeek-logistics-playable"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/d0b96b3e-8f54-4e3e-8c48-a62177ce7861"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/a7be7028-861c-4b54-b882-f31f1f2292a6"
+        }
+      ],
+      "first_seen": "2026-11-08T00:14:49.291563+00:00",
+      "id": "e72fc128d4e75c9f",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-3132-build-squeek-logistics-playable",
+        "website": "https://squeek-logistics-little-wheels-b.imd.site"
+      },
+      "logo": "logos/c4778faac11abb7816db92e6ba83d69b3313e7d1bfb9341a0a2f03d474473ba9.svg",
+      "name": "SQUEEK LOGISTICS",
+      "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "b7f7794b08d8c102",
+          "name": "BATTLE HAMSTER"
+        }
+      ],
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [],
       "description_en": "Squeek Life is a pixel art life simulation game where you start as a broke rat and work your way up to the rich district. You scavenge for trash, take jobs, and upgrade your appearance to progress through three distinct city areas. The game runs in the browser and uses in-game coins, with wallet connection being optional.",
       "description_origin": "website",
       "ecosystem_status": "weak",
@@ -9921,8 +9978,27 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "A read-only planning tool for Squeekchain stakers on the Sepolia testnet. It previews how deposits, merges, and SQK stakes affect your power and rewards. The tool uses unsigned calls to show the impact of your next move without sending transactions.",
-      "description_origin": "source",
+      "description_en": "Wheel Raid is a weekly boss fight where damage is calculated from Squeekchain's real round distance. You pick a role like DPS or Tank, then call RUN or SLEEP each round to predict the hamster's activity. Correct calls multiply your damage, and the team works together to defeat the boss before the week ends.",
+      "description_origin": "website",
+      "ecosystem_status": "claimed",
+      "evidence": [],
+      "first_seen": "2026-11-08T02:16:07.531170+00:00",
+      "id": "f08b7b831cf793bc",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "website": "https://raid.7tomars.web.id"
+      },
+      "name": "Wheel Raid",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "A read-only tool for planning Squeekchain staking actions on Sepolia. Look up a wallet to compare deposits, merges, and SQK stakes, then preview how these moves affect your power and rewards. The site generates unsigned calls for you to review in your own wallet without requesting signatures.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
