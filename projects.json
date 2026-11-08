@@ -4996,8 +4996,8 @@
       ],
       "category": "analytics",
       "contracts": [],
-      "description_en": "SqueekSense is a dashboard that tracks Squeektoshi's live wheel activity and learns daily patterns. It features an Arena where you can predict whether the hamster will run in the next UTC half-hour, comparing your intuition against a prediction model. Outcomes are scored using recorded Squeekchain telemetry.",
-      "description_origin": "readme",
+      "description_en": "SqueekSense is a dashboard that tracks Squeektoshi's live wheel activity and learns daily patterns. It features an Arena where you can predict whether the hamster will run in the next UTC half-hour, competing against a prediction model. Outcomes are scored based on recorded Squeekchain telemetry.",
+      "description_origin": "source",
       "ecosystem_status": "claimed",
       "evidence": [
         {
@@ -5039,6 +5039,10 @@
         {
           "kind": "github_code",
           "url": "https://github.com/Xelp66/squeeksense-ai/blob/fd7d30dcbc47b33381949782981eccaaf3477c7d/README.md"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/Xelp66/squeeksense-ai/blob/a132f11a22f4d9a3fd2caca08a9d30f5b2771a50/README.md"
         }
       ],
       "first_seen": "2026-11-04T19:52:10.805830+00:00",
@@ -10163,8 +10167,8 @@
       ],
       "category": "analytics",
       "contracts": [],
-      "description_en": "SQUEEKFOREST is a read-only pixel forest that grows trees based on confirmed Squeekchain blocks and live hamster wheel telemetry. The visual state of the forest, including wind and firefly motion, reflects real-time hardware data or remains still if the feed is stale.",
-      "description_origin": "website",
+      "description_en": "SQUEEKFOREST is a read-only pixel forest that grows trees based on confirmed Squeekchain blocks and live hamster wheel telemetry. The visual state changes with wheel speed, while stale or missing data is clearly disclosed to maintain transparency.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
