@@ -1618,6 +1618,7 @@
       "identity_status": "unresolved",
       "lifecycle_stage": "unknown",
       "links": {
+        "website": "https://squeekflow.fun",
         "x": "https://x.com/squeekflow"
       },
       "logo": "logos/bb89a89cdabd8cd1783f1ba4da925e66526f7d84431c8bd2699f33b992dad1c7.jpg",
@@ -4085,7 +4086,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "A Nokia-era side-scrolling arcade game where enemy waves are driven by the live Squeekchain hamster PoW chain. Players move and auto-fire to survive, with gameplay intensity changing based on whether the hamster is spinning or asleep.",
+      "description_en": "A side-scrolling 2D arcade game where enemy waves are driven by the live Squeekchain hamster PoW chain. Players control a jet to fight through rounds, with the hamster's activity influencing turbo mode and loot drops.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
