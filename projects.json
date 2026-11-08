@@ -2,7 +2,7 @@
   "projects": [
     {
       "builder": null,
-      "category": "nft",
+      "category": "launchpad",
       "contracts": [],
       "description_en": "Cheddar Labs is a platform for launching coins, minting art, trading NFTs and swapping tokens within the Squeek ecosystem. It serves as the home for the CHEDDAR token.",
       "description_origin": "website",
@@ -512,7 +512,7 @@
     },
     {
       "builder": null,
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "An independent community dashboard for Squeekchain. It tracks live block height, real-world work, SQK supply, and recent settlements.",
       "description_origin": "website",
@@ -580,7 +580,7 @@
     },
     {
       "builder": null,
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "A live dashboard that monitors Squeekchain's hamster wheel speed and block height. It triggers a sound and banner when the hamster starts or stops running. The page also includes mini-games like Squeek or Sleep and Squeek Out, which are only playable while the wheel is moving.",
       "description_origin": "readme",
@@ -1046,7 +1046,7 @@
     },
     {
       "builder": null,
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "Squeek Odometer tracks the distance Squeektoshi runs on its wheel in real time. You can view live speed and RPM, check the nightly distance log, and make a guess for how far the hamster will run tonight. The site also allows you to perform a zero-value check-in on the Sepolia testnet.",
       "description_origin": "readme",
@@ -1210,7 +1210,7 @@
     },
     {
       "builder": null,
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "A read-only dashboard that displays the live state of the hamster-powered Squeekchain on Sepolia. It refreshes every 15 seconds to show block height, progress, settled round, difficulty, and pause status.",
       "description_origin": "readme",
@@ -1240,7 +1240,7 @@
     },
     {
       "builder": null,
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "SqueekPulse is a live telemetry console and OBS stream overlay for Squeekchain. It displays settled blocks, SQK mints, supply, hamster wheel distance, and on-chain events in eight languages. The tool provides a transparent background overlay for streaming and a detailed dashboard for tracking chain activity.",
       "description_origin": "readme",
@@ -1415,7 +1415,7 @@
           "url": "https://x.com/ramilashrff"
         }
       ],
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "Squeek Hub streams live telemetry from Squeektoshi's wheel, allowing users to replay recorded runs and monitor real-time RPM data. It features a broadcast desk that converts wheel motion into an original radio mix, with options to download run recaps or integrate live activity into streams.",
       "description_origin": "website",
@@ -2164,7 +2164,7 @@
     },
     {
       "builder": null,
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "A dashboard for Squeekchain that displays live network metrics, staking yields, and NFT levels. It includes a simulator to preview the results of fusing two Squeek NFTs to increase their power limits.",
       "description_origin": "ai",
@@ -2479,7 +2479,7 @@
     },
     {
       "builder": null,
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "A read-only dashboard that displays live metrics for the Squeekchain hamster wheel and Sepolia Genesis contracts. It tracks wheel speed, settled blocks, NFT supply, and protocol health without requiring a wallet connection.",
       "description_origin": "readme",
@@ -2523,7 +2523,7 @@
     },
     {
       "builder": null,
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "Wheelwatch is a community dashboard that displays live data from Squeekchain. It tracks the current block height, work, wheel distance, SQK supply, and recent settlements. This project offers a public window into the hamster-powered chain's activity.",
       "description_origin": "readme",
@@ -2998,6 +2998,14 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "post",
+          "label": "@gvnplt",
+          "source": "https://x.com/gvnplt/status/2119505119570284589",
+          "url": "https://x.com/gvnplt"
+        }
+      ],
       "category": "art",
       "contracts": [],
       "description_en": "A living particle canvas powered by SqueekChain's hamster wheel. Explore Nebula, Vortex, Rain and Pulse, shape the motion, and save a moment.",
@@ -3065,6 +3073,7 @@
         "explorer": "https://eth-sepolia.blockscout.com/address/0x43f568acfadcee4333785c9f26596719ed0b02fb",
         "website": "https://squeekpixel.web.id"
       },
+      "logo": "logos/525f8cc4880243392c5fc0a358bc328a91609b69ab2c592069b92409d3ea839a.png",
       "name": "SQUEEKCHAIN",
       "publication_origin": "owner_approved",
       "stage": "testnet"
@@ -3184,7 +3193,7 @@
           "url": "https://x.com/mfbrat_eth"
         }
       ],
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "A live dashboard that answers whether Squeektoshi is currently running on the wheel. It displays real-time telemetry like RPM and total work, alongside Squeekchain stats such as block height and difficulty. The interface also links to the official livestream and offers an optional button to send a harmless transaction to the SQK token.",
       "description_origin": "readme",
@@ -3354,7 +3363,7 @@
           "url": "https://x.com/kolkrypt"
         }
       ],
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "A real-time block explorer and cryptographic verifier for Squeekchain. It displays live hardware telemetry and adaptive difficulty data while verifying EIP-1967 proxy contracts on Ethereum Sepolia.",
       "description_origin": "website",
@@ -3700,7 +3709,7 @@
           "url": "https://x.com/Mojito_cx"
         }
       ],
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "A read-only tracker that measures how long SqueekCore takes to settle closed rounds on Sepolia. It displays batches, gaps, and unsettled rounds at a finalized block, with options for alerts and CSV downloads.",
       "description_origin": "readme",
@@ -3900,7 +3909,7 @@
         }
       ],
       "description_en": "Squeek Pot is a daily lottery on Squeekchain where users deposit SQK to receive tickets for a prize draw. Deposits are never at risk and can be withdrawn at any time, while the winner takes the entire pot. Genesis NFT holders receive a 20% boost to their winning odds.",
-      "description_origin": "source",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -4122,7 +4131,7 @@
           "url": "https://x.com/falahdrops"
         }
       ],
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "SqueekHub is an independent analytics platform for the Squeekchain ecosystem. It provides live network status, hamster wheel telemetry, and tools to explore blocks, the SQK token economy, and mining activity. Users can also perform wallet lookups and interact with the network.",
       "description_origin": "readme",
@@ -4544,6 +4553,7 @@
       "lifecycle_stage": "development",
       "links": {
         "announcement": "https://x.com/KazzYuzaNFT/status/2116609853762469911",
+        "github": "https://github.com/KazzDev2/squeekroom",
         "website": "https://squeekden.art"
       },
       "name": "Squeek Den",
@@ -4552,7 +4562,7 @@
     },
     {
       "builder": null,
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "A live dashboard for Squeekchain that displays real-time telemetry from the WHEELY9000 hamster wheel. It tracks wheel speed, distance, and progress toward the next Squeek block. Users can also view network analytics and Squeek portfolios.",
       "description_origin": "readme",
@@ -5297,7 +5307,7 @@
           "url": "https://x.com/mikailozturk_"
         }
       ],
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "SqueekSense is a dashboard that tracks Squeektoshi's live wheel activity and learns daily patterns. It features an Arena where you can predict whether the hamster will run in the next UTC half-hour, competing against a prediction model. Outcomes are scored based on recorded Squeekchain telemetry.",
       "description_origin": "source",
@@ -5662,7 +5672,7 @@
     },
     {
       "builder": null,
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "Squeektoshi live is a dashboard that displays real-time data from Squeekchain, including the hamster's wheel speed, distance traveled, and block progress. It refreshes every 15 seconds to show the current state of the network and SQK supply.",
       "description_origin": "readme",
@@ -5997,7 +6007,7 @@
           "url": "https://x.com/cuongisreal_"
         }
       ],
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "Squeek Dashboard is a live explorer for Squeekchain that displays every Squeek's owner, level, power, and merge status. It ranks wallets by staked power, tracks recent merges and vault activity, and allows users to look up specific addresses for their rewards and holdings.",
       "description_origin": "website",
@@ -6310,7 +6320,7 @@
     },
     {
       "builder": null,
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "Squeek Peek is a live dashboard that tracks Squeekchain blocks, settled rounds, and wheel work on Ethereum Sepolia. It reads data directly from SqueekCore to provide a real-time view of Squeektoshi's activity. The tool serves as a simple companion for monitoring the hamster-powered chain.",
       "description_origin": "readme",
@@ -6340,7 +6350,7 @@
     },
     {
       "builder": null,
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "Squeek Radar is a dashboard for exploring Squeekchain, a hamster-powered toychain on Ethereum. It features an interactive pixel hamster wheel, a local work simulation, and a view of recent Sepolia activity. Users can give a seed, watch the wheel, and follow the work to see the chain in action.",
       "description_origin": "readme",
@@ -6480,7 +6490,7 @@
     },
     {
       "builder": null,
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "Squeek Pulse is an independent, read-only community site dedicated to Squeektoshi, the hamster powering SqueekChain. It features a live dashboard for tracking wheel activity and block settlements, alongside interactive elements like the Squeek Pet desktop hamster and Squeek Pet World.",
       "description_origin": "website",
@@ -6780,7 +6790,7 @@
     },
     {
       "builder": null,
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "A live dashboard that tracks the wheel speed, proof of work, and block production of Squeekchain. It displays real-time telemetry, settlements, and economic data updated every ten seconds. The interface visualizes how a single hamster powers a functioning blockchain.",
       "description_origin": "readme",
@@ -6930,7 +6940,7 @@
     },
     {
       "builder": null,
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "An independent dashboard that tracks activity on the Squeekchain ecosystem. It also includes a hamster wheel game where players earn points for fun, which are not linked to SQK or blockchain transactions.",
       "description_origin": "readme",
@@ -7329,7 +7339,7 @@
     },
     {
       "builder": null,
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "SqueekFi is a read-only dashboard that tracks certified hamster work from hardware readings through Ethereum settlement and mining checkpoints. It allows users to inspect public Squeek accounts, view claimable SQK, and monitor Genesis launch readiness without connecting a wallet.",
       "description_origin": "readme",
@@ -7713,7 +7723,7 @@
           "url": "https://x.com/klein0gn"
         }
       ],
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "Wheelhouse is an independent console for managing Squeeks on Squeekchain. It allows users to checkpoint, claim, merge, and inspect their assets while reading data directly from public RPCs. The tool simulates actions before signing to ensure safety without holding keys.",
       "description_origin": "website",
@@ -7888,7 +7898,7 @@
     },
     {
       "builder": null,
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "Squeek Forge visualizes Squeekchain's on-chain work as a real-time blacksmithing workshop. It displays cumulative hammer strikes, current ingot status, and 24-hour work metrics. The interface syncs with public chain data every ten seconds to show forging progress and settlement records.",
       "description_origin": "placeholder",
@@ -8095,7 +8105,7 @@
     },
     {
       "builder": null,
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "A live dashboard that displays data from the Squeekchain API. It provides a real-time view of the hamster-powered toychain's activity. The project serves as a community tool for monitoring the network.",
       "description_origin": "source",
@@ -8238,7 +8248,7 @@
     },
     {
       "builder": null,
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "WheelTrace is a live, read-only dashboard that displays Squeekchain's hamster wheel telemetry. It shows real-time metrics such as RPM, block progress, cumulative work, and distance drawn from the public API.",
       "description_origin": "readme",
@@ -8258,6 +8268,26 @@
         "website": "https://www.noirveil.web.id"
       },
       "name": "WheelTrace",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
+      "description_origin": "placeholder",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-11-08T19:28:01.109829+00:00",
+      "id": "c7cdf13358f487e7",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "website": "https://squeekchain-launchpad-production.up.railway.app"
+      },
+      "logo": "logos/323486d9eabf90d0eb46142e53f1ecc6babd7a53a8c0d3e6fadfc286769e895e.jpg",
+      "name": "Squeekchain Launchpad",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
@@ -8618,7 +8648,7 @@
     },
     {
       "builder": null,
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "A read-only dashboard that tracks Squeekchain activity on the Sepolia testnet. It displays the current mining round, total SQK mined, live Squeek NFTs, and public contract addresses. The interface offers a simple view of the hamster-powered economy without requiring interaction.",
       "description_origin": "readme",
@@ -8886,7 +8916,7 @@
     },
     {
       "builder": null,
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "SqueekScope is a command center for the Squeekchain testnet that displays live network metrics. It tracks block height, difficulty, active power, and SQK token issuance. Users can monitor round progress and verify ledger integrity through real-time data snapshots.",
       "description_origin": "placeholder",
@@ -8910,7 +8940,7 @@
     },
     {
       "builder": null,
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "SqueekVision is a live dashboard for the SqueekChain network. It displays Squeektoshi's wheel status, block progress, $SQK supply, and settlement data. The page refreshes every 15 seconds to show real-time activity on Sepolia.",
       "description_origin": "readme",
@@ -9428,7 +9458,7 @@
           "url": "https://x.com/v1dox_eth"
         }
       ],
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "A hamster-cam companion for Squeekchain that displays live stats on Squeektoshi's wheel activity, including speed, distance, and block height. Users can connect a wallet to send a zero-allowance transaction, which serves as a simple test for interacting with the chain.",
       "description_origin": "readme",
@@ -10317,7 +10347,7 @@
     },
     {
       "builder": null,
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "Squeektoshi’s Diary tracks the daily activity of the hamster powering Squeekchain. It displays live wheel speed, distance, and historical pass counts to show how the animal contributes to the proof-of-work process on the Sepolia testnet.",
       "description_origin": "website",
@@ -10509,7 +10539,7 @@
     },
     {
       "builder": null,
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "Squeek Pulse is a live dashboard for the Squeekchain network. It displays the hamster's wheel telemetry, block progress, and community rankings. The data refreshes every 20 seconds to show the chain's current activity.",
       "description_origin": "readme",
@@ -10539,7 +10569,7 @@
     },
     {
       "builder": null,
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "Squeekside is a read-only stream companion that displays live Sepolia blocks, SqueekCore rounds, and Squeektoshi's mining progress. It offers a responsive monitor with a stream view, fullscreen mode, and an optional transparent background for easy integration into broadcasts.",
       "description_origin": "readme",
@@ -10679,7 +10709,7 @@
           "url": "https://x.com/ahotespirit"
         }
       ],
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "SQUEEKFOREST is a read-only pixel forest that grows trees based on confirmed Squeekchain blocks and live hamster wheel telemetry. The visual state changes with wheel speed, while stale or missing data is clearly disclosed to maintain transparency.",
       "description_origin": "readme",
@@ -10796,7 +10826,7 @@
     },
     {
       "builder": null,
-      "category": "analytics",
+      "category": "tools",
       "contracts": [],
       "description_en": "Squeek Analytics provides read-only charts for the Squeek Chain public work record. It tracks work history, block milestones, settlement lag, and hamster performance on Ethereum Sepolia.",
       "description_origin": "readme",

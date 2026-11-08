@@ -32,8 +32,9 @@ const linkLabels = {
   telegram: ['➤', 'Telegram'], github: ['⌘', 'Code'], docs: ['▤', 'Docs'], explorer: ['⌕', 'Explorer']
 };
 // Singular category names for the badge on a project's card.
-const categoryTags = {defi: 'DeFi', dex: 'DEX', game: 'Game', prediction: 'Prediction market', analytics: 'Dashboard', streaming: 'Stream overlay', art: 'Art & music', launchpad: 'Launchpad', nft: 'NFT', memecoin: 'Memecoin', tools: 'Tools', infrastructure: 'Infrastructure', other: 'Other'};
-const categoryLabels = {defi: 'DeFi', dex: 'DEXs', game: 'Games', prediction: 'Prediction markets', analytics: 'Dashboards & analytics', streaming: 'Stream overlays', art: 'Art & music', launchpad: 'Launchpads', nft: 'NFT', memecoin: 'Memecoins', tools: 'Tools', infrastructure: 'Infrastructure', other: 'Other'};
+const categoryTags = {defi: 'DeFi', dex: 'DEX', game: 'Game', prediction: 'Prediction market', tools: 'Tools', streaming: 'Stream overlay', art: 'Art & music', launchpad: 'Launchpad', nft: 'NFT', memecoin: 'Memecoin', infrastructure: 'Infrastructure', other: 'Other'};
+// Tools are read-only apps: dashboards, analytics, explorers and planners (owner's choice, 2026-11-08).
+const categoryLabels = {defi: 'DeFi', dex: 'DEXs', game: 'Games', prediction: 'Prediction markets', tools: 'Analytics tools & dashboards', streaming: 'Stream overlays', art: 'Art & music', launchpad: 'Launchpads', nft: 'NFT', memecoin: 'Memecoins', infrastructure: 'Infrastructure', other: 'Other'};
 const sourceLabels = {
   deployment: 'Official deployment record',
   x: 'Team posts, quotes & conversations', github: 'Public GitHub discovery', onchain: 'On-chain discovery',
