@@ -106,6 +106,10 @@
         {
           "kind": "github_code",
           "url": "https://github.com/0xairr/squeekswap/blob/bfd86b851bb0f6f31838d160b7a35b5c7404bfbb/web/lib/deployments.ts"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/0xairr/squeekswap/blob/bfd86b851bb0f6f31838d160b7a35b5c7404bfbb/README.md"
         }
       ],
       "first_seen": "2026-11-04T19:22:01.493294+00:00",
