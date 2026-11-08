@@ -1110,7 +1110,7 @@
       "stage": "development"
     },
     {
-      "builder": null,
+      "builder": "Wheelpadfun",
       "builder_links": [
         {
           "kind": "post",
@@ -1145,6 +1145,10 @@
         {
           "kind": "site_contract_link",
           "url": "https://eth-sepolia.blockscout.com/address/0x3bc144c0236aaaa6dacfaad62a598ef6fadcc92e"
+        },
+        {
+          "kind": "team_mention",
+          "url": "https://x.com/pillheadddd/status/2119486446994407756"
         }
       ],
       "first_seen": "2026-10-23T12:44:31.145131+00:00",
@@ -1152,6 +1156,7 @@
       "identity_status": "resolved",
       "lifecycle_stage": "testnet_announced",
       "links": {
+        "announcement": "https://x.com/Wheelpadfun/status/2119461630681465270",
         "explorer": "https://eth-sepolia.blockscout.com/address/0x3bc144c0236aaaa6dacfaad62a598ef6fadcc92e",
         "github": "https://github.com/wheelpadfun/Wheelpad",
         "website": "https://wheelpad.fun",
@@ -2993,6 +2998,42 @@
     },
     {
       "builder": null,
+      "category": "art",
+      "contracts": [],
+      "description_en": "A living particle canvas powered by SqueekChain's hamster wheel. Explore Nebula, Vortex, Rain and Pulse, shape the motion, and save a moment.",
+      "description_origin": "source",
+      "ecosystem_status": "claimed",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-3152-build-squeekpulse-generative"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/e378a1e3-8f1d-467a-a5a6-c902adeafd16"
+        }
+      ],
+      "first_seen": "2026-11-08T16:59:00.725087+00:00",
+      "id": "488f0583131c2336",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-3152-build-squeekpulse-generative",
+        "website": "https://squeekpulse-small-paws-infinite.imd.site"
+      },
+      "logo": "logos/9d1dc335dc4435354372861f61a2a2bd8e742844aee4594efa2405c680fe5d53.svg",
+      "name": "SqueekPulse",
+      "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "d3805979ad266e81",
+          "name": "SqueekVision"
+        }
+      ],
+      "stage": "development"
+    },
+    {
+      "builder": null,
       "builder_links": [
         {
           "label": "@pancigoreng",
@@ -4223,6 +4264,50 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
+      "description_en": "Squeek Beat-the-AI Predictor is a community project for the Squeekchain Buildooooor badge.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-3139-continue-existing-squeek-beat-the-ai"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/5eb56815-ce4b-42d4-a9ed-b4e6c871d51e"
+        },
+        {
+          "kind": "owner_site",
+          "url": "https://squeek-beat-the-ai-predictor.imd.site/"
+        },
+        {
+          "kind": "owner_site",
+          "url": "https://squeek-beat-the-ai-predicto-75dc.imd.site"
+        }
+      ],
+      "first_seen": "2026-11-08T04:48:08.464850+00:00",
+      "id": "64f867bb855681cd",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-3139-continue-existing-squeek-beat-the-ai",
+        "website": "https://squeek-beat-the-ai-predicto-5eb5.imd.site"
+      },
+      "logo": "logos/b47f600e3d2b03b71378fa442a1ec366b85b16d04e9bf99ea6c3432e78d65ac3.svg",
+      "name": "Squeek Beat-the-AI Predictor",
+      "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "6fe6754ae2682fa3",
+          "name": "Burrow Siege"
+        }
+      ],
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
       "description_en": "Aura Board is an independent, read-only tool for tracking public Genesis progress and badge checklists on Squeekchain. It provides unofficial aura estimates and honest observations for the community.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
@@ -4627,6 +4712,12 @@
       "logo": "logos/51a76a23d82930ec2a5f39de279d1dd2b1a80cc0effcaf3a35d5bea2676b021f.svg",
       "name": "Burrow Siege",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "64f867bb855681cd",
+          "name": "Squeek Beat-the-AI Predictor"
+        }
+      ],
       "stage": "development"
     },
     {
@@ -7928,6 +8019,7 @@
       "lifecycle_stage": "testnet",
       "links": {
         "explorer": "https://eth-sepolia.blockscout.com/address/0xb969b75909ba52b0ebe780144a052e43c6f77a0a",
+        "github": "https://github.com/18569663yz-web/hamster-run",
         "website": "https://hamster-run.pages.dev"
       },
       "name": "Hamster Run",
@@ -8803,6 +8895,12 @@
       "logo": "logos/e2d2ffae1cf8b74d27578a624dd0c097dff5c6ec36f0df4d3e9e9d4b2b1bb165.svg",
       "name": "SqueekVision",
       "publication_origin": "owner_approved",
+      "same_wallet": [
+        {
+          "id": "488f0583131c2336",
+          "name": "SqueekPulse"
+        }
+      ],
       "stage": "development"
     },
     {
@@ -10379,7 +10477,7 @@
       "contracts": [],
       "description_en": "Squeekside is a read-only stream companion that displays live Sepolia blocks, SqueekCore rounds, and Squeektoshi's mining progress. It offers a responsive monitor with a stream view, fullscreen mode, and an optional transparent background for easy integration into broadcasts.",
       "description_origin": "readme",
-      "ecosystem_status": "claimed",
+      "ecosystem_status": "weak",
       "evidence": [
         {
           "kind": "github_mention",
