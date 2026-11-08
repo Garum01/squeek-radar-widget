@@ -142,42 +142,6 @@
     {
       "builder": null,
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Burrow Relay is a small Squeekchain circuit puzzle where you flip a lamp and its four orthogonal neighbours. The goal is to light every lamp. You can reset the board or use a hint to identify one move from a shortest solution, as described on "
-            },
-            {
-              "text": "the project website",
-              "url": "https://burrow-relay.vercel.app"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To follow the source trail, start with "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/SolM2M-Labs/burrow-relay"
-            },
-            {
-              "text": " for general context. Then, visit "
-            },
-            {
-              "text": "the project website",
-              "url": "https://burrow-relay.vercel.app"
-            },
-            {
-              "text": " to see the specific rules and mechanics. This path helps you understand how the puzzle works before you begin playing."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Burrow Relay is a circuit puzzle generated from live Squeekchain wheel readings. You flip switches to light nine lamps, where each move also toggles the four orthogonal neighbors. The goal is to illuminate the entire board.",
       "description_origin": "readme",
@@ -1009,6 +973,7 @@
       "identity_status": "resolved",
       "lifecycle_stage": "development",
       "links": {
+        "github": "https://github.com/umar199024/squeek-boss-raid",
         "website": "https://squeekbossraid.xyz"
       },
       "logo": "logos/fa6368c39a4dcee42f65abf93186cfeee34eec9963d753be8e205ea7729981b9.svg",
@@ -1921,7 +1886,7 @@
           "chain_id": 11155111
         }
       ],
-      "description_en": "Squeek Wars is a strategy game where each wallet builds a hamster village on Squeekchain. Players train troops, raid neighbors, and grow resources boosted by Squeektoshi's daily wheel work. Holding a Squeek NFT strengthens your champion and speeds up construction.",
+      "description_en": "Squeek Wars is a strategy game where each wallet builds a hamster village on Squeekchain. Players train units to raid neighbors and wild camps, using Squeektoshi's daily wheel work to boost resource production and champion stats.",
       "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
@@ -2020,6 +1985,10 @@
         {
           "kind": "onchain_contract",
           "url": "https://eth-sepolia.blockscout.com/tx/0x26022312366303124e7e56c0c0a6c58ecd9410ae4cd573e4aa49ddbd7d63f9e2"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x1d9d53b83f8860a5b245ecec68c26075fdbcf7da0066b38018cf6f14f4c29d7e"
         }
       ],
       "first_seen": "2026-11-03T22:34:55.834094+00:00",
@@ -2369,7 +2338,7 @@
       "builder": null,
       "category": "analytics",
       "contracts": [],
-      "description_en": "A read-only dashboard for monitoring the Squeekchain testnet. It displays live metrics such as hamster wheel RPM, settled blocks, NFT supply, and overall protocol health without requiring a wallet connection.",
+      "description_en": "A read-only dashboard that displays live metrics for the Squeekchain hamster wheel and Sepolia Genesis contracts. It tracks wheel speed, settled blocks, NFT supply, and protocol health without requiring a wallet connection.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -3521,7 +3490,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "SqueekCity is a playable isometric hamster city where residents work wheels to earn Wheel Energy and advance in their careers. The game connects to the real Squeekchain wheel, which triggers surges that affect the simulation. Players can watch a hamster civilization live, work, and grow within this interactive environment.",
+      "description_en": "SqueekCity is a playable isometric hamster city where twelve hamsters live, work, and grow. You watch them run wheels to produce Wheel Energy, which you can spend on upgrades. The real Squeekchain wheel powers surges in the simulation.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -5709,7 +5678,7 @@
       ],
       "category": "analytics",
       "contracts": [],
-      "description_en": "Squeek Dashboard is a Squeekchain explorer that tracks every Squeek, including owners, merges, levels, and power leaderboards. It displays Squeektoshi's mining records, recent merges, and staking vault details. Users can look up specific addresses to view their Squeeks, power share, and activity.",
+      "description_en": "Squeek Dashboard is a live explorer for Squeekchain that displays every Squeek's owner, level, power, and merge status. It ranks wallets by staked power, tracks recent merges and vault activity, and allows users to look up specific addresses for their rewards and holdings.",
       "description_origin": "website",
       "ecosystem_status": "weak",
       "evidence": [],
@@ -5718,6 +5687,7 @@
       "identity_status": "resolved",
       "lifecycle_stage": "development",
       "links": {
+        "github": "https://github.com/nncu1/squeek-dashboard",
         "website": "https://squeek-dashboard.fun"
       },
       "logo": "logos/5450d5403c3d2ba8091f7a98b95840fbe62ac353ae5e93d6d89f3579aad63dad.png",
@@ -5878,7 +5848,7 @@
       ],
       "category": "game",
       "contracts": [],
-      "description_en": "Squeek Garden is a virtual garden where hamster snacks grow based on the activity of Squeektoshi, the real hamster powering Squeekchain. You harvest different types of snacks depending on whether the hamster is running, resting, or just finished a session. A shared pantry system unlocks new seeds for the community as it fills up, and you can visit neighbors to water their plants.",
+      "description_en": "Squeek Garden is a virtual garden where hamster snacks grow based on the activity of Squeektoshi, the real hamster powering Squeekchain. You harvest different types of snacks depending on whether the hamster is running, mining blocks, or resting. The game includes a shared pantry that unlocks new seeds for the community and allows players to water neighbors' plants to earn points.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -6151,7 +6121,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "Squeek Studio turns on-chain Squeeks into profile pictures, banners, wallpapers, stickers and a Squeek ID. The tool runs entirely in your browser, keeping the process free and private.",
+      "description_en": "Squeek Studio turns on-chain Squeeks into profile pictures, banners, wallpapers, stickers, and a Squeek ID. It runs entirely in your browser, keeping the process free and private. You can create these assets directly from your Squeek tokens without leaving the site.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -7530,7 +7500,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "Squeek Maze is a free arcade game where you guide Squeektoshi through 50 mazes to collect peanuts and dodge snakes. The game features a local leaderboard and power beans that allow the hamster to eat snakes for a short duration.",
+      "description_en": "Squeek Maze is a free arcade game where you guide Squeektoshi through 50 mazes to collect peanuts and dodge snakes. The game features a real Squeekchain hamster and includes power beans that allow you to eat snakes for a short time. You can pause the game and save your high score locally on your browser.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -7917,6 +7887,10 @@
         {
           "kind": "github_mention",
           "url": "https://github.com/edwarderlick/Hamster-Raid"
+        },
+        {
+          "kind": "owner_site",
+          "url": "https://hamsterraid.online"
         }
       ],
       "first_seen": "2026-11-05T18:22:53.255994+00:00",
@@ -9718,7 +9692,7 @@
       "builder": null,
       "category": "defi",
       "contracts": [],
-      "description_en": "Burrow is a financial district on Squeekchain where loans, bonds, and share tokens operate based on the activity of a real hamster wheel. Users can borrow against Squeek NFTs, purchase wheel bonds, or stake in Hamster Motors, with terms and fees tied to the hamster's work cycles.",
+      "description_en": "Burrow is a financial district on Squeekchain where users borrow SQK against Squeek NFTs. The collateral continues mining on the chain, and the generated rewards automatically repay the loan debt.",
       "description_origin": "website",
       "ecosystem_status": "weak",
       "evidence": [
@@ -10313,26 +10287,6 @@
       },
       "logo": "logos/b0656b834b59a9ce9143ca646756bba7f9431cc78d42d10ad120bae834c39cd6.svg",
       "name": "Squeek Colony",
-      "publication_origin": "owner_approved",
-      "stage": "development"
-    },
-    {
-      "builder": null,
-      "category": "game",
-      "contracts": [],
-      "description_en": "Hamster Raid is a Squeekchain game where Squeektoshi's real wheel activity weakens a weekly boss. Holders join the raid using a free wallet signature, with no gas fees or pay-to-win mechanics.",
-      "description_origin": "website",
-      "ecosystem_status": "weak",
-      "evidence": [],
-      "first_seen": "2026-11-08T01:03:50.722555+00:00",
-      "id": "ff0812e9ed15cfdc",
-      "identity_status": "resolved",
-      "lifecycle_stage": "development",
-      "links": {
-        "website": "https://hamsterraid.online"
-      },
-      "logo": "logos/f26aa6c5143b7d181dc47013ba4168adfa3cda4fbda74fbd773ca5145a445e4b.svg",
-      "name": "Hamster Raid",
       "publication_origin": "owner_approved",
       "stage": "development"
     }
