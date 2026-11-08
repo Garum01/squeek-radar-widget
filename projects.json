@@ -23,8 +23,8 @@
       "builder": null,
       "category": "nft",
       "contracts": [],
-      "description_en": "SqueekSwap allows holders to trade Squeek Genesis NFTs directly with one another. You select the exact Genesis IDs to give and receive, and both sides change hands in a single transaction. Completed swaps earn Seeds, with double rewards if Squeektoshi is on his wheel.",
-      "description_origin": "readme",
+      "description_en": "SqueekSwap allows holders to trade Squeek Genesis NFTs directly with one another. You select the specific NFTs to exchange, and both sides change hands in a single transaction. Completed swaps earn Seeds, with double rewards if Squeektoshi is on his wheel.",
+      "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -94,6 +94,18 @@
         {
           "kind": "github_code",
           "url": "https://github.com/0xairr/squeekswap/blob/eb99cde42917e3686e31d9fe199ec138a7da13be/README.md"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/0xairr/squeekswap/blob/73290121c209bbf1978ad1f646ef592ac9079089/web/lib/deployments.ts"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/0xairr/squeekswap/blob/bfd86b851bb0f6f31838d160b7a35b5c7404bfbb/docs/squeekswap/SEEDS.md"
+        },
+        {
+          "kind": "github_code",
+          "url": "https://github.com/0xairr/squeekswap/blob/bfd86b851bb0f6f31838d160b7a35b5c7404bfbb/web/lib/deployments.ts"
         }
       ],
       "first_seen": "2026-11-04T19:22:01.493294+00:00",
@@ -1607,14 +1619,14 @@
     },
     {
       "builder": null,
-      "category": "nft",
+      "category": "other",
       "contracts": [
         {
           "address": "0x89a401c8fd33f6b8bc35cb534d908bd793864acd",
           "chain_id": 11155111
         }
       ],
-      "description_en": "SqueekFlow is a platform for managing Squeek assets and their associated rights. Its first live product, Rentals, allows owners to list NFTs for rent and set terms for staking rewards, while renters pay upfront to claim an agreed share of those rewards. The project is currently operating on the Sepolia testnet.",
+      "description_en": "SqueekFlow is a platform for managing Squeek assets and their associated rights. It currently offers Rentals, a live product on the Sepolia testnet, allowing users to put their Squeeks to work.",
       "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
@@ -10066,6 +10078,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/72bc3072-f84c-4101-a6d3-9fe49987e58b"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/5abbe64a-5fa9-4bd5-8bb7-1a71d89599b2"
         }
       ],
       "first_seen": "2026-11-05T09:31:03.310222+00:00",
