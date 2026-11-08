@@ -1330,35 +1330,6 @@
         }
       ],
       "category": "game",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "Squeek Arcade is a hamster-powered arcade within the Squeekchain ecosystem. According to "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekarcade.fun"
-            },
-            {
-              "text": ", you can drop Squeek through a pegboard or race the wheel to cash out before it stops. It also offers free daily points and claims to be provably fair."
-            }
-          ],
-          [
-            {
-              "text": "To understand how this works, start with "
-            },
-            {
-              "text": "the project website",
-              "url": "https://squeekarcade.fun"
-            },
-            {
-              "text": ". It outlines the specific games and the mechanics for earning points. Reading this source will help you see exactly how the arcade functions and what the daily rewards involve."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "Squeek Arcade is a hamster-powered gaming platform on Squeekchain featuring two main games: Squeek Drops, a 3D pegboard, and Squeek Run, a wheel-racing game. Players can earn free daily points and cash out multipliers before the wheel stops. The system is provably fair and allows users to connect a wallet to play as their own Squeek character.",
       "description_origin": "website",
@@ -6607,7 +6578,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "Squeek Hours is a focus tool that uses Squeekchain activity to pace 25-minute work sessions. Users join public or private rooms to track shared participation and earn Focus XP, which is distinct from SQK tokens.",
+      "description_en": "Squeek Hours is a focus tool that runs timed sessions and shared rooms paced by Squeekchain activity. Users join public or private spaces to work together, earning Focus XP for completed sessions that contribute to community expeditions.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
