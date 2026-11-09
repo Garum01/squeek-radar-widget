@@ -2922,7 +2922,7 @@
     },
     {
       "builder": null,
-      "category": "prediction",
+      "category": "game",
       "contracts": [],
       "description_en": "Race or bet against Squeektoshi, a real hamster on a live wheel. You can race a ghost that runs at his real speed or bet on his next round. Every outcome settles on the real round from Squeekchain's public API.",
       "description_origin": "readme",
@@ -3041,7 +3041,7 @@
           "url": "https://x.com/Despite_zmw"
         }
       ],
-      "category": "game",
+      "category": "tools",
       "contracts": [],
       "description_en": "Squeek Race visualizes Squeekchain's on-chain computational power as a live hamster race. It displays block progress, cumulative work, and a 24-hour leaderboard that updates every 10 seconds. The runners are fictional, with work distributed randomly among five hamsters to create shifting rankings.",
       "description_origin": "placeholder",
@@ -3329,7 +3329,7 @@
     },
     {
       "builder": null,
-      "category": "defi",
+      "category": "memecoin",
       "contracts": [],
       "description_en": "A token where 5% of every trade pays for the food, bedding, and vet visits of Squeektoshi, the hamster powering Squeekchain. Once the vault holds a month of care, the fee is used to buy back and burn tokens. Holders vote on the monthly allowance.",
       "description_origin": "source",
@@ -3503,7 +3503,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "other",
       "contracts": [],
       "description_en": "Squeek Mode is an AI chat interface that uses your own OpenRouter key to provide reliable responses with occasional creative detours. You can follow the hamster's influence and inspect every Squeekchain source receipt to verify the data behind the interactions.",
       "description_origin": "website",
@@ -3972,7 +3972,7 @@
           "url": "https://x.com/andreehoan"
         }
       ],
-      "category": "defi",
+      "category": "game",
       "contracts": [
         {
           "address": "0x2a86555598d4951d2dbfcb545e12e5aab06204d4",
@@ -4025,7 +4025,7 @@
     },
     {
       "builder": null,
-      "category": "prediction",
+      "category": "game",
       "contracts": [],
       "description_en": "Wheelhouse is a hamster prediction game where you guess whether Squeektoshi will run or rest. You compete against Pip, a rule-based opponent, across five rounds to see who scores higher. The game includes streak tracking and downloadable SVG scorecards.",
       "description_origin": "readme",
@@ -4055,7 +4055,7 @@
     },
     {
       "builder": null,
-      "category": "prediction",
+      "category": "game",
       "contracts": [],
       "description_en": "Squeek or Sleep is a prediction game where you guess whether Squeektoshi will be running or sleeping when a 90-second timer ends. Correct picks earn points based on your current streak, with results determined by the live status of the hamster's wheel.",
       "description_origin": "readme",
@@ -4274,7 +4274,7 @@
           "url": "https://x.com/lorisnyder8612"
         }
       ],
-      "category": "prediction",
+      "category": "game",
       "contracts": [],
       "description_en": "Nap or Sprint? is a prediction arcade where you guess the outcome of Squeekchain rounds based on a real hamster's activity. You can duel friends and collect digital art generated from the hamster's wheel movements.",
       "description_origin": "website",
@@ -4619,7 +4619,7 @@
           "url": "https://x.com/KazzYuzaNFT"
         }
       ],
-      "category": "tools",
+      "category": "game",
       "contracts": [],
       "description_en": "Squeek Den is an idle simulator where Squeektoshi's running generates Watts to upgrade your virtual den. Players spend these Watts on decorations, minigames, and raids against other dens. The game features a leaderboard and events that activate when the hamster is active.",
       "description_origin": "ai",
@@ -4758,7 +4758,7 @@
     },
     {
       "builder": null,
-      "category": "nft",
+      "category": "game",
       "contracts": [],
       "description_en": "Squeek Hatchery is a local demo that uses real hamster wheel data to simulate hatching a new hamster. You aim a lamp and incubate for 60 active seconds to save your hamster. NFT minting is not yet available.",
       "description_origin": "website",
@@ -5402,7 +5402,7 @@
           "url": "https://x.com/mikailozturk_"
         }
       ],
-      "category": "tools",
+      "category": "prediction",
       "contracts": [],
       "description_en": "SqueekSense is a dashboard that tracks Squeektoshi's live wheel activity and learns daily patterns. It features an Arena where you can predict whether the hamster will run in the next UTC half-hour, competing against a prediction model. Outcomes are scored based on recorded Squeekchain telemetry.",
       "description_origin": "source",
@@ -5589,7 +5589,7 @@
     },
     {
       "builder": null,
-      "category": "art",
+      "category": "tools",
       "contracts": [],
       "description_en": "Wheel Archive turns settled batches of Squeekchain rounds into sealed capsules. You can explore the live archive and leave a zero-value stamp on Sepolia.",
       "description_origin": "readme",
@@ -6060,7 +6060,7 @@
     },
     {
       "builder": null,
-      "category": "game",
+      "category": "art",
       "contracts": [],
       "description_en": "A browser-based pottery studio where Squeektoshi's wheel data sets the rhythm. You shape and glaze the clay to create a piece of collaborative art.",
       "description_origin": "readme",
@@ -6155,7 +6155,7 @@
     },
     {
       "builder": null,
-      "category": "game",
+      "category": "tools",
       "contracts": [],
       "description_en": "Squeek Pet is a tiny pixel hamster that runs when Squeektoshi runs. You can pat, feed and wake the hamster while it reads Squeekchain data. The project is a read-only tool that does not require a wallet.",
       "description_origin": "readme",
@@ -6415,7 +6415,7 @@
     },
     {
       "builder": null,
-      "category": "game",
+      "category": "nft",
       "contracts": [],
       "description_en": "On-chain contracts for SqueekBoard, a community companion app for Squeekchain. Users mint a free Hamster Badge on Sepolia, record one wheel spin a day, and climb a public streak leaderboard.",
       "description_origin": "readme",
