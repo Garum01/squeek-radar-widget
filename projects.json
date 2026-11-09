@@ -828,7 +828,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "art",
       "contracts": [],
       "description_en": "A free, read-only browser tool that turns Squeeks into profile pictures, banners, wallpapers, stickers, and share cards. Find a Squeek by number or wallet address to generate custom visuals for social media or personal use.",
       "description_origin": "readme",
@@ -1406,7 +1406,7 @@
     },
     {
       "builder": null,
-      "category": "game",
+      "category": "prediction",
       "contracts": [],
       "description_en": "Round Prophet is a browser-based prediction game where you challenge Wheel Brain in a best-of-three duel. You make calls on real Squeekchain hamster-wheel settlements to test your intuition against an explainable AI. The game requires no account or wallet, offering bragging rights as the only reward.",
       "description_origin": "readme",
@@ -1660,7 +1660,7 @@
           "url": "https://x.com/mulight"
         }
       ],
-      "category": "defi",
+      "category": "tools",
       "checked_text": {
         "paragraphs": [
           [
@@ -1763,7 +1763,7 @@
           "url": "https://x.com/0xwuy"
         }
       ],
-      "category": "nft",
+      "category": "game",
       "contracts": [
         {
           "address": "0xc42ce2d42684e7d7d5c29bf7fcc6fdf419c2771f",
@@ -1867,7 +1867,7 @@
     },
     {
       "builder": null,
-      "category": "defi",
+      "category": "nft",
       "contracts": [
         {
           "address": "0x89a401c8fd33f6b8bc35cb534d908bd793864acd",
@@ -1931,7 +1931,7 @@
           "url": "https://x.com/greenfisheth"
         }
       ],
-      "category": "game",
+      "category": "art",
       "contracts": [
         {
           "address": "0x0b71e2aeb9eda244ba53492efa83f913a37cbd83",
@@ -2092,7 +2092,7 @@
     },
     {
       "builder": null,
-      "category": "defi",
+      "category": "game",
       "contracts": [
         {
           "address": "0xc17b08994b70b468aa30e4e3d73edf9d65727302",
@@ -3273,7 +3273,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "prediction",
       "contracts": [],
       "description_en": "How far will Squeektoshi run today?",
       "description_origin": "readme",
@@ -3694,7 +3694,7 @@
     },
     {
       "builder": null,
-      "category": "other",
+      "category": "tools",
       "contracts": [],
       "description_en": "Squeek Mode is an AI chat interface that uses your own OpenRouter key to provide reliable responses with occasional creative detours. You can follow the hamster's influence and inspect every Squeekchain source receipt to verify the data behind the interactions.",
       "description_origin": "website",
@@ -4163,7 +4163,7 @@
           "url": "https://x.com/andreehoan"
         }
       ],
-      "category": "game",
+      "category": "defi",
       "contracts": [
         {
           "address": "0x2a86555598d4951d2dbfcb545e12e5aab06204d4",
@@ -4216,7 +4216,7 @@
     },
     {
       "builder": null,
-      "category": "game",
+      "category": "prediction",
       "contracts": [],
       "description_en": "Wheelhouse is a hamster prediction game where you guess whether Squeektoshi will run or rest. You compete against Pip, a rule-based opponent, across five rounds to see who scores higher. The game includes streak tracking and downloadable SVG scorecards.",
       "description_origin": "readme",
@@ -4246,7 +4246,7 @@
     },
     {
       "builder": null,
-      "category": "game",
+      "category": "prediction",
       "contracts": [],
       "description_en": "Squeek or Sleep is a prediction game where you guess whether Squeektoshi will be running or sleeping when a 90-second timer ends. Correct picks earn points based on your current streak, with results determined by the live status of the hamster's wheel.",
       "description_origin": "readme",
@@ -4465,7 +4465,7 @@
           "url": "https://x.com/lorisnyder8612"
         }
       ],
-      "category": "game",
+      "category": "prediction",
       "contracts": [],
       "description_en": "Nap or Sprint? is a prediction arcade where you guess the outcome of Squeekchain rounds based on a real hamster's activity. You can duel friends and collect digital art generated from the hamster's wheel movements.",
       "description_origin": "website",
@@ -6373,7 +6373,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
       "contracts": [],
       "description_en": "Squeek Pet is a tiny pixel hamster that runs when Squeektoshi runs. You can pat, feed and wake the hamster while it reads Squeekchain data. The project is a read-only tool that does not require a wallet.",
       "description_origin": "readme",
@@ -6598,7 +6598,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "other",
       "contracts": [],
       "description_en": "Squeekscope provides a daily hamster tarot reading for any Ethereum address based on Squeektoshi's settled wheel work. Users can read their card, compare a pair, and trace every draw. The tool is a static, browser-only application that generates a unique reading for each address and day.",
       "description_origin": "readme",
@@ -6633,7 +6633,7 @@
     },
     {
       "builder": null,
-      "category": "nft",
+      "category": "tools",
       "contracts": [],
       "description_en": "On-chain contracts for SqueekBoard, a community companion app for Squeekchain. Users mint a free Hamster Badge on Sepolia, record one wheel spin a day, and climb a public streak leaderboard.",
       "description_origin": "readme",
@@ -6891,7 +6891,7 @@
           "url": "https://x.com/zakehowell"
         }
       ],
-      "category": "tools",
+      "category": "game",
       "contracts": [],
       "description_en": "Squeek Pulse is an independent, read-only community site dedicated to Squeektoshi, the hamster powering SqueekChain. It features a live dashboard for tracking wheel activity and block settlements, alongside interactive elements like the Squeek Pet desktop hamster and Squeek Pet World.",
       "description_origin": "website",
@@ -7886,7 +7886,7 @@
     },
     {
       "builder": null,
-      "category": "game",
+      "category": "prediction",
       "contracts": [],
       "description_en": "A free browser game where you predict whether a real hamster will exceed a baseline of wheel activity in the next minute. You earn points for accurate calls and compete against the Vacuum of the Void.",
       "description_origin": "readme",
@@ -8032,7 +8032,7 @@
           "url": "https://x.com/bigman09405961"
         }
       ],
-      "category": "game",
+      "category": "prediction",
       "contracts": [
         {
           "address": "0xadea9907baa30d7b54e7b9eb6f6551b9a0088e08",
@@ -8785,7 +8785,7 @@
     },
     {
       "builder": null,
-      "category": "game",
+      "category": "prediction",
       "contracts": [],
       "description_en": "Fantasy Hamster is a daily game where you draft five predictions about Squeektoshi's next UTC day and pick a Captain. The real hamster on the wheel determines your final score. It is a free, fan-made project designed for fun.",
       "description_origin": "readme",
@@ -9367,7 +9367,7 @@
           "url": "https://x.com/berru_alexander"
         }
       ],
-      "category": "nft",
+      "category": "other",
       "contracts": [],
       "description_en": "Users can generate names in various styles, collect likes, and receive SQK tips. The site displays real-time hamster activity and weekly leaderboards.",
       "description_origin": "placeholder",
@@ -10172,6 +10172,7 @@
       "identity_status": "resolved",
       "lifecycle_stage": "unknown",
       "links": {
+        "github": "https://github.com/squeekraid/squeekraid-game",
         "website": "https://squeekraid.xyz",
         "x": "https://x.com/squeekraid"
       },
@@ -10969,7 +10970,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
       "contracts": [],
       "description_en": "Wheel Raid is a weekly boss fight where damage is calculated from Squeekchain's real round distance. You pick a role like DPS or Tank, then call RUN or SLEEP each round to predict the hamster's activity. Correct calls multiply your damage, and the team works together to defeat the boss before the week ends.",
       "description_origin": "website",
@@ -11373,7 +11374,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "game",
       "contracts": [],
       "description_en": "Squeek Warriors is a turn-based hamster RPG where the live Squeekchain wheel determines your party's stance. You fight battles that shift between Wheel frenzy and Burrow guard based on the hamster's real-time activity.",
       "description_origin": "readme",
