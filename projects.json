@@ -293,10 +293,10 @@
     },
     {
       "builder": null,
-      "category": "nft",
+      "category": "game",
       "contracts": [],
-      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
-      "description_origin": "placeholder",
+      "description_en": "A free-to-play hamster game featuring levels, power-ups, and a collection, where players earn points and rewards by connecting a wallet.",
+      "description_origin": "ai",
       "ecosystem_status": "weak",
       "evidence": [],
       "first_seen": "2026-11-09T12:30:51.473033+00:00",
@@ -468,6 +468,10 @@
         {
           "kind": "onchain_contract",
           "url": "https://eth-sepolia.blockscout.com/tx/0x14b223ebaedbafb48c0c5ba994a48d8e668d97a91a380f3c0b8e85f9a05502bc"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0xd8502e8338e6b6e18a160ff23e2515f08a522c27226e15a0f90757e5953db359"
         }
       ],
       "first_seen": "2026-11-08T13:12:19.721364+00:00",
@@ -5516,7 +5520,7 @@
       "category": "prediction",
       "contracts": [],
       "description_en": "SqueekSense is a dashboard that tracks Squeektoshi's live wheel activity and learns daily patterns. It features an Arena where you can predict whether the hamster will run in the next UTC half-hour, competing against a prediction model. Outcomes are scored based on recorded Squeekchain telemetry.",
-      "description_origin": "source",
+      "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
         {
