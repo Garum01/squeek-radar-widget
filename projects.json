@@ -1152,7 +1152,7 @@
       "category": "game",
       "contracts": [],
       "description_en": "A weekly cooperative raid where a boss's health decreases only when Squeektoshi the hamster runs on his wheel. Players enlist with a class, predict the hamster's activity in ten-minute rounds, and compete for points on an on-chain leaderboard.",
-      "description_origin": "website",
+      "description_origin": "readme",
       "ecosystem_status": "confirmed",
       "evidence": [
         {
@@ -1205,7 +1205,7 @@
         }
       ],
       "description_en": "WheelPad is a launchpad that mints memecoin supply as Squeektoshi runs on SqueekChain. Users can access free test tokens on the Sepolia testnet, where coin unlocks are tied directly to the hamster's activity.",
-      "description_origin": "website",
+      "description_origin": "readme",
       "ecosystem_status": "confirmed",
       "evidence": [
         {
@@ -8077,7 +8077,7 @@
       "category": "tools",
       "contracts": [],
       "description_en": "Wheelhouse is an independent console for managing Squeeks on Squeekchain. It allows users to checkpoint, claim, merge, and inspect their assets while reading data directly from public RPCs. The tool simulates actions before signing to ensure safety without holding keys.",
-      "description_origin": "website",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [],
       "first_seen": "2026-11-07T21:05:25.548522+00:00",
