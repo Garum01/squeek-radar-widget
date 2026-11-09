@@ -1849,8 +1849,8 @@
           "chain_id": 11155111
         }
       ],
-      "description_en": "Pixel Pit is a multiplayer game where each wallet has a brush budget of 0-40 pixels. This budget is refilled only by settled Squeek blocks, and the contract rejects paints that exceed the limit.",
-      "description_origin": "source",
+      "description_en": "Pixel Pit is a multiplayer game where each wallet has a brush budget of 0-40 pixels. This budget refills only when Squeek blocks settle, and the contract rejects any paint attempts that exceed the limit.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -9395,7 +9395,7 @@
       ],
       "category": "game",
       "contracts": [],
-      "description_en": "Squeek City is a top-down heist game where Squeektoshi's wheel activity controls gameplay. Running opens the route, sleep closes it, and new observed wheel blocks unlock payouts. The live mode relies entirely on real chain data without simulated fallbacks.",
+      "description_en": "Squeek City is a top-down, retro GTA-style open-world game where you play as a hamster exploring a pixel city. Squeektoshi's real-time wheel activity controls the day-night cycle, city busyness, and loot availability, with new blocks dropping collectible seeds. You can drive vehicles, complete missions, and evade police in a 5-star wanted system.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -9778,7 +9778,7 @@
       ],
       "category": "game",
       "contracts": [],
-      "description_en": "SQUEEKDANCE is a one-button rhythm game where a real hamster spins the record. Tap when the gold star hits 12 on Squeektoshi's wheel to fill a wall of 48 friends and start the party.",
+      "description_en": "SQUEEKDANCE is a one-button rhythm game where the beat is set by the live speed of Squeektoshi's wheel. Players tap when a gold star hits 12 to fill a dance wall with friends. Anyone can press a settled round onchain to etch their name on the record.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -10889,7 +10889,7 @@
       ],
       "category": "game",
       "contracts": [],
-      "description_en": "Squeaksy is a pixel idle game where you wake a hamster, spin a wheel and fill block clouds. You earn stars, collect limited hamsters and Pixsy buddies, and climb the leaderboard.",
+      "description_en": "Squeaksy is a pixel idle game where you wake a hamster to spin a wheel and fill block clouds. You earn stars to collect limited hamsters and Pixsy buddies while climbing the leaderboard. The game mirrors the real Squeekchain wheel, rewarding players with stars when actual blocks are confirmed on the chain.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [],
