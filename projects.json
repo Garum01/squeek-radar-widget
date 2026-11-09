@@ -3389,7 +3389,7 @@
       "category": "memecoin",
       "contracts": [],
       "description_en": "A token where 5% of every trade pays for the food, bedding, and vet visits of Squeektoshi, the hamster powering Squeekchain. Once the vault holds a month of care, the fee is used to buy back and burn tokens. Holders vote on the monthly allowance.",
-      "description_origin": "source",
+      "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
         {
@@ -11264,6 +11264,32 @@
       },
       "logo": "logos/b0656b834b59a9ce9143ca646756bba7f9431cc78d42d10ad120bae834c39cd6.svg",
       "name": "Squeek Colony",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "streaming",
+      "contracts": [],
+      "description_en": "Round Call and overlays for Squeekchain streams: your chat calls what Squeektoshi does next round and the real wheel settles it; an LED board, alerts, a ticker, stream goals, a cam frame and scenes for OBS and Streamlabs.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/38f20e1f-7cd4-4507-a23f-8b4d629c43a4"
+        }
+      ],
+      "first_seen": "2026-11-09T10:17:18.260308+00:00",
+      "id": "ffaa820e8cbbf4c0",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/am3en0x/squeek-stream-kit",
+        "website": "https://squeek-stream-kit.imd.site"
+      },
+      "logo": "logos/9d410049a42eb345fa9f64b944e3cc7a3ce5c88d99ff0f8c792c98b02a767ac3.svg",
+      "name": "Squeek Stream Kit",
       "publication_origin": "owner_approved",
       "stage": "development"
     }
