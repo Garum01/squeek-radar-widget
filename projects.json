@@ -2183,7 +2183,7 @@
         }
       ],
       "description_en": "Squeek Wars is a strategy game where each wallet builds a hamster village on Squeekchain. Players train units to raid neighbors and wild camps, using Squeektoshi's daily wheel work to boost resource production and champion stats.",
-      "description_origin": "source",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -11329,8 +11329,8 @@
       "builder": null,
       "category": "streaming",
       "contracts": [],
-      "description_en": "Round Call and overlays for Squeekchain streams: your chat calls what Squeektoshi does next round and the real wheel settles it; an LED board, alerts, a ticker, stream goals, a cam frame and scenes for OBS and Streamlabs.",
-      "description_origin": "website",
+      "description_en": "Free OBS and Streamlabs overlays and a viewer game for Squeekchain streams. Squeektoshi, the hamster whose wheel powers Squeekchain, on your stream: an LED board of his wheel, alerts when he wakes up, gets the zoomies or a block is found, a round ticker, a stream goal bar, a cam frame, starting/BRB/ending scenes, and R…",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
