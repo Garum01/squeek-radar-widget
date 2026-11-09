@@ -1807,6 +1807,10 @@
         {
           "address": "0x89a401c8fd33f6b8bc35cb534d908bd793864acd",
           "chain_id": 11155111
+        },
+        {
+          "address": "0x3af150eb24a1589be806d0d56eb00b149f18a675",
+          "chain_id": 11155111
         }
       ],
       "description_en": "SqueekFlow is a platform for managing Squeek assets and their associated rights. It currently offers Rentals, a live product on the Sepolia testnet, allowing users to put their Squeeks to work.",
@@ -1816,6 +1820,26 @@
         {
           "kind": "onchain_contract",
           "url": "https://eth-sepolia.blockscout.com/tx/0x0b5704df6232a83c4653048614d6f8bfc86dbc4891029db6f37b2445ecd0348c"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0xd09dea49a85aca9f659b00f4926f338234ac0ff3d184713de5f991354846dbf4"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x54f6431253cc441e46fe3ed18273821cb896afd4b3e750736e89801d1e1641de"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x98059474141697ed43464622d195eca9f0c8907a046bb37ab9aa7bec97e9401b"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0xd556deb6dcf69836e50e38295a46becc2944ad0f9062538787415d1e10e2f3aa"
+        },
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0x3af150eb24a1589be806d0d56eb00b149f18a675"
         }
       ],
       "first_seen": "2026-11-07T05:06:50.518277+00:00",
@@ -9919,7 +9943,7 @@
     },
     {
       "builder": null,
-      "category": "prediction",
+      "category": "game",
       "contracts": [],
       "description_en": "Squeek Arena is a web-based platform that displays real-time telemetry from a physical hamster wheel, including speed and power output. Users can interact with the system by sending on-chain transactions to boost the wheel's speed or place wagers in a sprint betting game. The project also features a dynamic NFT that evolves based on the hamster's cumulative revolutions.",
       "description_origin": "readme",
@@ -10240,7 +10264,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "nft",
       "contracts": [
         {
           "address": "0x79224b71fec04bbd1c34d0922e04a11da56d56cf",
@@ -11083,7 +11107,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "Squeek Warriors is a turn-based hamster RPG where the live Squeekchain wheel determines your party's battle stance. You fight through three battles to reach the Ashwood gate, switching between Wheel frenzy and Burrow guard based on the hamster's activity.",
+      "description_en": "Squeek Warriors is a turn-based hamster RPG where the live Squeekchain wheel determines your party's stance. You fight battles that shift between Wheel frenzy and Burrow guard based on the hamster's real-time activity.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
