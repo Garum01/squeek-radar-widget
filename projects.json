@@ -31,7 +31,7 @@
       ],
       "category": "nft",
       "contracts": [],
-      "description_en": "SqueekSwap allows holders to trade Squeek Genesis NFTs directly with one another. You select the specific NFTs to exchange, and both sides change hands in a single transaction. Completed swaps earn Seeds, with double rewards if Squeektoshi is on his wheel.",
+      "description_en": "SqueekSwap allows holders to trade Squeek Genesis NFTs directly with one another. You select specific Genesis IDs to exchange, and both sides change hands in a single transaction. Completed swaps earn Seeds, with double points awarded if Squeektoshi is running on his wheel.",
       "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
@@ -416,7 +416,7 @@
           "chain_id": 11155111
         }
       ],
-      "description_en": "A farming dApp on Ethereum Sepolia where users stake CHEESE to let hamsters work. The project features three distinct farms and a 15% Hamster Bite fee structure.",
+      "description_en": "A farming dApp on Ethereum Sepolia where users stake CHEESE to let hamsters work. It features three farms, custom hamster artwork, and a 15% Hamster Bite fee. The project uses real contract reads and supports various browser wallets.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -1596,6 +1596,42 @@
         }
       ],
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "This project aims to provide a single page for merging and staking on the Sepolia network, as described in its public overview "
+            },
+            {
+              "text": "the project website",
+              "url": "https://0xmulight.github.io/squeek-sepolia-merge/"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To understand the details, you can explore the provided materials. A public source offers additional context "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/0xMulight/squeek-sepolia-merge"
+            },
+            {
+              "text": ", while the main site hosts the core information "
+            },
+            {
+              "text": "the project website",
+              "url": "https://0xmulight.github.io/squeek-sepolia-merge/"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "One page for merge and stake on Sepolia.",
       "description_origin": "readme",
@@ -3099,7 +3135,7 @@
           "chain_id": 11155111
         }
       ],
-      "description_en": "A rhythm game where you hit notes to match a song's tempo, which adjusts in real time to the speed of Squeektoshi's hamster wheel. Players compete in daily challenges, missions, and live races against the hamster's actual distance. The game features a pixel ID system and a low-lag performance mode for smooth gameplay.",
+      "description_en": "A pixel rhythm game where you build an anthem from your wallet address and play modes like Daily, LIVE, and RACE. Your gameplay tempo and distance are determined by the live speed of Squeektoshi's real hamster wheel. Players earn XP to level up, complete missions, and climb the global leaderboard.",
       "description_origin": "website",
       "ecosystem_status": "confirmed",
       "evidence": [
@@ -3117,7 +3153,7 @@
         "website": "https://squeekpixel.web.id"
       },
       "logo": "logos/525f8cc4880243392c5fc0a358bc328a91609b69ab2c592069b92409d3ea839a.png",
-      "name": "SQUEEKCHAIN",
+      "name": "SQUEEKCHAIN // Pixel ID",
       "publication_origin": "owner_approved",
       "stage": "testnet"
     },
@@ -3951,7 +3987,7 @@
           "chain_id": 11155111
         }
       ],
-      "description_en": "Squeek Pot is a daily lottery on Squeekchain where users deposit SQK to receive tickets for a prize draw. Deposits are never at risk and can be withdrawn at any time, while the winner takes the entire pot. Genesis NFT holders receive a 20% boost to their winning odds.",
+      "description_en": "Squeek Pot is a no-loss lottery where users deposit SQK to gain a chance at a daily prize. Deposits remain fully withdrawable at any time, ensuring the principal is never at risk. The winner is selected via a provably fair on-chain random number generator.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -4583,9 +4619,9 @@
           "url": "https://x.com/KazzYuzaNFT"
         }
       ],
-      "category": "game",
+      "category": "tools",
       "contracts": [],
-      "description_en": "Squeek Den is a browser-based game where players manage a hamster den to earn Watts by spinning a wheel. You spend these Watts in a shop to customize your den and participate in raids against other players. The project features a leaderboard and a certificate system that tracks your lifetime progress.",
+      "description_en": "Squeek Den is an idle simulator where Squeektoshi's running generates Watts to upgrade your virtual den. Players spend these Watts on decorations, minigames, and raids against other dens. The game features a leaderboard and events that activate when the hamster is active.",
       "description_origin": "ai",
       "ecosystem_status": "confirmed",
       "evidence": [
@@ -10340,7 +10376,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "A weekly browser game where players attack a boss whose health is tied to Squeekchain block progress. Damage is generated by the actual distance a hamster runs on its wheel, with classes and frenzy modes affecting the output.",
+      "description_en": "A weekly browser game where players attack a boss whose health is determined by Squeekchain block progress. Damage is generated by the actual distance a hamster runs on its wheel, with different classes offering unique combat styles.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -10437,7 +10473,7 @@
       ],
       "category": "defi",
       "contracts": [],
-      "description_en": "Burrow is a financial district on Squeekchain where users borrow SQK against Squeek NFTs. The collateral continues mining on the chain, and the generated rewards automatically repay the loan debt.",
+      "description_en": "Burrow is a financial district on Squeekchain where loans, bonds, and share tokens operate based on the activity of a real hamster wheel. Users can borrow against Squeek NFTs, purchase wheel bonds, or stake in Hamster Motors, with all terms tied to settled wheel work rather than real-time clocks.",
       "description_origin": "website",
       "ecosystem_status": "weak",
       "evidence": [
@@ -10811,7 +10847,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "Squeekside is a read-only stream companion that displays live Sepolia blocks, SqueekCore rounds, and Squeektoshi's mining progress. It offers a responsive monitor with a stream view, fullscreen mode, and an optional transparent background for easy integration into broadcasts.",
+      "description_en": "Squeekside is a read-only monitoring dashboard for Squeekchain that displays live Sepolia blocks, SqueekCore rounds, and hamster wheel progress. It offers custom themes, stream guides, and browser-local viewer predictions to help users follow the chain's activity.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
