@@ -1670,7 +1670,7 @@
         }
       ],
       "description_en": "Hatch a free on-chain hamster on Ethereum Sepolia. Feed your Squeekling and watch it grow in sync with Squeektoshi, Squeekchain's real hamster.",
-      "description_origin": "source",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -3051,7 +3051,7 @@
       ],
       "category": "art",
       "contracts": [],
-      "description_en": "A living particle canvas powered by SqueekChain's hamster wheel. Explore Nebula, Vortex, Rain and Pulse, shape the motion, and save a moment.",
+      "description_en": "SqueekPulse turns SqueekChain's hamster wheel telemetry into a generative particle canvas. You can explore modes like Nebula and Vortex, interact with the field using your pointer, and save the resulting artwork as a PNG. The visual elements, such as speed and color, change in real-time based on the wheel's RPM and block progress.",
       "description_origin": "source",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -4051,7 +4051,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "An arcade built on Squeekchain's own round arithmetic: pack work into 10,000-unit rounds before the round closes.",
+      "description_en": "LEG DAY is an arcade game where you pack work units into 10,000-unit rounds before they close. It uses Squeekchain's actual difficulty and block data to price each round, letting you see how your packing choices affect the chain's state.",
       "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
@@ -4355,9 +4355,9 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "prediction",
       "contracts": [],
-      "description_en": "Squeek Beat-the-AI Predictor is a community project for the Squeekchain Buildooooor badge.",
+      "description_en": "A local prediction game where you guess Squeektoshi's next settled round to outguess Professor Whiskers. The project is free and awards points only, requiring no account or wallet.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -5530,7 +5530,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "Read-only console for a Squeekchain holder. It reads the Squeekchain core API and the SqueekStaking contract and shows, in one screen",
+      "description_en": "A read-only console for Squeekchain holders that displays core API and SqueekStaking contract data on a single screen. It allows users to view their status without signing or sending any on-chain transactions.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -6511,7 +6511,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "A retro, black and white quiz battle game built on Squeekchain, the hamster-powered toychain that settles on Ethereum Sepolia. Live at https://squeekarena.web.id",
+      "description_en": "Squeek Arena is a retro quiz battle game where players pull a gacha hamster and fight Squeektoshi through five levels of increasing difficulty. Correct answers attack the boss, while wrong answers allow it to strike back. Defeating all five forms earns a certified FAMS card.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -7161,7 +7161,7 @@
       "builder": null,
       "category": "streaming",
       "contracts": [],
-      "description_en": "Give your stream a little sidekick. Create a free Squeektoshi hamster wheel overlay for OBS or Streamlabs, with live Squeekchain stats and Twitch chat predictions.",
+      "description_en": "Wheel Cheer is a free overlay for OBS and Streamlabs that displays live Squeekchain stats and a Squeektoshi hamster wheel. Streamers can customize the widget and share its URL so their Twitch chat can make predictions.",
       "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
@@ -8427,9 +8427,9 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "nft",
       "contracts": [],
-      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
+      "description_en": "A platform for launching ERC-721 collections, minting from live drops, and trading Squeekchain NFTs. It operates on the Sepolia test network, where every block is initiated by a hamster wheel turn.",
       "description_origin": "placeholder",
       "ecosystem_status": "weak",
       "evidence": [],
@@ -9425,7 +9425,7 @@
       "category": "tools",
       "contracts": [],
       "description_en": "The Wheelpaper turns the Squeekchain whitepaper into an interactive site where you can drag handles to test difficulty adjustments and supply schedules. It visualizes the chain's mechanics by syncing a pixel wheel with Squeektoshi's real RPM and comparing paper formulas against live Sepolia data.",
-      "description_origin": "website",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [],
       "first_seen": "2026-10-28T01:09:08.749867+00:00",
@@ -10660,7 +10660,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "NEXORA is a published space shooter (Google Play / App Store). In this build it runs on Squeekchain's real hamster wheel.",
+      "description_en": "NEXORA is a space shooter where Squeektoshi's real wheel speed drives in-game overdrive and block drops. Players post their scores onchain to the $SQK contract on Sepolia, binding runs to specific Core rounds.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -10677,7 +10677,7 @@
         "github": "https://github.com/izmiradami/nexora-wheel",
         "website": "https://nexora-wheel.vercel.app"
       },
-      "name": "NEXORA · Wheel Protocol",
+      "name": "NEXORA",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
