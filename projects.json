@@ -3550,6 +3550,32 @@
     },
     {
       "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "An idle game powered by a real hamster.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/kamils333/squeek-burrow"
+        }
+      ],
+      "first_seen": "2026-11-09T15:06:03.509225+00:00",
+      "id": "5082f58dad2227a0",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/kamils333/squeek-burrow",
+        "website": "https://squeek-burrow-indol.vercel.app"
+      },
+      "logo": "logos/1b90cf039b42d3fc8250a603301a3980ffd18a9be354386a7ce6551b22b06f91.svg",
+      "name": "Squeek Burrow",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
       "builder_links": [
         {
           "kind": "board",
@@ -6246,7 +6272,7 @@
       "category": "tools",
       "contracts": [],
       "description_en": "Squeek Dashboard is a live explorer for Squeekchain that displays every Squeek's owner, level, power, and merge status. It ranks wallets by staked power, tracks recent merges and vault activity, and allows users to look up specific addresses for their rewards and holdings.",
-      "description_origin": "website",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [],
       "first_seen": "2026-10-27T05:51:12.873289+00:00",
@@ -8687,7 +8713,7 @@
       "category": "game",
       "contracts": [],
       "description_en": "Squeeklings is a free on-chain hamster pet game where you hatch a creature and explore gentle trails. You can collect Seed Capsules and build a cozy burrow for your pet. The experience emphasizes relaxation, with napping always welcome.",
-      "description_origin": "source",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
