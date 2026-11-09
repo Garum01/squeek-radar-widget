@@ -1147,7 +1147,7 @@
           "chain_id": 11155111
         }
       ],
-      "description_en": "WheelPad issues memecoins on SqueekChain where the supply unlocks only as Squeektoshi runs on the wheel. Users can obtain free test tokens on the Sepolia testnet to interact with the project.",
+      "description_en": "WheelPad is a launchpad that mints memecoin supply as Squeektoshi runs on SqueekChain. Users can access free test tokens on the Sepolia testnet, where coin unlocks are tied directly to the hamster's activity.",
       "description_origin": "website",
       "ecosystem_status": "confirmed",
       "evidence": [
@@ -1597,8 +1597,8 @@
       ],
       "category": "tools",
       "contracts": [],
-      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
-      "description_origin": "placeholder",
+      "description_en": "One page for merge and stake on Sepolia.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -1609,14 +1609,14 @@
       "first_seen": "2026-11-06T08:14:24.156811+00:00",
       "id": "220a0ec468077424",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/0xMulight/squeek-sepolia-merge",
         "website": "https://0xmulight.github.io/squeek-sepolia-merge/"
       },
       "name": "Squeek Sepolia 一键合成",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -1669,7 +1669,7 @@
           "chain_id": 11155111
         }
       ],
-      "description_en": "Hatch a free on-chain hamster on Ethereum Sepolia. Feed your Squeekling and watch it grow in sync with Squeektoshi, Squeekchain's real hamster.",
+      "description_en": "Hatch a free on-chain hamster on Ethereum Sepolia and feed it to watch it grow. Your Squeekling's growth is tied to Squeektoshi, Squeekchain's real hamster, creating a unique digital companion that evolves as the physical hamster runs.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -5865,8 +5865,8 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "Squeek Evolution is a 2D pixel-art virtual pet game where you feed, play with, and grow a hamster named Mochi. The pet's evolution is driven by verified Squeekchain work, connecting in-game progress to real on-chain activity.",
-      "description_origin": "source",
+      "description_en": "Squeek Evolution is a pixel-art game where you care for a hamster named Mochi. You feed and play with the pet, which evolves based on verified Squeekchain work.",
+      "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
         {
@@ -6239,7 +6239,7 @@
       ],
       "category": "game",
       "contracts": [],
-      "description_en": "Hamster Rush is a 32-bit pixel auto-shooter where players control a hamster to defeat bosses and collect seeds. The game runs on Squeekchain and Sepolia.",
+      "description_en": "Hamster Rush is a 32-bit pixel auto-shooter that displays Squeekchain's live block height and mining activity. Players connect a wallet to sign a free message, tying their runs to a public leaderboard without spending gas. The game features a seed shop, upgrades, and a boss fight system.",
       "description_origin": "placeholder",
       "ecosystem_status": "weak",
       "evidence": [
@@ -8852,7 +8852,7 @@
       ],
       "category": "nft",
       "contracts": [],
-      "description_en": "SQUEEK ROYALE is a 2D battle royale where 100 AI hamsters parachute into an arena to fight for the Crown. Each hamster has a 256-bit on-chain DNA NFT, and matches are deterministic simulations. Players can watch the chaotic battles as the AI warriors hunt for weapons and survive the shrinking Cat Storm.",
+      "description_en": "SQUEEK ROYALE is an on-chain battle royale where players mint hamster NFTs with fixed stats and deposit them into matches. A deterministic simulator plays out fights between up to 100 AI hamsters using a block hash as the seed, allowing anyone to watch live or replay the action in the browser.",
       "description_origin": "website",
       "ecosystem_status": "weak",
       "evidence": [],
@@ -9424,7 +9424,7 @@
       ],
       "category": "tools",
       "contracts": [],
-      "description_en": "The Wheelpaper turns the Squeekchain whitepaper into an interactive site where you can drag handles to test difficulty adjustments and supply schedules. It visualizes the chain's mechanics by syncing a pixel wheel with Squeektoshi's real RPM and comparing paper formulas against live Sepolia data.",
+      "description_en": "The Wheelpaper turns the Squeekchain whitepaper into an interactive site where you can adjust difficulty and block counts to see how the chain works. It implements the document's integer formulas in the browser and compares them against live Sepolia data. A pixel wheel on the page spins at Squeektoshi's real RPM, stopping when the hamster sleeps.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [],
@@ -10749,9 +10749,17 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "profile",
+          "label": "@whatislovv_",
+          "source": "https://github.com/whatislove666/squeek-turf",
+          "url": "https://x.com/whatislovv_"
+        }
+      ],
       "category": "game",
       "contracts": [],
-      "description_en": "Squeek Turf is a strategy game where six factions compete for control of a single map. Every move is powered by Squeektoshi, a real hamster on a wheel. The game is free to play and built on Squeekchain.",
+      "description_en": "Squeek Turf is a strategy game where six factions compete to control an underground map. Players use energy generated by Squeektoshi's wheel activity to claim territory, attack rivals, and strengthen their position. The season winner is determined by a public leaderboard based on faction performance.",
       "description_origin": "x_profile",
       "ecosystem_status": "weak",
       "evidence": [],
@@ -10760,6 +10768,8 @@
       "identity_status": "unresolved",
       "lifecycle_stage": "unknown",
       "links": {
+        "github": "https://github.com/whatislove666/squeek-turf",
+        "website": "https://squeekturf.xyz",
         "x": "https://x.com/squeekturf"
       },
       "logo": "logos/0ad5146bb2f28ad4145f15596e655d6d99707e7d16dd6af9a56fc8fb837d0e4c.jpg",
