@@ -444,6 +444,10 @@
         {
           "kind": "onchain_contract",
           "url": "https://eth-sepolia.blockscout.com/tx/0xa79ef0697dfb7d1fb9cfff1a62fbd3c0b4c0b092a819d3c6ac0507dfd773ea18"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x14b223ebaedbafb48c0c5ba994a48d8e668d97a91a380f3c0b8e85f9a05502bc"
         }
       ],
       "first_seen": "2026-11-08T13:12:19.721364+00:00",
@@ -1054,6 +1058,10 @@
         {
           "kind": "site_contract_link",
           "url": "https://eth-sepolia.blockscout.com/address/0x4d9c2fa10fb70100d4c2390212b8f8de286a1d30"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/e12ab85b-9bfb-4bc9-8800-5ffc91dbfcdd"
         }
       ],
       "first_seen": "2026-11-08T08:51:50.957962+00:00",
