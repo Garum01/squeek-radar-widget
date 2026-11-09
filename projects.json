@@ -409,7 +409,7 @@
     },
     {
       "builder": null,
-      "category": "game",
+      "category": "defi",
       "contracts": [
         {
           "address": "0xe06748177ad22d422e49cdb0982a5f932e46ee7d",
@@ -445,7 +445,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "nft",
       "contracts": [],
       "description_en": "Merge Market is a peer-to-peer platform for trading Squeeks to find same-level merge partners. It identifies which of your Squeeks are missing a partner and facilitates swaps or purchases in a single transaction. The system is ownerless, non-custodial, and fee-free aside from collection royalties.",
       "description_origin": "readme",
@@ -1268,7 +1268,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "streaming",
       "contracts": [],
       "description_en": "SqueekPulse is a live telemetry console and OBS stream overlay for Squeekchain. It displays settled blocks, SQK mints, supply, hamster wheel distance, and on-chain events in eight languages. The tool provides a transparent background overlay for streaming and a detailed dashboard for tracking chain activity.",
       "description_origin": "readme",
@@ -1341,7 +1341,7 @@
     },
     {
       "builder": null,
-      "category": "prediction",
+      "category": "game",
       "contracts": [],
       "description_en": "Round Prophet is a browser-based prediction game where you challenge Wheel Brain in a best-of-three duel. You make calls on real Squeekchain hamster-wheel settlements to test your intuition against an explainable AI. The game requires no account or wallet, offering bragging rights as the only reward.",
       "description_origin": "readme",
@@ -1443,7 +1443,7 @@
           "url": "https://x.com/ramilashrff"
         }
       ],
-      "category": "tools",
+      "category": "streaming",
       "contracts": [],
       "description_en": "Squeek Hub streams live telemetry from Squeektoshi's wheel, allowing users to replay recorded runs and monitor real-time RPM data. It features a broadcast desk that converts wheel motion into an original radio mix, with options to download run recaps or integrate live activity into streams.",
       "description_origin": "website",
@@ -1595,7 +1595,7 @@
           "url": "https://x.com/mulight"
         }
       ],
-      "category": "tools",
+      "category": "defi",
       "checked_text": {
         "paragraphs": [
           [
@@ -1698,7 +1698,7 @@
           "url": "https://x.com/0xwuy"
         }
       ],
-      "category": "game",
+      "category": "nft",
       "contracts": [
         {
           "address": "0xc42ce2d42684e7d7d5c29bf7fcc6fdf419c2771f",
@@ -1802,7 +1802,7 @@
     },
     {
       "builder": null,
-      "category": "other",
+      "category": "defi",
       "contracts": [
         {
           "address": "0x89a401c8fd33f6b8bc35cb534d908bd793864acd",
@@ -2003,7 +2003,7 @@
     },
     {
       "builder": null,
-      "category": "game",
+      "category": "defi",
       "contracts": [
         {
           "address": "0xc17b08994b70b468aa30e4e3d73edf9d65727302",
@@ -2044,7 +2044,7 @@
     },
     {
       "builder": null,
-      "category": "prediction",
+      "category": "streaming",
       "contracts": [],
       "description_en": "Rels on the Wheel is a free live stream overlay and prediction game featuring a chibi samurai and a small dragon. The characters' animations follow Squeektoshi's real wheel signal, turning the hamster's movement into a visual companion for streams.",
       "description_origin": "readme",
@@ -2365,7 +2365,7 @@
           "chain_id": 11155111
         }
       ],
-      "description_en": "Turing Wheel is a Squeekchain project where a hamster's wheel acts as a computer clock. You write a one-line program and queue it on Sepolia to watch the hamster execute it. Each pass of the wheel counts as one clock cycle.",
+      "description_en": "Turing Wheel is a computer clocked by Squeektoshi, where one wheel pass equals one CPU cycle. You write a one-line program for a 64x36 LED display and queue it on-chain to control the next 512 passes. The system runs without a server or oracle, and you can manually crank the wheel if the hamster sleeps.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -4087,8 +4087,8 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "LEG DAY is an arcade game where you pack work units into 10,000-unit rounds before they close. It uses Squeekchain's actual difficulty and block data to price each round, letting you see how your packing choices affect the chain's state.",
-      "description_origin": "source",
+      "description_en": "LEG DAY is an arcade game where you pack Squeektoshi's work into rounds before they close. His running arrives in bursts, and each round holds 10,000 work units. You decide which bursts to take and which to let pass, using the chain's actual difficulty to price your moves.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -4103,7 +4103,7 @@
       "first_seen": "2026-11-05T17:22:10.957324+00:00",
       "id": "5c4c19a5e324235d",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/EVM0x/leg-day",
         "website": "https://squeekpack.evm0x.com"
@@ -4111,7 +4111,7 @@
       "logo": "logos/cd7b41232113fee25e1d358c919fab9ae00554c481fd4132e4f2ef604c098985.png",
       "name": "LEG DAY",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -9819,7 +9819,7 @@
       ],
       "category": "prediction",
       "contracts": [],
-      "description_en": "Smart contracts for Squeeky Market, an independent prediction market on Squeektoshi’s daily wheel distance. Users trade play money on how far the hamster runs between UTC noon markers. The system polls live distance data every five seconds to resolve bets.",
+      "description_en": "Squeeky Market is a play-money prediction market where users bet on Squeektoshi's daily wheel distance. It features live telemetry, signed orders, and on-chain settlement for winner claims. The project is currently in MVP stage with plans to expand to other Squeek ecosystem predictions.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
