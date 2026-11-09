@@ -32,7 +32,7 @@
       "category": "nft",
       "contracts": [],
       "description_en": "SqueekSwap allows holders to trade Squeek Genesis NFTs directly with one another. You select specific Genesis IDs to exchange, and both sides change hands in a single transaction. Completed swaps earn Seeds, with double points awarded if Squeektoshi is running on his wheel.",
-      "description_origin": "source",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -288,6 +288,26 @@
       },
       "logo": "logos/797cdfcf518304c51a9d430466c076fb9fc68619d988ad5af94928e45699ecfc.svg",
       "name": "Squeek Supply Station",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "nft",
+      "contracts": [],
+      "description_en": "An early ecosystem signal. Its purpose and affiliation still need confirmation.",
+      "description_origin": "placeholder",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-11-09T12:30:51.473033+00:00",
+      "id": "040334a999e116c3",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "website": "https://hamstercrunch.fun"
+      },
+      "logo": "logos/7610f854ff93f17cd535fdd322dae3ee51d9d6f35ca5c75192c2437dfa3df88e.png",
+      "name": "Hamster Crunch: Genesis Block",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
