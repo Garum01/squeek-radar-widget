@@ -134,7 +134,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-09T09:34:15.277225+00:00",
+        "last_checked": "2026-11-09T21:34:17.164920+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-04T22:19:21.461000+00:00",
@@ -1253,7 +1253,7 @@
       "publication_origin": "owner_approved",
       "stage": "testnet_announced",
       "verified_by_squeek": {
-        "last_checked": "2026-11-09T09:34:15.277225+00:00",
+        "last_checked": "2026-11-09T21:34:17.164920+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-07T14:47:05.016000+00:00",
@@ -1294,7 +1294,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-09T09:34:15.277225+00:00",
+        "last_checked": "2026-11-09T21:34:17.164920+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-06T03:49:55.677000+00:00",
@@ -1858,7 +1858,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-09T09:34:15.277225+00:00",
+        "last_checked": "2026-11-09T21:34:17.164920+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-05T06:45:33.132000+00:00",
@@ -2308,7 +2308,7 @@
       ],
       "stage": "testnet",
       "verified_by_squeek": {
-        "last_checked": "2026-11-09T09:34:15.277225+00:00",
+        "last_checked": "2026-11-09T21:34:17.164920+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-04T11:06:43.483000+00:00",
@@ -2633,7 +2633,7 @@
       ],
       "stage": "testnet",
       "verified_by_squeek": {
-        "last_checked": "2026-11-09T09:34:15.277225+00:00",
+        "last_checked": "2026-11-09T21:34:17.164920+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-08T11:42:09.579000+00:00",
@@ -3182,7 +3182,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-09T09:34:15.277225+00:00",
+        "last_checked": "2026-11-09T21:34:17.164920+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T20:28:19.405000+00:00",
@@ -3270,6 +3270,32 @@
       "name": "SQUEEKCHAIN // Pixel ID",
       "publication_origin": "owner_approved",
       "stage": "testnet"
+    },
+    {
+      "builder": null,
+      "category": "tools",
+      "contracts": [],
+      "description_en": "How far will Squeektoshi run today?",
+      "description_origin": "readme",
+      "ecosystem_status": "claimed",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/kamils333/squeek-forecast"
+        }
+      ],
+      "first_seen": "2026-11-09T15:51:32.086729+00:00",
+      "id": "492279fdbb85cc97",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/kamils333/squeek-forecast",
+        "website": "https://squeek-forecast.vercel.app"
+      },
+      "logo": "logos/1b90cf039b42d3fc8250a603301a3980ffd18a9be354386a7ce6551b22b06f91.svg",
+      "name": "Squeek Forecast",
+      "publication_origin": "owner_approved",
+      "stage": "development"
     },
     {
       "builder": null,
@@ -3410,7 +3436,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-09T09:34:15.277225+00:00",
+        "last_checked": "2026-11-09T21:34:17.164920+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:37:44.874000+00:00",
@@ -3634,7 +3660,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-09T09:34:15.277225+00:00",
+        "last_checked": "2026-11-09T21:34:17.164920+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-03T20:27:41.024000+00:00",
@@ -3703,7 +3729,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-09T09:34:15.277225+00:00",
+        "last_checked": "2026-11-09T21:34:17.164920+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:33:51.063000+00:00",
@@ -3952,7 +3978,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-09T09:34:15.277225+00:00",
+        "last_checked": "2026-11-09T21:34:17.164920+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T20:55:04.251000+00:00",
@@ -4667,7 +4693,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-09T09:34:15.277225+00:00",
+        "last_checked": "2026-11-09T21:34:17.164920+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-05T18:50:40.790000+00:00",
@@ -4813,7 +4839,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-09T09:34:15.277225+00:00",
+        "last_checked": "2026-11-09T21:34:17.164920+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-03T21:56:05.906000+00:00",
@@ -5446,7 +5472,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-09T09:34:15.277225+00:00",
+        "last_checked": "2026-11-09T21:34:17.164920+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T18:51:42.010000+00:00",
@@ -5920,7 +5946,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-09T09:34:15.277225+00:00",
+        "last_checked": "2026-11-09T21:34:17.164920+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-03T18:29:23.740000+00:00",
@@ -6313,7 +6339,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-09T09:34:15.277225+00:00",
+        "last_checked": "2026-11-09T21:34:17.164920+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:41:31.306000+00:00",
@@ -6462,7 +6488,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-09T09:34:15.277225+00:00",
+        "last_checked": "2026-11-09T21:34:17.164920+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-08T11:42:09.379000+00:00",
@@ -6743,7 +6769,7 @@
       "publication_origin": "owner_approved",
       "stage": "unknown",
       "verified_by_squeek": {
-        "last_checked": "2026-11-09T09:34:15.277225+00:00",
+        "last_checked": "2026-11-09T21:34:17.164920+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-04T13:12:09.717000+00:00",
@@ -7015,7 +7041,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-09T09:34:15.277225+00:00",
+        "last_checked": "2026-11-09T21:34:17.164920+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:36:12.155000+00:00",
@@ -7812,7 +7838,7 @@
       "publication_origin": "owner_approved",
       "stage": "testnet",
       "verified_by_squeek": {
-        "last_checked": "2026-11-09T09:34:15.277225+00:00",
+        "last_checked": "2026-11-09T21:34:17.164920+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T20:44:51.266000+00:00",
@@ -8364,6 +8390,27 @@
     },
     {
       "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "A real hamster sets the pace of your run. Jump over crates, collect golden nuts, and beat your high score. A free browser game powered by Squeekchain telemetry.",
+      "description_origin": "website",
+      "ecosystem_status": "claimed",
+      "evidence": [],
+      "first_seen": "2026-11-09T15:22:01.270994+00:00",
+      "id": "c12f4a01c396ad4c",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "docs": "https://squeekrunner.app/whitepaper/",
+        "website": "https://squeekrunner.app"
+      },
+      "logo": "logos/b95383031a4d28743cc532f105f54f51603e33a725ec71116c6f5f92d59f6b56.svg",
+      "name": "SqueekRunner",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
       "category": "other",
       "contracts": [],
       "description_en": "A parody investigation site that presents a case file on Squeektoshi, the hamster powering SqueekChain. It displays evidence cards covering the hamster's biography, the wheel apparatus, movement logs, and token distribution. Users follow the red string to inspect the sources and check the live alibi.",
@@ -8542,7 +8589,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-09T09:34:15.277225+00:00",
+        "last_checked": "2026-11-09T21:34:17.164920+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-04T21:05:34.042000+00:00",
@@ -8615,7 +8662,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-09T09:34:15.277225+00:00",
+        "last_checked": "2026-11-09T21:34:17.164920+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-03T20:48:31.131000+00:00",
@@ -9090,7 +9137,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-09T09:34:15.277225+00:00",
+        "last_checked": "2026-11-09T21:34:17.164920+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-07T08:46:04+00:00",
@@ -9299,7 +9346,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-09T09:34:15.277225+00:00",
+        "last_checked": "2026-11-09T21:34:17.164920+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-30T00:45:08.265000+00:00",
@@ -9604,7 +9651,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-09T09:34:15.277225+00:00",
+        "last_checked": "2026-11-09T21:34:17.164920+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-04T12:47:09.639000+00:00",
@@ -9664,7 +9711,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-09T09:34:15.277225+00:00",
+        "last_checked": "2026-11-09T21:34:17.164920+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T22:39:31.786000+00:00",
@@ -9883,7 +9930,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-09T09:34:15.277225+00:00",
+        "last_checked": "2026-11-09T21:34:17.164920+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:55:44.291000+00:00",
@@ -9987,7 +10034,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-09T09:34:15.277225+00:00",
+        "last_checked": "2026-11-09T21:34:17.164920+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-08T14:31:18.147000+00:00",
@@ -10032,9 +10079,9 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-09T09:34:15.277225+00:00",
+        "last_checked": "2026-11-09T21:34:17.164920+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
-        "stale": false,
+        "stale": true,
         "verified_at": "2026-11-03T20:30:23.337000+00:00",
         "version": 1
       }
@@ -10681,7 +10728,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-09T09:34:15.277225+00:00",
+        "last_checked": "2026-11-09T21:34:17.164920+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-08T15:28:16.944000+00:00",
@@ -11093,7 +11140,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-09T09:34:15.277225+00:00",
+        "last_checked": "2026-11-09T21:34:17.164920+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-05T20:32:38.575000+00:00",
