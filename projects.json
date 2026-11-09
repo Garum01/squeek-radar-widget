@@ -2370,6 +2370,31 @@
     },
     {
       "builder": null,
+      "category": "prediction",
+      "contracts": [],
+      "description_en": "A prediction game built on Squeekchain's real hamster wheel.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/icallshelby/squeek-sprint"
+        }
+      ],
+      "first_seen": "2026-11-06T03:51:28.447934+00:00",
+      "id": "317b7a710594b146",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/icallshelby/squeek-sprint",
+        "website": "https://squeek-sprint-umber.vercel.app"
+      },
+      "name": "Squeek Sprint",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
       "category": "game",
       "contracts": [],
       "description_en": "A free three-lane rhythm game where you catch seeds on a gold line using keyboard or touch inputs. The game's speed and seed density are driven by the real-time RPM of a hamster wheel on Squeekchain, or by replaying its activity from the last 24 hours. You can play live when the hamster is running or switch to a calm practice track during quiet periods.",
@@ -8003,7 +8028,7 @@
       "category": "tools",
       "contracts": [],
       "description_en": "A community tool for planning Squeek merges on the Sepolia testnet. It calculates power and compares $SQK exit fees before and after midnight UTC to help determine the best time to act.",
-      "description_origin": "source",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -10141,7 +10166,7 @@
       "category": "game",
       "contracts": [],
       "description_en": "SQUEEK LOGISTICS is a pixel-art economic game where you build a hamster-powered logistics outpost. You gather resources, craft items, and manage deliveries to grow your tiny empire. The game connects to settled Squeekchain Genesis milestones on Sepolia.",
-      "description_origin": "source",
+      "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
         {
