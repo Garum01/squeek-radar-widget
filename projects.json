@@ -6208,7 +6208,7 @@
       "category": "tools",
       "contracts": [],
       "description_en": "Squeek Keeper is a community tool for following settled Squeekchain work and checkpointing on Sepolia. It lets you explore Squeek power, merges, and exit fees in a wallet-free paper mode.",
-      "description_origin": "source",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
