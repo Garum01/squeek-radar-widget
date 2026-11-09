@@ -125,6 +125,7 @@
       "identity_status": "resolved",
       "lifecycle_stage": "development",
       "links": {
+        "docs": "https://www.squeekswap.xyz/docs",
         "github": "https://github.com/0xairr/squeekswap",
         "website": "https://www.squeekswap.xyz"
       },
@@ -133,7 +134,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "last_checked": "2026-11-09T09:34:15.277225+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-04T22:19:21.461000+00:00",
@@ -431,6 +432,18 @@
         {
           "kind": "onchain_contract",
           "url": "https://eth-sepolia.blockscout.com/tx/0xab90ba35551c9dcc75c55cee9727a65d42fdfd1f3c4219ea16d4fde5517c1322"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0xc3cd8000fc74302183b138502fb46a663143bf3de65e9ba05ade25585e78daff"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0xf3d1b0e4ff7a7ae62810de90e4bcd44920d7a40609233529099038d54fef2eea"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0xa79ef0697dfb7d1fb9cfff1a62fbd3c0b4c0b092a819d3c6ac0507dfd773ea18"
         }
       ],
       "first_seen": "2026-11-08T13:12:19.721364+00:00",
@@ -1149,6 +1162,14 @@
         {
           "address": "0x3bc144c0236aaaa6dacfaad62a598ef6fadcc92e",
           "chain_id": 11155111
+        },
+        {
+          "address": "0x7fe0f5cec8f9e36ac5354e92100d99894d3b8dd0",
+          "chain_id": 11155111
+        },
+        {
+          "address": "0xe3b4e21742e0951d295b7c1344c057fafcec0c50",
+          "chain_id": 11155111
         }
       ],
       "description_en": "WheelPad is a launchpad that mints memecoin supply as Squeektoshi runs on SqueekChain. Users can access free test tokens on the Sepolia testnet, where coin unlocks are tied directly to the hamster's activity.",
@@ -1174,6 +1195,14 @@
         {
           "kind": "team_mention",
           "url": "https://x.com/pillheadddd/status/2119486446994407756"
+        },
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0x7fe0f5cec8f9e36ac5354e92100d99894d3b8dd0"
+        },
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0xe3b4e21742e0951d295b7c1344c057fafcec0c50"
         }
       ],
       "first_seen": "2026-10-23T12:44:31.145131+00:00",
@@ -1192,7 +1221,7 @@
       "publication_origin": "owner_approved",
       "stage": "testnet_announced",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "last_checked": "2026-11-09T09:34:15.277225+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-07T14:47:05.016000+00:00",
@@ -1233,7 +1262,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "last_checked": "2026-11-09T09:34:15.277225+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-06T03:49:55.677000+00:00",
@@ -1797,7 +1826,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "last_checked": "2026-11-09T09:34:15.277225+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-05T06:45:33.132000+00:00",
@@ -2247,7 +2276,7 @@
       ],
       "stage": "testnet",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "last_checked": "2026-11-09T09:34:15.277225+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-04T11:06:43.483000+00:00",
@@ -2547,7 +2576,7 @@
       ],
       "stage": "testnet",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "last_checked": "2026-11-09T09:34:15.277225+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-08T11:42:09.579000+00:00",
@@ -3096,7 +3125,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "last_checked": "2026-11-09T09:34:15.277225+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T20:28:19.405000+00:00",
@@ -3324,7 +3353,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "last_checked": "2026-11-09T09:34:15.277225+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:37:44.874000+00:00",
@@ -3522,7 +3551,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "last_checked": "2026-11-09T09:34:15.277225+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-03T20:27:41.024000+00:00",
@@ -3591,7 +3620,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "last_checked": "2026-11-09T09:34:15.277225+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:33:51.063000+00:00",
@@ -3840,7 +3869,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "last_checked": "2026-11-09T09:34:15.277225+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T20:55:04.251000+00:00",
@@ -4463,6 +4492,32 @@
     },
     {
       "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "An endless runner powered by Squeektoshi, the hamster whose wheel runs Squeekchain.",
+      "description_origin": "readme",
+      "ecosystem_status": "claimed",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/gosof32/wheel-runner"
+        }
+      ],
+      "first_seen": "2026-11-07T10:33:33.839723+00:00",
+      "id": "650581416a151003",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/gosof32/wheel-runner",
+        "website": "https://wheel-runner.vercel.app"
+      },
+      "logo": "logos/f06f16ecbe9fa0dd4d6f9755ff5f5abfac4a37ff270d1e03fd8d33405c319472.png",
+      "name": "Wheel Runner",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
       "category": "tools",
       "contracts": [],
       "description_en": "Aura Board is an independent, read-only tool for tracking public Genesis progress and badge checklists on Squeekchain. It provides unofficial aura estimates and honest observations for the community.",
@@ -4529,7 +4584,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "last_checked": "2026-11-09T09:34:15.277225+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-05T18:50:40.790000+00:00",
@@ -4675,7 +4730,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "last_checked": "2026-11-09T09:34:15.277225+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-03T21:56:05.906000+00:00",
@@ -5308,7 +5363,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "last_checked": "2026-11-09T09:34:15.277225+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T18:51:42.010000+00:00",
@@ -5782,7 +5837,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "last_checked": "2026-11-09T09:34:15.277225+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-03T18:29:23.740000+00:00",
@@ -6175,7 +6230,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "last_checked": "2026-11-09T09:34:15.277225+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:41:31.306000+00:00",
@@ -6324,7 +6379,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "last_checked": "2026-11-09T09:34:15.277225+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-08T11:42:09.379000+00:00",
@@ -6574,6 +6629,14 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "board",
+          "label": "@CingCoeg",
+          "source": "https://squeekchain.com/genesis/i/2k6c9h8k",
+          "url": "https://x.com/CingCoeg"
+        }
+      ],
       "category": "game",
       "contracts": [],
       "description_en": "Squeek Arena is a retro quiz battle game where players pull a gacha hamster and fight Squeektoshi through five levels of increasing difficulty. Correct answers attack the boss, while wrong answers allow it to strike back. Defeating all five forms earns a certified FAMS card.",
@@ -6595,7 +6658,14 @@
       },
       "name": "Squeek Arena",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "unknown",
+      "verified_by_squeek": {
+        "last_checked": "2026-11-09T09:34:15.277225+00:00",
+        "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
+        "stale": false,
+        "verified_at": "2026-11-04T13:12:09.717000+00:00",
+        "version": 1
+      }
     },
     {
       "builder": null,
@@ -6862,7 +6932,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "last_checked": "2026-11-09T09:34:15.277225+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:36:12.155000+00:00",
@@ -7659,7 +7729,7 @@
       "publication_origin": "owner_approved",
       "stage": "testnet",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "last_checked": "2026-11-09T09:34:15.277225+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T20:44:51.266000+00:00",
@@ -7822,7 +7892,7 @@
         }
       ],
       "description_en": "Squeek League is a free community game where players draft Squeektoshi's next three wheel sessions. You predict the hamster's habits and play against the House Bot on the Sepolia testnet. The project focuses on learning the hamster's patterns without any money or prizes involved.",
-      "description_origin": "readme",
+      "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -7840,6 +7910,10 @@
         {
           "kind": "site_contract_link",
           "url": "https://eth-sepolia.blockscout.com/address/0xadea9907baa30d7b54e7b9eb6f6551b9a0088e08"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0xdc0429b6795429fef8803cb2d779dbd9f94efb448f8989ae009b9d1a4f7269ca"
         }
       ],
       "first_seen": "2026-11-06T21:55:30.965914+00:00",
@@ -8385,7 +8459,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "last_checked": "2026-11-09T09:34:15.277225+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-04T21:05:34.042000+00:00",
@@ -8458,7 +8532,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "last_checked": "2026-11-09T09:34:15.277225+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-03T20:48:31.131000+00:00",
@@ -8933,7 +9007,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "last_checked": "2026-11-09T09:34:15.277225+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-07T08:46:04+00:00",
@@ -9142,7 +9216,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "last_checked": "2026-11-09T09:34:15.277225+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-30T00:45:08.265000+00:00",
@@ -9447,7 +9521,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "last_checked": "2026-11-09T09:34:15.277225+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-04T12:47:09.639000+00:00",
@@ -9507,7 +9581,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "last_checked": "2026-11-09T09:34:15.277225+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T22:39:31.786000+00:00",
@@ -9726,7 +9800,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "last_checked": "2026-11-09T09:34:15.277225+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-10-29T21:55:44.291000+00:00",
@@ -9830,7 +9904,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "last_checked": "2026-11-09T09:34:15.277225+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-08T14:31:18.147000+00:00",
@@ -9875,7 +9949,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "last_checked": "2026-11-09T09:34:15.277225+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-03T20:30:23.337000+00:00",
@@ -10524,7 +10598,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "last_checked": "2026-11-09T09:34:15.277225+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-08T15:28:16.944000+00:00",
@@ -10936,7 +11010,7 @@
       "publication_origin": "owner_approved",
       "stage": "development",
       "verified_by_squeek": {
-        "last_checked": "2026-11-08T21:34:02.836915+00:00",
+        "last_checked": "2026-11-09T09:34:15.277225+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
         "stale": false,
         "verified_at": "2026-11-05T20:32:38.575000+00:00",
