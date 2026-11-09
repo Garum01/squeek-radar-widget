@@ -2984,7 +2984,7 @@
       "category": "game",
       "contracts": [],
       "description_en": "Squeek DJ is a four-lane rhythm game where the tempo follows Squeektoshi's real hamster wheel. The game reads the wheel's speed live from the Squeekchain status feed, turning one wheel rotation into one beat. Players can practice at a steady 100 BPM when the wheel is still.",
-      "description_origin": "source",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
