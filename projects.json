@@ -438,15 +438,15 @@
     },
     {
       "builder": null,
-      "category": "defi",
+      "category": "game",
       "contracts": [
         {
           "address": "0xe06748177ad22d422e49cdb0982a5f932e46ee7d",
           "chain_id": 11155111
         }
       ],
-      "description_en": "The Cheese Vault is a farming dApp on Ethereum Sepolia where users stake CHEESE tokens to let hamsters work. Players explore three farms to collect rewards, with a 15% Hamster Bite fee applied to transactions.",
-      "description_origin": "source",
+      "description_en": "A farming dApp where you stake CHEESE to let hamsters work for you. Explore three farms and collect rewards while accounting for a 15% Hamster Bite fee.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -8643,6 +8643,7 @@
       "lifecycle_stage": "development",
       "links": {
         "docs": "https://squeekrunner.app/whitepaper/",
+        "github": "https://github.com/squeekrunner-dev/squeekrunner",
         "website": "https://squeekrunner.app"
       },
       "logo": "logos/b95383031a4d28743cc532f105f54f51603e33a725ec71116c6f5f92d59f6b56.svg",
