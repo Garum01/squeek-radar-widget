@@ -1685,35 +1685,6 @@
         }
       ],
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "The project aims to provide a single page for merging and staking on the Sepolia network, as described in its public overview "
-            },
-            {
-              "text": "the project website",
-              "url": "https://0xmulight.github.io/squeek-sepolia-merge/"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To understand how this works, you can explore the details provided in the available materials. A helpful starting point is "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/0xMulight/squeek-sepolia-merge"
-            },
-            {
-              "text": ", which offers further context on the process."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "One page for merge and stake on Sepolia.",
       "description_origin": "readme",
@@ -4615,6 +4586,25 @@
       },
       "logo": "logos/3c9803c199cf8470fb6ced83d64f3ed8fef1c462c8c19d0c656b1b8fff448960.svg",
       "name": "Squeekchain Tap",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "Small paws. Big adventures. A hamster runner with wallet-connected play and Sepolia testnet rewards.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-11-10T21:15:54.821910+00:00",
+      "id": "6140e27db1546750",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "website": "https://hammyrun-bdh.vercel.app"
+      },
+      "name": "Hammy Run",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
@@ -7544,6 +7534,34 @@
     },
     {
       "builder": null,
+      "builder_links": [
+        {
+          "kind": "post",
+          "label": "@yukka2920",
+          "source": "https://x.com/yukka2920/status/2120258231897665998",
+          "url": "https://x.com/yukka2920"
+        }
+      ],
+      "category": "game",
+      "contracts": [],
+      "description_en": "A pixel-art extraction game. Delve seven mine depths as a hamster, fight the floor boss, and walk your loot back out.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-11-10T20:56:45.808922+00:00",
+      "id": "a1b20f69754e279b",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "website": "https://squeekextract.xyz"
+      },
+      "logo": "logos/cce23137fdb4f18d1c25492a6afe62f771a1d2064065a9aebb4b419cd922efd4.svg",
+      "name": "Squeek",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
       "category": "tools",
       "contracts": [],
       "description_en": "Squeek Hours is a focus tool that runs timed sessions and shared rooms paced by Squeekchain activity. Users join public or private spaces to work together, earning Focus XP for completed sessions that contribute to community expeditions.",
@@ -9402,7 +9420,7 @@
       "category": "game",
       "contracts": [],
       "description_en": "SQUEEK ROYALE is an on-chain battle royale where players mint hamster NFTs with fixed stats and deposit them into matches. A deterministic simulator plays out fights between up to 100 AI hamsters using a block hash as the seed, allowing anyone to watch live or replay the action in the browser.",
-      "description_origin": "website",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [],
       "first_seen": "2026-11-07T09:13:19.250070+00:00",
