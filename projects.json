@@ -132,6 +132,14 @@
       "logo": "logos/b4ce2b9755cf9c151a56d583abb4a35373e793ba09e6308713a4426d10d79a1a.svg",
       "name": "SqueekSwap",
       "publication_origin": "owner_approved",
+      "same_builder": [
+        {
+          "id": "4e7c2fe77577dadb",
+          "label": "0xairr",
+          "name": "Squeektoshi Care Fund",
+          "via": "github"
+        }
+      ],
       "stage": "development",
       "verified_by_squeek": {
         "last_checked": "2026-11-09T21:34:17.164920+00:00",
@@ -295,7 +303,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "A free-to-play hamster game featuring levels, power-ups, and a collection, where players earn points and rewards by connecting a wallet.",
+      "description_en": "Hamster Crunch is a browser-based arcade game where players control a hamster to break food blocks and catch falling snacks. It features a 21-level campaign, power-ups, and a recipe collection system that tracks ingredients and unlocks new bakes. The game supports local high scores and cross-device saves via a browser wallet.",
       "description_origin": "ai",
       "ecosystem_status": "weak",
       "evidence": [],
@@ -512,6 +520,14 @@
       "logo": "logos/a71e172f0ca662e69ae0e857be58ff010fba26e4060d3a38e490c711550042fa.svg",
       "name": "Merge Market",
       "publication_origin": "owner_approved",
+      "same_builder": [
+        {
+          "id": "5bede68da140578b",
+          "label": "0xdogacan",
+          "name": "Outrun Squeektoshi",
+          "via": "github"
+        }
+      ],
       "stage": "development"
     },
     {
@@ -1251,6 +1267,14 @@
       "logo": "logos/b55645c2f7eb7cc149315ee249e5054921e9949208727e3ca1855fb34b507047.jpg",
       "name": "WheelPad",
       "publication_origin": "owner_approved",
+      "same_builder": [
+        {
+          "id": "4ef0081402803d10",
+          "label": "@kolkrypt",
+          "name": "Squeekchain Explorer",
+          "via": "x"
+        }
+      ],
       "stage": "testnet_announced",
       "verified_by_squeek": {
         "last_checked": "2026-11-09T21:34:17.164920+00:00",
@@ -1991,6 +2015,14 @@
       },
       "name": "Hamster Boss Raid",
       "publication_origin": "owner_approved",
+      "same_builder": [
+        {
+          "id": "829361d74515829a",
+          "label": "bangpateng",
+          "name": "Squeek Burrow",
+          "via": "github"
+        }
+      ],
       "stage": "development"
     },
     {
@@ -2372,7 +2404,7 @@
       "builder": null,
       "category": "prediction",
       "contracts": [],
-      "description_en": "A prediction game built on Squeekchain's real hamster wheel.",
+      "description_en": "Squeek Sprint is a prediction game where you call whether Squeektoshi is still running on the hamster wheel when the buzzer hits. You earn points for correct calls, with bonuses for streaks and predicting a change in state. The game settles based on the real-time telemetry of the wheel.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -3180,6 +3212,14 @@
       },
       "name": "Squeek Race",
       "publication_origin": "owner_approved",
+      "same_builder": [
+        {
+          "id": "c36a408f89663ccd",
+          "label": "@Despite_zmw",
+          "name": "Hamster Run",
+          "via": "x"
+        }
+      ],
       "stage": "development",
       "verified_by_squeek": {
         "last_checked": "2026-11-09T21:34:17.164920+00:00",
@@ -3275,7 +3315,7 @@
       "builder": null,
       "category": "prediction",
       "contracts": [],
-      "description_en": "How far will Squeektoshi run today?",
+      "description_en": "Squeek Forecast lets you guess how far Squeektoshi runs on Squeekchain's real wheel each day. You submit your prediction to climb the community leaderboard. It is a daily game built for the Squeekchain Genesis Buildooooor badge.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -3295,6 +3335,14 @@
       "logo": "logos/1b90cf039b42d3fc8250a603301a3980ffd18a9be354386a7ce6551b22b06f91.svg",
       "name": "Squeek Forecast",
       "publication_origin": "owner_approved",
+      "same_builder": [
+        {
+          "id": "5082f58dad2227a0",
+          "label": "kamils333",
+          "name": "Squeek Burrow",
+          "via": "github"
+        }
+      ],
       "stage": "development"
     },
     {
@@ -3434,6 +3482,14 @@
       "logo": "logos/59791254fef130b5330d7b7cf72a9c70d55cff17444a684a2f53f3b0583b1be3.svg",
       "name": "Squeektoshi Live",
       "publication_origin": "owner_approved",
+      "same_builder": [
+        {
+          "id": "53935b57b395f9af",
+          "label": "@mfbrat_eth",
+          "name": "Squeek or Sleep",
+          "via": "x"
+        }
+      ],
       "stage": "development",
       "verified_by_squeek": {
         "last_checked": "2026-11-09T21:34:17.164920+00:00",
@@ -3471,7 +3527,7 @@
       "builder": null,
       "category": "prediction",
       "contracts": [],
-      "description_en": "Squeek Market is a hamster-powered prediction market built for the Squeekchain ecosystem.",
+      "description_en": "Squeek Market is a prediction platform where users bet on the actions of Squeektoshi, a hamster on a wheel. Bets are settled using Squeekchain work, creating a simple daily market for hamster-powered outcomes.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -3532,6 +3588,14 @@
       "logo": "logos/bec79757301852ab2dbec40b2f33eb23736e53563f8a0021c09b1cf201e20b58.svg",
       "name": "Squeektoshi Care Fund",
       "publication_origin": "owner_approved",
+      "same_builder": [
+        {
+          "id": "0121f068ab20c239",
+          "label": "0xairr",
+          "name": "SqueekSwap",
+          "via": "github"
+        }
+      ],
       "stage": "testnet_announced"
     },
     {
@@ -3622,13 +3686,21 @@
       },
       "name": "Squeekchain Explorer",
       "publication_origin": "owner_approved",
+      "same_builder": [
+        {
+          "id": "155d9b34cea277ee",
+          "label": "@kolkrypt",
+          "name": "WheelPad",
+          "via": "x"
+        }
+      ],
       "stage": "development"
     },
     {
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "An idle game powered by a real hamster.",
+      "description_en": "Squeek Burrow is an idle game where Squeektoshi's real wheel on Squeekchain grows your seeds. You dig a burrow and watch your garden expand as the hamster runs. It is a community project built for the Squeekchain Genesis Build badge.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -3648,6 +3720,14 @@
       "logo": "logos/1b90cf039b42d3fc8250a603301a3980ffd18a9be354386a7ce6551b22b06f91.svg",
       "name": "Squeek Burrow",
       "publication_origin": "owner_approved",
+      "same_builder": [
+        {
+          "id": "492279fdbb85cc97",
+          "label": "kamils333",
+          "name": "Squeek Forecast",
+          "via": "github"
+        }
+      ],
       "stage": "development"
     },
     {
@@ -3752,6 +3832,14 @@
       "logo": "logos/59791254fef130b5330d7b7cf72a9c70d55cff17444a684a2f53f3b0583b1be3.svg",
       "name": "Squeek or Sleep",
       "publication_origin": "owner_approved",
+      "same_builder": [
+        {
+          "id": "4c741c1caca119a7",
+          "label": "@mfbrat_eth",
+          "name": "Squeektoshi Live",
+          "via": "x"
+        }
+      ],
       "stage": "development",
       "verified_by_squeek": {
         "last_checked": "2026-11-09T21:34:17.164920+00:00",
@@ -3868,6 +3956,14 @@
       },
       "name": "Wheel Odds",
       "publication_origin": "owner_approved",
+      "same_builder": [
+        {
+          "id": "5b854a58453bd8a4",
+          "label": "ekervo",
+          "name": "Hamster Derby",
+          "via": "github"
+        }
+      ],
       "stage": "testnet"
     },
     {
@@ -4125,6 +4221,14 @@
       },
       "name": "Hamster Derby",
       "publication_origin": "owner_approved",
+      "same_builder": [
+        {
+          "id": "557bcdb9f17ea33f",
+          "label": "ekervo",
+          "name": "Wheel Odds",
+          "via": "github"
+        }
+      ],
       "stage": "development"
     },
     {
@@ -4151,6 +4255,14 @@
       "logo": "logos/bb1ed264ed712c1e75466b9594e0440775ad955b30fa2bd060dad09058c90e16.svg",
       "name": "Outrun Squeektoshi",
       "publication_origin": "owner_approved",
+      "same_builder": [
+        {
+          "id": "07ae881afc80cd1c",
+          "label": "0xdogacan",
+          "name": "Merge Market",
+          "via": "github"
+        }
+      ],
       "stage": "development"
     },
     {
@@ -4628,7 +4740,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "An endless runner powered by Squeektoshi, the hamster whose wheel runs Squeekchain.",
+      "description_en": "A dot-matrix endless runner where Squeektoshi's real wheel drives the game. Connect a wallet on Sepolia to sign your runs and track your score.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -5925,6 +6037,14 @@
       "logo": "logos/c873a2d0da3a0e90a66602f3a7e30f8a2c3f2e418a500101b925eb33eab364b8.svg",
       "name": "Squeek Burrow",
       "publication_origin": "owner_approved",
+      "same_builder": [
+        {
+          "id": "2604239a3262d6aa",
+          "label": "bangpateng",
+          "name": "Hamster Boss Raid",
+          "via": "github"
+        }
+      ],
       "stage": "development"
     },
     {
@@ -8431,7 +8551,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "A real hamster sets the pace of your run. Jump over crates, collect golden nuts, and beat your high score. A free browser game powered by Squeekchain telemetry.",
+      "description_en": "SqueekRunner is a free browser runner where a real hamster's wheel speed controls the game's pace. You jump over crates and collect golden nuts to beat your high score, with new Squeek blocks dropping bonus items.",
       "description_origin": "website",
       "ecosystem_status": "claimed",
       "evidence": [],
@@ -8537,6 +8657,14 @@
       },
       "name": "Hamster Run",
       "publication_origin": "owner_approved",
+      "same_builder": [
+        {
+          "id": "484084c14bdb95e5",
+          "label": "@despite_zmw",
+          "name": "Squeek Race",
+          "via": "x"
+        }
+      ],
       "stage": "testnet"
     },
     {
@@ -10163,7 +10291,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "A pixel river raid on @squeekchain 🐹✈️. Real hamster, real wheel data. Squeektoshi's runs shape the rivers you fly. Busy nights, wild rides!",
+      "description_en": "Squeek Raid is a browser-based pixel river raid game for Squeekchain. You steer a ship, shoot cats, and collect seeds to survive rivers generated from Squeektoshi's recorded wheel runs. The game features daily routes and a fixed Genesis challenge based on the hamster's first recorded night.",
       "description_origin": "x_profile",
       "ecosystem_status": "weak",
       "evidence": [],
@@ -11462,7 +11590,7 @@
       "builder": null,
       "category": "streaming",
       "contracts": [],
-      "description_en": "Free OBS and Streamlabs overlays and a viewer game for Squeekchain streams. Squeektoshi, the hamster whose wheel powers Squeekchain, on your stream: an LED board of his wheel, alerts when he wakes up, gets the zoomies or a block is found, a round ticker, a stream goal bar, a cam frame, starting/BRB/ending scenes, and R…",
+      "description_en": "A set of free browser overlays and a viewer game for Squeekchain streams. Viewers predict Squeektoshi's next wheel movement, while the stream displays an LED board, alerts, and a leaderboard. The kit includes scenes and a ticker for OBS and Streamlabs.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [

@@ -257,6 +257,13 @@ function sameWalletLinks(project) {
   if (!others.length) return null;
   const line = el('p', 'same-wallet');
   line.append('The same IMD wallet also published ');
+  appendCardLinks(line, others, known);
+  line.append('.');
+  return line;
+}
+
+// Other public cards named in a line, each opening that card in place.
+function appendCardLinks(line, others, known) {
   others.forEach((other, index) => {
     if (index) line.append(index === others.length - 1 ? ' and ' : ', ');
     const a = el('a', '', known.get(other.id).name || 'another project');
@@ -270,7 +277,27 @@ function sameWalletLinks(project) {
     }
     line.append(a);
   });
-  line.append('.');
+}
+
+// Other cards by the same person: the same credited X builder or the same personal GitHub account.
+function sameBuilderLinks(project) {
+  const known = new Map(state.projects.map(p => [p.id, p]));
+  const others = (Array.isArray(project.same_builder) ? project.same_builder : [])
+    .filter(o => o && known.has(o.id) && o.id !== project.id && typeof o.label === 'string' && o.label);
+  if (!others.length) return null;
+  const groups = new Map();
+  for (const other of others) {
+    const key = other.via + ':' + other.label;
+    if (!groups.has(key)) groups.set(key, {via: other.via, label: other.label, cards: []});
+    groups.get(key).cards.push(other);
+  }
+  const line = el('p', 'same-builder');
+  [...groups.values()].forEach((group, index) => {
+    if (index) line.append(' ');
+    line.append(group.via === 'x' ? group.label + ' also built ' : 'The same GitHub account, ' + group.label + ', also built ');
+    appendCardLinks(line, group.cards, known);
+    line.append('.');
+  });
   return line;
 }
 
@@ -403,7 +430,7 @@ function projectDetails(project) {
     else credit.append('The site credits ', external(url, '', builder.label || 'its builder'), ' as its builder.');
     copy.append(credit);
   }
-  for (const line of [sameWalletLinks(project), otherVersions(project)]) if (line) copy.append(line);
+  for (const line of [sameBuilderLinks(project), sameWalletLinks(project), otherVersions(project)]) if (line) copy.append(line);
   const verified = showcaseInfo(project);
   if (verified) {
     const source = el('p', 'showcase-source');
