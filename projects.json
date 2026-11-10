@@ -7695,8 +7695,8 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "One hamster. A live wheel. Bail out before Squeektoshi stops, predict the next round, and stamp your high score on Ethereum Sepolia.",
-      "description_origin": "source",
+      "description_en": "A browser arcade game where you ride Squeektoshi's live wheel and bail out before the RPM drops. You can also predict the next settlement or play a rhythm generated from a settlement hash, stamping your high score on Ethereum Sepolia.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
