@@ -1079,8 +1079,8 @@
           "chain_id": 11155111
         }
       ],
-      "description_en": "Squeek Guild Wars is an unofficial community game where players form hamster guilds and check in daily to climb the rankings. Guilds are scored by the average points of their members, creating a cooperative team experience without tokens or payouts.",
-      "description_origin": "source",
+      "description_en": "Squeek Guild Wars is an unofficial community game where players form hamster guilds and check in daily to climb the rankings. It focuses on team collaboration without tokens or payouts.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -1689,7 +1689,7 @@
         "paragraphs": [
           [
             {
-              "text": "This project aims to provide a single page for merging and staking on the Sepolia network, as described in its public overview "
+              "text": "The project aims to provide a single page for merging and staking on the Sepolia network, as described in its public overview "
             },
             {
               "text": "the project website",
@@ -1701,21 +1701,14 @@
           ],
           [
             {
-              "text": "To understand the details, you can explore the provided materials. A public source offers additional context "
+              "text": "To understand how this works, you can explore the details provided in the available materials. A helpful starting point is "
             },
             {
               "text": "a public source",
               "url": "https://github.com/0xMulight/squeek-sepolia-merge"
             },
             {
-              "text": ", while the main site hosts the core information "
-            },
-            {
-              "text": "the project website",
-              "url": "https://0xmulight.github.io/squeek-sepolia-merge/"
-            },
-            {
-              "text": "."
+              "text": ", which offers further context on the process."
             }
           ]
         ],
