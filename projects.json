@@ -438,7 +438,7 @@
     },
     {
       "builder": null,
-      "category": "game",
+      "category": "defi",
       "contracts": [
         {
           "address": "0xe06748177ad22d422e49cdb0982a5f932e46ee7d",
@@ -7614,8 +7614,8 @@
       "builder": null,
       "category": "streaming",
       "contracts": [],
-      "description_en": "Wheel Cheer is a free overlay for OBS and Streamlabs that displays live Squeekchain stats and a Squeektoshi hamster wheel. Streamers can customize the widget and share its URL so their Twitch chat can make predictions.",
-      "description_origin": "source",
+      "description_en": "A free overlay for OBS and Streamlabs that displays Squeektoshi's live hamster wheel. Streamers can customize its appearance and let Twitch chat predict whether the hamster will run or sleep each round.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
