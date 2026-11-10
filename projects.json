@@ -498,9 +498,9 @@
     },
     {
       "builder": null,
-      "category": "nft",
+      "category": "dex",
       "contracts": [],
-      "description_en": "Merge Market is a peer-to-peer platform for trading Squeeks to find same-level merge partners. It identifies which of your Squeeks are missing a partner and facilitates swaps or purchases in a single transaction. The system is ownerless, non-custodial, and fee-free aside from collection royalties.",
+      "description_en": "A peer-to-peer marketplace for buying, selling, and swapping Squeeks on Squeekchain. Users can trade items directly or post level bids to find a merge partner, allowing two Squeeks of the same level to combine into a stronger one.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
