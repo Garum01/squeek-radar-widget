@@ -1535,7 +1535,7 @@
       "category": "streaming",
       "contracts": [],
       "description_en": "Squeek Hub streams live telemetry from Squeektoshi's wheel, allowing users to replay recorded runs and monitor real-time RPM data. It features a broadcast desk that converts wheel motion into an original radio mix, with options to download run recaps or integrate live activity into streams.",
-      "description_origin": "website",
+      "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [],
       "first_seen": "2026-11-08T12:17:28.729745+00:00",
@@ -1922,6 +1922,10 @@
         {
           "kind": "site_contract_link",
           "url": "https://eth-sepolia.blockscout.com/address/0x3af150eb24a1589be806d0d56eb00b149f18a675"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x9ec4359bf40dad6c70415c4f9b5be5f9610e2b864a056d36740c308b1a473224"
         }
       ],
       "first_seen": "2026-11-07T05:06:50.518277+00:00",
@@ -6886,7 +6890,7 @@
       ],
       "category": "game",
       "contracts": [],
-      "description_en": "Squeek Arena is a retro quiz battle game where you pick a trainer and mint a hamster partner to fight Squeektoshi. You answer trivia questions generated from live Squeekchain data, such as block height and distance, to defeat five bosses. Correct answers attack the boss, while wrong answers or timeouts allow it to strike back.",
+      "description_en": "Squeek Arena is a retro quiz battle game where you answer Squeekchain trivia to defeat Squeektoshi in five god forms. You mint a hamster partner NFT and use live chain data, such as block height and wheel pace, to generate real-time questions. Correct answers attack the boss, while mistakes allow it to strike back.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -6897,15 +6901,15 @@
       ],
       "first_seen": "2026-11-04T07:44:09.062574+00:00",
       "id": "924624d59ade17f8",
-      "identity_status": "unresolved",
-      "lifecycle_stage": "unknown",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/ILKokoron/squeek-arena",
         "website": "https://squeekarena.web.id/"
       },
       "name": "Squeek Arena",
       "publication_origin": "owner_approved",
-      "stage": "unknown",
+      "stage": "development",
       "verified_by_squeek": {
         "last_checked": "2026-11-09T21:34:17.164920+00:00",
         "source_url": "https://squeekchain.com/genesis/i/2k6c9h8k",
