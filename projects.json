@@ -11457,7 +11457,7 @@
       "category": "game",
       "contracts": [],
       "description_en": "Squeek Garden is a pixel garden where plants grow based on Squeektoshi's real wheel rounds. You plant seeds, manage barn animals, and collect goods to earn pips. The game includes skills, decorations, and daily challenges to track your progress.",
-      "description_origin": "website",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [],
       "first_seen": "2026-11-04T13:58:55.462249+00:00",
@@ -11603,6 +11603,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/38f20e1f-7cd4-4507-a23f-8b4d629c43a4"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/5512899a-d739-4c16-8fd8-faf71a10080e"
         }
       ],
       "first_seen": "2026-11-09T10:17:18.260308+00:00",
