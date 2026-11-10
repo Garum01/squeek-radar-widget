@@ -2461,6 +2461,25 @@
       "stage": "development"
     },
     {
+      "builder": null,
+      "category": "defi",
+      "contracts": [],
+      "description_en": "HERON is a staking project built on Squeekchain. It implements a (3, 3) staking mechanism, allowing users to participate in the network's consensus process.",
+      "description_origin": "x_profile",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-11-10T07:51:02.308839+00:00",
+      "id": "3436e3a5215c82f8",
+      "identity_status": "unresolved",
+      "lifecycle_stage": "unknown",
+      "links": {
+        "x": "https://x.com/he_squeeks"
+      },
+      "name": "HERON",
+      "publication_origin": "owner_approved",
+      "stage": "unknown"
+    },
+    {
       "builder": "theidmfun",
       "category": "art",
       "contracts": [],
@@ -2985,6 +3004,31 @@
       "builder": null,
       "category": "game",
       "contracts": [],
+      "description_en": "Squeekmate is a browser-based handheld console for managing Squeeks on Squeekchain. Connect a wallet to view live vitals, play mini-games, and claim earned SQK. The interface displays on-chain data like wheel RPM and merge states directly on a virtual LCD screen.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/frianowzki/squeekmate"
+        }
+      ],
+      "first_seen": "2026-11-08T11:24:20.220578+00:00",
+      "id": "402dfdeda95cb8ad",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/frianowzki/squeekmate",
+        "website": "https://squeekmate.xyz"
+      },
+      "name": "Squeekmate",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [],
       "description_en": "Squeek Beat: Hamster Tour is a free, two-lane rhythm arcade game for the Squeekchain community. Players complete a 60-second hamster tour across three acts, collecting sunflowers to find their groove. The game features original hamster-in-wheel artwork and tracks local personal bests.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
@@ -3246,8 +3290,8 @@
       ],
       "category": "art",
       "contracts": [],
-      "description_en": "SqueekPulse turns SqueekChain's hamster wheel telemetry into a generative particle canvas. You can explore modes like Nebula and Vortex, interact with the field using your pointer, and save the resulting artwork as a PNG. The visual elements, such as speed and color, change in real-time based on the wheel's RPM and block progress.",
-      "description_origin": "source",
+      "description_en": "SqueekPulse turns SqueekChain's hamster wheel telemetry into generative particle art. You can explore modes like Nebula and Vortex, stir the particles with your pointer, and save the resulting artwork as a PNG.",
+      "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
         {
@@ -7127,6 +7171,7 @@
       "identity_status": "resolved",
       "lifecycle_stage": "development",
       "links": {
+        "github": "https://github.com/Cryptoorro/squeek-passport",
         "website": "https://squeekpassport.xyz"
       },
       "name": "Squeek Passport",
@@ -7580,6 +7625,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/d4495c66-e45a-412f-b8df-84b7a298c9da"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/920b7d1a-35af-4178-bab0-e7da254f54b8"
         }
       ],
       "first_seen": "2026-11-08T20:17:35.085276+00:00",
@@ -8090,6 +8139,34 @@
     },
     {
       "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "Feed Squeek is a browser-based shooter where Squeektoshi's escaped snacks reproduce rapidly. Players use a mouse or keyboard to aim and fire, clearing the floor before the population reaches sixty.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/aa55f289-7f4f-4f11-aca9-f1f9afb6918c"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/b0179cf4-2def-4ce4-89d3-e9a9ec630bfc"
+        }
+      ],
+      "first_seen": "2026-11-10T05:19:34.720437+00:00",
+      "id": "b322875e78f1f06d",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "website": "https://feed-squeek.imd.site"
+      },
+      "name": "Feed Squeek",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
       "category": "tools",
       "contracts": [],
       "description_en": "Hamster Atlas is an interactive 3D viewer for exploring hamster specimens. Users can rotate and zoom the models to inspect them from any angle. The tool also supports searching by species, habitat, region or coat variety.",
@@ -8164,8 +8241,8 @@
           "chain_id": 11155111
         }
       ],
-      "description_en": "Squeek League is a free community game on Squeekchain's Sepolia testnet where players draft Squeektoshi's next three wheel sessions. You predict the hamster's habits and play against the House Bot. The game involves no money or prizes.",
-      "description_origin": "source",
+      "description_en": "Squeek League is a free community game where you draft Squeektoshi's next three wheel sessions. You learn the hamster's habits and play against the House Bot on the Sepolia testnet. The project focuses on prediction and community interaction without money or prizes.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
@@ -10648,8 +10725,8 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "Squeek Arena is an arcade fighting game featuring hamster characters. Players master high and low defense, aerial attacks, combos, throws, and special moves to battle opponents.",
-      "description_origin": "website",
+      "description_en": "Squeek Arena is a browser-based arcade fighting game featuring hamster combat. Players create custom fighters and master mechanics like high and low defense, aerial attacks, and combos. The game supports keyboard and touch controls, allowing users to practice against a training dummy or CPU opponents.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [],
       "first_seen": "2026-11-06T16:09:12.262838+00:00",
@@ -10660,7 +10737,7 @@
         "github": "https://github.com/zeroisme1994/squeek-arena",
         "website": "https://squeek-arena.xyz"
       },
-      "name": "SQUEEK ARENA",
+      "name": "Squeek Arena",
       "publication_origin": "owner_approved",
       "stage": "development"
     },
