@@ -438,7 +438,7 @@
     },
     {
       "builder": null,
-      "category": "game",
+      "category": "defi",
       "contracts": [
         {
           "address": "0xe06748177ad22d422e49cdb0982a5f932e46ee7d",
@@ -6400,7 +6400,7 @@
       "builder": null,
       "category": "art",
       "contracts": [],
-      "description_en": "A browser-based pottery studio where Squeektoshi's wheel data sets the rhythm. You shape and glaze the clay to create a piece of collaborative art.",
+      "description_en": "A digital pottery studio where a real hamster's wheel data drives the speed of a virtual potter's wheel. You shape and glaze the clay in real-time, creating a collaborative ceramic piece. The project offers both live interaction with the hamster's movements and a simulation mode for practice.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -6893,7 +6893,7 @@
       ],
       "category": "game",
       "contracts": [],
-      "description_en": "Squeek Arena is a retro quiz battle game where players pull a gacha hamster and fight Squeektoshi through five levels of increasing difficulty. Correct answers attack the boss, while wrong answers allow it to strike back. Defeating all five forms earns a certified FAMS card.",
+      "description_en": "Squeek Arena is a retro quiz battle game where you pick a trainer and mint a hamster partner to fight Squeektoshi. You answer trivia questions generated from live Squeekchain data, such as block height and distance, to defeat five bosses. Correct answers attack the boss, while wrong answers or timeouts allow it to strike back.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -7842,7 +7842,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "Trace the verified merge history of Squeekchain NFTs to recover original onchain portraits from before they were burned. Explore family trees on Ethereum Sepolia and export a personal family card. The tool supports both current and historical collections in English and Chinese.",
+      "description_en": "Trace the merge history of Squeekchain NFTs to recover original onchain portraits that were burned during upgrades. View family trees, compare pre-merge states, and export personal family cards for both current and historical collections.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -8159,7 +8159,7 @@
           "chain_id": 11155111
         }
       ],
-      "description_en": "Squeek League is a free community game where players draft Squeektoshi's next three wheel sessions. You predict the hamster's habits and play against the House Bot on the Sepolia testnet. The project focuses on learning the hamster's patterns without any money or prizes involved.",
+      "description_en": "Squeek League is a free community game on Squeekchain's Sepolia testnet where players draft Squeektoshi's next three wheel sessions. You predict the hamster's habits and play against the House Bot. The game involves no money or prizes.",
       "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
@@ -9897,7 +9897,7 @@
       ],
       "category": "game",
       "contracts": [],
-      "description_en": "Squeek Sprint is an endless runner where Squeektoshi's live wheel sets your speed and the latest Squeekchain settlement seeds the course. You race to build a score, with optional calls to double points based on the next round.",
+      "description_en": "Squeek Sprint is an endless runner where the game speed matches Squeektoshi's live wheel RPM. The course layout is generated from the latest Squeekchain settlement hash, ensuring all players face the same jumps and gaps. You control a character to jump, duck, and collect seeds while trying to keep pace with the hamster.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -10512,7 +10512,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "Squeek’s First Road Trip is a community game where you watch the settled wheel distance and explore 64 destinations. You vote for the next stop on Sepolia to guide Squeek’s journey. The project turns a small hamster wheel into a way to choose a big world of travel.",
+      "description_en": "A community road trip where a real hamster powers the journey. You watch the settled wheel distance and vote for the next stop among 64 destinations on Sepolia.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -11338,7 +11338,7 @@
     },
     {
       "builder": null,
-      "category": "tools",
+      "category": "defi",
       "contracts": [],
       "description_en": "Squeek Dome is a non-custodial workbench for managing Squeeks on the Sepolia testnet. Users can inspect live holders, crank checkpoints, batch-claim SQK, and merge Squeeks using real wallet transactions.",
       "description_origin": "readme",
@@ -11400,6 +11400,7 @@
       "identity_status": "resolved",
       "lifecycle_stage": "development",
       "links": {
+        "github": "https://github.com/Saltzofeth/squeek-beats",
         "website": "https://squeekbeats.fun"
       },
       "name": "Squeek Beats",
