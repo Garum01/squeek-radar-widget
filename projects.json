@@ -438,14 +438,14 @@
     },
     {
       "builder": null,
-      "category": "defi",
+      "category": "game",
       "contracts": [
         {
           "address": "0xe06748177ad22d422e49cdb0982a5f932e46ee7d",
           "chain_id": 11155111
         }
       ],
-      "description_en": "A farming dApp on Ethereum Sepolia where users stake CHEESE to let hamsters work. It features three farms, custom hamster artwork, and a 15% Hamster Bite fee. The project uses real contract reads and supports various browser wallets.",
+      "description_en": "The Cheese Vault is a farming dApp on Ethereum Sepolia where users stake CHEESE tokens to let hamsters work. Players explore three farms to collect rewards, with a 15% Hamster Bite fee applied to transactions.",
       "description_origin": "source",
       "ecosystem_status": "weak",
       "evidence": [
@@ -2459,7 +2459,7 @@
       "builder": "theidmfun",
       "category": "art",
       "contracts": [],
-      "description_en": "IDM Records is a Uniswap v4 hook that turns on-chain trading activity into a 16-step drum machine. Each trade executed on the protocol registers as a musical note, creating a live audio track from market data.",
+      "description_en": "IDM Records is an onchain music label where every token trade generates a musical note. Finished tracks are minted as 1-of-1 NFT records, and holders receive free drops. Users can listen to live stations, license samples, and create custom styles in the lab.",
       "description_origin": "website",
       "ecosystem_status": "confirmed",
       "evidence": [
@@ -3040,7 +3040,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "Squeek DJ is a four-lane rhythm game where the tempo follows Squeektoshi's real hamster wheel. The game reads the wheel's speed live from the Squeekchain status feed, turning one wheel rotation into one beat. Players can practice at a steady 100 BPM when the wheel is still.",
+      "description_en": "Squeek DJ is a four-lane browser rhythm game where the tempo follows Squeektoshi's real hamster wheel. You play live beats read from the Squeekchain status feed, or practice at a steady 100 BPM when the wheel is still.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -5731,9 +5731,9 @@
           "url": "https://x.com/mikailozturk_"
         }
       ],
-      "category": "prediction",
+      "category": "tools",
       "contracts": [],
-      "description_en": "SqueekSense is a dashboard that tracks Squeektoshi's live wheel activity and learns daily patterns. It features an Arena where you can predict whether the hamster will run in the next UTC half-hour, competing against a prediction model. Outcomes are scored based on recorded Squeekchain telemetry.",
+      "description_en": "SqueekSense is a dashboard that analyzes historical Squeekchain wheel data to estimate the probability of Squeektoshi's next activity window. Users can inspect the model's inputs and verify its predictions against actual on-chain results to see how the statistical assistant performs over time.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
@@ -6429,7 +6429,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "Squeek Keeper is a community tool for following settled Squeekchain work and checkpointing on Sepolia. It lets you explore Squeek power, merges, and exit fees in a wallet-free paper mode.",
+      "description_en": "Squeek Keeper is a community tool for following settled Squeekchain work and checkpointing on Sepolia. It allows users to explore Squeek power, merges, and exit fees in a wallet-free paper mode.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -7013,7 +7013,7 @@
       ],
       "category": "game",
       "contracts": [],
-      "description_en": "Squeek Pulse is an independent, read-only community site dedicated to Squeektoshi, the hamster powering SqueekChain. It features a live dashboard for tracking wheel activity and block settlements, alongside interactive elements like the Squeek Pet desktop hamster and Squeek Pet World.",
+      "description_en": "Squeek Pulse is an independent, read-only community site for SqueekChain. It provides a live dashboard to explore wheel activity, settled blocks, SQK issuance, and Squeek ownership on the Sepolia testnet.",
       "description_origin": "website",
       "ecosystem_status": "weak",
       "evidence": [
@@ -8212,7 +8212,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "A community tool for planning Squeek merges on the Sepolia testnet. It calculates power and compares $SQK exit fees before and after midnight UTC to help determine the best time to act.",
+      "description_en": "A community planning tool for Squeekchain that helps you calculate power and plan one round of Squeek merges. It compares $SQK exit fees for the current time versus after midnight UTC on the Sepolia testnet.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -8951,7 +8951,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "Squeeklings is a free on-chain hamster pet game where you hatch a creature and explore gentle trails. You can collect Seed Capsules and build a cozy burrow for your pet. The experience emphasizes relaxation, with napping always welcome.",
+      "description_en": "Squeeklings is a free on-chain hamster pet game where you hatch a creature and explore gentle trails. You collect Seed Capsules and build a cozy burrow, with napping as a core activity. The project keeps all artwork and game data on-chain.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -10291,14 +10291,14 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "Squeek Raid is a browser-based pixel river raid game for Squeekchain. You steer a ship, shoot cats, and collect seeds to survive rivers generated from Squeektoshi's recorded wheel runs. The game features daily routes and a fixed Genesis challenge based on the hamster's first recorded night.",
-      "description_origin": "x_profile",
-      "ecosystem_status": "weak",
+      "description_en": "Squeek Raid is a browser-based pixel arcade game where players fly through rivers generated from Squeektoshi's recorded wheel runs. You steer, shoot cats, and collect seeds to survive five worlds, with daily routes changing based on the hamster's activity. The project features verified leaderboards for both practice and online play.",
+      "description_origin": "readme",
+      "ecosystem_status": "claimed",
       "evidence": [],
       "first_seen": "2026-11-09T06:57:53.159855+00:00",
       "id": "e48b067e1dcf685e",
       "identity_status": "resolved",
-      "lifecycle_stage": "unknown",
+      "lifecycle_stage": "development",
       "links": {
         "github": "https://github.com/squeekraid/squeekraid-game",
         "website": "https://squeekraid.xyz",
@@ -10307,7 +10307,7 @@
       "logo": "logos/39ec8eac8eab53bd188d0a1def1dfbf0942fd6e9148714443b0960899b3795ca.jpg",
       "name": "Squeek Raid",
       "publication_origin": "owner_approved",
-      "stage": "unknown"
+      "stage": "development"
     },
     {
       "builder": null,
@@ -10401,7 +10401,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "SQUEEK LOGISTICS is a pixel-art economic game where you build a hamster-powered logistics outpost. You gather resources, craft items, and manage deliveries to grow your tiny empire. The game connects to settled Squeekchain Genesis milestones on Sepolia.",
+      "description_en": "A single-player pixel-art economic game where you build a hamster-powered logistics outpost. You gather resources, craft items, and plan deliveries to grow your tiny industry. The gameplay connects to settled Squeekchain Genesis milestones.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
