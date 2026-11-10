@@ -8629,8 +8629,8 @@
           "chain_id": 11155111
         }
       ],
-      "description_en": "A 3D endless runner where players control one of five hamsters with unique skills to dodge obstacles and collect sunflower seeds. Daily tracks are generated from Squeekchain data, and daily champions are recorded on-chain via ScoreLedger.",
-      "description_origin": "placeholder",
+      "description_en": "A 3D endless runner where the daily track is generated from Squeekchain block data. Players control one of five hamsters with unique skills to dodge obstacles and collect sunflower seeds. The game features a mileage relay driven by the real hamster SQUEEKTOSHI that unlocks new themes for all players.",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
