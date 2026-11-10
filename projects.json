@@ -4943,8 +4943,8 @@
       ],
       "category": "game",
       "contracts": [],
-      "description_en": "Squeek Den is an idle simulator where Squeektoshi's running generates Watts to upgrade your virtual den. Players spend these Watts on decorations, minigames, and raids against other dens. The game features a leaderboard and events that activate when the hamster is active.",
-      "description_origin": "ai",
+      "description_en": "Squeek Den is an idle simulator where your virtual hamster mirrors Squeektoshi's real-time activity. You earn Watts from settled blocks to buy upgrades, decorate your den, and raid other players. The game features a leaderboard and events that trigger when Squeektoshi is active.",
+      "description_origin": "readme",
       "ecosystem_status": "confirmed",
       "evidence": [
         {
