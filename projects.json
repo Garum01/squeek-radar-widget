@@ -5945,7 +5945,7 @@
       "builder": null,
       "category": "tools",
       "contracts": [],
-      "description_en": "A read-only console for Squeekchain holders that displays core API and SqueekStaking contract data on a single screen. It allows users to view their status without signing or sending any on-chain transactions.",
+      "description_en": "A read-only console for Squeekchain that displays core and community API data. It allows users to view holder information without signing or sending any on-chain transactions.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
@@ -8057,6 +8057,35 @@
         "verified_at": "2026-10-29T20:44:51.266000+00:00",
         "version": 1
       }
+    },
+    {
+      "builder": null,
+      "category": "game",
+      "contracts": [],
+      "description_en": "A browser game where you shoot snacks before they pair up and multiply. The live Squeekchain hamster wheel controls the room's light and the speed at which the snacks move and breed.",
+      "description_origin": "readme",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-3185-keep-feed-squeek-playing"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/8de52277-05d6-4843-b16e-2ca92230fa26"
+        }
+      ],
+      "first_seen": "2026-11-10T17:43:49.732144+00:00",
+      "id": "ad6fa5d26fa0e1f4",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-3185-keep-feed-squeek-playing",
+        "website": "https://feed-squeek-2638.imd.site"
+      },
+      "name": "Feed Squeek",
+      "publication_origin": "owner_approved",
+      "stage": "development"
     },
     {
       "builder": null,
