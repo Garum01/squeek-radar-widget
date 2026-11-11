@@ -1685,35 +1685,6 @@
         }
       ],
       "category": "tools",
-      "checked_text": {
-        "paragraphs": [
-          [
-            {
-              "text": "The project aims to provide a single page for merging and staking on the Sepolia network, as described in its public overview "
-            },
-            {
-              "text": "the project website",
-              "url": "https://0xmulight.github.io/squeek-sepolia-merge/"
-            },
-            {
-              "text": "."
-            }
-          ],
-          [
-            {
-              "text": "To understand how this works, you can explore the details provided in the available materials. A helpful starting point is "
-            },
-            {
-              "text": "a public source",
-              "url": "https://github.com/0xMulight/squeek-sepolia-merge"
-            },
-            {
-              "text": ", which offers context for the process."
-            }
-          ]
-        ],
-        "version": 1
-      },
       "contracts": [],
       "description_en": "One page for merge and stake on Sepolia.",
       "description_origin": "readme",
@@ -8246,7 +8217,7 @@
       "builder": null,
       "category": "game",
       "contracts": [],
-      "description_en": "Feed Squeek is a browser-based shooter where Squeektoshi's escaped snacks reproduce rapidly. Players use a mouse or keyboard to aim and fire, clearing the floor before the population reaches sixty.",
+      "description_en": "Feed Squeek is a shooting game where you stop snacks from pairing up and multiplying. The live Squeekchain hamster wheel controls the lighting and speed of the action. You must clear the floor before the snack count reaches sixty.",
       "description_origin": "website",
       "ecosystem_status": "weak",
       "evidence": [
