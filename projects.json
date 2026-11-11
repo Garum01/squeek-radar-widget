@@ -5930,7 +5930,7 @@
         }
       ],
       "description_en": "Squeek Tiles is a square-grid elimination game on Squeekchain where each player is represented by a hamster tile. A wheel spins for ten seconds to randomly eliminate one tile, and the last hamster standing claims the prize on the final tile.",
-      "description_origin": "website",
+      "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
         {
