@@ -11783,7 +11783,7 @@
       "builder": null,
       "category": "streaming",
       "contracts": [],
-      "description_en": "A set of free browser overlays and a viewer game for Squeekchain streams. Viewers predict Squeektoshi's next wheel movement, while the stream displays an LED board, alerts, and a leaderboard. The kit includes scenes and a ticker for OBS and Streamlabs.",
+      "description_en": "A set of free OBS and Streamlabs overlays for Squeekchain streams that lets viewers predict Squeektoshi's next wheel activity. The kit includes an LED board, alerts, a ticker, and a leaderboard where chat calls nap, jog, or zoomies, with the real wheel settling the result.",
       "description_origin": "readme",
       "ecosystem_status": "weak",
       "evidence": [
