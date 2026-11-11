@@ -7102,9 +7102,9 @@
       ],
       "category": "game",
       "contracts": [],
-      "description_en": "Squeek Pulse is an independent, read-only community site for SqueekChain. It provides a live dashboard to explore wheel activity, settled blocks, SQK issuance, and Squeek ownership on the Sepolia testnet.",
-      "description_origin": "website",
-      "ecosystem_status": "weak",
+      "description_en": "A web game that progresses in sync with Squeektoshi, the real hamster on SqueekChain. Players grow gardens, build homes, take trips, and fight a weekly boss as each batch of rounds settles. The game is available in English and Chinese on desktop and mobile.",
+      "description_origin": "readme",
+      "ecosystem_status": "claimed",
       "evidence": [
         {
           "kind": "owner_site",
@@ -7114,14 +7114,14 @@
       "first_seen": "2026-11-01T15:33:23.203805+00:00",
       "id": "985b4e66047709ca",
       "identity_status": "resolved",
-      "lifecycle_stage": "development",
+      "lifecycle_stage": "testnet_announced",
       "links": {
         "github": "https://github.com/zakehowell/squeek-world",
         "website": "https://world.squeekpulse.xyz"
       },
       "name": "Squeek Pet World",
       "publication_origin": "owner_approved",
-      "stage": "development"
+      "stage": "testnet_announced"
     },
     {
       "builder": null,
@@ -8141,6 +8141,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/8de52277-05d6-4843-b16e-2ca92230fa26"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/40128539-e45f-4c0b-9828-393e4a2cf0ad"
         }
       ],
       "first_seen": "2026-11-10T17:43:49.732144+00:00",
