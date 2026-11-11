@@ -8249,6 +8249,10 @@
         {
           "kind": "imd_publication",
           "url": "https://explorer.imd.fun/jobs/b0179cf4-2def-4ce4-89d3-e9a9ec630bfc"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/3839810f-8b77-4421-81f5-1fa56214e331"
         }
       ],
       "first_seen": "2026-11-10T05:19:34.720437+00:00",
