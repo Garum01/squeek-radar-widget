@@ -1685,6 +1685,42 @@
         }
       ],
       "category": "tools",
+      "checked_text": {
+        "paragraphs": [
+          [
+            {
+              "text": "The project aims to provide a single page for merging and staking on the Sepolia network, as described in its public overview "
+            },
+            {
+              "text": "the project website",
+              "url": "https://0xmulight.github.io/squeek-sepolia-merge/"
+            },
+            {
+              "text": "."
+            }
+          ],
+          [
+            {
+              "text": "To understand the details, you can explore the provided materials. A public source offers additional context "
+            },
+            {
+              "text": "a public source",
+              "url": "https://github.com/0xMulight/squeek-sepolia-merge"
+            },
+            {
+              "text": ", while the main site hosts the core information "
+            },
+            {
+              "text": "the project website",
+              "url": "https://0xmulight.github.io/squeek-sepolia-merge/"
+            },
+            {
+              "text": "."
+            }
+          ]
+        ],
+        "version": 1
+      },
       "contracts": [],
       "description_en": "One page for merge and stake on Sepolia.",
       "description_origin": "readme",
