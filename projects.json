@@ -5903,6 +5903,26 @@
     {
       "builder": null,
       "category": "game",
+      "contracts": [],
+      "description_en": "Squeek Saga is a shared story for Discord servers where Squeektoshi's hourly work on Squeekchain determines the next chapter. Server members vote on the hero's actions based on whether the hamster slept, trotted, or sprinted, creating a collaborative narrative driven by real hamster activity.",
+      "description_origin": "website",
+      "ecosystem_status": "weak",
+      "evidence": [],
+      "first_seen": "2026-11-10T23:41:11.709709+00:00",
+      "id": "7cc0617ea71d48a1",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/0xpollo/squeek-saga",
+        "website": "https://squeeksaga.xyz"
+      },
+      "name": "Squeek Saga",
+      "publication_origin": "owner_approved",
+      "stage": "development"
+    },
+    {
+      "builder": null,
+      "category": "game",
       "contracts": [
         {
           "address": "0x7042fa3563706eacc8688af9c3bbcf4ae1c6f212",
@@ -7573,7 +7593,7 @@
       ],
       "category": "game",
       "contracts": [],
-      "description_en": "A pixel-art extraction game. Delve seven mine depths as a hamster, fight the floor boss, and walk your loot back out.",
+      "description_en": "Squeek is a pixel-art extraction game where you play as a hamster delving through seven mine depths. You fight floor bosses and manage a stash, but any gear carried out is lost if you die before extracting. The goal is to walk your loot back out to the base.",
       "description_origin": "website",
       "ecosystem_status": "weak",
       "evidence": [],
