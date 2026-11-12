@@ -1900,6 +1900,10 @@
         {
           "address": "0x3af150eb24a1589be806d0d56eb00b149f18a675",
           "chain_id": 11155111
+        },
+        {
+          "address": "0xd9c91a283286a50e999d3322872a07bb13ce7e9e",
+          "chain_id": 11155111
         }
       ],
       "description_en": "SqueekFlow is a platform for managing Squeek assets and their associated rights. It currently offers Rentals, a live product on the Sepolia testnet, allowing users to put their Squeeks to work.",
@@ -1941,6 +1945,18 @@
         {
           "kind": "onchain_contract",
           "url": "https://eth-sepolia.blockscout.com/tx/0xc74856d5da058c7e111b5fe03685d02a41538f2f1637cce11a56b1b648914330"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0xb72924a195ac7cecb5e998792e494f0ee060c31a8d6ea7ea87a06b9dd40f7c7c"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0x9aad8b63496eab3634bf77598b6c2509d6f40451a94fc7671960df290c2679c5"
+        },
+        {
+          "kind": "site_contract_link",
+          "url": "https://eth-sepolia.blockscout.com/address/0xd9c91a283286a50e999d3322872a07bb13ce7e9e"
         }
       ],
       "first_seen": "2026-11-07T05:06:50.518277+00:00",
