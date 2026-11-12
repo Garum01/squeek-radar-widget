@@ -7637,6 +7637,7 @@
       "identity_status": "resolved",
       "lifecycle_stage": "development",
       "links": {
+        "github": "https://github.com/Dadapy04/squeek",
         "website": "https://squeekextract.xyz"
       },
       "logo": "logos/cce23137fdb4f18d1c25492a6afe62f771a1d2064065a9aebb4b419cd922efd4.svg",
@@ -11558,6 +11559,36 @@
         "verified_at": "2026-11-05T20:32:38.575000+00:00",
         "version": 1
       }
+    },
+    {
+      "builder": null,
+      "category": "other",
+      "contracts": [],
+      "description_en": "A workshop for the Squeekchain community. Every official blow is a settled round. No spin, no fire. No wallet, no token, community project.",
+      "description_origin": "source",
+      "ecosystem_status": "weak",
+      "evidence": [
+        {
+          "kind": "github_mention",
+          "url": "https://github.com/identity-md-launches/launch-3237-build-wheelwright-finished-static"
+        },
+        {
+          "kind": "imd_publication",
+          "url": "https://explorer.imd.fun/jobs/53b72a1d-f748-48aa-b273-91451cfaf227"
+        }
+      ],
+      "first_seen": "2026-11-12T12:04:29.192906+00:00",
+      "id": "f6b2720325e862e9",
+      "identity_status": "resolved",
+      "lifecycle_stage": "development",
+      "links": {
+        "github": "https://github.com/identity-md-launches/launch-3237-build-wheelwright-finished-static",
+        "website": "https://wheelwright.imd.site"
+      },
+      "logo": "logos/94bf19181f10937f38320769c07ac527223b1d72f782095ca93374d677936517.svg",
+      "name": "Wheelwright",
+      "publication_origin": "owner_approved",
+      "stage": "development"
     },
     {
       "builder": null,
