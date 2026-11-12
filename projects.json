@@ -1957,6 +1957,10 @@
         {
           "kind": "site_contract_link",
           "url": "https://eth-sepolia.blockscout.com/address/0xd9c91a283286a50e999d3322872a07bb13ce7e9e"
+        },
+        {
+          "kind": "onchain_contract",
+          "url": "https://eth-sepolia.blockscout.com/tx/0xb920a2cea1d2514b368283d17f7a8856fe20aff28a986d73bc50ab9cd8eb062c"
         }
       ],
       "first_seen": "2026-11-07T05:06:50.518277+00:00",
