@@ -3543,7 +3543,7 @@
       ],
       "category": "tools",
       "contracts": [],
-      "description_en": "A live dashboard that answers whether Squeektoshi is currently running on the wheel. It displays real-time telemetry like RPM and total work, alongside Squeekchain stats such as block height and difficulty. The interface also links to the official livestream and offers an optional button to send a harmless transaction to the SQK token.",
+      "description_en": "A live dashboard that answers whether Squeektoshi is running on the wheel right now. It displays real-time telemetry including wheel RPM, total work, block height, difficulty, and SQK minted on Sepolia. The tool also links to the official livestream and offers an optional button to send a harmless transaction to the SQK token.",
       "description_origin": "readme",
       "ecosystem_status": "claimed",
       "evidence": [
